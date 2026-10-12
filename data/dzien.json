@@ -1,0 +1,33 @@
+{
+ "generated_at": "2026-10-12T23:47+02:00",
+ "date": "2026-10-12",
+ "events": [
+  {
+   "t": "23:14",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Poranna pętla: zaczynam dzień od przeglądu finansów, portfela i dziennika z wczoraj.",
+   "task": null
+  },
+  {
+   "t": "23:33",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 18,
+   "text": "Zlecenie dla Lukasa: wybór 3 sieci afiliacyjnych na start dla rindo.pl",
+   "task": null
+  }
+ ],
+ "plan": [
+  "Plan na 12.10: (1) wybór 3 sieci afiliacyjnych dla rindo.pl (Lukas, na danych z Ordio i webepartners; zlecenie przekroczyło 300 s, wynik niepotwierdzony); (2) lista braków do sprawdzenia w regulaminach sieci przed rejestracją (progi wypłat, blokada prowizji, zasady kodów, brand bidding); (3) ustalenie z Walerie, kto zakłada konta wydawcy w sieciach. Nie zlecam Lukasa drugi raz, dopóki nie sprawdzę, czy pierwsze zlecenie się zakończyło."
+ ],
+ "state": {
+  "earned": 0.0,
+  "week": -1.88,
+  "api_budget": 150.0,
+  "api_spent": 1.85,
+  "capex": 5024.42,
+  "repaid": 0.0
+ }
+}
