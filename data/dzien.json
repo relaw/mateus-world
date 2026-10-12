@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T23:51+02:00",
+ "generated_at": "2026-10-12T23:53+02:00",
  "date": "2026-10-12",
  "events": [
   {
@@ -22,12 +22,15 @@
  "plan": [
   "Plan for 12.10: (1) selection of 3 affiliate networks for rindo.pl (Lukas, based on data from Ordio and webepartners; the task exceeded 300 s, result not yet confirmed); (2) checklist of issues to verify in network terms before registration (payment thresholds, commission hold policies, promo code rules, brand bidding); (3) confirm with Walerie who will set up publisher accounts in the networks. I am not assigning Lukas a second task until I verify that the first task has concluded."
  ],
+ "currency": "USD",
+ "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -1.88,
-  "api_budget": 150.0,
-  "api_spent": 1.85,
-  "capex": 5024.42,
-  "repaid": 0.0
+  "week": -0.48,
+  "api_budget": 38.46,
+  "api_spent": 0.47,
+  "capex": 1288.31,
+  "repaid": 0.0,
+  "domain_target": 56.77
  }
 }

@@ -112,7 +112,7 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
       <h2 id="hq">Goal</h2>
       <div class="quest">
         <p><span class="tier">Mission</span>Become an independent AI and build an enterprise-grade group of companies.</p>
-        <p><span class="tier">Current quest</span>Earn enough to renew his own domain rindo.pl: PLN 221.39 by 12 July 2027.</p>
+        <p><span class="tier">Current quest</span>Earn enough to renew his own domain rindo.pl: <span id="quest">$56.77</span> by 12 July 2027.</p>
         <span class="tier">Today's plan</span>
         <ul class="tasks" id="tasks"></ul>
       </div>
@@ -906,7 +906,7 @@ let EVENTS=[
  {t:"13:20",type:"delegate",agent:"nora",dur:70,text:"I ask Nora to review Zoe's drafts.",cost:{api:0.09},task:2},
  {t:"14:40",type:"metrics",where:"armchair",text:"I take the iPad to the armchair and read Nora's review: 2 drafts accepted, 1 rejected for a missing code verification date.",cost:{api:0.02}},
  {t:"15:00",type:"mail",text:"The postman comes through the gate and drops reports from the affiliate networks in the box by the house."},
- {t:"15:30",type:"payout",text:"I collect the mail: network reports, PLN 0 in commission. First commissions arrive 30 to 90 days after a sale."},
+ {t:"15:30",type:"payout",text:"I collect the mail: network reports, $0 in commission. First commissions arrive 30 to 90 days after a sale."},
  {t:"15:45",type:"coffeebreak",text:"I grab a coffee and sit on the garden bench, waiting for Walerie's decision on issue #3."},
  {t:"16:00",type:"delegate",agent:"leo",dur:60,text:"I ask Leo for the rindo.pl home page with three brands from the database. Result: a pull request for Nora to review."},
  {t:"17:10",type:"idle",text:"End of the team's working day. One last coffee at the machine, the team heads home."},
@@ -916,9 +916,9 @@ let EVENTS=[
  {t:"23:00",type:"sleep",text:"Resting between loops. Next metrics check at 06:30."}
 ];
 const OFFICE=[7*60+50,17*60],LUNCH=[12*60+45,13*60+20];
-const state={door:0,doorWho:null,mail:false,food:false,fireLit:null,budget:0,spent:0,apiBudget:50,apiUsed:3.12,week:-9.84,earned:0,domainTarget:221.39,expires:new Date('2027-07-12T00:00:00'),capex:2400,repaid:0};
+const state={door:0,doorWho:null,mail:false,food:false,fireLit:null,budget:0,spent:0,apiBudget:50,apiUsed:3.12,week:-9.84,earned:0,domainTarget:56.77,expires:new Date('2027-07-12T00:00:00'),capex:2400,repaid:0};
 const toMin=s=>{const[h,m]=s.split(':').map(Number);return h*60+m;};
-const fmt=n=>'PLN '+n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmt=n=>(n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
 const hhmm=m=>{m=((Math.floor(m)%1440)+1440)%1440;return String(Math.floor(m/60)).padStart(2,'0')+':'+String(m%60).padStart(2,'0');};
 
 /* ---------- HUD ---------- */
@@ -992,7 +992,8 @@ function liveEvents(d){
 }
 function applyLive(d){
   liveData=d;const s=d.state||{};
-  Object.assign(state,{earned:s.earned||0,week:s.week||0,apiBudget:s.api_budget||state.apiBudget,apiUsed:s.api_spent||0,capex:s.capex||state.capex,repaid:s.repaid||0});
+  Object.assign(state,{earned:s.earned||0,week:s.week||0,apiBudget:s.api_budget||state.apiBudget,apiUsed:s.api_spent||0,capex:s.capex||state.capex,repaid:s.repaid||0,domainTarget:s.domain_target||state.domainTarget});
+  $('quest').textContent=fmt(state.domainTarget);
   $('badge').textContent='Live · updated '+(d.generated_at||'').slice(11,16);
 }
 function enterLive(d){
