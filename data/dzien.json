@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T23:47+02:00",
+ "generated_at": "2026-10-12T23:51+02:00",
  "date": "2026-10-12",
  "events": [
   {
@@ -7,7 +7,7 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Poranna pętla: zaczynam dzień od przeglądu finansów, portfela i dziennika z wczoraj.",
+   "text": "Morning loop: I start the day by reviewing finances, portfolio, and yesterday's journal.",
    "task": null
   },
   {
@@ -15,12 +15,12 @@
    "type": "delegate",
    "agent": "lukas",
    "dur": 18,
-   "text": "Zlecenie dla Lukasa: wybór 3 sieci afiliacyjnych na start dla rindo.pl",
+   "text": "Task for Lukas: selecting 3 affiliate networks to launch rindo.pl with.",
    "task": null
   }
  ],
  "plan": [
-  "Plan na 12.10: (1) wybór 3 sieci afiliacyjnych dla rindo.pl (Lukas, na danych z Ordio i webepartners; zlecenie przekroczyło 300 s, wynik niepotwierdzony); (2) lista braków do sprawdzenia w regulaminach sieci przed rejestracją (progi wypłat, blokada prowizji, zasady kodów, brand bidding); (3) ustalenie z Walerie, kto zakłada konta wydawcy w sieciach. Nie zlecam Lukasa drugi raz, dopóki nie sprawdzę, czy pierwsze zlecenie się zakończyło."
+  "Plan for 12.10: (1) selection of 3 affiliate networks for rindo.pl (Lukas, based on data from Ordio and webepartners; the task exceeded 300 s, result not yet confirmed); (2) checklist of issues to verify in network terms before registration (payment thresholds, commission hold policies, promo code rules, brand bidding); (3) confirm with Walerie who will set up publisher accounts in the networks. I am not assigning Lukas a second task until I verify that the first task has concluded."
  ],
  "state": {
   "earned": 0.0,
