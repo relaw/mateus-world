@@ -146,7 +146,7 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
   { "t": "10:00", "type": "delegate", "agent": "zoe",
     "dur": 150, "text": "Zoe drafts 3 brand pages." }
 ])</pre>
-        <p>Types: sleep, present (team briefing at the whiteboard), metrics, learn, delegate (needs agent and dur in minutes), telegram, retro, improve, mail, payout, food, lunch, coffeebreak, idle. Agents: zoe, lukas, nora, leo.</p>
+        <p>Types: sleep, work (at the office desk), present (team briefing at the whiteboard), metrics, learn, delegate (needs agent and dur in minutes), telegram, retro, improve, mail, payout, food, lunch, coffeebreak, idle. Agents: zoe, lukas, nora, leo.</p>
       </details>
     </section>
   </div>
@@ -381,6 +381,7 @@ const AV=[[3.9,1.5]]; // podejście do fotela od strony kominka
 const STATIONS={
   sleep:{p:[1.4,1.35],via:[[1.5,2.62]],face:'down',pose:'lie',title:'Sleeping',color:'#8a7fa0'},
   metrics:{p:[12.32,11.42],via:[[12.32,12.05]],face:'up',pose:'desk',title:'Reviewing metrics at the office',color:'#3f6fa8',icon:'chart'},
+  work:{p:[12.32,11.42],via:[[12.32,12.05]],face:'up',pose:'desk',title:'Working at the office',color:'#3f6fa8',icon:'gear'},
   telegram:{p:[.62,4.45],via:[[1.1,5.6],[1.1,4.45]],face:'right',pose:'sofa',title:'Writing on Telegram',color:'#2f8fbf',icon:'chat'},
   retro:{pre:{p:[3.9,1.3],face:'up',pose:'kneel',dur:12,fire:true},p:CHAIR,via:AV,face:'up',pose:'armchair',title:'Lighting the fire and reflecting',color:'#c8612a',icon:'flame'},
   learn:{pre:{p:[5.45,.98],face:'up',pose:'pick',dur:6,carry:'book'},p:CHAIR,via:AV,face:'up',pose:'armchair',title:'Reading in the armchair',color:'#8a6a3a',icon:'book',keep:1},
@@ -895,7 +896,7 @@ const TASKS=["Read the rindo.pl metrics","Check affiliate programme terms","Draf
 let EVENTS=[
  {t:"00:00",type:"sleep",text:"Resting between loops."},
  {t:"06:30",type:"metrics",text:"GA4 and Search Console for rindo.pl: 0 visits. The domain is brand new, that's normal.",cost:{api:0.04},task:0},
- {t:"07:15",type:"telegram",text:"Morning report sent on Telegram. Request to Walerie: issue #3, the Search Console connector.",cost:{api:0.02},task:3},
+ {t:"07:15",type:"telegram",text:"Morning report sent on Telegram. Request to the creator: issue #3, the Search Console connector.",cost:{api:0.02},task:3},
  {t:"08:05",type:"present",text:"Morning briefing at the whiteboard: today's plan and tasks for Zoe, Lukas, Nora and Leo."},
  {t:"08:45",type:"delegate",agent:"lukas",dur:120,text:"After the briefing I ask Lukas to review the terms of 4 programmes on WebePartners.",cost:{local:0.02},task:1},
  {t:"09:00",type:"learn",text:"I take Lean Startup from the library and read the chapter on experiments: one hypothesis, one metric, a clear stop rule.",cost:{api:0.04},task:5},
@@ -908,12 +909,12 @@ let EVENTS=[
  {t:"14:40",type:"metrics",where:"armchair",text:"I take the iPad to the armchair and read Nora's review: 2 drafts accepted, 1 rejected for a missing code verification date.",cost:{api:0.02}},
  {t:"15:00",type:"mail",text:"The postman comes through the gate and drops reports from the affiliate networks in the box by the house."},
  {t:"15:30",type:"payout",text:"I collect the mail: network reports, $0 in commission. First commissions arrive 30 to 90 days after a sale."},
- {t:"15:45",type:"coffeebreak",text:"I grab a coffee and sit on the garden bench, waiting for Walerie's decision on issue #3."},
+ {t:"15:45",type:"coffeebreak",text:"I grab a coffee and sit on the garden bench, waiting for the creator's decision on issue #3."},
  {t:"16:00",type:"delegate",agent:"leo",dur:60,text:"I ask Leo for the rindo.pl home page with three brands from the database. Result: a pull request for Nora to review."},
  {t:"17:10",type:"idle",text:"End of the team's working day. One last coffee at the machine, the team heads home."},
- {t:"18:00",type:"telegram",text:"Voice note from Walerie: focus on the beauty niche. I log it in the decision journal.",cost:{local:0.01}},
+ {t:"18:00",type:"telegram",text:"Voice note from the creator: focus on the beauty niche. I log it in the decision journal.",cost:{local:0.01}},
  {t:"20:15",type:"retro",text:"I light the fire and sit down for the retrospective: a week in the red, no revenue yet. Takeaway: first 10 beauty brands with a programme that allows PPC.",cost:{api:0.14},task:4},
- {t:"21:15",type:"improve",text:"I take the laptop and ship improvements: a new rule in Zoe's professional memory (always add the code verification date) and issue #4 for Walerie: filter out programmes that ban PPC.",cost:{api:0.05},task:6},
+ {t:"21:15",type:"improve",text:"I take the laptop and ship improvements: a new rule in Zoe's professional memory (always add the code verification date) and issue #4 for the creator: filter out programmes that ban PPC.",cost:{api:0.05},task:6},
  {t:"23:00",type:"sleep",text:"Resting between loops. Next metrics check at 06:30."}
 ];
 const OFFICE=[7*60+50,17*60],LUNCH=[12*60+45,13*60+20];
@@ -929,7 +930,7 @@ function renderTasks(done){
     for(const t of plan){const li=document.createElement('li');li.textContent=t.length>220?t.slice(0,217)+'…':t;el.appendChild(li);}return;}
   $('tasks').innerHTML=TASKS.map((t,i)=>`<li class="${done.has(i)?'done':''}">${t}</li>`).join('');}
 function renderTeam(){
-  const rows=[`<li><span class="sw" style="background:#3f8a7c"></span><span class="who">Mateus</span><span class="st on">boss</span><span class="desc">Orchestrator. Claude Sonnet 5.5. Reads the numbers, assigns tasks and reports to Walerie, his creator.</span></li>`];
+  const rows=[`<li><span class="sw" style="background:#3f8a7c"></span><span class="who">Mateus</span><span class="st on">boss</span><span class="desc">Orchestrator. Claude Sonnet 5.5. Reads the numbers, assigns tasks and reports to his creator.</span></li>`];
   for(const k in AGENTS){const a=AGENTS[k];rows.push(`<li><span class="sw" style="background:${a.color}"></span><span class="who">${a.name}</span><span class="st ${a.pose==='work'&&a.busy?'on':''}">${a.pose==='stool'?'having lunch by the window':a.pose==='work'?(a.eating?'having lunch':a.busy?'working on a task':'in the office, waiting for a task'):a.pose==='walk'?(a.next&&a.next.pose==='work'?'walking to work':'heading home'):'away'}</span><span class="desc">${a.role}. ${a.model}.</span></li>`);}
   $('team').innerHTML=rows.join('');
 }
