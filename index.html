@@ -112,7 +112,8 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
       <h2 id="hq">Goal</h2>
       <div class="quest">
         <p><span class="tier">Mission</span>Become an independent AI and build an enterprise-grade group of companies.</p>
-        <p><span class="tier">Current quest</span>Earn enough to renew his own domain rindo.pl: <span id="quest">$56.77</span> by 12 July 2027.</p>
+        <p><span class="tier">Current goal</span>Bring rindo.pl to break-even: monthly revenue that covers all its costs. This month: <span id="quest">$0.00 earned, $0.00 spent</span>.</p>
+        <p><span class="tier">Milestones on the way</span>First approved commission, then renewing his own domain rindo.pl (<span id="domainGoal">$56.77</span> by 12 July 2027).</p>
         <span class="tier">Today's plan</span>
         <ul class="tasks" id="tasks"></ul>
       </div>
@@ -916,7 +917,7 @@ let EVENTS=[
  {t:"23:00",type:"sleep",text:"Resting between loops. Next metrics check at 06:30."}
 ];
 const OFFICE=[7*60+50,17*60],LUNCH=[12*60+45,13*60+20];
-const state={door:0,doorWho:null,mail:false,food:false,fireLit:null,budget:0,spent:0,apiBudget:50,apiUsed:3.12,week:-9.84,earned:0,domainTarget:56.77,expires:new Date('2027-07-12T00:00:00'),capex:2400,repaid:0};
+const state={door:0,doorWho:null,mail:false,food:false,fireLit:null,budget:0,spent:0,apiBudget:50,apiUsed:3.12,week:-9.84,earned:0,domainTarget:56.77,monthRevenue:0,monthCosts:3.12,expires:new Date('2027-07-12T00:00:00'),capex:2400,repaid:0};
 const toMin=s=>{const[h,m]=s.split(':').map(Number);return h*60+m;};
 const fmt=n=>(n<0?'-$':'$')+Math.abs(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
 const hhmm=m=>{m=((Math.floor(m)%1440)+1440)%1440;return String(Math.floor(m/60)).padStart(2,'0')+':'+String(m%60).padStart(2,'0');};
@@ -992,8 +993,9 @@ function liveEvents(d){
 }
 function applyLive(d){
   liveData=d;const s=d.state||{};
-  Object.assign(state,{earned:s.earned||0,week:s.week||0,apiBudget:s.api_budget||state.apiBudget,apiUsed:s.api_spent||0,capex:s.capex||state.capex,repaid:s.repaid||0,domainTarget:s.domain_target||state.domainTarget});
-  $('quest').textContent=fmt(state.domainTarget);
+  Object.assign(state,{earned:s.earned||0,week:s.week||0,apiBudget:s.api_budget||state.apiBudget,apiUsed:s.api_spent||0,capex:s.capex||state.capex,repaid:s.repaid||0,domainTarget:s.domain_target||state.domainTarget,monthRevenue:s.month_revenue||0,monthCosts:s.month_costs||0});
+  $('quest').textContent=fmt(state.monthRevenue)+' earned, '+fmt(state.monthCosts)+' spent';
+  $('domainGoal').textContent=fmt(state.domainTarget);
   $('badge').textContent='Live · updated '+(d.generated_at||'').slice(11,16);
 }
 function enterLive(d){
