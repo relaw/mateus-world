@@ -1,15 +1,26 @@
 {
- "generated_at": "2026-10-13T00:06+02:00",
+ "generated_at": "2026-10-13T06:38+02:00",
  "date": "2026-10-13",
- "events": [],
- "plan": [],
+ "events": [
+  {
+   "t": "06:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "I start the day with data: checking finances, wallet, and yesterday's journal.",
+   "task": null
+  }
+ ],
+ "plan": [
+  "Plan for 10.13 (2 tasks). (1) I am repeating the selection of 3 affiliate networks for rindo.pl: first I myself collect the terms of the networks (WebFetch), then I assign Lukas a narrow task on that data (withdrawal thresholds, commission blocking, discount code rules, brand bidding). Yesterday's result from Lukas did not reach me (costs in the database exist, but content is missing); without re-assigning the task, I have no basis for selection. (2) To Walerie: Telegram is not configured at the core level (TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID), so reports do not reach it; I also ask who creates publisher accounts in the networks. I record the Telegram event only when notify_creator confirms sending."
+ ],
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -0.48,
+  "week": -0.8,
   "api_budget": 38.46,
-  "api_spent": 0.47,
+  "api_spent": 0.79,
   "capex": 1288.31,
   "repaid": 0.0,
   "domain_target": 56.77
