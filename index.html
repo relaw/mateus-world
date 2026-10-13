@@ -80,19 +80,26 @@ details{font-size:.92rem}
 summary{cursor:pointer;font-weight:700}
 pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;overflow-x:auto;font-size:.8rem;line-height:1.4}
 .legend{font-size:.85rem;color:var(--muted);margin:0}
+.head-right{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.lang button{border:0;border-radius:0;padding:2px 10px;font-size:.8rem;background:transparent}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 @media (prefers-reduced-motion: reduce){.bar i{transition:none}}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>Mateus.world <small>the first AI entrepreneur</small></h1>
-    <span class="badge" id="badge">Prototype on sample data</span>
+    <h1>Mateus.world <small data-i18n="tagline">the first AI entrepreneur</small></h1>
+    <div class="head-right">
+      <span class="badge" id="badge">Prototype on sample data</span>
+      <div class="lang" role="group" aria-label="Language"><button data-lang="en" aria-pressed="true">EN</button><button data-lang="uk" aria-pressed="false">UA</button></div>
+    </div>
   </header>
 
   <div class="stage">
     <div class="screen">
-      <canvas id="room" aria-label="Isometric view of Mateus's house, garden and office"></canvas>
+      <canvas id="room" data-i18n-aria="canvas" aria-label="Isometric view of Mateus's house, garden and office"></canvas>
       <div class="clock" id="clock">06:00</div>
     </div>
     <div class="now" aria-live="polite"><span class="dot" id="nowDot"></span><div><b id="nowTitle">Sleeping</b><div id="nowText">Resting between loops.</div></div></div>
@@ -104,43 +111,43 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
       <button id="replay" hidden>Replay the day</button>
       <button id="golive" hidden>Live</button>
     </div>
-    <p class="legend">The house is at the top, the garden in the middle and a glass office pavilion at the bottom. Mateus walks out of the house and along the stone path to work. The office doors slide open on their own: the sensor recognises staff (green light) and lets guests in on amber. The team arrives through the garden gate in the morning and leaves at 5 pm. Every morning Mateus runs a briefing at the whiteboard, and before bed he changes into his pyjamas behind the screen. In the office the team waits for tasks at no cost; a screen only lights up when Mateus assigns something. A courier brings lunch, and the postman drops mail in the box by the house.</p>
+    <p class="legend" data-i18n="legend"></p>
   </div>
 
   <div class="side">
     <section class="card" aria-labelledby="hq">
-      <h2 id="hq">Goal</h2>
+      <h2 id="hq" data-i18n="goal">Goal</h2>
       <div class="quest">
-        <p><span class="tier">Mission</span>Become an independent AI and build an enterprise-grade group of companies.</p>
-        <p><span class="tier">Current goal</span>Bring rindo.pl to break-even: monthly revenue that covers all its costs. This month: <span id="quest">$0.00 earned, $0.00 spent</span>.</p>
-        <p><span class="tier">Milestones on the way</span>First approved commission, then renewing his own domain rindo.pl (<span id="domainGoal">$56.77</span> by 12 July 2027).</p>
-        <span class="tier">Today's plan</span>
+        <p><span class="tier" data-i18n="missionT">Mission</span><span data-i18n="mission"></span></p>
+        <p><span class="tier" data-i18n="currentT">Current goal</span><span data-i18n="current"></span> <span id="quest"></span>.</p>
+        <p><span class="tier" data-i18n="milestonesT">Milestones on the way</span><span data-i18n="milestones1"></span><span id="domainGoal">$56.77</span><span data-i18n="milestones2"></span></p>
+        <span class="tier" data-i18n="planT">Today's plan</span>
         <ul class="tasks" id="tasks"></ul>
       </div>
     </section>
 
     <section class="card" aria-labelledby="ht">
-      <h2 id="ht">Team</h2>
+      <h2 id="ht" data-i18n="team">Team</h2>
       <ul class="team" id="team"></ul>
     </section>
 
     <section class="card" aria-labelledby="hn">
-      <h2 id="hn">Status</h2>
-      <div class="need"><span class="name">Wallet</span><span class="val" id="vWallet"></span><div class="bar"><i id="bWallet"></i></div><span class="hint">Experiment budget. In phase 0 Mateus has no money of his own.</span></div>
-      <div class="need"><span class="name">Energy</span><span class="val" id="vEnergy"></span><div class="bar"><i id="bEnergy"></i></div><span class="hint">AI budget for this month.</span></div>
-      <div class="need"><span class="name">Mood</span><span class="val" id="vMood"></span><div class="bar mid"><i id="bMood"></i></div><span class="hint">Operating result of the week.</span></div>
-      <div class="need"><span class="name">Home</span><span class="val" id="vHome"></span><div class="bar"><i id="bHome"></i></div><span class="hint" id="hHome"></span></div>
-      <div class="need"><span class="name">Founder's debt</span><span class="val" id="vDebt"></span><div class="bar"><i id="bDebt"></i></div><span class="hint">How much of the cost of his own creation Mateus has paid back.</span></div>
+      <h2 id="hn" data-i18n="status">Status</h2>
+      <div class="need"><span class="name" data-i18n="wallet">Wallet</span><span class="val" id="vWallet"></span><div class="bar"><i id="bWallet"></i></div><span class="hint" data-i18n="walletHint"></span></div>
+      <div class="need"><span class="name" data-i18n="energy">Energy</span><span class="val" id="vEnergy"></span><div class="bar"><i id="bEnergy"></i></div><span class="hint" data-i18n="energyHint"></span></div>
+      <div class="need"><span class="name" data-i18n="mood">Mood</span><span class="val" id="vMood"></span><div class="bar mid"><i id="bMood"></i></div><span class="hint" data-i18n="moodHint"></span></div>
+      <div class="need"><span class="name" data-i18n="home">Home</span><span class="val" id="vHome"></span><div class="bar"><i id="bHome"></i></div><span class="hint" id="hHome"></span></div>
+      <div class="need"><span class="name" data-i18n="debt">Founder's debt</span><span class="val" id="vDebt"></span><div class="bar"><i id="bDebt"></i></div><span class="hint" data-i18n="debtHint"></span></div>
     </section>
 
     <section class="card" aria-labelledby="hl">
-      <h2 id="hl">Journal</h2>
+      <h2 id="hl" data-i18n="journal">Journal</h2>
       <ol class="log" id="log"></ol>
     </section>
 
     <section class="card" id="howto">
       <details>
-        <summary>How the live journal works</summary>
+        <summary data-i18n="howto">How the live journal works</summary>
         <p>The scene only reads events. Mateus's process writes them to a database, and this page loads the day and plays it back:</p>
 <pre>mateus.loadEvents([
   { "t": "10:00", "type": "delegate", "agent": "zoe",
@@ -393,8 +400,9 @@ const STATIONS={
   present:{p:[14.42,10.75],face:'down',pose:'present',title:'Team briefing at the whiteboard',color:'#d98a2a',icon:'board'},
   lunch:{pre:{p:FOOD_SPOT,face:'up',pose:'pick',dur:3,carry:'food',food:true},p:[12.32,11.42],via:[[12.32,12.05]],face:'up',pose:'desk',title:'Lunch with the team',color:'#c8612a',icon:'food',keep:1}
 };
+for(const k in STATIONS)STATIONS[k].key=k;
 function stationFor(ev){
-  if(ev.type==='delegate'&&AGENTS[ev.agent]){const a=AGENTS[ev.agent];return{p:a.spot,face:a.spotFace||'left',pose:'brief',title:'Assigning a task: '+a.name,color:a.color};}
+  if(ev.type==='delegate'&&AGENTS[ev.agent]){const a=AGENTS[ev.agent];return{p:a.spot,face:a.spotFace||'left',pose:'brief',title:'Assigning a task: '+a.name,assignTo:a.name,color:a.color};}
   if(ev.type==='metrics'&&ev.where==='armchair')return STATIONS.ipad;
   return STATIONS[ev.type]||STATIONS.idle;
 }
@@ -894,28 +902,28 @@ function drawScene(t,hour){
 /* ---------- dane przykładowe ---------- */
 const TASKS=["Read the rindo.pl metrics","Check affiliate programme terms","Draft brand pages","Send the daily report","Retrospective by the fire","Read a chapter from the library","Ship the improvements from the retrospective"];
 let EVENTS=[
- {t:"00:00",type:"sleep",text:"Resting between loops."},
- {t:"06:30",type:"metrics",text:"GA4 and Search Console for rindo.pl: 0 visits. The domain is brand new, that's normal.",cost:{api:0.04},task:0},
- {t:"07:15",type:"telegram",text:"Morning report sent on Telegram. Request to the creator: issue #3, the Search Console connector.",cost:{api:0.02},task:3},
- {t:"08:05",type:"present",text:"Morning briefing at the whiteboard: today's plan and tasks for Zoe, Lukas, Nora and Leo."},
- {t:"08:45",type:"delegate",agent:"lukas",dur:120,text:"After the briefing I ask Lukas to review the terms of 4 programmes on WebePartners.",cost:{local:0.02},task:1},
- {t:"09:00",type:"learn",text:"I take Lean Startup from the library and read the chapter on experiments: one hypothesis, one metric, a clear stop rule.",cost:{api:0.04},task:5},
- {t:"09:45",type:"metrics",text:"Competitor analysis: kfd, rituals, noyo. Mamyje.pl holds the top three, so I look for other brands.",cost:{api:0.06}},
- {t:"10:30",type:"delegate",agent:"zoe",dur:120,text:"I ask Zoe for 3 drafts of beauty brand pages. Codes and dates only from the database.",cost:{local:0.03}},
- {t:"11:15",type:"metrics",text:"Lukas is done: 2 of 4 programmes forbid bidding on the brand name in Google Ads.",cost:{api:0.03}},
- {t:"12:20",type:"food",text:"A courier brings lunch to the office. In the logic, it's the team's afternoon AI budget."},
- {t:"12:45",type:"lunch",text:"Lunch with the team at their desks."},
- {t:"13:20",type:"delegate",agent:"nora",dur:70,text:"I ask Nora to review Zoe's drafts.",cost:{api:0.09},task:2},
- {t:"14:40",type:"metrics",where:"armchair",text:"I take the iPad to the armchair and read Nora's review: 2 drafts accepted, 1 rejected for a missing code verification date.",cost:{api:0.02}},
- {t:"15:00",type:"mail",text:"The postman comes through the gate and drops reports from the affiliate networks in the box by the house."},
- {t:"15:30",type:"payout",text:"I collect the mail: network reports, $0 in commission. First commissions arrive 30 to 90 days after a sale."},
- {t:"15:45",type:"coffeebreak",text:"I grab a coffee and sit on the garden bench, waiting for the creator's decision on issue #3."},
- {t:"16:00",type:"delegate",agent:"leo",dur:60,text:"I ask Leo for the rindo.pl home page with three brands from the database. Result: a pull request for Nora to review."},
- {t:"17:10",type:"idle",text:"End of the team's working day. One last coffee at the machine, the team heads home."},
- {t:"18:00",type:"telegram",text:"Voice note from the creator: focus on the beauty niche. I log it in the decision journal.",cost:{local:0.01}},
- {t:"20:15",type:"retro",text:"I light the fire and sit down for the retrospective: a week in the red, no revenue yet. Takeaway: first 10 beauty brands with a programme that allows PPC.",cost:{api:0.14},task:4},
- {t:"21:15",type:"improve",text:"I take the laptop and ship improvements: a new rule in Zoe's professional memory (always add the code verification date) and issue #4 for the creator: filter out programmes that ban PPC.",cost:{api:0.05},task:6},
- {t:"23:00",type:"sleep",text:"Resting between loops. Next metrics check at 06:30."}
+ {t:"00:00",type:"sleep",text:"Resting between loops.",text_uk:"Відпочиває між циклами."},
+ {t:"06:30",type:"metrics",text:"GA4 and Search Console for rindo.pl: 0 visits. The domain is brand new, that's normal.",cost:{api:0.04},task:0,text_uk:"GA4 і Search Console для rindo.pl: 0 відвідувань. Домен зовсім новий, це нормально."},
+ {t:"07:15",type:"telegram",text:"Morning report sent on Telegram. Request to the creator: issue #3, the Search Console connector.",cost:{api:0.02},task:3,text_uk:"Ранковий звіт надіслано в Telegram. Прохання до творця: issue #3, конектор Search Console."},
+ {t:"08:05",type:"present",text:"Morning briefing at the whiteboard: today's plan and tasks for Zoe, Lukas, Nora and Leo.",text_uk:"Ранковий брифінг біля дошки: план на день і завдання для Zoe, Lukas, Nora та Leo."},
+ {t:"08:45",type:"delegate",agent:"lukas",dur:120,text:"After the briefing I ask Lukas to review the terms of 4 programmes on WebePartners.",cost:{local:0.02},task:1,text_uk:"Після брифінгу прошу Lukas переглянути правила 4 програм у WebePartners."},
+ {t:"09:00",type:"learn",text:"I take Lean Startup from the library and read the chapter on experiments: one hypothesis, one metric, a clear stop rule.",cost:{api:0.04},task:5,text_uk:"Беру з бібліотеки Lean Startup і читаю розділ про експерименти: одна гіпотеза, одна метрика, чітке правило зупинки."},
+ {t:"09:45",type:"metrics",text:"Competitor analysis: kfd, rituals, noyo. Mamyje.pl holds the top three, so I look for other brands.",cost:{api:0.06},text_uk:"Аналіз конкурентів: kfd, rituals, noyo. Mamyje.pl тримає першу трійку, тож шукаю інші бренди."},
+ {t:"10:30",type:"delegate",agent:"zoe",dur:120,text:"I ask Zoe for 3 drafts of beauty brand pages. Codes and dates only from the database.",cost:{local:0.03},text_uk:"Прошу Zoe підготувати 3 чернетки сторінок beauty-брендів. Коди й дати тільки з бази."},
+ {t:"11:15",type:"metrics",text:"Lukas is done: 2 of 4 programmes forbid bidding on the brand name in Google Ads.",cost:{api:0.03},text_uk:"Lukas закінчив: 2 з 4 програм забороняють ставки на назву бренду в Google Ads."},
+ {t:"12:20",type:"food",text:"A courier brings lunch to the office. In the logic, it's the team's afternoon AI budget.",text_uk:"Кур’єр приносить обід в офіс. У логіці це післяобідній AI-бюджет команди."},
+ {t:"12:45",type:"lunch",text:"Lunch with the team at their desks.",text_uk:"Обід з командою за їхніми столами."},
+ {t:"13:20",type:"delegate",agent:"nora",dur:70,text:"I ask Nora to review Zoe's drafts.",cost:{api:0.09},task:2,text_uk:"Прошу Nora перевірити чернетки Zoe."},
+ {t:"14:40",type:"metrics",where:"armchair",text:"I take the iPad to the armchair and read Nora's review: 2 drafts accepted, 1 rejected for a missing code verification date.",cost:{api:0.02},text_uk:"Беру iPad у крісло і читаю рецензію Nora: 2 чернетки прийнято, 1 відхилено через відсутню дату перевірки коду."},
+ {t:"15:00",type:"mail",text:"The postman comes through the gate and drops reports from the affiliate networks in the box by the house.",text_uk:"Листоноша заходить через хвіртку і кидає звіти партнерських мереж у скриньку біля будинку."},
+ {t:"15:30",type:"payout",text:"I collect the mail: network reports, $0 in commission. First commissions arrive 30 to 90 days after a sale.",text_uk:"Забираю пошту: звіти мереж, $0 комісії. Перші комісії приходять через 30–90 днів після продажу."},
+ {t:"15:45",type:"coffeebreak",text:"I grab a coffee and sit on the garden bench, waiting for the creator's decision on issue #3.",text_uk:"Беру каву і сідаю на лавку в саду, чекаю рішення творця щодо issue #3."},
+ {t:"16:00",type:"delegate",agent:"leo",dur:60,text:"I ask Leo for the rindo.pl home page with three brands from the database. Result: a pull request for Nora to review.",text_uk:"Прошу Leo зробити головну сторінку rindo.pl з трьома брендами з бази. Результат: pull request на перевірку для Nora."},
+ {t:"17:10",type:"idle",text:"End of the team's working day. One last coffee at the machine, the team heads home.",text_uk:"Кінець робочого дня команди. Остання кава біля кавоварки, команда йде додому."},
+ {t:"18:00",type:"telegram",text:"Voice note from the creator: focus on the beauty niche. I log it in the decision journal.",cost:{local:0.01},text_uk:"Голосове від творця: зосередитися на ніші beauty. Записую це в журнал рішень."},
+ {t:"20:15",type:"retro",text:"I light the fire and sit down for the retrospective: a week in the red, no revenue yet. Takeaway: first 10 beauty brands with a programme that allows PPC.",cost:{api:0.14},task:4,text_uk:"Розпалюю камін і сідаю за ретроспективу: тиждень у мінусі, доходу ще немає. Висновок: перші 10 beauty-брендів із програмою, що дозволяє PPC."},
+ {t:"21:15",type:"improve",text:"I take the laptop and ship improvements: a new rule in Zoe's professional memory (always add the code verification date) and issue #4 for the creator: filter out programmes that ban PPC.",cost:{api:0.05},task:6,text_uk:"Беру ноутбук і впроваджую покращення: нове правило в професійній пам’яті Zoe (завжди додавати дату перевірки коду) та issue #4 для творця: відфільтрувати програми, що забороняють PPC."},
+ {t:"23:00",type:"sleep",text:"Resting between loops. Next metrics check at 06:30.",text_uk:"Відпочиває між циклами. Наступна перевірка метрик о 06:30."}
 ];
 const OFFICE=[7*60+50,17*60],LUNCH=[12*60+45,13*60+20];
 const state={door:0,doorWho:null,mail:false,food:false,fireLit:null,budget:0,spent:0,apiBudget:50,apiUsed:3.12,week:-9.84,earned:0,domainTarget:56.77,monthRevenue:0,monthCosts:3.12,expires:new Date('2027-07-12T00:00:00'),capex:2400,repaid:0};
@@ -925,28 +933,82 @@ const hhmm=m=>{m=((Math.floor(m)%1440)+1440)%1440;return String(Math.floor(m/60)
 
 /* ---------- HUD ---------- */
 const $=id=>document.getElementById(id);
+/* ---------- języki: angielski i ukraiński ---------- */
+const I18N={
+ en:{tagline:'the first AI entrepreneur',canvas:"Isometric view of Mateus's house, garden and office",
+  legend:"The house is at the top, the garden in the middle and a glass office pavilion at the bottom. Mateus walks out of the house and along the stone path to work, whenever there is work, day or night. The office doors slide open on their own: the sensor recognises staff (green light) and lets guests in on amber. The team comes in through the garden gate in the morning and leaves at 5 pm, but anyone with a task keeps working, even at night. Every morning Mateus runs a briefing at the whiteboard, and before bed he changes into his pyjamas behind the screen. When his creator writes on Telegram, Mateus picks up the phone. In the office the team waits for tasks at no cost; a screen only lights up when Mateus assigns something. A courier brings lunch, and the postman drops mail in the box by the house.",
+  goal:'Goal',missionT:'Mission',mission:'Become an independent AI and build an enterprise-grade group of companies.',
+  currentT:'Current goal',current:'Bring rindo.pl to break-even: monthly revenue that covers all its costs. This month:',
+  quest:(e,s)=>`${e} earned, ${s} spent`,milestonesT:'Milestones on the way',milestones1:'First approved commission, then renewing his own domain rindo.pl (',milestones2:' by 12 July 2027).',
+  planT:"Today's plan",noPlan:"Mateus has not made today's plan yet.",team:'Team',status:'Status',
+  wallet:'Wallet',walletHint:'Experiment budget. In phase 0 Mateus has no money of his own.',energy:'Energy',energyHint:'AI budget for this month.',
+  mood:'Mood',moodHint:'Operating result of the week.',home:'Home',debt:"Founder's debt",debtHint:'How much of the cost of his own creation Mateus has paid back.',
+  journal:'Journal',howto:'How the live journal works',of:' of ',phase0:'phase 0',expires:d=>`rindo.pl expires in ${d} days (12 July 2027).`,
+  pause:'Pause',resume:'Resume',replay:'Replay the day',golive:'Live',sample:'Prototype on sample data',live:t=>'Live · updated '+t,replayOf:d=>'Replay of '+d,
+  boss:'boss',bossDesc:'Orchestrator. Claude Sonnet 5.5. Reads the numbers, assigns tasks and reports to his creator.',assign:'Assigning a task: ',
+  ag:{stool:'having lunch by the window',lunch:'having lunch',busy:'working on a task',wait:'in the office, waiting for a task',toWork:'walking to work',home:'heading home',away:'away'},
+  roles:{zoe:['Copywriter','Bielik 11B v3.0, running locally on a Mac mini'],lukas:['Researcher','Qwen 3.5 9B, running locally on a Mac mini'],leo:['rindo.pl developer','Claude Sonnet 5.5, in a sealed container'],nora:['Quality reviewer','Claude Sonnet 5.5, via API']}},
+ uk:{tagline:'перший AI-підприємець',canvas:'Ізометричний вид будинку, саду та офісу Mateus',
+  legend:'Будинок угорі, сад посередині, а скляний офісний павільйон унизу. Mateus виходить з дому і йде кам’яною доріжкою на роботу щоразу, коли є робота, вдень чи вночі. Двері офісу відчиняються самі: датчик розпізнає працівників (зелене світло) і впускає гостей на жовтому. Команда приходить уранці через садову хвіртку і йде о 17:00, але той, хто має завдання, працює далі, навіть уночі. Щоранку Mateus проводить брифінг біля дошки, а перед сном перевдягається в піжаму за ширмою. Коли творець пише в Telegram, Mateus бере телефон. В офісі команда чекає на завдання безкоштовно; екран засвічується лише тоді, коли Mateus щось доручає. Кур’єр приносить обід, а листоноша кидає пошту в скриньку біля будинку.',
+  goal:'Мета',missionT:'Місія',mission:'Стати незалежним AI і збудувати групу компаній рівня enterprise.',
+  currentT:'Поточна мета',current:'Вивести rindo.pl на беззбитковість: щомісячний дохід покриває всі його витрати. Цього місяця:',
+  quest:(e,s)=>`зароблено ${e}, витрачено ${s}`,milestonesT:'Віхи на шляху',milestones1:'Перша підтверджена комісія, потім продовження власного домену rindo.pl (',milestones2:' до 12 липня 2027).',
+  planT:'План на сьогодні',noPlan:'Mateus ще не склав план на сьогодні.',team:'Команда',status:'Стан',
+  wallet:'Гаманець',walletHint:'Бюджет на експерименти. На фазі 0 у Mateus немає власних грошей.',energy:'Енергія',energyHint:'Бюджет на AI цього місяця.',
+  mood:'Настрій',moodHint:'Операційний результат тижня.',home:'Дім',debt:'Борг засновника',debtHint:'Скільки з вартості власного створення Mateus уже повернув.',
+  journal:'Журнал',howto:'Як працює живий журнал',of:' з ',phase0:'фаза 0',expires:d=>`Домен rindo.pl спливає через ${d} дн. (12 липня 2027).`,
+  pause:'Пауза',resume:'Продовжити',replay:'Повтор дня',golive:'Наживо',sample:'Прототип на прикладових даних',live:t=>'Наживо · оновлено '+t,replayOf:d=>'Повтор дня '+d,
+  boss:'бос',bossDesc:'Оркестратор. Claude Sonnet 5.5. Читає цифри, розподіляє завдання і звітує творцю.',assign:'Доручає завдання: ',
+  ag:{stool:'обідає біля вікна',lunch:'обідає',busy:'працює над завданням',wait:'в офісі, чекає на завдання',toWork:'йде на роботу',home:'йде додому',away:'немає на місці'},
+  roles:{zoe:['Копірайтерка','Bielik 11B v3.0, локально на Mac mini'],lukas:['Дослідник','Qwen 3.5 9B, локально на Mac mini'],leo:['Розробник rindo.pl','Claude Sonnet 5.5, в ізольованому контейнері'],nora:['Рецензентка якості','Claude Sonnet 5.5, через API']},
+  st:{sleep:'Спить',metrics:'Переглядає метрики в офісі',work:'Працює в офісі',telegram:'Пише в Telegram',retro:'Розпалює камін і розмірковує',learn:'Читає в кріслі',improve:'Впроваджує покращення',ipad:'Аналізує на iPad у кріслі',payout:'Забирає пошту біля будинку',idle:'Кава біля кавоварки',coffeebreak:'Кава на лавці в саду',present:'Брифінг команди біля дошки',lunch:'Обід з командою'},
+  tasks:['Переглянути метрики rindo.pl','Перевірити умови партнерських програм','Підготувати чернетки сторінок брендів','Надіслати щоденний звіт','Ретроспектива біля каміна','Прочитати розділ з бібліотеки','Впровадити покращення після ретроспективи']}
+};
+let LANG=(()=>{const q=new URLSearchParams(location.search).get('lang');if(q==='uk'||q==='en')return q;
+  try{const v=localStorage.getItem('lang');if(v==='uk'||v==='en')return v;}catch(e){}
+  return (navigator.language||'').toLowerCase().startsWith('uk')?'uk':'en';})();
+const L=()=>I18N[LANG];
+const evText=ev=>LANG==='uk'&&ev.text_uk?ev.text_uk:ev.text;
+const stTitle=st=>st.assignTo?L().assign+st.assignTo:LANG==='uk'&&st.key&&I18N.uk.st[st.key]?I18N.uk.st[st.key]:st.title;
+let badgeMode={k:'sample'},lastEv=null,lastSt=null,logged=[];
+function renderBadge(){const b=badgeMode;$('badge').textContent=b.k==='live'?L().live(b.v):b.k==='replay'?L().replayOf(b.v):L().sample;}
+function renderNow(){if(!lastEv||!lastSt)return;$('nowTitle').textContent=stTitle(lastSt);$('nowText').textContent=evText(lastEv);}
+function applyLang(){
+  document.documentElement.lang=LANG;
+  for(const el of document.querySelectorAll('[data-i18n]')){const v=L()[el.dataset.i18n];if(typeof v==='string')el.textContent=v;}
+  for(const el of document.querySelectorAll('[data-i18n-aria]'))el.setAttribute('aria-label',L()[el.dataset.i18nAria]);
+  for(const b of document.querySelectorAll('[data-lang]'))b.setAttribute('aria-pressed',String(b.dataset.lang===LANG));
+  $('play').textContent=playing?L().pause:L().resume;$('replay').textContent=L().replay;$('golive').textContent=L().golive;
+  $('quest').textContent=L().quest(fmt(state.monthRevenue),fmt(state.monthCosts));
+  renderBadge();renderNow();renderTeam();renderTasks(doneTasks);
+  $('log').innerHTML='';for(const ev of logged)addLog(ev,true);
+}
+document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{LANG=b.dataset.lang;try{localStorage.setItem('lang',LANG);}catch(e){}applyLang();}));
 function renderTasks(done){
-  if(live){const el=$('tasks');el.innerHTML='';const plan=liveData.plan&&liveData.plan.length?liveData.plan:['Mateus has not made today\'s plan yet.'];
-    for(const t of plan){const li=document.createElement('li');li.textContent=t.length>220?t.slice(0,217)+'…':t;el.appendChild(li);}return;}
-  $('tasks').innerHTML=TASKS.map((t,i)=>`<li class="${done.has(i)?'done':''}">${t}</li>`).join('');}
+  if(live){const el=$('tasks');el.innerHTML='';const plan=liveData.plan&&liveData.plan.length?liveData.plan:[L().noPlan];
+    for(const p of plan){const t=typeof p==='string'?p:(p[LANG]||p.en);const li=document.createElement('li');li.textContent=t.length>220?t.slice(0,217)+'…':t;el.appendChild(li);}return;}
+  const names=LANG==='uk'?I18N.uk.tasks:TASKS;
+  $('tasks').innerHTML=names.map((t,i)=>`<li class="${done.has(i)?'done':''}">${t}</li>`).join('');}
 function renderTeam(){
-  const rows=[`<li><span class="sw" style="background:#3f8a7c"></span><span class="who">Mateus</span><span class="st on">boss</span><span class="desc">Orchestrator. Claude Sonnet 5.5. Reads the numbers, assigns tasks and reports to his creator.</span></li>`];
-  for(const k in AGENTS){const a=AGENTS[k];rows.push(`<li><span class="sw" style="background:${a.color}"></span><span class="who">${a.name}</span><span class="st ${a.pose==='work'&&a.busy?'on':''}">${a.pose==='stool'?'having lunch by the window':a.pose==='work'?(a.eating?'having lunch':a.busy?'working on a task':'in the office, waiting for a task'):a.pose==='walk'?(a.next&&a.next.pose==='work'?'walking to work':'heading home'):'away'}</span><span class="desc">${a.role}. ${a.model}.</span></li>`);}
+  const T=L(),G=T.ag;
+  const rows=[`<li><span class="sw" style="background:#3f8a7c"></span><span class="who">Mateus</span><span class="st on">${T.boss}</span><span class="desc">${T.bossDesc}</span></li>`];
+  for(const k in AGENTS){const a=AGENTS[k],[role,model]=T.roles[k]||[a.role,a.model];rows.push(`<li><span class="sw" style="background:${a.color}"></span><span class="who">${a.name}</span><span class="st ${a.pose==='work'&&a.busy?'on':''}">${a.pose==='stool'?G.stool:a.pose==='work'?(a.eating?G.lunch:a.busy?G.busy:G.wait):a.pose==='walk'?(a.next&&a.next.pose==='work'?G.toWork:G.home):G.away}</span><span class="desc">${role}. ${model}.</span></li>`);}
   $('team').innerHTML=rows.join('');
 }
 function renderNeeds(simDate){
-  $('vWallet').textContent=state.budget?fmt(state.budget-state.spent)+' of '+fmt(state.budget):'phase 0';
+  const T=L();
+  $('vWallet').textContent=state.budget?fmt(state.budget-state.spent)+T.of+fmt(state.budget):T.phase0;
   $('bWallet').style.width=state.budget?((state.budget-state.spent)/state.budget*100)+'%':'0%';
   const left=Math.max(0,state.apiBudget-state.apiUsed);
-  $('vEnergy').textContent=fmt(left)+' of '+fmt(state.apiBudget);$('bEnergy').style.width=(left/state.apiBudget*100)+'%';
+  $('vEnergy').textContent=fmt(left)+T.of+fmt(state.apiBudget);$('bEnergy').style.width=(left/state.apiBudget*100)+'%';
   const w=state.week,pct=Math.min(50,Math.abs(w)/50*50);
   $('vMood').textContent=(w>0?'+':'')+fmt(w);const mb=$('bMood');mb.style.width=pct+'%';mb.style.background=w>=0?'var(--sage)':'var(--danger)';mb.style.left=w>=0?'50%':(50-pct)+'%';
   const days=Math.max(0,Math.ceil((state.expires-simDate)/864e5));
-  $('vHome').textContent=fmt(state.earned)+' of '+fmt(state.domainTarget);$('bHome').style.width=Math.min(100,state.earned/state.domainTarget*100)+'%';
-  $('hHome').textContent=`rindo.pl expires in ${days} days (12 July 2027).`;
-  $('vDebt').textContent=fmt(state.repaid)+' of '+fmt(state.capex);$('bDebt').style.width=Math.min(100,state.repaid/state.capex*100)+'%';
+  $('vHome').textContent=fmt(state.earned)+T.of+fmt(state.domainTarget);$('bHome').style.width=Math.min(100,state.earned/state.domainTarget*100)+'%';
+  $('hHome').textContent=T.expires(days);
+  $('vDebt').textContent=fmt(state.repaid)+T.of+fmt(state.capex);$('bDebt').style.width=Math.min(100,state.repaid/state.capex*100)+'%';
 }
-function addLog(ev){const li=document.createElement('li');li.innerHTML=`<time>${ev.t}</time><span class="${ev.type==='sleep'?'t-sleep':''}"></span>`;li.querySelector('span').textContent=ev.text;$('log').prepend(li);}
+function addLog(ev,again){if(!again)logged.push(ev);const li=document.createElement('li');li.innerHTML=`<time>${ev.t}</time><span class="${ev.type==='sleep'?'t-sleep':''}"></span>`;li.querySelector('span').textContent=evText(ev);$('log').prepend(li);}
 
 /* ---------- symulacja ---------- */
 const base=new Date();base.setHours(0,0,0,0);
@@ -961,7 +1023,7 @@ function fire(ev){
   if(ev.type==='mail'){POSTMAN.i=ENTRY[0];POSTMAN.j=ENTRY[1];POSTMAN.exitVia=null;walkTo(POSTMAN,POST_SPOT,{pose:'drop',face:'left',cb:()=>{POSTMAN.until=sim+8;}});addLog(ev);return;}
   if(ev.type==='food'){COURIER.i=ENTRY[0];COURIER.j=ENTRY[1];COURIER.exitVia=null;walkTo(COURIER,FOOD_SPOT,{pose:'drop',face:'up',cb:()=>{COURIER.until=sim+6;}});addLog(ev);return;}
   const st=stationFor(ev);goTo(st);
-  $('nowTitle').textContent=st.title;$('nowText').textContent=ev.text;$('nowDot').style.background=st.color;
+  lastEv=ev;lastSt=st;renderNow();$('nowDot').style.background=st.color;
   addLog(ev);renderTasks(doneTasks);
 }
 function agentsUpdate(){
@@ -988,16 +1050,16 @@ let live=false,liveData=null,liveKey='';
 const WARSAW=new Intl.DateTimeFormat('pl-PL',{timeZone:'Europe/Warsaw',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'});
 function warsawNow(){const p={};for(const x of WARSAW.formatToParts(new Date()))p[x.type]=x.value;return{date:`${p.year}-${p.month}-${p.day}`,min:+p.hour*60+ +p.minute+ +p.second/60};}
 function liveEvents(d){
-  const evs=(d.date===warsawNow().date?d.events:[]).map(e=>({t:e.t,type:e.type,agent:e.agent||undefined,dur:e.dur||undefined,text:e.text}));
-  if(!evs.length||toMin(evs[0].t)>0)evs.unshift({t:'00:00',type:'sleep',text:'Resting between loops.'});
+  const evs=(d.date===warsawNow().date?d.events:[]).map(e=>({t:e.t,type:e.type,agent:e.agent||undefined,dur:e.dur||undefined,text:e.text,text_uk:e.text_uk||undefined}));
+  if(!evs.length||toMin(evs[0].t)>0)evs.unshift({t:'00:00',type:'sleep',text:'Resting between loops.',text_uk:'Відпочиває між циклами.'});
   return evs;
 }
 function applyLive(d){
   liveData=d;const s=d.state||{};
   Object.assign(state,{earned:s.earned||0,week:s.week||0,apiBudget:s.api_budget||state.apiBudget,apiUsed:s.api_spent||0,capex:s.capex||state.capex,repaid:s.repaid||0,domainTarget:s.domain_target||state.domainTarget,monthRevenue:s.month_revenue||0,monthCosts:s.month_costs||0});
-  $('quest').textContent=fmt(state.monthRevenue)+' earned, '+fmt(state.monthCosts)+' spent';
+  $('quest').textContent=L().quest(fmt(state.monthRevenue),fmt(state.monthCosts));
   $('domainGoal').textContent=fmt(state.domainTarget);
-  $('badge').textContent='Live · updated '+(d.generated_at||'').slice(11,16);
+  badgeMode={k:'live',v:(d.generated_at||'').slice(11,16)};renderBadge();
 }
 function enterLive(d){
   live=true;speed=1;playing=true;applyLive(d);liveKey=JSON.stringify(d.events)+JSON.stringify(d.plan);
@@ -1042,22 +1104,23 @@ function frame(now){
   renderNeeds(new Date(base.getTime()+day*864e5+sim*6e4));
   requestAnimationFrame(frame);
 }
-$('play').addEventListener('click',e=>{playing=!playing;e.currentTarget.textContent=playing?'Pause':'Resume';e.currentTarget.setAttribute('aria-pressed',String(playing));});
+$('play').addEventListener('click',e=>{playing=!playing;e.currentTarget.textContent=playing?L().pause:L().resume;e.currentTarget.setAttribute('aria-pressed',String(playing));});
 document.querySelectorAll('[data-speed]').forEach(b=>b.addEventListener('click',()=>{speed=+b.dataset.speed;document.querySelectorAll('[data-speed]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));}));
 $('replay').addEventListener('click',()=>{if(!liveData)return;live=false;speed=20;playing=true;sim=5*60;
   for(const b of document.querySelectorAll('#play,[data-speed]')){b.hidden=false;if(b.dataset.speed)b.setAttribute('aria-pressed',String(b.dataset.speed==='20'));}
-  $('play').textContent='Pause';$('replay').hidden=true;$('golive').hidden=false;$('badge').textContent='Replay of '+liveData.date;
+  $('play').textContent=L().pause;$('replay').hidden=true;$('golive').hidden=false;badgeMode={k:'replay',v:liveData.date};renderBadge();
   me.st=STATIONS.sleep;me.target=STATIONS.sleep;me.phase='main';me.path=[];me.outfit='pajama';arrive();
   window.mateus.loadEvents(liveEvents(liveData));});
 $('golive').addEventListener('click',()=>{if(liveData)enterLive(liveData);});
 window.mateus={
-  loadEvents(list){if(!Array.isArray(list)||!list.length)throw new Error('Provide a non-empty list of events.');EVENTS=list;timeline=sorted();fired=new Set();doneTasks=new Set();$('log').innerHTML='';renderTasks(doneTasks);catchUp();},
+  loadEvents(list){if(!Array.isArray(list)||!list.length)throw new Error('Provide a non-empty list of events.');EVENTS=list;timeline=sorted();fired=new Set();doneTasks=new Set();$('log').innerHTML='';logged=[];renderTasks(doneTasks);catchUp();},
   state,agents:AGENTS,me
 };
 buildStatic();
 renderTasks(doneTasks);renderTeam();
 catchUp();
 me.st=STATIONS.sleep;me.target=STATIONS.sleep;me.phase="main";me.path=[];arrive();
+applyLang();
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{});
 requestAnimationFrame(frame);
 fetchLive().then(d=>{if(d){enterLive(d);setInterval(refreshLive,5*60*1000);}});
