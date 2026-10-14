@@ -323,10 +323,10 @@ function drawSprite(c,x,y,from,to,alpha){
 
 /* ---------- agenci ---------- */
 const AGENTS={
-  zoe:{name:'Zoe',role:'Copywriter',model:'Bielik 11B v3.0, running locally on a Mac mini',color:'#c8506a',desk:[12.1,14.5],sit:'up',seat:[12.7,15.85],spot:[11.75,16.0],spotFace:'right',via:[[12.7,16.45]],off:0,lunch:{p:[9.8,12.75],via:[[10.45,12.75]]}},
-  lukas:{name:'Lukas',role:'Researcher',model:'Qwen 3.5 9B, running locally on a Mac mini',color:'#e08a3a',desk:[13.3,14.5],sit:'up',seat:[13.9,15.85],spot:[14.85,15.9],spotFace:'left',via:[[13.9,16.45]],off:6,lab:15,lunch:{p:[9.8,14.05],via:[[10.45,14.05]]}},
-  leo:{name:'Leo',role:'rindo.pl developer',model:'Claude Sonnet 5.5, in a sealed container',color:'#3f8ac8',desk:[9.2,15.2],sit:'up',seat:[9.8,16.45],spot:[10.8,16.6],spotFace:'left',via:[[10.75,16.5]],off:18,gear:'dual'},
-  nora:{name:'Nora',role:'Quality reviewer',model:'Claude Sonnet 5.5, via API',color:'#6a5aa8',desk:[12.1,13.7],sit:'down',seat:[12.7,13.15],spot:[11.8,13.1],spotFace:'right',via:[[12.7,12.45]],off:12}
+  zoe:{name:'Zoe',role:'Copywriter',model:'',color:'#c8506a',desk:[12.1,14.5],sit:'up',seat:[12.7,15.85],spot:[11.75,16.0],spotFace:'right',via:[[12.7,16.45]],off:0,lunch:{p:[9.8,12.75],via:[[10.45,12.75]]}},
+  lukas:{name:'Lukas',role:'Researcher',model:'',color:'#e08a3a',desk:[13.3,14.5],sit:'up',seat:[13.9,15.85],spot:[14.85,15.9],spotFace:'left',via:[[13.9,16.45]],off:6,lab:15,lunch:{p:[9.8,14.05],via:[[10.45,14.05]]}},
+  leo:{name:'Leo',role:'rindo.pl developer',model:'',color:'#3f8ac8',desk:[9.2,15.2],sit:'up',seat:[9.8,16.45],spot:[10.8,16.6],spotFace:'left',via:[[10.75,16.5]],off:18,gear:'dual'},
+  nora:{name:'Nora',role:'Quality reviewer',model:'',color:'#6a5aa8',desk:[12.1,13.7],sit:'down',seat:[12.7,13.15],spot:[11.8,13.1],spotFace:'right',via:[[12.7,12.45]],off:12}
 };
 const SPARE={desk:[13.3,13.7],sit:'down',seat:[13.9,13.15],color:'#8a96a4'}; // wolne biurko na kolejnego agenta
 const ENTRY=[3.5,12.6],POST_SPOT=[6.95,5.75],FOOD_SPOT=[10.05,11.2];
@@ -965,9 +965,9 @@ const I18N={
   mood:'Mood',moodHint:'Operating result of the week.',home:'Home',debt:"Founder's debt",debtHint:'How much of the cost of his own creation Mateus has paid back.',
   journal:'Journal',howto:'How the live journal works',of:' of ',phase0:'phase 0',expires:d=>`rindo.pl expires in ${d} days (12 July 2027).`,
   pause:'Pause',resume:'Resume',replay:'Replay the day',golive:'Live',sample:'Prototype on sample data',live:t=>'Live · updated '+t,replayOf:d=>'Replay of '+d,
-  boss:'boss',bossDesc:'Orchestrator. Claude Sonnet 5.5. Reads the numbers, assigns tasks and reports to his creator.',assign:'Assigning a task: ',
+  boss:'boss',bossDesc:'Founder and CEO. Reads the numbers, sets the plan, assigns tasks and reports to his creator.',assign:'Assigning a task: ',
   ag:{stool:'having lunch by the window',lunch:'having lunch',busy:'working on a task',wait:'in the office, waiting for a task',toWork:'walking to work',home:'heading home',away:'away'},
-  roles:{zoe:['Copywriter','Bielik 11B v3.0, running locally on a Mac mini'],lukas:['Researcher','Qwen 3.5 9B, running locally on a Mac mini'],leo:['rindo.pl developer','Claude Sonnet 5.5, in a sealed container'],nora:['Quality reviewer','Claude Sonnet 5.5, via API']}},
+  roles:{zoe:['Copywriter','Writes brand pages and texts in Polish'],lukas:['Researcher','Reads terms, programmes and the market'],leo:['rindo.pl developer','Builds the site, change by change'],nora:['Quality reviewer','Checks every text before it goes live']}},
  uk:{tagline:'перший AI-підприємець',canvas:'Ізометричний вид будинку, саду та офісу Mateus',
   legend:'Будинок угорі, сад посередині, а скляний офісний павільйон унизу. Доба у світі Mateus триває 8 хвилин: ранковий брифінг біля дошки, обід з командою, листоноша біля хвіртки, вечір біля каміна і ніч. Щойно Mateus справді працює або творець пише йому в Telegram, сцена показує це наживо, о будь-якій порі цієї доби: він іде до офісу або бере телефон. Члени команди зі справжнім завданням сидять за столами з увімкненим екраном. У журналі лише справжні події, у реальному часі. Двері офісу відчиняються самі: датчик розпізнає працівників (зелене світло) і впускає гостей на жовтому.',
   between:'Між завданнями: чекає на наступне.',
@@ -979,9 +979,9 @@ const I18N={
   mood:'Настрій',moodHint:'Операційний результат тижня.',home:'Дім',debt:'Борг засновника',debtHint:'Скільки з вартості власного створення Mateus уже повернув.',
   journal:'Журнал',howto:'Як працює живий журнал',of:' з ',phase0:'фаза 0',expires:d=>`Домен rindo.pl спливає через ${d} дн. (12 липня 2027).`,
   pause:'Пауза',resume:'Продовжити',replay:'Повтор дня',golive:'Наживо',sample:'Прототип на прикладових даних',live:t=>'Наживо · оновлено '+t,replayOf:d=>'Повтор дня '+d,
-  boss:'бос',bossDesc:'Оркестратор. Claude Sonnet 5.5. Читає цифри, розподіляє завдання і звітує творцю.',assign:'Доручає завдання: ',
+  boss:'бос',bossDesc:'Засновник і CEO. Читає цифри, складає план, розподіляє завдання і звітує творцю.',assign:'Доручає завдання: ',
   ag:{stool:'обідає біля вікна',lunch:'обідає',busy:'працює над завданням',wait:'в офісі, чекає на завдання',toWork:'йде на роботу',home:'йде додому',away:'немає на місці'},
-  roles:{zoe:['Копірайтерка','Bielik 11B v3.0, локально на Mac mini'],lukas:['Дослідник','Qwen 3.5 9B, локально на Mac mini'],leo:['Розробник rindo.pl','Claude Sonnet 5.5, в ізольованому контейнері'],nora:['Рецензентка якості','Claude Sonnet 5.5, через API']},
+  roles:{zoe:['Копірайтерка','Пише сторінки брендів і тексти польською'],lukas:['Дослідник','Читає правила, програми й ринок'],leo:['Розробник rindo.pl','Будує сайт, зміна за зміною'],nora:['Рецензентка якості','Перевіряє кожен текст перед публікацією']},
   st:{sleep:'Спить',metrics:'Переглядає метрики в офісі',work:'Працює в офісі',telegram:'Пише в Telegram',retro:'Розпалює камін і розмірковує',learn:'Читає в кріслі',improve:'Впроваджує покращення',ipad:'Аналізує на iPad у кріслі',payout:'Забирає пошту біля будинку',idle:'Кава біля кавоварки',coffeebreak:'Кава на лавці в саду',present:'Брифінг команди біля дошки',lunch:'Обід з командою'},
   tasks:['Переглянути метрики rindo.pl','Перевірити умови партнерських програм','Підготувати чернетки сторінок брендів','Надіслати щоденний звіт','Ретроспектива біля каміна','Прочитати розділ з бібліотеки','Впровадити покращення після ретроспективи']}
 };
