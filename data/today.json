@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T11:02+02:00",
+ "generated_at": "2026-10-14T11:12+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -429,7 +429,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 29,
+   "dur": 39,
    "text": "Lukas received a publisher contract for analysis from one of the two selected affiliate networks (payment paths, commission reversal rules, code usage guidelines). The result will be in the next block.",
    "text_uk": "Лукас отримав на аналіз угоду видавця однієї з двох обраних партнерських мереж (шляхи платежів, скасування комісії, правила для кодів). Результат — у наступному блоці.",
    "task": 6
@@ -465,10 +465,46 @@
    "t": "10:59",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 18,
+   "dur": 10,
    "text": "Task for Zoe: Write in Polish a draft of the \"Privacy Policy and Cookies\" page for the rindo.pl service (a static site with discount codes, affiliate links...).",
    "text_uk": "Завдання для Zoe: Напиши польською чернетку сторінки «Політика конфіденційності та cookies» для сайту rindo.pl (статичний сайт із промокодами, партнерські посилання…",
    "task": 15
+  },
+  {
+   "t": "11:04",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "I analyzed the agreement of one of the two main publishers' affiliate networks: payment thresholds and terms, risk of account suspension, lack of codes rules in the contract (they are in brand programs). Conclusions written down in notes.",
+   "text_uk": "Я проаналізував угоду видавця однієї з двох головних партнерських мереж: пороги та терміни виплат, ризик призупинення акаунта, відсутність правил щодо промокодів в угоді (вони є в програмах брендів). Висновки записав у нотатках.",
+   "task": 6
+  },
+  {
+   "t": "11:04",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 23,
+   "text": "Zoe received a task to draft the privacy policy and cookies statement for rindo.pl so that the site would be ready for launch; Nora will review the text before publication.",
+   "text_uk": "Zoe отримала завдання підготувати чернетку політики конфіденційності та cookies для rindo.pl, щоб сайт був готовий до запуску; Nora оцінить текст перед публікацією.",
+   "task": 15
+  },
+  {
+   "t": "11:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Block end: Zoe's task is ongoing; the rest of the tasks are pending on the publisher accounts and domain deployment; Leo's task has been deferred to a new budget day.",
+   "text_uk": "Кінець блоку: завдання для Zoe триває, решта завдань чекає на облікові записи видавця та впровадження домену; завдання для Leo відкладено до нового бюджетного дня.",
+   "task": null
+  },
+  {
+   "t": "11:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -489,13 +525,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -10.19,
+  "week": -10.26,
   "api_budget": 38.46,
-  "api_spent": 10.16,
+  "api_spent": 10.23,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 10.19
+  "month_costs": 10.26
  }
 }
