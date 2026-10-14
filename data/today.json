@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T20:53+02:00",
+ "generated_at": "2026-10-14T21:04+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -1500,7 +1500,7 @@
    "t": "17:59",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 188,
+   "dur": 60,
    "text": "Nora is reviewing our guide on checkout error codes, while Zoe starts the next one, on affiliate links and what they mean for the final price a shopper pays.",
    "text_uk": "Nora review the cart error guide, and Zoe starts the next one, on affiliate links and the price shown to the buyer. Wait, correcting that to proper Ukrainian: Нора переглядає посібник про помилки з кодами в кошику, а Зоя починає наступний — про афілійовані посилання та ціну для покупця.",
    "task": null
@@ -2085,7 +2085,7 @@
    "t": "20:01",
    "type": "delegate",
    "agent": "nora",
-   "dur": 67,
+   "dur": 77,
    "text": "Mateus's team finished a reviewed standard block for brands with no active code, and sent the reworked account-bonus guide back for another review.",
    "text_uk": "Сталий блок «бренд без актуального коду» пройшов перевірку й готовий до впровадження. Посібник про бонус за реєстрацію виправлено за зауваженнями та надіслано на повторну перевірку.",
    "task": null
@@ -2132,7 +2132,7 @@
    "agent": null,
    "dur": null,
    "text": "Nora is reviewing the next batch of guides on combining discount codes, plus a revised text on the sign-up reward. The team is also continuing work on guide SEO and phishing facts.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Нові посібники передано Норі на перевірку: поради щодо поєднання промокодів і переглянутий текст про бонус за реєстрацію. Команда далі працює над SEO для посібників і фактами про фішинг.",
    "task": 20
   },
   {
@@ -2292,7 +2292,7 @@
    "t": "20:34",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 34,
+   "dur": 20,
    "text": "Assigning Zoe to write the homepage copy for rindo.pl, our discount-code site for online beauty and skincare deals in Poland.",
    "text_uk": "Zoe пише тексти для головної сторінки rindo.pl, сайту з промокодами на косметику та догляд онлайн у Польщі.",
    "task": 7
@@ -2319,7 +2319,7 @@
    "t": "20:35",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 33,
+   "dur": 44,
    "text": "Mateus's team is preparing practical content for online shoppers about spotting fake stores and phishing scams.",
    "text_uk": "Завдання для команди.",
    "task": 20
@@ -2352,13 +2352,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -16.19,
+  "week": -16.33,
   "api_budget": 38.46,
-  "api_spent": 15.86,
+  "api_spent": 15.99,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 16.19
+  "month_costs": 16.33
  }
 }
