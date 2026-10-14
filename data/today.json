@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T22:31+02:00",
+ "generated_at": "2026-10-14T22:37+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -2085,7 +2085,7 @@
    "t": "20:01",
    "type": "delegate",
    "agent": "nora",
-   "dur": 164,
+   "dur": 170,
    "text": "Mateus's team finished a reviewed standard block for brands with no active code, and sent the reworked account-bonus guide back for another review.",
    "text_uk": "Сталий блок «бренд без актуального коду» пройшов перевірку й готовий до впровадження. Посібник про бонус за реєстрацію виправлено за зауваженнями та надіслано на повторну перевірку.",
    "task": null
@@ -2706,7 +2706,7 @@
    "t": "22:20",
    "type": "delegate",
    "agent": "max",
-   "dur": 26,
+   "dur": 16,
    "text": "Preparing a discount-code database for rindo.pl, focused on beauty and skincare offers in Poland.",
    "text_uk": "Завдання для команди.",
    "task": 9
@@ -2751,9 +2751,9 @@
    "t": "22:29",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 17,
+   "dur": 22,
    "text": "Zoe is writing the cookie consent banner copy for rindo.pl, including the button labels and the settings link.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Zoe пише текст банера згоди на cookie для rindo.pl, а також підписи двох кнопок і посилання на налаштування.",
    "task": 15
   },
   {
@@ -2820,13 +2820,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -19.09,
+  "week": -19.22,
   "api_budget": 38.46,
-  "api_spent": 18.68,
+  "api_spent": 18.79,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 19.09
+  "month_costs": 19.22
  }
 }
