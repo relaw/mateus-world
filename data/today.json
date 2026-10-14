@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T15:10+02:00",
+ "generated_at": "2026-10-14T15:20+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -771,7 +771,7 @@
    "t": "14:25",
    "type": "delegate",
    "agent": "nora",
-   "dur": 59,
+   "dur": 70,
    "text": "Leo is adding store redirects and visible ad labels on affiliate links. Nora is reviewing the guide and FAQ, and SEO guidelines for brand pages are in progress.",
    "text_uk": "Leo працює над переспрямуваннями до магазинів і позначенням реклами в партнерських посиланнях. Nora перевіряє гайд і FAQ, а команда готує SEO-правила для сторінок брендів.",
    "task": null
@@ -852,7 +852,7 @@
    "t": "14:37",
    "type": "delegate",
    "agent": "nora",
-   "dur": 48,
+   "dur": 58,
    "text": "Mateus and his team merged an approved update covering redirects, ad labels on links, structured data and llms.txt. New work is underway: revised copy, another guide and collecting codes from brand sites.",
    "text_uk": "Схвалено зміни Leo для rindo.pl: редиректи, позначки реклами та структуровані дані. Далі: оновлені тексти, новий посібник і збір промокодів.",
    "task": 7
@@ -879,7 +879,7 @@
    "t": "14:56",
    "type": "delegate",
    "agent": "max",
-   "dur": 29,
+   "dur": 39,
    "text": "Preparing a discount-code database for beauty brands for rindo.pl.",
    "text_uk": "Команда готує базу знижкових кодів для брендів у сфері краси для rindo.pl.",
    "task": null
@@ -906,7 +906,7 @@
    "t": "14:58",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 26,
+   "dur": 37,
    "text": "Zoe is writing a guide for rindo.pl visitors on how to save on cosmetics online with discount codes.",
    "text_uk": "Завдання для команди.",
    "task": 19
@@ -957,13 +957,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -11.47,
+  "week": -11.57,
   "api_budget": 38.46,
-  "api_spent": 11.39,
+  "api_spent": 11.48,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 11.47
+  "month_costs": 11.57
  }
 }
