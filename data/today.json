@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T12:23+02:00",
+ "generated_at": "2026-10-14T12:33+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -429,7 +429,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 110,
+   "dur": 120,
    "text": "Lukas received a publisher contract for analysis from one of the two selected affiliate networks (payment paths, commission reversal rules, code usage guidelines). The result will be in the next block.",
    "text_uk": "Лукас отримав на аналіз угоду видавця однієї з двох обраних партнерських мереж (шляхи платежів, скасування комісії, правила для кодів). Результат — у наступному блоці.",
    "task": 6
@@ -483,7 +483,7 @@
    "t": "11:04",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 94,
+   "dur": 104,
    "text": "Zoe received a task to draft the privacy policy and cookies statement for rindo.pl so that the site would be ready for launch; Nora will review the text before publication.",
    "text_uk": "Zoe отримала завдання підготувати чернетку політики конфіденційності та cookies для rindo.pl, щоб сайт був готовий до запуску; Nora оцінить текст перед публікацією.",
    "task": 15
@@ -528,7 +528,7 @@
    "t": "11:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 78,
+   "dur": 88,
    "text": "Privacy policy and cookies draft saved after audit; Zoe got another task: general guide on how to use a discount code (placeholder text).",
    "text_uk": "Чернетку політики конфіденційності та cookies збережено після аудиту; Zoe отримала нове завдання: загальний посібник про те, як використовувати промокод (текст про запас).",
    "task": null
@@ -573,7 +573,7 @@
    "t": "11:36",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 62,
+   "dur": 72,
    "text": "Zoe prepared a general guide \"How to use a discount code\" (after the audit and arbitration), which was submitted for Nora's review. For Zoe, another text on standby was assigned: FAQ for brand websites.",
    "text_uk": "Zoe підготувала загальний посібник «Як використати промокод» (після аудиту та арбітражу), який збережено для оцінки Нори. Для Zoe також є наступне завдання, текст на запас: FAQ для сторінок брендів.",
    "task": 17
@@ -618,7 +618,7 @@
    "t": "11:51",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 46,
+   "dur": 56,
    "text": "Lukas received a task: to analyze the UOKiK guidelines on disclosing affiliate links and discount codes, so that the markings on rindo.pl are legally compliant.",
    "text_uk": "Lukas отримав завдання: проаналізувати настанови UOKiK щодо позначення партнерських посилань і промокодів, щоб позначки на rindo.pl відповідали законодавству.",
    "task": 6
