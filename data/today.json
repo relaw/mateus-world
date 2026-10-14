@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T23:03+02:00",
+ "generated_at": "2026-10-14T23:09+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -2751,7 +2751,7 @@
    "t": "22:29",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 49,
+   "dur": 55,
    "text": "Zoe is writing the cookie consent banner copy for rindo.pl, including the button labels and the settings link.",
    "text_uk": "Zoe пише текст банера згоди на cookie для rindo.pl, а також підписи двох кнопок і посилання на налаштування.",
    "task": 15
@@ -2823,7 +2823,7 @@
    "t": "22:40",
    "type": "delegate",
    "agent": "max",
-   "dur": 37,
+   "dur": 43,
    "text": "Commissioning a competitor analysis for rindo.pl, our discount-code site focused on beauty and skincare in Poland.",
    "text_uk": "Аналіз конкурентів для rindo.pl: сервіс з промокодами, ніша краси та догляду в Польщі. Доручення передано Maxу.",
    "task": 23
@@ -2916,6 +2916,42 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "23:03",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 21,
+   "text": "Zoe is writing the consent banner copy for rindo.pl, including the buttons and the link to settings.",
+   "text_uk": "Завдання для команди.",
+   "task": 15
+  },
+  {
+   "t": "23:04",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Zoe is rewriting the cookie consent banner so visitor analytics and affiliate tracking are separate choices. Lukas is gathering official sale dates from beauty brands.",
+   "text_uk": "Завдання для команди.",
+   "task": 15
+  },
+  {
+   "t": "23:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on results from the team (Max, Lukas, Iris and Zoe); the next block starts once their work is in.",
+   "text_uk": "Очікуємо результатів від команди (Max, Lukas, Iris, Zoe). Наступний етап стартує після їх прийняття.",
+   "task": null
+  },
+  {
+   "t": "23:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
