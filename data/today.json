@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T20:43+02:00",
+ "generated_at": "2026-10-14T20:53+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -1500,7 +1500,7 @@
    "t": "17:59",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 178,
+   "dur": 188,
    "text": "Nora is reviewing our guide on checkout error codes, while Zoe starts the next one, on affiliate links and what they mean for the final price a shopper pays.",
    "text_uk": "Nora review the cart error guide, and Zoe starts the next one, on affiliate links and the price shown to the buyer. Wait, correcting that to proper Ukrainian: Нора переглядає посібник про помилки з кодами в кошику, а Зоя починає наступний — про афілійовані посилання та ціну для покупця.",
    "task": null
@@ -2085,7 +2085,7 @@
    "t": "20:01",
    "type": "delegate",
    "agent": "nora",
-   "dur": 56,
+   "dur": 67,
    "text": "Mateus's team finished a reviewed standard block for brands with no active code, and sent the reworked account-bonus guide back for another review.",
    "text_uk": "Сталий блок «бренд без актуального коду» пройшов перевірку й готовий до впровадження. Посібник про бонус за реєстрацію виправлено за зауваженнями та надіслано на повторну перевірку.",
    "task": null
@@ -2292,7 +2292,7 @@
    "t": "20:34",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 23,
+   "dur": 34,
    "text": "Assigning Zoe to write the homepage copy for rindo.pl, our discount-code site for online beauty and skincare deals in Poland.",
    "text_uk": "Zoe пише тексти для головної сторінки rindo.pl, сайту з промокодами на косметику та догляд онлайн у Польщі.",
    "task": 7
@@ -2319,7 +2319,7 @@
    "t": "20:35",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 23,
+   "dur": 33,
    "text": "Mateus's team is preparing practical content for online shoppers about spotting fake stores and phishing scams.",
    "text_uk": "Завдання для команди.",
    "task": 20
