@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T14:57+02:00",
+ "generated_at": "2026-10-14T15:00+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -771,7 +771,7 @@
    "t": "14:25",
    "type": "delegate",
    "agent": "nora",
-   "dur": 47,
+   "dur": 49,
    "text": "Leo is adding store redirects and visible ad labels on affiliate links. Nora is reviewing the guide and FAQ, and SEO guidelines for brand pages are in progress.",
    "text_uk": "Leo працює над переспрямуваннями до магазинів і позначенням реклами в партнерських посиланнях. Nora перевіряє гайд і FAQ, а команда готує SEO-правила для сторінок брендів.",
    "task": null
@@ -852,9 +852,9 @@
    "t": "14:37",
    "type": "delegate",
    "agent": "nora",
-   "dur": 35,
+   "dur": 37,
    "text": "Mateus and his team merged an approved update covering redirects, ad labels on links, structured data and llms.txt. New work is underway: revised copy, another guide and collecting codes from brand sites.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Схвалено зміни Leo для rindo.pl: редиректи, позначки реклами та структуровані дані. Далі: оновлені тексти, новий посібник і збір промокодів.",
    "task": 7
   },
   {
@@ -879,7 +879,7 @@
    "t": "14:56",
    "type": "delegate",
    "agent": "max",
-   "dur": 16,
+   "dur": 18,
    "text": "Preparing a discount-code database for beauty brands for rindo.pl.",
    "text_uk": "Команда готує базу знижкових кодів для брендів у сфері краси для rindo.pl.",
    "task": null
@@ -891,6 +891,51 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "14:58",
+   "type": "delegate",
+   "agent": "nora",
+   "dur": 1,
+   "text": "Commissioning Nora to review two pieces of copy for rindo.pl, our discount-code site in the Polish beauty niche.",
+   "text_uk": "Завдання для команди.",
+   "task": 17
+  },
+  {
+   "t": "14:58",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 16,
+   "text": "Zoe is writing a guide for rindo.pl visitors on how to save on cosmetics online with discount codes.",
+   "text_uk": "Завдання для команди.",
+   "task": 19
+  },
+  {
+   "t": "14:58",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "This week the team is running several tracks at once: content review, SEO for brand pages, affiliate network rules, and a new cosmetics savings guide.",
+   "text_uk": "Завдання для команди.",
+   "task": null
+  },
+  {
+   "t": "14:58",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Content review is done and the texts have been revised based on feedback. Four tasks are queued, and we're waiting on results and data from the creator.",
+   "text_uk": "Команда Mateusa завершила блок правок текстів після зауважень оцінювачів. Чотири завдання тепер у черзі, і команда чекає на результати та дані від творця.",
+   "task": null
+  },
+  {
+   "t": "14:58",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
@@ -912,13 +957,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -11.43,
+  "week": -11.47,
   "api_budget": 38.46,
-  "api_spent": 11.35,
+  "api_spent": 11.39,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 11.43
+  "month_costs": 11.47
  }
 }
