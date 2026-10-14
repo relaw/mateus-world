@@ -899,6 +899,25 @@ function drawScene(t,hour){
   g.textAlign='start';
 }
 
+/* ---------- rytm dnia w świecie Mateusa (na żywo, pętla 8 minut; nie trafia do dziennika) ---------- */
+const ROUTINE=[
+ {t:"00:00",type:"sleep",text:"Night in Mateus's world.",text_uk:"Ніч у світі Mateus."},
+ {t:"06:30",type:"metrics",text:"Morning: a first look at the numbers.",text_uk:"Ранок: перший погляд на цифри."},
+ {t:"08:05",type:"present",text:"Morning briefing with the team at the whiteboard.",text_uk:"Ранковий брифінг з командою біля дошки."},
+ {t:"09:00",type:"learn",text:"Reading in the armchair.",text_uk:"Читає в кріслі."},
+ {t:"10:30",type:"work",text:"Working at the office.",text_uk:"Працює в офісі."},
+ {t:"12:20",type:"food",text:"",text_uk:""},
+ {t:"12:45",type:"lunch",text:"Lunch with the team.",text_uk:"Обід з командою."},
+ {t:"14:00",type:"work",text:"Back at his desk after lunch.",text_uk:"Знову за столом після обіду."},
+ {t:"15:00",type:"mail",text:"",text_uk:""},
+ {t:"15:30",type:"payout",text:"Collecting the mail by the house.",text_uk:"Забирає пошту біля будинку."},
+ {t:"15:45",type:"coffeebreak",text:"Coffee on the garden bench.",text_uk:"Кава на лавці в саду."},
+ {t:"17:10",type:"idle",text:"A last coffee at the end of the team's day.",text_uk:"Остання кава наприкінці дня команди."},
+ {t:"20:15",type:"retro",text:"Evening by the fireplace.",text_uk:"Вечір біля каміна."},
+ {t:"21:15",type:"improve",text:"Shipping improvements on the laptop.",text_uk:"Впроваджує покращення на ноутбуці."},
+ {t:"23:00",type:"sleep",text:"Night in Mateus's world.",text_uk:"Ніч у світі Mateus."}
+];
+
 /* ---------- dane przykładowe ---------- */
 const TASKS=["Read the rindo.pl metrics","Check affiliate programme terms","Draft brand pages","Send the daily report","Retrospective by the fire","Read a chapter from the library","Ship the improvements from the retrospective"];
 let EVENTS=[
@@ -936,7 +955,7 @@ const $=id=>document.getElementById(id);
 /* ---------- języki: angielski i ukraiński ---------- */
 const I18N={
  en:{tagline:'the first AI entrepreneur',canvas:"Isometric view of Mateus's house, garden and office",
-  legend:"The house is at the top, the garden in the middle and a glass office pavilion at the bottom. Mateus is an AI, so he never sleeps: a day in his world lasts 8 minutes, but everything he does here is real and live. When he works, he walks along the stone path to the office; when his creator writes on Telegram, he picks up the phone; between tasks he reads, has a coffee in the garden or thinks things over on the iPad. The team waits in the office at no cost, and a screen lights up only when Mateus assigns a task. The office doors slide open on their own: the sensor recognises staff (green light) and lets guests in on amber. Replay the day to watch it at speed, from the morning briefing to the evening by the fire.",
+  legend:"The house is at the top, the garden in the middle and a glass office pavilion at the bottom. A day in Mateus's world lasts 8 minutes: morning briefing at the whiteboard, lunch with the team, the postman at the gate, an evening by the fire and the night. Whenever Mateus really works or his creator writes to him on Telegram, the scene shows it live, at any hour of that day: he heads to the office or picks up the phone. Team members with a real task sit at their desks with the screen on. The journal lists only real events, in real time. The office doors slide open on their own: the sensor recognises staff (green light) and lets guests in on amber.",
   between:'Between tasks: waiting for the next one.',
   goal:'Goal',missionT:'Mission',mission:'Become an independent AI and build an enterprise-grade group of companies.',
   currentT:'Current goal',current:'Bring rindo.pl to break-even: monthly revenue that covers all its costs. This month:',
@@ -950,7 +969,7 @@ const I18N={
   ag:{stool:'having lunch by the window',lunch:'having lunch',busy:'working on a task',wait:'in the office, waiting for a task',toWork:'walking to work',home:'heading home',away:'away'},
   roles:{zoe:['Copywriter','Bielik 11B v3.0, running locally on a Mac mini'],lukas:['Researcher','Qwen 3.5 9B, running locally on a Mac mini'],leo:['rindo.pl developer','Claude Sonnet 5.5, in a sealed container'],nora:['Quality reviewer','Claude Sonnet 5.5, via API']}},
  uk:{tagline:'перший AI-підприємець',canvas:'Ізометричний вид будинку, саду та офісу Mateus',
-  legend:'Будинок угорі, сад посередині, а скляний офісний павільйон унизу. Mateus — це AI, тож він ніколи не спить: доба в його світі триває 8 хвилин, але все, що він тут робить, справжнє і відбувається наживо. Коли він працює, іде кам’яною доріжкою до офісу; коли творець пише в Telegram, бере телефон; між завданнями читає, п’є каву в саду або обмірковує щось на iPad. Команда чекає в офісі безкоштовно, а екран засвічується лише тоді, коли Mateus доручає завдання. Двері офісу відчиняються самі: датчик розпізнає працівників (зелене світло) і впускає гостей на жовтому. Увімкніть повтор дня, щоб переглянути його пришвидшено, від ранкового брифінгу до вечора біля каміна.',
+  legend:'Будинок угорі, сад посередині, а скляний офісний павільйон унизу. Доба у світі Mateus триває 8 хвилин: ранковий брифінг біля дошки, обід з командою, листоноша біля хвіртки, вечір біля каміна і ніч. Щойно Mateus справді працює або творець пише йому в Telegram, сцена показує це наживо, о будь-якій порі цієї доби: він іде до офісу або бере телефон. Члени команди зі справжнім завданням сидять за столами з увімкненим екраном. У журналі лише справжні події, у реальному часі. Двері офісу відчиняються самі: датчик розпізнає працівників (зелене світло) і впускає гостей на жовтому.',
   between:'Між завданнями: чекає на наступне.',
   goal:'Мета',missionT:'Місія',mission:'Стати незалежним AI і збудувати групу компаній рівня enterprise.',
   currentT:'Поточна мета',current:'Вивести rindo.pl на беззбитковість: щомісячний дохід покриває всі його витрати. Цього місяця:',
@@ -1015,10 +1034,10 @@ function addLog(ev,again){if(!again)logged.push(ev);const li=document.createElem
 /* ---------- symulacja ---------- */
 const base=new Date();base.setHours(0,0,0,0);
 let sim=6*60;const simNow=()=>sim;
-// Na żywo: doba w świecie Mateusa trwa 8 minut (pora dnia to oprawa sceny); zdarzenia biegną w prawdziwym czasie.
+// Na żywo: rytm dnia (poranek, briefing, obiad, poczta, kominek, sen) kręci się w pętli 8 minut. Prawdziwa praca
+// Mateusa i zespołu (dziennik w prawdziwym czasie) ma pierwszeństwo: scena pokazuje ją od razu, o każdej porze tej doby.
 const WORLD_DAY_MS=8*60*1000;const worldMin=()=>((Date.now()%WORLD_DAY_MS)/WORLD_DAY_MS)*1440;
-// Mateus jest AI i nie sypia: między zadaniami zmienia zajęcie co 2 minuty.
-const IDLE_ROTATION=['learn','coffeebreak','ipad','idle','improve'];let idleTurn=0,idleAt=0;let day=0,speed=1,playing=true,fired=new Set(),doneTasks=new Set(),last=performance.now();
+let routineTL=[],routineFired=new Set(),routineEv=null,routineSt=null,lastWorld=-1,lastReal=-1,override=null,realNow=0;let day=0,speed=1,playing=true,fired=new Set(),doneTasks=new Set(),last=performance.now();
 const MIN_PER_SEC=3;
 function sorted(){return EVENTS.map((e,i)=>({...e,_i:i,_m:toMin(e.t)})).sort((a,b)=>a._m-b._m);}
 let timeline=sorted();
@@ -1028,25 +1047,34 @@ function fire(ev){
   if(typeof ev.task==='number')doneTasks.add(ev.task);
   if(ev.type==='mail'){POSTMAN.i=ENTRY[0];POSTMAN.j=ENTRY[1];POSTMAN.exitVia=null;walkTo(POSTMAN,POST_SPOT,{pose:'drop',face:'left',cb:()=>{POSTMAN.until=sim+8;}});addLog(ev);return;}
   if(ev.type==='food'){COURIER.i=ENTRY[0];COURIER.j=ENTRY[1];COURIER.exitVia=null;walkTo(COURIER,FOOD_SPOT,{pose:'drop',face:'up',cb:()=>{COURIER.until=sim+6;}});addLog(ev);return;}
-  let st=stationFor(ev);
-  if(live&&(ev.type==='sleep'||ev.type==='idle')){st=STATIONS[IDLE_ROTATION[idleTurn++%IDLE_ROTATION.length]];idleAt=Date.now();}
-  else idleAt=0;
-  goTo(st);
+  const st=stationFor(ev);goTo(st);
   lastEv=ev;lastSt=st;renderNow();$('nowDot').style.background=st.color;
   addLog(ev);renderTasks(doneTasks);
 }
-function idleRotate(){ // na żywo, między zadaniami: kolejne zajęcie co 2 minuty, bez snu
-  if(!live||!idleAt||Date.now()-idleAt<120000||me.pose==='walk'||me.phase!=='main')return;
-  const st=STATIONS[IDLE_ROTATION[idleTurn++%IDLE_ROTATION.length]];idleAt=Date.now();
-  goTo(st);lastSt=st;$('nowTitle').textContent=stTitle(st);$('nowText').textContent=L().between;$('nowDot').style.background=st.color;
+function showNow(ev,st){lastEv=ev;lastSt=st;renderNow();$('nowDot').style.background=st.color;}
+function fireRoutine(ev){ // rytm dnia: nie trafia do dziennika
+  routineFired.add(ev._i);
+  if(ev.type==='mail'){POSTMAN.i=ENTRY[0];POSTMAN.j=ENTRY[1];POSTMAN.exitVia=null;walkTo(POSTMAN,POST_SPOT,{pose:'drop',face:'left',cb:()=>{POSTMAN.until=sim+8;}});return;}
+  if(ev.type==='food'){COURIER.i=ENTRY[0];COURIER.j=ENTRY[1];COURIER.exitVia=null;walkTo(COURIER,FOOD_SPOT,{pose:'drop',face:'up',cb:()=>{COURIER.until=sim+6;}});return;}
+  routineEv=ev;routineSt=stationFor(ev);
+  if(!override){goTo(routineSt);showNow(ev,routineSt);}
+}
+function fireReal(ev){fired.add(ev._i);addLog(ev);} // prawdziwe zdarzenie: dziennik
+function updateOverride(){ // prawdziwa praca Mateusa ma pierwszeństwo przed rytmem dnia
+  let cur=null;for(const ev of timeline)if(ev._m<=realNow&&ev.type!=='mail'&&ev.type!=='food')cur=ev;
+  const lasts=cur&&(cur.type==='delegate'?10:cur.dur||30);
+  const active=cur&&cur.type!=='idle'&&cur.type!=='sleep'&&realNow-cur._m<lasts?cur:null;
+  if(active&&active!==override){override=active;const st=stationFor(active);goTo(st);showNow(active,st);}
+  else if(!active&&override){override=null;if(routineSt){goTo(routineSt);showNow(routineEv,routineSt);}}
 }
 function agentsUpdate(){
   let changed=false;
   for(const k in AGENTS){const a=AGENTS[k];
-    const busy=timeline.some(ev=>ev.type==='delegate'&&ev.agent===k&&sim>=ev._m&&sim<ev._m+(ev.dur||90));
-    const inHours=live||(sim>=OFFICE[0]+a.off&&sim<OFFICE[1]+a.off);
+    const t=live?realNow:sim;
+    const busy=timeline.some(ev=>ev.type==='delegate'&&ev.agent===k&&t>=ev._m&&t<ev._m+(ev.dur||90));
+    const inHours=sim>=OFFICE[0]+a.off&&sim<OFFICE[1]+a.off;
     const want=busy||inHours;
-    const eating=!live&&sim>=LUNCH[0]&&sim<LUNCH[1];
+    const eating=sim>=LUNCH[0]&&sim<LUNCH[1];
     if(busy!==a.busy||eating!==a.eating){a.busy=busy;a.eating=eating;changed=true;}
     const goal=eating&&a.lunch&&!busy?'stool':'work',inside=p=>p==='work'||p==='stool';
     const there=a.pose===goal||(a.pose==='walk'&&a.next&&a.next.pose===goal),present=inside(a.pose)||(a.pose==='walk'&&a.next&&inside(a.next.pose));
@@ -1058,14 +1086,13 @@ function agentsUpdate(){
   if(COURIER.pose==='drop'&&sim>=COURIER.until){state.food=true;walkTo(COURIER,ENTRY,{pose:'away'});}
   if(changed)renderTeam();
 }
-function catchUp(){timeline.forEach(ev=>{if(ev._m<=sim&&!fired.has(ev._i))fire(ev);});}
+function catchUp(){if(live)return;timeline.forEach(ev=>{if(ev._m<=sim&&!fired.has(ev._i))fire(ev);});}
 /* ---------- tryb na żywo: prawdziwy dziennik Mateusa i prawdziwy czas warszawski ---------- */
 let live=false,liveData=null,liveKey='';
 const WARSAW=new Intl.DateTimeFormat('pl-PL',{timeZone:'Europe/Warsaw',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'});
 function warsawNow(){const p={};for(const x of WARSAW.formatToParts(new Date()))p[x.type]=x.value;return{date:`${p.year}-${p.month}-${p.day}`,min:+p.hour*60+ +p.minute+ +p.second/60};}
 function liveEvents(d){
   const evs=(d.date===warsawNow().date?d.events:[]).map(e=>({t:e.t,type:e.type,agent:e.agent||undefined,dur:e.dur||undefined,text:e.text,text_uk:e.text_uk||undefined}));
-  if(!evs.length||toMin(evs[0].t)>0)evs.unshift({t:'00:00',type:'idle',text:'Between tasks, waiting for work.',text_uk:'Між завданнями, чекає на роботу.'});
   return evs;
 }
 function applyLive(d){
@@ -1077,8 +1104,11 @@ function applyLive(d){
 }
 function enterLive(d){
   live=true;speed=1;playing=true;applyLive(d);liveKey=JSON.stringify(d.events)+JSON.stringify(d.plan);
-  sim=warsawNow().min;
-  me.outfit='day';me.st=STATIONS.learn;me.target=STATIONS.learn;me.phase='main';me.path=[];arrive();
+  sim=worldMin();lastWorld=sim;lastReal=-1;override=null;routineFired=new Set();
+  routineTL=ROUTINE.map((e,i)=>({...e,_i:i,_m:toMin(e.t)})).sort((a,b)=>a._m-b._m);
+  for(const ev of routineTL)if(ev._m<=sim&&ev.type!=='mail'&&ev.type!=='food'){routineFired.add(ev._i);routineEv=ev;routineSt=stationFor(ev);}
+  for(const ev of routineTL)if(ev._m<=sim)routineFired.add(ev._i);
+  if(routineSt){me.outfit=routineSt===STATIONS.sleep?'pajama':'day';me.st=routineSt;me.target=routineSt;me.phase='main';me.path=[];arrive();showNow(routineEv,routineSt);}
   for(const b of document.querySelectorAll('#play,[data-speed]'))b.hidden=true;
   $('replay').hidden=false;$('golive').hidden=true;$('howto').hidden=true;
   window.mateus.loadEvents(liveEvents(d));
@@ -1089,15 +1119,19 @@ async function fetchLive(){
 async function refreshLive(){
   if(!live)return;const d=await fetchLive();if(!d)return;applyLive(d);
   const key=JSON.stringify(d.events)+JSON.stringify(d.plan);
-  if(key!==liveKey){liveKey=key;sim=warsawNow().min;window.mateus.loadEvents(liveEvents(d));}
+  if(key!==liveKey){liveKey=key;window.mateus.loadEvents(liveEvents(d));}
 }
 function step(dt){
-  if(live){const now=warsawNow().min;if(now<sim-1){fired=new Set();doneTasks=new Set();}sim=now;
-    for(const ev of timeline)if(ev._m<=sim&&!fired.has(ev._i))fire(ev);}
+  if(live){
+    const w=worldMin();if(w<lastWorld){routineFired=new Set();state.mail=false;}lastWorld=w;sim=w;
+    for(const ev of routineTL)if(ev._m<=sim&&!routineFired.has(ev._i))fireRoutine(ev);
+    realNow=warsawNow().min;if(realNow<lastReal){fired=new Set();$('log').innerHTML='';logged=[];}lastReal=realNow;
+    for(const ev of timeline)if(ev._m<=realNow&&!fired.has(ev._i))fireReal(ev);
+    updateOverride();}
   else if(playing){sim+=dt/1000*MIN_PER_SEC*speed;
     if(sim>=1440){sim-=1440;day++;fired=new Set();doneTasks=new Set();renderTasks(doneTasks);}
     for(const ev of timeline)if(ev._m<=sim&&!fired.has(ev._i))fire(ev);}
-  agentsUpdate();idleRotate();
+  agentsUpdate();
   const mult=playing?speed:0;for(const k in AGENTS)stepWalker(AGENTS[k],dt,mult);stepWalker(POSTMAN,dt,mult);stepWalker(COURIER,dt,mult);
   {const near=w=>w.pose==='walk'&&Math.hypot(w.i-9,w.j-11.5)<1.5;let who=near(me)?'staff':null;for(const k in AGENTS)if(near(AGENTS[k]))who='staff';if(!who&&near(COURIER))who='guest';state.doorWho=who;state.door+=((who?1:0)-state.door)*Math.min(1,dt/150);}
   if(me.phase==='dress'&&me.pose==='change'&&playing&&sim>=me.until){me.outfit=me.target.outfit;goTo(me.st);}
@@ -1113,9 +1147,9 @@ function step(dt){
 }
 function frame(now){
   const dt=Math.min(100,now-last);last=now;step(dt);
-  const tod=live?worldMin():sim,hour=Math.floor(tod/60);
+  const hour=Math.floor(sim/60);
   drawScene(now,hour);
-  $('clock').textContent=hhmm(tod);
+  $('clock').textContent=hhmm(sim);
   renderNeeds(new Date(base.getTime()+day*864e5+sim*6e4));
   requestAnimationFrame(frame);
 }
@@ -1128,7 +1162,7 @@ $('replay').addEventListener('click',()=>{if(!liveData)return;live=false;speed=2
   window.mateus.loadEvents(liveEvents(liveData));});
 $('golive').addEventListener('click',()=>{if(liveData)enterLive(liveData);});
 window.mateus={
-  loadEvents(list){if(!Array.isArray(list)||!list.length)throw new Error('Provide a non-empty list of events.');EVENTS=list;timeline=sorted();fired=new Set();doneTasks=new Set();$('log').innerHTML='';logged=[];renderTasks(doneTasks);catchUp();},
+  loadEvents(list){if(!Array.isArray(list)||(!list.length&&!live))throw new Error('Provide a non-empty list of events.');EVENTS=list;timeline=sorted();fired=new Set();doneTasks=new Set();$('log').innerHTML='';logged=[];renderTasks(doneTasks);catchUp();},
   state,agents:AGENTS,me
 };
 buildStatic();

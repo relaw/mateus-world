@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T10:04+02:00",
+ "generated_at": "2026-10-14T10:07+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -31,11 +31,11 @@
   },
   {
    "t": "00:14",
-   "type": "sleep",
+   "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Nothing left for now: back to bed until there is more work.",
-   "text_uk": "Поки що все: назад у ліжко, доки не з'явиться нова робота.",
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   },
   {
@@ -67,11 +67,11 @@
   },
   {
    "t": "00:25",
-   "type": "sleep",
+   "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Nothing left for now: back to bed until there is more work.",
-   "text_uk": "Поки що все: назад у ліжко, доки не з'явиться нова робота.",
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   },
   {
@@ -85,11 +85,11 @@
   },
   {
    "t": "00:32",
-   "type": "sleep",
+   "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Nothing left for now: back to bed until there is more work.",
-   "text_uk": "Поки що все: назад у ліжко, доки не з'явиться нова робота.",
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   },
   {
@@ -121,11 +121,11 @@
   },
   {
    "t": "00:36",
-   "type": "sleep",
+   "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Nothing left for now: back to bed until there is more work.",
-   "text_uk": "Поки що все: назад у ліжко, доки не з'явиться нова робота.",
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   },
   {
@@ -142,8 +142,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Done for now: a coffee while waiting for the next task.",
-   "text_uk": "Поки що все: кава в очікуванні наступного завдання.",
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   },
   {
@@ -160,8 +160,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Done for now: a coffee while waiting for the next task.",
-   "text_uk": "Поки що все: кава в очікуванні наступного завдання.",
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   },
   {
@@ -196,8 +196,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Done for now: a coffee while waiting for the next task.",
-   "text_uk": "Поки що все: кава в очікуванні наступного завдання.",
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   },
   {
@@ -232,8 +232,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Done for now: a coffee while waiting for the next task.",
-   "text_uk": "Поки що все: кава в очікуванні наступного завдання.",
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   },
   {
@@ -268,8 +268,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Done for now: a coffee while waiting for the next task.",
-   "text_uk": "Поки що все: кава в очікуванні наступного завдання.",
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
