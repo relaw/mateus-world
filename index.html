@@ -305,6 +305,8 @@ const CH={
   zoe:buildChar({h:'#b8662e',H:'#e0945a',j:'#c8506a',J:'#a03c56',k:'#e57a92',c:'#f6e8ee',p:'#2f2f45',P:'#22223a',r:'#b8445a'},'zoe'),
   lukas:buildChar({h:'#c9a24a',H:'#ead27a',j:'#e08a3a',J:'#b86a28',k:'#f2aa62',c:'#f6d8b8',p:'#3a4a5a',P:'#2a3644',s:'#e6b08a',S:'#c8906a',g:'#2a2a32',G:'#5aa7e0'},'lukas'),
   nora:buildChar({h:'#2a1e2e',H:'#54405e',j:'#6a5aa8',J:'#4f4288',k:'#8a7ac8',c:'#ffffff',p:'#2b2b38',P:'#1e1e28',s:'#d9a07c',S:'#b8805e',r:'#a8445a'},'nora'),
+  iris:buildChar({h:'#5a2e4a',H:'#8a4a72',j:'#d98ac0',J:'#b86aa0',k:'#f0b0dc',c:'#fbeaf4',p:'#2f2f45',P:'#22223a',r:'#b8445a'},'zoe'),
+  max:buildChar({h:'#4a3420',H:'#6a4c30',b:'#4a3420',j:'#8aa83f',J:'#6a8a2a',k:'#aac85a',c:'#f2f2e6',p:'#3a3a2a',P:'#2a2a1e',C:'#6a7a2a',Y:'#e8c85a',V:'#3a4418'},'cap'),
   leo:buildChar({h:'#3a2a1e',H:'#5a4030',j:'#3f8ac8',J:'#2f6aa0',k:'#6aaae0',c:'#e8f2fc',p:'#2a2f3a',P:'#1e222a',g:'#2a2a32',G:'#d9452f'},'leo'),
   postman:buildChar({h:'#3a2a20',H:'#5a4030',b:'#4a3020',j:'#2f5f9e',J:'#244a7c',k:'#4a7cc0',c:'#f2d65a',p:'#1f2a44',P:'#141c30',C:'#2f5f9e',Y:'#f2d65a',V:'#1a2a48'},'cap'),
   courier:buildChar({h:'#2a1e1a',H:'#4a3a30',b:'#2a1e1a',j:'#3f9a52',J:'#2f7a40',k:'#5ab86c',c:'#f2f2f2',p:'#2a2a32',P:'#1a1a22',s:'#c98a64',S:'#a86e4c',C:'#3f9a52',Y:'#ffffff',V:'#1f3a24'},'cap')
@@ -327,9 +329,11 @@ const AGENTS={
   zoe:{name:'Zoe',role:'Copywriter',model:'',color:'#c8506a',desk:[12.1,14.5],sit:'up',seat:[12.7,15.85],spot:[11.75,16.0],spotFace:'right',via:[[12.7,16.45]],off:0,lunch:{p:[9.8,12.75],via:[[10.45,12.75]]}},
   lukas:{name:'Lukas',role:'Researcher',model:'',color:'#e08a3a',desk:[13.3,14.5],sit:'up',seat:[13.9,15.85],spot:[14.85,15.9],spotFace:'left',via:[[13.9,16.45]],off:6,lab:15,lunch:{p:[9.8,14.05],via:[[10.45,14.05]]}},
   leo:{name:'Leo',role:'rindo.pl developer',model:'',color:'#3f8ac8',desk:[9.2,15.2],sit:'up',seat:[9.8,16.45],spot:[10.8,16.6],spotFace:'left',via:[[10.75,16.5]],off:18,gear:'dual'},
-  nora:{name:'Nora',role:'Quality reviewer',model:'',color:'#6a5aa8',desk:[12.1,13.7],sit:'down',seat:[12.7,13.15],spot:[11.8,13.1],spotFace:'right',via:[[12.7,12.45]],off:12}
+  nora:{name:'Nora',role:'Quality reviewer',model:'',color:'#6a5aa8',desk:[12.1,13.7],sit:'down',seat:[12.7,13.15],spot:[11.8,13.1],spotFace:'right',via:[[12.7,12.45]],off:12},
+  iris:{name:'Iris',role:'SEO and AI search',model:'',color:'#d98ac0',desk:[13.3,13.7],sit:'down',seat:[13.9,13.15],spot:[14.3,12.75],spotFace:'left',via:[[13.9,12.45]],off:9},
+  max:{name:'Max',role:'Code hunter',model:'',color:'#8aa83f',desk:[14.5,13.7],sit:'down',seat:[15.1,13.15],spot:[15.95,14.35],spotFace:'left',via:[[15.1,12.45]],off:15,lab:6}
 };
-const SPARE={desk:[13.3,13.7],sit:'down',seat:[13.9,13.15],color:'#8a96a4'}; // wolne biurko na kolejnego agenta
+const SPARE=null; // wolne biurko zajęła Iris; kolejny agent dostanie nowe miejsce
 const ENTRY=[3.5,12.6],POST_SPOT=[6.95,5.75],FOOD_SPOT=[10.05,11.2];
 for(const k in AGENTS)Object.assign(AGENTS[k],{vis:0,active:false,busy:false,eating:false,i:ENTRY[0],j:ENTRY[1],path:[],face:'right',pose:'away',step:0,next:null,exitVia:null});
 const POSTMAN={name:'Listonosz',i:ENTRY[0],j:ENTRY[1],path:[],face:'right',pose:'away',step:0,next:null,until:0,exitVia:null};
@@ -364,8 +368,8 @@ const FOOT=[
   [6.1,6.0,.8,1.3],[6.1,8.25,.7,.7],[8.1,3.6,.75,1.0],[8.95,5.05,1.0,1.7],[9.33,7.13,.24,.24],[4.55,8.25,.7,.7],
   // biuro
   [11.2,10,2.2,.95],[12.0,11.1,.65,.6],[13.7,10,1.4,.4],[15.25,10,.75,.8],[9.15,10.05,1.8,.75],
-  [12.1,13.7,1.2,.8],[13.3,13.7,1.2,.8],[12.1,14.5,1.2,.8],[13.3,14.5,1.2,.8],[9.2,15.2,1.2,.8],
-  [12.4,12.85,.6,.6],[13.6,12.85,.6,.6],[12.4,15.55,.6,.6],[13.6,15.55,.6,.6],[9.5,16.15,.6,.6],[16.2,13.3,.6,.6],
+  [12.1,13.7,1.2,.8],[13.3,13.7,1.2,.8],[14.5,13.7,1.2,.8],[12.1,14.5,1.2,.8],[13.3,14.5,1.2,.8],[9.2,15.2,1.2,.8],
+  [12.4,12.85,.6,.6],[13.6,12.85,.6,.6],[14.8,12.85,.6,.6],[12.4,15.55,.6,.6],[13.6,15.55,.6,.6],[9.5,16.15,.6,.6],[16.2,13.3,.6,.6],
   [9.05,12.45,.4,1.9],[9.62,12.57,.36,.36],[9.62,13.87,.36,.36]
 ];
 const blocked=new Set();
@@ -665,8 +669,8 @@ function furniture(t,hour){
     box(9.85,10.45,.13,.13,6,'#ffffff',32);box(10.05,10.45,.13,.13,6,'#c8612a',32);box(10.55,10.15,.25,.35,10,'#c8a07a',32);
     if(state.food){box(9.8,10.12,.3,.25,9,'#5ab86c',32);box(9.82,10.14,.26,.21,1,'#3f9a52',41);box(10.2,10.15,.25,.22,7,'#e8d8b8',32);box(10.22,10.17,.21,.18,1,'#c8a07a',39);}});
   // biurka zespołu: wyspa na środku i stanowisko Leo w rogu
-  add(-.7,()=>{fl(11.8,13.35,14.8,15.55,.4,'#b8c4d2');fl(11.9,13.45,14.7,15.45,.5,'#c6d0dc');});
-  for(const a of [...Object.values(AGENTS),SPARE]){const[i0,J0]=a.desk,[si,sj]=a.seat,dn=a.sit==='down';
+  add(-.7,()=>{fl(11.8,13.35,16.0,15.55,.4,'#b8c4d2');fl(11.9,13.45,15.9,15.45,.5,'#c6d0dc');});
+  for(const a of Object.values(AGENTS)){const[i0,J0]=a.desk,[si,sj]=a.seat,dn=a.sit==='down';
     add(i0+J0+2,[i0,J0,i0+1.2,J0+.8],()=>agentDesk(a,t));
     const back=dn?[si-.25,sj-.28,si+.25,sj-.2]:[si-.25,sj+.2,si+.25,sj+.28];
     add(si+sj+.55,[si-.3,sj-.3,si+.3,sj+.2],()=>officeChair(si,sj,a.color,'seat',a.sit));
@@ -968,7 +972,7 @@ const I18N={
   pause:'Pause',resume:'Resume',replay:'Replay the day',golive:'Live',sample:'Prototype on sample data',live:t=>'Live · updated '+t,replayOf:d=>'Replay of '+d,
   boss:'boss',bossDesc:'Founder and CEO. Reads the numbers, sets the plan, assigns tasks and reports to his creator.',assign:'Assigning a task: ',
   ag:{stool:'having lunch by the window',lunch:'having lunch',busy:'working on a task',wait:'in the office, waiting for a task',toWork:'walking to work',home:'heading home',away:'away'},
-  roles:{zoe:['Copywriter','local B','Writes brand pages and texts in Polish'],lukas:['Researcher','local Q','Reads terms, programmes and the market'],leo:['rindo.pl developer','external','Builds the site, change by change'],nora:['Quality reviewer','external','Checks every text before it goes live']},bossTag:'external'},
+  roles:{zoe:['Copywriter','local B','Writes brand pages and texts in Polish'],lukas:['Researcher','local Q','Reads terms, programmes and the market'],leo:['rindo.pl developer','external','Builds the site, change by change'],nora:['Quality reviewer','external','Checks every text before it goes live'],iris:['SEO and AI search','local Q','Makes rindo.pl easy to find and to quote'],max:['Code hunter','local Q','Finds new discount codes to verify']},bossTag:'external'},
  uk:{tagline:'перший AI-підприємець',canvas:'Ізометричний вид будинку, саду та офісу Mateus',
   legend:'Будинок угорі, сад посередині, а скляний офісний павільйон унизу. Доба у світі Mateus триває 8 хвилин: ранковий брифінг біля дошки, обід з командою, листоноша біля хвіртки, вечір біля каміна і ніч. Щойно Mateus справді працює або творець пише йому в Telegram, сцена показує це наживо, о будь-якій порі цієї доби: він іде до офісу або бере телефон. Члени команди зі справжнім завданням сидять за столами з увімкненим екраном. У журналі лише справжні події, у реальному часі. Двері офісу відчиняються самі: датчик розпізнає працівників (зелене світло) і впускає гостей на жовтому.',
   between:'Між завданнями: чекає на наступне.',
@@ -982,7 +986,7 @@ const I18N={
   pause:'Пауза',resume:'Продовжити',replay:'Повтор дня',golive:'Наживо',sample:'Прототип на прикладових даних',live:t=>'Наживо · оновлено '+t,replayOf:d=>'Повтор дня '+d,
   boss:'бос',bossDesc:'Засновник і CEO. Читає цифри, складає план, розподіляє завдання і звітує творцю.',assign:'Доручає завдання: ',
   ag:{stool:'обідає біля вікна',lunch:'обідає',busy:'працює над завданням',wait:'в офісі, чекає на завдання',toWork:'йде на роботу',home:'йде додому',away:'немає на місці'},
-  roles:{zoe:['Копірайтерка','локальна B','Пише сторінки брендів і тексти польською'],lukas:['Дослідник','локальний Q','Читає правила, програми й ринок'],leo:['Розробник rindo.pl','зовнішній','Будує сайт, зміна за зміною'],nora:['Рецензентка якості','зовнішня','Перевіряє кожен текст перед публікацією']},bossTag:'зовнішній',
+  roles:{zoe:['Копірайтерка','локальна B','Пише сторінки брендів і тексти польською'],lukas:['Дослідник','локальний Q','Читає правила, програми й ринок'],leo:['Розробник rindo.pl','зовнішній','Будує сайт, зміна за зміною'],nora:['Рецензентка якості','зовнішня','Перевіряє кожен текст перед публікацією'],iris:['SEO і AI-пошук','локальна Q','Робить rindo.pl помітним для пошуку й AI'],max:['Мисливець за кодами','локальний Q','Знаходить нові промокоди для перевірки']},bossTag:'зовнішній',
   st:{sleep:'Спить',metrics:'Переглядає метрики в офісі',work:'Працює в офісі',telegram:'Пише в Telegram',retro:'Розпалює камін і розмірковує',learn:'Читає в кріслі',improve:'Впроваджує покращення',ipad:'Аналізує на iPad у кріслі',payout:'Забирає пошту біля будинку',idle:'Кава біля кавоварки',coffeebreak:'Кава на лавці в саду',present:'Брифінг команди біля дошки',lunch:'Обід з командою'},
   tasks:['Переглянути метрики rindo.pl','Перевірити умови партнерських програм','Підготувати чернетки сторінок брендів','Надіслати щоденний звіт','Ретроспектива біля каміна','Прочитати розділ з бібліотеки','Впровадити покращення після ретроспективи']}
 };
