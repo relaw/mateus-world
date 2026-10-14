@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T10:58+02:00",
+ "generated_at": "2026-10-14T11:02+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -429,7 +429,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 25,
+   "dur": 29,
    "text": "Lukas received a publisher contract for analysis from one of the two selected affiliate networks (payment paths, commission reversal rules, code usage guidelines). The result will be in the next block.",
    "text_uk": "Лукас отримав на аналіз угоду видавця однієї з двох обраних партнерських мереж (шляхи платежів, скасування комісії, правила для кодів). Результат — у наступному блоці.",
    "task": 6
@@ -460,6 +460,15 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "10:59",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 18,
+   "text": "Task for Zoe: Write in Polish a draft of the \"Privacy Policy and Cookies\" page for the rindo.pl service (a static site with discount codes, affiliate links...).",
+   "text_uk": "Завдання для Zoe: Напиши польською чернетку сторінки «Політика конфіденційності та cookies» для сайту rindo.pl (статичний сайт із промокодами, партнерські посилання…",
+   "task": 15
   }
  ],
  "plan": [
