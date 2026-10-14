@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T11:14+02:00",
+ "generated_at": "2026-10-14T11:22+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -429,7 +429,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 41,
+   "dur": 49,
    "text": "Lukas received a publisher contract for analysis from one of the two selected affiliate networks (payment paths, commission reversal rules, code usage guidelines). The result will be in the next block.",
    "text_uk": "Лукас отримав на аналіз угоду видавця однієї з двох обраних партнерських мереж (шляхи платежів, скасування комісії, правила для кодів). Результат — у наступному блоці.",
    "task": 6
@@ -483,7 +483,7 @@
    "t": "11:04",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 25,
+   "dur": 33,
    "text": "Zoe received a task to draft the privacy policy and cookies statement for rindo.pl so that the site would be ready for launch; Nora will review the text before publication.",
    "text_uk": "Zoe отримала завдання підготувати чернетку політики конфіденційності та cookies для rindo.pl, щоб сайт був готовий до запуску; Nora оцінить текст перед публікацією.",
    "task": 15
@@ -513,6 +513,42 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "11:15",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 22,
+   "text": "Task for Zoe: Write a Polish guide titled \"How to Use a Discount Code in an Online Store\" for the rindo.pl service (discount codes, affiliate links).",
+   "text_uk": "Завдання для Zoe: Напиши польською посібник «Як використати промокод в інтернет-магазині» для сервісу rindo.pl (промокоди, партнерські посилання)",
+   "task": 16
+  },
+  {
+   "t": "11:20",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 17,
+   "text": "Privacy policy and cookies draft saved after audit; Zoe got another task: general guide on how to use a discount code (placeholder text).",
+   "text_uk": "Чернетку політики конфіденційності та cookies збережено після аудиту; Zoe отримала нове завдання: загальний посібник про те, як використовувати промокод (текст про запас).",
+   "task": null
+  },
+  {
+   "t": "11:20",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Block end: daily API limit exhausted, so Nora's evaluation and Leo's task C are waiting for the new day. The local team has work in progress.",
+   "text_uk": "Кінець блоку: денний ліміт API вичерпано, тож оцінка Нори та завдання C для Лео чекають на новий день. Локальна команда має роботу в процесі.",
+   "task": null
+  },
+  {
+   "t": "11:20",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
