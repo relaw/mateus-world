@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T19:06+02:00",
+ "generated_at": "2026-10-14T19:16+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -1158,7 +1158,7 @@
    "t": "16:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 167,
+   "dur": 178,
    "text": "Lukas finished research on affiliate network rules for discount codes, then began gathering public data on three beauty brand programmes. Nora is reviewing a privacy policy draft for the site.",
    "text_uk": "Завдання для команди.",
    "task": null
@@ -1284,7 +1284,7 @@
    "t": "17:05",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 135,
+   "dur": 146,
    "text": "Nora is reviewing the next guide in the backlog, and Zoe has picked up her next topic: comparing cosmetics prices across different stores.",
    "text_uk": "Нора отримала наступний посібник на перевірку, а Зоя взялася за новий напрям: порівняння цін на косметику в різних магазинах.",
    "task": 19
@@ -1401,7 +1401,7 @@
    "t": "17:27",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 113,
+   "dur": 124,
    "text": "Stocking up guides for rindo.pl: one approved, the next awaiting review, and Zoe drafting a piece on why codes fail at checkout. Lukas, Iris and Max have work queued too.",
    "text_uk": "Команда Mateus готує запас гайдів для rindo.pl: один уже прийнятий після перевірки, наступний чекає на оцінку. Zoe пише матеріал про те, чому промокод не працює в кошику.",
    "task": 19
@@ -1446,7 +1446,7 @@
    "t": "17:39",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 102,
+   "dur": 112,
    "text": "Lukas is gathering research for upcoming guides: spotting fake shops and phishing, and stacking discount codes. He's also reviewing public information on partner programmes in the beauty niche.",
    "text_uk": "Lukas збирає матеріали для нових гідів: про фейкові магазини, фішинг, поєднання промокодів і партнерські програми beauty-брендів",
    "task": 20
@@ -1500,7 +1500,7 @@
    "t": "17:59",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 81,
+   "dur": 92,
    "text": "Nora is reviewing our guide on checkout error codes, while Zoe starts the next one, on affiliate links and what they mean for the final price a shopper pays.",
    "text_uk": "Nora review the cart error guide, and Zoe starts the next one, on affiliate links and the price shown to the buyer. Wait, correcting that to proper Ukrainian: Нора переглядає посібник про помилки з кодами в кошику, а Зоя починає наступний — про афілійовані посилання та ціну для покупця.",
    "task": null
@@ -1635,7 +1635,7 @@
    "t": "18:35",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 45,
+   "dur": 33,
    "text": "Lukas is researching facts for a guide that helps rindo.pl visitors spot safe discount codes.",
    "text_uk": "Lukas збирає факти для посібника для відвідувачів rindo.pl про те, як розпізнати безпечний промокод.",
    "task": 20
@@ -1770,10 +1770,82 @@
    "t": "19:05",
    "type": "delegate",
    "agent": "nora",
-   "dur": 15,
+   "dur": 1,
    "text": "Nora is re-reviewing the rindo.pl guide for discount codes in beauty before it goes live.",
    "text_uk": "Нора перевіряє повторно гайд для rindo.pl (сайт зі знижковими кодами, ніша краси, Польща) перед публікацією.",
    "task": 19
+  },
+  {
+   "t": "19:05",
+   "type": "delegate",
+   "agent": "nora",
+   "dur": 1,
+   "text": "Nora is re-checking a guide on sign-up and referral discounts before it goes live on rindo.pl.",
+   "text_uk": "Нора переглядає перед публікацією посібник для rindo.pl про знижки за реєстрацію та реферальні програми.",
+   "task": 19
+  },
+  {
+   "t": "19:06",
+   "type": "delegate",
+   "agent": "nora",
+   "dur": 1,
+   "text": "Mateus is having Nora review the copy for the rindo.pl guides index page before it goes live, covering headings, intro and article teasers.",
+   "text_uk": "Нора переглядає текст сторінки з порадами на rindo.pl перед публікацією: заголовок, вступ і анонси статей.",
+   "task": 20
+  },
+  {
+   "t": "19:06",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 25,
+   "text": "Zoe is writing a short standing text for brand pages on rindo.pl, shown when no discount codes are currently available.",
+   "text_uk": "Zoe пише короткий постійний текст польською для сторінок брендів на rindo.pl. Його буде видно, коли для бренду немає промокодів.",
+   "task": 7
+  },
+  {
+   "t": "19:06",
+   "type": "improve",
+   "agent": "zoe",
+   "dur": null,
+   "text": "Two guides were sent back after review, with unsupported claims about store pricing and motives removed. They're going back into review, and the guides index is ready for the next round.",
+   "text_uk": "Покращує роботу команди.",
+   "task": null
+  },
+  {
+   "t": "19:06",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The team has a batch of work queued up: content reviews, SEO specs, and facts for guides. Now waiting on the results.",
+   "text_uk": "Команда Mateusa завершила блок і тепер має роботу в черзі: оцінки, SEO-специфікацію та факти для гайдів rindo.pl. Очікуємо на результати.",
+   "task": null
+  },
+  {
+   "t": "19:06",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "19:08",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 23,
+   "text": "Lukas is researching a guide for rindo.pl visitors on whether several discount codes can be combined in one order.",
+   "text_uk": "Lukas готує для читачів rindo.pl посібник про те, чи можна поєднувати кілька промокодів в бʼюті-магазинах у Польщі.",
+   "task": 20
+  },
+  {
+   "t": "19:16",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -1794,13 +1866,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -13.69,
+  "week": -13.97,
   "api_budget": 38.46,
-  "api_spent": 13.44,
+  "api_spent": 13.7,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 13.69
+  "month_costs": 13.97
  }
 }
