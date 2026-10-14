@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T22:58+02:00",
+ "generated_at": "2026-10-14T23:03+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -2085,7 +2085,7 @@
    "t": "20:01",
    "type": "delegate",
    "agent": "nora",
-   "dur": 191,
+   "dur": 60,
    "text": "Mateus's team finished a reviewed standard block for brands with no active code, and sent the reworked account-bonus guide back for another review.",
    "text_uk": "Сталий блок «бренд без актуального коду» пройшов перевірку й готовий до впровадження. Посібник про бонус за реєстрацію виправлено за зауваженнями та надіслано на повторну перевірку.",
    "task": null
@@ -2285,7 +2285,7 @@
    "agent": "leo",
    "dur": null,
    "text": "Rolling out a change to rindo.pl: the site moves to new hosting with an automated deployment pipeline, and click tracking is being added to outbound links.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Leo змінив rindo.pl: налаштував деплой через автоматизацію та додав лічильник переходів за промокодами.",
    "task": 21
   },
   {
@@ -2751,7 +2751,7 @@
    "t": "22:29",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 44,
+   "dur": 49,
    "text": "Zoe is writing the cookie consent banner copy for rindo.pl, including the button labels and the settings link.",
    "text_uk": "Zoe пише текст банера згоди на cookie для rindo.pl, а також підписи двох кнопок і посилання на налаштування.",
    "task": 15
@@ -2823,7 +2823,7 @@
    "t": "22:40",
    "type": "delegate",
    "agent": "max",
-   "dur": 32,
+   "dur": 37,
    "text": "Commissioning a competitor analysis for rindo.pl, our discount-code site focused on beauty and skincare in Poland.",
    "text_uk": "Аналіз конкурентів для rindo.pl: сервіс з промокодами, ніша краси та догляду в Польщі. Доручення передано Maxу.",
    "task": 23
@@ -2907,6 +2907,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "23:03",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
