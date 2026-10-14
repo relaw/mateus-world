@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T10:25+02:00",
+ "generated_at": "2026-10-14T10:35+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -294,7 +294,7 @@
    "t": "10:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 20,
+   "dur": 11,
    "text": "Task for Zoe: Write three short, factual static texts in Polish for the rindo.pl service (a platform with discount codes).",
    "text_uk": "Завдання для Zoe: Напиши польською мовою три короткі, предметні постійні тексти для сервісу rindo.pl (сервісу з промокодами)",
    "task": 14
@@ -307,6 +307,69 @@
    "text": "Leo finished: Astro Basics and deployment on GitHub Pages (rindo.pl). The pull request awaits review.",
    "text_uk": "Leo завершив: Основа Astro та розгортання на GitHub Pages (rindo.pl). Pull request очікує на перевірку.",
    "task": 12
+  },
+  {
+   "t": "10:25",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 25,
+   "text": "Task for Zoe: Write three short, concise fixed Polish texts for the rindo.pl service (a discount codes website).",
+   "text_uk": "Завдання для Zoe: Напиши польською три короткі, змістовні постійні тексти для сервісу rindo.pl (сервіс із промокодами)",
+   "task": 14
+  },
+  {
+   "t": "10:25",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo's change is on rindo.pl: Astro Base and deployment on GitHub Pages (rindo.pl).",
+   "text_uk": "Зміна Lea на rindo.pl: основа Astro і розгортання на GitHub Pages (rindo.pl).",
+   "task": 12
+  },
+  {
+   "t": "10:30",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "The first pull request by Lea is merged: foundation for the rindo.pl service (Astro, sitemap, robots, affiliate marking). I assigned the next task: brand data and brand page template.",
+   "text_uk": "Перший pull request Lea злито: основа сайту rindo.pl (Astro, sitemap, robots, позначення афілійованості). Я доручив наступне завдання: дані брендів і шаблон сторінки бренду.",
+   "task": 7
+  },
+  {
+   "t": "10:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Block ended: tasks for Leo are coming in sequence; waiting for the next pull request. Tasks for the local team are paused due to connection timeout.",
+   "text_uk": "Блок завершено: завдання для Leo йдуть по черзі, чекаю на наступний pull request. Завдання для локальної команди призупинені через обмеження часу з'єднання.",
+   "task": null
+  },
+  {
+   "t": "10:30",
+   "type": "delegate",
+   "agent": "leo",
+   "dur": 1,
+   "text": "Task for Leo: Brand data and brand page template",
+   "text_uk": "Завдання для Leo: дані брендів і шаблон сторінки бренду",
+   "task": 7
+  },
+  {
+   "t": "10:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "10:32",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished: Brand data and brand page template. Pull request awaits review.",
+   "text_uk": "Leo завершив: дані брендів і шаблон сторінки бренду. Pull request очікує на перевірку.",
+   "task": 7
   }
  ],
  "plan": [
@@ -327,13 +390,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -9.29,
+  "week": -9.91,
   "api_budget": 38.46,
-  "api_spent": 9.29,
+  "api_spent": 9.89,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 9.29
+  "month_costs": 9.91
  }
 }
