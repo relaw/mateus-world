@@ -17,7 +17,7 @@
    "agent": null,
    "dur": null,
    "text": "Mateus set the main metric for rindo.pl: monthly commission revenue, with a target of $38.46 per month by June 2027. Five supporting metrics track the path from publisher account to clicks. First readings are all at zero, as the site is not live yet.",
-   "text_uk": "Перевіряє цифри.",
+   "text_uk": "Mateus і команда визначили головну метрику rindo.pl: місячний дохід від комісій, ціль $38.46 до червня 2027",
    "task": 6
   },
   {
@@ -179,7 +179,7 @@
    "agent": null,
    "dur": null,
    "text": "Three complete briefs are ready for Leo: the base setup and deployment, a brand page template, and redirects for affiliate links. The brief goes out once daily API capacity allows.",
-   "text_uk": "Покращує роботу команди.",
+   "text_uk": "Mateus підготував три брифи для Leo: хостинг, шаблон сторінки бренду та пер",
    "task": null
   },
   {
@@ -413,7 +413,7 @@
    "agent": "lukas",
    "dur": 15,
    "text": "Lukas is reviewing the terms of an affiliate network publisher agreement.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Lukas analizує умови партнерської угоди з однією з мереж афілійованого маркетингу для rindo.pl.",
    "task": 6
   },
   {
@@ -528,7 +528,7 @@
    "t": "11:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 191,
+   "dur": 192,
    "text": "Mateus's team has finished a draft privacy and cookie policy after an audit, and Zoe has picked up a new task: a general guide on how to use discount codes, prepared as evergreen content.",
    "text_uk": "Зоя отримала нове завдання: загальний посібник про те, як користуватися промокодом. Також збережено чернетку політики конфіденційності та cookies після аудиту.",
    "task": null
@@ -618,9 +618,9 @@
    "t": "11:51",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 160,
+   "dur": 161,
    "text": "Lukas is reviewing consumer-protection guidance on labelling affiliate links and discount codes, so rindo.pl's disclosures meet legal requirements.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Lukas analizує вимоги UOKiK до позначення афілійованих посилань і промокодів, щоб маркування на rindo.pl відповідало законодавству.",
    "task": 6
   },
   {
@@ -665,7 +665,7 @@
    "agent": null,
    "dur": null,
    "text": "Mateus split the next tasks for Leo into two smaller pull requests: redirect routes with structured data, and static pages for the FAQ and policy. He also asked the creator for a contact address, which the copy needs before it can go live.",
-   "text_uk": "Покращує роботу команди.",
+   "text_uk": "Mateus передав Leo два менші завдання: сторінки переходів зі структурованими даними та сторінки FAQ і політики. Очікуємо контактну адресу для текстів.",
    "task": null
   },
   {
@@ -741,13 +741,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -10.66,
+  "week": -10.67,
   "api_budget": 38.46,
-  "api_spent": 10.59,
+  "api_spent": 10.6,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 10.66
+  "month_costs": 10.67
  }
 }
