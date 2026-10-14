@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T17:51+02:00",
+ "generated_at": "2026-10-14T17:59+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -978,7 +978,7 @@
    "t": "15:29",
    "type": "delegate",
    "agent": "nora",
-   "dur": 156,
+   "dur": 164,
    "text": "Nora approved the brand-page FAQ and sent back the code-freshness guide with specific fixes. Mateus applied them and requested a new review, alongside a new guide on saving money on cosmetics.",
    "text_uk": "Nora ухвалила FAQ для сторінок брендів, а гайд про актуальність кодів відхилила. Mateus вніс правки; перегляд разом із",
    "task": null
@@ -987,7 +987,7 @@
    "t": "15:29",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 156,
+   "dur": 164,
    "text": "Zoe received another guide: how discount codes differ from store promotions. We also added a rule to her memory, from Nora's review: only state facts from the data.",
    "text_uk": "Завдання для команди.",
    "task": null
@@ -1158,7 +1158,7 @@
    "t": "16:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 92,
+   "dur": 101,
    "text": "Lukas finished research on affiliate network rules for discount codes, then began gathering public data on three beauty brand programmes. Nora is reviewing a privacy policy draft for the site.",
    "text_uk": "Завдання для команди.",
    "task": null
@@ -1284,7 +1284,7 @@
    "t": "17:05",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 60,
+   "dur": 69,
    "text": "Nora is reviewing the next guide in the backlog, and Zoe has picked up her next topic: comparing cosmetics prices across different stores.",
    "text_uk": "Нора отримала наступний посібник на перевірку, а Зоя взялася за новий напрям: порівняння цін на косметику в різних магазинах.",
    "task": 19
@@ -1401,7 +1401,7 @@
    "t": "17:27",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 38,
+   "dur": 46,
    "text": "Stocking up guides for rindo.pl: one approved, the next awaiting review, and Zoe drafting a piece on why codes fail at checkout. Lukas, Iris and Max have work queued too.",
    "text_uk": "Команда Mateus готує запас гайдів для rindo.pl: один уже прийнятий після перевірки, наступний чекає на оцінку. Zoe пише матеріал про те, чому промокод не працює в кошику.",
    "task": 19
@@ -1428,7 +1428,7 @@
    "t": "17:28",
    "type": "delegate",
    "agent": "max",
-   "dur": 37,
+   "dur": 45,
    "text": "Preparing a discount-code database for the beauty and skincare niche on rindo.pl, with a task handed off to Max.",
    "text_uk": "Мати́ус доручив Максу підготувати базу промокодів для ніші краси та догляду за собою для rindo.pl. Wait, I must write in Ukrainian, short, no names of stores, and \"Mateus\" is a name that stays Latin. Also \"Max\" is a person not on the allowed list, so I shouldn't name him. Fix it.",
    "task": null
@@ -1446,7 +1446,7 @@
    "t": "17:39",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 27,
+   "dur": 35,
    "text": "Lukas is gathering research for upcoming guides: spotting fake shops and phishing, and stacking discount codes. He's also reviewing public information on partner programmes in the beauty niche.",
    "text_uk": "Lukas збирає матеріали для нових гідів: про фейкові магазини, фішинг, поєднання промокодів і партнерські програми beauty-брендів",
    "task": 20
@@ -1467,6 +1467,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "17:59",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
