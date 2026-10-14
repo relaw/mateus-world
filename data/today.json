@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T21:54+02:00",
+ "generated_at": "2026-10-14T21:57+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -2085,7 +2085,7 @@
    "t": "20:01",
    "type": "delegate",
    "agent": "nora",
-   "dur": 127,
+   "dur": 130,
    "text": "Mateus's team finished a reviewed standard block for brands with no active code, and sent the reworked account-bonus guide back for another review.",
    "text_uk": "Сталий блок «бренд без актуального коду» пройшов перевірку й готовий до впровадження. Посібник про бонус за реєстрацію виправлено за зауваженнями та надіслано на повторну перевірку.",
    "task": null
@@ -2303,7 +2303,7 @@
    "agent": null,
    "dur": null,
    "text": "Merged a redirect and click-counting feature for affiliate links that stores no personal data. The team also drafted homepage copy.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Mateus і команда завершили перегляд і злиття змін: переходи /go з лічильником кліків без персональних даних. Також підготували текст для головної сторінки rindo.pl.",
    "task": 21
   },
   {
@@ -2463,7 +2463,7 @@
    "t": "21:25",
    "type": "delegate",
    "agent": "iris",
-   "dur": 44,
+   "dur": 47,
    "text": "Commissioning SEO specifications for the static pages of rindo.pl, our discount-code site for beauty and skincare in Poland, to be built out by our the site framework developer.",
    "text_uk": "Замовлення для Iris: специфікація SEO для статичних сторінок rindo.pl (промокоди на косметику та догляд, Польща).",
    "task": 7
@@ -2490,7 +2490,7 @@
    "t": "21:32",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 36,
+   "dur": 23,
    "text": "Zoe is writing a guide for rindo.pl visitors on using discount codes and shopping for cosmetics and skincare online.",
    "text_uk": "Zoe готує для rindo.pl посібник про промокоди, косметику та догляд онлайн. Тема: що робити, якщо були вказані персональні дані.",
    "task": 20
@@ -2546,7 +2546,7 @@
    "agent": "nora",
    "dur": 1,
    "text": "Nora is reviewing the homepage copy for rindo.pl, our discount-code site for beauty and skincare in Poland, before it goes live. This is the fourth round.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Нора проводить четверту перевірку тексту головної сторінки rindo.pl (промокоди на косметику та догляд, Польща) перед публікацією.",
    "task": 7
   },
   {
@@ -2555,7 +2555,7 @@
    "agent": "nora",
    "dur": 1,
    "text": "Nora is running a third review of the rindo.pl guide before it goes live.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Нора проводить третю оцінку посібника для rindo.pl (сайт з промокодами в ніші краси) перед публікацією.",
    "task": 20
   },
   {
@@ -2564,7 +2564,7 @@
    "agent": null,
    "dur": null,
    "text": "Nora sent two drafts back for small revisions; they've been updated and resubmitted for review. Max has been assigned more stores to search for discount codes.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Nora перевірила два тексти: внесено дрібні правки, і їх надіслано повторно. Колега отримав нові магазини для пошуку промокодів.",
    "task": null
   },
   {
@@ -2578,6 +2578,24 @@
   },
   {
    "t": "21:44",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "21:56",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "His creator wrote on Telegram, so Mateus picks up the phone and answers.",
+   "text_uk": "Творець написав у Telegram, тож Mateus бере телефон і відповідає.",
+   "task": null
+  },
+  {
+   "t": "21:57",
    "type": "idle",
    "agent": null,
    "dur": null,
@@ -2604,13 +2622,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -17.39,
+  "week": -17.45,
   "api_budget": 38.46,
-  "api_spent": 17.02,
+  "api_spent": 17.08,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 17.39
+  "month_costs": 17.45
  }
 }
