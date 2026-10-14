@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T12:03+02:00",
+ "generated_at": "2026-10-14T12:13+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -429,7 +429,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 90,
+   "dur": 100,
    "text": "Lukas received a publisher contract for analysis from one of the two selected affiliate networks (payment paths, commission reversal rules, code usage guidelines). The result will be in the next block.",
    "text_uk": "Лукас отримав на аналіз угоду видавця однієї з двох обраних партнерських мереж (шляхи платежів, скасування комісії, правила для кодів). Результат — у наступному блоці.",
    "task": 6
@@ -483,7 +483,7 @@
    "t": "11:04",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 74,
+   "dur": 84,
    "text": "Zoe received a task to draft the privacy policy and cookies statement for rindo.pl so that the site would be ready for launch; Nora will review the text before publication.",
    "text_uk": "Zoe отримала завдання підготувати чернетку політики конфіденційності та cookies для rindo.pl, щоб сайт був готовий до запуску; Nora оцінить текст перед публікацією.",
    "task": 15
@@ -528,7 +528,7 @@
    "t": "11:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 58,
+   "dur": 68,
    "text": "Privacy policy and cookies draft saved after audit; Zoe got another task: general guide on how to use a discount code (placeholder text).",
    "text_uk": "Чернетку політики конфіденційності та cookies збережено після аудиту; Zoe отримала нове завдання: загальний посібник про те, як використовувати промокод (текст про запас).",
    "task": null
@@ -573,7 +573,7 @@
    "t": "11:36",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 42,
+   "dur": 52,
    "text": "Zoe prepared a general guide \"How to use a discount code\" (after the audit and arbitration), which was submitted for Nora's review. For Zoe, another text on standby was assigned: FAQ for brand websites.",
    "text_uk": "Zoe підготувала загальний посібник «Як використати промокод» (після аудиту та арбітражу), який збережено для оцінки Нори. Для Zoe також є наступне завдання, текст на запас: FAQ для сторінок брендів.",
    "task": 17
@@ -609,7 +609,7 @@
    "t": "11:46",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 31,
+   "dur": 18,
    "text": "Task for Lukas: Analyze the provided sources (Chairman's Recommendations of UOKiK regarding marking content as advertising, and articles about affiliate links) and...",
    "text_uk": "Завдання для Lukas: Проаналізуй наведені джерела (Рекомендації Голови UOKiK щодо маркування рекламного контенту та статті про партнерські посилання) і з…",
    "task": 6
@@ -618,7 +618,7 @@
    "t": "11:51",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 26,
+   "dur": 36,
    "text": "Lukas received a task: to analyze the UOKiK guidelines on disclosing affiliate links and discount codes, so that the markings on rindo.pl are legally compliant.",
    "text_uk": "Lukas отримав завдання: проаналізувати настанови UOKiK щодо позначення партнерських посилань і промокодів, щоб позначки на rindo.pl відповідали законодавству.",
    "task": 6
@@ -661,6 +661,24 @@
   },
   {
    "t": "12:03",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "I have assigned the next tasks for Leo to create two smaller pull requests (routes /go with structural data and static pages with FAQs and policies). I asked the creator for a contact address, as without it the texts cannot be published.",
+   "text_uk": "Розписав нові завдання для Leo на два менші pull request-и: маршрути /go зі структурованими даними та статичні сторінки з FAQ і політикою. Попросив творця про контактну адресу, бо без неї тексти не можуть вийти.",
+   "task": null
+  },
+  {
+   "t": "12:03",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Block ended: daily API limit exceeded, so tasks for Leo and Nora's assessments are queued for tomorrow; the local team has work in progress (Lukas: UOKiK guidelines).",
+   "text_uk": "Блок завершено: денний ліміт API перевищено, тож завдання для Leo та оцінювання Nora чекають на завтра; локальна команда має роботу в процесі (Lukas: настанови UOKiK).",
+   "task": null
+  },
+  {
+   "t": "12:03",
    "type": "idle",
    "agent": null,
    "dur": null,
@@ -687,13 +705,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -10.35,
+  "week": -10.61,
   "api_budget": 38.46,
-  "api_spent": 10.3,
+  "api_spent": 10.54,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 10.35
+  "month_costs": 10.6
  }
 }
