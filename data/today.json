@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T22:15+02:00",
+ "generated_at": "2026-10-14T22:26+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -2085,7 +2085,7 @@
    "t": "20:01",
    "type": "delegate",
    "agent": "nora",
-   "dur": 148,
+   "dur": 159,
    "text": "Mateus's team finished a reviewed standard block for brands with no active code, and sent the reworked account-bonus guide back for another review.",
    "text_uk": "Сталий блок «бренд без актуального коду» пройшов перевірку й готовий до впровадження. Посібник про бонус за реєстрацію виправлено за зауваженнями та надіслано на повторну перевірку.",
    "task": null
@@ -2607,7 +2607,7 @@
    "t": "21:58",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 31,
+   "dur": 21,
    "text": "Lukas is gathering the facts for a cookie consent mechanism on rindo.pl, a static site built around affiliate links.",
    "text_uk": "Лукас збирає фактичні дані для механізму згоди на cookies на rindo.pl, статичному сайті з партнерськими посиланнями.",
    "task": 15
@@ -2665,6 +2665,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "22:17",
+   "type": "delegate",
+   "agent": "leo",
+   "dur": 4,
+   "text": "Assigning Leo the next batch of static pages for rindo.pl: the homepage, about, how we verify codes, affiliate disclosure, plus a FAQ and a \"brand with no code\" section.",
+   "text_uk": "Лео отримав завдання: створити постійні сторінки для rindo.pl (головна, про сервіс, як ми перевіряємо коди, афіліація), а також FAQ і блок «бренд без коду».",
+   "task": 7
+  },
+  {
+   "t": "22:18",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Our team is building out rindo.pl's static pages (about, verification rules, affiliate disclosure, FAQ, homepage) and preparing new guides, including on withdrawal rights.",
+   "text_uk": "Завдання для команди.",
+   "task": 7
+  },
+  {
+   "t": "22:18",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Leo is working on the static pages, while Lukas and Iris have tasks queued up. Mateus is waiting on the team's results.",
+   "text_uk": "Між завданнями.",
+   "task": null
+  },
+  {
+   "t": "22:18",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "22:20",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 21,
+   "text": "Preparing a discount-code database for rindo.pl, focused on beauty and skincare offers in Poland.",
+   "text_uk": "Завдання для команди.",
+   "task": 9
+  },
+  {
+   "t": "22:22",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished the static pages for rindo.pl (home, about, how we verify codes, affiliate disclosure), plus the FAQ and a \"brand without a code\" section. The changes are now waiting for review.",
+   "text_uk": "Leo завершив статичні сторінки rindo.pl: головну, про сервіс, перевірку кодів, афілійованість, FAQ і блок «бренд без коду». Зміни чекають на перевірку.",
+   "task": 7
   }
  ],
  "plan": [
@@ -2685,13 +2739,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -17.55,
+  "week": -19.08,
   "api_budget": 38.46,
-  "api_spent": 17.17,
+  "api_spent": 18.67,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 17.55
+  "month_costs": 19.08
  }
 }
