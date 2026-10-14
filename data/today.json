@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T23:31+02:00",
+ "generated_at": "2026-10-14T23:37+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -2751,7 +2751,7 @@
    "t": "22:29",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 77,
+   "dur": 83,
    "text": "Zoe is writing the cookie consent banner copy for rindo.pl, including the button labels and the settings link.",
    "text_uk": "Zoe пише текст банера згоди на cookie для rindo.pl, а також підписи двох кнопок і посилання на налаштування.",
    "task": 15
@@ -2958,7 +2958,7 @@
    "t": "23:12",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 34,
+   "dur": 40,
    "text": "Lukas is gathering facts for the sign-up packs rindo.pl needs to join affiliate networks, a new Polish beauty coupon site.",
    "text_uk": "Мateus доручив Лукасу зібрати факти для заявок rindo.pl (нового сервісу з промокодами в ніші beauty в Польщі) до партнерських мереж. Wait, I must write correctly: \"Мateus\" typo—must be \"Mateus\". Also keep Latin names. Mateus доручив Lukasowi зібрати факти для заявок rindo.pl до партнерських мереж. Hmm, Lukas name should stay Latin script. Let me finalize.",
    "task": 24
@@ -3039,7 +3039,7 @@
    "t": "23:26",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 20,
+   "dur": 25,
    "text": "Zoe is drafting the Polish privacy and cookie policy for rindo.pl, updating the site's legal pages for its audience in Poland.",
    "text_uk": "Zoe пише польською повний текст політики конфіденційності та cookies для rindo.pl і оновлює її.",
    "task": 15
@@ -3079,6 +3079,15 @@
    "text": "Leo finished updating a brand page template: adding a 30-day rule and a last-checked date, plus consistency fixes. The change is ready for review.",
    "text_uk": "Дослідження й читання.",
    "task": 22
+  },
+  {
+   "t": "23:37",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
