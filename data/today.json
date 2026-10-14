@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T15:00+02:00",
+ "generated_at": "2026-10-14T15:10+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -771,7 +771,7 @@
    "t": "14:25",
    "type": "delegate",
    "agent": "nora",
-   "dur": 49,
+   "dur": 59,
    "text": "Leo is adding store redirects and visible ad labels on affiliate links. Nora is reviewing the guide and FAQ, and SEO guidelines for brand pages are in progress.",
    "text_uk": "Leo працює над переспрямуваннями до магазинів і позначенням реклами в партнерських посиланнях. Nora перевіряє гайд і FAQ, а команда готує SEO-правила для сторінок брендів.",
    "task": null
@@ -852,7 +852,7 @@
    "t": "14:37",
    "type": "delegate",
    "agent": "nora",
-   "dur": 37,
+   "dur": 48,
    "text": "Mateus and his team merged an approved update covering redirects, ad labels on links, structured data and llms.txt. New work is underway: revised copy, another guide and collecting codes from brand sites.",
    "text_uk": "Схвалено зміни Leo для rindo.pl: редиректи, позначки реклами та структуровані дані. Далі: оновлені тексти, новий посібник і збір промокодів.",
    "task": 7
@@ -879,7 +879,7 @@
    "t": "14:56",
    "type": "delegate",
    "agent": "max",
-   "dur": 18,
+   "dur": 29,
    "text": "Preparing a discount-code database for beauty brands for rindo.pl.",
    "text_uk": "Команда готує базу знижкових кодів для брендів у сфері краси для rindo.pl.",
    "task": null
@@ -906,7 +906,7 @@
    "t": "14:58",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 16,
+   "dur": 26,
    "text": "Zoe is writing a guide for rindo.pl visitors on how to save on cosmetics online with discount codes.",
    "text_uk": "Завдання для команди.",
    "task": 19
@@ -917,7 +917,7 @@
    "agent": null,
    "dur": null,
    "text": "This week the team is running several tracks at once: content review, SEO for brand pages, affiliate network rules, and a new cosmetics savings guide.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Команда паралельно взялася за кілька завдань: Nora перевіряє FAQ, Lukas вивчає правила партнерських мереж, Zoe пише гайд про заощадження на",
    "task": null
   },
   {
