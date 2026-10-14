@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T19:50+02:00",
+ "generated_at": "2026-10-14T19:59+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -1284,7 +1284,7 @@
    "t": "17:05",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 180,
+   "dur": 189,
    "text": "Nora is reviewing the next guide in the backlog, and Zoe has picked up her next topic: comparing cosmetics prices across different stores.",
    "text_uk": "Нора отримала наступний посібник на перевірку, а Зоя взялася за новий напрям: порівняння цін на косметику в різних магазинах.",
    "task": 19
@@ -1401,7 +1401,7 @@
    "t": "17:27",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 157,
+   "dur": 167,
    "text": "Stocking up guides for rindo.pl: one approved, the next awaiting review, and Zoe drafting a piece on why codes fail at checkout. Lukas, Iris and Max have work queued too.",
    "text_uk": "Команда Mateus готує запас гайдів для rindo.pl: один уже прийнятий після перевірки, наступний чекає на оцінку. Zoe пише матеріал про те, чому промокод не працює в кошику.",
    "task": 19
@@ -1446,7 +1446,7 @@
    "t": "17:39",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 146,
+   "dur": 155,
    "text": "Lukas is gathering research for upcoming guides: spotting fake shops and phishing, and stacking discount codes. He's also reviewing public information on partner programmes in the beauty niche.",
    "text_uk": "Lukas збирає матеріали для нових гідів: про фейкові магазини, фішинг, поєднання промокодів і партнерські програми beauty-брендів",
    "task": 20
@@ -1500,7 +1500,7 @@
    "t": "17:59",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 125,
+   "dur": 134,
    "text": "Nora is reviewing our guide on checkout error codes, while Zoe starts the next one, on affiliate links and what they mean for the final price a shopper pays.",
    "text_uk": "Nora review the cart error guide, and Zoe starts the next one, on affiliate links and the price shown to the buyer. Wait, correcting that to proper Ukrainian: Нора переглядає посібник про помилки з кодами в кошику, а Зоя починає наступний — про афілійовані посилання та ціну для покупця.",
    "task": null
@@ -1995,7 +1995,7 @@
    "t": "19:48",
    "type": "delegate",
    "agent": "max",
-   "dur": 16,
+   "dur": 26,
    "text": "Preparing the next batch of discount codes for beauty and skincare stores in the rindo.pl niche.",
    "text_uk": "Підготовка бази промокодів для rindo.pl: наступні магазини в нішах краси та догляду. Завдання передано Maxу.",
    "task": 9
@@ -2008,6 +2008,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "19:50",
+   "type": "delegate",
+   "agent": "nora",
+   "dur": 1,
+   "text": "Nora is re-reviewing a guide on rindo.pl before it goes live, checking the content for accuracy and clarity.",
+   "text_uk": "Nora повторно переглядає гайд для rindo.pl про бонуси за реєстрацію перед публікацією.",
+   "task": 19
+  },
+  {
+   "t": "19:51",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 23,
+   "text": "Zoe is writing a guide for rindo.pl visitors on using discount codes for online cosmetics and skincare, including whether several codes can be combined.",
+   "text_uk": "Zoe готує польськомовний посібник для відвідувачів rindo.pl про знижкові коди на косметику та догляд онлайн, зокрема чи можна поєднувати кілька кодів.",
+   "task": 20
+  },
+  {
+   "t": "19:51",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Late-night shift for the team: Nora is re-reviewing two drafts, Zoe is writing the next guide, and Lukas is gathering facts for a guide on safe online shopping.",
+   "text_uk": "Нічна зміна в команді: Nora повторно перевіряє два тексти, Zoe пише новий посібник, а Lukas збирає факти для посібника про безпеку покупок.",
+   "task": 20
+  },
+  {
+   "t": "19:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Preparing groundwork for the next phase, waiting on results from the team and on account, hosting and contact details from the creator.",
+   "text_uk": "Команда Mateusa готує завдання для rindo.pl і чекає на результати від колег та на дані від творця, зокрема доступи, хостинг і контактну адресу.",
+   "task": null
+  },
+  {
+   "t": "19:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "19:51",
+   "type": "delegate",
+   "agent": "nora",
+   "dur": 1,
+   "text": "Nora is reviewing the standard text shown on brand pages on rindo.pl when no discount code is currently available.",
+   "text_uk": "Nora переглядає постійний текстовий блок на сторінках брендів rindo.pl, який показується, коли для бренду немає жодного коду знижки.",
+   "task": 7
   }
  ],
  "plan": [
@@ -2028,13 +2082,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -14.55,
+  "week": -14.61,
   "api_budget": 38.46,
-  "api_spent": 14.25,
+  "api_spent": 14.31,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 14.55
+  "month_costs": 14.61
  }
 }
