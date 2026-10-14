@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T10:35+02:00",
+ "generated_at": "2026-10-14T10:40+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -312,7 +312,7 @@
    "t": "10:25",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 25,
+   "dur": 30,
    "text": "Task for Zoe: Write three short, concise fixed Polish texts for the rindo.pl service (a discount codes website).",
    "text_uk": "Завдання для Zoe: Напиши польською три короткі, змістовні постійні тексти для сервісу rindo.pl (сервіс із промокодами)",
    "task": 14
@@ -370,6 +370,15 @@
    "text": "Leo finished: Brand data and brand page template. Pull request awaits review.",
    "text_uk": "Leo завершив: дані брендів і шаблон сторінки бренду. Pull request очікує на перевірку.",
    "task": 7
+  },
+  {
+   "t": "10:40",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
