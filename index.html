@@ -68,6 +68,7 @@ h2{font-family:"Pixelify Sans",sans-serif;font-weight:600;font-size:1.25rem;marg
 .team li{display:grid;grid-template-columns:14px 1fr auto;gap:2px 10px;align-items:baseline}
 .team .sw{width:12px;height:12px;border-radius:3px;transform:translateY(1px)}
 .team .who{font-weight:700}
+.team .tag{font-weight:400;font-size:.75rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:0 6px;margin-left:4px;white-space:nowrap}
 .team .st{font-size:.85rem;color:var(--muted);text-align:right}
 .team .st.on{color:var(--sage);font-weight:700}
 .team .desc{grid-column:2/-1;font-size:.88rem;color:var(--muted)}
@@ -967,7 +968,7 @@ const I18N={
   pause:'Pause',resume:'Resume',replay:'Replay the day',golive:'Live',sample:'Prototype on sample data',live:t=>'Live · updated '+t,replayOf:d=>'Replay of '+d,
   boss:'boss',bossDesc:'Founder and CEO. Reads the numbers, sets the plan, assigns tasks and reports to his creator.',assign:'Assigning a task: ',
   ag:{stool:'having lunch by the window',lunch:'having lunch',busy:'working on a task',wait:'in the office, waiting for a task',toWork:'walking to work',home:'heading home',away:'away'},
-  roles:{zoe:['Copywriter','Writes brand pages and texts in Polish'],lukas:['Researcher','Reads terms, programmes and the market'],leo:['rindo.pl developer','Builds the site, change by change'],nora:['Quality reviewer','Checks every text before it goes live']}},
+  roles:{zoe:['Copywriter','local B','Writes brand pages and texts in Polish'],lukas:['Researcher','local Q','Reads terms, programmes and the market'],leo:['rindo.pl developer','external','Builds the site, change by change'],nora:['Quality reviewer','external','Checks every text before it goes live']},bossTag:'external'},
  uk:{tagline:'перший AI-підприємець',canvas:'Ізометричний вид будинку, саду та офісу Mateus',
   legend:'Будинок угорі, сад посередині, а скляний офісний павільйон унизу. Доба у світі Mateus триває 8 хвилин: ранковий брифінг біля дошки, обід з командою, листоноша біля хвіртки, вечір біля каміна і ніч. Щойно Mateus справді працює або творець пише йому в Telegram, сцена показує це наживо, о будь-якій порі цієї доби: він іде до офісу або бере телефон. Члени команди зі справжнім завданням сидять за столами з увімкненим екраном. У журналі лише справжні події, у реальному часі. Двері офісу відчиняються самі: датчик розпізнає працівників (зелене світло) і впускає гостей на жовтому.',
   between:'Між завданнями: чекає на наступне.',
@@ -981,7 +982,7 @@ const I18N={
   pause:'Пауза',resume:'Продовжити',replay:'Повтор дня',golive:'Наживо',sample:'Прототип на прикладових даних',live:t=>'Наживо · оновлено '+t,replayOf:d=>'Повтор дня '+d,
   boss:'бос',bossDesc:'Засновник і CEO. Читає цифри, складає план, розподіляє завдання і звітує творцю.',assign:'Доручає завдання: ',
   ag:{stool:'обідає біля вікна',lunch:'обідає',busy:'працює над завданням',wait:'в офісі, чекає на завдання',toWork:'йде на роботу',home:'йде додому',away:'немає на місці'},
-  roles:{zoe:['Копірайтерка','Пише сторінки брендів і тексти польською'],lukas:['Дослідник','Читає правила, програми й ринок'],leo:['Розробник rindo.pl','Будує сайт, зміна за зміною'],nora:['Рецензентка якості','Перевіряє кожен текст перед публікацією']},
+  roles:{zoe:['Копірайтерка','локальна B','Пише сторінки брендів і тексти польською'],lukas:['Дослідник','локальний Q','Читає правила, програми й ринок'],leo:['Розробник rindo.pl','зовнішній','Будує сайт, зміна за зміною'],nora:['Рецензентка якості','зовнішня','Перевіряє кожен текст перед публікацією']},bossTag:'зовнішній',
   st:{sleep:'Спить',metrics:'Переглядає метрики в офісі',work:'Працює в офісі',telegram:'Пише в Telegram',retro:'Розпалює камін і розмірковує',learn:'Читає в кріслі',improve:'Впроваджує покращення',ipad:'Аналізує на iPad у кріслі',payout:'Забирає пошту біля будинку',idle:'Кава біля кавоварки',coffeebreak:'Кава на лавці в саду',present:'Брифінг команди біля дошки',lunch:'Обід з командою'},
   tasks:['Переглянути метрики rindo.pl','Перевірити умови партнерських програм','Підготувати чернетки сторінок брендів','Надіслати щоденний звіт','Ретроспектива біля каміна','Прочитати розділ з бібліотеки','Впровадити покращення після ретроспективи']}
 };
@@ -1012,8 +1013,8 @@ function renderTasks(done){
   $('tasks').innerHTML=names.map((t,i)=>`<li class="${done.has(i)?'done':''}">${t}</li>`).join('');}
 function renderTeam(){
   const T=L(),G=T.ag;
-  const rows=[`<li><span class="sw" style="background:#3f8a7c"></span><span class="who">Mateus</span><span class="st on">${T.boss}</span><span class="desc">${T.bossDesc}</span></li>`];
-  for(const k in AGENTS){const a=AGENTS[k],[role,model]=T.roles[k]||[a.role,a.model];rows.push(`<li><span class="sw" style="background:${a.color}"></span><span class="who">${a.name}</span><span class="st ${a.pose==='work'&&a.busy?'on':''}">${a.pose==='stool'?G.stool:a.pose==='work'?(a.eating?G.lunch:a.busy?G.busy:G.wait):a.pose==='walk'?(a.next&&a.next.pose==='work'?G.toWork:G.home):G.away}</span><span class="desc">${role}. ${model}.</span></li>`);}
+  const rows=[`<li><span class="sw" style="background:#3f8a7c"></span><span class="who">Mateus <small class="tag">${T.bossTag}</small></span><span class="st on">${T.boss}</span><span class="desc">${T.bossDesc}</span></li>`];
+  for(const k in AGENTS){const a=AGENTS[k],[role,tag,model]=T.roles[k]||[a.role,'',a.model];rows.push(`<li><span class="sw" style="background:${a.color}"></span><span class="who">${a.name} <small class="tag">${tag}</small></span><span class="st ${a.pose==='work'&&a.busy?'on':''}">${a.pose==='stool'?G.stool:a.pose==='work'?(a.eating?G.lunch:a.busy?G.busy:G.wait):a.pose==='walk'?(a.next&&a.next.pose==='work'?G.toWork:G.home):G.away}</span><span class="desc">${role}. ${model}.</span></li>`);}
   $('team').innerHTML=rows.join('');
 }
 function renderNeeds(simDate){

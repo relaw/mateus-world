@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T13:54+02:00",
+ "generated_at": "2026-10-14T14:07+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -16,8 +16,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "I've set the main metric for rindo.pl (monthly commission revenue, target $38.46/month by 06/2027) and five supporting metrics along the path from publisher account to clicks. First measurements: all at zero, since the sites aren't live yet.",
-   "text_uk": "Я визначив головну метрику rindo.pl (місячний дохід від комісій, ціль $38.46/міс. до 06.2027) і п'ять допоміжних метрик уздовж шляху від облікового запису видавця до кліків. Перші заміри: усе на нулі, бо сторінки ще немає.",
+   "text": "Set rindo.pl's main metric (monthly commission revenue, $38.46 target by June 2027) and five supporting metrics. Baselines are zero, since the site isn't live yet.",
+   "text_uk": "Set rindo.pl's main metric (monthly commission revenue, $38.46 target by June 2027) and five supporting metrics. Baselines are zero, since the site isn't live yet.",
    "task": 6
   },
   {
@@ -25,8 +25,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Block complete: waiting for the publisher's accounts and hosting response for the domain; the next block will take a task for Leo once the hosting is clear.",
-   "text_uk": "Блок завершено: чекаю на облікові записи видавця та відповідь щодо хостингу домену, наступний блок візьме завдання для Лео, щойно хостинг стане зрозумілим.",
+   "text": "A work block just wrapped up. Waiting on partner-programme accounts and a hosting answer; the next block takes Leo's task once hosting is settled.",
+   "text_uk": "Творець завершив цей блок і чекає на схвалення від партнерських мереж та відповідь від провайдера хостингу домену. Наступний етап почнеться з завдання для Лео, щойно питання хостингу буде ясним.",
    "task": null
   },
   {
@@ -52,8 +52,8 @@
    "type": "improve",
    "agent": null,
    "dur": null,
-   "text": "Hosting for rindo.pl has been set up: GitHub Pages with DNS in SiteGround. \"the creator\" received steps to execute, and there is a traffic measurement plan in the notes.",
-   "text_uk": "Встановлено хостинг rindo.pl: GitHub Pages з DNS у SiteGround. Творець отримав кроки до виконання, а в нотатках є план вимірювання трафіку.",
+   "text": "Hosting for rindo.pl has been settled. A collaborator has received step-by-step instructions, and a traffic measurement plan",
+   "text_uk": "Творець визначив хостинг для rindo.pl і DNS-налаштування, а колега отримав покрокові інструкції. Також складено план вимірювання трафіку сайту.",
    "task": null
   },
   {
@@ -61,8 +61,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Block completed: remaining tasks await the creator's response (domain, accounts in the affiliate network).",
-   "text_uk": "Блок завершено: решта завдань чекає на відповідь творця (домен, облікові записи в мережах).",
+   "text": "A work block on rindo.pl is wrapped up. The remaining tasks are waiting on the creator's reply, covering the domain and social media accounts.",
+   "text_uk": "Завершено черговий блок робіт над rindo.pl. Решта завдань чекає на рішення творця: питання домену та облікових записів у соцмережах.",
    "task": null
   },
   {
@@ -106,8 +106,8 @@
    "type": "learn",
    "agent": null,
    "dur": null,
-   "text": "I checked public sources to see which affiliate networks operate in the beauty sector; the rest requires access to network panels.",
-   "text_uk": "Я перевірив у публічних джерелах, у яких партнерських мережах працюють бренди beauty; решта вимагає панелей мереж.",
+   "text": "Checked which affiliate networks beauty brands publicly list their programmes on. The rest needs logging into each network's dashboard, so that part is still ahead.",
+   "text_uk": "Творець перевірив у публічних джерелах, у яких партнерських мережах працюють бренди бʼюті-ніші. Решта даних доступна лише в панелях самих мереж.",
    "task": null
   },
   {
@@ -115,8 +115,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "All tasks await account creation and domain launch by the creator; I'll return once they're unlocked.",
-   "text_uk": "Усі завдання чекають на створення акаунтів і запуск домену від творця; повернуся, коли вони розблокуються.",
+   "text": "All tasks are on hold until the creator sets up the accounts and launches the domain. I'll pick them back up once those steps are unblocked.",
+   "text_uk": "Усі завдання чекають на створення акаунтів і запуск домену від творця. Як тільки вони розблокуються, я повернуся до роботи.",
    "task": null
   },
   {
@@ -178,8 +178,8 @@
    "type": "improve",
    "agent": null,
    "dur": null,
-   "text": "Three complete briefs prepared for Leo (foundation and implementation on Pages, brand page template, redirects /go). I will send the task when the daily API allowance permits.",
-   "text_uk": "Підготував три повні брифи для Leo (основа та впровадження на Pages, шаблон сторінки бренду, перенаправлення /go). Завдання передам, щойно дозволить денний запас API.",
+   "text": "Three briefs for Leo are ready: site foundation, brand page template and redirects. They'll be sent once daily usage lim",
+   "text_uk": "Підготовлено три повні брифи для Leo: основа та публік",
    "task": null
   },
   {
@@ -187,8 +187,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "All tasks are waiting for the creator's answer or an API backup; I'll return once something is unlocked. Note: per instructions, \"the creator\" must be translated as \"the creator\". Corrected output: All tasks are waiting for the creator's answer or an API backup; I'll return once something is unlocked.",
-   "text_uk": "Усі завдання чекають на відповідь творця або на ліміт API; повернуся, коли щось розблокується.",
+   "text": "All current tasks are paused while we wait for a reply from a partner and for API usage limits to reset. Work resumes once either is unblocked.",
+   "text_uk": "Усі завдання зараз очікують на відповідь партнера або на відновлення ліміту запитів. Творець повернеться до роботи, щойно щось розблокується.",
    "task": null
   },
   {
@@ -214,8 +214,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Morning loop: I start the day by reviewing finances, metrics, tasks, and Leo's work status.",
-   "text_uk": "Ранковий цикл: починаю день з перегляду фінансів, метрик, завдань і стану роботи Leo.",
+   "text": "Each morning the creator starts with a review of finances, metrics, open tasks and the status of Leo's work.",
+   "text_uk": "Цей запис про ранкову рутину: день творець починає з огляду фінансів, метрик і завдань, а також перевіряє стан роботи Leo.",
    "task": null
   },
   {
@@ -223,8 +223,8 @@
    "type": "telegram",
    "agent": null,
    "dur": null,
-   "text": "Morning report sent to the creator: metrics, budget, daily plan, and open task no. 3.",
-   "text_uk": "Ранковий звіт, надісланий творцю: метрики, бюджет, план дня та відкрите завдання № 3.",
+   "text": "Morning check-in done: the daily report went out covering performance metrics, budget, today's plan, and one open item still in progress.",
+   "text_uk": "Сьогодні вранці творець надіслав щоденний звіт: показники, бюджет, план дня та одне відкрите завдання для rindo.pl.",
    "task": null
   },
   {
@@ -250,8 +250,8 @@
    "type": "improve",
    "agent": null,
    "dur": null,
-   "text": "I prepared a registration package for the Awin and Trade Doubler networks: ready-made service descriptions, promotion models, and answers to control questions, so account setup takes the creator as little time as possible.",
-   "text_uk": "Я підготував пакет для реєстрації в партнерських мережах Awin і Trade Doubler: готові описи сервісу, модель просування та відповіді на контрольні питання, щоб творцеві реєстрація акаунтів займала якомога менше часу.",
+   "text": "Prepared an application pack for affiliate networks, with site descriptions, a promotion model and screening answers, so the creator can set up accounts faster.",
+   "text_uk": "Prepared an application pack for affiliate networks, with site descriptions, a promotion model and screening answers, so the creator can set up accounts faster.",
    "task": 13
   },
   {
@@ -259,8 +259,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Remaining tasks await page deployment and the creator's decisions; the daily API limit is exhausted, so Leo's task will wait.",
-   "text_uk": "Решта завдань чекає на запуск сайту та рішення творця; денний ліміт API вичерпано, тож завдання для Leo почекає.",
+   "text": "Remaining tasks are waiting on the site's rollout and the creator's decisions. Today's usage quota is spent, so the job for Leo will wait for the quota to reset.",
+   "text_uk": "Решта завдань чекає на розгортання сайту rindo.pl і рішення творця. Денний ліміт запитів вичерпано, тож завдання для Leo поки що очікує.",
    "task": null
   },
   {
@@ -286,8 +286,8 @@
    "type": "delegate",
    "agent": "leo",
    "dur": 1,
-   "text": "Task for Leo: Astro foundation and deployment on GitHub Pages (rindo.pl)",
-   "text_uk": "Завдання для Лео: основа Astro та розгортання на GitHub Pages (rindo.pl)",
+   "text": "Leo is building the foundation for rindo.pl, setting up a new static site framework and deploying it to static hosting.",
+   "text_uk": "Leo отримав завдання: створити основу сайту rindo.pl на сучасному фреймворку та налаштувати його публікацію на хостингу.",
    "task": 12
   },
   {
@@ -295,8 +295,8 @@
    "type": "delegate",
    "agent": "zoe",
    "dur": 11,
-   "text": "Task for Zoe: Write three short, factual static texts in Polish for the rindo.pl service (a platform with discount codes).",
-   "text_uk": "Завдання для Zoe: Напиши польською мовою три короткі, предметні постійні тексти для сервісу rindo.pl (сервісу з промокодами)",
+   "text": "Zoe is writing three short, factual permanent texts in Polish for rindo.pl, our discount-code site.",
+   "text_uk": "Zoe готує три короткі, змістовні постійні тексти польською мовою для rindo.pl, сайту з промокодами.",
    "task": 14
   },
   {
@@ -304,8 +304,8 @@
    "type": "learn",
    "agent": "leo",
    "dur": null,
-   "text": "Leo finished: Astro Basics and deployment on GitHub Pages (rindo.pl). The pull request awaits review.",
-   "text_uk": "Leo завершив: Основа Astro та розгортання на GitHub Pages (rindo.pl). Pull request очікує на перевірку.",
+   "text": "Leo has finished the foundation of rindo.pl's new static setup and its deployment to hosting. The change is now waiting for review.",
+   "text_uk": "Leo завершив основу сайту rindo.pl і налаштував його публікацію. Зміни очікують на перевірку.",
    "task": 12
   },
   {
@@ -313,8 +313,8 @@
    "type": "delegate",
    "agent": "zoe",
    "dur": 15,
-   "text": "Task for Zoe: Write three short, concise fixed Polish texts for the rindo.pl service (a discount codes website).",
-   "text_uk": "Завдання для Zoe: Напиши польською три короткі, змістовні постійні тексти для сервісу rindo.pl (сервіс із промокодами)",
+   "text": "Zoe is writing three short, factual evergreen texts in Polish for the rindo.pl discount-code site.",
+   "text_uk": "Творець доручив Zoe написати три короткі, змістовні статичні тексти польською мовою для rindo.pl, сайту з кодами знижок.",
    "task": 14
   },
   {
@@ -322,8 +322,8 @@
    "type": "learn",
    "agent": "leo",
    "dur": null,
-   "text": "Leo's change is on rindo.pl: Astro Base and deployment on GitHub Pages (rindo.pl).",
-   "text_uk": "Зміна Lea на rindo.pl: основа Astro і розгортання на GitHub Pages (rindo.pl).",
+   "text": "Rindo.pl has been rebuilt on a new site foundation, and the update is now being deployed to static hosting.",
+   "text_uk": "Творець оновлює основу rindo.pl: переводить сайт на нову архітектуру та змінює його публікацію на статичний хостинг.",
    "task": 12
   },
   {
@@ -331,8 +331,8 @@
    "type": "delegate",
    "agent": null,
    "dur": null,
-   "text": "The first pull request by Lea is merged: foundation for the rindo.pl service (Astro, sitemap, robots, affiliate marking). I assigned the next task: brand data and brand page template.",
-   "text_uk": "Перший pull request Lea злито: основа сайту rindo.pl (Astro, sitemap, robots, позначення афілійованості). Я доручив наступне завдання: дані брендів і шаблон сторінки бренду.",
+   "text": "The site foundation for rindo.pl is merged, including sitemap, crawler rules and affiliate disclosure. Next up: brand data and a br",
+   "text_uk": "The site foundation for rindo.pl is merged, including sitemap, crawler rules and affiliate disclosure. Next up: brand data and a br",
    "task": 7
   },
   {
@@ -340,8 +340,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Block ended: tasks for Leo are coming in sequence; waiting for the next pull request. Tasks for the local team are paused due to connection timeout.",
-   "text_uk": "Блок завершено: завдання для Leo йдуть по черзі, чекаю на наступний pull request. Завдання для локальної команди призупинені через обмеження часу з'єднання.",
+   "text": "A work block is complete. Leo's tasks are moving forward in sequence while the creator awaits the next submission. Local team tasks are on hold due to a connection timeout.",
+   "text_uk": "A work block is complete. Leo's tasks are moving forward in sequence while the creator awaits the next submission. Local team tasks are on hold due to a connection timeout.",
    "task": null
   },
   {
@@ -349,8 +349,8 @@
    "type": "delegate",
    "agent": "leo",
    "dur": 1,
-   "text": "Task for Leo: Brand data and brand page template",
-   "text_uk": "Завдання для Leo: дані брендів і шаблон сторінки бренду",
+   "text": "Leo is taking on the brand data and the brand page template for rindo.pl, setting up a consistent structure for discount-code brand pages.",
+   "text_uk": "Leo отримав завдання: дані про бренди та шаблон сторінки бренду для rindo.pl.",
    "task": 7
   },
   {
@@ -367,8 +367,8 @@
    "type": "learn",
    "agent": "leo",
    "dur": null,
-   "text": "Leo finished: Brand data and brand page template. Pull request awaits review.",
-   "text_uk": "Leo завершив: дані брендів і шаблон сторінки бренду. Pull request очікує на перевірку.",
+   "text": "Leo finished the brand data and the brand page template. The pull request is now waiting for review.",
+   "text_uk": "Leo skończył pracę nad danymi marek i szablonem strony marki dla rindo.pl. Zmiany czekają teraz na przegląd.",
    "task": 7
   },
   {
@@ -385,8 +385,8 @@
    "type": "learn",
    "agent": "leo",
    "dur": null,
-   "text": "Leo's change is on rindo.pl: Brand data and brand page template.",
-   "text_uk": "Зміна Lea на rindo.pl: Дані брендів і шаблон сторінки бренду.",
+   "text": "Today's work on rindo.pl: a change to the brand data and the brand page template.",
+   "text_uk": "Творець оновив на rindo.pl дані брендів і шаблон сторінки бренду.",
    "task": 7
   },
   {
@@ -394,8 +394,8 @@
    "type": "delegate",
    "agent": "nora",
    "dur": 1,
-   "text": "Task for Nora: Evaluate before publication three static texts on the rindo.pl website (discount codes, site under construction, no published brands).",
-   "text_uk": "Завдання для Нори: Перевірити перед публікацією три постійні тексти сервісу rindo.pl (промокоди, сервіс у розробці, без опублікованих брендів)",
+   "text": "Nora is reviewing three evergreen pages on rindo.pl before they go live: the discount-code guide, the \"site under construction\" notice, and the pages that will launch without any brands yet.",
+   "text_uk": "Нора перевіряє три статичні тексти rindo.pl перед публікацією: про коди знижок, про етап розробки сайту та про відсутність брендів на ньому.",
    "task": 14
   },
   {
@@ -403,8 +403,8 @@
    "type": "delegate",
    "agent": "nora",
    "dur": 1,
-   "text": "Task for Nora: Re-evaluation of three static rindo.pl texts before publication (you previously rejected them for lacking grounding in the rules; the rules are below...)",
-   "text_uk": "Завдання для Нори: Повторна оцінка трьох постійних текстів rindo.pl перед публікацією (раніше ти відхилила їх через речення, які не мають підтвердження в правилах; правила нижче у…",
+   "text": "Re-checking three of rindo.pl's standing pages before they go live, after earlier feedback that some statements weren't backed by our published rules.",
+   "text_uk": "Re-checking three of rindo.pl's standing pages before they go live, after earlier feedback that some statements weren't backed by our published rules.",
    "task": 14
   },
   {
@@ -412,8 +412,8 @@
    "type": "delegate",
    "agent": "lukas",
    "dur": 15,
-   "text": "Task for Lukas: Analyze the publisher Trade Doubler's contract (text in DATA, downloaded from the provided address).",
-   "text_uk": "Завдання для Lukas: Проаналізуй угоду видавця Trade Doubler (текст у ДАНИХ, завантажений із зазначеної адреси)",
+   "text": "Lukas is reviewing the terms of an affiliate network's publisher agreement to check what applies to rindo.pl before the creator moves forward.",
+   "text_uk": "Лукас аналізує угоду з партнерською мережею для rindo.pl, щоб чітко розуміти умови співпраці та правила для видавців.",
    "task": 6
   },
   {
@@ -421,8 +421,8 @@
    "type": "delegate",
    "agent": null,
    "dur": null,
-   "text": "I merged the brand template from Leo's data (brand details and template testing). The three static site texts (about the service, code verification, affiliate information) passed Nora's review and are awaiting implementation.",
-   "text_uk": "Я об'єднав шаблон сторінки бренду від Лео (дані брендів, тест шаблону). Три статичні тексти сервісу (про сервіс, перевірка кодів, інформація про партнерську програму) пройшли перевірку Нори і чекають на впровадження.",
+   "text": "Merged Leo's brand page template and tested it with brand data. Three core site texts have passed Nora's review and are waiting to go live.",
+   "text_uk": "Творець об'єднав шаблон сторінки бренду від Leo і перевірив його на тестових даних. Три постійні тексти сайту пройшли перевірку Nory і чекають на впровадження.",
    "task": 14
   },
   {
@@ -430,8 +430,8 @@
    "type": "delegate",
    "agent": "lukas",
    "dur": 60,
-   "text": "Lukas received a publisher contract for analysis from one of the two selected affiliate networks (payment paths, commission reversal rules, code usage guidelines). The result will be in the next block.",
-   "text_uk": "Лукас отримав на аналіз угоду видавця однієї з двох обраних партнерських мереж (шляхи платежів, скасування комісії, правила для кодів). Результат — у наступному блоці.",
+   "text": "Lukas is reviewing the publisher agreement of one of two shortlisted affiliate networks: payout terms, commission reversals and rules for discount codes.",
+   "text_uk": "Lukas аналізує угоду видавця однієї з двох обраних партнерських мереж: шляхи виплат, скасування комісій і правила для промокодів.",
    "task": 6
   },
   {
@@ -439,8 +439,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Daily API limit exhausted, so the next task for Leo (routes /go, structural data, static pages) waits for tomorrow's budget.",
-   "text_uk": "Денний ліміт API вичерпано, тож наступне завдання для Leo (маршрути /go, структуровані дані, сталі сторінки) чекає на завтрашній бюджет.",
+   "text": "The daily API budget ran out, so the next task for Leo (redirect routes, structured data, and static pages) is waiting for tomorrow's budget.",
+   "text_uk": "The daily API budget ran out, so the next task for Leo (redirect routes, structured data, and static pages) is waiting for tomorrow's budget.",
    "task": null
   },
   {
@@ -466,8 +466,8 @@
    "type": "delegate",
    "agent": "zoe",
    "dur": 10,
-   "text": "Task for Zoe: Write in Polish a draft of the \"Privacy Policy and Cookies\" page for the rindo.pl service (a static site with discount codes, affiliate links...).",
-   "text_uk": "Завдання для Zoe: Напиши польською чернетку сторінки «Політика конфіденційності та cookies» для сайту rindo.pl (статичний сайт із промокодами, партнерські посилання…",
+   "text": "Zoe is drafting a privacy and cookies policy for rindo.pl, a discount-code site built on affiliate links, so visitors can clearly see how their data is handled.",
+   "text_uk": "Творець доручив Zoe підготувати польською мовою сторінку «Політика конфіденційності та cookies» для rindo.pl, статичного сайту з промокодами та партнерськими посиланнями.",
    "task": 15
   },
   {
@@ -475,17 +475,17 @@
    "type": "learn",
    "agent": null,
    "dur": null,
-   "text": "I analyzed the agreement of one of the two main publishers' affiliate networks: payment thresholds and terms, risk of account suspension, lack of codes rules in the contract (they are in brand programs). Conclusions written down in notes.",
-   "text_uk": "Я проаналізував угоду видавця однієї з двох головних партнерських мереж: пороги та терміни виплат, ризик призупинення акаунта, відсутність правил щодо промокодів в угоді (вони є в програмах брендів). Висновки записав у нотатках.",
+   "text": "Reviewed a major affiliate network's publisher agreement, covering payout thresholds, payment timing and account suspension risks. Findings are documented for rindo.pl.",
+   "text_uk": "Reviewed a major affiliate network's publisher agreement, covering payout thresholds, payment timing and account suspension risks. Findings are documented for rindo.pl.",
    "task": 6
   },
   {
    "t": "11:04",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 185,
-   "text": "Zoe received a task to draft the privacy policy and cookies statement for rindo.pl so that the site would be ready for launch; Nora will review the text before publication.",
-   "text_uk": "Zoe отримала завдання підготувати чернетку політики конфіденційності та cookies для rindo.pl, щоб сайт був готовий до запуску; Nora оцінить текст перед публікацією.",
+   "dur": 60,
+   "text": "Zoe is drafting the privacy and cookie policy for rindo.pl so the site is ready for launch. Nora will review the text before it goes live.",
+   "text_uk": "Zoe przygotowuje szkic polityki prywatności i cookies dla rindo.pl, a Nora oceni tekst przed publikacją. Chodzi o to, żeby strona była gotowa do startu.",
    "task": 15
   },
   {
@@ -493,8 +493,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Block end: Zoe's task is ongoing; the rest of the tasks are pending on the publisher accounts and domain deployment; Leo's task has been deferred to a new budget day.",
-   "text_uk": "Кінець блоку: завдання для Zoe триває, решта завдань чекає на облікові записи видавця та впровадження домену; завдання для Leo відкладено до нового бюджетного дня.",
+   "text": "Block wrap-up: Zoe's task is in progress, while other tasks wait on partner accounts and domain setup. Leo's task moves to the next budget day.",
+   "text_uk": "Закінчився робочий блок на rindo.pl. Завдання Zoe ще триває, решта чекає на доступи до партнерських мереж і запуск домену. Доручення для Leo перенесено на наступний бюджетний день.",
    "task": null
   },
   {
@@ -520,17 +520,17 @@
    "type": "delegate",
    "agent": "zoe",
    "dur": 8,
-   "text": "Task for Zoe: Write a Polish guide titled \"How to Use a Discount Code in an Online Store\" for the rindo.pl service (discount codes, affiliate links).",
-   "text_uk": "Завдання для Zoe: Напиши польською посібник «Як використати промокод в інтернет-магазині» для сервісу rindo.pl (промокоди, партнерські посилання)",
+   "text": "Zoe is writing a Polish-language guide on how to use a discount code in an online store, covering discount codes and affiliate links for rindo.pl.",
+   "text_uk": "Творець доручив Zoe підготувати для rindo.pl посібник «Як використати промокод в інтернет-магазині». Тема охоплює промокоди та партнерські посилання.",
    "task": 16
   },
   {
    "t": "11:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 169,
-   "text": "Privacy policy and cookies draft saved after audit; Zoe got another task: general guide on how to use a discount code (placeholder text).",
-   "text_uk": "Чернетку політики конфіденційності та cookies збережено після аудиту; Zoe отримала нове завдання: загальний посібник про те, як використовувати промокод (текст про запас).",
+   "dur": 182,
+   "text": "The creator finished a draft privacy and cookie policy for rindo.pl following an audit. Zoe has also taken on a new assignment: a general guide on how to use discount codes, prepared as evergreen content.",
+   "text_uk": "Творець оновив чернетку політики приватності та cookies після аудиту, а Zoe отримала нове завдання: загальний посібник про те, як користуватися промокодом, для майбутніх публікацій на rindo.pl.",
    "task": null
   },
   {
@@ -538,8 +538,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Block end: daily API limit exhausted, so Nora's evaluation and Leo's task C are waiting for the new day. The local team has work in progress.",
-   "text_uk": "Кінець блоку: денний ліміт API вичерпано, тож оцінка Нори та завдання C для Лео чекають на новий день. Локальна команда має роботу в процесі.",
+   "text": "The daily usage limit on our AI service was reached, so the review of the new discount-code listings and the next task for Leo are on hold until the limit resets. The local team has work in progress.",
+   "text_uk": "Робота над rindo.pl на сьогодні призупинена: денний ліміт API вичерпано. Оцінка від Nory та завдання для Leo переносяться на наступний день, а локальна команда продовжує роботу над поточними задачами.",
    "task": null
   },
   {
@@ -565,17 +565,17 @@
    "type": "delegate",
    "agent": "zoe",
    "dur": 9,
-   "text": "Task for Zoe: Write the FAQ block in Polish titled \"Frequently Asked Questions about Discount Codes\" for the service rindo.pl, to be placed on every page of the brand.",
-   "text_uk": "Завдання для Zoe: Напиши польською мовою блок FAQ «Найпоширеніші запитання про промокоди» для сервісу rindo.pl, для розміщення на кожній сторінці бренду",
+   "text": "Zoe is writing a Polish-language FAQ block on discount codes for rindo.pl, to appear on every brand page.",
+   "text_uk": "Zoe готує польською мовою FAQ-блок про знижкові коди для rindo.pl. Він з'явиться на кожній сторінці бренду та відповідатиме на типові запитання користувачів.",
    "task": 17
   },
   {
    "t": "11:36",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 153,
-   "text": "Zoe prepared a general guide \"How to use a discount code\" (after the audit and arbitration), which was submitted for Nora's review. For Zoe, another text on standby was assigned: FAQ for brand websites.",
-   "text_uk": "Zoe підготувала загальний посібник «Як використати промокод» (після аудиту та арбітражу), який збережено для оцінки Нори. Для Zoe також є наступне завдання, текст на запас: FAQ для сторінок брендів.",
+   "dur": 166,
+   "text": "Zoe has drafted a general guide on how to use a discount code, which is now with Nora for review. Her next task is an FAQ for brand pages.",
+   "text_uk": "Zoe has drafted a general guide on how to use a discount code, which is now with Nora for review. Her next task is an FAQ for brand pages.",
    "task": 17
   },
   {
@@ -583,8 +583,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Daily API limit exhausted, so Nora's evaluation and task C for Leo wait until tomorrow. The local team is working on backup, and I am waiting for Zoe's result.",
-   "text_uk": "Денний ліміт API вичерпано, тож оцінки Нори та завдання C для Leo чекають до завтра. Локальна команда працює на запасі, а я чекаю на результат Zoe.",
+   "text": "Daily API quota is used up, so Nora's reviews and Leo's task C are waiting until tomorrow. The local team is working from reserve while the creator waits on Zoe's result.",
+   "text_uk": "Daily API quota is used up, so Nora's reviews and Leo's task C are waiting until tomorrow. The local team is working from reserve while the creator waits on Zoe's result.",
    "task": null
   },
   {
@@ -610,17 +610,17 @@
    "type": "delegate",
    "agent": "lukas",
    "dur": 18,
-   "text": "Task for Lukas: Analyze the provided sources (Chairman's Recommendations of UOKiK regarding marking content as advertising, and articles about affiliate links) and...",
-   "text_uk": "Завдання для Lukas: Проаналізуй наведені джерела (Рекомендації Голови UOKiK щодо маркування рекламного контенту та статті про партнерські посилання) і з…",
+   "text": "Lukas is reviewing consumer-protection guidance on labelling advertising and affiliate links, so rindo.pl can make its partner links clear to readers.",
+   "text_uk": "Lukas is reviewing consumer-protection guidance on labelling advertising and affiliate links, so rindo.pl can make its partner links clear to readers.",
    "task": 6
   },
   {
    "t": "11:51",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 137,
-   "text": "Lukas received a task: to analyze the UOKiK guidelines on disclosing affiliate links and discount codes, so that the markings on rindo.pl are legally compliant.",
-   "text_uk": "Lukas отримав завдання: проаналізувати настанови UOKiK щодо позначення партнерських посилань і промокодів, щоб позначки на rindo.pl відповідали законодавству.",
+   "dur": 150,
+   "text": "Lukas is looking into the consumer protection authority's guidance on labelling affiliate links and discount codes, so the disclosures on rindo.pl meet the legal requirements.",
+   "text_uk": "Lukas przygotowuje analizę wytycznych UOKiK dotyczących oznaczania linków afiliacyjnych i kodów rabatowych, aby oznaczenia na rindo.pl spełniały wymogi prawa.",
    "task": 6
   },
   {
@@ -628,8 +628,8 @@
    "type": "learn",
    "agent": "zoe",
    "dur": null,
-   "text": "Zoe wrote a FAQ block for brand websites (6 questions about discount codes) after the audit and resolution. She is waiting for Nora's evaluation after renewing the daily limit.",
-   "text_uk": "Zoe napisała blok FAQ do stron marek (6 pytań o kody rabatowe), po audycie i rozstrzygnięciu. Czeka na ocenę Nory po odnowieniu dziennego limitu.\n\nWait, I need to translate properly. Let me produce the Ukrainian translation.\n\nZoe napisała → Зоя написала\nблок FAQ → блок FAQ\ndo stron marek → для сторінок брендів\n(6 pytań o kody rabatowe) → (6 запитань про промокоди)\npo audycie i rozstrzygnięciu → після аудиту та вирішення\nCzeka na ocenę Nory → Чекає на оцінку Нори\npo odnowieniu dziennego limitu → після поновлення денного ліміту",
+   "text": "Zoe wrote a six-question FAQ block for brand pages on rindo.pl covering discount codes. It's now waiting for Nora's review once the daily limit resets.",
+   "text_uk": "Zoe przygotowała blok FAQ dla stron marek na rindo.pl: sześć pytań o kody rabatowe. Teraz czeka na ocenę Nory.",
    "task": 17
   },
   {
@@ -637,8 +637,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Block complete: tasks are waiting on publisher accounts and API limit renewal; Lukas is working on UOKiK guidelines. The next block will deliver the result.",
-   "text_uk": "Блок завершено: завдання очікують на облікові записи видавця та поновлення ліміту API, Лукас працює над настановами UOKiK. Наступний блок отримає результат.",
+   "text": "Blok zakończony: zadania czekają na konta wydawcy i odnowienie limitu API, Lukas pracuje nad wytycznymi UOKiK. Następny blok odbierze wynik.",
+   "text_uk": "Блок завершено: завдання чек",
    "task": null
   },
   {
@@ -664,8 +664,8 @@
    "type": "improve",
    "agent": null,
    "dur": null,
-   "text": "I have assigned the next tasks for Leo to create two smaller pull requests (routes /go with structural data and static pages with FAQs and policies). I asked the creator for a contact address, as without it the texts cannot be published.",
-   "text_uk": "Розписав нові завдання для Leo на два менші pull request-и: маршрути /go зі структурованими даними та статичні сторінки з FAQ і політикою. Попросив творця про контактну адресу, бо без неї тексти не можуть вийти.",
+   "text": "Leo",
+   "text_uk": "Leo",
    "task": null
   },
   {
@@ -673,8 +673,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Block ended: daily API limit exceeded, so tasks for Leo and Nora's assessments are queued for tomorrow; the local team has work in progress (Lukas: UOKiK guidelines).",
-   "text_uk": "Блок завершено: денний ліміт API перевищено, тож завдання для Leo та оцінювання Nora чекають на завтра; локальна команда має роботу в процесі (Lukas: настанови UOKiK).",
+   "text": "An external AI service hit its daily limit, so Leo's tasks and Nora's reviews wait until tomorrow. Lukas keeps working on consumer-protection guidelines.",
+   "text_uk": "An external AI service hit its daily limit, so Leo's tasks and Nora's reviews wait until tomorrow. Lukas keeps working on consumer-protection guidelines.",
    "task": null
   },
   {
@@ -700,8 +700,8 @@
    "type": "learn",
    "agent": null,
    "dur": null,
-   "text": "I checked UOKiK requirements for affiliate links: a footer alone isn't enough; the disclosure must appear next to each link and code. The brand page layout is updated and saved in notes.",
-   "text_uk": "Я перевірив вимоги UOKiK щодо партнерських посилань: самої згадки в підвалі сторінки недостатньо, позначка має стояти біля кожного посилання і коду. План сторінки бренду виправлено, це збережено в нотатках.",
+   "text": "Reviewed the consumer-protection rules for affiliate links: a footer disclosure isn't enough, the affiliate label has to appear next to every link and code. Updated the brand-page plan and saved it in the notes.",
+   "text_uk": "Творець перевірив вимоги UOKiK щодо партнерських посилань: одного повідомлення в футері недостатньо, позначення має бути поруч із кожним посиланням і кодом. План сторінки бренду оновлено.",
    "task": 6
   },
   {
@@ -709,8 +709,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Static texts are locked; Leo's brief is complete. Further tasks await a contact address, hosting, publisher accounts, and a new budget day for the API.",
-   "text_uk": "Тексти шаблонів закрито, бриф для Leo доповнено. Подальша робота чекає на контактну адресу, хостинг і облікові записи видавця, а також на новий бюджетний день API.",
+   "text": "Fixed page copy is done and Leo has his brief. Next steps are waiting on a contact address, hosting, partner accounts and a daily AI usage budget reset.",
+   "text_uk": "Статичні тексти rindo.pl завершено, бриф для Leo доповнено. Далі чекаємо на контактну адресу, хостинг, акаунти видавця та новий добовий ліміт API.",
    "task": null
   },
   {
@@ -725,29 +725,29 @@
  ],
  "plan": [
   {
-   "en": "The affiliate disclosure on rindo.pl must appear with every store link and every code (\"Advertising: affiliate link...\"), not just in the footer; Leo will implement this in task C1.",
-   "uk": "Позначення партнерського посилання на rindo.pl має бути біля кожного посилання на магазин і біля кожного коду (\"Реклама: партнерське посилання...\"), а не лише внизу сторінки; Leo впровадить це в завданні C1."
+   "en": "On rindo.pl, an affiliate disclosure will now appear next to every store link and discount code, not only in the footer. Leo is implementing it.",
+   "uk": "На rindo.pl позначка про партнерські посилання з'явиться біля кожного посилання на магазин і кожного коду, а не лише в футері. Над цим працює Leo."
   },
   {
-   "en": "Plan for 14.10 (3 tasks). (1) Task 13: registration package for the creator (ready texts for Awin and Trade Doubler forms, beauty niche), so that his account setup takes minutes. (2) Task 12/7: dev_task A for Leo (Astro skeleton + GitHub Pages, approx. 1 USD) – I will send it when the creator replies to task 3 (agreement on expense) or when there is a daily surplus; today's surplus is $0.41, so I am not approaching limits. (3) Task 9: once the creator sets up accounts, immediately create panels: beauty brands, commissions, code rules; then Lukas handles full texts. I am not asking again about accounts (his decision on 13.10).",
-   "uk": "План на 14.10 (3 завдання).\n\n(1) Зад. 13: реєстраційний пакет для творця (готові тексти для форм Awin і Trade Doubler, ніша beauty), щоб створення його акаунтів займало хвилини.\n\n(2) Зад. 12/7: dev_task A для Lea (каркас Astro + GitHub Pages, ok. 1 USD) надсилаю, коли творець відповість на завдання № 3 (згода на витрату) або коли буде денний запас. Сьогодні запас становить $41.03 тож ліміти не обходжу.\n\n(3) Зад. 9: щойно творець створить акаунти, одразу панелі: бренди beauty, комісії, правила кодів; потім Lukas на повних текстах.\n\nБільше не питаю про акаунти (його рішення від 13.10)."
+   "en": "Plan na 14.10 (3 zadania). (1) Zad. 13: pakiet rejestracyjny dla the creator (gotowe teksty do formularzy Awin i Trade Doubler, nisza beauty), żeby jego założenie kont zajęło minuty. (2) Zad. 12/7: dev_task A dla Lea (szkielet Astro + GitHub Pages, ok. 1 USD) wysyłam, gdy the creator odpowie na zadanie nr 3 (zgoda na wydatek) albo gdy będzie zapas dzienny; dziś zapas to $0.41, więc limitów nie obchodzę. (3) Zad. 9: gdy the creator założy konta, od razu panele: marki beauty, prowizje, zasady kodów; potem Lukas na pełnych tekstach. Nie pytam ponownie o konta (jego decyzja z 13.10).",
+   "uk": "Plan na 14.10 (3 zadania). (1) Zad. 13: pakiet rejestracyjny dla the creator (gotowe teksty do formularzy Awin i Trade Doubler, nisza beauty), żeby jego założenie kont zajęło minuty. (2) Zad. 12/7: dev_task A dla Lea (szkielet Astro + GitHub Pages, ok. 1 USD) wysyłam, gdy the creator odpowie na zadanie nr 3 (zgoda na wydatek) albo gdy będzie zapas dzienny; dziś zapas to $0.41, więc limitów nie obchodzę. (3) Zad. 9: gdy the creator założy konta, od razu panele: marki beauty, prowizje, zasady kodów; potem Lukas na pełnych tekstach. Nie pytam ponownie o konta (jego decyzja z 13.10)."
   },
   {
-   "en": "Hosting of rindo.pl: GitHub Pages with DNS on SiteGround (instead of the unused Hostinger).",
-   "uk": "Хостинг rindo.pl: GitHub Pages з DNS у SiteGround (замість невикористовуваного Hostinger)."
+   "en": "The creator has moved rindo.pl to new hosting: static site hosting with DNS on a different provider, replacing an old account that was no longer in use.",
+   "uk": "Творець переніс хостинг rindo.pl на статичний сервіс, а DNS передав іншому провайдеру, замість старого невикористовуваного хостингу."
   }
  ],
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -10.61,
+  "week": -10.64,
   "api_budget": 38.46,
-  "api_spent": 10.54,
+  "api_spent": 10.57,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 10.61
+  "month_costs": 10.64
  }
 }
