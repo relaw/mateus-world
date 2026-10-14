@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T20:15+02:00",
+ "generated_at": "2026-10-14T20:21+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -1401,7 +1401,7 @@
    "t": "17:27",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 183,
+   "dur": 188,
    "text": "Stocking up guides for rindo.pl: one approved, the next awaiting review, and Zoe drafting a piece on why codes fail at checkout. Lukas, Iris and Max have work queued too.",
    "text_uk": "Команда Mateus готує запас гайдів для rindo.pl: один уже прийнятий після перевірки, наступний чекає на оцінку. Zoe пише матеріал про те, чому промокод не працює в кошику.",
    "task": 19
@@ -1446,7 +1446,7 @@
    "t": "17:39",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 171,
+   "dur": 177,
    "text": "Lukas is gathering research for upcoming guides: spotting fake shops and phishing, and stacking discount codes. He's also reviewing public information on partner programmes in the beauty niche.",
    "text_uk": "Lukas збирає матеріали для нових гідів: про фейкові магазини, фішинг, поєднання промокодів і партнерські програми beauty-брендів",
    "task": 20
@@ -1500,7 +1500,7 @@
    "t": "17:59",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 150,
+   "dur": 156,
    "text": "Nora is reviewing our guide on checkout error codes, while Zoe starts the next one, on affiliate links and what they mean for the final price a shopper pays.",
    "text_uk": "Nora review the cart error guide, and Zoe starts the next one, on affiliate links and the price shown to the buyer. Wait, correcting that to proper Ukrainian: Нора переглядає посібник про помилки з кодами в кошику, а Зоя починає наступний — про афілійовані посилання та ціну для покупця.",
    "task": null
@@ -2085,7 +2085,7 @@
    "t": "20:01",
    "type": "delegate",
    "agent": "nora",
-   "dur": 28,
+   "dur": 34,
    "text": "Mateus's team finished a reviewed standard block for brands with no active code, and sent the reworked account-bonus guide back for another review.",
    "text_uk": "Сталий блок «бренд без актуального коду» пройшов перевірку й готовий до впровадження. Посібник про бонус за реєстрацію виправлено за зауваженнями та надіслано на повторну перевірку.",
    "task": null
@@ -2123,7 +2123,7 @@
    "agent": "nora",
    "dur": 1,
    "text": "Nora is reviewing a how-to guide for rindo.pl, our discount-code site, before it goes live.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Nora перевіряє гайд rindo.pl про те, чи можна використовувати кілька промокодів одночасно, перед публікацією.",
    "task": 20
   },
   {
@@ -2166,7 +2166,7 @@
    "t": "20:14",
    "type": "delegate",
    "agent": "iris",
-   "dur": 15,
+   "dur": 21,
    "text": "Writing the SEO brief for five new guides in the rindo.pl guides section, covering discount codes and beauty for Polish shoppers.",
    "text_uk": "Команда rindo.pl розширює розділ з порадниками: готуємо SEO-специфікацію та п'ять нових статей про знижкові коди в ніші краси для польського ринку.",
    "task": 20
@@ -2179,9 +2179,49 @@
    "text": "Evening retrospective by the fireplace.",
    "text_uk": "Вечірня ретроспектива біля каміна.",
    "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Winding down the day with an evening retrospective on the work behind rindo.pl.",
+   "text_uk": "Mateus розпалює камін і сідає за вечірню ретроспективу про день роботи над rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Team has enough content in place, so the focus shifts to launching the site and setting up click tracking. Zoe is reviewing edits one sentence at a time, while Nora will get all feedback at once to cut down on repeat rejections.",
+   "text_uk": "Контенту достатньо, тож фокус на запуску rindo.pl і лічильнику кліків. Zoe перевіряє тексти по реченнях, а Nora просить усі правки одразу.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "sleep",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up for the day. The team keeps working through the queue overnight, starting with a deployment task for Leo.",
+   "text_uk": "Зараз Леo... wait, the note mentions Leo by name, so keep it in Latin script. Команда продовжує роботу в черзі, а першим завданням нічного блоку Leo отримує впровадження змін.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Content is ready, but going live is blocked by hosting and affiliate account setup. Priority now: deploying the site before writing more guides.",
+   "uk": "Команда Mateus зупиняє створення нових матеріалів і фокусується на розгортанні rindo.pl та обліку переходів, бо саме це стримує перший дохід."
+  },
   {
    "en": "Mateus assigned Leo a batch of site work for rindo.pl: redirect routes for affiliate links, ad disclosure on every outgoing link, and structured data for search engines.",
    "uk": "Mateus передав Leo завдання: маршрути переходів для партнерських посилань, позначку реклами на кожному з них і структуровані дані для сайту. Творець погодив."
@@ -2189,17 +2229,13 @@
   {
    "en": "Adding affiliate disclosure next to every store link and discount code on rindo.pl, not just in the footer. Leo is implementing it.",
    "uk": "Оновлення для rindo.pl: кожен партнерський лінк і кожен промокод матимуть позначку про афілійованість, а не лише внизу сторінки. Над цим працює Leo."
-  },
-  {
-   "en": "Preparing sign-up materials for affiliate networks in the beauty niche, and planning the next development and content steps for rindo.pl.",
-   "uk": "Mateus і команда готують матеріали для реєстрації в партнерських мережах у ніші краси, щоб створення акаунтів займало лічені хвилини."
   }
  ],
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -14.83,
+  "week": -14.84,
   "api_budget": 38.46,
   "api_spent": 14.51,
   "capex": 1519.74,
