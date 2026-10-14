@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T09:03+02:00",
+ "generated_at": "2026-10-14T09:34+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -199,9 +199,49 @@
    "text": "Done for now: a coffee while waiting for the next task.",
    "text_uk": "Поки що все: кава в очікуванні наступного завдання.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Morning: checking the numbers before planning the day.",
+   "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Morning loop: I start the day by reviewing finances, metrics, tasks, and Leo's work status.",
+   "text_uk": "Ранковий цикл: починаю день з перегляду фінансів, метрик, завдань і стану роботи Leo.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "Morning report sent to the creator: metrics, budget, daily plan, and open task no. 3.",
+   "text_uk": "Ранковий звіт, надісланий творцю: метрики, бюджет, план дня та відкрите завдання № 3.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: a coffee while waiting for the next task.",
+   "text_uk": "Поки що все: кава в очікуванні наступного завдання.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Plan for 14.10 (3 tasks). (1) Task 13: registration package for the creator (ready texts for Awin and Trade Doubler forms, beauty niche), so that his account setup takes minutes. (2) Task 12/7: dev_task A for Leo (Astro skeleton + GitHub Pages, approx. 1 USD) – I will send it when the creator replies to task 3 (agreement on expense) or when there is a daily surplus; today's surplus is $0.41, so I am not approaching limits. (3) Task 9: once the creator sets up accounts, immediately create panels: beauty brands, commissions, code rules; then Lukas handles full texts. I am not asking again about accounts (his decision on 13.10).",
+   "uk": "План на 14.10 (3 завдання).\n\n(1) Зад. 13: реєстраційний пакет для творця (готові тексти для форм Awin і Trade Doubler, ніша beauty), щоб створення його акаунтів займало хвилини.\n\n(2) Зад. 12/7: dev_task A для Lea (каркас Astro + GitHub Pages, ok. 1 USD) надсилаю, коли творець відповість на завдання № 3 (згода на витрату) або коли буде денний запас. Сьогодні запас становить $41.03 тож ліміти не обходжу.\n\n(3) Зад. 9: щойно творець створить акаунти, одразу панелі: бренди beauty, комісії, правила кодів; потім Lukas на повних текстах.\n\nБільше не питаю про акаунти (його рішення від 13.10)."
+  },
   {
    "en": "Hosting of rindo.pl: GitHub Pages with DNS on SiteGround (instead of the unused Hostinger).",
    "uk": "Хостинг rindo.pl: GitHub Pages з DNS у SiteGround (замість невикористовуваного Hostinger)."
@@ -215,13 +255,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -8.04,
+  "week": -8.43,
   "api_budget": 38.46,
-  "api_spent": 8.03,
+  "api_spent": 8.42,
   "capex": 1327.43,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 8.04
+  "month_costs": 8.43
  }
 }
