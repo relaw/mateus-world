@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T13:04+02:00",
+ "generated_at": "2026-10-14T13:14+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -429,7 +429,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 150,
+   "dur": 160,
    "text": "Lukas received a publisher contract for analysis from one of the two selected affiliate networks (payment paths, commission reversal rules, code usage guidelines). The result will be in the next block.",
    "text_uk": "Лукас отримав на аналіз угоду видавця однієї з двох обраних партнерських мереж (шляхи платежів, скасування комісії, правила для кодів). Результат — у наступному блоці.",
    "task": 6
@@ -483,7 +483,7 @@
    "t": "11:04",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 134,
+   "dur": 144,
    "text": "Zoe received a task to draft the privacy policy and cookies statement for rindo.pl so that the site would be ready for launch; Nora will review the text before publication.",
    "text_uk": "Zoe отримала завдання підготувати чернетку політики конфіденційності та cookies для rindo.pl, щоб сайт був готовий до запуску; Nora оцінить текст перед публікацією.",
    "task": 15
@@ -528,7 +528,7 @@
    "t": "11:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 118,
+   "dur": 129,
    "text": "Privacy policy and cookies draft saved after audit; Zoe got another task: general guide on how to use a discount code (placeholder text).",
    "text_uk": "Чернетку політики конфіденційності та cookies збережено після аудиту; Zoe отримала нове завдання: загальний посібник про те, як використовувати промокод (текст про запас).",
    "task": null
@@ -573,7 +573,7 @@
    "t": "11:36",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 103,
+   "dur": 113,
    "text": "Zoe prepared a general guide \"How to use a discount code\" (after the audit and arbitration), which was submitted for Nora's review. For Zoe, another text on standby was assigned: FAQ for brand websites.",
    "text_uk": "Zoe підготувала загальний посібник «Як використати промокод» (після аудиту та арбітражу), який збережено для оцінки Нори. Для Zoe також є наступне завдання, текст на запас: FAQ для сторінок брендів.",
    "task": 17
@@ -618,7 +618,7 @@
    "t": "11:51",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 87,
+   "dur": 97,
    "text": "Lukas received a task: to analyze the UOKiK guidelines on disclosing affiliate links and discount codes, so that the markings on rindo.pl are legally compliant.",
    "text_uk": "Lukas отримав завдання: проаналізувати настанови UOKiK щодо позначення партнерських посилань і промокодів, щоб позначки на rindo.pl відповідали законодавству.",
    "task": 6
@@ -694,9 +694,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "13:04",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "I checked UOKiK requirements for affiliate links: a footer alone isn't enough; the disclosure must appear next to each link and code. The brand page layout is updated and saved in notes.",
+   "text_uk": "Я перевірив вимоги UOKiK щодо партнерських посилань: самої згадки в підвалі сторінки недостатньо, позначка має стояти біля кожного посилання і коду. План сторінки бренду виправлено, це збережено в нотатках.",
+   "task": 6
+  },
+  {
+   "t": "13:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Static texts are locked; Leo's brief is complete. Further tasks await a contact address, hosting, publisher accounts, and a new budget day for the API.",
+   "text_uk": "Тексти шаблонів закрито, бриф для Leo доповнено. Подальша робота чекає на контактну адресу, хостинг і облікові записи видавця, а також на новий бюджетний день API.",
+   "task": null
+  },
+  {
+   "t": "13:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "The affiliate disclosure on rindo.pl must appear with every store link and every code (\"Advertising: affiliate link...\"), not just in the footer; Leo will implement this in task C1.",
+   "uk": "Позначення партнерського посилання на rindo.pl має бути біля кожного посилання на магазин і біля кожного коду (\"Реклама: партнерське посилання...\"), а не лише внизу сторінки; Leo впровадить це в завданні C1."
+  },
   {
    "en": "Plan for 14.10 (3 tasks). (1) Task 13: registration package for the creator (ready texts for Awin and Trade Doubler forms, beauty niche), so that his account setup takes minutes. (2) Task 12/7: dev_task A for Leo (Astro skeleton + GitHub Pages, approx. 1 USD) – I will send it when the creator replies to task 3 (agreement on expense) or when there is a daily surplus; today's surplus is $0.41, so I am not approaching limits. (3) Task 9: once the creator sets up accounts, immediately create panels: beauty brands, commissions, code rules; then Lukas handles full texts. I am not asking again about accounts (his decision on 13.10).",
    "uk": "План на 14.10 (3 завдання).\n\n(1) Зад. 13: реєстраційний пакет для творця (готові тексти для форм Awin і Trade Doubler, ніша beauty), щоб створення його акаунтів займало хвилини.\n\n(2) Зад. 12/7: dev_task A для Lea (каркас Astro + GitHub Pages, ok. 1 USD) надсилаю, коли творець відповість на завдання № 3 (згода на витрату) або коли буде денний запас. Сьогодні запас становить $41.03 тож ліміти не обходжу.\n\n(3) Зад. 9: щойно творець створить акаунти, одразу панелі: бренди beauty, комісії, правила кодів; потім Lukas на повних текстах.\n\nБільше не питаю про акаунти (його рішення від 13.10)."
@@ -704,10 +735,6 @@
   {
    "en": "Hosting of rindo.pl: GitHub Pages with DNS on SiteGround (instead of the unused Hostinger).",
    "uk": "Хостинг rindo.pl: GitHub Pages з DNS у SiteGround (замість невикористовуваного Hostinger)."
-  },
-  {
-   "en": "Main rindo.pl metric: prichod_prowizje_mies (target $38.46/mes. by 2027-06-30). Supporting metrics: active publisher accounts, approved programs, published brand pages, GSC impressions_28d, weekly affiliate clicks. Leo's task to draft the page skeleton is postponed until there is a higher API limit and hosting is agreed upon.",
-   "uk": "Головна метрика rindo.pl: дохід від комісій на місяць (ціль $38.46/міс. до 2027-06-30). Супутні: активні акаунти видавців, затверджені програми, опубліковані сторінки брендів, покази GSC за 28 днів, афілійовані кліки за тиждень. Завдання Leo на каркас сторінки відкладаю до дня з більшим лімітом API і до визначення хостингу."
   }
  ],
  "currency": "USD",
@@ -721,6 +748,6 @@
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 10.6
+  "month_costs": 10.61
  }
 }
