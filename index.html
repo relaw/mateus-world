@@ -783,7 +783,7 @@ function drawWalker(c,w,t,extra){
   else drawSprite(c[w.face],x,y,0,null,al);
   if(extra)extra(x,y,al);
 }
-const BAG={zoe:['#8a4a5a','#a85a6c'],lukas:['#3a4a5a','#5a6a7a'],nora:['#4a3a6a','#6a5a8a'],leo:['#2a2f3a','#4a5260']};
+const BAG={zoe:['#8a4a5a','#a85a6c'],lukas:['#3a4a5a','#5a6a7a'],nora:['#4a3a6a','#6a5a8a'],leo:['#2a2f3a','#4a5260'],iris:['#7a3a64','#a05a8a'],max:['#5a4a2a','#7a6a3a']};
 function bagAcc(x,y,face,cols,al){ // torba przewieszona przez ramię
   const L=face==='left',side=face==='left'||face==='right';
   if(side){acc(x,y,L?7:2,11,1,4,'#3a2a22',al);acc(x,y,L?7:1,15,4,4,cols[0],al);acc(x,y,L?7:1,15,4,1,cols[1],al);}
