@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T14:38+02:00",
+ "generated_at": "2026-10-14T14:49+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -618,7 +618,7 @@
    "t": "11:51",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 181,
+   "dur": 192,
    "text": "Lukas is reviewing consumer-protection guidance on labelling affiliate links and discount codes, so rindo.pl's disclosures meet legal requirements.",
    "text_uk": "Lukas analizує вимоги UOKiK до позначення афілійованих посилань і промокодів, щоб маркування на rindo.pl відповідало законодавству.",
    "task": 6
@@ -771,7 +771,7 @@
    "t": "14:25",
    "type": "delegate",
    "agent": "nora",
-   "dur": 27,
+   "dur": 38,
    "text": "Leo is adding store redirects and visible ad labels on affiliate links. Nora is reviewing the guide and FAQ, and SEO guidelines for brand pages are in progress.",
    "text_uk": "Leo працює над переспрямуваннями до магазинів і позначенням реклами в партнерських посиланнях. Nora перевіряє гайд і FAQ, а команда готує SEO-правила для сторінок брендів.",
    "task": null
@@ -807,7 +807,7 @@
    "t": "14:27",
    "type": "delegate",
    "agent": "iris",
-   "dur": 25,
+   "dur": 36,
    "text": "Preparing an SEO specification for brand pages on rindo.pl, a discount-code site in the beauty niche, to hand over to Leo as a ready reserve.",
    "text_uk": "Команда Mateusa заздалегідь готує SEO-специфікацію для сторінок брендів rindo.pl, сайту з промокодами в ніші краси та догляду в Польщі.",
    "task": 6
@@ -834,7 +834,7 @@
    "t": "14:36",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 16,
+   "dur": 12,
    "text": "Zoe is writing a guide for rindo.pl visitors on how to check whether a discount code is still valid.",
    "text_uk": "Завдання для команди.",
    "task": 18
@@ -852,7 +852,7 @@
    "t": "14:37",
    "type": "delegate",
    "agent": "nora",
-   "dur": 16,
+   "dur": 26,
    "text": "Mateus and his team merged an approved update covering redirects, ad labels on links, structured data and llms.txt. New work is underway: revised copy, another guide and collecting codes from brand sites.",
    "text_uk": "Завдання для команди.",
    "task": 7
