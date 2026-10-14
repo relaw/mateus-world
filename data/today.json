@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T10:51+02:00",
+ "generated_at": "2026-10-14T10:58+02:00",
  "date": "2026-10-14",
  "events": [
   {
@@ -411,10 +411,37 @@
    "t": "10:42",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 15,
    "text": "Task for Lukas: Analyze the publisher Trade Doubler's contract (text in DATA, downloaded from the provided address).",
    "text_uk": "Завдання для Lukas: Проаналізуй угоду видавця Trade Doubler (текст у ДАНИХ, завантажений із зазначеної адреси)",
    "task": 6
+  },
+  {
+   "t": "10:48",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "I merged the brand template from Leo's data (brand details and template testing). The three static site texts (about the service, code verification, affiliate information) passed Nora's review and are awaiting implementation.",
+   "text_uk": "Я об'єднав шаблон сторінки бренду від Лео (дані брендів, тест шаблону). Три статичні тексти сервісу (про сервіс, перевірка кодів, інформація про партнерську програму) пройшли перевірку Нори і чекають на впровадження.",
+   "task": 14
+  },
+  {
+   "t": "10:48",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 25,
+   "text": "Lukas received a publisher contract for analysis from one of the two selected affiliate networks (payment paths, commission reversal rules, code usage guidelines). The result will be in the next block.",
+   "text_uk": "Лукас отримав на аналіз угоду видавця однієї з двох обраних партнерських мереж (шляхи платежів, скасування комісії, правила для кодів). Результат — у наступному блоці.",
+   "task": 6
+  },
+  {
+   "t": "10:48",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Daily API limit exhausted, so the next task for Leo (routes /go, structural data, static pages) waits for tomorrow's budget.",
+   "text_uk": "Денний ліміт API вичерпано, тож наступне завдання для Leo (маршрути /go, структуровані дані, сталі сторінки) чекає на завтрашній бюджет.",
+   "task": null
   },
   {
    "t": "10:48",
@@ -423,6 +450,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "10:58",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
@@ -444,13 +480,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -10.05,
+  "week": -10.19,
   "api_budget": 38.46,
-  "api_spent": 10.04,
+  "api_spent": 10.16,
   "capex": 1519.74,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 10.05
+  "month_costs": 10.19
  }
 }
