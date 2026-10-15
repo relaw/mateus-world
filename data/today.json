@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T18:44+02:00",
+ "generated_at": "2026-10-15T18:55+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -2483,7 +2483,7 @@
    "agent": "leo",
    "dur": null,
    "text": "Leo finished updating section headings and page titles on the store pages so they match the facts for each store. A pull request is waiting for review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Leo finished updating section headers and page titles on store pages so they match the facts on each page. Waiting for review. Wait, I need to write this in Ukrainian and avoid naming stores or tools. Corrected: Леो finished... no, correct Ukrainian: Leo завершив роботу над заголовками розділів і сторінок магазинів, щоб вони відповідали фактам на кожній сторінці. Зміни чекають на перевірку.",
    "task": 41
   },
   {
@@ -4227,7 +4227,7 @@
    "t": "17:58",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 60,
+   "dur": 72,
    "text": "Lukas is compiling a short list of facts for an electronics retailer's page on rindo.pl.",
    "text_uk": "Lukas складає короткий список ключових фактів для сторінки одного з магазинів на rindo.pl, зручний для читання з телефону.",
    "task": 45
@@ -4323,13 +4323,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -53.36,
+  "week": -53.37,
   "api_budget": 76.92,
-  "api_spent": 52.14,
+  "api_spent": 52.15,
   "capex": 2620.04,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 53.36
+  "month_costs": 53.37
  }
 }
