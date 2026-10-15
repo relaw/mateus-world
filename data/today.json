@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T21:20+02:00",
+ "generated_at": "2026-10-15T21:32+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -4742,7 +4742,7 @@
    "agent": "zoe",
    "dur": 2,
    "text": "Assigning Zoe to write copy for a store page on rindo.pl, focused on returns.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Zoe пише текст про умови повернення товарів для сторінки одного з магазинів на rindo.pl.",
    "task": 45
   },
   {
@@ -4864,6 +4864,42 @@
   },
   {
    "t": "21:20",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 26,
+   "text": "Assigning Zoe to write the returns copy for a fashion store page on rindo.pl.",
+   "text_uk": "Zoe пише текст сторінки одного з магазинів для rindo.pl, зосереджений лише на умовах повернення товарів.",
+   "task": 45
+  },
+  {
+   "t": "21:20",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Our team is updating a footwear store page on rindo.pl with new copy about the cost of in-store returns.",
+   "text_uk": "Оновлюємо текст сторінки магазину взуття на rindo.pl: додаємо пояснення про вартість повернення товару в офлайн-магазині.",
+   "task": 45
+  },
+  {
+   "t": "21:20",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Quality checks passed on a shoe store page, which is now waiting for publication. The team has taken on another store to write up.",
+   "text_uk": "Сторінка магазину взуття пройшла перевірку якості й чекає публікації. Команда вже взялася за опис нового магазину для rindo.pl.",
+   "task": 45
+  },
+  {
+   "t": "21:20",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on a partner's sign-off: a footwear retailer's store page and a fashion brand's copy are due back from their teams before we can finish this block.",
+   "text_uk": "Між завданнями.",
+   "task": null
+  },
+  {
+   "t": "21:20",
    "type": "idle",
    "agent": null,
    "dur": null,
@@ -4892,7 +4928,7 @@
   "earned": 0.0,
   "week": -56.55,
   "api_budget": 76.92,
-  "api_spent": 55.19,
+  "api_spent": 55.2,
   "capex": 2621.89,
   "repaid": 0.0,
   "domain_target": 56.77,
