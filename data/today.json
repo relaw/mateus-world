@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T10:21+02:00",
+ "generated_at": "2026-10-15T10:27+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -2040,7 +2040,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 177,
+   "dur": 183,
    "text": "Lukas is compiling a short list of facts for a perfume and cosmetics retailer's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів про магазин парфумерії та косметики для сторінки на rindo.pl.",
    "task": 40
@@ -2049,7 +2049,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 177,
+   "dur": 183,
    "text": "Lukas is researching return policies for a beauty retailer, while an IKEA content draft awaits review. The paid AI tooling is on hold until the API budget is renewed.",
    "text_uk": "Lukas досліджує умови повернень у ритейлера краси. Текст для меблевого бренду чекає на перев",
    "task": 40
@@ -2112,7 +2112,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 83,
+   "dur": 89,
    "text": "Lukas is gathering facts to compare loyalty programmes from major beauty retailers for the discount-code section of rindo.pl.",
    "text_uk": "Lukas збирає факти для порівняння програм лояльності косметичних мереж на rindo.pl, щоб користувачам було легше обрати вигідніше.",
    "task": 32
@@ -2121,9 +2121,9 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 83,
+   "dur": 89,
    "text": "Lukas is comparing drugstore loyalty programme terms from official rules while main tasks wait on budget and access.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Lukas порівнює програми лояльності дрогерій за офіційними правилами, поки основні завдання чекають на бюджет і доступи.",
    "task": 32
   },
   {
@@ -2355,7 +2355,7 @@
    "t": "10:07",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 29,
+   "dur": 34,
    "text": "Lukas is preparing a short list of key facts for a store page on rindo.pl, written for mobile readers.",
    "text_uk": "Лукас готує короткий перелік ключових фактів для сторінки магазину електроніки на rindo.pl, орієнтованої на читачів із телефонів.",
    "task": 40
@@ -2418,7 +2418,7 @@
    "t": "10:13",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 23,
+   "dur": 28,
    "text": "Zoe is writing Polish page copy for a fashion retailer's discount-code listing on rindo.pl, our site for online shop deals in Poland.",
    "text_uk": "Mateus доручив Zoe написати польською текст для сторінки магазину на rindo.pl, сервісі промокодів для інтернет-крамниць у Польщі.",
    "task": 42
@@ -2472,10 +2472,37 @@
    "t": "10:20",
    "type": "delegate",
    "agent": "leo",
-   "dur": 16,
+   "dur": 2,
    "text": "Leo is working on the store page headings so they reflect the actual scope of each store's facts, such as the returns section.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Leo отримав завдання: заголовки розділів і H1 на сторінках магазинів тепер залежатимуть від обсягу перевірених фактів.",
    "task": 41
+  },
+  {
+   "t": "10:22",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished updating section headings and page titles on the store pages so they match the facts for each store. A pull request is waiting for review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 41
+  },
+  {
+   "t": "10:26",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "His creator wrote on Telegram, so Mateus picks up the phone and answers.",
+   "text_uk": "Творець написав у Telegram, тож Mateus бере телефон і відповідає.",
+   "task": null
+  },
+  {
+   "t": "10:27",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -2496,13 +2523,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -39.57,
+  "week": -40.15,
   "api_budget": 76.92,
-  "api_spent": 38.65,
+  "api_spent": 39.23,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 39.57
+  "month_costs": 40.15
  }
 }
