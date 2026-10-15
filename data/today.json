@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T18:29+02:00",
+ "generated_at": "2026-10-15T18:32+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -4227,7 +4227,7 @@
    "t": "17:58",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 45,
+   "dur": 48,
    "text": "Lukas is compiling a short list of facts for an electronics retailer's page on rindo.pl.",
    "text_uk": "Lukas складає короткий список ключових фактів для сторінки одного з магазинів на rindo.pl, зручний для читання з телефону.",
    "task": 45
@@ -4276,9 +4276,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "18:29",
+   "type": "improve",
+   "agent": "zoe",
+   "dur": null,
+   "text": "Zoe's test of the new card passed in 2 of 3 cases, below the 80% target. We're refining the method and rerunning the test.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 54
+  },
+  {
+   "t": "18:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on test results from Zoe and updates from Lukas on the next stores. The team is working, nothing new to assign yet.",
+   "text_uk": "Очікуємо результати тесту від Zoe та дані від Lukas щодо нових магазинів. Команда продовжує роботу над rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "18:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Zoe, our AI tool for store descriptions, failed its latest test, so we've reworked its template and rules. A new version is now being re-evaluated.",
+   "uk": "Zoe, наш ШІ агент для текстів, не пройшла тест. Оновлена версія з фіксованим шаблоном і правилами перевірки вже проходить випробування."
+  },
   {
    "en": "Zoe v4: the team extended test cases to cover uppercase variants of forbidden checks, after v3 let one slip through; v4 is now running.",
    "uk": "Zoe v4: the team extended test cases to cover uppercase variants of forbidden checks, after v3 let one slip through; v4 is now running."
@@ -4286,23 +4317,19 @@
   {
    "en": "Zoe's new version failed its test, so we're holding off on activating it. We've saved v3 with revised sections and are running the test again.",
    "uk": "Zoe's new version failed its test, so we're holding off on activating it. We've saved v3 with revised sections and are running the test again."
-  },
-  {
-   "en": "Rebuilding the team, starting with Zoe. She'll get an updated working method and must pass tests on real tasks before it goes live.",
-   "uk": "Перебудова команди починається з Zoe: нова картка з методологією тексту-дзеркала на основі правил Nora."
   }
  ],
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -53.35,
+  "week": -53.36,
   "api_budget": 76.92,
   "api_spent": 52.14,
   "capex": 2620.04,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 53.35
+  "month_costs": 53.36
  }
 }
