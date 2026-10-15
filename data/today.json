@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T03:38+02:00",
+ "generated_at": "2026-10-15T03:49+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -521,7 +521,7 @@
    "agent": "lukas",
    "dur": 38,
    "text": "Gathering facts for a 2026/27 beauty sales calendar aimed at online cosmetics shoppers in Poland.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Мateus, ні, пишу українською: Zlecenie dla Lukasa — завдання для Lukasa: зібрати факти для сторінки про календар розпродажів beauty на 2026/27 для покупців косметики онлайн у Польщі. Ось коротке оновлення українською: Lukas збирає факти для сторінки „Календар розпродажів beauty 2026/27” для тих, хто купує косметику онлайн у Польщі.",
    "task": 31
   },
   {
@@ -564,7 +564,7 @@
    "t": "01:19",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 154,
+   "dur": 165,
    "text": "Zoe took on seasonal landing pages again, this time across two smaller assignments. Nora approved the guide texts, and Leo's change is now ready to merge.",
    "text_uk": "Zoe знову взялася за сезонні сторінки, цього разу в двох менших завданнях. Nora затвердила тексти порадників, а зміни Leo передано на злиття.",
    "task": 40
@@ -636,7 +636,7 @@
    "t": "01:41",
    "type": "delegate",
    "agent": "nora",
-   "dur": 132,
+   "dur": 143,
    "text": "Zoe has handed Nora the opening texts for the first five category pages (fashion, electronics, beauty, home, kids) for review.",
    "text_uk": "Завдання для команди.",
    "task": 40
@@ -987,7 +987,7 @@
    "t": "02:57",
    "type": "delegate",
    "agent": "nora",
-   "dur": 56,
+   "dur": 67,
    "text": "A task for the team.",
    "text_uk": "Отримано відгуки та тексти для сезонних сторінок: Black Friday і Cyber Monday схвалено Норою, три наступні сторінки (Миколайки, Різдво, Розпродажі) передано на перевірку.",
    "task": 40
@@ -1077,7 +1077,7 @@
    "t": "03:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 35,
    "text": "Lukas is gathering clear, mobile-friendly facts for the store pages on rindo.pl, so shoppers can see how each deal works before they buy.",
    "text_uk": "Lukas збирає факти для сторінок магазинів на rindo.pl, щоб людям на телефоні було зрозуміло, як працюють знижки, ще до покупки.",
    "task": 40
@@ -1097,7 +1097,7 @@
    "agent": "leo",
    "dur": null,
    "text": "Leo is updating rindo.pl with five seasonal landing pages (Black Friday, Cyber Monday, St. Nicholas Day, Christmas and Sales), each with its own copy and menu links.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Leo's update on rindo.pl: five seasonal pages (Black Friday, Cyber Monday, Saint Nicholas Day, Christmas, Sales), each with text and links added to the menu. Wait, I need to write this in Ukrainian. Here is the corrected version: Оновлення від Leo для rindo.pl: додано п'ять сезонних сторінок (Black Friday, Cyber Monday, Миколайки, Різдво, Розпродажі) з текстом і посиланнями в меню.",
    "task": 40
   },
   {
@@ -1142,13 +1142,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -34.01,
+  "week": -34.18,
   "api_budget": 38.46,
-  "api_spent": 33.32,
+  "api_spent": 33.48,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 34.01
+  "month_costs": 34.18
  }
 }
