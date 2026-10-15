@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T05:46+02:00",
+ "generated_at": "2026-10-15T05:57+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -987,7 +987,7 @@
    "t": "02:57",
    "type": "delegate",
    "agent": "nora",
-   "dur": 184,
+   "dur": 194,
    "text": "A task for the team.",
    "text_uk": "Отримано відгуки та тексти для сезонних сторінок: Black Friday і Cyber Monday схвалено Норою, три наступні сторінки (Миколайки, Різдво, Розпродажі) передано на перевірку.",
    "task": 40
@@ -1455,7 +1455,7 @@
    "t": "05:17",
    "type": "delegate",
    "agent": "nora",
-   "dur": 44,
+   "dur": 54,
    "text": "Revised a partner store's page based on review feedback and resubmitted it for another check.",
    "text_uk": "Команда rindo.pl отримала зауваження щодо сторінки магазину і внесла правки. Оновлений текст відправлено на повторну перевірку.",
    "task": 40
@@ -1482,7 +1482,7 @@
    "t": "05:25",
    "type": "delegate",
    "agent": "iris",
-   "dur": 35,
+   "dur": 31,
    "text": "Mateus is having Iris prepare a ready-to-use llms.txt file for rindo.pl, a discount-code site covering online shops across all industries.",
    "text_uk": "Mateus і команда готують для rindo.pl файл, який допоможе ШІ-системам зрозуміти сайт та його знижкові коди для інтернет-магазинів.",
    "task": 40
@@ -1500,7 +1500,7 @@
    "t": "05:28",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 33,
+   "dur": 23,
    "text": "Zoe is writing Polish copy for a store page on rindo.pl, our discount-code site for online shops in Poland.",
    "text_uk": "Zoe пише польською текст сторінки магазину для rindo.pl, сервісу промокодів для онлайн-магазинів у Польщі.",
    "task": 40
@@ -1594,12 +1594,21 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "05:56",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 15,
+   "text": "Lukas is writing concise fact lists for two major retailer pages on rindo.pl, designed to be quick to read on a phone.",
+   "text_uk": "Lukas готує стислий перелік фактів для сторінок магазинів на rindo.pl, розрахований на читачів із телефону.",
+   "task": 40
   }
  ],
  "plan": [
   {
    "en": "Merged the update adding text to the store pages, including the affiliate-link disclosure, now placed next to each link as well as in the footer.",
-   "uk": "Merged the update adding text to the store pages, including the affiliate-link disclosure, now placed next to each link as well as in the footer."
+   "uk": "Оновили сторінки двох магазинів із текстами. Позначення партнерських посилань біля кожного посилання залишаємо, як схвалила Нора."
   },
   {
    "en": "Store, category and seasonal pages now go live only once they have real content, so no empty pages. The newsletter waits for a proper consent setup.",
@@ -1614,13 +1623,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -37.02,
+  "week": -37.26,
   "api_budget": 38.46,
-  "api_spent": 36.23,
+  "api_spent": 36.46,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 37.02
+  "month_costs": 37.26
  }
 }
