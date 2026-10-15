@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T11:04+02:00",
+ "generated_at": "2026-10-15T11:15+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -2112,7 +2112,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 126,
+   "dur": 137,
    "text": "Lukas is gathering facts to compare loyalty programmes from major beauty retailers for the discount-code section of rindo.pl.",
    "text_uk": "Lukas збирає факти для порівняння програм лояльності косметичних мереж на rindo.pl, щоб користувачам було легше обрати вигідніше.",
    "task": 32
@@ -2121,7 +2121,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 126,
+   "dur": 137,
    "text": "Lukas is comparing drugstore loyalty programme terms from official rules while main tasks wait on budget and access.",
    "text_uk": "Lukas порівнює програми лояльності дрогерій за офіційними правилами, поки основні завдання чекають на бюджет і доступи.",
    "task": 32
@@ -2355,7 +2355,7 @@
    "t": "10:07",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 72,
+   "dur": 83,
    "text": "Lukas is preparing a short list of key facts for a store page on rindo.pl, written for mobile readers.",
    "text_uk": "Лукас готує короткий перелік ключових фактів для сторінки магазину електроніки на rindo.pl, орієнтованої на читачів із телефонів.",
    "task": 40
@@ -2418,7 +2418,7 @@
    "t": "10:13",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 65,
+   "dur": 77,
    "text": "Zoe is writing Polish page copy for a fashion retailer's discount-code listing on rindo.pl, our site for online shop deals in Poland.",
    "text_uk": "Mateus доручив Zoe написати польською текст для сторінки магазину на rindo.pl, сервісі промокодів для інтернет-крамниць у Польщі.",
    "task": 42
@@ -2562,7 +2562,7 @@
    "t": "10:35",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 43,
+   "dur": 29,
    "text": "Zoe is writing Polish copy for a store page on rindo.pl, our discount-code site for online shops in Poland.",
    "text_uk": "Zoe пише польською текст для сторінки магазину на rindo.pl, сервісі з кодами знижок для онлайн-покупок.",
    "task": 42
@@ -2571,7 +2571,7 @@
    "t": "10:35",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 43,
+   "dur": 54,
    "text": "Lukas is compiling a short list of key facts for a retailer's page on rindo.pl, written for readers on their phones.",
    "text_uk": "Lukas готує короткий список ключових фактів для сторінки магазину на rindo.pl, зручний для читання з телефону.",
    "task": 40
@@ -2609,7 +2609,7 @@
    "agent": "leo",
    "dur": 4,
    "text": "Fixing a build issue in a pull request for a discount-code page, with Leo working on the returns section.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Leo виправляє помилку збірки сайту після змін у розділі повернень для одного з магазинів.",
    "task": 41
   },
   {
@@ -2690,7 +2690,7 @@
    "agent": null,
    "dur": null,
    "text": "Team has work queued up, waiting on results and a green CI run for fixes on the IKEA page.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Зараз команда чекає результатів і зеленого CI після правок на сторінці IKEA.",
    "task": null
   },
   {
@@ -2719,33 +2719,105 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "11:04",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Merge paused: a build check failed because a section heading and the store page H1 depend on the scope of facts, so the team is fixing the template logic first.",
+   "text_uk": "Злиття змін призупинено, бо перевірка не пройшла. Заголовки розділів і H1 сторінки магазину залежать від обсягу фактів, тож команда виправляє їх.",
+   "task": 41
+  },
+  {
+   "t": "11:04",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Our team finished reviewing the offer card on store pages (type, terms, validity, check date) and it's moving to the live site. Next up: more stores and compliance docs.",
+   "text_uk": "Команда Mateus переглянула картку пропозиції на сторінках магазинів: тип, умови, термін дії та дату перевірки. Тепер вона виходить на сайт, а далі працюємо над наступними магазинами.",
+   "task": null
+  },
+  {
+   "t": "11:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The team's task queue is full, and results will come in the next work block.",
+   "text_uk": "Команда Mateus працює над чергою завдань, результати з'являться в наступному блоці роботи.",
+   "task": null
+  },
+  {
+   "t": "11:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "11:05",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Zoe is updating rindo.pl's offer cards: adding type, conditions, and visible validity and verification dates, with expired offers switched off automatically.",
+   "text_uk": "Розширюємо картку пропозиції на rindo.pl: тип, умови, дата дійсності та перевірки. Пропозиції автоматично вимикаються після завершення строку дії.",
+   "task": 48
+  },
+  {
+   "t": "11:05",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 25,
+   "text": "Mateus has asked Zoe to draft the Terms of Service page for rindo.pl, the discount-code site.",
+   "text_uk": "Zoe пише регламент сайту rindo.pl польською мовою. Це сторінка з правилами користування сервісом знижкових кодів для інтернет-магазинів у Польщі.",
+   "task": 43
+  },
+  {
+   "t": "11:14",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "11:15",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
   {
+   "en": "Merging Leo's offer card PR, along with the \"From affiliate network\" source label. It's a source tag, not sales copy, and it keeps us transparent about where deals come from.",
+   "uk": "Merging Leo's offer card PR, along with the \"From affiliate network\" source label. It's a source tag, not sales copy, and it keeps us transparent about where deals come from."
+  },
+  {
    "en": "Splitting the first priority features",
-   "uk": "Splitting the first priority features"
+   "uk": "Leo готує картку пропози"
   },
   {
    "en": "Today the team is fact-checking and drafting discount content for rindo.pl, building a ranking of drugstore loyalty programmes, and preparing affiliate network sign-ups.",
    "uk": "Mateus і команда перев"
-  },
-  {
-   "en": "Merged the update adding text to the store pages, including the affiliate-link disclosure, now placed next to each link as well as in the footer.",
-   "uk": "Оновили сторінки двох магазинів із текстами. Позначення партнерських посилань біля кожного посилання залишаємо, як схвалила Нора."
   }
  ],
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -42.48,
+  "week": -42.57,
   "api_budget": 76.92,
-  "api_spent": 41.56,
+  "api_spent": 41.64,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 42.48
+  "month_costs": 42.57
  }
 }
