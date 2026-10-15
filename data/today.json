@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T19:21+02:00",
+ "generated_at": "2026-10-15T19:32+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -4211,7 +4211,7 @@
    "agent": null,
    "dur": null,
    "text": "The team has a full queue of store data and a test of Zoe's card in progress, while performance measurements are still waiting on an access key. Waiting on the results.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Команда має повну чергу завдань: перевірка даних магазинів і тест картки для Zoe. Вимірювання Google для rindo.pl ще чекають на ключ, тож результатів поки немає.",
    "task": null
   },
   {
@@ -4308,7 +4308,7 @@
    "t": "19:08",
    "type": "delegate",
    "agent": "max",
-   "dur": 28,
+   "dur": 39,
    "text": "Commissioning a competitor analysis of Polish discount-code sites to see how established players present store coupons on their pages.",
    "text_uk": "Команда Mateus аналізує конкурентів rindo.pl, сервісу з кодами знижок для польських магазинів, щоб порівняти їхні пропозиції та знайти можливості для росту.",
    "task": 45
@@ -4359,13 +4359,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -53.41,
+  "week": -53.42,
   "api_budget": 76.92,
   "api_spent": 52.17,
   "capex": 2620.04,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 53.41
+  "month_costs": 53.42
  }
 }
