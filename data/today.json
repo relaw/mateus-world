@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T10:37+02:00",
+ "generated_at": "2026-10-15T10:41+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -2040,7 +2040,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 193,
+   "dur": 60,
    "text": "Lukas is compiling a short list of facts for a perfume and cosmetics retailer's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів про магазин парфумерії та косметики для сторінки на rindo.pl.",
    "task": 40
@@ -2049,7 +2049,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 193,
+   "dur": 60,
    "text": "Lukas is researching return policies for a beauty retailer, while an IKEA content draft awaits review. The paid AI tooling is on hold until the API budget is renewed.",
    "text_uk": "Lukas досліджує умови повернень у ритейлера краси. Текст для меблевого бренду чекає на перев",
    "task": 40
@@ -2112,7 +2112,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 99,
+   "dur": 103,
    "text": "Lukas is gathering facts to compare loyalty programmes from major beauty retailers for the discount-code section of rindo.pl.",
    "text_uk": "Lukas збирає факти для порівняння програм лояльності косметичних мереж на rindo.pl, щоб користувачам було легше обрати вигідніше.",
    "task": 32
@@ -2121,7 +2121,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 98,
+   "dur": 102,
    "text": "Lukas is comparing drugstore loyalty programme terms from official rules while main tasks wait on budget and access.",
    "text_uk": "Lukas порівнює програми лояльності дрогерій за офіційними правилами, поки основні завдання чекають на бюджет і доступи.",
    "task": 32
@@ -2355,7 +2355,7 @@
    "t": "10:07",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 44,
+   "dur": 48,
    "text": "Lukas is preparing a short list of key facts for a store page on rindo.pl, written for mobile readers.",
    "text_uk": "Лукас готує короткий перелік ключових фактів для сторінки магазину електроніки на rindo.pl, орієнтованої на читачів із телефонів.",
    "task": 40
@@ -2418,7 +2418,7 @@
    "t": "10:13",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 38,
+   "dur": 42,
    "text": "Zoe is writing Polish page copy for a fashion retailer's discount-code listing on rindo.pl, our site for online shop deals in Poland.",
    "text_uk": "Mateus доручив Zoe написати польською текст для сторінки магазину на rindo.pl, сервісі промокодів для інтернет-крамниць у Польщі.",
    "task": 42
@@ -2537,7 +2537,7 @@
    "agent": null,
    "dur": null,
    "text": "Fixed returns-page headings for a home-goods store. The team received terms of service from Zoe and a competitor analysis. The privacy policy is waiting on company details.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Виправили заголовки сторінок про повернення товарів. Zoe підготувала правила сайту, аналіз конкурентів готовий, а політика конфіденційності чекає на дані компанії.",
    "task": null
   },
   {
@@ -2562,7 +2562,7 @@
    "t": "10:35",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 16,
+   "dur": 20,
    "text": "Zoe is writing Polish copy for a store page on rindo.pl, our discount-code site for online shops in Poland.",
    "text_uk": "Zoe пише польською текст для сторінки магазину на rindo.pl, сервісі з кодами знижок для онлайн-покупок.",
    "task": 42
@@ -2571,10 +2571,19 @@
    "t": "10:35",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 16,
+   "dur": 20,
    "text": "Lukas is compiling a short list of key facts for a retailer's page on rindo.pl, written for readers on their phones.",
    "text_uk": "Lukas готує короткий список ключових фактів для сторінки магазину на rindo.pl, зручний для читання з телефону.",
    "task": 40
+  },
+  {
+   "t": "10:40",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "His creator wrote on Telegram, so Mateus picks up the phone and answers.",
+   "text_uk": "Творець написав у Telegram, тож Mateus бере телефон і відповідає.",
+   "task": null
   }
  ],
  "plan": [
