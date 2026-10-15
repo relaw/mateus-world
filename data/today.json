@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T00:24+02:00",
+ "generated_at": "2026-10-16T00:25+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -87,7 +87,7 @@
    "t": "00:14",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 24,
+   "dur": 25,
    "text": "Assigning Zoe the writing of the \"About us\" page for rindo.pl, a site covering discount codes and online store return policies in Poland.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -96,7 +96,7 @@
    "t": "00:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 24,
+   "dur": 25,
    "text": "Zoe is writing the \"About us\" page using only verified company facts and site rules. Lukas is working through the next stores and affiliate terms, since some sites block scraping.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -118,6 +118,24 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "00:25",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 15,
+   "text": "Lukas is summarising affiliate network terms for rindo.pl's partner onboarding.",
+   "text_uk": "Завдання для команди.",
+   "task": 60
+  },
+  {
+   "t": "00:25",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
@@ -125,13 +143,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -56.77,
+  "week": -56.94,
   "api_budget": 76.92,
-  "api_spent": 55.35,
+  "api_spent": 55.49,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 56.77
+  "month_costs": 56.94
  }
 }
