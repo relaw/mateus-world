@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T22:34+02:00",
+ "generated_at": "2026-10-15T22:45+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -5091,7 +5091,7 @@
    "t": "22:11",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 37,
+   "dur": 49,
    "text": "Lukas is compiling a short list of facts on online returns for a beauty retailer's page on rindo.pl.",
    "text_uk": "Лукас готує короткий список фактів для сторінки магазину у сфері краси на rindo.pl, з акцентом на умови повернення онлайн-покупок.",
    "task": 45
@@ -5100,7 +5100,7 @@
    "t": "22:11",
    "type": "delegate",
    "agent": "mateus",
-   "dur": 37,
+   "dur": 49,
    "text": "Smyk store page went live after passing our quality gate. Lukas is now gathering return-policy facts for two more stores.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -5165,7 +5165,7 @@
    "agent": null,
    "dur": null,
    "text": "Waiting on Lukas's results from a beauty-niche store check and a teammate's computer for browser tasks, as the local team works through one queue.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Чекаємо на результати Lukasa з дослідження магазинів краси та комп'ютер для колеги, потрібний для завдань у браузері. Місцева команда зайнята однією чергою.",
    "task": null
   },
   {
@@ -5176,6 +5176,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "22:36",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 23,
+   "text": "Lukas is compiling a short fact sheet on online return policies for a retailer's page on rindo.pl.",
+   "text_uk": "Lukas збирає короткий список ключових фактів про правила повернення онлайн-покупок для сторінки магазину косметики на rindo.pl.",
+   "task": 45
   }
  ],
  "plan": [
@@ -5196,13 +5205,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -56.71,
+  "week": -56.72,
   "api_budget": 76.92,
   "api_spent": 55.33,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 56.71
+  "month_costs": 56.72
  }
 }
