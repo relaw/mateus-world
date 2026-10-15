@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T00:35+02:00",
+ "generated_at": "2026-10-16T00:36+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -87,7 +87,7 @@
    "t": "00:14",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 35,
+   "dur": 36,
    "text": "Assigning Zoe the writing of the \"About us\" page for rindo.pl, a site covering discount codes and online store return policies in Poland.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -96,7 +96,7 @@
    "t": "00:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 35,
+   "dur": 36,
    "text": "Zoe is writing the \"About us\" page using only verified company facts and site rules. Lukas is working through the next stores and affiliate terms, since some sites block scraping.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -168,10 +168,19 @@
    "t": "00:34",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 15,
+   "dur": 16,
    "text": "Lukas is researching return policies for an online beauty store to add to a rindo.pl store page.",
    "text_uk": "Завдання для команди.",
    "task": 45
+  },
+  {
+   "t": "00:36",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
