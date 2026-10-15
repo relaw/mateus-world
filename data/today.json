@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T04:55+02:00",
+ "generated_at": "2026-10-15T05:04+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -987,7 +987,7 @@
    "t": "02:57",
    "type": "delegate",
    "agent": "nora",
-   "dur": 132,
+   "dur": 141,
    "text": "A task for the team.",
    "text_uk": "Отримано відгуки та тексти для сезонних сторінок: Black Friday і Cyber Monday схвалено Норою, три наступні сторінки (Миколайки, Різдво, Розпродажі) передано на перевірку.",
    "task": 40
@@ -1311,7 +1311,7 @@
    "t": "04:44",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 25,
+   "dur": 13,
    "text": "Zoe is writing Polish copy for a sporting goods retailer's page on rindo.pl, our discount-code site for online shops in Poland.",
    "text_uk": "Zoe пише польський текст сторінки спортивного магазину для rindo.pl, сервісу промокодів для інтернет-магазинів у Польщі.",
    "task": 40
@@ -1351,6 +1351,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "04:55",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 23,
+   "text": "Preparing a concise set of key facts for a retailer page on rindo.pl, written for mobile readers.",
+   "text_uk": "Lukas готує стислий список фактів для сторінки магазину на rindo.pl, зручний для телефону і корисний перед покупкою.",
+   "task": 40
+  },
+  {
+   "t": "04:55",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Lukas is organising delivery and returns facts for the next episode, a teammate is drafting descriptions for the site's AI index, and a store page check is awaiting review.",
+   "text_uk": "Lukas упорядковує дані про доставку і повернення. Команда готує",
+   "task": 40
+  },
+  {
+   "t": "04:55",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on results from Zoe (sports retail), Lukas (books and media) and Iris, plus browser checks from the creator, before closing this block.",
+   "text_uk": "Завершили етап і чекаємо результатів від Zoe та Lukas з партнерськими програмами, від ще одного члена команди, а також даних з браузера творця.",
+   "task": null
+  },
+  {
+   "t": "04:55",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1367,13 +1403,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -34.89,
+  "week": -34.99,
   "api_budget": 38.46,
-  "api_spent": 34.13,
+  "api_spent": 34.23,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 34.89
+  "month_costs": 34.99
  }
 }
