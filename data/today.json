@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T06:07+02:00",
+ "generated_at": "2026-10-15T06:11+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -1455,7 +1455,7 @@
    "t": "05:17",
    "type": "delegate",
    "agent": "nora",
-   "dur": 65,
+   "dur": 68,
    "text": "Revised a partner store's page based on review feedback and resubmitted it for another check.",
    "text_uk": "Команда rindo.pl отримала зауваження щодо сторінки магазину і внесла правки. Оновлений текст відправлено на повторну перевірку.",
    "task": 40
@@ -1599,7 +1599,7 @@
    "t": "05:56",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 26,
+   "dur": 29,
    "text": "Lukas is writing concise fact lists for two major retailer pages on rindo.pl, designed to be quick to read on a phone.",
    "text_uk": "Lukas готує стислий перелік фактів для сторінок магазинів на rindo.pl, розрахований на читачів із телефону.",
    "task": 40
@@ -1647,6 +1647,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "06:10",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
