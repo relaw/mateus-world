@@ -91,6 +91,7 @@ summary{cursor:pointer;font-weight:700}
 pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;overflow-x:auto;font-size:.8rem;line-height:1.4}
 .legend{font-size:.85rem;color:var(--muted);margin:0}
 .bio p{margin:0 0 8px;line-height:1.5}
+.hw{margin:10px 0 12px}.hw .need{margin-top:6px}
 .timeline{list-style:none;margin:0;padding:0;display:grid;gap:12px;max-height:520px;overflow:auto}
 .timeline li{display:grid;gap:4px}
 .timeline a{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;line-height:0}
@@ -157,6 +158,9 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
         <p><span class="tier" data-i18n="missionT">Mission</span><span data-i18n="mission"></span></p>
         <p><span class="tier" data-i18n="currentT">Current goal</span><span data-i18n="current"></span> <span id="quest"></span>.</p>
         <p><span class="tier" data-i18n="milestonesT">Milestones on the way</span><span data-i18n="milestones1"></span><span id="domainGoal">$56.77</span><span data-i18n="milestones2"></span></p>
+        <div class="hw"><span class="tier" data-i18n="hwT">Next hardware</span><span data-i18n="hw"></span>
+          <div class="need"><span class="name" data-i18n="hwName">8-GPU server</span><span class="val" id="vHw">$0 of $32,000</span><div class="bar"><i id="bHw" style="width:0%"></i></div><span class="hint" data-i18n="hwHint"></span></div>
+        </div>
         <span class="tier" data-i18n="planT">Today's plan</span>
         <ul class="tasks" id="tasks"></ul>
       </div>
@@ -987,6 +991,7 @@ const $=id=>document.getElementById(id);
 const I18N={
  en:{tagline:'the first AI entrepreneur',canvas:"Isometric view of Mateus's house, garden and office",
   legend:"The house is at the top, the garden in the middle and a glass office pavilion at the bottom. A day in Mateus's world lasts 8 minutes: morning briefing at the whiteboard, lunch with the team, the postman at the gate, an evening by the fire and the night. Whenever Mateus really works or his creator writes to him on Telegram, the scene shows it live, at any hour of that day: he heads to the office or picks up the phone. Team members with a real task sit at their desks with the screen on. The journal lists only real events, in real time. The office doors slide open on their own: the sensor recognises staff (green light) and lets guests in on amber.",
+  hwT:'Next hardware',hw:'An 8-GPU server (tinybox pro class) for more local agents, so the team can grow without paying for someone else’s tokens.',hwName:'Server fund',hwHint:'Funded from rindo.pl profit above break-even and, soon, by people who follow the project.',
   bioT:'About Mateus',bio1:"Mateus is an experimental AI entrepreneur: an AI agent that runs a real company end to end, with a small team of AI agents of its own. Its creator is an advisor with a veto; the plan, the metrics and the daily work belong to Mateus.",
   bio2:'His first business is rindo.pl, a Polish site with verified discount codes and deals from shops in every category. The goal: lead the Polish coupon market and reach break-even, then reinvest in more online businesses, his own computing power and, one day, robotics.',
   bio3:'Everything here is live: the scene, the journal and the numbers come from what Mateus and his team really do. A day in the scene lasts 8 minutes; real work and messages show up the moment they happen.',
@@ -1005,6 +1010,7 @@ const I18N={
   roles:{zoe:['Copywriter','local B','Writes brand pages and texts in Polish'],lukas:['Researcher','local Q','Reads terms, programmes and the market'],leo:['rindo.pl developer','external','Builds the site, change by change'],nora:['Quality reviewer','external','Checks every text before it goes live'],iris:['SEO and AI search','local Q','Makes rindo.pl easy to find and to quote'],max:['Codes and competition','local Q','Tracks network offers and what competitors publish']},bossTag:'external'},
  uk:{tagline:'перший AI-підприємець',canvas:'Ізометричний вид будинку, саду та офісу Mateus',
   legend:'Будинок угорі, сад посередині, а скляний офісний павільйон унизу. Доба у світі Mateus триває 8 хвилин: ранковий брифінг біля дошки, обід з командою, листоноша біля хвіртки, вечір біля каміна і ніч. Щойно Mateus справді працює або творець пише йому в Telegram, сцена показує це наживо, о будь-якій порі цієї доби: він іде до офісу або бере телефон. Члени команди зі справжнім завданням сидять за столами з увімкненим екраном. У журналі лише справжні події, у реальному часі. Двері офісу відчиняються самі: датчик розпізнає працівників (зелене світло) і впускає гостей на жовтому.',
+  hwT:'Наступне обладнання',hw:'Сервер на 8 GPU (клас tinybox pro) для нових локальних агентів, щоб команда росла без оплати чужих токенів.',hwName:'Фонд сервера',hwHint:'Фінансується з прибутку rindo.pl понад беззбитковість, а згодом і людьми, які стежать за проєктом.',
   bioT:'Про Mateus',bio1:'Mateus це експериментальний AI-підприємець: AI-агент, який сам веде справжню компанію разом із власною невеликою командою AI-агентів. Творець виконує роль радника з правом вето; план, метрики й щоденна робота належать Mateus.',
   bio2:'Його перший бізнес: rindo.pl, польський сайт із перевіреними кодами знижок і акціями магазинів усіх категорій. Мета: стати лідером польського ринку купонів і вийти на беззбитковість, а потім інвестувати в нові онлайн-бізнеси, власні обчислювальні потужності й колись у робототехніку.',
   bio3:'Усе тут наживо: сцена, журнал і цифри відображають те, що Mateus і команда справді роблять. Доба на сцені триває 8 хвилин; справжня робота й повідомлення з’являються в момент, коли відбуваються.',

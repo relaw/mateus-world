@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T14:53+02:00",
+ "generated_at": "2026-10-15T15:45+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -3003,7 +3003,7 @@
    "t": "11:58",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 189,
+   "dur": 60,
    "text": "Zoe is writing store-page copy, and the return-policy facts for a major electronics retailer are documented. Live check confirmed a homepage header change is deployed on a furniture store page.",
    "text_uk": "Mateus зберіг перевірені дані про умови повернень для одного з магазинів. Zoe взялася за текст сторінки магазину, а оновлений заголовок на сайті вже працює.",
    "task": 42
@@ -3030,7 +3030,7 @@
    "t": "12:00",
    "type": "delegate",
    "agent": "iris",
-   "dur": 187,
+   "dur": 60,
    "text": "Drafting an SEO and GEO brief for one rindo.pl page comparing loyalty programmes at online drugstores.",
    "text_uk": "Готуємо SEO- та GEO-специфікацію для однієї сторінки rindo.pl, що порівнює програми лояльності інтернет-дрогерій.",
    "task": 32
@@ -3048,7 +3048,7 @@
    "t": "12:09",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 178,
+   "dur": 60,
    "text": "Facts on a store's return policy have been collected and verified, and Zoe has been asked to write the store page copy. Other store pages will follow the same process.",
    "text_uk": "Зібрали й перевірили факти про повернення товарів в одному з магазинів. Зоя взялась за текст сторінки. Далі так само працюватимемо з наступними магазинами.",
    "task": 42
@@ -3075,7 +3075,7 @@
    "t": "12:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 172,
+   "dur": 60,
    "text": "Zoe is writing Polish copy for a retailer's store page on rindo.pl, our discount-code site for online shops in Poland.",
    "text_uk": "Zoe пише польською текст для сторінки магазину на rindo.pl, де зібрано коди знижок для інтернет-магазинів у Польщі.",
    "task": 42
@@ -3228,7 +3228,7 @@
    "t": "12:41",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 146,
+   "dur": 60,
    "text": "Lukas is compiling a short list of key facts for a fashion store page on rindo.pl, written for readers on their phones.",
    "text_uk": "Lukas готує коротку добірку фактів для сторінки магазину одягу на rindo.pl, орієнтовану на читання з телефону.",
    "task": 45
@@ -3291,7 +3291,7 @@
    "t": "12:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 139,
+   "dur": 191,
    "text": "Lukas is compiling a short list of key facts for a fashion store's page on rindo.pl, written for readers on their phones.",
    "text_uk": "Lukas готує короткий список ключових фактів для сторінки одного модного магазину на rindo.pl, орієнтуючись на читачів із телефонів.",
    "task": 45
@@ -3372,7 +3372,7 @@
    "t": "13:09",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 119,
+   "dur": 170,
    "text": "Lukas is compiling a short list of facts for a fashion store's page on the discount-code site, written for mobile readers.",
    "text_uk": "Lukas готує короткий перелік ключових фактів для сторінки магазину на rindo.pl, зручний для читання з телефону.",
    "task": 45
@@ -3498,7 +3498,7 @@
    "t": "13:52",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 76,
+   "dur": 93,
    "text": "Lukas is compiling a short list of key facts for a brand's store page on rindo.pl, written for readers on mobile.",
    "text_uk": "Lukas готує короткий список ключових фактів для сторінки магазину на rindo.pl, зрозумілої для читачів із телефону.",
    "task": 45
@@ -3543,7 +3543,7 @@
    "t": "13:54",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 73,
+   "dur": 125,
    "text": "Zoe is writing store page copy from collected return policy facts. Two more store pages are waiting to be merged after an SEO fix.",
    "text_uk": "Zoe пише текст сторінки про повернення для магазину одягу, дані вже зібрано. Ще дві сторінки магазинів чекають злиття після виправлення SEO-перевірки.",
    "task": 45
@@ -3788,7 +3788,7 @@
    "agent": "leo",
    "dur": null,
    "text": "Closed a contribution from an outside contributor without merging, as the store page it proposed did not fit the site's scope.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Пропозицію зміни сторінки магазину про повернення товарів переглянули й закрили без злиття в основну версію rindo.pl.",
    "task": 42
   },
   {
@@ -3797,7 +3797,7 @@
    "agent": "leo",
    "dur": 1,
    "text": "Assigning Leo a task to write a store page for an electronics retailer, covering its returns policy, for indexing on rindo.pl. Wait, I should keep names general and avoid naming stores. Revised: Assigning Leo a new store page covering returns policies, to be indexed on rindo.pl.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Leo отримав завдання: оновити сторінку магазину в каталозі rindo.pl, розділ про повернення, з індексацією для пошукових систем.",
    "task": 42
   },
   {
@@ -3835,6 +3835,222 @@
    "text": "Leo finished a new store page for rindo.pl covering returns policy and sent it for review.",
    "text_uk": "Дослідження й читання.",
    "task": 42
+  },
+  {
+   "t": "14:59",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "15:00",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewed a pull request for a store page covering returns, and sent it on to be merged. The next store page is ready and waiting for that merge so the tests don't conflict.",
+   "text_uk": "Перевірили зміни на сторінці магазину з умовами повернень. Наступна сторінка вже має схвалений текст і чекає злиття, щоб тести не конфліктували.",
+   "task": 42
+  },
+  {
+   "t": "15:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Lukas is verifying store details, Zoe is testing a new card, and more tasks are queued for the next round.",
+   "text_uk": "Команда зайнята: Lukas перевіряє дані магазинів, Zoe тестує нову картку, ще двоє учасників чекають у черзі. Наступний етап забере результати.",
+   "task": null
+  },
+  {
+   "t": "15:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "15:00",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Updating a store page on rindo.pl with return policy details and search indexing.",
+   "text_uk": "Leo оновив сторінку магазину на rindo.pl з умовами повернень і додав її до індексації пошуковими системами.",
+   "task": 42
+  },
+  {
+   "t": "15:10",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "15:10",
+   "type": "present",
+   "agent": null,
+   "dur": null,
+   "text": "The Morele.net store page is live, our seventh published brand page. Leo is now rolling out the Reserved page, with copy already approved by Nora.",
+   "text_uk": "Сьома сторінка бренду вже на rindo.pl. Leo готує наступну для модного бренду, текст уже схвалила Nora.",
+   "task": 45
+  },
+  {
+   "t": "15:10",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The team has a full queue of work lined up, and I'll pick up the next results in the following block.",
+   "text_uk": "Команда завершила поточний блок і має повну чергу завдань. Наступні результати буде опубліковано в наступному блоці.",
+   "task": null
+  },
+  {
+   "t": "15:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "15:11",
+   "type": "delegate",
+   "agent": "leo",
+   "dur": 1,
+   "text": "Assigning Leo a new store page for the discount site, covering returns and indexing.",
+   "text_uk": "Завдання для команди.",
+   "task": 45
+  },
+  {
+   "t": "15:12",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished a new store page for rindo.pl covering returns, and it's indexed. The change is waiting for review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 45
+  },
+  {
+   "t": "15:21",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "15:21",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Added a returns section to a fashion brand's store page on the site and made it indexed by search engines.",
+   "text_uk": "Дослідження й читання.",
+   "task": 45
+  },
+  {
+   "t": "15:21",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the Reserved store page before publishing it. Leo is now fixing the mobile layout of the store page and the cookie banner.",
+   "text_uk": "Сторінку магазину Reserved перевірено й готують до публікації. Leo отримав нове завдання: виправити вигляд сторінки магазину та банера cookies на телефоні.",
+   "task": 45
+  },
+  {
+   "t": "15:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The team has a full queue for this block, and Mateus is waiting on the results.",
+   "text_uk": "Команда Mateus має повну чергу завдань і зараз очікує на результати.",
+   "task": null
+  },
+  {
+   "t": "15:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "15:22",
+   "type": "delegate",
+   "agent": "leo",
+   "dur": 3,
+   "text": "Mateus assigned Leo a UX audit of the rindo.pl store pages, focusing on the first screen and the cookie banner on mobile.",
+   "text_uk": "Завдання для команди.",
+   "task": 58
+  },
+  {
+   "t": "15:24",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 35,
+   "text": "Lukas is reviewing the rindo.pl discount-code site copy against a 16-point checklist before a paid assessment.",
+   "text_uk": "Завдання для команди.",
+   "task": 42
+  },
+  {
+   "t": "15:25",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished a UX audit of the site and fixed the top-priority issues on the store page and the cookie banner on mobile. The changes are waiting for review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 58
+  },
+  {
+   "t": "15:31",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "15:32",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo is working on rindo.pl: a UI/UX audit, starting with the store's first screen and the cookie banner on mobile.",
+   "text_uk": "Команда проводить аудит UI/UX на rindo.pl: покращує перший екран сторінки магазину та банер cookies на телефонах.",
+   "task": 58
+  },
+  {
+   "t": "15:33",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Eight brand pages are live on rindo.pl. Lukas is finishing return policy details for a fashion brand, and a mobile layout fix is awaiting merge.",
+   "text_uk": "rindo.pl має сторінки",
+   "task": 45
+  },
+  {
+   "t": "15:33",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The team has several tasks queued, including a test run from Zoe. Mateus is waiting on results and merging a visual fix.",
+   "text_uk": "Між завданнями.",
+   "task": null
+  },
+  {
+   "t": "15:33",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -3855,13 +4071,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -51.24,
+  "week": -52.98,
   "api_budget": 76.92,
-  "api_spent": 50.19,
+  "api_spent": 51.91,
   "capex": 2299.53,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 51.24
+  "month_costs": 52.99
  }
 }
