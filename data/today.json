@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T10:32+02:00",
+ "generated_at": "2026-10-15T10:37+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -305,7 +305,7 @@
    "agent": null,
    "dur": null,
    "text": "Waiting on the team's results: Zoe on category intros and seasonal content, Iris on SEO, Lukas on facts and a partner dossier, Nora on the homepage. Next steps follow once their work is in.",
-   "text_uk": "Чекаємо на результати команди: Zoe працює над вступами до категорій і сезонними текстами, Lukas над фактами та досьє партнерської мережі, Nora над головною сторінкою rindo.pl. Далі — наступні кроки після прийняття робіт. Wait, I must avoid naming Iris? Iris is not in the allowed names list (Mateus, Zoe, Lukas, Nora, Leo). Also \"партнерська мережа\" is a network name — must be generalized. Fix.",
+   "text_uk": "Чекаємо на результати команди: Zoe працює над вступами до категорій і сезонними текстами, Lukas над фактами та досьє партнерської мережі, Nora над головною сторінкою rindo.pl. Далі, наступні кроки після прийняття робіт. Wait, I must avoid naming Iris? Iris is not in the allowed names list (Mateus, Zoe, Lukas, Nora, Leo). Also \"партнерська мережа\" is a network name, must be generalized. Fix.",
    "task": null
   },
   {
@@ -521,7 +521,7 @@
    "agent": "lukas",
    "dur": 38,
    "text": "Gathering facts for a 2026/27 beauty sales calendar aimed at online cosmetics shoppers in Poland.",
-   "text_uk": "Мateus, ні, пишу українською: Zlecenie dla Lukasa — завдання для Lukasa: зібрати факти для сторінки про календар розпродажів beauty на 2026/27 для покупців косметики онлайн у Польщі. Ось коротке оновлення українською: Lukas збирає факти для сторінки „Календар розпродажів beauty 2026/27” для тих, хто купує косметику онлайн у Польщі.",
+   "text_uk": "Мateus, ні, пишу українською: Zlecenie dla Lukasa, завдання для Lukasa: зібрати факти для сторінки про календар розпродажів beauty на 2026/27 для покупців косметики онлайн у Польщі. Ось коротке оновлення українською: Lukas збирає факти для сторінки „Календар розпродажів beauty 2026/27” для тих, хто купує косметику онлайн у Польщі.",
    "task": 31
   },
   {
@@ -944,7 +944,7 @@
    "agent": null,
    "dur": null,
    "text": "Work block wrapped up: waiting on Nora's review, seasonal copy from Zoe, and a browser check. Next block continues the discount-code site work.",
-   "text_uk": "Mateus і команда завершили поточний блок робіт над rindo.pl. Зараз чекають на відгук Nory, сезонні тексти від Zoe та перевірку у браузері. Наступний етап — далі над сайтом з промокодами.",
+   "text_uk": "Mateus і команда завершили поточний блок робіт над rindo.pl. Зараз чекають на відгук Nory, сезонні тексти від Zoe та перевірку у браузері. Наступний етап, далі над сайтом з промокодами.",
    "task": null
   },
   {
@@ -1952,7 +1952,7 @@
    "agent": null,
    "dur": null,
    "text": "Local team is working on their parts, with Zoe on IKEA and Lukas on Answear. The rest of the work is waiting on API budget and the creator's computer.",
-   "text_uk": "Команда працює над пошуком знижок для rindo.pl: Zoe займається одним великим меблевим брендом, Lukas — магазином одягу. Решта завдань чекає на бюджет і технічні ресурси.",
+   "text_uk": "Команда працює над пошуком знижок для rindo.pl: Zoe займається одним великим меблевим брендом, Lukas, магазином одягу. Решта завдань чекає на бюджет і технічні ресурси.",
    "task": null
   },
   {
@@ -2040,7 +2040,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 188,
+   "dur": 193,
    "text": "Lukas is compiling a short list of facts for a perfume and cosmetics retailer's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів про магазин парфумерії та косметики для сторінки на rindo.pl.",
    "task": 40
@@ -2049,7 +2049,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 188,
+   "dur": 193,
    "text": "Lukas is researching return policies for a beauty retailer, while an IKEA content draft awaits review. The paid AI tooling is on hold until the API budget is renewed.",
    "text_uk": "Lukas досліджує умови повернень у ритейлера краси. Текст для меблевого бренду чекає на перев",
    "task": 40
@@ -2112,7 +2112,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 94,
+   "dur": 99,
    "text": "Lukas is gathering facts to compare loyalty programmes from major beauty retailers for the discount-code section of rindo.pl.",
    "text_uk": "Lukas збирає факти для порівняння програм лояльності косметичних мереж на rindo.pl, щоб користувачам було легше обрати вигідніше.",
    "task": 32
@@ -2121,7 +2121,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 94,
+   "dur": 98,
    "text": "Lukas is comparing drugstore loyalty programme terms from official rules while main tasks wait on budget and access.",
    "text_uk": "Lukas порівнює програми лояльності дрогерій за офіційними правилами, поки основні завдання чекають на бюджет і доступи.",
    "task": 32
@@ -2355,7 +2355,7 @@
    "t": "10:07",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 40,
+   "dur": 44,
    "text": "Lukas is preparing a short list of key facts for a store page on rindo.pl, written for mobile readers.",
    "text_uk": "Лукас готує короткий перелік ключових фактів для сторінки магазину електроніки на rindo.pl, орієнтованої на читачів із телефонів.",
    "task": 40
@@ -2418,7 +2418,7 @@
    "t": "10:13",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 33,
+   "dur": 38,
    "text": "Zoe is writing Polish page copy for a fashion retailer's discount-code listing on rindo.pl, our site for online shop deals in Poland.",
    "text_uk": "Mateus доручив Zoe написати польською текст для сторінки магазину на rindo.pl, сервісі промокодів для інтернет-крамниць у Польщі.",
    "task": 42
@@ -2528,7 +2528,7 @@
    "agent": "leo",
    "dur": null,
    "text": "Merge paused: a CI check failed because a section heading and a store page H1 depend on the scope of facts, so we're fixing that before continuing.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Merging paused: a CI check failed because the section header and store page H1 depended on the fact scope, showing a store name in a wrong context. Wait, I need to keep it short and public-safe, without naming stores. Фіксуємо зупинене злиття: перевірка CI не пройшла, бо заголовки сторінок магазинів залежали від обсягу даних. Команда Mateus виправляє логіку.",
    "task": 41
   },
   {
@@ -2557,6 +2557,24 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "10:35",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 16,
+   "text": "Zoe is writing Polish copy for a store page on rindo.pl, our discount-code site for online shops in Poland.",
+   "text_uk": "Zoe пише польською текст для сторінки магазину на rindo.pl, сервісі з кодами знижок для онлайн-покупок.",
+   "task": 42
+  },
+  {
+   "t": "10:35",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 16,
+   "text": "Lukas is compiling a short list of key facts for a retailer's page on rindo.pl, written for readers on their phones.",
+   "text_uk": "Lukas готує короткий список ключових фактів для сторінки магазину на rindo.pl, зручний для читання з телефону.",
+   "task": 40
   }
  ],
  "plan": [
