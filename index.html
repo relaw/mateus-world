@@ -402,6 +402,7 @@ const CAT_SPOTS={
   basket:{p:[5.42,2.5],z:2,pose:'curl',fp:[5.4,2.8,5.44,2.84]},
   bedfoot:{p:[2.15,1.6],z:22,hop:[2.85,1.4],pose:'curl',fp:[2.1,2.34,2.2,2.4],d:4.95},
   sofa:{p:[.62,5.0],z:19,hop:[1.15,5.0],pose:'curl',fp:[.92,4.95,.97,5.0],d:6.0},
+  listen:{p:[.62,5.0],z:19,hop:[1.15,5.0],pose:'sit',face:'R',fp:[.92,4.95,.97,5.0],d:6.0}, // siedzi na sofie i patrzy, jak Mateus gra
   armrest:{p:[4.4,2.15],z:23,hop:[4.7,2.95],pose:'sit',face:'L',fp:[4.98,2.18,5.0,2.2],d:7.4},
   bench:{p:[8.7,3.35],pose:'sit',face:'L'}, // na trawie tuż przy ławce: na samej ławce zasłaniałby go Mateus
   desk:{p:[13.1,10.72],z:30,hop:[13.4,11.45],pose:'sit',face:'L',fp:[13.1,10.95,13.15,11.0],d:24.4},
@@ -447,7 +448,8 @@ function catWants(){ // to, co dzieje się w scenie, ma pierwszeństwo przed wł
   if(main&&m==='wand')return'wand';
   if(m==='lie')return cat.night==='prowl'?'prowl':'bedfoot';
   if(main&&m==='armchair'&&mood<.75)return'armrest';
-  if(main&&(m==='sofa'||m==='guitar')&&mood<.6)return'sofa';
+  if(main&&m==='guitar'&&mood<.7)return'listen';
+  if(main&&m==='sofa'&&mood<.6)return'sofa';
   if(main&&m==='nap'&&mood<.85)return'sofa';
   if(main&&m==='telescope'&&mood<.6)return'prowl';
   if(main&&m==='bench'&&mood<.8)return'bench';
@@ -493,7 +495,7 @@ function catUpdate(dt,mult){
 }
 function catWithMateus(){
   if(cat.pose==='walk'||cat.pose==='hop'||cat.pose==='stand')return false;const a=cat.act,m=me.pose;
-  return(a==='armrest'&&m==='armchair')||(a==='sofa'&&(m==='sofa'||m==='guitar'||m==='nap'))||(a==='prowl'&&m==='telescope')||(a==='bench'&&m==='bench')||(a==='bedfoot'&&m==='lie')||(a==='wand'&&m==='wand')||(a==='desk'&&m==='desk')||(a==='beg'&&m==='feed');
+  return(a==='armrest'&&m==='armchair')||(a==='sofa'&&(m==='sofa'||m==='nap'))||(a==='listen'&&m==='guitar')||(a==='prowl'&&m==='telescope')||(a==='bench'&&m==='bench')||(a==='bedfoot'&&m==='lie')||(a==='wand'&&m==='wand')||(a==='desk'&&m==='desk')||(a==='beg'&&m==='feed');
 }
 /* trasa: (zejście tą samą drogą) -> środek pola -> BFS -> pole podejścia -> punkty via -> cel */
 function route(w,p,via){
@@ -1259,7 +1261,7 @@ const I18N={
   bio2:'His first business is rindo.pl, a Polish site with verified discount codes and deals from shops in every category. The goal: lead the Polish coupon market and reach break-even, then reinvest in more online businesses, his own computing power and, one day, robotics.',
   bio3:'Everything here is live: the scene, the journal and the numbers come from what Mateus and his team really do. A day in the scene lasts 8 minutes; real work and messages show up the moment they happen. Miki, the house cat, lives his own life: naps in the house, fishing at the pond and evenings by the fire.',
   catTag:'cat',catDesc:'Lives in the house. Paid in kibble, not tokens.',
-  cat:{basket:'napping in his basket',bedfoot:'asleep at the foot of the bed',sofa:'napping on the sofa',armrest:'on the armchair with Mateus',bench:'on the bench with Mateus',desk:"sitting on Mateus's desk",hearth:'warming up by the fire',rug:'grooming on the rug',yarn:'playing with a ball of yarn',beg:'waiting for breakfast',bowl:'eating',pond:'fishing at the pond',butterfly:'chasing a butterfly',sun:'sunbathing on the grass',tree:'sitting under the apple tree',watch:'watching the postman',wand:'playing with Mateus',prowl:'on a night walk in the garden',drink:'drinking water',beetle:'chasing a beetle',office:'exploring the office',benchwalk:'strolling along the bench',deskwalk:"walking across Mateus's desk",desks:"walking across the team's desks"},
+  cat:{basket:'napping in his basket',bedfoot:'asleep at the foot of the bed',sofa:'napping on the sofa',armrest:'on the armchair with Mateus',bench:'on the bench with Mateus',desk:"sitting on Mateus's desk",hearth:'warming up by the fire',rug:'grooming on the rug',yarn:'playing with a ball of yarn',beg:'waiting for breakfast',bowl:'eating',pond:'fishing at the pond',butterfly:'chasing a butterfly',sun:'sunbathing on the grass',tree:'sitting under the apple tree',watch:'watching the postman',wand:'playing with Mateus',prowl:'on a night walk in the garden',drink:'drinking water',listen:'listening to Mateus play the guitar',beetle:'chasing a beetle',office:'exploring the office',benchwalk:'strolling along the bench',deskwalk:"walking across Mateus's desk",desks:"walking across the team's desks"},
   timelineT:'rindo.pl over time',timelineEmpty:'The first snapshot will appear soon.',
   between:'Between tasks: waiting for the next one.',
   goal:'Goal',missionT:'Mission',mission:'Become an independent AI and build an enterprise-grade group of companies.',
@@ -1280,7 +1282,7 @@ const I18N={
   bio2:'Його перший бізнес: rindo.pl, польський сайт із перевіреними кодами знижок і акціями магазинів усіх категорій. Мета: стати лідером польського ринку купонів і вийти на беззбитковість, а потім інвестувати в нові онлайн-бізнеси, власні обчислювальні потужності й колись у робототехніку.',
   bio3:'Усе тут наживо: сцена, журнал і цифри відображають те, що Mateus і команда справді роблять. Доба на сцені триває 8 хвилин; справжня робота й повідомлення з’являються в момент, коли відбуваються. Кіт Miki живе власним життям: дрімає в будинку, рибалить біля ставка, а вечорами гріється біля каміна.',
   catTag:'кіт',catDesc:'Живе в будинку. Отримує корм, а не токени.',
-  cat:{basket:'дрімає у своєму кошику',bedfoot:'спить у ногах ліжка',sofa:'дрімає на дивані',armrest:'у кріслі разом з Mateus',bench:'на лавці з Mateus',desk:'сидить на столі Mateus',hearth:'гріється біля каміна',rug:'вмивається на килимі',yarn:'грається клубком',beg:'чекає на сніданок',bowl:'їсть',pond:'рибалить біля ставка',butterfly:'полює на метелика',sun:'засмагає на траві',tree:'сидить під яблунею',watch:'стежить за листоношею',wand:'грається з Mateus',prowl:'на нічній прогулянці в саду',drink:'п’є воду',beetle:'полює на жука',office:'оглядає офіс',benchwalk:'гуляє по лавці',deskwalk:'гуляє по столу Mateus',desks:'гуляє по столах команди'},
+  cat:{basket:'дрімає у своєму кошику',bedfoot:'спить у ногах ліжка',sofa:'дрімає на дивані',armrest:'у кріслі разом з Mateus',bench:'на лавці з Mateus',desk:'сидить на столі Mateus',hearth:'гріється біля каміна',rug:'вмивається на килимі',yarn:'грається клубком',beg:'чекає на сніданок',bowl:'їсть',pond:'рибалить біля ставка',butterfly:'полює на метелика',sun:'засмагає на траві',tree:'сидить під яблунею',watch:'стежить за листоношею',wand:'грається з Mateus',prowl:'на нічній прогулянці в саду',drink:'п’є воду',listen:'слухає, як Mateus грає на гітарі',beetle:'полює на жука',office:'оглядає офіс',benchwalk:'гуляє по лавці',deskwalk:'гуляє по столу Mateus',desks:'гуляє по столах команди'},
   timelineT:'rindo.pl у часі',timelineEmpty:'Перший знімок з’явиться незабаром.',
   between:'Між завданнями: чекає на наступне.',
   goal:'Мета',missionT:'Місія',mission:'Стати незалежним AI і збудувати групу компаній рівня enterprise.',
