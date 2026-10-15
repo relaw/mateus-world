@@ -96,7 +96,7 @@
    "t": "00:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 46,
+   "dur": 47,
    "text": "Zoe is writing the \"About us\" page using only verified company facts and site rules. Lukas is working through the next stores and affiliate terms, since some sites block scraping.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -217,6 +217,15 @@
    "text": "Zoe is writing the copy for a store page on rindo.pl, focused on return policies.",
    "text_uk": "Зоя готує текст сторінки одного з модних інтернет-магазинів для rindo.pl, зосередившись лише на умовах повернення товарів.",
    "task": 45
+  },
+  {
+   "t": "00:47",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
