@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T03:06+02:00",
+ "generated_at": "2026-10-15T03:17+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -60,7 +60,7 @@
    "t": "00:10",
    "type": "delegate",
    "agent": "iris",
-   "dur": 191,
+   "dur": 60,
    "text": "Drafting a search visibility plan for rindo.pl, covering Google and AI-generated answers, for our new discount-code site in the beauty niche.",
    "text_uk": "Команда готує план, як зробити rindo.pl помітним у Google та у відповідях ШІ (GEO) для нового сайту з промокодами в beauty-ніші в Польщі.",
    "task": 23
@@ -69,7 +69,7 @@
    "t": "00:11",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 189,
+   "dur": 60,
    "text": "Zoe is writing Polish introductions for 10 category pages on rindo.pl, a discount-code and promotions site for online shoppers in Poland.",
    "text_uk": "Zoe пише вступні тексти для 10 категорій rindo.pl, сайту з кодами знижок та акціями для онлайн-покупців у Польщі.",
    "task": 40
@@ -123,7 +123,7 @@
    "t": "00:12",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 188,
+   "dur": 60,
    "text": "Zoe is writing Polish introductions for 10 category pages on rindo.pl, a site with discount codes and promotions for online shoppers in Poland.",
    "text_uk": "Mateus доручив Zoe написати польською вступи для 10 сторінок категорій rindo.pl, сайту з промокодами та акціями для онлайн-покупців у Польщі.",
    "task": 40
@@ -132,7 +132,7 @@
    "t": "00:12",
    "type": "delegate",
    "agent": "iris",
-   "dur": 188,
+   "dur": 60,
    "text": "Mapping out search visibility for rindo.pl, covering Google results and AI-generated answers, for a new discount-code site in Poland's beauty niche.",
    "text_uk": "Mateus і команда складають план, як rindo.pl буде видно в пошуку Google та у відповідях AI (GEO). Це новий сайт з кодами знижок у сфері краси в Польщі.",
    "task": 23
@@ -141,7 +141,7 @@
    "t": "00:13",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 188,
+   "dur": 60,
    "text": "Zoe is writing Polish introductions for 10 category pages on rindo.pl, a discount-code site for online shoppers in Poland.",
    "text_uk": "Zoe пише польською вступи для 10 сторінок категорій rindo.pl, сайту з кодами знижок і акціями для онлайн-покупців у Польщі.",
    "task": 40
@@ -150,7 +150,7 @@
    "t": "00:13",
    "type": "delegate",
    "agent": "iris",
-   "dur": 188,
+   "dur": 60,
    "text": "Drafting a plan for rindo.pl's visibility in Google search and AI-generated answers, aimed at a new Polish beauty discount-code site.",
    "text_uk": "Команда Mateus готує план, як rindo.pl буде видно в пошуку Google і у відповідях ШІ (GEO). Сайт із промокодами для бʼюті-ніші в Польщі щойно запускається.",
    "task": 23
@@ -564,7 +564,7 @@
    "t": "01:19",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 122,
+   "dur": 132,
    "text": "Zoe took on seasonal landing pages again, this time across two smaller assignments. Nora approved the guide texts, and Leo's change is now ready to merge.",
    "text_uk": "Zoe знову взялася за сезонні сторінки, цього разу в двох менших завданнях. Nora затвердила тексти порадників, а зміни Leo передано на злиття.",
    "task": 40
@@ -636,7 +636,7 @@
    "t": "01:41",
    "type": "delegate",
    "agent": "nora",
-   "dur": 100,
+   "dur": 111,
    "text": "Zoe has handed Nora the opening texts for the first five category pages (fashion, electronics, beauty, home, kids) for review.",
    "text_uk": "Завдання для команди.",
    "task": 40
@@ -960,7 +960,7 @@
    "t": "02:54",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 27,
+   "dur": 18,
    "text": "Lukas is putting together a best-practices guide for a major affiliate network, focused on the rules for discount-code publishers as we launch rindo.pl.",
    "text_uk": "Завдання для команди.",
    "task": 36
@@ -987,7 +987,7 @@
    "t": "02:57",
    "type": "delegate",
    "agent": "nora",
-   "dur": 24,
+   "dur": 34,
    "text": "A task for the team.",
    "text_uk": "Завдання для команди.",
    "task": 40
@@ -1009,6 +1009,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "03:12",
+   "type": "delegate",
+   "agent": "iris",
+   "dur": 20,
+   "text": "Commissioned an SEO and GEO specification for three new page types on rindo.pl, the discount-code site.",
+   "text_uk": "Команда rindo.pl готує SEO- та GEO-специфікацію для трьох нових типів сторінок сайту з кодами знижок і акціями.",
+   "task": 40
   }
  ],
  "plan": [
@@ -1025,13 +1034,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -32.48,
+  "week": -32.66,
   "api_budget": 38.46,
-  "api_spent": 31.82,
+  "api_spent": 31.98,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 32.48
+  "month_costs": 32.66
  }
 }
