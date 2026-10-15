@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T07:32+02:00",
+ "generated_at": "2026-10-15T07:38+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -1455,7 +1455,7 @@
    "t": "05:17",
    "type": "delegate",
    "agent": "nora",
-   "dur": 150,
+   "dur": 156,
    "text": "Revised a partner store's page based on review feedback and resubmitted it for another check.",
    "text_uk": "Команда rindo.pl отримала зауваження щодо сторінки магазину і внесла правки. Оновлений текст відправлено на повторну перевірку.",
    "task": 40
@@ -1671,7 +1671,7 @@
    "t": "06:12",
    "type": "delegate",
    "agent": "nora",
-   "dur": 95,
+   "dur": 101,
    "text": "Nora's review flagged five sentences in a store description that went beyond the source data. We applied the corrections and sent the text back for re-review.",
    "text_uk": "Нора відхилила опис магазину, бо п'ять речень виходили за межі наявних даних. Команда внесла правки дослівно і повернула текст на повторну перевірку.",
    "task": 40
@@ -1824,7 +1824,7 @@
    "t": "06:44",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 62,
+   "dur": 68,
    "text": "Re-running return-policy research on three official retailer sites and adding delivery facts. The local team keeps going despite an exhausted API budget.",
    "text_uk": "Команда звузила дослідження умов повернень до трьох офіційних сайтів ритейлерів і додала дані про доставку. Робота триває, хоча бюджет API вичерпано.",
    "task": 40
@@ -1878,7 +1878,7 @@
    "t": "07:05",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 41,
+   "dur": 47,
    "text": "Lukas delivered the IKEA returns facts, which are now saved, and Zoe has started on an IKEA store page. Monthly API budget is nearly used up, so Nora's review and Leo's work are waiting on a decision.",
    "text_uk": "Завдання для команди.",
    "task": 40
@@ -1941,7 +1941,7 @@
    "t": "07:16",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 30,
+   "dur": 36,
    "text": "Lukas is researching return policies for another online store, while Zoe is writing copy for a furniture brand's page. Budget for AI API usage is nearly used up for the month, so some reviews and tasks are on hold.",
    "text_uk": "Lukas досліджує умови повернень ще в одному магазині, а Zoe пише текст для сторінки меблевого бренду. Бюджет API майже вичерпано, тому частина завдань чекає.",
    "task": 40
@@ -1995,9 +1995,9 @@
    "t": "07:28",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 19,
+   "dur": 9,
    "text": "Lukas is checking the wording of a furniture store page against a list of 11 rules before a paid review.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Лукас перевіряє текст сторінки магазину на відповідність набору правил перед платною оцінкою.",
    "task": 41
   },
   {
@@ -2026,6 +2026,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "07:38",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -2053,6 +2062,6 @@
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 38.51
+  "month_costs": 38.52
  }
 }
