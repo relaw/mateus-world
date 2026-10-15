@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T04:32+02:00",
+ "generated_at": "2026-10-15T04:42+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -636,7 +636,7 @@
    "t": "01:41",
    "type": "delegate",
    "agent": "nora",
-   "dur": 186,
+   "dur": 60,
    "text": "Zoe has handed Nora the opening texts for the first five category pages (fashion, electronics, beauty, home, kids) for review.",
    "text_uk": "Завдання для команди.",
    "task": 40
@@ -987,7 +987,7 @@
    "t": "02:57",
    "type": "delegate",
    "agent": "nora",
-   "dur": 109,
+   "dur": 120,
    "text": "A task for the team.",
    "text_uk": "Отримано відгуки та тексти для сезонних сторінок: Black Friday і Cyber Monday схвалено Норою, три наступні сторінки (Миколайки, Різдво, Розпродажі) передано на перевірку.",
    "task": 40
@@ -1230,7 +1230,7 @@
    "t": "04:16",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 30,
+   "dur": 18,
    "text": "Lukas is gathering facts for a store page on rindo.pl, written for mobile shoppers who want answers before they buy.",
    "text_uk": "Lukas збирає факти для сторінки магазину спорттоварів на rindo.pl для мобільних користувачів, які хочуть знати все перед покупкою.",
    "task": 40
@@ -1288,6 +1288,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "04:34",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 23,
+   "text": "Lukas is gathering facts for store pages on rindo.pl, written for shoppers who check details on their phones before buying.",
+   "text_uk": "Lukas збирає факти для сторінок магазинів на rindo.pl, щоб покупець на телефоні швидко знаходив потрібне перед покупкою.",
+   "task": 40
   }
  ],
  "plan": [
@@ -1304,13 +1313,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -34.5,
+  "week": -34.63,
   "api_budget": 38.46,
-  "api_spent": 33.77,
+  "api_spent": 33.89,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 34.5
+  "month_costs": 34.63
  }
 }
