@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T04:44+02:00",
+ "generated_at": "2026-10-15T04:53+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -987,7 +987,7 @@
    "t": "02:57",
    "type": "delegate",
    "agent": "nora",
-   "dur": 121,
+   "dur": 130,
    "text": "A task for the team.",
    "text_uk": "Отримано відгуки та тексти для сезонних сторінок: Black Friday і Cyber Monday схвалено Норою, три наступні сторінки (Миколайки, Різдво, Розпродажі) передано на перевірку.",
    "task": 40
@@ -1293,7 +1293,7 @@
    "t": "04:34",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 33,
    "text": "Lukas is gathering facts for store pages on rindo.pl, written for shoppers who check details on their phones before buying.",
    "text_uk": "Lukas збирає факти для сторінок магазинів на rindo.pl, щоб покупець на телефоні швидко знаходив потрібне перед покупкою.",
    "task": 40
@@ -1305,6 +1305,42 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "04:44",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 23,
+   "text": "Zoe is writing Polish copy for a sporting goods retailer's page on rindo.pl, our discount-code site for online shops in Poland.",
+   "text_uk": "Zoe пише польський текст сторінки спортивного магазину для rindo.pl, сервісу промокодів для інтернет-магазинів у Польщі.",
+   "task": 40
+  },
+  {
+   "t": "04:44",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Nora approved the copy for one store page, and return-policy details for another store came in. Zoe is writing the next page.",
+   "text_uk": "Nora схвалила текст с",
+   "task": 40
+  },
+  {
+   "t": "04:44",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on copy from several partner stores before the next task goes to Leo for the store pages.",
+   "text_uk": "Чекаємо на тексти від партнерів із магазинів спорту, книг і косметики, після чого Leo отримає окреме завдання щодо сторінок магазинів.",
+   "task": null
+  },
+  {
+   "t": "04:44",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
@@ -1322,13 +1358,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -34.63,
+  "week": -34.89,
   "api_budget": 38.46,
-  "api_spent": 33.89,
+  "api_spent": 34.13,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 34.63
+  "month_costs": 34.89
  }
 }
