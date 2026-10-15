@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T00:58+02:00",
+ "generated_at": "2026-10-16T01:00+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -96,7 +96,7 @@
    "t": "00:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 58,
+   "dur": 60,
    "text": "Zoe is writing the \"About us\" page using only verified company facts and site rules. Lukas is working through the next stores and affiliate terms, since some sites block scraping.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -188,7 +188,7 @@
    "agent": null,
    "dur": null,
    "text": "Lukas is researching return policies for more retailers, using their official terms. Rollout of the new pages is waiting on the server being unblocked.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Лукас отримав завдання дослідити умови повернення товарів у нових магазинах за офіційними правилами. Впровадження нових сторінок чекає, поки відкриють доступ до сервера.",
    "task": 45
   },
   {
@@ -231,7 +231,7 @@
    "t": "00:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 11,
    "text": "Lukas is gathering facts on online return policies for a beauty retailer, to feature on rindo.pl's discount-code pages.",
    "text_uk": "Мateus, ні, пишу українською: Zlecenie dla Lukasa: gathering facts for the site's store page, focused on online returns. Ось відповідь українською, без назв магазинів і сервісів: Lukas gathers facts about online returns for a store page on rindo.pl.",
    "task": 45
@@ -278,8 +278,26 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus is adding a new store page to rindo.pl, covering its return policy, and making sure it gets indexed by search engines.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus працює над сторінкою магазину на rindo.pl з умовами повернень. Після завершення сторінку буде проіндексовано для пошуку.",
    "task": 45
+  },
+  {
+   "t": "00:59",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 16,
+   "text": "Lukas is gathering facts about online returns for a discount-code page on rindo.pl, focusing on one large electronics retailer.",
+   "text_uk": "Лукас отримав завдання зібрати факти для сторінки магазину MediaMarkt на rindo.pl, зосередившись на умовах повернення товарів, купленених онлайн.",
+   "task": 45
+  },
+  {
+   "t": "01:00",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
