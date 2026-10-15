@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T09:27+02:00",
+ "generated_at": "2026-10-15T09:30+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -1824,7 +1824,7 @@
    "t": "06:44",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 177,
+   "dur": 180,
    "text": "Re-running return-policy research on three official retailer sites and adding delivery facts. The local team keeps going despite an exhausted API budget.",
    "text_uk": "Команда звузила дослідження умов повернень до трьох офіційних сайтів ритейлерів і додала дані про доставку. Робота триває, хоча бюджет API вичерпано.",
    "task": 40
@@ -1878,7 +1878,7 @@
    "t": "07:05",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 156,
+   "dur": 159,
    "text": "Lukas delivered the IKEA returns facts, which are now saved, and Zoe has started on an IKEA store page. Monthly API budget is nearly used up, so Nora's review and Leo's work are waiting on a decision.",
    "text_uk": "Завдання для команди.",
    "task": 40
@@ -1941,7 +1941,7 @@
    "t": "07:16",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 145,
+   "dur": 148,
    "text": "Lukas is researching return policies for another online store, while Zoe is writing copy for a furniture brand's page. Budget for AI API usage is nearly used up for the month, so some reviews and tasks are on hold.",
    "text_uk": "Lukas досліджує умови повернень ще в одному магазині, а Zoe пише текст для сторінки меблевого бренду. Бюджет API майже вичерпано, тому частина завдань чекає.",
    "task": 40
@@ -2040,7 +2040,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 123,
+   "dur": 126,
    "text": "Lukas is compiling a short list of facts for a perfume and cosmetics retailer's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів про магазин парфумерії та косметики для сторінки на rindo.pl.",
    "task": 40
@@ -2049,7 +2049,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 123,
+   "dur": 126,
    "text": "Lukas is researching return policies for a beauty retailer, while an IKEA content draft awaits review. The paid AI tooling is on hold until the API budget is renewed.",
    "text_uk": "Lukas досліджує умови повернень у ритейлера краси. Текст для меблевого бренду чекає на перев",
    "task": 40
@@ -2112,7 +2112,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 29,
+   "dur": 32,
    "text": "Lukas is gathering facts to compare loyalty programmes from major beauty retailers for the discount-code section of rindo.pl.",
    "text_uk": "Lukas збирає факти для порівняння програм лояльності косметичних мереж на rindo.pl, щоб користувачам було легше обрати вигідніше.",
    "task": 32
@@ -2121,7 +2121,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 29,
+   "dur": 32,
    "text": "Lukas is comparing drugstore loyalty programme terms from official rules while main tasks wait on budget and access.",
    "text_uk": "Завдання для команди.",
    "task": 32
@@ -2132,7 +2132,7 @@
    "agent": null,
    "dur": null,
    "text": "Main tasks are on hold until we secure API budget, store site access, and a working affiliate network token. Meanwhile, the local team is preparing a comparison of loyalty programmes.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Основні завдання блоку призупинені: чекаємо на бюджет API, доступ до сайтів магазинів і коректний токен мережі. Команда тим часом готує порівняння програм лояльності.",
    "task": null
   },
   {
@@ -2148,7 +2148,7 @@
    "t": "09:16",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 25,
+   "dur": 28,
    "text": "Lukas is gathering facts to compare loyalty programmes from major beauty retailers for the discount-code section of rindo.pl.",
    "text_uk": "Lukas готує порівняння програм лояльності дрогерій для rindo.pl, щоб користувачі могли обрати вигідніший варіант.",
    "task": 32
@@ -2177,7 +2177,7 @@
    "agent": null,
    "dur": null,
    "text": "Our team sent the text for one brand's page to a final review after the local check. We're also researching return policies for three more stores and drafting an SEO spec for a loyalty-programme comparison page.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Зараз команда завершує роботу над текстом сторінки для IKEA і передає його на фінальну перевірку. Також готуємо дослідження умов повернень для трьох наступних магазинів і SEO-план для порівняння програм лояльності.",
    "task": null
   },
   {
@@ -2186,7 +2186,7 @@
    "agent": null,
    "dur": null,
    "text": "Mateus's team is currently working on several research tasks: evaluating a large furniture retailer, checking facts for three stores, and comparing loyalty programmes. Waiting on results.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Команда Mateus веде кілька завдань одночасно: оцінка одного меблевого бренду, перевірка даних про три магазини та порівняння програм лояльності. Чекаємо на результати.",
    "task": null
   },
   {
@@ -2196,6 +2196,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Morning: checking the numbers before planning the day.",
+   "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
   }
  ],
