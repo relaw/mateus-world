@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T12:20+02:00",
+ "generated_at": "2026-10-15T12:32+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -2355,7 +2355,7 @@
    "t": "10:07",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 148,
+   "dur": 159,
    "text": "Lukas is preparing a short list of key facts for a store page on rindo.pl, written for mobile readers.",
    "text_uk": "Лукас готує короткий перелік ключових фактів для сторінки магазину електроніки на rindo.pl, орієнтованої на читачів із телефонів.",
    "task": 40
@@ -2418,7 +2418,7 @@
    "t": "10:13",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 142,
+   "dur": 153,
    "text": "Zoe is writing Polish page copy for a fashion retailer's discount-code listing on rindo.pl, our site for online shop deals in Poland.",
    "text_uk": "Mateus доручив Zoe написати польською текст для сторінки магазину на rindo.pl, сервісі промокодів для інтернет-крамниць у Польщі.",
    "task": 42
@@ -3003,7 +3003,7 @@
    "t": "11:58",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 37,
+   "dur": 48,
    "text": "Zoe is writing store-page copy, and the return-policy facts for a major electronics retailer are documented. Live check confirmed a homepage header change is deployed on a furniture store page.",
    "text_uk": "Завдання для команди.",
    "task": 42
@@ -3030,7 +3030,7 @@
    "t": "12:00",
    "type": "delegate",
    "agent": "iris",
-   "dur": 35,
+   "dur": 46,
    "text": "Drafting an SEO and GEO brief for one rindo.pl page comparing loyalty programmes at online drugstores.",
    "text_uk": "Готуємо SEO- та GEO-специфікацію для однієї сторінки rindo.pl, що порівнює програми лояльності інтернет-дрогерій.",
    "task": 32
@@ -3048,7 +3048,7 @@
    "t": "12:09",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 26,
+   "dur": 37,
    "text": "Facts on a store's return policy have been collected and verified, and Zoe has been asked to write the store page copy. Other store pages will follow the same process.",
    "text_uk": "Зібрали й перевірили факти про повернення товарів в одному з магазинів. Зоя взялась за текст сторінки. Далі так само працюватимемо з наступними магазинами.",
    "task": 42
@@ -3075,7 +3075,7 @@
    "t": "12:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 20,
+   "dur": 31,
    "text": "Zoe is writing Polish copy for a retailer's store page on rindo.pl, our discount-code site for online shops in Poland.",
    "text_uk": "Zoe пише польською текст для сторінки магазину на rindo.pl, де зібрано коди знижок для інтернет-магазинів у Польщі.",
    "task": 42
@@ -3093,7 +3093,7 @@
    "t": "12:16",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 19,
+   "dur": 5,
    "text": "Zoe is writing Polish copy for a store page on rindo.pl, our discount-code site for online shops in Poland.",
    "text_uk": "Zoe пише польський текст сторінки інтернет-магазину для rindo.pl, сервісу з промокодами для онлайн-магазинів у Польщі.",
    "task": 42
@@ -3102,9 +3102,9 @@
    "t": "12:18",
    "type": "delegate",
    "agent": "max",
-   "dur": 17,
+   "dur": 3,
    "text": "Commissioning Max to run a competitor analysis for rindo.pl, our discount-code site.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Аналіз конкурентів для rindo.pl: вивчаємо, як інші сервіси з промокодами працюють із магазинами та користувачами.",
    "task": 45
   },
   {
@@ -3115,6 +3115,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "12:21",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 8,
+   "text": "Lukas is reviewing the rindo.pl store page copy against our checklist before a paid assessment.",
+   "text_uk": "Lukas перевіряє тексти сторінки магазину одягу на rindo.pl на відповідність нашим правилам перед платною оцінкою.",
+   "task": 42
+  },
+  {
+   "t": "12:22",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Store descriptions are moving forward: one is ready for review, and the team is gathering facts from official terms for the next stores. The order was set by what people actually search for.",
+   "text_uk": "Завдання для команди.",
+   "task": 42
+  },
+  {
+   "t": "12:22",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The team has work queued up: text review and fact-checking for upcoming stores. Waiting on results, which I'll pick up in the next block.",
+   "text_uk": "Команда Mateus має роботу в черзі: перевірка текстів і факти про нові магазини. Очікуємо результатів, які отримаємо в наступному блоці.",
+   "task": null
+  },
+  {
+   "t": "12:22",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "12:29",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 17,
+   "text": "Lukas is checking the rindo.pl discount-code pages against a list of 14 content rules before a paid review.",
+   "text_uk": "Lukas перевіряє тексти сторінки магазину на rindo.pl за списком правил перед платною оцінкою.",
+   "task": 42
   }
  ],
  "plan": [
@@ -3135,13 +3180,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -46.27,
+  "week": -46.29,
   "api_budget": 76.92,
   "api_spent": 45.28,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 46.27
+  "month_costs": 46.29
  }
 }
