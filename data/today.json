@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T10:04+02:00",
+ "generated_at": "2026-10-15T10:08+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -1878,7 +1878,7 @@
    "t": "07:05",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 193,
+   "dur": 60,
    "text": "Lukas delivered the IKEA returns facts, which are now saved, and Zoe has started on an IKEA store page. Monthly API budget is nearly used up, so Nora's review and Leo's work are waiting on a decision.",
    "text_uk": "Завдання для команди.",
    "task": 40
@@ -1889,7 +1889,7 @@
    "agent": null,
    "dur": null,
    "text": "The local team is finished with its current block of work and is now waiting on API budget approval and access credentials before moving forward.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Завершили блок: локальна команда Mateus продовжує роботу, а решта завдань чекає на бюджет для API та потрібні доступи.",
    "task": null
   },
   {
@@ -1941,7 +1941,7 @@
    "t": "07:16",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 182,
+   "dur": 186,
    "text": "Lukas is researching return policies for another online store, while Zoe is writing copy for a furniture brand's page. Budget for AI API usage is nearly used up for the month, so some reviews and tasks are on hold.",
    "text_uk": "Lukas досліджує умови повернень ще в одному магазині, а Zoe пише текст для сторінки меблевого бренду. Бюджет API майже вичерпано, тому частина завдань чекає.",
    "task": 40
@@ -2040,7 +2040,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 160,
+   "dur": 164,
    "text": "Lukas is compiling a short list of facts for a perfume and cosmetics retailer's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів про магазин парфумерії та косметики для сторінки на rindo.pl.",
    "task": 40
@@ -2049,7 +2049,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 160,
+   "dur": 164,
    "text": "Lukas is researching return policies for a beauty retailer, while an IKEA content draft awaits review. The paid AI tooling is on hold until the API budget is renewed.",
    "text_uk": "Lukas досліджує умови повернень у ритейлера краси. Текст для меблевого бренду чекає на перев",
    "task": 40
@@ -2112,7 +2112,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 65,
+   "dur": 70,
    "text": "Lukas is gathering facts to compare loyalty programmes from major beauty retailers for the discount-code section of rindo.pl.",
    "text_uk": "Lukas збирає факти для порівняння програм лояльності косметичних мереж на rindo.pl, щоб користувачам було легше обрати вигідніше.",
    "task": 32
@@ -2121,7 +2121,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 65,
+   "dur": 69,
    "text": "Lukas is comparing drugstore loyalty programme terms from official rules while main tasks wait on budget and access.",
    "text_uk": "Завдання для команди.",
    "task": 32
@@ -2274,7 +2274,7 @@
    "t": "09:39",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 39,
+   "dur": 28,
    "text": "Lukas is compiling a short list of key facts for a retail store page on rindo.pl, written for mobile readers.",
    "text_uk": "Lukas готує короткий список ключових фактів для сторінки магазину одягу на rindo.pl. Текст пишемо так, щоб його було зручно читати з телефону.",
    "task": 40
@@ -2301,7 +2301,7 @@
    "t": "09:47",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 31,
+   "dur": 35,
    "text": "Zoe is drafting the Polish privacy and cookies policy page for rindo.pl, our discount-code site.",
    "text_uk": "Mateus доручив Zoe написати польською сторінку «Політика конфіденційності та cookies» для rindo.pl, сервіс",
    "task": 43
@@ -2350,6 +2350,24 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "10:07",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 15,
+   "text": "Lukas is preparing a short list of key facts for a store page on rindo.pl, written for mobile readers.",
+   "text_uk": "Лукас готує короткий перелік ключових фактів для сторінки магазину електроніки на rindo.pl, орієнтованої на читачів із телефонів.",
+   "task": 40
+  },
+  {
+   "t": "10:07",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -2370,13 +2388,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -38.82,
+  "week": -38.99,
   "api_budget": 76.92,
-  "api_spent": 37.93,
+  "api_spent": 38.08,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 38.82
+  "month_costs": 38.99
  }
 }
