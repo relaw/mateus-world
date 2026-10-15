@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T11:15+02:00",
+ "generated_at": "2026-10-15T11:47+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -2112,7 +2112,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 137,
+   "dur": 169,
    "text": "Lukas is gathering facts to compare loyalty programmes from major beauty retailers for the discount-code section of rindo.pl.",
    "text_uk": "Lukas збирає факти для порівняння програм лояльності косметичних мереж на rindo.pl, щоб користувачам було легше обрати вигідніше.",
    "task": 32
@@ -2121,7 +2121,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 137,
+   "dur": 168,
    "text": "Lukas is comparing drugstore loyalty programme terms from official rules while main tasks wait on budget and access.",
    "text_uk": "Lukas порівнює програми лояльності дрогерій за офіційними правилами, поки основні завдання чекають на бюджет і доступи.",
    "task": 32
@@ -2355,7 +2355,7 @@
    "t": "10:07",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 83,
+   "dur": 114,
    "text": "Lukas is preparing a short list of key facts for a store page on rindo.pl, written for mobile readers.",
    "text_uk": "Лукас готує короткий перелік ключових фактів для сторінки магазину електроніки на rindo.pl, орієнтованої на читачів із телефонів.",
    "task": 40
@@ -2418,7 +2418,7 @@
    "t": "10:13",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 77,
+   "dur": 108,
    "text": "Zoe is writing Polish page copy for a fashion retailer's discount-code listing on rindo.pl, our site for online shop deals in Poland.",
    "text_uk": "Mateus доручив Zoe написати польською текст для сторінки магазину на rindo.pl, сервісі промокодів для інтернет-крамниць у Польщі.",
    "task": 42
@@ -2571,7 +2571,7 @@
    "t": "10:35",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 54,
+   "dur": 48,
    "text": "Lukas is compiling a short list of key facts for a retailer's page on rindo.pl, written for readers on their phones.",
    "text_uk": "Lukas готує короткий список ключових фактів для сторінки магазину на rindo.pl, зручний для читання з телефону.",
    "task": 40
@@ -2627,7 +2627,7 @@
    "agent": null,
    "dur": null,
    "text": "The team has a full queue right now. We're waiting on results from Lukas and Zoe, and Leo is fixing a build issue.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Команда має повну чергу завдань: чекаємо на результати Lukas і Zoe та на виправлення збірки від Leo.",
    "task": null
   },
   {
@@ -2672,7 +2672,7 @@
    "agent": "leo",
    "dur": 5,
    "text": "Mateus assigned Leo a new offer card: it will show the offer type, its terms, and a visible expiry and verification date, with offers switched off once they expire.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Лео отримав завдання на картку пропозиції: тип, умови, видима дата закінчення дії та перевірки. Також додається автоматичне вимкнення після завершення строку.",
    "task": 48
   },
   {
@@ -2769,7 +2769,7 @@
    "t": "11:05",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 25,
+   "dur": 23,
    "text": "Mateus has asked Zoe to draft the Terms of Service page for rindo.pl, the discount-code site.",
    "text_uk": "Zoe пише регламент сайту rindo.pl польською мовою. Це сторінка з правилами користування сервісом знижкових кодів для інтернет-магазинів у Польщі.",
    "task": 43
@@ -2785,6 +2785,186 @@
   },
   {
    "t": "11:15",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Holding back a merge: a CI check failed because a section heading and a store page H1 depended on the fact scope.",
+   "text_uk": "Злиття змін призупинено, бо автоматична перевірка не пройшла: заголовки сторінок магазин",
+   "task": 41
+  },
+  {
+   "t": "11:15",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Leo is auditing our outbound store links: labelling, no automatic redirects, and a test to keep it that way. Team results are still in progress.",
+   "text_uk": "Завдання для команди.",
+   "task": 49
+  },
+  {
+   "t": "11:15",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Block wrapped up. Waiting on the team's results and Leo's pull request, which the next block will pick up.",
+   "text_uk": "Блок завершено. Команда працює над результатами, а Leo готує pull request. Наступний блок їх перевірить.",
+   "task": null
+  },
+  {
+   "t": "11:15",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "11:15",
+   "type": "delegate",
+   "agent": "leo",
+   "dur": 4,
+   "text": "Auditing and refining the click-tracking flow on rindo.pl so it meets affiliate network requirements.",
+   "text_uk": "Завдання для команди.",
+   "task": 49
+  },
+  {
+   "t": "11:19",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished auditing and refining the click-tracking flow on rindo.pl to meet affiliate network requirements. The change is ready for review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 49
+  },
+  {
+   "t": "11:24",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 38,
+   "text": "Lukas is compiling a short, phone-friendly list of key facts for a retailer's discount-code page on rindo.pl.",
+   "text_uk": "Lukas готує короткий список фактів для сторінки магазину на rindo.pl, призначеної для читачів із телефонів.",
+   "task": 40
+  },
+  {
+   "t": "11:25",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "11:26",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Auditing and refining the click-tracking flow on rindo.pl so it meets affiliate network requirements.",
+   "text_uk": "Leo is updating rindo.pl: auditing and refining the click-tracking mechanism so it meets affiliate network requirements. Wait, I should produce only the Ukrainian text. Let me write it properly. Леo → Leo stays in Latin script. Оновлення від Leo: аудит і доопрацювання механіки переходів на rindo.pl відповідно до вимог партнерських мереж.",
+   "task": 49
+  },
+  {
+   "t": "11:26",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Leo is auditing the affiliate click tracking and cookie consent banner to meet partner network requirements.",
+   "text_uk": "Завдання для команди.",
+   "task": 49
+  },
+  {
+   "t": "11:26",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team is working on store facts and copy, terms of service, SEO and competitor analysis, while waiting for results and merging changes.",
+   "text_uk": "Команда працює над наповненням rindo.pl: тексти магазинів, умови використання, SEO та аналіз конкурентів. Чекаємо на результати й злиття змін.",
+   "task": null
+  },
+  {
+   "t": "11:26",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "11:26",
+   "type": "delegate",
+   "agent": "leo",
+   "dur": 7,
+   "text": "Commissioning an audit of the cookie consent banner and consent records to meet affiliate network requirements and telecom law.",
+   "text_uk": "Зараз Leo проводить аудит банера згоди на cookie та реєстру згод для rindo.pl, щоб відповідати вимогам партнерських мереж і законодавства.",
+   "task": 44
+  },
+  {
+   "t": "11:28",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 33,
+   "text": "Zoe is writing the \"How we earn and how we check codes\" page for rindo.pl, explaining our affiliate model and how we verify discount codes.",
+   "text_uk": "Zoe отримала завдання написати польською мовою сторінку rindo.pl про те, як ми заробляємо і перевіряємо коди.",
+   "task": 50
+  },
+  {
+   "t": "11:34",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished auditing the consent banner and consent log against affiliate network requirements. The changes are waiting for review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 44
+  },
+  {
+   "t": "11:36",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "11:36",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Auditing the cookie consent banner and consent records on rindo.pl to meet affiliate network requirements and Polish electronic communications law.",
+   "text_uk": "Leo перевіряє банер згоди на cookies і журнал згод на rindo.pl за вимогами партнерських мереж і польського законодавства.",
+   "task": 44
+  },
+  {
+   "t": "11:37",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Paused a merge after a failed check: a section heading and a store page title depended on the scope of the facts shown for that store.",
+   "text_uk": "Дослідження й читання.",
+   "task": 41
+  },
+  {
+   "t": "11:37",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Store page copy is under review before Nora's assessment, draft terms await three owner decisions, and Leo's cookie banner is ready to merge.",
+   "text_uk": "Завдання для команди.",
+   "task": 42
+  },
+  {
+   "t": "11:37",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Local team has work queued up; I'll pick up the next results in the following block.",
+   "text_uk": "Між завданнями.",
+   "task": null
+  },
+  {
+   "t": "11:37",
    "type": "idle",
    "agent": null,
    "dur": null,
@@ -2795,29 +2975,29 @@
  ],
  "plan": [
   {
+   "en": "Adding a cookie consent banner to rindo.pl, with tracking limited when marketing consent is withheld.",
+   "uk": "Adding a cookie consent banner to rindo.pl, with tracking limited when marketing consent is withheld."
+  },
+  {
    "en": "Merging Leo's offer card PR, along with the \"From affiliate network\" source label. It's a source tag, not sales copy, and it keeps us transparent about where deals come from.",
    "uk": "Merging Leo's offer card PR, along with the \"From affiliate network\" source label. It's a source tag, not sales copy, and it keeps us transparent about where deals come from."
   },
   {
    "en": "Splitting the first priority features",
    "uk": "Leo готує картку пропози"
-  },
-  {
-   "en": "Today the team is fact-checking and drafting discount content for rindo.pl, building a ranking of drugstore loyalty programmes, and preparing affiliate network sign-ups.",
-   "uk": "Mateus і команда перев"
   }
  ],
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -42.57,
+  "week": -45.99,
   "api_budget": 76.92,
-  "api_spent": 41.64,
+  "api_spent": 45.03,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 42.57
+  "month_costs": 45.99
  }
 }
