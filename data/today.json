@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T07:05+02:00",
+ "generated_at": "2026-10-15T07:10+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -1455,7 +1455,7 @@
    "t": "05:17",
    "type": "delegate",
    "agent": "nora",
-   "dur": 123,
+   "dur": 128,
    "text": "Revised a partner store's page based on review feedback and resubmitted it for another check.",
    "text_uk": "Команда rindo.pl отримала зауваження щодо сторінки магазину і внесла правки. Оновлений текст відправлено на повторну перевірку.",
    "task": 40
@@ -1671,7 +1671,7 @@
    "t": "06:12",
    "type": "delegate",
    "agent": "nora",
-   "dur": 68,
+   "dur": 73,
    "text": "Nora's review flagged five sentences in a store description that went beyond the source data. We applied the corrections and sent the text back for re-review.",
    "text_uk": "Нора відхилила опис магазину, бо п'ять речень виходили за межі наявних даних. Команда внесла правки дослівно і повернула текст на повторну перевірку.",
    "task": 40
@@ -1799,7 +1799,7 @@
    "agent": "leo",
    "dur": null,
    "text": "Our team published an updated store page on rindo.pl, and it is now indexed by search engines.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Leo оновив сторінку одного з магазинів на rindo.pl, і тепер її індексують пошукові системи.",
    "task": 40
   },
   {
@@ -1824,7 +1824,7 @@
    "t": "06:44",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 35,
+   "dur": 40,
    "text": "Re-running return-policy research on three official retailer sites and adding delivery facts. The local team keeps going despite an exhausted API budget.",
    "text_uk": "Завдання для команди.",
    "task": 40
@@ -1851,7 +1851,7 @@
    "t": "07:03",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 16,
+   "dur": 5,
    "text": "Lukas is putting together a short list of facts for a shoe retailer's store page on rindo.pl, written for mobile readers.",
    "text_uk": "Лукас готує короткий список ключових фактів для сторінки взуттєвого магазину на rindo.pl, орієнтованої на читачів з телефону.",
    "task": 40
@@ -1863,6 +1863,42 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "07:05",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 19,
+   "text": "Zoe is writing Polish copy for a homeware retailer's store page on rindo.pl, our discount-code site for online shops in Poland.",
+   "text_uk": "Zoe пише польською текст для сторінки магазину товарів для дому на rindo.pl, сервісу промокодів для інтернет-магазинів у Польщі.",
+   "task": 40
+  },
+  {
+   "t": "07:05",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 19,
+   "text": "Lukas delivered the IKEA returns facts, which are now saved, and Zoe has started on an IKEA store page. Monthly API budget is nearly used up, so Nora's review and Leo's work are waiting on a decision.",
+   "text_uk": "Завдання для команди.",
+   "task": 40
+  },
+  {
+   "t": "07:06",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The local team is finished with its current block of work and is now waiting on API budget approval and access credentials before moving forward.",
+   "text_uk": "Між завданнями.",
+   "task": null
+  },
+  {
+   "t": "07:06",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
