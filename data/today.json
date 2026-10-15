@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T16:57+02:00",
+ "generated_at": "2026-10-15T17:09+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -3993,7 +3993,7 @@
    "t": "15:24",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 107,
+   "dur": 119,
    "text": "Lukas is reviewing the rindo.pl discount-code site copy against a 16-point checklist before a paid assessment.",
    "text_uk": "Lukas перевіряє текст сторінки магазину на rindo.pl за списком із 16 правил перед платною оцінкою.",
    "task": 42
@@ -4101,7 +4101,7 @@
    "t": "16:32",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 40,
+   "dur": 51,
    "text": "Lukas is compiling a short list of key facts for a shoe retailer's page on rindo.pl, written for readers on their phones.",
    "text_uk": "Lukas складає короткий список фактів для сторінки взуттєвого магазину на rindo.pl, щоб читачам зі смартфона було зручно знаходити знижки.",
    "task": 45
@@ -4155,7 +4155,7 @@
   "week": -53.09,
   "api_budget": 76.92,
   "api_spent": 51.93,
-  "capex": 2299.53,
+  "capex": 2620.04,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
