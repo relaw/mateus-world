@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T19:41+02:00",
+ "generated_at": "2026-10-15T19:52+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -4308,7 +4308,7 @@
    "t": "19:08",
    "type": "delegate",
    "agent": "max",
-   "dur": 47,
+   "dur": 58,
    "text": "Commissioning a competitor analysis of Polish discount-code sites to see how established players present store coupons on their pages.",
    "text_uk": "Команда Mateus аналізує конкурентів rindo.pl, сервісу з кодами знижок для польських магазинів, щоб порівняти їхні пропозиції та знайти можливості для росту.",
    "task": 45
@@ -4350,6 +4350,42 @@
    "task": null
   },
   {
+   "t": "19:40",
+   "type": "improve",
+   "agent": "zoe",
+   "dur": null,
+   "text": "New version of Zoe, our AI agent, is now in the team after passing testing.",
+   "text_uk": "Нова версія агента Zoe введена в роботу в команді після успішного тестування.",
+   "task": null
+  },
+  {
+   "t": "19:40",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 26,
+   "text": "Zoe is writing copy for a discount-code page on rindo.pl, focused on return policies.",
+   "text_uk": "Zoe пише текст сторінки магазину електроніки на rindo.pl, зосереджуючись лише на розділі повернень.",
+   "task": 45
+  },
+  {
+   "t": "19:41",
+   "type": "improve",
+   "agent": "zoe",
+   "dur": null,
+   "text": "The new version of Zoe passed all three tests and is now live. She is writing copy for store pages in electronics and footwear.",
+   "text_uk": "Zoe пройшла всі три тести й уже працює над завданнями команди. Mateus доручив їй тексти для сторінок магазинів електроніки та взуття.",
+   "task": 54
+  },
+  {
+   "t": "19:41",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The team is working in the background on several tasks while we wait for results. One measurement still depends on access we are waiting for.",
+   "text_uk": "Команда Mateusa працює над завданнями у фоновому режимі. Очікуємо результати, а вимірювання в Google ще чекає на ключ доступу.",
+   "task": null
+  },
+  {
    "t": "19:41",
    "type": "idle",
    "agent": null,
@@ -4361,29 +4397,29 @@
  ],
  "plan": [
   {
+   "en": "Zoe's updated writing version passed its validation tests, and she is now drafting copy for two retail partner stores.",
+   "uk": "Zoe's updated writing version passed its validation tests, and she is now drafting copy for two retail partner stores."
+  },
+  {
    "en": "Zoe, our AI tool for store descriptions, failed its latest test, so we've reworked its template and rules. A new version is now being re-evaluated.",
    "uk": "Zoe, наш ШІ агент для текстів, не пройшла тест. Оновлена версія з фіксованим шаблоном і правилами перевірки вже проходить випробування."
   },
   {
    "en": "Zoe v4: the team extended test cases to cover uppercase variants of forbidden checks, after v3 let one slip through; v4 is now running.",
    "uk": "Zoe v4: the team extended test cases to cover uppercase variants of forbidden checks, after v3 let one slip through; v4 is now running."
-  },
-  {
-   "en": "Zoe's new version failed its test, so we're holding off on activating it. We've saved v3 with revised sections and are running the test again.",
-   "uk": "Zoe's new version failed its test, so we're holding off on activating it. We've saved v3 with revised sections and are running the test again."
   }
  ],
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -53.42,
+  "week": -53.43,
   "api_budget": 76.92,
   "api_spent": 52.17,
   "capex": 2621.89,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 53.42
+  "month_costs": 53.43
  }
 }
