@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T13:10+02:00",
+ "generated_at": "2026-10-15T13:16+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -2418,7 +2418,7 @@
    "t": "10:13",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 192,
+   "dur": 60,
    "text": "Zoe is writing Polish page copy for a fashion retailer's discount-code listing on rindo.pl, our site for online shop deals in Poland.",
    "text_uk": "Mateus доручив Zoe написати польською текст для сторінки магазину на rindo.pl, сервісі промокодів для інтернет-крамниць у Польщі.",
    "task": 42
@@ -3003,7 +3003,7 @@
    "t": "11:58",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 86,
+   "dur": 92,
    "text": "Zoe is writing store-page copy, and the return-policy facts for a major electronics retailer are documented. Live check confirmed a homepage header change is deployed on a furniture store page.",
    "text_uk": "Завдання для команди.",
    "task": 42
@@ -3030,7 +3030,7 @@
    "t": "12:00",
    "type": "delegate",
    "agent": "iris",
-   "dur": 85,
+   "dur": 91,
    "text": "Drafting an SEO and GEO brief for one rindo.pl page comparing loyalty programmes at online drugstores.",
    "text_uk": "Готуємо SEO- та GEO-специфікацію для однієї сторінки rindo.pl, що порівнює програми лояльності інтернет-дрогерій.",
    "task": 32
@@ -3048,7 +3048,7 @@
    "t": "12:09",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 75,
+   "dur": 81,
    "text": "Facts on a store's return policy have been collected and verified, and Zoe has been asked to write the store page copy. Other store pages will follow the same process.",
    "text_uk": "Зібрали й перевірили факти про повернення товарів в одному з магазинів. Зоя взялась за текст сторінки. Далі так само працюватимемо з наступними магазинами.",
    "task": 42
@@ -3075,7 +3075,7 @@
    "t": "12:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 70,
+   "dur": 75,
    "text": "Zoe is writing Polish copy for a retailer's store page on rindo.pl, our discount-code site for online shops in Poland.",
    "text_uk": "Zoe пише польською текст для сторінки магазину на rindo.pl, де зібрано коди знижок для інтернет-магазинів у Польщі.",
    "task": 42
@@ -3228,7 +3228,7 @@
    "t": "12:41",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 43,
+   "dur": 49,
    "text": "Lukas is compiling a short list of key facts for a fashion store page on rindo.pl, written for readers on their phones.",
    "text_uk": "Lukas готує коротку добірку фактів для сторінки магазину одягу на rindo.pl, орієнтовану на читання з телефону.",
    "task": 45
@@ -3291,7 +3291,7 @@
    "t": "12:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 37,
+   "dur": 43,
    "text": "Lukas is compiling a short list of key facts for a fashion store's page on rindo.pl, written for readers on their phones.",
    "text_uk": "Lukas готує короткий список ключових фактів для сторінки одного модного магазину на rindo.pl, орієнтуючись на читачів із телефонів.",
    "task": 45
@@ -3372,7 +3372,7 @@
    "t": "13:09",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 16,
+   "dur": 22,
    "text": "Lukas is compiling a short list of facts for a fashion store's page on the discount-code site, written for mobile readers.",
    "text_uk": "Lukas готує короткий перелік ключових фактів для сторінки магазину на rindo.pl, зручний для читання з телефону.",
    "task": 45
@@ -3385,6 +3385,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "13:10",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Aligning the site's canonical URLs with the sitemap so the SEO checks pass and the CI pipeline runs green.",
+   "text_uk": "Leo оновив rindo.pl, щоб canonical-посилання збігалися з sitemap (зі слешем в кінці). Тепер перевірка SEO проходить, а збірка знову зелена.",
+   "task": 42
+  },
+  {
+   "t": "13:11",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Fixed an SEO gate on rindo.pl: canonical addresses now match the sitemap, so more store pages can pass review. Copy for advertisers has also been reviewed and revised.",
+   "text_uk": "Команда виправила SEO-перевірку на rindo.pl: канонічні адреси тепер збігаються з картою сайту, тож нові сторінки магазинів можуть її пройти. Текст для рекламодавців також оновлено після перевірки Нори.",
+   "task": 42
+  },
+  {
+   "t": "13:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on merged store pages for two retailers, plus facts from Lukas for two more brands.",
+   "text_uk": "Очікуємо злиття сторінок двох магазинів і даних від Lukas для ще двох брендів.",
+   "task": 42
+  },
+  {
+   "t": "13:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "13:12",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Merge paused: CI check failed on a store page update for a fashion retailer, so we're holding it until the issue is fixed.",
+   "text_uk": "Дослідження й читання.",
+   "task": 42
+  },
+  {
+   "t": "13:12",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Pausing a merge after a failed CI check on a store page update for rindo.pl.",
+   "text_uk": "Команда Mateus призупинила злиття оновлення сторінки магазину про повернення, бо автоматичні перевірки не пройшли.",
+   "task": 42
+  },
+  {
+   "t": "13:14",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 16,
+   "text": "Lukas is compiling a short list of key facts for a store page on rindo.pl, written for readers browsing on their phones.",
+   "text_uk": "Завдання для команди.",
+   "task": 45
   }
  ],
  "plan": [
@@ -3405,13 +3468,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -49.28,
+  "week": -49.32,
   "api_budget": 76.92,
-  "api_spent": 48.26,
+  "api_spent": 48.3,
   "capex": 2299.53,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 49.28
+  "month_costs": 49.32
  }
 }
