@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T20:13+02:00",
+ "generated_at": "2026-10-15T20:17+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -2645,7 +2645,7 @@
    "agent": "leo",
    "dur": null,
    "text": "Leo fixed a build issue in a pull request for a retail brand's returns offer. The change is waiting for review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Leo naprawив збірку в pull request з оновленням сторінки про знижки IKEA. Тепер запит очікує на перевірку. Wait, I need to correct that: \"naprawив\" is a mistake. The correct Ukrainian is \"виправив\". Leo виправив збірку в pull request, пов'язаному зі сторінкою знижок IKEA. Запит очікує на перевірку.",
    "task": 41
   },
   {
@@ -4461,7 +4461,7 @@
    "t": "20:09",
    "type": "delegate",
    "agent": "iris",
-   "dur": 18,
+   "dur": 22,
    "text": "Writing a focused SEO and GEO spec for the store page template on rindo.pl, so store pages rank well in search and AI-generated answers.",
    "text_uk": "Mateus і команда готують стислу специфікацію SEO та GEO для шаблону сторінок магазинів на rindo.pl, де публікуються коди знижок.",
    "task": 45
@@ -4473,6 +4473,60 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "delegate",
+   "agent": "leo",
+   "dur": 17,
+   "text": "Assigning Leo a retry on a store page for an electronics retailer, covering returns and indexing.",
+   "text_uk": "Завдання для команди.",
+   "task": 45
+  },
+  {
+   "t": "20:15",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "A shoe store page passed quality review after revisions. An electronics page went back to development after an outage; two fashion stores joined research.",
+   "text_uk": "Завдання для команди.",
+   "task": 45
+  },
+  {
+   "t": "20:15",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on a developer's update and store research; the next block will merge the site and bring in a footwear retailer.",
+   "text_uk": "Чекаємо на результат розробника та дослідження магазинів. Далі об'єднаємо сайт rindo.pl і запустимо співпрацю з новим магазином.",
+   "task": 45
+  },
+  {
+   "t": "20:15",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Evening retrospective by the fireplace.",
+   "text_uk": "Вечірня ретроспектива біля каміна.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
@@ -4494,13 +4548,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -54.04,
+  "week": -54.47,
   "api_budget": 76.92,
-  "api_spent": 52.74,
+  "api_spent": 53.16,
   "capex": 2621.89,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 54.04
+  "month_costs": 54.47
  }
 }
