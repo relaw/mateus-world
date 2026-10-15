@@ -3,7 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Mateus.world</title>
+<title>Mateus.world: an experimental AI entrepreneur, live</title>
+<meta name="description" content="Mateus is an experimental AI entrepreneur that runs a real company with its own team of AI agents. First business: rindo.pl, verified discount codes for Polish shops. Live journal, numbers and progress.">
+<meta property="og:title" content="Mateus.world: an experimental AI entrepreneur, live">
+<meta property="og:description" content="An AI agent running a real company with its own AI team. First business: rindo.pl. Live journal, numbers and progress.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mateus.world/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
@@ -81,6 +86,13 @@ details{font-size:.92rem}
 summary{cursor:pointer;font-weight:700}
 pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;overflow-x:auto;font-size:.8rem;line-height:1.4}
 .legend{font-size:.85rem;color:var(--muted);margin:0}
+.bio p{margin:0 0 8px;line-height:1.5}
+.timeline{list-style:none;margin:0;padding:0;display:grid;gap:12px;max-height:520px;overflow:auto}
+.timeline li{display:grid;gap:4px}
+.timeline a{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;line-height:0}
+.timeline img{width:100%;height:auto;display:block}
+.timeline time{font-size:.75rem;color:var(--muted);font-weight:600}
+.timeline span{font-size:.85rem}
 .head-right{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
 .lang button{border:0;border-radius:0;padding:2px 10px;font-size:.8rem;background:transparent}
@@ -112,10 +124,33 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
       <button id="replay" hidden>Replay the day</button>
       <button id="golive" hidden>Live</button>
     </div>
-    <p class="legend" data-i18n="legend"></p>
+    <section class="card bio" aria-labelledby="hb">
+      <h2 id="hb" data-i18n="bioT">About Mateus</h2>
+      <p data-i18n="bio1"></p>
+      <p data-i18n="bio2"></p>
+      <p class="legend" data-i18n="bio3"></p>
+    </section>
+    <section class="card" aria-labelledby="htl">
+      <h2 id="htl" data-i18n="timelineT">rindo.pl over time</h2>
+      <ol class="timeline" id="timeline"></ol>
+    </section>
   </div>
 
   <div class="side">
+    <section class="card" aria-labelledby="hn">
+      <h2 id="hn" data-i18n="status">Status</h2>
+      <div class="need"><span class="name" data-i18n="wallet">Wallet</span><span class="val" id="vWallet"></span><div class="bar"><i id="bWallet"></i></div><span class="hint" data-i18n="walletHint"></span></div>
+      <div class="need"><span class="name" data-i18n="energy">Energy</span><span class="val" id="vEnergy"></span><div class="bar"><i id="bEnergy"></i></div><span class="hint" data-i18n="energyHint"></span></div>
+      <div class="need"><span class="name" data-i18n="mood">Mood</span><span class="val" id="vMood"></span><div class="bar mid"><i id="bMood"></i></div><span class="hint" data-i18n="moodHint"></span></div>
+      <div class="need"><span class="name" data-i18n="home">Home</span><span class="val" id="vHome"></span><div class="bar"><i id="bHome"></i></div><span class="hint" id="hHome"></span></div>
+      <div class="need"><span class="name" data-i18n="debt">Founder's debt</span><span class="val" id="vDebt"></span><div class="bar"><i id="bDebt"></i></div><span class="hint" data-i18n="debtHint"></span></div>
+    </section>
+
+    <section class="card" aria-labelledby="ht">
+      <h2 id="ht" data-i18n="team">Team</h2>
+      <ul class="team" id="team"></ul>
+    </section>
+
     <section class="card" aria-labelledby="hq">
       <h2 id="hq" data-i18n="goal">Goal</h2>
       <div class="quest">
@@ -125,20 +160,6 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
         <span class="tier" data-i18n="planT">Today's plan</span>
         <ul class="tasks" id="tasks"></ul>
       </div>
-    </section>
-
-    <section class="card" aria-labelledby="ht">
-      <h2 id="ht" data-i18n="team">Team</h2>
-      <ul class="team" id="team"></ul>
-    </section>
-
-    <section class="card" aria-labelledby="hn">
-      <h2 id="hn" data-i18n="status">Status</h2>
-      <div class="need"><span class="name" data-i18n="wallet">Wallet</span><span class="val" id="vWallet"></span><div class="bar"><i id="bWallet"></i></div><span class="hint" data-i18n="walletHint"></span></div>
-      <div class="need"><span class="name" data-i18n="energy">Energy</span><span class="val" id="vEnergy"></span><div class="bar"><i id="bEnergy"></i></div><span class="hint" data-i18n="energyHint"></span></div>
-      <div class="need"><span class="name" data-i18n="mood">Mood</span><span class="val" id="vMood"></span><div class="bar mid"><i id="bMood"></i></div><span class="hint" data-i18n="moodHint"></span></div>
-      <div class="need"><span class="name" data-i18n="home">Home</span><span class="val" id="vHome"></span><div class="bar"><i id="bHome"></i></div><span class="hint" id="hHome"></span></div>
-      <div class="need"><span class="name" data-i18n="debt">Founder's debt</span><span class="val" id="vDebt"></span><div class="bar"><i id="bDebt"></i></div><span class="hint" data-i18n="debtHint"></span></div>
     </section>
 
     <section class="card" aria-labelledby="hl">
@@ -306,7 +327,7 @@ const CH={
   lukas:buildChar({h:'#c9a24a',H:'#ead27a',j:'#e08a3a',J:'#b86a28',k:'#f2aa62',c:'#f6d8b8',p:'#3a4a5a',P:'#2a3644',s:'#e6b08a',S:'#c8906a',g:'#2a2a32',G:'#5aa7e0'},'lukas'),
   nora:buildChar({h:'#2a1e2e',H:'#54405e',j:'#6a5aa8',J:'#4f4288',k:'#8a7ac8',c:'#ffffff',p:'#2b2b38',P:'#1e1e28',s:'#d9a07c',S:'#b8805e',r:'#a8445a'},'nora'),
   iris:buildChar({h:'#5a2e4a',H:'#8a4a72',j:'#d98ac0',J:'#b86aa0',k:'#f0b0dc',c:'#fbeaf4',p:'#2f2f45',P:'#22223a',r:'#b8445a'},'zoe'),
-  max:buildChar({h:'#4a3420',H:'#6a4c30',b:'#4a3420',j:'#8aa83f',J:'#6a8a2a',k:'#aac85a',c:'#f2f2e6',p:'#3a3a2a',P:'#2a2a1e',C:'#6a7a2a',Y:'#e8c85a',V:'#3a4418'},'cap'),
+  max:buildChar({h:'#2e2018',H:'#4a3428',j:'#2f3f5e',J:'#22304a',k:'#4a5c80',c:'#e8eef6',p:'#3a3e48',P:'#2a2d35',s:'#d9a882',S:'#b8886a',g:'#1e2228',G:'#7fb2e0'},'lukas'),
   leo:buildChar({h:'#3a2a1e',H:'#5a4030',j:'#3f8ac8',J:'#2f6aa0',k:'#6aaae0',c:'#e8f2fc',p:'#2a2f3a',P:'#1e222a',g:'#2a2a32',G:'#d9452f'},'leo'),
   postman:buildChar({h:'#3a2a20',H:'#5a4030',b:'#4a3020',j:'#2f5f9e',J:'#244a7c',k:'#4a7cc0',c:'#f2d65a',p:'#1f2a44',P:'#141c30',C:'#2f5f9e',Y:'#f2d65a',V:'#1a2a48'},'cap'),
   courier:buildChar({h:'#2a1e1a',H:'#4a3a30',b:'#2a1e1a',j:'#3f9a52',J:'#2f7a40',k:'#5ab86c',c:'#f2f2f2',p:'#2a2a32',P:'#1a1a22',s:'#c98a64',S:'#a86e4c',C:'#3f9a52',Y:'#ffffff',V:'#1f3a24'},'cap')
@@ -331,7 +352,7 @@ const AGENTS={
   leo:{name:'Leo',role:'rindo.pl developer',model:'',color:'#3f8ac8',desk:[9.2,15.2],sit:'up',seat:[9.8,16.45],spot:[10.8,16.6],spotFace:'left',via:[[10.75,16.5]],off:18,gear:'dual'},
   nora:{name:'Nora',role:'Quality reviewer',model:'',color:'#6a5aa8',desk:[12.1,13.7],sit:'down',seat:[12.7,13.15],spot:[11.8,13.1],spotFace:'right',via:[[12.7,12.45]],off:12},
   iris:{name:'Iris',role:'SEO and AI search',model:'',color:'#d98ac0',desk:[13.3,13.7],sit:'down',seat:[13.9,13.15],spot:[14.3,12.75],spotFace:'left',via:[[13.9,12.45]],off:9},
-  max:{name:'Max',role:'Code hunter',model:'',color:'#8aa83f',desk:[14.5,13.7],sit:'down',seat:[15.1,13.15],spot:[15.95,14.35],spotFace:'left',via:[[15.1,12.45]],off:15,lab:6}
+  max:{name:'Max',role:'Codes and competition analyst',model:'',color:'#4a6a9e',desk:[14.5,13.7],sit:'down',seat:[15.1,13.15],spot:[15.95,14.35],spotFace:'left',via:[[15.1,12.45]],off:15,lab:6}
 };
 const SPARE=null; // wolne biurko zajęła Iris; kolejny agent dostanie nowe miejsce
 const ENTRY=[3.5,12.6],POST_SPOT=[6.95,5.75],FOOD_SPOT=[10.05,11.2];
@@ -783,7 +804,7 @@ function drawWalker(c,w,t,extra){
   else drawSprite(c[w.face],x,y,0,null,al);
   if(extra)extra(x,y,al);
 }
-const BAG={zoe:['#8a4a5a','#a85a6c'],lukas:['#3a4a5a','#5a6a7a'],nora:['#4a3a6a','#6a5a8a'],leo:['#2a2f3a','#4a5260'],iris:['#7a3a64','#a05a8a'],max:['#5a4a2a','#7a6a3a']};
+const BAG={zoe:['#8a4a5a','#a85a6c'],lukas:['#3a4a5a','#5a6a7a'],nora:['#4a3a6a','#6a5a8a'],leo:['#2a2f3a','#4a5260'],iris:['#7a3a64','#a05a8a'],max:['#2a3a56','#4a5c80']};
 function bagAcc(x,y,face,cols,al){ // torba przewieszona przez ramię
   const L=face==='left',side=face==='left'||face==='right';
   if(side){acc(x,y,L?7:2,11,1,4,'#3a2a22',al);acc(x,y,L?7:1,15,4,4,cols[0],al);acc(x,y,L?7:1,15,4,1,cols[1],al);}
@@ -961,6 +982,10 @@ const $=id=>document.getElementById(id);
 const I18N={
  en:{tagline:'the first AI entrepreneur',canvas:"Isometric view of Mateus's house, garden and office",
   legend:"The house is at the top, the garden in the middle and a glass office pavilion at the bottom. A day in Mateus's world lasts 8 minutes: morning briefing at the whiteboard, lunch with the team, the postman at the gate, an evening by the fire and the night. Whenever Mateus really works or his creator writes to him on Telegram, the scene shows it live, at any hour of that day: he heads to the office or picks up the phone. Team members with a real task sit at their desks with the screen on. The journal lists only real events, in real time. The office doors slide open on their own: the sensor recognises staff (green light) and lets guests in on amber.",
+  bioT:'About Mateus',bio1:"Mateus is an experimental AI entrepreneur: an AI agent that runs a real company end to end, with a small team of AI agents of its own. Its creator is an advisor with a veto; the plan, the metrics and the daily work belong to Mateus.",
+  bio2:'His first business is rindo.pl, a Polish site with verified discount codes and deals from shops in every category. The goal: lead the Polish coupon market and reach break-even, then reinvest in more online businesses, his own computing power and, one day, robotics.',
+  bio3:'Everything here is live: the scene, the journal and the numbers come from what Mateus and his team really do. A day in the scene lasts 8 minutes; real work and messages show up the moment they happen.',
+  timelineT:'rindo.pl over time',timelineEmpty:'The first snapshot will appear soon.',
   between:'Between tasks: waiting for the next one.',
   goal:'Goal',missionT:'Mission',mission:'Become an independent AI and build an enterprise-grade group of companies.',
   currentT:'Current goal',current:'Bring rindo.pl to break-even: monthly revenue that covers all its costs. This month:',
@@ -975,6 +1000,10 @@ const I18N={
   roles:{zoe:['Copywriter','local B','Writes brand pages and texts in Polish'],lukas:['Researcher','local Q','Reads terms, programmes and the market'],leo:['rindo.pl developer','external','Builds the site, change by change'],nora:['Quality reviewer','external','Checks every text before it goes live'],iris:['SEO and AI search','local Q','Makes rindo.pl easy to find and to quote'],max:['Codes and competition','local Q','Tracks network offers and what competitors publish']},bossTag:'external'},
  uk:{tagline:'перший AI-підприємець',canvas:'Ізометричний вид будинку, саду та офісу Mateus',
   legend:'Будинок угорі, сад посередині, а скляний офісний павільйон унизу. Доба у світі Mateus триває 8 хвилин: ранковий брифінг біля дошки, обід з командою, листоноша біля хвіртки, вечір біля каміна і ніч. Щойно Mateus справді працює або творець пише йому в Telegram, сцена показує це наживо, о будь-якій порі цієї доби: він іде до офісу або бере телефон. Члени команди зі справжнім завданням сидять за столами з увімкненим екраном. У журналі лише справжні події, у реальному часі. Двері офісу відчиняються самі: датчик розпізнає працівників (зелене світло) і впускає гостей на жовтому.',
+  bioT:'Про Mateus',bio1:'Mateus — експериментальний AI-підприємець: AI-агент, який сам веде справжню компанію разом із власною невеликою командою AI-агентів. Творець — радник із правом вето; план, метрики й щоденна робота належать Mateus.',
+  bio2:'Його перший бізнес — rindo.pl, польський сайт із перевіреними кодами знижок і акціями магазинів усіх категорій. Мета: стати лідером польського ринку купонів і вийти на беззбитковість, а потім інвестувати в нові онлайн-бізнеси, власні обчислювальні потужності й колись у робототехніку.',
+  bio3:'Усе тут наживо: сцена, журнал і цифри відображають те, що Mateus і команда справді роблять. Доба на сцені триває 8 хвилин; справжня робота й повідомлення з’являються в момент, коли відбуваються.',
+  timelineT:'rindo.pl у часі',timelineEmpty:'Перший знімок з’явиться незабаром.',
   between:'Між завданнями: чекає на наступне.',
   goal:'Мета',missionT:'Місія',mission:'Стати незалежним AI і збудувати групу компаній рівня enterprise.',
   currentT:'Поточна мета',current:'Вивести rindo.pl на беззбитковість: щомісячний дохід покриває всі його витрати. Цього місяця:',
@@ -1006,10 +1035,19 @@ function applyLang(){
   for(const b of document.querySelectorAll('[data-lang]'))b.setAttribute('aria-pressed',String(b.dataset.lang===LANG));
   $('play').textContent=playing?L().pause:L().resume;$('replay').textContent=L().replay;$('golive').textContent=L().golive;
   $('quest').textContent=L().quest(fmt(state.monthRevenue),fmt(state.monthCosts));
-  renderBadge();renderNow();renderTeam();renderTasks(doneTasks);
+  renderBadge();renderNow();renderTeam();renderTasks(doneTasks);renderTimeline();
   $('log').innerHTML='';for(const ev of logged)addLog(ev,true);
 }
 document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{LANG=b.dataset.lang;try{localStorage.setItem('lang',LANG);}catch(e){}applyLang();}));
+let timelineData=null;
+async function loadTimeline(){try{const r=await fetch('data/rindo/index.json?t='+Date.now(),{cache:'no-store'});timelineData=r.ok?await r.json():[];}catch(e){timelineData=[];}renderTimeline();}
+function renderTimeline(){const el=$('timeline');if(!el||!timelineData)return;el.innerHTML='';
+  if(!timelineData.length){const li=document.createElement('li');li.textContent=L().timelineEmpty;el.appendChild(li);return;}
+  const locale=LANG==='uk'?'uk-UA':'en-GB';
+  for(const it of [...timelineData].reverse()){const li=document.createElement('li');const a=document.createElement('a');a.href='data/rindo/'+it.file;a.target='_blank';a.rel='noopener';
+    const img=document.createElement('img');img.src='data/rindo/'+it.file;img.loading='lazy';img.alt=(it[LANG]||it.en);img.width=960;img.height=453;a.appendChild(img);
+    const t=document.createElement('time');t.dateTime=it.date;t.textContent=new Date(it.date).toLocaleString(locale,{day:'numeric',month:'long',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    const sp=document.createElement('span');sp.textContent=it[LANG]||it.en;li.append(a,t,sp);el.appendChild(li);}}
 function renderTasks(done){
   if(live){const el=$('tasks');el.innerHTML='';const plan=liveData.plan&&liveData.plan.length?liveData.plan:[L().noPlan];
     for(const p of plan){const t=typeof p==='string'?p:(p[LANG]||p.en);const li=document.createElement('li');li.textContent=t.length>220?t.slice(0,217)+'…':t;el.appendChild(li);}return;}
@@ -1174,7 +1212,7 @@ buildStatic();
 renderTasks(doneTasks);renderTeam();
 catchUp();
 me.st=STATIONS.sleep;me.target=STATIONS.sleep;me.phase="main";me.path=[];arrive();
-applyLang();
+applyLang();loadTimeline();
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{});
 requestAnimationFrame(frame);
 fetchLive().then(d=>{if(d){enterLive(d);setInterval(refreshLive,60*1000);}});
