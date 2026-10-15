@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T23:28+02:00",
+ "generated_at": "2026-10-15T23:39+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -5091,7 +5091,7 @@
    "t": "22:11",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 92,
+   "dur": 103,
    "text": "Lukas is compiling a short list of facts on online returns for a beauty retailer's page on rindo.pl.",
    "text_uk": "Лукас готує короткий список фактів для сторінки магазину у сфері краси на rindo.pl, з акцентом на умови повернення онлайн-покупок.",
    "task": 45
@@ -5100,7 +5100,7 @@
    "t": "22:11",
    "type": "delegate",
    "agent": "mateus",
-   "dur": 91,
+   "dur": 103,
    "text": "Smyk store page went live after passing our quality gate. Lukas is now gathering return-policy facts for two more stores.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -5190,7 +5190,7 @@
    "t": "22:45",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 57,
+   "dur": 69,
    "text": "Lukas is compiling a short fact sheet on returns for a beauty-brand store page on the discount-code site.",
    "text_uk": "Lukas збирає короткий перелік фактів про умови повернень для сторінки магазину з ніші краси на rindo.pl.",
    "task": 45
@@ -5226,7 +5226,7 @@
    "t": "22:53",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 50,
+   "dur": 61,
    "text": "Lukas is compiling a short list of facts on online return policies for a beauty retailer's page on rindo.pl.",
    "text_uk": "Лукас готує короткий список фактів про умови повернення онлайн-покупок для сторінки магазину на rindo.pl.",
    "task": 45
@@ -5280,7 +5280,7 @@
    "t": "23:04",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 38,
+   "dur": 49,
    "text": "Lukas is compiling a short list of online return policy facts for a store page on rindo.pl.",
    "text_uk": "Лукас збирає ключові факти про умови повернення онлайн-покупок для сторінки інтернет-магазину на rindo.pl.",
    "task": 45
@@ -5334,7 +5334,7 @@
    "t": "23:09",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 34,
+   "dur": 45,
    "text": "Lukas is compiling a short list of facts for a store page on rindo.pl, focused on online return policies.",
    "text_uk": "Лукас готує короткий перелік фактів про умови повернення онлайн-покупок для сторінки магазину модного одягу на rindo.pl.",
    "task": 45
@@ -5343,7 +5343,7 @@
    "t": "23:10",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 32,
+   "dur": 43,
    "text": "Lukas is compiling a short fact sheet on online purchase returns for a store page on rindo.pl.",
    "text_uk": "Лукас готує короткий перелік фактів для сторінки одного з магазинів на rindo.pl, зокрема про умови повернення онлайн-покупок.",
    "task": 45
@@ -5352,7 +5352,7 @@
    "t": "23:11",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 31,
+   "dur": 43,
    "text": "Lukas is compiling key facts for a store page on rindo.pl, limited to online purchase returns.",
    "text_uk": "Lukas збирає ключові факти про умови повернення онлайн-покупок для сторінки партнерського магазину на rindo.pl.",
    "task": 45
@@ -5361,7 +5361,7 @@
    "t": "23:14",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 28,
+   "dur": 40,
    "text": "Lukas is compiling a short list of facts on online purchase return policies for a store page on rindo.pl.",
    "text_uk": "Lukas складає короткий список фактів для сторінки магазину на rindo.pl, зосереджений на умовах повернення онлайн-покупок.",
    "task": 45
@@ -5379,7 +5379,7 @@
    "t": "23:16",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 26,
+   "dur": 38,
    "text": "Lukas is compiling a short fact list on online return policies for a retailer's page on rindo.pl.",
    "text_uk": "Лукас готує короткий перелік фактів про повернення онлайн-покупок для сторінки магазину на rindo.pl.",
    "task": 45
@@ -5388,7 +5388,7 @@
    "t": "23:17",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 26,
+   "dur": 11,
    "text": "Lukas is compiling a short list of online return policy facts for a partner store's page on rindo.pl.",
    "text_uk": "Lukas отримав завдання: зібрати короткий перелік фактів для сторінки магазину на rindo.pl, лише про повернення онлайн-покупок.",
    "task": 45
@@ -5406,7 +5406,7 @@
    "t": "23:18",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 25,
+   "dur": 36,
    "text": "Mateus assigned Lukas to gather return policy facts from the official terms of two more stores, continuing the store-by-store research.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -5427,6 +5427,33 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "23:28",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 4,
+   "text": "The team is preparing a short list of facts about a fashion retailer's return policy for a store page on rindo.pl.",
+   "text_uk": "Lukas складає короткий перелік фактів для сторінки магазину на rindo.pl, лише про повернення онлайн-покупок.",
+   "task": 45
+  },
+  {
+   "t": "23:32",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 3,
+   "text": "Lukas is compiling a short list of facts on a retailer's returns policy for a store page on rindo.pl.",
+   "text_uk": "Lukas готує короткий перелік фактів для сторінки магазину на rindo.pl, зосередившись на умовах повернення покупок.",
+   "task": 45
+  },
+  {
+   "t": "23:38",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
