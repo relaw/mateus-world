@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T04:00+02:00",
+ "generated_at": "2026-10-15T04:10+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -564,7 +564,7 @@
    "t": "01:19",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 175,
+   "dur": 186,
    "text": "Zoe took on seasonal landing pages again, this time across two smaller assignments. Nora approved the guide texts, and Leo's change is now ready to merge.",
    "text_uk": "Zoe знову взялася за сезонні сторінки, цього разу в двох менших завданнях. Nora затвердила тексти порадників, а зміни Leo передано на злиття.",
    "task": 40
@@ -636,7 +636,7 @@
    "t": "01:41",
    "type": "delegate",
    "agent": "nora",
-   "dur": 154,
+   "dur": 164,
    "text": "Zoe has handed Nora the opening texts for the first five category pages (fashion, electronics, beauty, home, kids) for review.",
    "text_uk": "Завдання для команди.",
    "task": 40
@@ -987,7 +987,7 @@
    "t": "02:57",
    "type": "delegate",
    "agent": "nora",
-   "dur": 77,
+   "dur": 88,
    "text": "A task for the team.",
    "text_uk": "Отримано відгуки та тексти для сезонних сторінок: Black Friday і Cyber Monday схвалено Норою, три наступні сторінки (Миколайки, Різдво, Розпродажі) передано на перевірку.",
    "task": 40
@@ -1131,7 +1131,7 @@
    "t": "03:49",
    "type": "delegate",
    "agent": "iris",
-   "dur": 25,
+   "dur": 36,
    "text": "Narrowing a delegated task: the SEO and GEO spec now covers only the store page of rindo.pl, after a broader three-page brief came back empty.",
    "text_uk": "Після порожнього результату звузили завдання: SEO- та GEO-специфікація лише для сторінки магазину rindo.pl.",
    "task": 40
@@ -1149,7 +1149,7 @@
    "t": "03:51",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 23,
+   "dur": 18,
    "text": "Assigning Zoe to write the Polish copy for a store page on rindo.pl, our discount-code site for online shops in Poland.",
    "text_uk": "Завдання для команди.",
    "task": 40
@@ -1196,13 +1196,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -34.18,
+  "week": -34.27,
   "api_budget": 38.46,
-  "api_spent": 33.48,
+  "api_spent": 33.55,
   "capex": 1645.17,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 34.18
+  "month_costs": 34.27
  }
 }
