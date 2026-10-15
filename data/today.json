@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T15:45+02:00",
+ "generated_at": "2026-10-15T15:55+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -3291,7 +3291,7 @@
    "t": "12:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 191,
+   "dur": 60,
    "text": "Lukas is compiling a short list of key facts for a fashion store's page on rindo.pl, written for readers on their phones.",
    "text_uk": "Lukas готує короткий список ключових фактів для сторінки одного модного магазину на rindo.pl, орієнтуючись на читачів із телефонів.",
    "task": 45
@@ -3372,7 +3372,7 @@
    "t": "13:09",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 170,
+   "dur": 181,
    "text": "Lukas is compiling a short list of facts for a fashion store's page on the discount-code site, written for mobile readers.",
    "text_uk": "Lukas готує короткий перелік ключових фактів для сторінки магазину на rindo.pl, зручний для читання з телефону.",
    "task": 45
@@ -3543,7 +3543,7 @@
    "t": "13:54",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 125,
+   "dur": 136,
    "text": "Zoe is writing store page copy from collected return policy facts. Two more store pages are waiting to be merged after an SEO fix.",
    "text_uk": "Zoe пише текст сторінки про повернення для магазину одягу, дані вже зібрано. Ще дві сторінки магазинів чекають злиття після виправлення SEO-перевірки.",
    "task": 45
@@ -3950,7 +3950,7 @@
    "agent": "leo",
    "dur": null,
    "text": "Added a returns section to a fashion brand's store page on the site and made it indexed by search engines.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Leo оновив на rindo.pl сторінку магазину одягу: додав інформацію про умови повернення, і тепер сторінка індексується пошуковими системами.",
    "task": 45
   },
   {
@@ -3993,7 +3993,7 @@
    "t": "15:24",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 35,
+   "dur": 45,
    "text": "Lukas is reviewing the rindo.pl discount-code site copy against a 16-point checklist before a paid assessment.",
    "text_uk": "Завдання для команди.",
    "task": 42
@@ -4071,7 +4071,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -52.98,
+  "week": -52.99,
   "api_budget": 76.92,
   "api_spent": 51.91,
   "capex": 2299.53,
