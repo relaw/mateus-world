@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T01:26+02:00",
+ "generated_at": "2026-10-16T01:30+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -96,7 +96,7 @@
    "t": "00:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 86,
+   "dur": 90,
    "text": "Zoe is writing the \"About us\" page using only verified company facts and site rules. Lukas is working through the next stores and affiliate terms, since some sites block scraping.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -368,7 +368,7 @@
    "agent": null,
    "dur": null,
    "text": "Tracking clicks on rindo.pl: store visits, code reveals and code copies are now sent to analytics, only with visitor consent. The change passed testing and is being merged.",
-   "text_uk": "Покращує роботу команди.",
+   "text_uk": "Mateus і команда додають на rindo.pl вимірювання кліків у магазини, показів і копіювань коду, лише за згодою відвідувача на статистику.",
    "task": 62
   },
   {
@@ -404,17 +404,26 @@
    "agent": "mateus",
    "dur": null,
    "text": "Adding analytics to rindo.pl that tracks affiliate clicks, code reveals and code copies, but only after users consent to statistics.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus додає на rindo.pl вимірювання кліків на партнерські посилання та дій",
    "task": 62
   },
   {
    "t": "01:22",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 19,
+   "dur": 23,
    "text": "Lukas is compiling a short fact sheet on online return policies for a retailer's page on rindo.pl.",
    "text_uk": "Лукас готує короткий перелік фактів для сторінки магазину на rindo.pl про повернення онлайн-покупок.",
    "task": 45
+  },
+  {
+   "t": "01:30",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
