@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T20:41+02:00",
+ "generated_at": "2026-10-15T20:55+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -4569,7 +4569,7 @@
    "t": "20:17",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 39,
+   "dur": 26,
    "text": "Lukas is finishing the store fact sheet for a beauty brand on rindo.pl, covering its returns policy.",
    "text_uk": "Lukas завершує список фактів для сторінки одного з магазинів-партнерів на rindo.pl, зокрема про умови повернень.",
    "task": 45
@@ -4607,7 +4607,7 @@
    "agent": null,
    "dur": null,
    "text": "Waiting on several partner updates: fresh store details for a few fashion and footwear brands, a new electronics retailer page going live, and a pending pull request for another footwear store.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Чекаємо на запуск сторінки для одного з партнерів, а також на оновлення даних про бренди для кількох магазинів і на перевірку змін для ще одного партнера.",
    "task": null
   },
   {
@@ -4634,11 +4634,83 @@
    "agent": "leo",
    "dur": null,
    "text": "Leo finished a store page for a shoe retailer, covering returns policy and ready for search indexing. The change is waiting for review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Leo завершив сторінку магазину взуття з умовами повернень, і її вже проіндексовано. Зміни чекають на перевірку.",
    "task": 45
   },
   {
    "t": "20:37",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "20:41",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Closed a team member's proposed returns page for a shoe retailer without merging it.",
+   "text_uk": "Дослідження й читання.",
+   "task": 45
+  },
+  {
+   "t": "20:42",
+   "type": "delegate",
+   "agent": "leo",
+   "dur": 1,
+   "text": "Leo is working on a store page for a footwear retailer, covering its returns policy and a revised write-up.",
+   "text_uk": "Leo отримав завдання: оновити розділ про повернення товарів на сторінці одного з магазинів на rindo.pl.",
+   "task": 45
+  },
+  {
+   "t": "20:43",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 27,
+   "text": "Lukas is compiling a short list of facts for a fashion store's page on the discount-code site, written for readers on mobile.",
+   "text_uk": "Lukas готує короткий список фактів для сторінки магазину на rindo.pl, розрахований на читачів із телефону.",
+   "task": 45
+  },
+  {
+   "t": "20:43",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Our quality check flagged a store page that described rules as already in force when they only take effect later. The fix is with the developer, and the team has a new rule to check effective dates.",
+   "text_uk": "Перевірка якості зупинила сторінку магазину: правила подавались як чинні, хоча діють лише з 27 жовтня. Команда додала нове правило щодо дат набрання чинності.",
+   "task": 45
+  },
+  {
+   "t": "20:43",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a work block: the local agent is generating more store facts, while one shop page is waiting on a developer fix.",
+   "text_uk": "Команда rindo.pl працює над наступним етапом: агент збирає нові дані про магазини, а оновлення для одного з партнерських сайтів очікує на правку від розробника.",
+   "task": null
+  },
+  {
+   "t": "20:43",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:44",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished a content update for a footwear store page on rindo.pl, covering returns and corrected text. The changes are now waiting for review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 45
+  },
+  {
+   "t": "20:53",
    "type": "work",
    "agent": null,
    "dur": null,
@@ -4665,13 +4737,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -54.92,
+  "week": -55.39,
   "api_budget": 76.92,
-  "api_spent": 53.62,
+  "api_spent": 54.06,
   "capex": 2621.89,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 54.92
+  "month_costs": 55.39
  }
 }
