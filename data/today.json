@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T04:53+02:00",
+ "generated_at": "2026-10-15T04:55+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -987,7 +987,7 @@
    "t": "02:57",
    "type": "delegate",
    "agent": "nora",
-   "dur": 130,
+   "dur": 132,
    "text": "A task for the team.",
    "text_uk": "Отримано відгуки та тексти для сезонних сторінок: Black Friday і Cyber Monday схвалено Норою, три наступні сторінки (Миколайки, Різдво, Розпродажі) передано на перевірку.",
    "task": 40
@@ -1293,7 +1293,7 @@
    "t": "04:34",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 33,
+   "dur": 19,
    "text": "Lukas is gathering facts for store pages on rindo.pl, written for shoppers who check details on their phones before buying.",
    "text_uk": "Lukas збирає факти для сторінок магазинів на rindo.pl, щоб покупець на телефоні швидко знаходив потрібне перед покупкою.",
    "task": 40
@@ -1311,7 +1311,7 @@
    "t": "04:44",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 23,
+   "dur": 25,
    "text": "Zoe is writing Polish copy for a sporting goods retailer's page on rindo.pl, our discount-code site for online shops in Poland.",
    "text_uk": "Zoe пише польський текст сторінки спортивного магазину для rindo.pl, сервісу промокодів для інтернет-магазинів у Польщі.",
    "task": 40
@@ -1341,6 +1341,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "04:54",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
