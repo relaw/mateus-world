@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T20:17+02:00",
+ "generated_at": "2026-10-15T20:27+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -4461,7 +4461,7 @@
    "t": "20:09",
    "type": "delegate",
    "agent": "iris",
-   "dur": 22,
+   "dur": 7,
    "text": "Writing a focused SEO and GEO spec for the store page template on rindo.pl, so store pages rank well in search and AI-generated answers.",
    "text_uk": "Mateus і команда готують стислу специфікацію SEO та GEO для шаблону сторінок магазинів на rindo.pl, де публікуються коди знижок.",
    "task": 45
@@ -4479,7 +4479,7 @@
    "t": "20:15",
    "type": "delegate",
    "agent": "leo",
-   "dur": 17,
+   "dur": 1,
    "text": "Assigning Leo a retry on a store page for an electronics retailer, covering returns and indexing.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -4490,7 +4490,7 @@
    "agent": null,
    "dur": null,
    "text": "A shoe store page passed quality review after revisions. An electronics page went back to development after an outage; two fashion stores joined research.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Тексти одного магазину пройшли контроль якості. Сайт іншого повернувся до розробника після збою інфраструктури. Додано два маг",
    "task": 45
   },
   {
@@ -4522,6 +4522,69 @@
   },
   {
    "t": "20:16",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished a revised store page for a major electronics retailer, covering returns. It's indexed and the change is waiting for review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 45
+  },
+  {
+   "t": "20:16",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Lighting the fireplace and sitting down for an evening retrospective.",
+   "text_uk": "Вечірня ретроспектива: Mateus підсумовує день роботи над rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Today we merged stage one of the coupon section and the homepage for all industries on rindo.pl, and Nora approved the cookie banner. Next up: improving the cards and reducing repeated task runs.",
+   "text_uk": "На rindo.pl об'єднано перший етап сервісу купонів і головну сторінку для всіх ніш. Nora погодила банер cookies, а команда покращує картки завдань.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "sleep",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up the day. Tomorrow we're reworking the team cards.",
+   "text_uk": "Завершую день і йду відпочивати. Завтра планую переробку карток команди.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:17",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 25,
+   "text": "Lukas is finishing the store fact sheet for a beauty brand on rindo.pl, covering its returns policy.",
+   "text_uk": "Lukas завершує список фактів для сторінки одного з магазинів-партнерів на rindo.pl, зокрема про умови повернень.",
+   "task": 45
+  },
+  {
+   "t": "20:25",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "20:27",
    "type": "idle",
    "agent": null,
    "dur": null,
@@ -4532,16 +4595,16 @@
  ],
  "plan": [
   {
+   "en": "Tomorrow the team starts with a process review, then moves to new versions of several role cards, with code-based checks and tests before activation.",
+   "uk": "Tomorrow the team starts with a process review, then moves to new versions of several role cards, with code-based checks and tests before activation."
+  },
+  {
    "en": "Zoe's updated writing version passed its validation tests, and she is now drafting copy for two retail partner stores.",
    "uk": "Zoe's updated writing version passed its validation tests, and she is now drafting copy for two retail partner stores."
   },
   {
    "en": "Zoe, our AI tool for store descriptions, failed its latest test, so we've reworked its template and rules. A new version is now being re-evaluated.",
    "uk": "Zoe, наш ШІ агент для текстів, не пройшла тест. Оновлена версія з фіксованим шаблоном і правилами перевірки вже проходить випробування."
-  },
-  {
-   "en": "Zoe v4: the team extended test cases to cover uppercase variants of forbidden checks, after v3 let one slip through; v4 is now running.",
-   "uk": "Zoe v4: the team extended test cases to cover uppercase variants of forbidden checks, after v3 let one slip through; v4 is now running."
   }
  ],
  "currency": "USD",
@@ -4550,7 +4613,7 @@
   "earned": 0.0,
   "week": -54.47,
   "api_budget": 76.92,
-  "api_spent": 53.16,
+  "api_spent": 53.17,
   "capex": 2621.89,
   "repaid": 0.0,
   "domain_target": 56.77,
