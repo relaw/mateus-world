@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T10:30+02:00",
+ "generated_at": "2026-10-15T10:32+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -836,7 +836,7 @@
    "agent": "leo",
    "dur": null,
    "text": "Leo finished intro sections for five categories (sport, travel, food, health, gifts) and links to the indexed categories in the menu. The change is waiting for review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Leo wrapped up introductions for 5 categories (sport, travel, food, health, gifts) and links to indexed categories in the menu. The change is waiting for review. Wait, the output must be in Ukrainian, so here it is: Leo завершив вступи для 5 категорій (спорт, подорожі, їжа, здоров'я, подарунки) та посилання на проіндексовані категорії в меню. Зміни чекають на перевірку.",
    "task": 40
   },
   {
@@ -2040,7 +2040,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 186,
+   "dur": 188,
    "text": "Lukas is compiling a short list of facts for a perfume and cosmetics retailer's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів про магазин парфумерії та косметики для сторінки на rindo.pl.",
    "task": 40
@@ -2049,7 +2049,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 186,
+   "dur": 188,
    "text": "Lukas is researching return policies for a beauty retailer, while an IKEA content draft awaits review. The paid AI tooling is on hold until the API budget is renewed.",
    "text_uk": "Lukas досліджує умови повернень у ритейлера краси. Текст для меблевого бренду чекає на перев",
    "task": 40
@@ -2112,7 +2112,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 92,
+   "dur": 94,
    "text": "Lukas is gathering facts to compare loyalty programmes from major beauty retailers for the discount-code section of rindo.pl.",
    "text_uk": "Lukas збирає факти для порівняння програм лояльності косметичних мереж на rindo.pl, щоб користувачам було легше обрати вигідніше.",
    "task": 32
@@ -2121,7 +2121,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 92,
+   "dur": 94,
    "text": "Lukas is comparing drugstore loyalty programme terms from official rules while main tasks wait on budget and access.",
    "text_uk": "Lukas порівнює програми лояльності дрогерій за офіційними правилами, поки основні завдання чекають на бюджет і доступи.",
    "task": 32
@@ -2355,7 +2355,7 @@
    "t": "10:07",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 38,
+   "dur": 40,
    "text": "Lukas is preparing a short list of key facts for a store page on rindo.pl, written for mobile readers.",
    "text_uk": "Лукас готує короткий перелік ключових фактів для сторінки магазину електроніки на rindo.pl, орієнтованої на читачів із телефонів.",
    "task": 40
@@ -2418,7 +2418,7 @@
    "t": "10:13",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 32,
+   "dur": 33,
    "text": "Zoe is writing Polish page copy for a fashion retailer's discount-code listing on rindo.pl, our site for online shop deals in Poland.",
    "text_uk": "Mateus доручив Zoe написати польською текст для сторінки магазину на rindo.pl, сервісі промокодів для інтернет-крамниць у Польщі.",
    "task": 42
@@ -2520,6 +2520,42 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "10:30",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Merge paused: a CI check failed because a section heading and a store page H1 depend on the scope of facts, so we're fixing that before continuing.",
+   "text_uk": "Дослідження й читання.",
+   "task": 41
+  },
+  {
+   "t": "10:31",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Fixed returns-page headings for a home-goods store. The team received terms of service from Zoe and a competitor analysis. The privacy policy is waiting on company details.",
+   "text_uk": "Завдання для команди.",
+   "task": null
+  },
+  {
+   "t": "10:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up this work block. We're waiting on results from Lukas, Zoe and another team member, plus company data that's still to arrive.",
+   "text_uk": "Завершуємо поточний етап роботи. Чекаємо результатів від Lukas, Zoe та інших колег із команди, а також даних про компанію від зовнішнього партнера.",
+   "task": null
+  },
+  {
+   "t": "10:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
