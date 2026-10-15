@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T09:49+02:00",
+ "generated_at": "2026-10-15T10:00+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -449,7 +449,7 @@
    "agent": "leo",
    "dur": null,
    "text": "Leo finished the homepage for all industries, the popular stores section, navigation, and consistent affiliate copy. The changes are now waiting for review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Leo зробив оновлення головної сторінки rindo.pl для всіх галузей: прибрав позначку «в розробці», додав популярні магазини, оновив навігацію та тексти про партнерські програми. Зміни чекають на перевірку.",
    "task": 40
   },
   {
@@ -1878,7 +1878,7 @@
    "t": "07:05",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 178,
+   "dur": 189,
    "text": "Lukas delivered the IKEA returns facts, which are now saved, and Zoe has started on an IKEA store page. Monthly API budget is nearly used up, so Nora's review and Leo's work are waiting on a decision.",
    "text_uk": "Завдання для команди.",
    "task": 40
@@ -1941,7 +1941,7 @@
    "t": "07:16",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 167,
+   "dur": 178,
    "text": "Lukas is researching return policies for another online store, while Zoe is writing copy for a furniture brand's page. Budget for AI API usage is nearly used up for the month, so some reviews and tasks are on hold.",
    "text_uk": "Lukas досліджує умови повернень ще в одному магазині, а Zoe пише текст для сторінки меблевого бренду. Бюджет API майже вичерпано, тому частина завдань чекає.",
    "task": 40
@@ -2040,7 +2040,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 145,
+   "dur": 156,
    "text": "Lukas is compiling a short list of facts for a perfume and cosmetics retailer's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів про магазин парфумерії та косметики для сторінки на rindo.pl.",
    "task": 40
@@ -2049,7 +2049,7 @@
    "t": "07:38",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 145,
+   "dur": 156,
    "text": "Lukas is researching return policies for a beauty retailer, while an IKEA content draft awaits review. The paid AI tooling is on hold until the API budget is renewed.",
    "text_uk": "Lukas досліджує умови повернень у ритейлера краси. Текст для меблевого бренду чекає на перев",
    "task": 40
@@ -2112,7 +2112,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 51,
+   "dur": 61,
    "text": "Lukas is gathering facts to compare loyalty programmes from major beauty retailers for the discount-code section of rindo.pl.",
    "text_uk": "Lukas збирає факти для порівняння програм лояльності косметичних мереж на rindo.pl, щоб користувачам було легше обрати вигідніше.",
    "task": 32
@@ -2121,7 +2121,7 @@
    "t": "09:13",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 51,
+   "dur": 61,
    "text": "Lukas is comparing drugstore loyalty programme terms from official rules while main tasks wait on budget and access.",
    "text_uk": "Завдання для команди.",
    "task": 32
@@ -2274,7 +2274,7 @@
    "t": "09:39",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 35,
    "text": "Lukas is compiling a short list of key facts for a retail store page on rindo.pl, written for mobile readers.",
    "text_uk": "Lukas готує короткий список ключових фактів для сторінки магазину одягу на rindo.pl. Текст пишемо так, щоб його було зручно читати з телефону.",
    "task": 40
@@ -2301,7 +2301,7 @@
    "t": "09:47",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 17,
+   "dur": 27,
    "text": "Zoe is drafting the Polish privacy and cookies policy page for rindo.pl, our discount-code site.",
    "text_uk": "Mateus доручив Zoe написати польською сторінку «Політика конфіденційності та cookies» для rindo.pl, сервіс",
    "task": 43
