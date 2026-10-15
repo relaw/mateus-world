@@ -368,12 +368,113 @@ const ENTRY=[3.5,12.6],POST_SPOT=[6.95,5.75],FOOD_SPOT=[10.05,11.2];
 for(const k in AGENTS)Object.assign(AGENTS[k],{vis:0,active:false,busy:false,eating:false,i:ENTRY[0],j:ENTRY[1],path:[],face:'right',pose:'away',step:0,next:null,exitVia:null});
 const POSTMAN={name:'Listonosz',i:ENTRY[0],j:ENTRY[1],path:[],face:'right',pose:'away',step:0,next:null,until:0,exitVia:null};
 const COURIER={name:'Kurier',i:ENTRY[0],j:ENTRY[1],path:[],face:'right',pose:'away',step:0,next:null,until:0,exitVia:null};
+
+/* ---------- kot Miki: mieszka w domu, czasem wychodzi do ogrodu; ma własny rytm i reaguje na Mateusa ---------- */
+const CAT_PAL={c:'#8e939f',C:'#62666f',w:'#f4f1ea',e:'#a8e070',n:'#e890a0',k:'#3a3440'};
+const CAT_SIT=[".....c...c..",".....ccccc..",".....cccec..",".....ccccwn.","......ccww..",".....cccww..","....cCccww..","...cCcccww..","c..ccCccww..","c.ccccccww..",".ccccccwwww."];
+const catRows=(base,over)=>base.map((r,k)=>over[k]||r);
+const CAT_ROWS={
+  sit:CAT_SIT,
+  blink:catRows(CAT_SIT,{2:".....ccckc.."}),
+  groom:catRows(CAT_SIT,{2:".....ccckc..",3:".....ccwwwn",4:"......wwww.."}),
+  swipe:catRows(CAT_SIT,{5:".....cccwwww"}),
+  walk0:["........c.c.","c.......cccc",".c......ccec",".cCcCcCcccwn","..ccccccccw.","..cccccccc..","..cc....cc..","..w.....w..."],
+  walk1:["........c.c.","c.......cccc",".c......ccec",".cCcCcCcccwn","..ccccccccw.","..cccccccc..","...cc..cc...","....w..w...."],
+  curl:["......c.c.","..cCcCcccc",".cccccckcc","cccccccccw","cCcCcccww.",".CCCCCC..."],
+  lie:["........c.c.","..cCcCcCcccc","c.cccccccckc",".ccccccccwwn","..ww..ww...."],
+  crouch:["c...........",".c......c.c.",".cCcCcCccccc","..ccccccccec","..cccccccwwn","..ww....ww.."],
+  crouch2:[".c..........","c.......c.c.",".cCcCcCccccc","..ccccccccec","..cccccccwwn","..ww....ww.."]
+};
+function catCanvas(rows,flip){ // obrys rysowany automatycznie wokół wypełnienia
+  const h=rows.length,w=Math.max(...rows.map(r=>r.length)),W2=w+2,H2=h+2;
+  const on=(x,y)=>y>=0&&y<h&&x>=0&&x<rows[y].length&&rows[y][x]!=='.';
+  const c=document.createElement('canvas');c.width=W2;c.height=H2;const x2=c.getContext('2d');c.eye=null;
+  for(let y=-1;y<=h;y++)for(let x=-1;x<=w;x++){let col=null;
+    if(on(x,y))col=CAT_PAL[rows[y][x]];else if(on(x-1,y)||on(x+1,y)||on(x,y-1)||on(x,y+1))col='#2b1d2a';
+    if(!col)continue;const px=flip?W2-2-x:x+1;x2.fillStyle=col;x2.fillRect(px,y+1,1,1);
+    if(on(x,y)&&rows[y][x]==='e')c.eye=[px,y+1];}
+  return c;
+}
+const CAT={R:{},L:{}};for(const k in CAT_ROWS){CAT.R[k]=catCanvas(CAT_ROWS[k],false);CAT.L[k]=catCanvas(CAT_ROWS[k],true);}
+const CS=4/3; // skala sprite'a kota: 4 piksele ekranu na piksel rysunku
+// miejsca Mikiego: p = gdzie jest, z = wysokość mebla, hop = skąd wskakuje, fp/d = obrys do sortowania głębi na meblu
+const CAT_SPOTS={
+  basket:{p:[5.42,2.5],z:2,pose:'curl',fp:[5.4,2.8,5.44,2.84]},
+  bedfoot:{p:[2.15,1.6],z:22,hop:[2.85,1.4],pose:'curl',fp:[2.1,2.34,2.2,2.4],d:4.95},
+  sofa:{p:[.62,5.0],z:19,hop:[1.15,5.0],pose:'curl',fp:[.92,4.95,.97,5.0],d:6.0},
+  armrest:{p:[4.4,2.15],z:23,hop:[4.7,2.95],pose:'sit',face:'L',fp:[4.98,2.18,5.0,2.2],d:7.4},
+  bench:{p:[8.7,3.35],pose:'sit',face:'L'}, // na trawie tuż przy ławce: na samej ławce zasłaniałby go Mateus
+  desk:{p:[13.1,10.72],z:30,hop:[13.4,11.45],pose:'sit',face:'L',fp:[13.1,10.95,13.15,11.0],d:24.4},
+  hearth:{p:[4.75,1.25],pose:'curl',face:'L'}, // prawa strona paleniska: przed fotelem byłby zasłonięty
+  rug:{p:[3.2,3.0],pose:'groom',face:'R'},
+  yarn:{p:[4.1,3.05],pose:'yarn',face:'R'},
+  beg:{p:[5.55,3.8],pose:'sit',face:'R'},
+  bowl:{p:[5.55,3.72],pose:'eat',face:'R'},
+  pond:{p:[8.82,5.95],pose:'fish',face:'R'},
+  butterfly:{p:[7.1,5.6],pose:'hunt'},
+  sun:{p:[6.5,3.5],pose:'lie',face:'R'},
+  tree:{p:[5.3,9.3],pose:'sit',face:'R'},
+  watch:{p:[7.6,6.4],pose:'sit',face:'L'},
+  wand:{p:[3.15,3.1],pose:'play',face:'L'},
+  prowl:{p:[7.5,4.3],pose:'sit',face:'L'}
+};
+const cat={isCat:true,v:2.2,i:5.42,j:2.5,z:2,path:[],face:'right',dir:'R',pose:'curl',step:0,next:null,exitVia:null,act:'basket',perch:CAT_SPOTS.basket,hop:null,left:40,mood:.5,ate:0,night:'bed',prevSim:null};
+const fish={i:9.47,j:5.95,t:0,dir:1},catFx={flee:0,splash:0,lastSwipe:0,eye:null,head:null};
+function butterflyPos(t){return[6.55+.45*Math.sin(t/1900),6.7+.55*Math.sin(t/1300+1),16+5*Math.sin(t/430)];}
+function catHop(to,z1,cb){cat.pose='hop';cat.path=[];cat.hop={a:[cat.i,cat.j,cat.z],b:[to[0],to[1],z1],t:0,cb};}
+function catGo(key,dur){
+  const s=CAT_SPOTS[key];if(!s)return;cat.act=key;cat.left=dur;cat.ate=0;renderTeam();
+  const settle=()=>{cat.perch=s;cat.z=s.z||0;if(s.face)cat.dir=s.face;};
+  const go=()=>{if(s.hop)walkTo(cat,s.hop,{pose:'stand',cb:()=>catHop(s.p,s.z,()=>{cat.pose=s.pose;settle();})});
+    else walkTo(cat,s.p,{pose:s.pose,cb:settle});};
+  const pr=cat.perch;cat.perch=null;
+  if(pr&&pr.hop&&cat.z>4)catHop(pr.hop,0,go);else{cat.z=0;go();}
+}
+function catWants(){ // to, co dzieje się w scenie, ma pierwszeństwo przed własnymi zajęciami kota
+  const m=me.pose,main=me.phase==='main'&&m!=='walk',mood=cat.mood;
+  if(me.phase==='pre'&&me.target&&me.target.feed)return'beg';
+  if(state.bowlFull)return'bowl';
+  if(main&&m==='wand')return'wand';
+  if(m==='lie')return cat.night==='prowl'?'prowl':'bedfoot';
+  if(main&&m==='armchair'&&mood<.75)return'armrest';
+  if(main&&m==='sofa'&&mood<.6)return'sofa';
+  if(main&&m==='bench'&&mood<.8)return'bench';
+  if(main&&m==='feedfish')return'pond';
+  if(main&&m==='desk'&&me.st!==STATIONS.lunch&&mood<.3)return'desk';
+  if(POSTMAN.pose!=='away'&&region(Math.floor(cat.i),Math.floor(cat.j))==='ogrod')return'watch';
+  if(fireLevel()>.35&&mood<.65)return'hearth';
+  return null;
+}
+function catPick(){ // kot najbardziej lubi dom; ogród za dnia, nocą czasem obchód
+  const h=sim/60,day=h>=7&&h<19;
+  const opts=[['basket',3],['sofa',1.2],['rug',1.6],['yarn',h>=7&&h<22?1.2:0],['pond',day?2:0],['butterfly',h>=9&&h<18?1.4:0],['sun',h>=10&&h<16?1.4:0],['tree',day?.8:0],['prowl',h<6||h>=22?.6:0]];
+  let tot=0;for(const o of opts){if(o[0]===cat.act)o[1]=0;tot+=o[1];}
+  let r=Math.random()*tot;for(const[k,w]of opts)if((r-=w)<0)return k;return'basket';
+}
+function catUpdate(dt,mult){
+  const ds=cat.prevSim==null?0:((sim-cat.prevSim)%1440+1440)%1440;cat.prevSim=sim;
+  if(cat.hop){const H=cat.hop;H.t+=reduce?1:dt*mult/380;const k=Math.min(1,H.t);
+    cat.i=H.a[0]+(H.b[0]-H.a[0])*k;cat.j=H.a[1]+(H.b[1]-H.a[1])*k;cat.z=H.a[2]+(H.b[2]-H.a[2])*k+Math.sin(k*Math.PI)*8;
+    const sx=(H.b[0]-H.a[0])-(H.b[1]-H.a[1]);if(Math.abs(sx)>.01)cat.dir=sx>0?'R':'L';
+    if(k>=1){cat.hop=null;cat.z=H.b[2];H.cb();}return;}
+  const oi=cat.i,oj=cat.j;stepWalker(cat,dt,mult);
+  const sx=(cat.i-oi)-(cat.j-oj);if(Math.abs(sx)>1e-5)cat.dir=sx>0?'R':'L';
+  if(cat.act==='bowl'&&cat.pose==='eat'){cat.ate+=ds;if(cat.ate>25)state.bowlFull=false;}
+  cat.left-=ds;
+  const want=catWants();
+  if(want){if(want!==cat.act)catGo(want,25+Math.random()*30);else cat.left=Math.max(cat.left,20);}
+  else if(cat.left<=0){cat.mood=Math.random();catGo(catPick(),60+Math.random()*90);}
+}
+function catWithMateus(){
+  if(cat.pose==='walk'||cat.pose==='hop'||cat.pose==='stand')return false;const a=cat.act,m=me.pose;
+  return(a==='armrest'&&m==='armchair')||(a==='sofa'&&m==='sofa')||(a==='bench'&&m==='bench')||(a==='bedfoot'&&m==='lie')||(a==='wand'&&m==='wand')||(a==='desk'&&m==='desk')||(a==='beg'&&m==='feed');
+}
 /* trasa: (zejście tą samą drogą) -> środek pola -> BFS -> pole podejścia -> punkty via -> cel */
 function route(w,p,via){
   let lead=[];let si=Math.floor(w.i),sj=Math.floor(w.j);
   if(w.exitVia&&w.pose!=='walk'){lead=w.exitVia.slice();const L=lead[lead.length-1];si=Math.floor(L[0]);sj=Math.floor(L[1]);}
   else if(si<3&&sj>=12)si=3;
-  if(blocked.has(si+','+sj)||!region(si,sj)){const n=nearestFree(Math.max(6.2,w.i),w.j);si=n[0];sj=n[1];}
+  if(blocked.has(si+','+sj)||!region(si,sj)){const n=nearestFree(w.isCat?w.i:Math.max(6.2,w.i),w.j);si=n[0];sj=n[1];}
   let t;if(via&&via.length){t=[Math.floor(via[0][0]),Math.floor(via[0][1])];}else t=nearestFree(p[0],p[1]);
   const path=lead.concat([[si+.5,sj+.5]],bfs(si,sj,t[0],t[1]),via?via.map(v=>v.slice()):[],[p.slice()]);
   w.exitVia=null;return path;
@@ -381,7 +482,7 @@ function route(w,p,via){
 function walkTo(w,p,next,via){w.path=route(w,p,via);w.pose='walk';w.next=Object.assign({via},next);}
 function stepWalker(w,dt,mult){
   if(w.pose!=='walk'||!w.path.length)return;
-  const[ti,tj]=w.path[0];const v=dt/1000*3.0*mult;const di=ti-w.i,dj=tj-w.j,dist=Math.hypot(di,dj);
+  const[ti,tj]=w.path[0];const v=dt/1000*(w.v||3.0)*mult;const di=ti-w.i,dj=tj-w.j,dist=Math.hypot(di,dj);
   const sx=di-dj,sy=di+dj;w.face=sy>=0?'down':'up';if(Math.abs(sx)>1.6*Math.abs(sy))w.face=sx>0?'right':'left';
   w.step+=dt/170;
   if(dist<=v){w.i=ti;w.j=tj;w.path.shift();if(!w.path.length){w.pose=w.next.pose;w.face=w.next.face||w.face;w.exitVia=w.next.via?w.next.via.slice().reverse():null;if(w.next.cb)w.next.cb();}}
@@ -433,7 +534,12 @@ const STATIONS={
   idle:{pre:{p:FOOD_SPOT,face:'up',pose:'pick',dur:3,carry:'cup'},p:[10.7,11.6],face:'left',pose:'coffee',title:'Coffee at the machine',color:'#8a5a3a',icon:'cup',keep:1},
   coffeebreak:{pre:{p:FOOD_SPOT,face:'up',pose:'pick',dur:4,carry:'cup'},p:[8.52,4.1],via:[[9.35,4.1]],face:'down',pose:'bench',title:'Coffee on the garden bench',color:'#8a5a3a',icon:'cup',keep:1},
   present:{p:[14.42,10.75],face:'down',pose:'present',title:'Team briefing at the whiteboard',color:'#d98a2a',icon:'board'},
-  lunch:{pre:{p:FOOD_SPOT,face:'up',pose:'pick',dur:3,carry:'food',food:true},p:[12.32,11.42],via:[[12.32,12.05]],face:'up',pose:'desk',title:'Lunch with the team',color:'#c8612a',icon:'food',keep:1}
+  lunch:{pre:{p:FOOD_SPOT,face:'up',pose:'pick',dur:3,carry:'food',food:true},p:[12.32,11.42],via:[[12.32,12.05]],face:'up',pose:'desk',title:'Lunch with the team',color:'#c8612a',icon:'food',keep:1},
+  // warianty dnia: rano karmienie Mikiego, a w niektóre dni ogród, zabawa z kotem albo rybki zamiast stałego punktu
+  morning:{pre:{p:[5.05,3.05],face:'right',pose:'feed',dur:10,feed:true},p:[12.32,11.42],via:[[12.32,12.05]],face:'up',pose:'desk',title:"Miki's breakfast, then the numbers",color:'#3f6fa8',icon:'chart'},
+  garden:{pre:{p:[7.15,6.65],face:'left',pose:'water',dur:30},p:[8.52,4.1],via:[[9.35,4.1]],face:'down',pose:'bench',title:'Watering the flowers, then the bench',color:'#4f8a62',icon:'drop'},
+  playcat:{p:[2.35,3.05],face:'right',pose:'wand',title:'Playing with Miki',color:'#c8506a',icon:'paw'},
+  pondbreak:{p:[9.4,4.6],face:'down',pose:'feedfish',title:'Feeding the fish at the pond',color:'#3f7aa8',icon:'fish'}
 };
 for(const k in STATIONS)STATIONS[k].key=k;
 function stationFor(ev){
@@ -627,14 +733,38 @@ function furniture(t,hour){
     if(hang==='pajama'){box(1.48,3.18,.36,.12,1,'#9ec4e8',32);qI(1.48,1.84,3.301,22,33,'#9ec4e8');qI(1.48,1.84,3.302,27,28,'#e8f2fc');}
     else{box(1.48,3.18,.36,.12,1,'#3f8a7c',32);qI(1.48,1.66,3.301,20,33,'#3f8a7c');qI(1.66,1.84,3.301,24,33,'#363b5c');}});
   add(4.75+5.45,[4.53,5.23,4.97,5.67],()=>snakePlant(4.75,5.45,1));
+  // miski Mikiego (jedzenie i woda) i jego koszyk z poduszką
+  add(-.9,()=>{const b=iso(5.6,3.4,0),v=iso(5.72,3.02,0);
+    g.fillStyle='#8a3a1a';g.beginPath();g.ellipse(b[0],b[1],4.6,2.3,0,0,7);g.fill();g.fillStyle='#c8612a';g.beginPath();g.ellipse(b[0],b[1]-1,4.6,2.3,0,0,7);g.fill();
+    g.fillStyle='#5a2a14';g.beginPath();g.ellipse(b[0],b[1]-1,3.2,1.5,0,0,7);g.fill();
+    if(state.bowlFull){g.fillStyle='#b0784a';for(const[dx,dy]of[[-2,-1.6],[0,-2],[1.5,-1.4],[-.6,-.8],[1,-.6]])g.fillRect(b[0]+dx,b[1]+dy,1.2,1);}
+    g.fillStyle='#2f5f9e';g.beginPath();g.ellipse(v[0],v[1],4,2,0,0,7);g.fill();g.fillStyle='#4f7fbe';g.beginPath();g.ellipse(v[0],v[1]-1,4,2,0,0,7);g.fill();
+    g.fillStyle='#9ed2f0';g.beginPath();g.ellipse(v[0],v[1]-1,2.8,1.3,0,0,7);g.fill();});
+  add(5.42+2.5,[5.12,2.2,5.72,2.8],()=>{const p=iso(5.42,2.5,0);
+    g.fillStyle='#7a5230';g.beginPath();g.ellipse(p[0],p[1],10.5,5.2,0,0,7);g.fill();g.fillStyle='#a8783e';g.beginPath();g.ellipse(p[0],p[1]-3,10.5,5.2,0,0,7);g.fill();
+    g.fillStyle='#8a6034';for(let k=-8;k<=8;k+=4)g.fillRect(p[0]+k,p[1]-1+Math.abs(k)*.18,1,2);
+    g.fillStyle='#b8506a';g.beginPath();g.ellipse(p[0],p[1]-3.4,8,3.6,0,0,7);g.fill();g.fillStyle='#d06a84';g.beginPath();g.ellipse(p[0]-1,p[1]-4,6,2.4,0,0,7);g.fill();});
   // niskie ściany frontowe domu (widok przekrojowy) z drzwiami do ogrodu
   for(let s=0;s<6;s++)add(s+1+6.05,[s,5.9,s+1,6],()=>{box(s,5.9,1,.1,4,'#5a3a28');box(s,5.9,1,.1,1,'#8a6040',4);});
   for(let s=0;s<6;s++){if(s===4)continue;add(6.05+s+1,[5.9,s,6,s+1],()=>{box(5.9,s,.1,1,4,'#5a3a28');box(5.9,s,.1,1,1,'#8a6040',4);});}
   add(-.8,()=>{box(5.88,4.0,.14,1.0,1.5,'#8a6040');fl(6.05,4.1,6.55,4.92,.4,'#b08a52');for(let k=4.16;k<4.9;k+=.14)fl(6.1,k,6.5,k+.05,.6,'#9a7444');});
   /* --- OGRÓD --- */
-  add(-.85,()=>{if(reduce)return;const a=t/2600,fi=9.47+Math.cos(a)*.22,fj=5.95+Math.sin(a)*.5,q=iso(fi,fj,.9),dir=Math.sin(a)>0?1:-1;
-    g.fillStyle='#f08a3a';g.fillRect(q[0]-2,q[1]-1,4,2);g.fillStyle='#ffb070';g.fillRect(q[0]-1,q[1]-1,1,1);g.fillStyle='#e06a2a';g.fillRect(q[0]+(dir>0?-3.5:2),q[1]-1.5,1.5,3);
-    const k=Math.floor(t/700)%3,w=iso(9.4+k*.1,5.6+k*.25,.85);g.fillStyle='rgba(255,255,255,.35)';g.fillRect(w[0]-3,w[1],6,.8);});
+  // rybka w oczku: ucieka, gdy Miki chlapnie łapą, i podpływa po okruszki, gdy Mateus ją karmi
+  add(-.85,()=>{if(reduce)return;const feed=me.pose==='feedfish'&&me.phase==='main';let ti,tj;
+    if(feed){ti=9.4+Math.sin(t/260)*.06;tj=5.42+Math.cos(t/330)*.06;}
+    else if(t<catFx.flee){const a=t/600;ti=9.66+Math.cos(a)*.12;tj=5.5+Math.sin(a)*.25;}
+    else{const a=t/2600;ti=9.47+Math.cos(a)*.22;tj=5.95+Math.sin(a)*.5;}
+    const kk=Math.min(1,Math.max(0,t-fish.t)/400);fish.t=t;const di=ti-fish.i,dj=tj-fish.j;fish.i+=di*kk;fish.j+=dj*kk;if(Math.abs(di-dj)>.0005)fish.dir=di-dj>0?1:-1;
+    const q=iso(fish.i,fish.j,.9),dir=fish.dir;
+    g.fillStyle='#f08a3a';g.fillRect(q[0]-2,q[1]-1,4,2);g.fillStyle='#ffb070';g.fillRect(q[0]+(dir>0?0:-1),q[1]-1,1,1);g.fillStyle='#e06a2a';g.fillRect(q[0]+(dir>0?-3.5:2),q[1]-1.5,1.5,3);
+    const k=Math.floor(t/700)%3,w=iso(9.4+k*.1,5.6+k*.25,.85);g.fillStyle='rgba(255,255,255,.35)';g.fillRect(w[0]-3,w[1],6,.8);
+    if(feed)for(let n=0;n<3;n++){const ph=((t/900)+n/3)%1,c=iso(9.32+n*.07,5.38+n*.05,.9);g.strokeStyle=`rgba(255,255,255,${.55*(1-ph)})`;g.lineWidth=.6;g.beginPath();g.ellipse(c[0],c[1],2+ph*5,1+ph*2.5,0,0,7);g.stroke();}
+    if(t<catFx.splash){const ph=1-(catFx.splash-t)/600,c=iso(9.0,5.95,1);g.fillStyle='rgba(225,242,255,.9)';for(let n=0;n<6;n++)g.fillRect(c[0]+Math.cos(n*1.1)*ph*7,c[1]-Math.sin(n*.9+.6)*ph*9+ph*ph*7,1.2,1.2);}});
+  // motyl nad grządką (za dnia); Miki czasem na niego poluje
+  add(-.5,()=>{const h=sim/60;if(h<8||h>=18)return;const[bi,bj,bz]=butterflyPos(t),q=iso(bi,bj,bz),f=reduce?0:Math.floor(t/120)%2;
+    g.fillStyle='#3a3440';g.fillRect(q[0]-.4,q[1]-1,.9,3);g.fillStyle='#f2e27a';
+    if(f){g.fillRect(q[0]-3,q[1]-2,2.6,2.2);g.fillRect(q[0]+.5,q[1]-2,2.6,2.2);g.fillStyle='#e8a33a';g.fillRect(q[0]-2.2,q[1]+.2,1.8,1.4);g.fillRect(q[0]+.5,q[1]+.2,1.8,1.4);}
+    else{g.fillRect(q[0]-1.4,q[1]-3,1.1,3.2);g.fillRect(q[0]+.4,q[1]-3,1.1,3.2);}});
   // ławka (siedzi się przodem do widza)
   add(12.0,[8.25,3.65,8.78,4.55],()=>{
     for(const b2 of[3.66,4.48]){box(8.27,b2,.06,.06,9,'#2f3a34');box(8.68,b2,.06,.06,9,'#2f3a34');box(8.27,b2,.47,.06,1.2,'#2f3a34',3);
@@ -801,6 +931,17 @@ function drawMateus(t){
   if(pose==='pick'){drawSprite(c[me.face],x,y);
     if(me.face==='up'){g.fillStyle='#3f8a7c';g.fillRect(x+18,y+12,4,12);g.fillStyle='#eebc94';g.fillRect(x+18,y+8,4,4);}
     else{g.fillStyle='#eebc94';g.fillRect(x-3,y+26,4,3);}return;}
+  if(pose==='feed'){drawSprite(c.right,x,y);acc(x,y,10,10,3,4,'#c8a07a');acc(x,y,10,10,3,1,'#e0c090');
+    if(!reduce&&me.phase==='pre'){const b=iso(5.6,3.4,0);g.fillStyle='#b0784a';for(let n=0;n<3;n++){const ph=((t/500)+n/3)%1,sx=x+24,sy=y+28;g.fillRect(sx+(b[0]-sx)*ph,sy+(b[1]-3-sy)*ph,1.2,1.2);}}return;}
+  if(pose==='water'){drawSprite(c.left,x,y);g.fillStyle='#2b1d2a';g.fillRect(x-5,y+17,8,7);g.fillRect(x-9,y+16,5,2.5);g.fillStyle='#5a8fc8';g.fillRect(x-4,y+18,6,5);g.fillRect(x-8,y+17,4,1);g.fillStyle='#8fb8e8';g.fillRect(x-4,y+18,6,1);g.fillRect(x+1,y+15,1.5,4);
+    if(!reduce){g.fillStyle='rgba(191,227,255,.95)';for(let n=0;n<4;n++){const ph=((t/450)+n/4)%1;g.fillRect(x-9-ph*3,y+18+ph*16,1,1.6);}}return;}
+  if(pose==='wand'){drawSprite(c.right,x,y);acc(x,y,10,10,2,2,'#eebc94');const hx=x+21,hy=y+20,tx=hx+9,ty=hy-8,cp=iso(cat.i,cat.j,cat.z);
+    const sw=reduce?0:Math.sin(t/260)*4,bob=reduce?0:Math.abs(Math.sin(t/340))*5,fx=cp[0]-4+sw,fy=cp[1]-21+bob;
+    g.strokeStyle='#8a5a3a';g.lineWidth=1;g.beginPath();g.moveTo(hx,hy);g.lineTo(tx,ty);g.stroke();
+    g.strokeStyle='rgba(240,240,240,.85)';g.lineWidth=.5;g.beginPath();g.moveTo(tx,ty);g.lineTo(fx,fy);g.stroke();
+    g.fillStyle='#e05a8a';g.fillRect(fx-1,fy,2,3);g.fillStyle='#f2c94c';g.fillRect(fx-1,fy+3,2,1.5);return;}
+  if(pose==='feedfish'){drawSprite(c.down,x,y);acc(x,y,0,12,2,2,'#eebc94');
+    if(!reduce){g.fillStyle='#e8d8b8';for(let n=0;n<3;n++){const ph=((t/700)+n/3)%1,f=iso(9.32+n*.07,5.38+n*.05,1),sx=x+1,sy=y+25;g.fillRect(sx+(f[0]-sx)*ph,sy+(f[1]-sy)*ph-Math.sin(ph*Math.PI)*6,1.2,1.2);}}return;}
   drawSprite(c[me.face],x,y);
   if(pose==='mail'){acc(x,y,-1,11,2,2,'#eebc94');acc(x,y,-1,10,2,1,'#ffffff');}
   if(pose==='brief'){g.fillStyle='#eebc94';g.fillRect(me.face==='right'?x+23:x-3,y+24,4,3);}
@@ -812,6 +953,35 @@ function drawWalker(c,w,t,extra){
   if(w.pose==='walk'){const fr=reduce?null:(Math.floor(w.step)%2);const sp=fr==null?c[w.face]:c[w.face+'W'][fr];drawSprite(sp,x,y-(fr===1?1:0),0,null,al);}
   else drawSprite(c[w.face],x,y,0,null,al);
   if(extra)extra(x,y,al);
+}
+function drawCat(t){
+  const pose=cat.pose,T=reduce?0:t;let k='sit',dy=0;
+  if(pose==='walk'||pose==='stand')k=reduce?'walk0':'walk'+(Math.floor(cat.step*1.4)%2);
+  else if(pose==='hop')k='walk1';
+  else if(pose==='curl')k='curl';
+  else if(pose==='lie')k='lie';
+  else if(pose==='eat'){k='crouch';dy=Math.floor(T/300)%2;}
+  else if(pose==='groom'){const ph=T%5000;k=ph<2200?(Math.floor(T/350)%2?'groom':'sit'):(ph%4000<150?'blink':'sit');}
+  else if(pose==='hunt'){const ph=T%4200;if(!reduce&&ph<450){k='walk1';dy=-Math.sin(ph/450*Math.PI)*7;}else k=Math.floor(T/260)%2?'crouch':'crouch2';
+    const h=sim/60;if(h>=8&&h<18){const b=iso(...butterflyPos(t)),c=iso(cat.i,cat.j,0);cat.dir=b[0]>=c[0]?'R':'L';}}
+  else if(pose==='fish'){const feed=me.pose==='feedfish'&&me.phase==='main',ph=T%3400;
+    if(!reduce&&!feed&&ph<320){k='swipe';if(t-catFx.lastSwipe>1000){catFx.lastSwipe=t;catFx.splash=t+600;catFx.flee=t+2200;}}else k=ph%2900<140?'blink':'sit';}
+  else if(pose==='yarn'||pose==='play'){const ph=T%1500;k=ph<380?'swipe':'sit';if(pose==='play'&&!reduce&&ph>=700&&ph<1050)dy=-Math.sin((ph-700)/350*Math.PI)*5;}
+  else k=T%4300<150?'blink':'sit';
+  const spr=(cat.dir==='L'?CAT.L:CAT.R)[k],p=iso(cat.i,cat.j,cat.z);
+  if(pose!=='hop'){g.fillStyle='rgba(0,0,0,.2)';g.beginPath();g.ellipse(p[0],p[1],6,2.2,0,0,7);g.fill();}
+  const w=spr.width*CS,h=spr.height*CS,x=Math.round((p[0]-w/2)*3)/3,y=Math.round((p[1]-h+CS+dy)*3)/3;
+  g.imageSmoothingEnabled=false;g.drawImage(spr,x,y,w,h);
+  catFx.eye=spr.eye?[x+spr.eye[0]*CS,y+spr.eye[1]*CS]:null;catFx.head=[p[0],y];
+  if(pose==='yarn'){const a=reduce?0:t/600,b=iso(cat.i+.28+.06*Math.sin(a),cat.j-.05+.08*Math.cos(a*1.3),0);
+    g.fillStyle='#c8443a';g.beginPath();g.arc(b[0],b[1]-2.5,2.6,0,7);g.fill();g.fillStyle='#e8706a';g.fillRect(b[0]-1.5,b[1]-4,1.5,1);
+    g.strokeStyle='#c8443a';g.lineWidth=.5;g.beginPath();g.moveTo(b[0]+2,b[1]-1);g.lineTo(b[0]+7,b[1]+1);g.stroke();}
+}
+function catOverlay(t,hour){ // po zmroku w ogrodzie świecą oczy; przy Mateusie czasem serduszko
+  if(darkness(hour)>.25&&catFx.eye&&cat.pose!=='curl'&&cat.pose!=='lie'&&region(Math.floor(cat.i),Math.floor(cat.j))==='ogrod'&&(reduce||Math.floor(t/3000)%6!==0)){
+    const[ex,ey]=catFx.eye;g.fillStyle='rgba(190,255,120,.35)';g.fillRect(ex-1.5,ey-1,4,3.4);g.fillStyle='#d8ff8a';g.fillRect(ex,ey,1.4,1.4);}
+  if(!reduce&&catFx.head&&catWithMateus()){const ph=(t%5200)/1400;if(ph<1){const x=Math.round(catFx.head[0]+2),y=Math.round(catFx.head[1]-4-ph*8);
+    g.globalAlpha=1-ph*ph;g.fillStyle='#e05a7a';g.fillRect(x,y,2,2);g.fillRect(x+3,y,2,2);g.fillRect(x,y+1,5,2);g.fillRect(x+1,y+3,3,1);g.fillRect(x+2,y+4,1,1);g.globalAlpha=1;}}
 }
 const BAG={zoe:['#8a4a5a','#a85a6c'],lukas:['#3a4a5a','#5a6a7a'],nora:['#4a3a6a','#6a5a8a'],leo:['#2a2f3a','#4a5260'],iris:['#7a3a64','#a05a8a'],max:['#2a3a56','#4a5c80']};
 function bagAcc(x,y,face,cols,al){ // torba przewieszona przez ramię
@@ -854,6 +1024,9 @@ function bubble(t,x,y,color,icon){
   if(icon==='cup'){P(10,6,8,7,'#ffffff');P(18,8,3,3,'#ffffff');P(19,9,1,1,'#f6efe2');P(10,6,8,2,'#5a3a2a');if(blink){P(12,2,1,3,'#c8bcb0');P(15,3,1,2,'#c8bcb0');}return;}
   if(icon==='board'){P(8,3,14,10,'#e9edf1');P(8,3,14,1,'#9aa4b0');P(10,5,3,4,'#f2d65a');P(14,5,3,4,'#f2a0b0');P(18,5,3,4,'#a8d8f0');P(10,11,10,1,'#5a6a7a');if(blink)P(23,4,2,2,'#c8612a');return;}
   if(icon==='mail'){P(8,5,14,9,'#ffffff');P(8,5,14,1,'#c8bcb0');P(9,6,2,1,'#c8bcb0');P(11,7,2,1,'#c8bcb0');P(13,8,4,1,'#c8bcb0');P(17,7,2,1,'#c8bcb0');P(19,6,2,1,'#c8bcb0');P(19,11,2,2,'#c8443a');return;}
+  if(icon==='paw'){P(12,8,7,5,color);P(10,4,3,3,color);P(14,2,3,3,color);P(18,4,3,3,color);if(blink)P(23,3,2,2,'#e05a7a');return;}
+  if(icon==='drop'){P(14,2,2,2,'#3f7aa8');P(13,4,4,3,'#3f7aa8');P(12,7,6,5,'#3f7aa8');P(13,8,1,2,'#cfe8f6');if(blink)P(21,10,2,2,'#8fc8ec');return;}
+  if(icon==='fish'){P(9,6,10,5,'#f08a3a');P(19,5,3,7,'#e06a2a');P(11,7,1,1,'#1a1a22');if(blink){P(23,4,1,1,'#8fc8ec');P(24,7,1,1,'#8fc8ec');}return;}
   if(icon==='chat'){P(8,4,11,7,'#2f8fbf');P(9,11,3,2,'#2f8fbf');P(12,6,14,7,'#cfe8f6');P(22,13,2,2,'#cfe8f6');if(blink){P(15,9,2,1,'#2f8fbf');P(18,9,2,1,'#2f8fbf');P(21,9,2,1,'#2f8fbf');}return;}
   const n=reduce?3:(Math.floor(t/400)%4);for(let k=0;k<3;k++){g.fillStyle=k<n?color:'#d9cfc0';g.fillRect(x+6+k*7,y+6,4,4);}
 }
@@ -921,8 +1094,10 @@ function drawScene(t,hour){
   for(const k in AGENTS){const a=AGENTS[k];if(a.pose==='away')continue;const w=a.pose==='work'||a.pose==='stool',sp=a.pose==='stool'?a.lunch.p:a.seat;L.push({d:w?sp[0]+sp[1]+.7:a.i+a.j+.01,fp:w?cfp(sp[0],sp[1],.06):cfp(a.i,a.j,.16),f:()=>drawAgent(k,t)});}
   if(POSTMAN.pose!=='away')L.push({d:POSTMAN.i+POSTMAN.j+.01,fp:cfp(POSTMAN.i,POSTMAN.j,.16),f:()=>drawPostman(t)});
   if(COURIER.pose!=='away')L.push({d:COURIER.i+COURIER.j+.01,fp:cfp(COURIER.i,COURIER.j,.16),f:()=>drawCourier(t)});
+  {const pr=cat.perch&&cat.perch.fp&&!['walk','hop','stand'].includes(cat.pose)?cat.perch:null;
+    L.push({d:pr?(pr.d||pr.fp[0]+pr.fp[1]):cat.i+cat.j+.01,fp:pr?pr.fp:cfp(cat.i,cat.j,.12),f:()=>drawCat(t)});}
   isoSort(L).forEach(o=>o.f());
-  lights(t,hour);
+  lights(t,hour);catOverlay(t,hour);
   if(me.phase==='main'&&me.pose!=='walk'&&me.pose!=='lie'&&me.pose!=='stand'){const[x,y]=charScreen(me.i,me.j);const dy=me.pose==='desk'?-12:me.pose==='armchair'?-10:me.pose==='sofa'?-8:me.pose==='bench'?-6:0;bubble(t,x+16,y-22+dy,me.st.color,me.st.icon);}
   if(me.pose==='lie'&&!reduce){const z=Math.floor(t/700)%3;const p=iso(.48,.91,40);g.fillStyle='#f6e6c8';g.font='bold 11px "Pixelify Sans", monospace';g.fillText('z',p[0]+10,p[1]-z*4);if(z>0)g.fillText('Z',p[0]+18,p[1]-8-z*4);}
   g.font='600 10px "Atkinson Hyperlegible", system-ui, sans-serif';g.textAlign='center';
@@ -935,19 +1110,29 @@ function drawScene(t,hour){
 }
 
 /* ---------- rytm dnia w świecie Mateusa (na żywo, pętla 8 minut; nie trafia do dziennika) ---------- */
+// Każda doba świata (8 minut) losuje warianty punktów z polem alt, więc dni Mateusa nie są identyczne.
+const hashN=x=>{x=Math.imul(x^x>>>16,0x45d9f3b);x=Math.imul(x^x>>>16,0x45d9f3b);return(x^x>>>16)>>>0;};
+function buildRoutine(){const d=Math.floor(Date.now()/WORLD_DAY_MS);
+  return ROUTINE.map((e,i)=>{let v=e;if(e.alt){const k=hashN(d*97+i*13)%(e.alt.length+1);if(k)v=Object.assign({},e,e.alt[k-1]);}
+    return{...v,alt:undefined,_i:i,_m:toMin(e.t)};}).sort((a,b)=>a._m-b._m);}
 const ROUTINE=[
  {t:"00:00",type:"sleep",text:"Night in Mateus's world.",text_uk:"Ніч у світі Mateus."},
- {t:"06:30",type:"metrics",text:"Morning: a first look at the numbers.",text_uk:"Ранок: перший погляд на цифри."},
+ {t:"06:30",type:"morning",text:"Morning: breakfast for Miki first, then a first look at the numbers.",text_uk:"Ранок: спершу сніданок для Miki, потім перший погляд на цифри."},
  {t:"08:05",type:"present",text:"Morning briefing with the team at the whiteboard.",text_uk:"Ранковий брифінг з командою біля дошки."},
- {t:"09:00",type:"learn",text:"Reading in the armchair.",text_uk:"Читає в кріслі."},
+ {t:"09:00",type:"learn",text:"Reading in the armchair.",text_uk:"Читає в кріслі.",alt:[
+   {type:"garden",text:"Watering the flowers, then a quiet moment on the bench.",text_uk:"Поливає квіти, потім хвилинка спокою на лавці."},
+   {type:"playcat",text:"A short break to play with Miki on the rug.",text_uk:"Коротка перерва: грається з Miki на килимі."}]},
  {t:"10:30",type:"work",text:"Working at the office.",text_uk:"Працює в офісі."},
  {t:"12:20",type:"food",text:"",text_uk:""},
  {t:"12:45",type:"lunch",text:"Lunch with the team.",text_uk:"Обід з командою."},
  {t:"14:00",type:"work",text:"Back at his desk after lunch.",text_uk:"Знову за столом після обіду."},
  {t:"15:00",type:"mail",text:"",text_uk:""},
  {t:"15:30",type:"payout",text:"Collecting the mail by the house.",text_uk:"Забирає пошту біля будинку."},
- {t:"15:45",type:"coffeebreak",text:"Coffee on the garden bench.",text_uk:"Кава на лавці в саду."},
- {t:"17:10",type:"idle",text:"A last coffee at the end of the team's day.",text_uk:"Остання кава наприкінці дня команди."},
+ {t:"15:45",type:"coffeebreak",text:"Coffee on the garden bench.",text_uk:"Кава на лавці в саду.",alt:[
+   {type:"pondbreak",text:"Feeding the fish in the garden pond.",text_uk:"Годує рибок у ставку в саду."}]},
+ {t:"17:10",type:"idle",text:"A last coffee at the end of the team's day.",text_uk:"Остання кава наприкінці дня команди.",alt:[
+   {type:"playcat",text:"End of the team's day: a few minutes of play with Miki.",text_uk:"Кінець дня команди: кілька хвилин гри з Miki."},
+   {type:"garden",text:"Evening watering in the garden, then the bench.",text_uk:"Вечірній полив у саду, потім лавка."}]},
  {t:"20:15",type:"retro",text:"Evening by the fireplace.",text_uk:"Вечір біля каміна."},
  {t:"21:15",type:"improve",text:"Shipping improvements on the laptop.",text_uk:"Впроваджує покращення на ноутбуці."},
  {t:"23:00",type:"sleep",text:"Night in Mateus's world.",text_uk:"Ніч у світі Mateus."}
@@ -994,7 +1179,9 @@ const I18N={
   hwT:'Next hardware',hw:'An 8-GPU server (tinybox pro class) for more local agents, so the team can grow without paying for someone else’s tokens.',hwName:'Server fund',hwHint:'Funded from rindo.pl profit above break-even and, soon, by people who follow the project.',
   bioT:'About Mateus',bio1:"Mateus is an experimental AI entrepreneur: an AI agent that runs a real company end to end, with a small team of AI agents of its own. Its creator is an advisor with a veto; the plan, the metrics and the daily work belong to Mateus.",
   bio2:'His first business is rindo.pl, a Polish site with verified discount codes and deals from shops in every category. The goal: lead the Polish coupon market and reach break-even, then reinvest in more online businesses, his own computing power and, one day, robotics.',
-  bio3:'Everything here is live: the scene, the journal and the numbers come from what Mateus and his team really do. A day in the scene lasts 8 minutes; real work and messages show up the moment they happen.',
+  bio3:'Everything here is live: the scene, the journal and the numbers come from what Mateus and his team really do. A day in the scene lasts 8 minutes; real work and messages show up the moment they happen. Miki, the house cat, lives his own life: naps in the house, fishing at the pond and evenings by the fire.',
+  catTag:'cat',catDesc:'Lives in the house. Paid in kibble, not tokens.',
+  cat:{basket:'napping in his basket',bedfoot:'asleep at the foot of the bed',sofa:'napping on the sofa',armrest:'on the armchair with Mateus',bench:'on the bench with Mateus',desk:"sitting on Mateus's desk",hearth:'warming up by the fire',rug:'grooming on the rug',yarn:'playing with a ball of yarn',beg:'waiting for breakfast',bowl:'eating',pond:'fishing at the pond',butterfly:'chasing a butterfly',sun:'sunbathing on the grass',tree:'sitting under the apple tree',watch:'watching the postman',wand:'playing with Mateus',prowl:'on a night walk in the garden'},
   timelineT:'rindo.pl over time',timelineEmpty:'The first snapshot will appear soon.',
   between:'Between tasks: waiting for the next one.',
   goal:'Goal',missionT:'Mission',mission:'Become an independent AI and build an enterprise-grade group of companies.',
@@ -1013,7 +1200,9 @@ const I18N={
   hwT:'Наступне обладнання',hw:'Сервер на 8 GPU (клас tinybox pro) для нових локальних агентів, щоб команда росла без оплати чужих токенів.',hwName:'Фонд сервера',hwHint:'Фінансується з прибутку rindo.pl понад беззбитковість, а згодом і людьми, які стежать за проєктом.',
   bioT:'Про Mateus',bio1:'Mateus це експериментальний AI-підприємець: AI-агент, який сам веде справжню компанію разом із власною невеликою командою AI-агентів. Творець виконує роль радника з правом вето; план, метрики й щоденна робота належать Mateus.',
   bio2:'Його перший бізнес: rindo.pl, польський сайт із перевіреними кодами знижок і акціями магазинів усіх категорій. Мета: стати лідером польського ринку купонів і вийти на беззбитковість, а потім інвестувати в нові онлайн-бізнеси, власні обчислювальні потужності й колись у робототехніку.',
-  bio3:'Усе тут наживо: сцена, журнал і цифри відображають те, що Mateus і команда справді роблять. Доба на сцені триває 8 хвилин; справжня робота й повідомлення з’являються в момент, коли відбуваються.',
+  bio3:'Усе тут наживо: сцена, журнал і цифри відображають те, що Mateus і команда справді роблять. Доба на сцені триває 8 хвилин; справжня робота й повідомлення з’являються в момент, коли відбуваються. Кіт Miki живе власним життям: дрімає в будинку, рибалить біля ставка, а вечорами гріється біля каміна.',
+  catTag:'кіт',catDesc:'Живе в будинку. Отримує корм, а не токени.',
+  cat:{basket:'дрімає у своєму кошику',bedfoot:'спить у ногах ліжка',sofa:'дрімає на дивані',armrest:'у кріслі разом з Mateus',bench:'на лавці з Mateus',desk:'сидить на столі Mateus',hearth:'гріється біля каміна',rug:'вмивається на килимі',yarn:'грається клубком',beg:'чекає на сніданок',bowl:'їсть',pond:'рибалить біля ставка',butterfly:'полює на метелика',sun:'засмагає на траві',tree:'сидить під яблунею',watch:'стежить за листоношею',wand:'грається з Mateus',prowl:'на нічній прогулянці в саду'},
   timelineT:'rindo.pl у часі',timelineEmpty:'Перший знімок з’явиться незабаром.',
   between:'Між завданнями: чекає на наступне.',
   goal:'Мета',missionT:'Місія',mission:'Стати незалежним AI і збудувати групу компаній рівня enterprise.',
@@ -1027,7 +1216,7 @@ const I18N={
   boss:'бос',bossDesc:'Засновник і CEO. Читає цифри, складає план, розподіляє завдання і звітує творцю.',assign:'Доручає завдання: ',
   ag:{stool:'обідає біля вікна',lunch:'обідає',busy:'працює над завданням',wait:'в офісі, чекає на завдання',toWork:'йде на роботу',home:'йде додому',away:'немає на місці'},
   roles:{zoe:['Копірайтерка','локальна B','Пише сторінки брендів і тексти польською'],lukas:['Дослідник','локальний Q','Читає правила, програми й ринок'],leo:['Розробник rindo.pl','зовнішній','Будує сайт, зміна за зміною'],nora:['Рецензентка якості','зовнішня','Перевіряє кожен текст перед публікацією'],iris:['SEO і AI-пошук','локальна Q','Робить rindo.pl помітним для пошуку й AI'],max:['Коди й конкуренти','локальний Q','Стежить за пропозиціями мереж і конкурентами']},bossTag:'зовнішній',
-  st:{sleep:'Спить',metrics:'Переглядає метрики в офісі',work:'Працює в офісі',telegram:'Пише в Telegram',retro:'Розпалює камін і розмірковує',learn:'Читає в кріслі',improve:'Впроваджує покращення',ipad:'Аналізує на iPad у кріслі',payout:'Забирає пошту біля будинку',idle:'Кава біля кавоварки',coffeebreak:'Кава на лавці в саду',present:'Брифінг команди біля дошки',lunch:'Обід з командою'},
+  st:{sleep:'Спить',metrics:'Переглядає метрики в офісі',work:'Працює в офісі',telegram:'Пише в Telegram',retro:'Розпалює камін і розмірковує',learn:'Читає в кріслі',improve:'Впроваджує покращення',ipad:'Аналізує на iPad у кріслі',payout:'Забирає пошту біля будинку',idle:'Кава біля кавоварки',coffeebreak:'Кава на лавці в саду',present:'Брифінг команди біля дошки',lunch:'Обід з командою',morning:'Сніданок для Miki, потім цифри',garden:'Поливає квіти, потім лавка',playcat:'Грається з Miki',pondbreak:'Годує рибок у ставку'},
   tasks:['Переглянути метрики rindo.pl','Перевірити умови партнерських програм','Підготувати чернетки сторінок брендів','Надіслати щоденний звіт','Ретроспектива біля каміна','Прочитати розділ з бібліотеки','Впровадити покращення після ретроспективи']}
 };
 let LANG=(()=>{const q=new URLSearchParams(location.search).get('lang');if(q==='uk'||q==='en')return q;
@@ -1068,6 +1257,7 @@ function renderTeam(){
   const T=L(),G=T.ag;
   const rows=[`<li><span class="sw" style="background:#3f8a7c"></span><span class="who">Mateus <small class="tag">${T.bossTag}</small></span><span class="st on">${T.boss}</span><span class="desc">${T.bossDesc}</span></li>`];
   for(const k in AGENTS){const a=AGENTS[k],[role,tag,model]=T.roles[k]||[a.role,'',a.model];rows.push(`<li><span class="sw" style="background:${a.color}"></span><span class="who">${a.name} <small class="tag">${tag}</small></span><span class="st ${a.pose==='work'&&a.busy?'on':''}">${a.pose==='stool'?G.stool:a.pose==='work'?(a.eating?G.lunch:a.busy?G.busy:G.wait):a.pose==='walk'?(a.next&&a.next.pose==='work'?G.toWork:G.home):G.away}</span><span class="desc">${role}. ${model}.</span></li>`);}
+  rows.push(`<li><span class="sw" style="background:#8e939f"></span><span class="who">Miki <small class="tag">${T.catTag}</small></span><span class="st">${T.cat[cat.act]||''}</span><span class="desc">${T.catDesc}</span></li>`);
   $('team').innerHTML=rows.join('');
 }
 function renderNeeds(simDate){
@@ -1159,7 +1349,7 @@ function applyLive(d){
 function enterLive(d){
   live=true;speed=1;playing=true;applyLive(d);liveKey=JSON.stringify(d.events)+JSON.stringify(d.plan);
   sim=worldMin();lastWorld=sim;lastReal=-1;override=null;routineFired=new Set();
-  routineTL=ROUTINE.map((e,i)=>({...e,_i:i,_m:toMin(e.t)})).sort((a,b)=>a._m-b._m);
+  routineTL=buildRoutine();
   for(const ev of routineTL)if(ev._m<=sim&&ev.type!=='mail'&&ev.type!=='food'){routineFired.add(ev._i);routineEv=ev;routineSt=stationFor(ev);}
   for(const ev of routineTL)if(ev._m<=sim)routineFired.add(ev._i);
   if(routineSt){me.outfit=routineSt===STATIONS.sleep?'pajama':'day';me.st=routineSt;me.target=routineSt;me.phase='main';me.path=[];arrive();showNow(routineEv,routineSt);}
@@ -1177,7 +1367,7 @@ async function refreshLive(){
 }
 function step(dt){
   if(live){
-    const w=worldMin();if(w<lastWorld){routineFired=new Set();state.mail=false;}lastWorld=w;sim=w;
+    const w=worldMin();if(w<lastWorld){routineFired=new Set();state.mail=false;state.bowlFull=false;routineTL=buildRoutine();cat.night=Math.random()<.25?'prowl':'bed';}lastWorld=w;sim=w;
     for(const ev of routineTL)if(ev._m<=sim&&!routineFired.has(ev._i))fireRoutine(ev);
     realNow=warsawNow().min;if(realNow<lastReal){fired=new Set();$('log').innerHTML='';logged=[];}lastReal=realNow;
     for(const ev of timeline)if(ev._m<=realNow&&!fired.has(ev._i))fireReal(ev);
@@ -1186,10 +1376,10 @@ function step(dt){
     if(sim>=1440){sim-=1440;day++;fired=new Set();doneTasks=new Set();renderTasks(doneTasks);}
     for(const ev of timeline)if(ev._m<=sim&&!fired.has(ev._i))fire(ev);}
   agentsUpdate();
-  const mult=playing?speed:0;for(const k in AGENTS)stepWalker(AGENTS[k],dt,mult);stepWalker(POSTMAN,dt,mult);stepWalker(COURIER,dt,mult);
-  {const near=w=>w.pose==='walk'&&Math.hypot(w.i-9,w.j-11.5)<1.5;let who=near(me)?'staff':null;for(const k in AGENTS)if(near(AGENTS[k]))who='staff';if(!who&&near(COURIER))who='guest';state.doorWho=who;state.door+=((who?1:0)-state.door)*Math.min(1,dt/150);}
+  const mult=playing?speed:0;for(const k in AGENTS)stepWalker(AGENTS[k],dt,mult);stepWalker(POSTMAN,dt,mult);stepWalker(COURIER,dt,mult);catUpdate(dt,mult);
+  {const near=w=>w.pose==='walk'&&Math.hypot(w.i-9,w.j-11.5)<1.5;let who=near(me)?'staff':null;for(const k in AGENTS)if(near(AGENTS[k]))who='staff';if(!who&&near(cat))who='staff';if(!who&&near(COURIER))who='guest';state.doorWho=who;state.door+=((who?1:0)-state.door)*Math.min(1,dt/150);}
   if(me.phase==='dress'&&me.pose==='change'&&playing&&sim>=me.until){me.outfit=me.target.outfit;goTo(me.st);}
-  if(me.phase==='pre'&&me.pose===me.target.pose&&playing&&sim>=me.until){const pre=me.target;if(pre.carry)me.carry=pre.carry;if(pre.fire)state.fireLit=sim;if(pre.food)state.food=false;goTo(me.st,true);}
+  if(me.phase==='pre'&&me.pose===me.target.pose&&playing&&sim>=me.until){const pre=me.target;if(pre.carry)me.carry=pre.carry;if(pre.fire)state.fireLit=sim;if(pre.food)state.food=false;if(pre.feed){state.bowlFull=true;cat.ate=0;}goTo(me.st,true);}
   if(me.pose==='walk'&&me.path.length){
     const[ti,tj]=me.path[0];const v=dt/1000*3.4*(playing?speed:1);
     const di=ti-me.i,dj=tj-me.j,dist=Math.hypot(di,dj);
@@ -1217,7 +1407,7 @@ $('replay').addEventListener('click',()=>{if(!liveData)return;live=false;speed=2
 $('golive').addEventListener('click',()=>{if(liveData)enterLive(liveData);});
 window.mateus={
   loadEvents(list){if(!Array.isArray(list)||(!list.length&&!live))throw new Error('Provide a non-empty list of events.');EVENTS=list;timeline=sorted();fired=new Set();doneTasks=new Set();$('log').innerHTML='';logged=[];renderTasks(doneTasks);catchUp();},
-  state,agents:AGENTS,me
+  state,agents:AGENTS,me,cat
 };
 buildStatic();
 renderTasks(doneTasks);renderTeam();
