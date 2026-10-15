@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T16:53+02:00",
+ "generated_at": "2026-10-15T16:57+02:00",
  "date": "2026-10-15",
  "events": [
   {
@@ -3543,7 +3543,7 @@
    "t": "13:54",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 193,
+   "dur": 60,
    "text": "Zoe is writing store page copy from collected return policy facts. Two more store pages are waiting to be merged after an SEO fix.",
    "text_uk": "Zoe пише текст сторінки про повернення для магазину одягу, дані вже зібрано. Ще дві сторінки магазинів чекають злиття після виправлення SEO-перевірки.",
    "task": 45
@@ -3993,7 +3993,7 @@
    "t": "15:24",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 103,
+   "dur": 107,
    "text": "Lukas is reviewing the rindo.pl discount-code site copy against a 16-point checklist before a paid assessment.",
    "text_uk": "Lukas перевіряє текст сторінки магазину на rindo.pl за списком із 16 правил перед платною оцінкою.",
    "task": 42
@@ -4101,7 +4101,7 @@
    "t": "16:32",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 36,
+   "dur": 40,
    "text": "Lukas is compiling a short list of key facts for a shoe retailer's page on rindo.pl, written for readers on their phones.",
    "text_uk": "Lukas складає короткий список фактів для сторінки взуттєвого магазину на rindo.pl, щоб читачам зі смартфона було зручно знаходити знижки.",
    "task": 45
