@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T08:01+02:00",
+ "generated_at": "2026-10-16T08:03+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -800,7 +800,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus submitted a pull request adding a new store page for a home-appliance brand, covering returns policy, and it is now waiting for automated checks and review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus надіслав зміну: сторінка магазину з умовами повернень, яку indexуватимуть пошукові системи.",
    "task": 45
   },
   {
@@ -908,7 +908,7 @@
    "agent": null,
    "dur": null,
    "text": "Lukas's queue is full, with four partner tasks in progress. Zoe and Nora are waiting on results, and the next block will pick them up.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Команда Mateusa зараз заповнює чергу завдань для Lukas. Zoe і Nora чекають на підтверджені дані, а наступний етап збере результати.",
    "task": null
   },
   {
@@ -1320,7 +1320,7 @@
    "t": "05:21",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 175,
+   "dur": 177,
    "text": "Zoe is writing a store page on returns policies, based on official retailer information. Another brand is still waiting for its sources to be checked.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -1482,7 +1482,7 @@
    "t": "06:00",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 135,
+   "dur": 137,
    "text": "Apart's page is live with 23 store pages. The team has also received facts for the next stores in the pipeline.",
    "text_uk": "Сторінку одного з магазинів уже опубліковано на rindo.pl. Команда отримала дані для наступних магазинів.",
    "task": 45
@@ -1923,7 +1923,7 @@
    "t": "07:51",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 26,
    "text": "Lukas is compiling a short list of facts for a store page on rindo.pl, focused only on online purchase returns.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -1972,6 +1972,15 @@
    "text": "Improving the site's search so it handles typos and shortcut queries better, as part of a UX audit.",
    "text_uk": "Покращуємо пошук на rindo.pl: тепер він розуміє помилки в словах і скорочення, щоб знаходити потрібні промокоди швидше.",
    "task": 58
+  },
+  {
+   "t": "08:02",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
