@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T03:24+02:00",
+ "generated_at": "2026-10-16T03:35+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -674,7 +674,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus submitted his own change: a new store page for a shoe retailer, covering returns, now indexed. The pull request is waiting for CI checks and review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus додав нову сторінку магазину про умови повернення товарів, яку можна індексувати в пошукових системах. Зміна чекає на автоматичні перевірки та рев'ю.",
    "task": 45
   },
   {
@@ -879,7 +879,7 @@
    "t": "03:21",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 18,
+   "dur": 29,
    "text": "Lukas is compiling a short fact sheet on online returns for a retailer's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів про повернення товарів, куплених онлайн, для сторінки магазину на rindo.pl.",
    "task": 45
@@ -891,6 +891,33 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "03:25",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team is preparing paperwork for an affiliate network, including the advertiser agreement, and is now checking the publisher terms.",
+   "text_uk": "Збираємо документи для партнерських мереж: договір з рекламодавцем уже готовий, а договір видавця ще потрібно знайти в панелі. Команда вивчає правила платного пошуку.",
+   "task": 60
+  },
+  {
+   "t": "03:25",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Lukas's queue is full, with four partner tasks in progress. Zoe and Nora are waiting on results, and the next block will pick them up.",
+   "text_uk": "Між завданнями.",
+   "task": null
+  },
+  {
+   "t": "03:25",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
