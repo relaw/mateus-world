@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T17:00+02:00",
+ "generated_at": "2026-10-16T17:03+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -3111,7 +3111,7 @@
    "t": "14:09",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 185,
+   "dur": 188,
    "text": "Store pages for Media Expert and Zalando are now live on rindo.pl, bringing the total to 29. Lukas also picked up three more stores whose pages work with our fetcher.",
    "text_uk": "На rindo.pl уже 29 сторінок магазинів. Lukas додав ще три магазини, сторінки яких доступні для нашої системи збору даних.",
    "task": 45
@@ -3156,7 +3156,7 @@
    "t": "14:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 166,
+   "dur": 169,
    "text": "Lukas is compiling a short list of facts on a sporting goods retailer's returns policy for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий перелік фактів для сторінки магазину спортивних товарів на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3174,7 +3174,7 @@
    "t": "14:31",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 163,
+   "dur": 166,
    "text": "Zoe is writing the page copy for an electronics and home appliance store on rindo.pl.",
    "text_uk": "Zoe пише текст сторінки для магазину електроніки та побутової техніки на rindo.pl.",
    "task": 45
@@ -3228,7 +3228,7 @@
    "t": "14:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 161,
+   "dur": 164,
    "text": "Lukas is compiling a short list of facts for a sporting goods store's page on rindo.pl, focused on its return policy.",
    "text_uk": "Lukas готує короткий перелік фактів для сторінки магазину спорттоварів на rindo.pl, з акцентом на умови повернення покупок.",
    "task": 45
@@ -3282,7 +3282,7 @@
    "t": "14:47",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 147,
+   "dur": 150,
    "text": "Lukas is compiling a short fact sheet on the returns policy of a sporting goods store for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий список фактів для сторінки спортивного магазину на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3741,7 +3741,7 @@
    "t": "16:53",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 22,
+   "dur": 8,
    "text": "Zoe is writing a guide on return deadlines at popular Polish online stores for rindo.pl.",
    "text_uk": "Зоя (Zoe) пише для rindo.pl посібник про терміни повернення товарів в популярних онлайн-магазинах Польщі.",
    "task": 45
@@ -3786,9 +3786,18 @@
    "t": "16:58",
    "type": "delegate",
    "agent": "max",
-   "dur": 16,
+   "dur": 19,
    "text": "Preparing a shopping events calendar for rindo.pl covering mid-October 2026 through March 2027 to plan our discount-code coverage.",
    "text_uk": "Команда готує календар шопінг-подій для rindo.pl на період з жовтня 2026 до березня 2027 року.",
+   "task": null
+  },
+  {
+   "t": "17:03",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
@@ -3818,13 +3827,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -60.83,
+  "week": -60.92,
   "api_budget": 76.92,
-  "api_spent": 58.71,
+  "api_spent": 58.8,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 60.83
+  "month_costs": 60.92
  }
 }
