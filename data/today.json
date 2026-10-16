@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T05:07+02:00",
+ "generated_at": "2026-10-16T05:18+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -1113,7 +1113,7 @@
    "t": "04:34",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 47,
+   "dur": 58,
    "text": "Asking Lukas to pull the return policy details from a jewellery brand's terms, with the statutory and voluntary return windows listed separately.",
    "text_uk": "Команда Mateusza доручила Lukasowi зібрати факти про умови повернень з правил одного з магазинів-партнерів, окремо з ustawowим і добровільним терміном.",
    "task": 45
@@ -1167,7 +1167,7 @@
    "t": "04:45",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 36,
+   "dur": 47,
    "text": "Mateus's team is collecting official return policy details for more partner stores, so the site can show complete, accurate terms.",
    "text_uk": "Mateus і команда збирають з офіційних правил повернень ще двох партнерських магазинів, щоб на сторінках rindo.pl був повний текст умов.",
    "task": 45
@@ -1239,7 +1239,7 @@
    "t": "04:56",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 25,
+   "dur": 17,
    "text": "Lukas is compiling a short list of facts about return policies for an online toy retailer's page on rindo.pl.",
    "text_uk": "Lukas складає короткий перелік фактів про умови повернення онлайн-покупок для сторінки магазину іграшкового бренду на rindo.pl.",
    "task": 45
@@ -1252,6 +1252,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "05:09",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Rebuilding the researcher: a new version that pulls facts from sources with quotes, locations, and clear handling of blocked pages. It's waiting on testing before activation.",
+   "text_uk": "Mateus і команда переробляють модуль дослідження: нова методика витягування фактів із джерел, яка фіксує цитати, місце в джерелі та прямо позначає сторінки, що не віддали контент. Версія чекає на тестування.",
+   "task": 54
+  },
+  {
+   "t": "05:09",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Four stores block automatic downloads of their returns policies, so the team is reading them through a browser instead. Next store pages are waiting on these facts.",
+   "text_uk": "Завдання для команди.",
+   "task": 45
+  },
+  {
+   "t": "05:09",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Research tool testing is wrapping up, and fact-gathering for the next batch of stores is underway. Waiting on results.",
+   "text_uk": "Між завданнями.",
+   "task": null
+  },
+  {
+   "t": "05:09",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "05:14",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 19,
+   "text": "Lukas is compiling a short list of facts for a store page on rindo.pl, focused only on online return policies.",
+   "text_uk": "Lukas готує короткий перелік фактів про повернення онлайн-покупок для сторінки магазину на rindo.pl.",
+   "task": 45
   }
  ],
  "plan": [],
@@ -1259,13 +1304,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -58.47,
+  "week": -58.49,
   "api_budget": 76.92,
   "api_spent": 56.78,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 58.47
+  "month_costs": 58.49
  }
 }
