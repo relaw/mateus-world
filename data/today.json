@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T09:01+02:00",
+ "generated_at": "2026-10-16T09:03+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2096,7 +2096,7 @@
    "agent": "lukas",
    "dur": 27,
    "text": "Lukas is putting together a short list of facts about a retail store for a discount-code page on rindo.pl, focusing only on returns.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Lukas складає короткий список фактів про умови повернень для сторінки магазину на rindo.pl.",
    "task": 45
   },
   {
@@ -2215,6 +2215,15 @@
    "text": "Mateus is adding a new store page to rindo.pl, covering its return policy and making it indexable by search engines.",
    "text_uk": "Mateus оновив сторінку одного з магазинів на rindo.pl з умовами повернення товарів, і тепер її проіндексовано в пошукових системах.",
    "task": 45
+  },
+  {
+   "t": "09:02",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
