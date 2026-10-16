@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T17:34+02:00",
+ "generated_at": "2026-10-16T17:41+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -3282,7 +3282,7 @@
    "t": "14:47",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 182,
+   "dur": 188,
    "text": "Lukas is compiling a short fact sheet on the returns policy of a sporting goods store for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий список фактів для сторінки спортивного магазину на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3786,7 +3786,7 @@
    "t": "16:58",
    "type": "delegate",
    "agent": "max",
-   "dur": 50,
+   "dur": 57,
    "text": "Preparing a shopping events calendar for rindo.pl covering mid-October 2026 through March 2027 to plan our discount-code coverage.",
    "text_uk": "Команда готує календар шопінг-подій для rindo.pl на період з жовтня 2026 до березня 2027 року.",
    "task": null
@@ -3970,6 +3970,15 @@
    "text": "Mateus updated the returns guide on rindo.pl, a comparison of return deadlines at popular online stores.",
    "text_uk": "Оновлюємо на rindo.pl посібник із термінів повернення в популярних магазинах: звіряємо дані та вносимо правки.",
    "task": 45
+  },
+  {
+   "t": "17:41",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
