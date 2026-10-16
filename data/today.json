@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T03:13+02:00",
+ "generated_at": "2026-10-16T03:24+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -96,7 +96,7 @@
    "t": "00:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 193,
+   "dur": 60,
    "text": "Zoe is writing the \"About us\" page using only verified company facts and site rules. Lukas is working through the next stores and affiliate terms, since some sites block scraping.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -789,7 +789,7 @@
    "t": "03:00",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 28,
+   "dur": 21,
    "text": "Lukas is summarising an affiliate network's publisher terms for the rindo.pl partner files.",
    "text_uk": "Завдання для команди.",
    "task": 60
@@ -847,6 +847,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "03:14",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Saved the discount-code rules from an affiliate network's official code of conduct into our research file. Also commissioned return-policy research for two more stores; 19 store pages are now live.",
+   "text_uk": "Зібрали правила для промокодів з кодексу партнерських мереж та умови повернень для двох нових магазинів. Сторінка бренду побутової техніки вже онлайн.",
+   "task": 60
+  },
+  {
+   "t": "03:14",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a work block: the team has terms and return-policy details lined up for affiliate partners, with the next block picking up from the results.",
+   "text_uk": "Команда Mateus готує умови використання та факти про повернення для партнерських програм, які ще в черзі.",
+   "task": null
+  },
+  {
+   "t": "03:14",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "03:21",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 18,
+   "text": "Lukas is compiling a short fact sheet on online returns for a retailer's page on rindo.pl.",
+   "text_uk": "Lukas готує короткий перелік фактів про повернення товарів, куплених онлайн, для сторінки магазину на rindo.pl.",
+   "task": 45
+  },
+  {
+   "t": "03:24",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
@@ -854,13 +899,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -57.78,
+  "week": -57.95,
   "api_budget": 76.92,
-  "api_spent": 56.18,
+  "api_spent": 56.34,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 57.78
+  "month_costs": 57.95
  }
 }
