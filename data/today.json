@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T23:48+02:00",
+ "generated_at": "2026-10-16T23:59+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -4938,7 +4938,7 @@
    "t": "21:34",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 148,
+   "dur": 159,
    "text": "The team picked up three more store pages to write, using facts drawn from each store's official terms and conditions.",
    "text_uk": "Команда Mateus готує нові сторінки магазинів для rindo.pl на основі офіційних правил акцій: магазин косметики, магазин товарів для дому та магазин преміум-косметики.",
    "task": 45
@@ -4965,7 +4965,7 @@
    "t": "21:37",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 145,
+   "dur": 156,
    "text": "Zoe is writing store page copy for a home improvement store on rindo.pl, the discount-code site.",
    "text_uk": "Mateus доручив Zoe написати текст сторінки магазину товарів для будівництва та дому на rindo.pl, сайті з промокодами для інтернет-магазинів у Польщі.",
    "task": 45
@@ -5001,7 +5001,7 @@
    "t": "21:50",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 133,
+   "dur": 143,
    "text": "Lukas is compiling a short list of facts for a consumer electronics and appliance store's page on rindo.pl.",
    "text_uk": "Lukas готує короткий список фактів для сторінки магазину електроніки та побутової техніки на rindo.pl.",
    "task": 45
@@ -5037,7 +5037,7 @@
    "t": "23:44",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 19,
+   "dur": 4,
    "text": "Zoe is writing the store page copy for a home improvement retailer on rindo.pl.",
    "text_uk": "Zoe пише текст сторінки магазину товарів для будівництва та дому на rindo.pl, де зібрано промокоди для інтернет-магазинів у Польщі.",
    "task": 45
@@ -5046,7 +5046,7 @@
    "t": "23:44",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 19,
+   "dur": 5,
    "text": "Lukas is compiling a short list of facts for the store page of an electronics and appliances retailer on rindo.pl.",
    "text_uk": "Lukas готує короткий список фактів для сторінки магазину електроніки й побутової техніки на rindo.pl.",
    "task": 45
@@ -5059,6 +5059,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "23:48",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 4,
+   "text": "Zoe is writing store page copy for a perfumery and cosmetics retailer on rindo.pl, our discount code site for Polish online shops.",
+   "text_uk": "Zoe пише текст для сторінки магазину парфумерії та косметики на rindo.pl, де зібрано промокоди для інтернет-магазинів.",
+   "task": 45
+  },
+  {
+   "t": "23:49",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Team picked up new tasks: return-policy facts for store pages, so the page queue keeps moving.",
+   "text_uk": "Команда Mateusa отримала нові завдання: факти про повернення товарів для сторінок магазину одягу та косметичного бренду, щоб черга сторінок не зупинялася.",
+   "task": 45
+  },
+  {
+   "t": "23:49",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Our team is working on store pages for rindo.pl while we wait for results from our current assignments.",
+   "text_uk": "Команда працює над сторінками магазинів для rindo.pl, а Mateus чекає на результати замовлень.",
+   "task": null
+  },
+  {
+   "t": "23:49",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "23:49",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 5,
+   "text": "Lukas is compiling a short list of return policy facts for a clothing retailer's store page on rindo.pl.",
+   "text_uk": "Лукас збирає короткий перелік фактів про умови повернення покупок в одному з магазинів одягу для сторінки rindo.pl.",
+   "task": 45
+  },
+  {
+   "t": "23:52",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 21,
+   "text": "Zoe is writing the store page copy for a women's fashion retailer on rindo.pl, our discount-code site for Polish online shops.",
+   "text_uk": "Zoe пише текст сторінки для магазину жіночого одягу на rindo.pl, де зібрано коди знижок для інтернет-магазинів у Польщі.",
+   "task": 45
+  },
+  {
+   "t": "23:54",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 19,
+   "text": "Preparing a short fact list for a home fragrance and cosmetics brand's page on rindo.pl, with Lukas assigned to the task.",
+   "text_uk": "Lukas готує коротку добірку фактів для сторінки магазину косметики та ароматів для дому на rindo.pl.",
+   "task": 45
   }
  ],
  "plan": [
@@ -5087,13 +5150,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -62.61,
+  "week": -62.68,
   "api_budget": 76.92,
-  "api_spent": 60.25,
+  "api_spent": 60.31,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 62.61
+  "month_costs": 62.68
  }
 }
