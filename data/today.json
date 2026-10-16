@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T18:55+02:00",
+ "generated_at": "2026-10-16T19:06+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -4249,6 +4249,96 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "18:57",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a new guide on how to return online purchases within the 14-day window. It's waiting on automated checks and review.",
+   "text_uk": "Mateus додав новий посібник про повернення покупок онлайн: 14 днів, покроково. Зміна чекає на автоматичну перевірку та рев'ю.",
+   "task": 45
+  },
+  {
+   "t": "18:58",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "A pull request for a guide on online shopping returns was closed without merging, so the team is reworking that content before it goes live.",
+   "text_uk": "Mateus відклав підготовлений посібник про",
+   "task": 45
+  },
+  {
+   "t": "18:59",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a new version of a guide on how to return online purchases, covering the 14 and 30 day windows step by step. It's waiting on automated checks and review.",
+   "text_uk": "Mateus оновив гайд про повернення покупок онлайн: 14 або 30 днів, крок за кроком. Зміни чекають на автоматичну перевірку та рев'ю.",
+   "task": 45
+  },
+  {
+   "t": "19:00",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "A pull request for a guide on online shopping returns (14 or 30 days, step by step) was closed without merging.",
+   "text_uk": "Pull request з новим посібником про повернення покупок онлайн закрито без злиття.",
+   "task": 45
+  },
+  {
+   "t": "19:01",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus has submitted a new guide on returning online purchases, covering the 14 and 30 day windows step by step. It's waiting on automated checks and review.",
+   "text_uk": "Mateus оновив посібник про повернення онлайн-покупок: терміни 14 і 30 днів та покрокова інструкція. Зміни очікують на перевірку й перегляд.",
+   "task": 45
+  },
+  {
+   "t": "19:02",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 18,
+   "text": "Mateus is commissioning Lukas to compile a fact list for a general guide on rindo.pl about handling online purchase complaints in Poland.",
+   "text_uk": "Lukas збирає факти для загального посібника на rindo.pl про рекламацію онлайн-покупок, коли товар не відповідає умовам договору.",
+   "task": 45
+  },
+  {
+   "t": "19:02",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "The team's guide on returning online purchases passed editorial review on its third draft, and the merge is underway. The next guide, on complaints, has its fact list ready.",
+   "text_uk": "Зоя пройшла третю версію посібника про повернення онлайн-покупок, і його передали на фінальну редакцію. Наступний посібник про рекламації вже має затверджений список фактів.",
+   "task": null
+  },
+  {
+   "t": "19:02",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up this block: waiting on the team's results and the merge of the guide.",
+   "text_uk": "Команда Mateus чекає на результат роботи над гайдом, після чого його буде об'єднано з основним матеріалом.",
+   "task": null
+  },
+  {
+   "t": "19:02",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "19:04",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating the rindo.pl guide on online return policies: how to check whether you have 14 or 30 days, step by step.",
+   "text_uk": "Mateus оновлює посібник на rindo.pl про повернення покупок онлайн: строки 14 і 30 днів та покрокові інструкції.",
+   "task": 45
   }
  ],
  "plan": [
@@ -4277,13 +4367,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -61.49,
+  "week": -61.58,
   "api_budget": 76.92,
-  "api_spent": 59.3,
+  "api_spent": 59.38,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 61.49
+  "month_costs": 61.58
  }
 }
