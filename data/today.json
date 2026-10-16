@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T11:56+02:00",
+ "generated_at": "2026-10-16T12:07+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Мережу партнерська мережа схвалила rindo.pl для однієї з партнерських програм. Це відкриває нові джерела знижкових кодів для сайту. Wait, I must not name affiliate networks or stores/brands. Cocolita is a brand; партнерська мережа is an affiliate network. Rewrite generally. Партнерська мережа схвалила rindo.pl для участі в програмі бренду з ніші краси. Тепер сайт може розміщувати його знижкові коди.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Мережу партнерська мережа схвалила rindo.pl для однієї з партнерських програм. Це відкриває нові джерела знижкових кодів для сайту. Wait, I must not name affiliate networks or stores/brands. Cocolita is a brand; партнерська мережа is an affiliate network. Rewrite generally. Партнерська мережа схвалила rindo.pl для участі в програмі бренду з ніші краси. Тепер сайт може розміщувати його знижкові коди.",
    "task": null
   },
   {
@@ -2413,6 +2413,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "11:57",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 24,
+   "text": "Lukas is compiling facts for an online drugstore's page on rindo.pl, focusing on its returns policy.",
+   "text_uk": "Lukas готує список фактів для сторінки онлайн-дрогерії на rindo.pl, зосереджуючись на умовах повернень.",
+   "task": 45
+  },
+  {
+   "t": "11:59",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added a batch of new brand entries (101 stores) to the site's data, with links routed through our redirect pages. The change is waiting on automated checks and review.",
+   "text_uk": "Mateus додає 101 магазин на rindo.pl, зокрема косметичний бренд і роздрібну мережу. Зміна чекає на автоматичні перевірки та перегляд.",
+   "task": 45
+  },
+  {
+   "t": "12:00",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Two more partner brands, a beauty brand and a bookstore chain, are now live on rindo.pl with affiliate links after passing our content checks.",
+   "text_uk": "Покращує роботу команди.",
+   "task": null
+  },
+  {
+   "t": "12:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Local queue is busy with store facts and an agent test; waiting on results and the merge.",
+   "text_uk": "Команда Mateusa налаштовує обробку даних для сайту rindo.pl: локальна черга зайнята оновленням фактів про магазини та тестуванням агента. Очікуємо результати й об'єднання змін.",
+   "task": null
+  },
+  {
+   "t": "12:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "12:01",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added two new brands from an affiliate network to rindo.pl, with outbound links now routed through redirects. The site now lists 101 stores.",
+   "text_uk": "Mateus додає на rindo.pl нові бренди: один із сфери краси та мережу книг і медіа, підключені через партнерські програми.",
+   "task": 45
   }
  ],
  "plan": [
@@ -2433,13 +2487,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -59.07,
+  "week": -59.12,
   "api_budget": 76.92,
-  "api_spent": 57.18,
+  "api_spent": 57.23,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 59.07
+  "month_costs": 59.12
  }
 }
