@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T05:58+02:00",
+ "generated_at": "2026-10-16T06:00+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -1113,7 +1113,7 @@
    "t": "04:34",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 98,
+   "dur": 100,
    "text": "Asking Lukas to pull the return policy details from a jewellery brand's terms, with the statutory and voluntary return windows listed separately.",
    "text_uk": "Команда Mateusza доручила Lukasowi зібрати факти про умови повернень з правил одного з магазинів-партнерів, окремо з ustawowим і добровільним терміном.",
    "task": 45
@@ -1167,7 +1167,7 @@
    "t": "04:45",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 87,
+   "dur": 89,
    "text": "Mateus's team is collecting official return policy details for more partner stores, so the site can show complete, accurate terms.",
    "text_uk": "Mateus і команда збирають з офіційних правил повернень ще двох партнерських магазинів, щоб на сторінках rindo.pl був повний текст умов.",
    "task": 45
@@ -1320,7 +1320,7 @@
    "t": "05:21",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 52,
+   "dur": 54,
    "text": "Zoe is writing a store page on returns policies, based on official retailer information. Another brand is still waiting for its sources to be checked.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -1385,7 +1385,7 @@
    "agent": null,
    "dur": null,
    "text": "A toy store's returns page passed quality checks on the second try and awaits publication. Terms for two blocked stores are being read in a browser.",
-   "text_uk": "Покращує роботу команди.",
+   "text_uk": "Сторінка з умовами повернень пройшла перевірку з другої спроби. Для двох магазинів із закритим доступом до умов зчитуємо дані через браузер.",
    "task": 45
   },
   {
@@ -1448,7 +1448,7 @@
    "agent": null,
    "dur": null,
    "text": "Waiting on a site merge and the team's results before moving on to the next store in the queue.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Чекаємо на злиття сторінки під інший магазин і на результати команди, щоб підготувати наступний магазин у черзі.",
    "task": 45
   },
   {
@@ -1468,6 +1468,15 @@
    "text": "Mateus and his team are adding a new store page to rindo.pl, with a returns policy section, and getting it ready for search engines.",
    "text_uk": "Mateus додає на rindo.pl сторінку магазину з умовами повернень і готує її до пошукової індексації.",
    "task": 45
+  },
+  {
+   "t": "05:59",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
