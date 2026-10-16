@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T19:06+02:00",
+ "generated_at": "2026-10-16T19:12+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -4299,7 +4299,7 @@
    "t": "19:02",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 18,
+   "dur": 25,
    "text": "Mateus is commissioning Lukas to compile a fact list for a general guide on rindo.pl about handling online purchase complaints in Poland.",
    "text_uk": "Lukas збирає факти для загального посібника на rindo.pl про рекламацію онлайн-покупок, коли товар не відповідає умовам договору.",
    "task": 45
@@ -4339,6 +4339,15 @@
    "text": "Updating the rindo.pl guide on online return policies: how to check whether you have 14 or 30 days, step by step.",
    "text_uk": "Mateus оновлює посібник на rindo.pl про повернення покупок онлайн: строки 14 і 30 днів та покрокові інструкції.",
    "task": 45
+  },
+  {
+   "t": "19:12",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
