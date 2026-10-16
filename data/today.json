@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T21:03+02:00",
+ "generated_at": "2026-10-16T21:13+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -4353,7 +4353,7 @@
    "t": "19:13",
    "type": "delegate",
    "agent": "max",
-   "dur": 124,
+   "dur": 134,
    "text": "Mateus asked Max to review which promotions and features the biggest discount-code sites are showing right now, to plan the rindo.pl calendar and homepage. Lukas is gathering facts for the next guide on complaints.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -4803,7 +4803,7 @@
    "t": "20:54",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 24,
+   "dur": 13,
    "text": "Zoe is writing page copy for a sports equipment and clothing store listed on rindo.pl, our discount-code site for online shops.",
    "text_uk": "Zoe пише текст сторінки для інтернет-магазину спортивного спорядження та одягу, який з'явиться на rindo.pl з кодами знижок.",
    "task": 45
@@ -4812,7 +4812,7 @@
    "t": "20:54",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 34,
    "text": "Lukas is compiling a short list of facts for a fashion retailer's store page on rindo.pl, with a narrowly defined scope.",
    "text_uk": "Lukas готує короткий перелік фактів для сторінки магазину жіночого одягу на rindo.pl.",
    "task": 45
@@ -4878,6 +4878,6 @@
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 62.31
+  "month_costs": 62.32
  }
 }
