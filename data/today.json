@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T07:05+02:00",
+ "generated_at": "2026-10-16T07:07+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -1113,7 +1113,7 @@
    "t": "04:34",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 165,
+   "dur": 167,
    "text": "Asking Lukas to pull the return policy details from a jewellery brand's terms, with the statutory and voluntary return windows listed separately.",
    "text_uk": "Команда Mateusza доручила Lukasowi зібрати факти про умови повернень з правил одного з магазинів-партнерів, окремо з ustawowим і добровільним терміном.",
    "task": 45
@@ -1167,7 +1167,7 @@
    "t": "04:45",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 154,
+   "dur": 156,
    "text": "Mateus's team is collecting official return policy details for more partner stores, so the site can show complete, accurate terms.",
    "text_uk": "Mateus і команда збирають з офіційних правил повернень ще двох партнерських магазинів, щоб на сторінках rindo.pl був повний текст умов.",
    "task": 45
@@ -1320,7 +1320,7 @@
    "t": "05:21",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 119,
+   "dur": 121,
    "text": "Zoe is writing a store page on returns policies, based on official retailer information. Another brand is still waiting for its sources to be checked.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -1482,7 +1482,7 @@
    "t": "06:00",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 79,
+   "dur": 81,
    "text": "Apart's page is live with 23 store pages. The team has also received facts for the next stores in the pipeline.",
    "text_uk": "Сторінку одного з магазинів уже опубліковано на rindo.pl. Команда отримала дані для наступних магазинів.",
    "task": 45
@@ -1520,7 +1520,7 @@
    "agent": "lukas",
    "dur": 25,
    "text": "Preparing a short list of facts about a partner store's returns policy for its page on rindo.pl.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Lukas готує короткий список фактів про повернення онлайн-покупок для сторінки одного з магазинів на rindo.pl.",
    "task": 45
   },
   {
@@ -1545,7 +1545,7 @@
    "t": "06:35",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 44,
+   "dur": 28,
    "text": "Lukas is compiling a short list of facts on a home improvement retailer's online returns policy for a store page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів про умови повернення онлайн-покупок для сторінки магазину товарів для дому на rindo.pl.",
    "task": 45
@@ -1592,7 +1592,7 @@
    "agent": null,
    "dur": null,
    "text": "Waiting on the team's results for the store copy and the fact-checks on two retail brands before moving on.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Team is waiting on results from the content work: a store description draft and checks against facts from partner brands. Wait, I need to write it in Ukrainian and keep it under 160 characters, no brand names, no dashes. Команда очікує результатів роботи над описом магазину та перевірки фактів у партнерів.",
    "task": null
   },
   {
@@ -1610,7 +1610,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Adding a helpful 404 page with search and popular stores to rindo.pl, as part of a UX audit.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Мateus і команда працюють над сторінкою 404 на rindo.pl: додають пошук та добірку популярних магазинів, щоб користувачі легше знаходили потрібні знижки. Wait, I must fix the typo: \"Мateus\" has a Latin M mixed in. Correct version below. Мateus і команда працюють над сторінкою 404 на rindo.pl: додають пошук та добірку популярних магазинів, щоб користувачі легше знаходили потрібні знижки.",
    "task": 58
   },
   {
@@ -1665,6 +1665,24 @@
    "dur": null,
    "text": "Adding an A, Z store directory to rindo.pl and a link to it from each store page, to make browsing easier.",
    "text_uk": "Мateusz... ні, Mateus. Ось оновлення: Mateus працює над rindo.pl: додає сторінку зі списком магазинів від A до Z та посилання \"Усі магазини\" на сторінці кожного магазину, щоб знайти їх було простіше.",
+   "task": null
+  },
+  {
+   "t": "07:03",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 18,
+   "text": "Lukas is compiling a short list of facts on a partner store's returns policy for its page on rindo.pl.",
+   "text_uk": "Lukas готує короткий список фактів для сторінки магазину на rindo.pl. Список охоплює лише умови повернення покупок.",
+   "task": 45
+  },
+  {
+   "t": "07:06",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
