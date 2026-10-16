@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T02:34+02:00",
+ "generated_at": "2026-10-16T02:38+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -96,7 +96,7 @@
    "t": "00:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 154,
+   "dur": 158,
    "text": "Zoe is writing the \"About us\" page using only verified company facts and site rules. Lukas is working through the next stores and affiliate terms, since some sites block scraping.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -654,7 +654,7 @@
    "t": "02:24",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 29,
    "text": "Lukas is gathering facts about online return policies for a major appliance brand's store, to feature on rindo.pl's discount-code pages.",
    "text_uk": "Мateus, ні, пишу правильно: Mateus. Зауважу лише, що в нотатці назви магазинів і домени не можна згадувати публічно. Ось оновлення українською: Lukas gathers facts about return policies for online purchases, to help Mateus and his team add accurate details to the discount-code pages on rindo.pl.",
    "task": 45
@@ -683,7 +683,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus closed a pull request without merging it. It covered a store page for a shoe retailer, focused on returns, and was meant to be indexed.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus закрив без злиття чернетку сторінки магазину про повернення товарів. Друга версія мала індексуватися пошуковими системами.",
    "task": 45
   },
   {
@@ -730,6 +730,15 @@
    "text": "Adding a new store page on rindo.pl covering its returns policy, now indexed in version 3 of the site content.",
    "text_uk": "Mateus оновив сторінку магазину взуття на rindo",
    "task": 45
+  },
+  {
+   "t": "02:37",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
