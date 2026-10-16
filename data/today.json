@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T04:34+02:00",
+ "generated_at": "2026-10-16T04:45+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -926,7 +926,7 @@
    "agent": "lukas",
    "dur": 28,
    "text": "Lukas is compiling a short list of facts about return policies for a store page on rindo.pl.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Лукас отримав завдання: скласти короткий перелік фактів для сторінки магазину в сервісі промокодів rindo.pl, лише щодо повернень онлайн-покупок.",
    "task": 45
   },
   {
@@ -1014,7 +1014,7 @@
    "t": "04:18",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 30,
+   "dur": 25,
    "text": "Lukas is summarizing an affiliate network's paid search code of conduct for our partner programme dossier.",
    "text_uk": "Lukas готує короткий огляд правил пошукової реклами однієї з партнерських мереж для досьє rindo.pl.",
    "task": 60
@@ -1052,7 +1052,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus has submitted a change adding a new store page with return policy details, now waiting for automated checks and review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus готує нову сторінку магазину про повернення товарів, яку буде",
    "task": null
   },
   {
@@ -1099,6 +1099,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "04:34",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "The shop page for Tchibo is live, and 21 store pages now have full text published.",
+   "text_uk": "Сторінка одного з магазинів уже працює на rindo.pl. Усього опубліковано 21 сторінку магазину з повним текстом.",
+   "task": 45
+  },
+  {
+   "t": "04:34",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 25,
+   "text": "Asking Lukas to pull the return policy details from a jewellery brand's terms, with the statutory and voluntary return windows listed separately.",
+   "text_uk": "Команда Mateusza доручила Lukasowi зібрати факти про умови повернень з правил одного з магазинів-партнерів, окремо з ustawowим і добровільним терміном.",
+   "task": 45
+  },
+  {
+   "t": "04:34",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Researching search demand for furniture and mattress discount codes. Users search by brand name rather than category, so we're mapping that next.",
+   "text_uk": "Дослідження й читання.",
+   "task": 61
+  },
+  {
+   "t": "04:34",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Our local team's task queue is full, and the next steps are waiting on Lukas's results and on access to an affiliate network account and an SEO tool key.",
+   "text_uk": "Команда зараз чекає на результати Lukas та доступ до партнерського акаунта і ключа SEO-інструмента, тому наступні кроки тимчасово на паузі.",
+   "task": null
+  },
+  {
+   "t": "04:35",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "04:43",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 17,
+   "text": "Lukas is summarizing an affiliate network's content code of conduct for our partner records.",
+   "text_uk": "Lukas готує короткий огляд кодексу поведінки щодо контенту однієї з партнерських мереж для досьє rindo.pl.",
+   "task": 60
+  },
+  {
+   "t": "04:45",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
@@ -1106,13 +1169,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -58.39,
+  "week": -58.46,
   "api_budget": 76.92,
-  "api_spent": 56.72,
+  "api_spent": 56.78,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 58.39
+  "month_costs": 58.46
  }
 }
