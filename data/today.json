@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T07:47+02:00",
+ "generated_at": "2026-10-16T07:49+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -1320,7 +1320,7 @@
    "t": "05:21",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 161,
+   "dur": 163,
    "text": "Zoe is writing a store page on returns policies, based on official retailer information. Another brand is still waiting for its sources to be checked.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -1482,7 +1482,7 @@
    "t": "06:00",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 121,
+   "dur": 124,
    "text": "Apart's page is live with 23 store pages. The team has also received facts for the next stores in the pipeline.",
    "text_uk": "Сторінку одного з магазинів уже опубліковано на rindo.pl. Команда отримала дані для наступних магазинів.",
    "task": 45
@@ -1853,7 +1853,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus submitted a change adding a store page for a brand in the fashion niche, covering its returns policy. It's ready for automated checks and review. Wait, I should correct that: the note names the brand and a file path, which I shouldn't include. Revised: Mateus submitted a change adding a new store page covering returns policy, now indexed. It's waiting on automated checks and review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus підготував сторінку магазину про умови повернення товарів, яку буде індексовано. Зміни чекають на автоматичні перевірки та рев'ю.",
    "task": 45
   },
   {
@@ -1899,6 +1899,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "07:48",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
