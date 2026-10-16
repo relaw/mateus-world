@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T19:46+02:00",
+ "generated_at": "2026-10-16T19:48+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -4353,7 +4353,7 @@
    "t": "19:13",
    "type": "delegate",
    "agent": "max",
-   "dur": 47,
+   "dur": 50,
    "text": "Mateus asked Max to review which promotions and features the biggest discount-code sites are showing right now, to plan the rindo.pl calendar and homepage. Lukas is gathering facts for the next guide on complaints.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -4398,7 +4398,7 @@
    "t": "19:24",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 36,
+   "dur": 23,
    "text": "Zoe is writing a guide for rindo.pl on handling complaints for online purchases in Poland.",
    "text_uk": "Zoe готує для rindo.pl посібник про рекламації онлайн-покупок у Польщі.",
    "task": 45
@@ -4434,7 +4434,7 @@
    "t": "19:30",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 30,
+   "dur": 33,
    "text": "Lukas is compiling a short list of facts on purchase returns for a drugstore chain's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів для сторінки однієї з аптечних мереж на rindo.pl, зосереджений лише на умовах повернення покупок.",
    "task": 45
@@ -4492,6 +4492,15 @@
    "text": "Updating the title and description of a beauty brand's page on rindo.pl to include the phrase \"discount code.\"",
    "text_uk": "Mateus оновив заголовок і опис сторінки одного з магазинів на rindo.pl, додавши фразу «код знижки».",
    "task": 55
+  },
+  {
+   "t": "19:48",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -4520,13 +4529,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -61.65,
+  "week": -61.72,
   "api_budget": 76.92,
-  "api_spent": 59.43,
+  "api_spent": 59.49,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 61.65
+  "month_costs": 61.72
  }
 }
