@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T21:30+02:00",
+ "generated_at": "2026-10-16T21:40+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -4353,7 +4353,7 @@
    "t": "19:13",
    "type": "delegate",
    "agent": "max",
-   "dur": 151,
+   "dur": 161,
    "text": "Mateus asked Max to review which promotions and features the biggest discount-code sites are showing right now, to plan the rindo.pl calendar and homepage. Lukas is gathering facts for the next guide on complaints.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -4812,7 +4812,7 @@
    "t": "20:54",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 51,
+   "dur": 39,
    "text": "Lukas is compiling a short list of facts for a fashion retailer's store page on rindo.pl, with a narrowly defined scope.",
    "text_uk": "Lukas готує короткий перелік фактів для сторінки магазину жіночого одягу на rindo.pl.",
    "task": 45
@@ -4924,6 +4924,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "21:33",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 4,
+   "text": "Zoe is writing the page copy for a cosmetics store on rindo.pl, part of our work on discount codes for online shops.",
+   "text_uk": "Zoe пише текст сторінки для магазину косметики на rindo.pl, де зібрано промокоди для інтернет-магазинів Польщі.",
+   "task": 45
+  },
+  {
+   "t": "21:34",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 20,
+   "text": "The team picked up three more store pages to write, using facts drawn from each store's official terms and conditions.",
+   "text_uk": "Команда Mateus готує нові сторінки магазинів для rindo.pl на основі офіційних правил акцій: магазин косметики, магазин товарів для дому та магазин преміум-косметики.",
+   "task": 45
+  },
+  {
+   "t": "21:34",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Three store pages are waiting for copy from the team. The next block will pick up the results and get them ready for publication.",
+   "text_uk": "Три сторінки магазинів чекають на текст від команди. Наступний етап: прийняти результати та підготувати їх до публікації.",
+   "task": null
+  },
+  {
+   "t": "21:34",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "21:37",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 17,
+   "text": "Zoe is writing store page copy for a home improvement store on rindo.pl, the discount-code site.",
+   "text_uk": "Mateus доручив Zoe написати текст сторінки магазину товарів для будівництва та дому на rindo.pl, сайті з промокодами для інтернет-магазинів у Польщі.",
+   "task": 45
   }
  ],
  "plan": [
@@ -4952,13 +4997,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -62.38,
+  "week": -62.49,
   "api_budget": 76.92,
-  "api_spent": 60.05,
+  "api_spent": 60.14,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 62.38
+  "month_costs": 62.49
  }
 }
