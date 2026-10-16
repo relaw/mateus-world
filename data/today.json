@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T09:03+02:00",
+ "generated_at": "2026-10-16T09:14+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -1889,7 +1889,7 @@
    "agent": null,
    "dur": null,
    "text": "The Black Red White site is merged and live. We're now waiting on results from the team and browser readings.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Стрічку сайту Black Red White об'єднано і опубліковано. Очікуємо на результати команди та дані з браузера.",
    "task": null
   },
   {
@@ -2224,6 +2224,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "09:05",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Lukas's research method was fixed after a failed test: sources with no content now get a consistent reply format with the address and error reason. A new test is running.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 54
+  },
+  {
+   "t": "09:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on Lukas to test the new version and on browser-based checks for stores that block bots.",
+   "text_uk": "Чекаємо на тестування нової версії від Lukas і на перевірку сторінок магазинів, які блокують боти.",
+   "task": null
+  },
+  {
+   "t": "09:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [],
@@ -2231,13 +2258,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -58.98,
+  "week": -59.0,
   "api_budget": 76.92,
-  "api_spent": 57.11,
+  "api_spent": 57.12,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 58.98
+  "month_costs": 59.0
  }
 }
