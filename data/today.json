@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T12:07+02:00",
+ "generated_at": "2026-10-16T12:11+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -305,7 +305,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus submitted a change to tracking: channel and campaign are now recorded after marketing consent. The pull request is waiting for CI and review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus надіслав власну зміну: відстеження каналу та кампанії після згоди на маркетинг. Зміна чекає на автоматичні перевірки та рев'ю.",
    "task": 62
   },
   {
@@ -323,7 +323,7 @@
    "agent": null,
    "dur": null,
    "text": "Lukas is continuing to gather information for the next stores, while a pull request with channel measurement waits for a green CI run.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Лукас продовжує збирати факти для наступних магазинів, а PR із вимірюванням каналів чекає на зелений CI.",
    "task": null
   },
   {
@@ -1277,7 +1277,7 @@
    "agent": null,
    "dur": null,
    "text": "Research tool testing is wrapping up, and fact-gathering for the next batch of stores is underway. Waiting on results.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Команда rindo.pl завершила етап: версія дослідника вже тестується, а дані для наступних магазинів збирають колеги. Чекаємо на результати.",
    "task": null
   },
   {
@@ -1943,7 +1943,7 @@
    "agent": null,
    "dur": null,
    "text": "Lukas is collecting facts from official return policies for the next batch of store pages. Zoe will write the copy, and Nora will review it.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Наступна партія сторінок магазинів на rindo.pl присвячена умовам повернення: Lukas збирає факти з офіційних правил, Zoe пише текст, а Nora перевіряє його.",
    "task": 45
   },
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Мережу партнерська мережа схвалила rindo.pl для однієї з партнерських програм. Це відкриває нові джерела знижкових кодів для сайту. Wait, I must not name affiliate networks or stores/brands. Cocolita is a brand; партнерська мережа is an affiliate network. Rewrite generally. Партнерська мережа схвалила rindo.pl для участі в програмі бренду з ніші краси. Тепер сайт може розміщувати його знижкові коди.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Мережу партнерська мережа схвалила rindo.pl для однієї з партнерських програм. Це відкриває нові джерела знижкових кодів для сайту. Wait, I must not name affiliate networks or stores/brands. Cocolita is a brand; партнерська мережа is an affiliate network. Rewrite generally. Партнерська мережа схвалила rindo.pl для участі в програмі бренду з ніші краси. Тепер сайт може розміщувати його знижкові коди.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -2418,7 +2418,7 @@
    "t": "11:57",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 28,
    "text": "Lukas is compiling facts for an online drugstore's page on rindo.pl, focusing on its returns policy.",
    "text_uk": "Lukas готує список фактів для сторінки онлайн-дрогерії на rindo.pl, зосереджуючись на умовах повернень.",
    "task": 45
@@ -2467,6 +2467,24 @@
    "text": "Mateus added two new brands from an affiliate network to rindo.pl, with outbound links now routed through redirects. The site now lists 101 stores.",
    "text_uk": "Mateus додає на rindo.pl нові бренди: один із сфери краси та мережу книг і медіа, підключені через партнерські програми.",
    "task": 45
+  },
+  {
+   "t": "12:10",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "12:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
