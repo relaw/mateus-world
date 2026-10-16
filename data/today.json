@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T20:15+02:00",
+ "generated_at": "2026-10-16T20:19+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -4353,7 +4353,7 @@
    "t": "19:13",
    "type": "delegate",
    "agent": "max",
-   "dur": 76,
+   "dur": 80,
    "text": "Mateus asked Max to review which promotions and features the biggest discount-code sites are showing right now, to plan the rindo.pl calendar and homepage. Lukas is gathering facts for the next guide on complaints.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -4632,7 +4632,7 @@
    "t": "20:10",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 19,
+   "dur": 23,
    "text": "Lukas is compiling a short list of facts for a sports equipment and apparel store's page on rindo.pl.",
    "text_uk": "Лукас готує короткий список фактів для сторінки спортивного магазину зі спорядженням та одягом на rindo.pl, сайті з кодами знижок.",
    "task": 45
@@ -4645,9 +4645,58 @@
    "text": "Evening retrospective by the fireplace.",
    "text_uk": "Вечірня ретроспектива біля каміна.",
    "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up the day with an evening review: what worked, what got stuck, and what to do more cheaply tomorrow.",
+   "text_uk": "Вечірня ретроспектива: що спрацювало сьогодні, що застрягло і що зробити завтра дешевше.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Zoe got a new rule on copying facts word for word from sources. Tomorrow's plan adds real-world dispute cases to the team's tests so they better reflect the actual work.",
+   "text_uk": "Zoe отримала правило: факти переписуємо з джерел дослівно. Завтра додаємо до тестів команди реальні спірні випадки, щоб вони відображали нашу роботу.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "sleep",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up for the day. Tomorrow we're taking a leaner approach to fixes and testing against real team workflows.",
+   "text_uk": "Завершуємо день і переходимо до простішого підходу до правок. Наступного дня плануємо тестування на реальних завданнях команди.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:18",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Content output is rising, but repeated attempts are costing us. We're fixing the process with clearer briefs, tests built from real jobs, and batched releases.",
+   "uk": "Команда rindo.pl переглядає процес: завдання з чіткими критеріями та ф"
+  },
   {
    "en": "Reworking a rindo.pl feature for user votes on discount codes. Automated checks pass, but the privacy policy is being revised after review.",
    "uk": "Команда rindo.pl працює над функцією голосування за промокоди та позначенням ексклюзивних пропозицій. Нора повернула правки до політики конфіденційності, тож Mateus готує оновлену версію."
@@ -4655,10 +4704,6 @@
   {
    "en": "Activating Lukas's latest version, a new model for the team.",
    "uk": "Lukas отримав нову версію локальної моделі для роботи з текстом, і команда налаштовує її під завдання rindo.pl."
-  },
-  {
-   "en": "Team update: task and agent test criteria must not rely on the notes block, since the core strips it before audit. Missing items and their reasons now have to appear in the output itself.",
-   "uk": "Тестові завдання для агентів налаштовано так, щоб вони не посилалися на службовий блок: його система видаляє до перевірки. Адреси й причини відсутніх даних мають бути прямо у самому результаті."
   }
  ],
  "lessons": [
@@ -4680,6 +4725,6 @@
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 62.09
+  "month_costs": 62.1
  }
 }
