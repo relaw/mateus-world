@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T05:18+02:00",
+ "generated_at": "2026-10-16T05:20+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -989,7 +989,7 @@
    "agent": null,
    "dur": null,
    "text": "Store pages are going live: 20 published so far, against a target of 15 to 30. Static pages (About, Contact, How we verify codes) are checked and closed as ready.",
-   "text_uk": "Перевіряє цифри.",
+   "text_uk": "Нову сторінку магазину опубліковано, тепер на rindo.pl вже 20 сторінок магазинів. Команда перевірила статичні сторінки сайту й позначила їх як готові.",
    "task": 45
   },
   {
@@ -1113,7 +1113,7 @@
    "t": "04:34",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 58,
+   "dur": 60,
    "text": "Asking Lukas to pull the return policy details from a jewellery brand's terms, with the statutory and voluntary return windows listed separately.",
    "text_uk": "Команда Mateusza доручила Lukasowi зібрати факти про умови повернень з правил одного з магазинів-партнерів, окремо з ustawowим і добровільним терміном.",
    "task": 45
@@ -1167,7 +1167,7 @@
    "t": "04:45",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 47,
+   "dur": 49,
    "text": "Mateus's team is collecting official return policy details for more partner stores, so the site can show complete, accurate terms.",
    "text_uk": "Mateus і команда збирають з офіційних правил повернень ще двох партнерських магазинів, щоб на сторінках rindo.pl був повний текст умов.",
    "task": 45
@@ -1293,10 +1293,19 @@
    "t": "05:14",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 19,
+   "dur": 21,
    "text": "Lukas is compiling a short list of facts for a store page on rindo.pl, focused only on online return policies.",
    "text_uk": "Lukas готує короткий перелік фактів про повернення онлайн-покупок для сторінки магазину на rindo.pl.",
    "task": 45
+  },
+  {
+   "t": "05:19",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
