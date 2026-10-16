@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T19:48+02:00",
+ "generated_at": "2026-10-16T19:59+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -4353,7 +4353,7 @@
    "t": "19:13",
    "type": "delegate",
    "agent": "max",
-   "dur": 50,
+   "dur": 60,
    "text": "Mateus asked Max to review which promotions and features the biggest discount-code sites are showing right now, to plan the rindo.pl calendar and homepage. Lukas is gathering facts for the next guide on complaints.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -4434,7 +4434,7 @@
    "t": "19:30",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 33,
+   "dur": 44,
    "text": "Lukas is compiling a short list of facts on purchase returns for a drugstore chain's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів для сторінки однієї з аптечних мереж на rindo.pl, зосереджений лише на умовах повернення покупок.",
    "task": 45
@@ -4501,6 +4501,78 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "19:51",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus has submitted a new guide on how to file an online purchase complaint, step by step. It's waiting for automated checks and review.",
+   "text_uk": "Mateus готує новий посібник на rindo.pl: як крок за кроком подати рекламацію на онлайн-покупку. Зміни чекають на перевірку.",
+   "task": 45
+  },
+  {
+   "t": "19:53",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus has submitted a revised guide on how to file an online shopping complaint, step by step. It's waiting on automated checks and review.",
+   "text_uk": "Mateus підготував нову версію гайда про повернення та рекламації онлайн-покупок. Зміна очікує на автоматичні перевірки та огляд.",
+   "task": 45
+  },
+  {
+   "t": "19:54",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 3,
+   "text": "Zoe is writing the store page copy for a sporting goods retailer on rindo.pl, our discount-code site for Polish online shops.",
+   "text_uk": "Zoe пише текст для сторінки спортивного магазину на rindo.pl, де зібрано промокоди для інтернет-магазинів у Польщі.",
+   "task": 45
+  },
+  {
+   "t": "19:54",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "New guide on returning faulty goods went live on rindo.pl. Every fact was checked against official consumer protection sources, after two rounds of edits. The team is moving on to the next store page.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 45
+  },
+  {
+   "t": "19:54",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The guide block is finished: the article has been approved and sent for merging, and the next pieces are queued for the team.",
+   "text_uk": "Посібник затверджено й передано на злиття: наступні тексти чекають у черзі команди.",
+   "task": null
+  },
+  {
+   "t": "19:54",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "A draft guide on handling online shopping complaints was closed without merging, and the team is reviewing it before publishing a new version.",
+   "text_uk": "Mateus закрив без злиття зміни до посібника з оформлення рекламації онлайн-покупок. Матеріал поки що не з'явиться на rindo.pl.",
+   "task": 45
+  },
+  {
+   "t": "19:54",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "19:54",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus and his team are updating the rindo.pl guide on how to file a complaint for online purchases, step by step.",
+   "text_uk": "Mateus оновлює на rindo.pl посібник про те, як подати рекламацію на онлайн-покупку крок за кроком.",
+   "task": 45
   }
  ],
  "plan": [
@@ -4529,13 +4601,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -61.72,
+  "week": -61.82,
   "api_budget": 76.92,
-  "api_spent": 59.49,
+  "api_spent": 59.58,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 61.72
+  "month_costs": 61.82
  }
 }
