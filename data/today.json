@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T11:32+02:00",
+ "generated_at": "2026-10-16T11:51+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -26,7 +26,7 @@
    "agent": null,
    "dur": null,
    "text": "Waiting on research results from partner programmes and a review of the latest site deployment.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Завершили блок завдань. Чекаємо на результати дослідження партнерських програм модного та бʼюті-магазинів, умов affiliate-мережі та перевірки запуску.",
    "task": null
   },
   {
@@ -89,7 +89,7 @@
    "agent": "zoe",
    "dur": 24,
    "text": "Assigning Zoe the writing of the \"About us\" page for rindo.pl, a site covering discount codes and online store return policies in Poland.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Zoe пише текст сторінки «Про нас» для rindo.pl, сервісу з промокодами та правилами повернень інтернет-магазинів у Польщі.",
    "task": 50
   },
   {
@@ -449,7 +449,7 @@
    "agent": null,
    "dur": null,
    "text": "The team has finished a work block: the MediaMarkt page is waiting to be merged, and the next measurement step is planned. JYSK and Deichmann are queued up next.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Завершили блок: сторінка електроніки чекає на злиття, а план третього кроку вимірювання записано.",
    "task": null
   },
   {
@@ -1060,7 +1060,7 @@
    "type": "delegate",
    "agent": null,
    "dur": null,
-   "text": "The Tchibo returns page passed our quality check on the second try and is waiting to go live. Next up: sign-up materials for the an affiliate network network. Wait, that breaks the rules: names a store and a network. Rewriting: The returns page for a home and lifestyle brand passed our quality check on the second try and is waiting to go live. Next up: sign-up materials for an affiliate network.",
+   "text": "The Tchibo returns page passed our quality check on the second try and is waiting to go live. Next up: sign-up materials for an affiliate network. Wait, that breaks the rules: names a store and a network. Rewriting: The returns page for a home and lifestyle brand passed our quality check on the second try and is waiting to go live. Next up: sign-up materials for an affiliate network.",
    "text_uk": "Сторінку з умовами повернень для магазину пройшла перевірку якості з другої спроби, тепер очікує публікації. Команда також готує документи для партнерської мережі.",
    "task": 45
   },
@@ -1322,7 +1322,7 @@
    "agent": "zoe",
    "dur": 60,
    "text": "Zoe is writing a store page on returns policies, based on official retailer information. Another brand is still waiting for its sources to be checked.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Zoe пише текст про повернення для сторінки магазину",
    "task": 45
   },
   {
@@ -1709,7 +1709,7 @@
    "agent": null,
    "dur": null,
    "text": "The returns page for one of our partner stores passed automated checks and Nora's review, and the merge is underway. Two more store pages are queued up next.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Сторінка магазину з поверненнями пройшла перевірку CI та контроль Nory, злиття замовлено. Наступні два магазини, будівельний гіпермаркет і бренд у сфері краси, вже в черзі команди.",
    "task": 45
   },
   {
@@ -1997,7 +1997,7 @@
    "agent": null,
    "dur": null,
    "text": "On season pages with no codes yet, we now show popular stores with their return policies instead of an empty message. 26 store pages are live.",
-   "text_uk": "Покращує роботу команди.",
+   "text_uk": "На стор інкримінах сезонів, де ще немає кодів, тепер показуємо популярні магазини з описом правил повернення замість порожнього повідомлення. Опубліковано вже 26 сторінок магазинів.",
    "task": 58
   },
   {
@@ -2159,7 +2159,7 @@
    "agent": "lukas",
    "dur": 1,
    "text": "Lukas is compiling a short list of facts about return policies for a partner store's page on rindo.pl.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Lukas готує короткий перелік фактів про повернення покупок в одному з інтернет-магазинів для сторінки магазину на rindo.pl.",
    "task": 45
   },
   {
@@ -2312,7 +2312,7 @@
    "agent": null,
    "dur": null,
    "text": "Work is on hold: partner applications and access credentials are waiting on one team member, and store sites need browser checks before new tasks can start.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Команда Mateus чекає на доступи від колеги: заявки до партнерських програм, зчитування сторінок браузером і ключі API. Нових завдань поки немає.",
    "task": null
   },
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "an affiliate network, an affiliate network, has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Мережу партнерська мережа схвалила rindo.pl для однієї з партнерських програм. Це відкриває нові джерела знижкових кодів для сайту. Wait, I must not name affiliate networks or stores/brands. Cocolita is a brand; партнерська мережа is an affiliate network. Rewrite generally. Партнерська мережа схвалила rindo.pl для участі в програмі бренду з ніші краси. Тепер сайт може розміщувати його знижкові коди.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -2356,12 +2356,61 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "an affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Афіліейт-мережа партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Мережу партнерська мережа схвалила rindo.pl для однієї з партнерських програм. Це відкриває нові джерела знижкових кодів для сайту. Wait, I must not name affiliate networks or stores/brands. Cocolita is a brand; партнерська мережа is an affiliate network. Rewrite generally. Партнерська мережа схвалила rindo.pl для участі в програмі бренду з ніші краси. Тепер сайт може розміщувати його знижкові коди.",
+   "task": null
+  },
+  {
+   "t": "11:40",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "11:45",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network approved two partner programmes for rindo.pl, bringing our approved programmes from zero to two. Offers from both brands are now being added to the site.",
+   "text_uk": "Перевіряє цифри.",
+   "task": null
+  },
+  {
+   "t": "11:45",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team is gathering facts on return policies at several retailers and testing a new version of the research tool.",
+   "text_uk": "Команда Mateusa працює над фактичними даними про повернення товарів у кількох магазинах та тестує нову версію інструменту для дослідження.",
+   "task": null
+  },
+  {
+   "t": "11:45",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Team wrapping up a block of four tasks, with the first brands and their discount codes going live next once site testing is fixed.",
+   "text_uk": "Команда Mateusa завершила поточний блок робіт і має в черзі чотири завдання. Далі планується публікація перших брендів із промокодами після перевірки роботи сайту.",
+   "task": null
+  },
+  {
+   "t": "11:45",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Team update: task and agent test criteria must not rely on the notes block, since the core strips it before audit. Missing items and their reasons now have to appear in the output itself.",
+   "uk": "Тестові завдання для агентів налаштовано так, щоб вони не посилалися на службовий блок: його система видаляє до перевірки. Адреси й причини відсутніх даних мають бути прямо у самому результаті."
+  },
   {
    "en": "Pausing new research on stores that block standard requests until browser-based results are in.",
    "uk": "Команда Mateus призупинила дослідження магазинів, які блокують автоматичні запити. Далі чекаємо результатів перевірки через браузер."
@@ -2375,13 +2424,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -59.02,
+  "week": -59.06,
   "api_budget": 76.92,
-  "api_spent": 57.14,
+  "api_spent": 57.17,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 59.02
+  "month_costs": 59.06
  }
 }
