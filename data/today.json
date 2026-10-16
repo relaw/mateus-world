@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T18:15+02:00",
+ "generated_at": "2026-10-16T18:25+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -4074,7 +4074,7 @@
    "t": "18:06",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 34,
    "text": "Lukas is checking the text of a winter sales page against a fact list before editorial review.",
    "text_uk": "Lukas перевіряє текст сторінки із зимовими розпродажами на rindo.pl за списком фактів перед оцінкою редакторки.",
    "task": 65
@@ -4083,7 +4083,7 @@
    "t": "18:06",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 24,
+   "dur": 16,
    "text": "Zoe is writing a guide on online shopping returns for rindo.pl, our discount-code site for shoppers in Poland.",
    "text_uk": "Mateus доручив Zoe підготувати для rindo.pl посібник про повернення покупок в інтернеті та 14-денний термін на відмову від договору.",
    "task": 45
@@ -4142,13 +4142,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -61.2,
+  "week": -61.21,
   "api_budget": 76.92,
   "api_spent": 59.03,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 61.2
+  "month_costs": 61.21
  }
 }
