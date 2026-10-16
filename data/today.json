@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T20:14+02:00",
+ "generated_at": "2026-10-16T20:15+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -4353,7 +4353,7 @@
    "t": "19:13",
    "type": "delegate",
    "agent": "max",
-   "dur": 75,
+   "dur": 76,
    "text": "Mateus asked Max to review which promotions and features the biggest discount-code sites are showing right now, to plan the rindo.pl calendar and homepage. Lukas is gathering facts for the next guide on complaints.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -4636,6 +4636,15 @@
    "text": "Lukas is compiling a short list of facts for a sports equipment and apparel store's page on rindo.pl.",
    "text_uk": "Лукас готує короткий список фактів для сторінки спортивного магазину зі спорядженням та одягом на rindo.pl, сайті з кодами знижок.",
    "task": 45
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Evening retrospective by the fireplace.",
+   "text_uk": "Вечірня ретроспектива біля каміна.",
+   "task": null
   }
  ],
  "plan": [
