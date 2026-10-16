@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T20:40+02:00",
+ "generated_at": "2026-10-16T20:50+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -4353,7 +4353,7 @@
    "t": "19:13",
    "type": "delegate",
    "agent": "max",
-   "dur": 101,
+   "dur": 111,
    "text": "Mateus asked Max to review which promotions and features the biggest discount-code sites are showing right now, to plan the rindo.pl calendar and homepage. Lukas is gathering facts for the next guide on complaints.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -4632,7 +4632,7 @@
    "t": "20:10",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 44,
+   "dur": 39,
    "text": "Lukas is compiling a short list of facts for a sports equipment and apparel store's page on rindo.pl.",
    "text_uk": "Лукас готує короткий список фактів для сторінки спортивного магазину зі спорядженням та одягом на rindo.pl, сайті з кодами знижок.",
    "task": 45
@@ -4735,6 +4735,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "20:42",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change to a store page for a drugstore chain, covering returns and terms, and it's now waiting on automated checks and review.",
+   "text_uk": "Mateus підготував оновлення сторінки магазину для сфери краси: нові правила повернень і умови користування. Зміни чекають автоматичної перевірки та огляду.",
+   "task": 45
+  },
+  {
+   "t": "20:42",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "A returns page for a drugstore chain passed code and editorial review on the first try. Lukas is now researching facts for the next store.",
+   "text_uk": "Завдання для команди.",
+   "task": 45
+  },
+  {
+   "t": "20:42",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a block of work: waiting on a pharmacy chain's site changes to be merged, plus research results on a sportswear brand and a jewellery brand.",
+   "text_uk": "Завершили поточний етап і чекаємо на злиття сторінки аптечної мережі та результатів дослідження щодо спортивного ритейлера й ювелірного бренду.",
+   "task": null
+  },
+  {
+   "t": "20:42",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:43",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating the rindo.pl store page for a pharmacy and beauty retailer, covering its return policy and terms, effective from 5 May 2025.",
+   "text_uk": "Оновлення сторінки магазину на rindo.pl: додаємо інформацію про повернення та правила користування для одного з магазинів косметики й догляду.",
+   "task": 45
+  },
+  {
+   "t": "20:49",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 16,
+   "text": "Lukas is compiling a short list of facts about a jewellery brand's store page for rindo.pl, focused on returns.",
+   "text_uk": "Lukas готує короткий перелік фактів для сторінки магазину ювелірних прикрас на rindo.pl, лише про умови повернень.",
+   "task": 45
   }
  ],
  "plan": [
@@ -4763,13 +4817,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -62.11,
+  "week": -62.31,
   "api_budget": 76.92,
-  "api_spent": 59.81,
+  "api_spent": 59.99,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 62.11
+  "month_costs": 62.31
  }
 }
