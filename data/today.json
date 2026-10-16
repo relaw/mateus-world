@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T02:38+02:00",
+ "generated_at": "2026-10-16T02:49+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -96,7 +96,7 @@
    "t": "00:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 158,
+   "dur": 169,
    "text": "Zoe is writing the \"About us\" page using only verified company facts and site rules. Lukas is working through the next stores and affiliate terms, since some sites block scraping.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -654,7 +654,7 @@
    "t": "02:24",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 29,
+   "dur": 40,
    "text": "Lukas is gathering facts about online return policies for a major appliance brand's store, to feature on rindo.pl's discount-code pages.",
    "text_uk": "Мateus, ні, пишу правильно: Mateus. Зауважу лише, що в нотатці назви магазинів і домени не можна згадувати публічно. Ось оновлення українською: Lukas gathers facts about return policies for online purchases, to help Mateus and his team add accurate details to the discount-code pages on rindo.pl.",
    "task": 45
@@ -710,7 +710,7 @@
    "agent": null,
    "dur": null,
    "text": "Waiting on partner results from Lukas for a few brands, and preparing the Deichmann rollout.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Чекаємо на результати Lukasa з двох брендів і готуємо запуск нового партнера, Deichmann, на rindo.pl.",
    "task": null
   },
   {
@@ -738,6 +738,33 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "02:38",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "A store page is live on rindo.pl, with 18 brand pages published so far. The team is also reviewing two affiliate network policies.",
+   "text_uk": "Нова сторінка магазину вже прац",
+   "task": 45
+  },
+  {
+   "t": "02:39",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on Lukas's results from reviewing two affiliate network terms, while the team works through a full queue of store checks.",
+   "text_uk": "Чекаємо на результати Lukas щодо партнерських програм. Команда має повну чергу завдань, а частина магазинів очікує на перевірку в браузері.",
+   "task": null
+  },
+  {
+   "t": "02:39",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
