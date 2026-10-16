@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T04:08+02:00",
+ "generated_at": "2026-10-16T04:19+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -818,7 +818,7 @@
    "agent": null,
    "dur": null,
    "text": "Waiting on network documents from Lukas and a merge of the Dyson page, with stores that block scraping pending a browser-based check.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Mateus і команда чекають на результати документів від Lukas щодо партнерських мереж і на злиття сторінки бренду Dyson. Магазини з обмеженим завантаженням очікують на перевірку в браузері. Wait, I must avoid naming the brand. Also \"Dyson\" is a brand, so must replace with general term. And \"Lukas\" should keep Latin script (it's in name list). Let me rewrite.",
    "task": null
   },
   {
@@ -924,7 +924,7 @@
    "t": "03:50",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 33,
+   "dur": 28,
    "text": "Lukas is compiling a short list of facts about return policies for a store page on rindo.pl.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -982,6 +982,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "04:08",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Store pages are going live: 20 published so far, against a target of 15 to 30. Static pages (About, Contact, How we verify codes) are checked and closed as ready.",
+   "text_uk": "Перевіряє цифри.",
+   "task": 45
+  },
+  {
+   "t": "04:08",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Team is busy researching new partner brands, with no fresh facts for articles yet. Waiting on results.",
+   "text_uk": "Команда Mateus зараз займається дослідженням: Lukas працює над матеріалами для партнерських програм. Нових фактів для текстів поки немає, чекаємо на результати.",
+   "task": null
+  },
+  {
+   "t": "04:08",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "04:18",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 16,
+   "text": "Lukas is summarizing an affiliate network's paid search code of conduct for our partner programme dossier.",
+   "text_uk": "Lukas готує короткий огляд правил пошукової реклами однієї з партнерських мереж для досьє rindo.pl.",
+   "task": 60
+  },
+  {
+   "t": "04:18",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
@@ -989,13 +1034,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -58.12,
+  "week": -58.35,
   "api_budget": 76.92,
-  "api_spent": 56.48,
+  "api_spent": 56.67,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 58.12
+  "month_costs": 58.35
  }
 }
