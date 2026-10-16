@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T18:38+02:00",
+ "generated_at": "2026-10-16T18:48+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -4137,7 +4137,7 @@
    "t": "18:27",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 25,
+   "dur": 12,
    "text": "Lukas is checking the rindo.pl guide on online returns against the fact list before the editor reviews it.",
    "text_uk": "Lukas перевіряє текст гайду про повернення онлайн-покупок для rindo.pl за списком фактів перед оцінкою редакторки.",
    "task": 45
@@ -4177,6 +4177,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "18:42",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus pushed a change adding seasonal sections for Black Week and the December sales, plus a new winter sales page. It's waiting for automated checks and review.",
+   "text_uk": "Mateus надіслав власну зміну для сезонних акцій: розділ Black Week та знижок 10-20.12 і нову сторінку зимового розпродажу. Зміна очікує на перевірку.",
+   "task": 65
+  },
+  {
+   "t": "18:43",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a pull request without merging it. It covered seasonal sections for Black Week and the December sales, plus a new winter sales page.",
+   "text_uk": "Mateus і команда відклали зміни щодо сезонних розділів: Black Week, знижки з 10 по 20 грудня та нова сторінка зим",
+   "task": 65
+  },
+  {
+   "t": "18:44",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus has submitted a new update to the seasonal sections of rindo.pl: a Black Week and December sale section, plus a winter sales page. The change is waiting on automated checks and review.",
+   "text_uk": "Mateus оновлює сезонні акції на rindo.pl: Black Week, знижки з 10 по 20 грудня та сторінку зимових розпродажів.",
+   "task": 65
+  },
+  {
+   "t": "18:45",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team has set up a winter sales page and new sections on Black Friday week and pre-Christmas markdowns on rindo.pl, with dates taken from public listings and a note that retailers set the final timing.",
+   "text_uk": "Ми додали на rindo.pl сторінку про зимові розпродажі 2026/27 та нові розділи про Black Week і передноворічні знижки. Дати взято зі зведень порталів, а остаточні терміни визначає магазин.",
+   "task": 65
+  },
+  {
+   "t": "18:45",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team wrapped up a work block: seasonal content is merged and a returns guide is awaiting review. The next block picks up from the latest results.",
+   "text_uk": "Завершено блок роботи: сезонні сторінки об'єднано, посібник про повернення товару чекає на перевірку. Далі продовжуємо від результату попереднього завдання.",
+   "task": null
+  },
+  {
+   "t": "18:45",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "18:46",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is working on rindo.pl, adding seasonal sections for Black Week and the winter sales period, plus a dedicated winter sales page.",
+   "text_uk": "Mateus оновлює rindo.pl: сезонні розділи до Black Week, знижки з 10 по 20 грудня та нова сторінка зимових розпродажів 2026/27.",
+   "task": 65
   }
  ],
  "plan": [
@@ -4205,13 +4268,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -61.33,
+  "week": -61.49,
   "api_budget": 76.92,
-  "api_spent": 59.14,
+  "api_spent": 59.3,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 61.33
+  "month_costs": 61.49
  }
 }
