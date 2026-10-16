@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T00:23+02:00",
+ "generated_at": "2026-10-17T00:25+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -51,7 +51,7 @@
    "t": "00:08",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 30,
+   "dur": 32,
    "text": "Zoe is writing the page copy for a women's fashion store on rindo.pl, our discount-code site for Polish online shops.",
    "text_uk": "Zoe пише текст сторінки магазину жіночого одягу для rindo.pl, сайту з кодами знижок для польських інтернет-магазинів.",
    "task": 45
@@ -105,9 +105,18 @@
    "t": "00:17",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 21,
+   "dur": 23,
    "text": "Zoe is writing the store page copy for a women's fashion retailer on rindo.pl, our discount-code site for Polish online shops.",
    "text_uk": "Zoe пише текст сторінки магазину жіночого одягу для rindo.pl, сайту зі знижковими кодами для інтернет-магазинів у Польщі.",
+   "task": 45
+  },
+  {
+   "t": "00:25",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 15,
+   "text": "Zoe is writing the page copy for a women's clothing store on rindo.pl, our discount-code site for Polish online shops.",
+   "text_uk": "Zoe пише текст для сторінки магазину жіночого одягу на rindo.pl, сайті промокодів для інтернет-магазинів у Польщі.",
    "task": 45
   }
  ],
