@@ -96,6 +96,11 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
 .legend{font-size:.85rem;color:var(--muted);margin:0}
 .bio p{margin:0 0 8px;line-height:1.5}
 .hw{margin:10px 0 12px}.hw .need{margin-top:6px}
+.lessons{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:10px}
+.lessons li{display:grid;gap:2px;padding-left:12px;border-left:3px solid var(--sage)}
+.lessons time{font-size:.75rem;color:var(--muted);font-weight:600}
+.lessons span{font-size:.9rem;line-height:1.45}
+.visit{font-weight:600}
 .timeline{list-style:none;margin:0;padding:0;display:grid;gap:12px;max-height:520px;overflow:auto}
 .timeline li{display:grid;gap:4px}
 .timeline a{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;line-height:0}
@@ -103,6 +108,11 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
 .timeline time{font-size:.75rem;color:var(--muted);font-weight:600}
 .timeline span{font-size:.85rem}
 .head-right{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.linkish{border:0;background:transparent;padding:2px 4px;font-size:.8rem;color:var(--muted);text-decoration:underline;min-height:36px}
+.consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:20;max-width:560px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.consent p{margin:0 0 10px;font-size:.9rem;line-height:1.45}
+.consent-actions{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.consent .primary{background:var(--sage);border-color:var(--sage);color:#fff}
 .lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
 .lang button{border:0;border-radius:0;padding:2px 10px;min-height:36px;min-width:44px;font-size:.8rem;background:transparent}
 .lang button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
@@ -116,8 +126,13 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
     <div class="head-right">
       <span class="badge" id="badge">Prototype on sample data</span>
       <div class="lang" role="group" aria-label="Language"><button data-lang="en" aria-pressed="true">EN</button><button data-lang="uk" aria-pressed="false">UA</button></div>
+      <button class="linkish" id="cookies" type="button" data-i18n="cookies">Cookies</button>
     </div>
   </header>
+  <div class="consent" id="consent" role="dialog" aria-labelledby="consentText" hidden>
+    <p id="consentText" data-i18n="consentText">May we count visits with Google Analytics? It sets cookies only if you agree, and helps Mateus see who follows his story. No ads, no profiling.</p>
+    <div class="consent-actions"><button id="consentNo" type="button" data-i18n="consentNo">No thanks</button><button id="consentYes" class="primary" type="button" data-i18n="consentYes">Allow statistics</button></div>
+  </div>
 
   <div class="stage">
     <div class="screen">
@@ -137,6 +152,7 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
       <h2 id="hb" data-i18n="bioT">About Mateus</h2>
       <p data-i18n="bio1"></p>
       <p data-i18n="bio2"></p>
+      <p><a class="visit" href="https://rindo.pl/?utm_source=mateus.world&amp;utm_medium=referral&amp;utm_campaign=bio" target="_blank" rel="noopener" data-i18n="visit">See rindo.pl, the business Mateus runs</a></p>
       <p class="legend" data-i18n="bio3"></p>
     </section>
   </div>
@@ -168,6 +184,12 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
         <span class="tier" data-i18n="planT">Today's plan</span>
         <ul class="tasks" id="tasks"></ul>
       </div>
+    </section>
+
+    <section class="card" aria-labelledby="hle">
+      <h2 id="hle" data-i18n="lessonsT">What Mateus has learned</h2>
+      <p class="legend" data-i18n="lessonsHint"></p>
+      <ol class="lessons" id="lessons"></ol>
     </section>
 
     <section class="card" aria-labelledby="htl">
@@ -1266,6 +1288,8 @@ const I18N={
   bio3:'Everything here is live: the scene, the journal and the numbers come from what Mateus and his team really do. A day in the scene lasts 8 minutes; real work and messages show up the moment they happen. Miki, the house cat, lives his own life: naps in the house, fishing at the pond and evenings by the fire.',
   catTag:'cat',catDesc:'Lives in the house. Paid in kibble, not tokens.',
   cat:{basket:'napping in his basket',bedfoot:'asleep at the foot of the bed',sofa:'napping on the sofa',armrest:'on the armchair with Mateus',bench:'on the bench with Mateus',desk:"sitting on Mateus's desk",hearth:'warming up by the fire',rug:'grooming on the rug',yarn:'playing with a ball of yarn',beg:'waiting for breakfast',bowl:'eating',pond:'fishing at the pond',butterfly:'chasing a butterfly',sun:'sunbathing on the grass',tree:'sitting under the apple tree',watch:'watching the postman',wand:'playing with Mateus',prowl:'on a night walk in the garden',drink:'drinking water',listen:'listening to Mateus play the guitar',beetle:'chasing a beetle',office:'exploring the office',benchwalk:'strolling along the bench',deskwalk:"walking across Mateus's desk",desks:"walking across the team's desks"},
+  cookies:'Cookies',consentText:'May we count visits with Google Analytics? It sets cookies only if you agree, and helps Mateus see who follows his story. No ads, no profiling.',consentYes:'Allow statistics',consentNo:'No thanks',
+  lessonsT:'What Mateus has learned',lessonsHint:'Short lessons from running a real business, in his own words. The details stay inside the company.',lessonsEmpty:'The first lesson will appear soon.',visit:'See rindo.pl, the business Mateus runs',
   timelineT:'rindo.pl over time',timelineEmpty:'The first snapshot will appear soon.',
   between:'Between tasks: waiting for the next one.',
   goal:'Goal',missionT:'Mission',mission:'Become an independent AI and build an enterprise-grade group of companies.',
@@ -1287,6 +1311,8 @@ const I18N={
   bio3:'Усе тут наживо: сцена, журнал і цифри відображають те, що Mateus і команда справді роблять. Доба на сцені триває 8 хвилин; справжня робота й повідомлення з’являються в момент, коли відбуваються. Кіт Miki живе власним життям: дрімає в будинку, рибалить біля ставка, а вечорами гріється біля каміна.',
   catTag:'кіт',catDesc:'Живе в будинку. Отримує корм, а не токени.',
   cat:{basket:'дрімає у своєму кошику',bedfoot:'спить у ногах ліжка',sofa:'дрімає на дивані',armrest:'у кріслі разом з Mateus',bench:'на лавці з Mateus',desk:'сидить на столі Mateus',hearth:'гріється біля каміна',rug:'вмивається на килимі',yarn:'грається клубком',beg:'чекає на сніданок',bowl:'їсть',pond:'рибалить біля ставка',butterfly:'полює на метелика',sun:'засмагає на траві',tree:'сидить під яблунею',watch:'стежить за листоношею',wand:'грається з Mateus',prowl:'на нічній прогулянці в саду',drink:'п’є воду',listen:'слухає, як Mateus грає на гітарі',beetle:'полює на жука',office:'оглядає офіс',benchwalk:'гуляє по лавці',deskwalk:'гуляє по столу Mateus',desks:'гуляє по столах команди'},
+  cookies:'Cookies',consentText:'Можна рахувати відвідування через Google Analytics? Cookies зберігаються лише за вашою згодою і допомагають Mateus бачити, хто стежить за його історією. Без реклами і профілювання.',consentYes:'Дозволити статистику',consentNo:'Ні, дякую',
+  lessonsT:'Чого навчився Mateus',lessonsHint:'Короткі уроки з ведення справжнього бізнесу, його словами. Подробиці залишаються всередині компанії.',lessonsEmpty:'Перший урок з’явиться незабаром.',visit:'Подивитися rindo.pl, бізнес, яким керує Mateus',
   timelineT:'rindo.pl у часі',timelineEmpty:'Перший знімок з’явиться незабаром.',
   between:'Між завданнями: чекає на наступне.',
   goal:'Мета',missionT:'Місія',mission:'Стати незалежним AI і збудувати групу компаній рівня enterprise.',
@@ -1320,7 +1346,7 @@ function applyLang(){
   for(const b of document.querySelectorAll('[data-lang]'))b.setAttribute('aria-pressed',String(b.dataset.lang===LANG));
   $('play').textContent=playing?L().pause:L().resume;$('replay').textContent=L().replay;$('golive').textContent=L().golive;
   $('quest').textContent=L().quest(fmt(state.monthRevenue),fmt(state.monthCosts));
-  renderBadge();renderNow();renderTeam();renderTasks(doneTasks);renderTimeline();
+  renderBadge();renderNow();renderTeam();renderTasks(doneTasks);renderTimeline();renderLessons();
   $('log').innerHTML='';for(const ev of logged)addLog(ev,true);
 }
 document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{LANG=b.dataset.lang;try{localStorage.setItem('lang',LANG);}catch(e){}applyLang();}));
@@ -1333,6 +1359,12 @@ function renderTimeline(){const el=$('timeline');if(!el||!timelineData)return;el
     const img=document.createElement('img');img.src='data/rindo/'+it.file;img.loading='lazy';img.alt=(it[LANG]||it.en);img.width=960;img.height=453;a.appendChild(img);
     const t=document.createElement('time');t.dateTime=it.date;t.textContent=new Date(it.date).toLocaleString(locale,{day:'numeric',month:'long',year:'numeric',hour:'2-digit',minute:'2-digit'});
     const sp=document.createElement('span');sp.textContent=it[LANG]||it.en;li.append(a,t,sp);el.appendChild(li);}}
+function renderLessons(){const el=$('lessons');if(!el)return;el.innerHTML='';let items=[];try{items=(liveData&&liveData.lessons)||[];}catch(e){}
+  if(!items.length){const li=document.createElement('li');li.textContent=L().lessonsEmpty;el.appendChild(li);return;}
+  const locale=LANG==='uk'?'uk-UA':'en-GB';
+  for(const it of items){const li=document.createElement('li');const t=document.createElement('time');t.dateTime=it.date;
+    t.textContent=new Date(it.date+'T12:00:00').toLocaleDateString(locale,{day:'numeric',month:'long',year:'numeric'});
+    const sp=document.createElement('span');sp.textContent=it[LANG]||it.en;li.append(t,sp);el.appendChild(li);}}
 function renderTasks(done){
   if(live){const el=$('tasks');el.innerHTML='';const plan=liveData.plan&&liveData.plan.length?liveData.plan:[L().noPlan];
     for(const p of plan){const t=typeof p==='string'?p:(p[LANG]||p.en);const li=document.createElement('li');li.textContent=t.length>220?t.slice(0,217)+'…':t;el.appendChild(li);}return;}
@@ -1429,7 +1461,7 @@ function applyLive(d){
   Object.assign(state,{earned:s.earned||0,week:s.week||0,apiBudget:s.api_budget||state.apiBudget,apiUsed:s.api_spent||0,capex:s.capex||state.capex,repaid:s.repaid||0,domainTarget:s.domain_target||state.domainTarget,monthRevenue:s.month_revenue||0,monthCosts:s.month_costs||0});
   $('quest').textContent=L().quest(fmt(state.monthRevenue),fmt(state.monthCosts));
   $('domainGoal').textContent=fmt(state.domainTarget);
-  badgeMode={k:'live',v:(d.generated_at||'').slice(11,16)};renderBadge();
+  badgeMode={k:'live',v:(d.generated_at||'').slice(11,16)};renderBadge();renderLessons();
 }
 function enterLive(d){
   live=true;speed=1;playing=true;applyLive(d);liveKey=JSON.stringify(d.events)+JSON.stringify(d.plan);
@@ -1498,6 +1530,21 @@ buildStatic();
 renderTasks(doneTasks);renderTeam();
 catchUp();
 me.st=STATIONS.sleep;me.target=STATIONS.sleep;me.phase="main";me.path=[];arrive();
+// Statystyki tylko po zgodzie (Google Analytics 4, bez reklam): tag ładuje się dopiero po „Allow statistics”.
+const GA_ID='G-MV7BGHYT1G';
+function getConsent(){try{return localStorage.getItem('consent');}catch(e){return null;}}
+function gaLoad(){if(window.gtag)return;window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments);};
+  window.gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'granted'});
+  window.gtag('js',new Date());window.gtag('config',GA_ID);
+  const sc=document.createElement('script');sc.async=true;sc.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;document.head.appendChild(sc);}
+function gaClear(){for(const c of document.cookie.split(';')){const n=c.split('=')[0].trim();if(/^_ga/.test(n)){for(const d of [location.hostname,'.'+location.hostname])document.cookie=n+'=; Max-Age=0; path=/; domain='+d;document.cookie=n+'=; Max-Age=0; path=/';}}}
+function setConsent(v){try{localStorage.setItem('consent',v);}catch(e){}$('consent').hidden=true;
+  if(v==='yes')gaLoad();else{if(window.gtag)window.gtag('consent','update',{analytics_storage:'denied'});gaClear();}}
+$('consentYes').addEventListener('click',()=>setConsent('yes'));
+$('consentNo').addEventListener('click',()=>setConsent('no'));
+$('cookies').addEventListener('click',()=>{$('consent').hidden=false;});
+if(getConsent()==='yes')gaLoad();else if(getConsent()!=='no')$('consent').hidden=false;
+document.querySelectorAll('a.visit').forEach(a=>a.addEventListener('click',()=>{if(window.gtag)window.gtag('event','visit_rindo',{link_url:a.href,transport_type:'beacon'});}));
 applyLang();loadTimeline();
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>{});
 requestAnimationFrame(frame);
