@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T21:40+02:00",
+ "generated_at": "2026-10-16T21:44+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -4353,7 +4353,7 @@
    "t": "19:13",
    "type": "delegate",
    "agent": "max",
-   "dur": 161,
+   "dur": 166,
    "text": "Mateus asked Max to review which promotions and features the biggest discount-code sites are showing right now, to plan the rindo.pl calendar and homepage. Lukas is gathering facts for the next guide on complaints.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -4938,7 +4938,7 @@
    "t": "21:34",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 20,
+   "dur": 25,
    "text": "The team picked up three more store pages to write, using facts drawn from each store's official terms and conditions.",
    "text_uk": "Команда Mateus готує нові сторінки магазинів для rindo.pl на основі офіційних правил акцій: магазин косметики, магазин товарів для дому та магазин преміум-косметики.",
    "task": 45
@@ -4965,10 +4965,19 @@
    "t": "21:37",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 17,
+   "dur": 21,
    "text": "Zoe is writing store page copy for a home improvement store on rindo.pl, the discount-code site.",
    "text_uk": "Mateus доручив Zoe написати текст сторінки магазину товарів для будівництва та дому на rindo.pl, сайті з промокодами для інтернет-магазинів у Польщі.",
    "task": 45
+  },
+  {
+   "t": "21:44",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
