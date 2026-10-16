@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T14:57+02:00",
+ "generated_at": "2026-10-16T15:07+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2517,7 +2517,7 @@
    "t": "12:17",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 174,
+   "dur": 185,
    "text": "Lukas is compiling a list of facts on online returns for a consumer electronics store's page on rindo.pl.",
    "text_uk": "Lukas збирає факти про повернення онлайн-покупок для сторінки магазину електроніки на rindo.pl.",
    "task": 45
@@ -2526,7 +2526,7 @@
    "t": "12:17",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 174,
+   "dur": 185,
    "text": "Lukas is compiling a fact sheet on online return policies for a store's page on rindo.pl.",
    "text_uk": "Лукас отримав завдання зібрати факти про повернення онлайн-покупок для сторінки магазину на rindo.pl.",
    "task": 45
@@ -2544,7 +2544,7 @@
    "t": "12:22",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 170,
+   "dur": 180,
    "text": "Zoe is writing the store page copy for an online drugstore's discount codes on rindo.pl.",
    "text_uk": "Zoe пише текст сторінки інтернет-дрогерії з кодами знижок для rindo.pl.",
    "task": 45
@@ -2580,7 +2580,7 @@
    "t": "12:25",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 167,
+   "dur": 177,
    "text": "Assigning Lukas a research task: compiling key facts about online return policies for a consumer electronics retailer's page on rindo.pl.",
    "text_uk": "Лукас готує список фактів про повернення онлайн-покупок для сторінки одного з великих магазинів електроніки на rindo.pl.",
    "task": 45
@@ -2589,7 +2589,7 @@
    "t": "12:25",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 167,
+   "dur": 177,
    "text": "Zoe is writing the store page copy for a online drugstore listed on rindo.pl, our discount-code site for Polish online shops.",
    "text_uk": "Zoe пише текст для сторінки інтернет-дрогерії на rindo.pl, де з'являться промокоди для покупок у Польщі.",
    "task": 45
@@ -2679,7 +2679,7 @@
    "t": "12:52",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 139,
+   "dur": 149,
    "text": "Zoe is writing the store page copy for a consumer electronics and appliance retailer on rindo.pl, our discount-code site for Polish online shops.",
    "text_uk": "Zoe пише текст сторінки для магазину електроніки та побутової техніки на rindo.pl, сайті знижкових кодів.",
    "task": 45
@@ -2715,7 +2715,7 @@
    "t": "12:54",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 137,
+   "dur": 148,
    "text": "Lukas is compiling a list of facts about online returns for a fashion retailer's page on rindo.pl.",
    "text_uk": "Lukas готує перелік фактів про повернення онлайн-покупок для сторінки магазину одягу на rindo.pl.",
    "task": 45
@@ -2724,7 +2724,7 @@
    "t": "12:54",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 137,
+   "dur": 147,
    "text": "Lukas is compiling facts about online returns for a fashion retailer's page on rindo.pl.",
    "text_uk": "Лукас збирає інформацію про повернення онлайн-покупок для сторінки магазину на rindo.pl.",
    "task": 45
@@ -2751,7 +2751,7 @@
    "t": "13:03",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 129,
+   "dur": 139,
    "text": "Lukas is compiling a list of facts about online return policies for a major fashion retailer's page on rindo.pl.",
    "text_uk": "Лукас збирає факти про повернення онлайн-покупок для сторінки магазину на rindo.pl.",
    "task": 45
@@ -3111,7 +3111,7 @@
    "t": "14:09",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 62,
+   "dur": 72,
    "text": "Store pages for Media Expert and Zalando are now live on rindo.pl, bringing the total to 29. Lukas also picked up three more stores whose pages work with our fetcher.",
    "text_uk": "На rindo.pl уже 29 сторінок магазинів. Lukas додав ще три магазини, сторінки яких доступні для нашої системи збору даних.",
    "task": 45
@@ -3156,7 +3156,7 @@
    "t": "14:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 43,
+   "dur": 53,
    "text": "Lukas is compiling a short list of facts on a sporting goods retailer's returns policy for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий перелік фактів для сторінки магазину спортивних товарів на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3174,7 +3174,7 @@
    "t": "14:31",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 40,
+   "dur": 51,
    "text": "Zoe is writing the page copy for an electronics and home appliance store on rindo.pl.",
    "text_uk": "Zoe пише текст сторінки для магазину електроніки та побутової техніки на rindo.pl.",
    "task": 45
@@ -3228,7 +3228,7 @@
    "t": "14:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 38,
+   "dur": 49,
    "text": "Lukas is compiling a short list of facts for a sporting goods store's page on rindo.pl, focused on its return policy.",
    "text_uk": "Lukas готує короткий перелік фактів для сторінки магазину спорттоварів на rindo.pl, з акцентом на умови повернення покупок.",
    "task": 45
@@ -3282,7 +3282,7 @@
    "t": "14:47",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 35,
    "text": "Lukas is compiling a short fact sheet on the returns policy of a sporting goods store for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий список фактів для сторінки спортивного магазину на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3300,7 +3300,7 @@
    "t": "14:51",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 20,
+   "dur": 30,
    "text": "Lukas is compiling a short list of facts about returns for a sporting goods store's page on rindo.pl.",
    "text_uk": "Lukas готує короткий список фактів для сторінки спортивного магазину на rindo.pl, лише про умови повернення покупок.",
    "task": 45
@@ -3313,9 +3313,49 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "15:03",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change adding \"works / doesn't work\" votes on discount codes and an \"Only on rindo.pl\" label. The pull request is waiting for CI and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 64
+  },
+  {
+   "t": "15:04",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team added \"works / doesn't work\" voting on codes and an exclusive label. Checks passed, but the content gate rejected the privacy policy, which is being fixed next.",
+   "text_uk": "Мейтус і його команда додали на rindo.pl голосування «працює / не працює» для кодів і позначку ексклюзивних кодів. Перевірка пройшла, але політику конфіденційності поки що відхилено, і її виправлять наступним етапом.",
+   "task": 64
+  },
+  {
+   "t": "15:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The team is still gathering facts for store pages while we wait for the quality check to clear after the latest fix.",
+   "text_uk": "Команда Mateusa продовжує збирати факти для сторінок магазинів на rindo.pl. Очікуємо результат перевірки після внесених правок.",
+   "task": null
+  },
+  {
+   "t": "15:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Reworking a rindo.pl feature for user votes on discount codes. Automated checks pass, but the privacy policy is being revised after review.",
+   "uk": "Команда rindo.pl працює над функцією голосування за промокоди та позначенням ексклюзивних пропозицій. Нора повернула правки до політики конфіденційності, тож Mateus готує оновлену версію."
+  },
   {
    "en": "Activating Lukas's latest version, a new model for the team.",
    "uk": "Lukas отримав нову версію локальної моделі для роботи з текстом, і команда налаштовує її під завдання rindo.pl."
@@ -3323,10 +3363,6 @@
   {
    "en": "Team update: task and agent test criteria must not rely on the notes block, since the core strips it before audit. Missing items and their reasons now have to appear in the output itself.",
    "uk": "Тестові завдання для агентів налаштовано так, щоб вони не посилалися на службовий блок: його система видаляє до перевірки. Адреси й причини відсутніх даних мають бути прямо у самому результаті."
-  },
-  {
-   "en": "Pausing new research on stores that block standard requests until browser-based results are in.",
-   "uk": "Команда Mateus призупинила дослідження магазинів, які блокують автоматичні запити. Далі чекаємо результатів перевірки через браузер."
   }
  ],
  "lessons": [
@@ -3341,13 +3377,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -59.93,
+  "week": -59.97,
   "api_budget": 76.92,
-  "api_spent": 57.92,
+  "api_spent": 57.96,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 59.93
+  "month_costs": 59.97
  }
 }
