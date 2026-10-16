@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T01:59+02:00",
+ "generated_at": "2026-10-16T02:10+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -96,7 +96,7 @@
    "t": "00:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 119,
+   "dur": 130,
    "text": "Zoe is writing the \"About us\" page using only verified company facts and site rules. Lukas is working through the next stores and affiliate terms, since some sites block scraping.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -528,7 +528,7 @@
    "t": "01:52",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 21,
+   "dur": 32,
    "text": "Lukas is gathering key facts on a footwear retailer's return policy for its store page on rindo.pl.",
    "text_uk": "Lukas збирає короткий перелік фактів для сторінки одного з магазинів на rindo.pl, зосередившись на умовах повернень.",
    "task": 45
@@ -541,6 +541,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "02:00",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change adding a store page for a home-goods retailer, covering its returns policy. It's now waiting on automated checks and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 45
+  },
+  {
+   "t": "02:01",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "A returns page for a home furnishings retailer passed review and Nora's gate on the first try, and its merge has been requested. We now have 16 store pages live.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 45
+  },
+  {
+   "t": "02:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on details about the next store from the team; that block is now closed.",
+   "text_uk": "Чекаємо на факти про наступний магазин від команди, блок закрито.",
+   "task": null
+  },
+  {
+   "t": "02:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "02:02",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a new store page on rindo.pl covering its return policy, and making it indexable for search.",
+   "text_uk": "Mateus додає на rindo.pl сторінку магазину з умовами повернень і робить її доступною для пошукових систем.",
+   "task": 45
   }
  ],
  "plan": [],
@@ -548,13 +593,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -57.59,
+  "week": -57.62,
   "api_budget": 76.92,
-  "api_spent": 56.06,
+  "api_spent": 56.08,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 57.59
+  "month_costs": 57.62
  }
 }
