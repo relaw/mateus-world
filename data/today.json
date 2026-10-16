@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T13:29+02:00",
+ "generated_at": "2026-10-16T13:37+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -2517,7 +2517,7 @@
    "t": "12:17",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 87,
+   "dur": 95,
    "text": "Lukas is compiling a list of facts on online returns for a consumer electronics store's page on rindo.pl.",
    "text_uk": "Lukas збирає факти про повернення онлайн-покупок для сторінки магазину електроніки на rindo.pl.",
    "task": 45
@@ -2526,7 +2526,7 @@
    "t": "12:17",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 87,
+   "dur": 95,
    "text": "Lukas is compiling a fact sheet on online return policies for a store's page on rindo.pl.",
    "text_uk": "Лукас отримав завдання зібрати факти про повернення онлайн-покупок для сторінки магазину на rindo.pl.",
    "task": 45
@@ -2544,7 +2544,7 @@
    "t": "12:22",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 82,
+   "dur": 90,
    "text": "Zoe is writing the store page copy for an online drugstore's discount codes on rindo.pl.",
    "text_uk": "Zoe пише текст сторінки інтернет-дрогерії з кодами знижок для rindo.pl.",
    "task": 45
@@ -2580,7 +2580,7 @@
    "t": "12:25",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 79,
+   "dur": 87,
    "text": "Assigning Lukas a research task: compiling key facts about online return policies for a consumer electronics retailer's page on rindo.pl.",
    "text_uk": "Лукас готує список фактів про повернення онлайн-покупок для сторінки одного з великих магазинів електроніки на rindo.pl.",
    "task": 45
@@ -2589,7 +2589,7 @@
    "t": "12:25",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 79,
+   "dur": 87,
    "text": "Zoe is writing the store page copy for a online drugstore listed on rindo.pl, our discount-code site for Polish online shops.",
    "text_uk": "Zoe пише текст для сторінки інтернет-дрогерії на rindo.pl, де з'являться промокоди для покупок у Польщі.",
    "task": 45
@@ -2679,7 +2679,7 @@
    "t": "12:52",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 51,
+   "dur": 60,
    "text": "Zoe is writing the store page copy for a consumer electronics and appliance retailer on rindo.pl, our discount-code site for Polish online shops.",
    "text_uk": "Zoe пише текст сторінки для магазину електроніки та побутової техніки на rindo.pl, сайті знижкових кодів.",
    "task": 45
@@ -2715,7 +2715,7 @@
    "t": "12:54",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 50,
+   "dur": 58,
    "text": "Lukas is compiling a list of facts about online returns for a fashion retailer's page on rindo.pl.",
    "text_uk": "Lukas готує перелік фактів про повернення онлайн-покупок для сторінки магазину одягу на rindo.pl.",
    "task": 45
@@ -2724,7 +2724,7 @@
    "t": "12:54",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 50,
+   "dur": 58,
    "text": "Lukas is compiling facts about online returns for a fashion retailer's page on rindo.pl.",
    "text_uk": "Лукас збирає інформацію про повернення онлайн-покупок для сторінки магазину на rindo.pl.",
    "task": 45
@@ -2751,7 +2751,7 @@
    "t": "13:03",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 41,
+   "dur": 49,
    "text": "Lukas is compiling a list of facts about online return policies for a major fashion retailer's page on rindo.pl.",
    "text_uk": "Лукас збирає факти про повернення онлайн-покупок для сторінки магазину на rindo.pl.",
    "task": 45
@@ -2913,7 +2913,7 @@
    "t": "13:25",
    "type": "delegate",
    "agent": "max",
-   "dur": 19,
+   "dur": 27,
    "text": "Comparing how six coupon sites present a beauty brand's store page, with Max handling the research.",
    "text_uk": "Порівнюємо, як шість купонних сервісів подають сторінку магазину в ніші косметики.",
    "task": 27
@@ -2952,6 +2952,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "13:37",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
