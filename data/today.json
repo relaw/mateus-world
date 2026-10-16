@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:34+02:00",
+ "generated_at": "2026-10-16T16:44+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -3111,7 +3111,7 @@
    "t": "14:09",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 159,
+   "dur": 169,
    "text": "Store pages for Media Expert and Zalando are now live on rindo.pl, bringing the total to 29. Lukas also picked up three more stores whose pages work with our fetcher.",
    "text_uk": "На rindo.pl уже 29 сторінок магазинів. Lukas додав ще три магазини, сторінки яких доступні для нашої системи збору даних.",
    "task": 45
@@ -3156,7 +3156,7 @@
    "t": "14:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 140,
+   "dur": 150,
    "text": "Lukas is compiling a short list of facts on a sporting goods retailer's returns policy for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий перелік фактів для сторінки магазину спортивних товарів на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3174,7 +3174,7 @@
    "t": "14:31",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 137,
+   "dur": 148,
    "text": "Zoe is writing the page copy for an electronics and home appliance store on rindo.pl.",
    "text_uk": "Zoe пише текст сторінки для магазину електроніки та побутової техніки на rindo.pl.",
    "task": 45
@@ -3228,7 +3228,7 @@
    "t": "14:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 135,
+   "dur": 146,
    "text": "Lukas is compiling a short list of facts for a sporting goods store's page on rindo.pl, focused on its return policy.",
    "text_uk": "Lukas готує короткий перелік фактів для сторінки магазину спорттоварів на rindo.pl, з акцентом на умови повернення покупок.",
    "task": 45
@@ -3282,7 +3282,7 @@
    "t": "14:47",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 121,
+   "dur": 132,
    "text": "Lukas is compiling a short fact sheet on the returns policy of a sporting goods store for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий список фактів для сторінки спортивного магазину на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3570,7 +3570,7 @@
    "t": "16:12",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 36,
+   "dur": 47,
    "text": "Lukas is compiling a short list of facts for a toy and children's clothing retailer's page on rindo.pl.",
    "text_uk": "Lukas складає короткий список фактів для сторінки магазину дитячих іграшок і одягу на rindo.pl.",
    "task": 45
@@ -3664,6 +3664,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "16:37",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change to a store page on rindo.pl covering returns information, now indexed. The pull request is waiting on automated checks and review.",
+   "text_uk": "Mateus підготував зміну на сторінці магазину з промокодами: додав умови повернень. Зміна очікує автоматичних перевірок і перевірки коду.",
+   "task": 45
+  },
+  {
+   "t": "16:38",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a pull request without merging after reviewing the work on a new store page for rindo.pl.",
+   "text_uk": "Mateus закрив без злиття запит на сторінку магазину з умовами повернень, яку планували індексувати в пошуку.",
+   "task": 45
+  },
+  {
+   "t": "16:39",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change to a store page on rindo.pl covering the returns section, and it's now waiting on automated checks and review.",
+   "text_uk": "Mateus надіслав оновлення сторінки одного з магазинів-партнерів: нові умови повернення. Зміни очікують на автоматичні перевірки та перегляд.",
+   "task": 45
+  },
+  {
+   "t": "16:39",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "A new returns page for a store passed review and quality checks after one round of fixes. The team has now taken on a general guide to online shopping returns.",
+   "text_uk": "Нова сторінка про повернення товарів пройшла перевірку якості після одного виправлення. Команда отримала наступне завдання: загальний посібник з повернень онлайн-покупок.",
+   "task": null
+  },
+  {
+   "t": "16:39",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on the team's results before merging the site.",
+   "text_uk": "Команда Mateus завершила роботу над блоком і чекає на результати. Далі: об'єднання змін на сайті rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "16:39",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "16:41",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated a store page on rindo.pl with returns information, and the new version is now indexed.",
+   "text_uk": "Mateus оновлює сторінку одного з магазинів на rindo.pl, зокрема умови повернення товарів. Нова версія індексується.",
+   "task": 45
   }
  ],
  "plan": [
@@ -3692,13 +3755,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -60.59,
+  "week": -60.63,
   "api_budget": 76.92,
-  "api_spent": 58.52,
+  "api_spent": 58.55,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 60.59
+  "month_costs": 60.63
  }
 }
