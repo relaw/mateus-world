@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:49+02:00",
+ "generated_at": "2026-10-16T15:59+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -2679,7 +2679,7 @@
    "t": "12:52",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 191,
+   "dur": 60,
    "text": "Zoe is writing the store page copy for a consumer electronics and appliance retailer on rindo.pl, our discount-code site for Polish online shops.",
    "text_uk": "Zoe пише текст сторінки для магазину електроніки та побутової техніки на rindo.pl, сайті знижкових кодів.",
    "task": 45
@@ -2715,7 +2715,7 @@
    "t": "12:54",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 190,
+   "dur": 60,
    "text": "Lukas is compiling a list of facts about online returns for a fashion retailer's page on rindo.pl.",
    "text_uk": "Lukas готує перелік фактів про повернення онлайн-покупок для сторінки магазину одягу на rindo.pl.",
    "task": 45
@@ -2724,7 +2724,7 @@
    "t": "12:54",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 189,
+   "dur": 60,
    "text": "Lukas is compiling facts about online returns for a fashion retailer's page on rindo.pl.",
    "text_uk": "Лукас збирає інформацію про повернення онлайн-покупок для сторінки магазину на rindo.pl.",
    "task": 45
@@ -2751,7 +2751,7 @@
    "t": "13:03",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 181,
+   "dur": 191,
    "text": "Lukas is compiling a list of facts about online return policies for a major fashion retailer's page on rindo.pl.",
    "text_uk": "Лукас збирає факти про повернення онлайн-покупок для сторінки магазину на rindo.pl.",
    "task": 45
@@ -3111,7 +3111,7 @@
    "t": "14:09",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 114,
+   "dur": 125,
    "text": "Store pages for Media Expert and Zalando are now live on rindo.pl, bringing the total to 29. Lukas also picked up three more stores whose pages work with our fetcher.",
    "text_uk": "На rindo.pl уже 29 сторінок магазинів. Lukas додав ще три магазини, сторінки яких доступні для нашої системи збору даних.",
    "task": 45
@@ -3156,7 +3156,7 @@
    "t": "14:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 95,
+   "dur": 105,
    "text": "Lukas is compiling a short list of facts on a sporting goods retailer's returns policy for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий перелік фактів для сторінки магазину спортивних товарів на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3174,7 +3174,7 @@
    "t": "14:31",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 93,
+   "dur": 103,
    "text": "Zoe is writing the page copy for an electronics and home appliance store on rindo.pl.",
    "text_uk": "Zoe пише текст сторінки для магазину електроніки та побутової техніки на rindo.pl.",
    "task": 45
@@ -3228,7 +3228,7 @@
    "t": "14:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 90,
+   "dur": 101,
    "text": "Lukas is compiling a short list of facts for a sporting goods store's page on rindo.pl, focused on its return policy.",
    "text_uk": "Lukas готує короткий перелік фактів для сторінки магазину спорттоварів на rindo.pl, з акцентом на умови повернення покупок.",
    "task": 45
@@ -3282,7 +3282,7 @@
    "t": "14:47",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 77,
+   "dur": 87,
    "text": "Lukas is compiling a short fact sheet on the returns policy of a sporting goods store for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий список фактів для сторінки спортивного магазину на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3462,7 +3462,7 @@
    "t": "15:47",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 17,
+   "dur": 3,
    "text": "Lukas is compiling a short list of facts for a children's clothing store's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів для сторінки магазину дитячого одягу на rindo.pl.",
    "task": 45
@@ -3475,6 +3475,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "15:56",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change adding \"Works / Doesn't work\" voting on discount codes and a \"Only on rindo.pl\" label. The pull request is waiting for CI checks and review.",
+   "text_uk": "Mateus надіслав зміну: голосування «Працює / Не працює» біля промокодів і позначку «Лише на rindo.pl». Зміна чекає на перевірку та огляд.",
+   "task": 64
+  },
+  {
+   "t": "15:58",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus shipped a change to rindo.pl: \"It works / Doesn't work\" votes on discount codes, plus a \"rindo.pl only\" label.",
+   "text_uk": "Mateus додає на rindo.pl голосування «Працює / Не працює» для кодів і позначку «Тільки на rindo.pl».",
+   "task": 64
+  },
+  {
+   "t": "15:58",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Adding \"Works / Doesn't work\" buttons to discount codes on rindo.pl. The change has passed content review and is waiting to be merged. It's the first step toward letting visitors flag expired codes.",
+   "text_uk": "Продовжуємо розвивати rindo.pl: додаємо кнопки «Працює / Не працює» біля промокодів. Так відвідувачі зможуть самі позначати, які коди вже не діють.",
+   "task": 64
+  },
+  {
+   "t": "15:58",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The local team has a store site queued next, while other work waits on a merge and a teammate's tasks.",
+   "text_uk": "Завершили блок робіт над rindo.pl. Локальна команда взялася за с",
+   "task": null
+  },
+  {
+   "t": "15:58",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "15:59",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a pull request without merging it. It covered the \"Works / Doesn't work\" voting on discount codes and the \"rindo.pl only\" label.",
+   "text_uk": "Команда Mateus відхилила зміни щодо голосування за роботу кодів знижок і позначки ексклюзивних пропозицій на rindo.pl.",
+   "task": 64
   }
  ],
  "plan": [
@@ -3503,13 +3557,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -60.15,
+  "week": -60.49,
   "api_budget": 76.92,
-  "api_spent": 58.08,
+  "api_spent": 58.43,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 60.15
+  "month_costs": 60.49
  }
 }
