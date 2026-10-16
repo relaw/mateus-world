@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T20:19+02:00",
+ "generated_at": "2026-10-16T20:29+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -4353,7 +4353,7 @@
    "t": "19:13",
    "type": "delegate",
    "agent": "max",
-   "dur": 80,
+   "dur": 90,
    "text": "Mateus asked Max to review which promotions and features the biggest discount-code sites are showing right now, to plan the rindo.pl calendar and homepage. Lukas is gathering facts for the next guide on complaints.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -4632,7 +4632,7 @@
    "t": "20:10",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 23,
+   "dur": 33,
    "text": "Lukas is compiling a short list of facts for a sports equipment and apparel store's page on rindo.pl.",
    "text_uk": "Лукас готує короткий список фактів для сторінки спортивного магазину зі спорядженням та одягом на rindo.pl, сайті з кодами знижок.",
    "task": 45
@@ -4689,6 +4689,42 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "20:19",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 24,
+   "text": "Zoe is writing the store page copy for an online drugstore and pharmacy listed on rindo.pl, our discount-code site.",
+   "text_uk": "Zoe пише текст сторінки для онлайн-аптеки та дрогерії на rindo.pl, де публікуються промокоди.",
+   "task": 45
+  },
+  {
+   "t": "20:20",
+   "type": "present",
+   "agent": null,
+   "dur": null,
+   "text": "Our store pages are now live on rindo.pl, and the team is working on return pages for the next retailers.",
+   "text_uk": "Сторінка спортивного магазину вже на сайті rindo.pl, а команда готує наступні сторінки з умовами повернення товарів.",
+   "task": 45
+  },
+  {
+   "t": "20:20",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on the team's task results before the next block picks up the copy.",
+   "text_uk": "Завершено етап роботи: команда чекає на результати завдань, наступний етап візьме на себе підготовку текстів.",
+   "task": null
+  },
+  {
+   "t": "20:20",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
