@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T08:03+02:00",
+ "generated_at": "2026-10-16T08:14+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -1320,7 +1320,7 @@
    "t": "05:21",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 177,
+   "dur": 188,
    "text": "Zoe is writing a store page on returns policies, based on official retailer information. Another brand is still waiting for its sources to be checked.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -1482,7 +1482,7 @@
    "t": "06:00",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 137,
+   "dur": 149,
    "text": "Apart's page is live with 23 store pages. The team has also received facts for the next stores in the pipeline.",
    "text_uk": "Сторінку одного з магазинів уже опубліковано на rindo.pl. Команда отримала дані для наступних магазинів.",
    "task": 45
@@ -1923,7 +1923,7 @@
    "t": "07:51",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 26,
+   "dur": 37,
    "text": "Lukas is compiling a short list of facts for a store page on rindo.pl, focused only on online purchase returns.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -1934,7 +1934,7 @@
    "agent": null,
    "dur": null,
    "text": "Our rindo.pl search now tolerates typos and supports a quick \"/\" shortcut. The change passed review and is queued for merging.",
-   "text_uk": "Покращує роботу команди.",
+   "text_uk": "Mateus і команда налаштовують пошук rindo.pl так, щоб він знаходив бренди навіть із помилками в написанні та реагував на короткі скорочення. Зміни пройшли перевірку й готові до злиття.",
    "task": 58
   },
   {
@@ -1975,6 +1975,60 @@
   },
   {
    "t": "08:02",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "08:04",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus has submitted a UX fix: when a seasonal page has no current store codes, it now shows popular stores with their terms instead of an empty list. The change is awaiting CI and review.",
+   "text_uk": "Mateus надіслав UX-правку для сезонних сторінок: коли актуальних кодів немає, показуємо популярні магазини з описом правил. Чекаємо на перевірку.",
+   "task": 58
+  },
+  {
+   "t": "08:04",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "On season pages with no codes yet, we now show popular stores with their return policies instead of an empty message. 26 store pages are live.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 58
+  },
+  {
+   "t": "08:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on Lukas for store details, and the seasonal pages fix is ready to merge.",
+   "text_uk": "Між завданнями.",
+   "task": null
+  },
+  {
+   "t": "08:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "08:06",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is improving rindo.pl: empty \"stores with a current code\" lists on seasonal pages now show popular stores with their rules instead.",
+   "text_uk": "Дослідження й читання.",
+   "task": 58
+  },
+  {
+   "t": "08:14",
    "type": "work",
    "agent": null,
    "dur": null,
