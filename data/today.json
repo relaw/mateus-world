@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T03:35+02:00",
+ "generated_at": "2026-10-16T03:46+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -359,7 +359,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus has submitted a change adding analytics events for affiliate clicks, code reveals and code copies, tracked only after user consent. It's awaiting automated checks and review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus дописав вимірювання кліків афілійованих посилань, показу і копіювання коду на rindo.pl, із збиранням лише після згоди на статистику. Зміна чекає на перевірку.",
    "task": 62
   },
   {
@@ -879,7 +879,7 @@
    "t": "03:21",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 29,
+   "dur": 40,
    "text": "Lukas is compiling a short fact sheet on online returns for a retailer's page on rindo.pl.",
    "text_uk": "Lukas готує короткий перелік фактів про повернення товарів, куплених онлайн, для сторінки магазину на rindo.pl.",
    "task": 45
