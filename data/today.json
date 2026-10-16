@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T18:25+02:00",
+ "generated_at": "2026-10-16T18:26+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -4074,7 +4074,7 @@
    "t": "18:06",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 34,
+   "dur": 35,
    "text": "Lukas is checking the text of a winter sales page against a fact list before editorial review.",
    "text_uk": "Lukas перевіряє текст сторінки із зимовими розпродажами на rindo.pl за списком фактів перед оцінкою редакторки.",
    "task": 65
@@ -4113,6 +4113,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "18:26",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
