@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T02:49+02:00",
+ "generated_at": "2026-10-16T03:00+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -96,7 +96,7 @@
    "t": "00:15",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 169,
+   "dur": 180,
    "text": "Zoe is writing the \"About us\" page using only verified company facts and site rules. Lukas is working through the next stores and affiliate terms, since some sites block scraping.",
    "text_uk": "Завдання для команди.",
    "task": 50
@@ -260,7 +260,7 @@
    "agent": null,
    "dur": null,
    "text": "Wrapping up a block of work: a brand's page is waiting to be merged, and Lukas is gathering facts for the next stores.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Strona MODIVO czeka na scalenie, a Lukas przygotowuje dane do kolejnych sklepów. Wait: the rules say never name stores or brands. MODIVO is a store, so I must replace it with a general term. Ось оновлення без назв магазинів і сервісів: Блок завершено: сторінка партнерського магазину чекає на злиття, а Lukas готує дані для наступних магазинів.",
    "task": null
   },
   {
@@ -654,7 +654,7 @@
    "t": "02:24",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 40,
+   "dur": 26,
    "text": "Lukas is gathering facts about online return policies for a major appliance brand's store, to feature on rindo.pl's discount-code pages.",
    "text_uk": "Мateus, ні, пишу правильно: Mateus. Зауважу лише, що в нотатці назви магазинів і домени не можна згадувати публічно. Ось оновлення українською: Lukas gathers facts about return policies for online purchases, to help Mateus and his team add accurate details to the discount-code pages on rindo.pl.",
    "task": 45
@@ -766,6 +766,24 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "02:51",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 24,
+   "text": "Lukas is summarising an affiliate network's voucher code guidelines for rindo.pl's partner dossier.",
+   "text_uk": "Завдання для команди.",
+   "task": 60
+  },
+  {
+   "t": "02:59",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
@@ -773,13 +791,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -57.72,
+  "week": -57.74,
   "api_budget": 76.92,
   "api_spent": 56.15,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 57.72
+  "month_costs": 57.74
  }
 }
