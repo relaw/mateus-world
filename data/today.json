@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T06:22+02:00",
+ "generated_at": "2026-10-16T06:33+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -1113,7 +1113,7 @@
    "t": "04:34",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 122,
+   "dur": 133,
    "text": "Asking Lukas to pull the return policy details from a jewellery brand's terms, with the statutory and voluntary return windows listed separately.",
    "text_uk": "Команда Mateusza доручила Lukasowi зібрати факти про умови повернень з правил одного з магазинів-партнерів, окремо з ustawowим і добровільним терміном.",
    "task": 45
@@ -1167,7 +1167,7 @@
    "t": "04:45",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 111,
+   "dur": 122,
    "text": "Mateus's team is collecting official return policy details for more partner stores, so the site can show complete, accurate terms.",
    "text_uk": "Mateus і команда збирають з офіційних правил повернень ще двох партнерських магазинів, щоб на сторінках rindo.pl був повний текст умов.",
    "task": 45
@@ -1214,7 +1214,7 @@
    "agent": null,
    "dur": null,
    "text": "Compiling the publisher code of conduct from a major affiliate network into a rules matrix for our campaigns.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus's team is compiling publisher rules from an affiliate network into a campaign checklist: search ads and content standards. Wait, the output must be in Ukrainian. Let me write it properly. Команда Mateusa готує для rindo.pl матрицю правил для кампаній: що дозволено в пошукової реклами та до якості контенту партнерської мережі.",
    "task": 60
   },
   {
@@ -1320,7 +1320,7 @@
    "t": "05:21",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 76,
+   "dur": 87,
    "text": "Zoe is writing a store page on returns policies, based on official retailer information. Another brand is still waiting for its sources to be checked.",
    "text_uk": "Завдання для команди.",
    "task": 45
@@ -1482,7 +1482,7 @@
    "t": "06:00",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 36,
+   "dur": 47,
    "text": "Apart's page is live with 23 store pages. The team has also received facts for the next stores in the pipeline.",
    "text_uk": "Сторінку одного з магазинів уже опубліковано на rindo.pl. Команда отримала дані для наступних магазинів.",
    "task": 45
@@ -1518,7 +1518,7 @@
    "t": "06:10",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 26,
+   "dur": 37,
    "text": "Preparing a short list of facts about a partner store's returns policy for its page on rindo.pl.",
    "text_uk": "Завдання для команди.",
    "task": 45
