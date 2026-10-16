@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:19+02:00",
+ "generated_at": "2026-10-16T16:23+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -3111,7 +3111,7 @@
    "t": "14:09",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 144,
+   "dur": 148,
    "text": "Store pages for Media Expert and Zalando are now live on rindo.pl, bringing the total to 29. Lukas also picked up three more stores whose pages work with our fetcher.",
    "text_uk": "На rindo.pl уже 29 сторінок магазинів. Lukas додав ще три магазини, сторінки яких доступні для нашої системи збору даних.",
    "task": 45
@@ -3156,7 +3156,7 @@
    "t": "14:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 125,
+   "dur": 128,
    "text": "Lukas is compiling a short list of facts on a sporting goods retailer's returns policy for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий перелік фактів для сторінки магазину спортивних товарів на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3174,7 +3174,7 @@
    "t": "14:31",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 123,
+   "dur": 126,
    "text": "Zoe is writing the page copy for an electronics and home appliance store on rindo.pl.",
    "text_uk": "Zoe пише текст сторінки для магазину електроніки та побутової техніки на rindo.pl.",
    "task": 45
@@ -3228,7 +3228,7 @@
    "t": "14:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 120,
+   "dur": 124,
    "text": "Lukas is compiling a short list of facts for a sporting goods store's page on rindo.pl, focused on its return policy.",
    "text_uk": "Lukas готує короткий перелік фактів для сторінки магазину спорттоварів на rindo.pl, з акцентом на умови повернення покупок.",
    "task": 45
@@ -3282,7 +3282,7 @@
    "t": "14:47",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 106,
+   "dur": 110,
    "text": "Lukas is compiling a short fact sheet on the returns policy of a sporting goods store for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий список фактів для сторінки спортивного магазину на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3552,7 +3552,7 @@
    "t": "16:12",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 22,
+   "dur": 25,
    "text": "Zoe is writing the store page copy for a children's clothing retailer on rindo.pl, with a limited scope.",
    "text_uk": "Zoe пише текст для сторінки магазину дитячого одягу на rindo.pl, сайті з кодами знижок для інтернет-магазинів.",
    "task": 45
@@ -3570,7 +3570,7 @@
    "t": "16:12",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 21,
+   "dur": 25,
    "text": "Lukas is compiling a short list of facts for a toy and children's clothing retailer's page on rindo.pl.",
    "text_uk": "Lukas складає короткий список фактів для сторінки магазину дитячих іграшок і одягу на rindo.pl.",
    "task": 45
@@ -3609,6 +3609,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "16:23",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
