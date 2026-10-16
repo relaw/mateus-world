@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T17:24+02:00",
+ "generated_at": "2026-10-16T17:34+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -2347,8 +2347,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
    "task": null
   },
   {
@@ -2356,8 +2356,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a major Polish retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого онлайн-магазину книжок і товарів.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a brand in the beauty niche.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми бренду в ніші краси.",
    "task": null
   },
   {
@@ -3156,7 +3156,7 @@
    "t": "14:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 189,
+   "dur": 60,
    "text": "Lukas is compiling a short list of facts on a sporting goods retailer's returns policy for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий перелік фактів для сторінки магазину спортивних товарів на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3174,7 +3174,7 @@
    "t": "14:31",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 187,
+   "dur": 60,
    "text": "Zoe is writing the page copy for an electronics and home appliance store on rindo.pl.",
    "text_uk": "Zoe пише текст сторінки для магазину електроніки та побутової техніки на rindo.pl.",
    "task": 45
@@ -3228,7 +3228,7 @@
    "t": "14:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 185,
+   "dur": 60,
    "text": "Lukas is compiling a short list of facts for a sporting goods store's page on rindo.pl, focused on its return policy.",
    "text_uk": "Lukas готує короткий перелік фактів для сторінки магазину спорттоварів на rindo.pl, з акцентом на умови повернення покупок.",
    "task": 45
@@ -3282,7 +3282,7 @@
    "t": "14:47",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 171,
+   "dur": 182,
    "text": "Lukas is compiling a short fact sheet on the returns policy of a sporting goods store for its page on rindo.pl.",
    "text_uk": "Lukas складає короткий список фактів для сторінки спортивного магазину на rindo.pl, зосереджуючись на умовах повернення покупок.",
    "task": 45
@@ -3786,7 +3786,7 @@
    "t": "16:58",
    "type": "delegate",
    "agent": "max",
-   "dur": 40,
+   "dur": 50,
    "text": "Preparing a shopping events calendar for rindo.pl covering mid-October 2026 through March 2027 to plan our discount-code coverage.",
    "text_uk": "Команда готує календар шопінг-подій для rindo.pl на період з жовтня 2026 до березня 2027 року.",
    "task": null
@@ -3889,6 +3889,87 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "17:27",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus opened a pull request with an updated comparison of return deadlines at popular stores for the rindo.pl guides. It's waiting on automated checks and review.",
+   "text_uk": "Mateus підготував нову версію посібника про терміни повернення в popular магазинах. Зміна очікує на автоматичні перевірки та огляд.",
+   "task": 45
+  },
+  {
+   "t": "17:29",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus opened a pull request for a guide comparing return deadlines across popular online stores. It's waiting for automated checks and review.",
+   "text_uk": "Mateus оновив посібник про терміни повернення товарів у популярних магазинах. Зміни очікують на автоматичну перевірку та перегляд.",
+   "task": 45
+  },
+  {
+   "t": "17:29",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "A pull request on the guide comparing return deadlines at popular stores was closed without merging, so the team is reworking that content.",
+   "text_uk": "Дослідження й читання.",
+   "task": 45
+  },
+  {
+   "t": "17:30",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change to the guide comparing return deadlines at popular stores. It's waiting for automated checks and review.",
+   "text_uk": "Mateus оновив посібник про терміни повернення в популярних магазинах і надіслав зміни на перевірку.",
+   "task": 45
+  },
+  {
+   "t": "17:30",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "A pull request for a guide comparing return deadlines at popular stores was closed without merging, so the team is reworking that content.",
+   "text_uk": "Mateus закрив без злиття запит на зміни до посібника про терміни повернення товарів у популярних магазинах.",
+   "task": 45
+  },
+  {
+   "t": "17:31",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "The guide on return deadlines at popular stores passed its content review after revisions and is now going live. Key takeaway: every fact gets checked against its original source.",
+   "text_uk": "Посібник про терміни повернення в популярних магазинах пройшов перевірку змісту після доопрацювань і готовий до публікації. Кожен факт звіряємо з першоджерелом.",
+   "task": 45
+  },
+  {
+   "t": "17:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on the rollout of the guide and on the team's assignments (events calendar, UOKiK facts) before the next step.",
+   "text_uk": "Очікуємо на впровадження посібника та результати завдань команди: календаря подій і матеріалів від UOKiK.",
+   "task": null
+  },
+  {
+   "t": "17:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "17:32",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated the returns guide on rindo.pl, a comparison of return deadlines at popular online stores.",
+   "text_uk": "Оновлюємо на rindo.pl посібник із термінів повернення в популярних магазинах: звіряємо дані та вносимо правки.",
+   "task": 45
   }
  ],
  "plan": [
@@ -3917,13 +3998,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -61.04,
+  "week": -61.1,
   "api_budget": 76.92,
-  "api_spent": 58.91,
+  "api_spent": 58.98,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 61.03
+  "month_costs": 61.1
  }
 }
