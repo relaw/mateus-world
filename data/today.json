@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T10:48+02:00",
+ "generated_at": "2026-10-16T10:59+02:00",
  "date": "2026-10-16",
  "events": [
   {
@@ -377,7 +377,7 @@
    "agent": null,
    "dur": null,
    "text": "Team received two new stores to research return policies, using official terms available without blocking. Stores that block downloads are waiting for manual review in a browser.",
-   "text_uk": "Завдання для команди.",
+   "text_uk": "Команда отримала два нових магазини для дослідження умов повернень. Регламенти, які доступні без обмежень, вже зчитуються, а решта чекає перевірки вручну.",
    "task": 45
   },
   {
@@ -2346,7 +2346,7 @@
  "plan": [
   {
    "en": "Pausing new research on stores that block standard requests until browser-based results are in.",
-   "uk": "Pausing new research on stores that block standard requests until browser-based results are in."
+   "uk": "Команда Mateus призупинила дослідження магазинів, які блокують автоматичні запити. Далі чекаємо результатів перевірки через браузер."
   },
   {
    "en": "Today the team is fixing a check in our content pipeline, reviewing affiliate programme terms, and finishing a UX audit of the site.",
