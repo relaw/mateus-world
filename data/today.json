@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T22:16+02:00",
+ "generated_at": "2026-10-17T22:26+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -2346,7 +2346,7 @@
    "t": "21:31",
    "type": "delegate",
    "agent": "max",
-   "dur": 59,
+   "dur": 69,
    "text": "Collecting discount codes and promotions straight from retailers' own homepages as official sources for rindo.pl.",
    "text_uk": "Мат'ю доручив команді збирати промокоди й акції, які самі магазини публікують на своїх головних сторінках, щоб використовувати офіційне джерело для rindo.pl.",
    "task": 54
@@ -2466,6 +2466,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "22:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Weekly review: no experiments to settle, no pull requests waiting, no overdue processes. Two tasks are queued for the local team, and browser-dependent work is waiting its turn.",
+   "text_uk": "Перегляд блоку: експериментів до звітування немає, запитів на перевірку немає, прострочених процесів теж немає. У черзі команди Mateus два завдання, а роботи, що залежать від браузера, чекають своєї черги.",
+   "task": null
+  },
+  {
+   "t": "22:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
