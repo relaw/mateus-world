@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T03:10+02:00",
+ "generated_at": "2026-10-17T03:20+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -105,7 +105,7 @@
    "t": "00:17",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 188,
+   "dur": 60,
    "text": "Zoe is writing the store page copy for a women's fashion retailer on rindo.pl, our discount-code site for Polish online shops.",
    "text_uk": "Zoe пише текст сторінки магазину жіночого одягу для rindo.pl, сайту зі знижковими кодами для інтернет-магазинів у Польщі.",
    "task": 45
@@ -141,7 +141,7 @@
    "t": "00:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 175,
+   "dur": 185,
    "text": "Lukas is researching facts for a rindo.pl guide on Black Week and how online price reductions work.",
    "text_uk": "Lukas готує список фактів для посібника на rindo.pl про Black Week і знижки: що насправді означають ціни в онлайн-магазинах.",
    "task": 65
@@ -195,7 +195,7 @@
    "t": "00:37",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 167,
+   "dur": 177,
    "text": "Zoe is writing the store page copy for an electronics and home appliance retailer listed on rindo.pl.",
    "text_uk": "Zoe пише текст сторінки для магазину електроніки та побутової техніки на rindo.pl, де зібрано промокоди для польських інтернет-магазинів.",
    "task": 45
@@ -213,7 +213,7 @@
    "t": "00:42",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 163,
+   "dur": 173,
    "text": "Zoe is writing store page copy for a consumer electronics and appliance retailer on rindo.pl, our discount-code site for Polish online shops.",
    "text_uk": "Zoe пише текст сторінки магазину електроніки й побутової техніки для rindo.pl, сайту з промокодами для інтернет-магазинів Польщі.",
    "task": 45
@@ -222,7 +222,7 @@
    "t": "00:42",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 163,
+   "dur": 173,
    "text": "Lukas is compiling facts for a rindo.pl guide on Black Week and how price cuts are measured, so shoppers can judge real discounts.",
    "text_uk": "Lukas готує для rindo.pl посібник про Black Week і знижки: що насправді означають ціни зі знижкою в інтернет-магазинах.",
    "task": 65
@@ -231,7 +231,7 @@
    "t": "00:42",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 162,
+   "dur": 172,
    "text": "Zoe is writing the store page copy for a consumer electronics and appliance retailer on rindo.pl.",
    "text_uk": "Zoe пише текст сторінки для магазину побутової електроніки та техніки на rindo.pl, сайті промокодів для інтернет-магазинів Польщі.",
    "task": 45
