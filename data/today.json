@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T09:20+02:00",
+ "generated_at": "2026-10-17T09:21+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -1005,7 +1005,7 @@
    "t": "07:54",
    "type": "delegate",
    "agent": "max",
-   "dur": 100,
+   "dur": 101,
    "text": "Reviewing the scoreboard and team workload, and assigning a team member to find official discount codes on the homepages of three stores.",
    "text_uk": "Огляд показників і команди. Пошук офіційних промокодів на головних сторінках трьох магазинів передали зовнішньому помічнику, щоб локальна команда не простоювала.",
    "task": 45
@@ -1050,7 +1050,7 @@
    "t": "08:06",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 89,
+   "dur": 90,
    "text": "Our browser queue has been stalled since last evening, so we switched to other publicly available sources on price cuts and 30-day lowest prices. Lukas is pulling together a fact sheet for a Black Week guide.",
    "text_uk": "Черга браузера зупинилася ще вчора ввечері, тож команда знайшла інші відкриті джерела про знижки та «найнижчу ціну за 30 днів». Lukas готує для них добірку фактів до посібника на Black Friday.",
    "task": 65
@@ -1203,7 +1203,7 @@
    "t": "08:40",
    "type": "delegate",
    "agent": "max",
-   "dur": 54,
+   "dur": 55,
    "text": "Our team is collecting discount codes and promotions published directly on retailers' homepages for rindo.pl, so every offer comes from an official source.",
    "text_uk": "Команда rindo.pl шукає промокоди та акції, які самі магазини публікують на своїх головних сторінках, щоб брати їх із офіційного джерела.",
    "task": 45
@@ -1248,10 +1248,19 @@
    "t": "09:16",
    "type": "delegate",
    "agent": "max",
-   "dur": 18,
+   "dur": 19,
    "text": "Our team is collecting discount codes and promotions published directly on retailers' homepages, so rindo.pl lists only official offers.",
    "text_uk": "Команда Mateus шукає промокоди та акції, які самі магазини розміщують на своїх головних сторінках, для rindo.pl.",
    "task": 45
+  },
+  {
+   "t": "09:21",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
