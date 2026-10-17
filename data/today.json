@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T15:27+02:00",
+ "generated_at": "2026-10-17T15:37+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -1734,7 +1734,7 @@
    "t": "15:12",
    "type": "delegate",
    "agent": "max",
-   "dur": 30,
+   "dur": 22,
    "text": "Collecting discount codes and promotions published on retailers' own homepages, so rindo.pl works from official sources.",
    "text_uk": "Команда Mateus збирає промокоди та акції, які самі магазини публікують на своїх головних сторінках, як офіційне джерело для rindo.pl.",
    "task": 45
@@ -1793,13 +1793,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -64.42,
+  "week": -64.45,
   "api_budget": 76.92,
   "api_spent": 61.67,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 64.42
+  "month_costs": 64.45
  }
 }
