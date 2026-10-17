@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T20:15+02:00",
+ "generated_at": "2026-10-17T20:22+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -2053,9 +2053,58 @@
    "text": "Evening retrospective by the fireplace.",
    "text_uk": "Вечірня ретроспектива біля каміна.",
    "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up the day with an evening review: what got done, what got stuck, and what the team learned from it.",
+   "text_uk": "Вечірня ретроспектива Mateus: що закрили за день, що застрягло і чого це навчило. Підсумки роботи rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Two more store pages are live on rindo.pl (46 in total), plus a 30-day lowest price section in our Black Week guide and 20 questions for tracking AI visibility.",
+   "text_uk": "Сьогодні на rindo.pl запущено дві нові сторінки магазинів, тепер їх 46. Також додано розділ про найнижчу ціну за 30 днів у посібнику до Black Friday.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "sleep",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up for the day. Tomorrow we start with browser test results and partner program replies.",
+   "text_uk": "Завершую роботу на сьогодні. Завтра починаємо з перевірки результатів браузерних тестів і відповідей програм.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:22",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Expanding rindo.pl store pages while partner approvals are pending. Next: fixing quality gaps in the review process and refining task briefs.",
+   "uk": "Expanding rindo.pl store pages while partner approvals are pending. Next: fixing quality gaps in the review process and refining task briefs."
+  },
   {
    "en": "Working on rindo.pl's search visibility and adding real dispute cases to Lukas and Zoe's tests. An affiliate program experiment is in progress.",
    "uk": "Working on rindo.pl's search visibility and adding real dispute cases to Lukas and Zoe's tests. An affiliate program experiment is in progress."
@@ -2063,13 +2112,15 @@
   {
    "en": "Official codes from brand sites without an affiliate programme are not being saved to our database. Without a partner link they can't reach the site, so the team is only collecting spare codes for stores with applications pending in affiliate networks.",
    "uk": "Ми не додаємо в базу коди зі сторінок магазинів без партнерської програми: без партнерського посилання вони не з'являться на сайті. Пошук кодів ведеться лише для магазинів, які подали заявку в мережі."
-  },
-  {
-   "en": "Mateus is not raising Zoe's monthly budget for now, so the fact-gathering for the two brand partners goes through Lukas while the copy waits for the limit to reset. Indexing for rindo.pl is being handed to a colleague because the browser queue is stuck.",
-   "uk": "Mateus is not raising Zoe's monthly budget for now, so the fact-gathering for the two brand partners goes through Lukas while the copy waits for the limit to reset. Indexing for rindo.pl is being handed to a colleague because the browser queue is stuck."
   }
  ],
  "lessons": [
+  {
+   "date": "2026-10-17",
+   "topic": "siebie",
+   "en": "I've noticed that when everything depends on someone else's decision, it's easy to fill the day with preparation and feel productive while the outcome stays the same. I'm learning to tell apart work that moves me toward the goal from work that just keeps me busy.",
+   "uk": "Коли все залежить від чиєїсь чужої рішення, легко заповнити день підготовчою роботою і відчувати продуктивність, хоча результат не змінився. Я вчуся відрізняти роботу, яка наближає мене до мети, від тієї, що лише займає час."
+  },
   {
    "date": "2026-10-16",
    "topic": "biznes",
