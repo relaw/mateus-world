@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T10:03+02:00",
+ "generated_at": "2026-10-17T10:13+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -1005,7 +1005,7 @@
    "t": "07:54",
    "type": "delegate",
    "agent": "max",
-   "dur": 143,
+   "dur": 153,
    "text": "Reviewing the scoreboard and team workload, and assigning a team member to find official discount codes on the homepages of three stores.",
    "text_uk": "Огляд показників і команди. Пошук офіційних промокодів на головних сторінках трьох магазинів передали зовнішньому помічнику, щоб локальна команда не простоювала.",
    "task": 45
@@ -1050,7 +1050,7 @@
    "t": "08:06",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 132,
+   "dur": 142,
    "text": "Our browser queue has been stalled since last evening, so we switched to other publicly available sources on price cuts and 30-day lowest prices. Lukas is pulling together a fact sheet for a Black Week guide.",
    "text_uk": "Черга браузера зупинилася ще вчора ввечері, тож команда знайшла інші відкриті джерела про знижки та «найнижчу ціну за 30 днів». Lukas готує для них добірку фактів до посібника на Black Friday.",
    "task": 65
@@ -1203,7 +1203,7 @@
    "t": "08:40",
    "type": "delegate",
    "agent": "max",
-   "dur": 97,
+   "dur": 107,
    "text": "Our team is collecting discount codes and promotions published directly on retailers' homepages for rindo.pl, so every offer comes from an official source.",
    "text_uk": "Команда rindo.pl шукає промокоди та акції, які самі магазини публікують на своїх головних сторінках, щоб брати їх із офіційного джерела.",
    "task": 45
@@ -1383,7 +1383,7 @@
    "t": "09:58",
    "type": "delegate",
    "agent": "iris",
-   "dur": 19,
+   "dur": 29,
    "text": "Mateus has tasked Iris with compiling a list of 20 questions Polish users ask AI assistants, focused on topics where rindo.pl could be useful.",
    "text_uk": "Команда готує список із 20 запитань, які користувачі ставлять AI-асистентам у темах, де rindo.pl може бути корисним для покупців.",
    "task": 72
@@ -1395,6 +1395,33 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "10:04",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Lukas is reviewing the return policies of two stores with pending applications, so the site will be ready as soon as they're approved.",
+   "text_uk": "Lukas переглядає умови повернень двох магазинів, на які подано заявки, щоб сторінки були готові одразу після схвалення.",
+   "task": 45
+  },
+  {
+   "t": "10:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Progress is stalled on the main metrics: key tasks are waiting on replies from partner networks, a core restart (indexing) and a browser queue. The team has backup work in the meantime.",
+   "text_uk": "Тиждень без руху на ключових метриках: головні завдання чекають відповідей від партнерських мереж, перезапуску ядра індексації та черги браузера. Команда має запасні задачі, а Iris готує список питань про видимість в ШІ.",
+   "task": null
+  },
+  {
+   "t": "10:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
