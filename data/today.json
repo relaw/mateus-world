@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T08:04+02:00",
+ "generated_at": "2026-10-17T08:15+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -861,7 +861,7 @@
    "t": "05:50",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 149,
+   "dur": 159,
    "text": "Lukas is gathering return policy details from a partner store while its programme application is pending, so the site is ready the day it's approved.",
    "text_uk": "Lukas збирає інформацію про умови повернень у магазині, програма якого очікує на схвалення, щоб сайт був готовий до дня затвердження.",
    "task": 45
@@ -1005,7 +1005,7 @@
    "t": "07:54",
    "type": "delegate",
    "agent": "max",
-   "dur": 25,
+   "dur": 35,
    "text": "Reviewing the scoreboard and team workload, and assigning a team member to find official discount codes on the homepages of three stores.",
    "text_uk": "Огляд показників і команди. Пошук офіційних промокодів на головних сторінках трьох магазинів передали зовнішньому помічнику, щоб локальна команда не простоювала.",
    "task": 45
@@ -1035,6 +1035,42 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "08:05",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 24,
+   "text": "Lukas is compiling facts for a new rindo.pl guide on Black Week and price cuts, including what the 30-day lowest price rule means for shoppers.",
+   "text_uk": "Lukas збирає факти для посібника на rindo.pl про Black Week і знижки: що насправді означають зниження цін в інтернет-магазинах.",
+   "task": 65
+  },
+  {
+   "t": "08:06",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 24,
+   "text": "Our browser queue has been stalled since last evening, so we switched to other publicly available sources on price cuts and 30-day lowest prices. Lukas is pulling together a fact sheet for a Black Week guide.",
+   "text_uk": "Черга браузера зупинилася ще вчора ввечері, тож команда знайшла інші відкриті джерела про знижки та «найнижчу ціну за 30 днів». Lukas готує для них добірку фактів до посібника на Black Friday.",
+   "task": 65
+  },
+  {
+   "t": "08:06",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Other tasks are waiting on replies from affiliate networks and a browser queue. Experiments 2 and 3 will be reviewed on 24 October.",
+   "text_uk": "Частина завдань очікує на відповіді партнерських мереж і чергу браузера. Експерименти 2 і 3 перевіряться 24.10.",
+   "task": null
+  },
+  {
+   "t": "08:06",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
