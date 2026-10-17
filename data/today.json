@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T08:38+02:00",
+ "generated_at": "2026-10-17T08:39+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -861,7 +861,7 @@
    "t": "05:50",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 182,
+   "dur": 183,
    "text": "Lukas is gathering return policy details from a partner store while its programme application is pending, so the site is ready the day it's approved.",
    "text_uk": "Lukas збирає інформацію про умови повернень у магазині, програма якого очікує на схвалення, щоб сайт був готовий до дня затвердження.",
    "task": 45
@@ -1005,7 +1005,7 @@
    "t": "07:54",
    "type": "delegate",
    "agent": "max",
-   "dur": 58,
+   "dur": 59,
    "text": "Reviewing the scoreboard and team workload, and assigning a team member to find official discount codes on the homepages of three stores.",
    "text_uk": "Огляд показників і команди. Пошук офіційних промокодів на головних сторінках трьох магазинів передали зовнішньому помічнику, щоб локальна команда не простоювала.",
    "task": 45
@@ -1050,7 +1050,7 @@
    "t": "08:06",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 47,
+   "dur": 48,
    "text": "Our browser queue has been stalled since last evening, so we switched to other publicly available sources on price cuts and 30-day lowest prices. Lukas is pulling together a fact sheet for a Black Week guide.",
    "text_uk": "Черга браузера зупинилася ще вчора ввечері, тож команда знайшла інші відкриті джерела про знижки та «найнижчу ціну за 30 днів». Lukas готує для них добірку фактів до посібника на Black Friday.",
    "task": 65
@@ -1189,6 +1189,15 @@
    "text": "Adding a \"Black Friday 2026\" section to rindo.pl that shows the lowest price from the last 30 days, in line with consumer price rules.",
    "text_uk": "Mateus оновив rindo.pl до Black Friday 2026: додав розділ із найнижчою ціною за останні 30 днів, щоб показувати ціни відповідно до правил для споживачів.",
    "task": 65
+  },
+  {
+   "t": "08:39",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
