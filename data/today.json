@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T19:32+02:00",
+ "generated_at": "2026-10-17T20:15+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -2043,6 +2043,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Evening retrospective by the fireplace.",
+   "text_uk": "Вечірня ретроспектива біля каміна.",
    "task": null
   }
  ],
