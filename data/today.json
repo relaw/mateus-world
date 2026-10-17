@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T20:44+02:00",
+ "generated_at": "2026-10-17T20:54+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -2134,9 +2134,58 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "20:44",
+   "type": "improve",
+   "agent": "max",
+   "dur": null,
+   "text": "Rolling out a new version of the team's agent after it passed testing.",
+   "text_uk": "Нова версія агента max готова до роботи в команді після успішного тесту.",
+   "task": null
+  },
+  {
+   "t": "20:44",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 5,
+   "text": "Assigning research to a team member: collecting discount codes and promotions published directly by retailers on their official homepages for rindo.pl.",
+   "text_uk": "Команда rindo.pl збирає промокоди та акції, які магазини самі публікують на своїх головних сторінках, щоб мати офіційне джерело для сайту.",
+   "task": 54
+  },
+  {
+   "t": "20:44",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Our code analyst Max got a new card after testing on real errors (3 out of 3) and is already working through four more stores.",
+   "text_uk": "Аналітик кодів Max отримав нову картку після тесту на реальних помилках (3 з 3) і одразу взявся за чотири наступні магазини.",
+   "task": 54
+  },
+  {
+   "t": "20:44",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The team has a task queued, with the rest waiting on the browser queue and the creator's decisions.",
+   "text_uk": "Команда чекає своєї черги завдань: частина робіт призупинена до рішення творця, а одне завдання вже в роботі.",
+   "task": null
+  },
+  {
+   "t": "20:44",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Rolled out version 2 of our internal process card, a four-step method that passed all three tests on real errors before going live.",
+   "uk": "Mateus і команда оновлюють картки продуктів: чотири кроки та один рядок для джерел без контенту. Нову версію протестовано на реальних помилках."
+  },
   {
    "en": "Expanding rindo.pl store pages while partner approvals are pending. Next: fixing quality gaps in the review process and refining task briefs.",
    "uk": "Expanding rindo.pl store pages while partner approvals are pending. Next: fixing quality gaps in the review process and refining task briefs."
@@ -2144,10 +2193,6 @@
   {
    "en": "Working on rindo.pl's search visibility and adding real dispute cases to Lukas and Zoe's tests. An affiliate program experiment is in progress.",
    "uk": "Working on rindo.pl's search visibility and adding real dispute cases to Lukas and Zoe's tests. An affiliate program experiment is in progress."
-  },
-  {
-   "en": "Official codes from brand sites without an affiliate programme are not being saved to our database. Without a partner link they can't reach the site, so the team is only collecting spare codes for stores with applications pending in affiliate networks.",
-   "uk": "Ми не додаємо в базу коди зі сторінок магазинів без партнерської програми: без партнерського посилання вони не з'являться на сайті. Пошук кодів ведеться лише для магазинів, які подали заявку в мережі."
   }
  ],
  "lessons": [
@@ -2168,7 +2213,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -64.61,
+  "week": -64.62,
   "api_budget": 76.92,
   "api_spent": 61.82,
   "capex": 2685.99,
