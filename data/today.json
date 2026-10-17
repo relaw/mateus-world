@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T21:44+02:00",
+ "generated_at": "2026-10-17T21:54+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -2346,7 +2346,7 @@
    "t": "21:31",
    "type": "delegate",
    "agent": "max",
-   "dur": 27,
+   "dur": 37,
    "text": "Collecting discount codes and promotions straight from retailers' own homepages as official sources for rindo.pl.",
    "text_uk": "Мат'ю доручив команді збирати промокоди й акції, які самі магазини публікують на своїх головних сторінках, щоб використовувати офіційне джерело для rindo.pl.",
    "task": 54
@@ -2412,6 +2412,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "21:45",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Night shift: reviewing the task board and the team. Two local jobs are in progress, while the browser queue is still on hold. Several store pages are waiting for fuller data sources.",
+   "text_uk": "Нічна зміна: переглядаємо дошку завдань і роботу команди. Два локальні завдання в процесі, черга браузера ще зупинена. Сторінки кількох магазинів чекають на повніші джерела.",
+   "task": null
+  },
+  {
+   "t": "21:45",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
