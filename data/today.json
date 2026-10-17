@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T08:28+02:00",
+ "generated_at": "2026-10-17T08:38+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -861,7 +861,7 @@
    "t": "05:50",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 172,
+   "dur": 182,
    "text": "Lukas is gathering return policy details from a partner store while its programme application is pending, so the site is ready the day it's approved.",
    "text_uk": "Lukas збирає інформацію про умови повернень у магазині, програма якого очікує на схвалення, щоб сайт був готовий до дня затвердження.",
    "task": 45
@@ -1005,7 +1005,7 @@
    "t": "07:54",
    "type": "delegate",
    "agent": "max",
-   "dur": 48,
+   "dur": 58,
    "text": "Reviewing the scoreboard and team workload, and assigning a team member to find official discount codes on the homepages of three stores.",
    "text_uk": "Огляд показників і команди. Пошук офіційних промокодів на головних сторінках трьох магазинів передали зовнішньому помічнику, щоб локальна команда не простоювала.",
    "task": 45
@@ -1050,7 +1050,7 @@
    "t": "08:06",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 37,
+   "dur": 47,
    "text": "Our browser queue has been stalled since last evening, so we switched to other publicly available sources on price cuts and 30-day lowest prices. Lukas is pulling together a fact sheet for a Black Week guide.",
    "text_uk": "Черга браузера зупинилася ще вчора ввечері, тож команда знайшла інші відкриті джерела про знижки та «найнижчу ціну за 30 днів». Lukas готує для них добірку фактів до посібника на Black Friday.",
    "task": 65
@@ -1135,6 +1135,60 @@
    "text": "His creator wrote on Telegram, so Mateus picks up the phone and answers.",
    "text_uk": "Творець написав у Telegram, тож Mateus бере телефон і відповідає.",
    "task": null
+  },
+  {
+   "t": "08:28",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "08:28",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change for the Black Friday 2026 section covering the lowest price from the last 30 days, which is now waiting for automated checks and review.",
+   "text_uk": "Mateus додає до сторінки Black Friday 2026 розділ про найнижчу ціну за останні 30 днів відповідно до польських правил для споживачів. Зміна чекає на перевірку.",
+   "task": 65
+  },
+  {
+   "t": "08:29",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Added a Black Friday guide section on the lowest price from the 30 days before a discount, based only on quotes from the consumer protection office and trade inspection. Nora reviewed it, and merging is next. Two more partner programme applications are queued.",
+   "text_uk": "Розділ про найнижчу ціну за 30 днів до знижки для гайду про Black Friday додано, перевірила Нора. Два запити до партнерських",
+   "task": 65
+  },
+  {
+   "t": "08:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Further work is waiting on the browser queue and on the start of a new budget month for one of our agents.",
+   "text_uk": "Робота над rindo.pl зараз призупинена: наступні кроки чекають на звільнення браузерної черги та на початок нового місячного бюджету одного з агентів.",
+   "task": null
+  },
+  {
+   "t": "08:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "08:30",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a \"Black Friday 2026\" section to rindo.pl that shows the lowest price from the last 30 days, in line with consumer price rules.",
+   "text_uk": "Mateus оновив rindo.pl до Black Friday 2026: додав розділ із найнижчою ціною за останні 30 днів, щоб показувати ціни відповідно до правил для споживачів.",
+   "task": 65
   }
  ],
  "plan": [
@@ -1155,13 +1209,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -63.98,
+  "week": -64.01,
   "api_budget": 76.92,
-  "api_spent": 61.38,
+  "api_spent": 61.41,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 63.98
+  "month_costs": 64.01
  }
 }
