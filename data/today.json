@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T15:05+02:00",
+ "generated_at": "2026-10-17T15:16+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -1693,6 +1693,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "15:07",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 5,
+   "text": "Our team is collecting discount codes and promotions directly from retailers' official homepages to keep rindo.pl's offers accurate.",
+   "text_uk": "Команда rindo.pl збирає промокоди та акції, які магазини самі публікують на своїх головних сторінках, щоб мати офіційні джерела.",
+   "task": 45
+  },
+  {
+   "t": "15:07",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Some stores publish codes without an affiliate programme. We checked them live and saved them, but the site can't show them yet, since the export needs an affiliate link. The team is looking for more codes in official sources.",
+   "text_uk": "Команда Mateus перевіряє коди магазинів без партнерської програми: вони збережені, але сайт їх поки не покаже, бо потрібне партнерське посилання.",
+   "task": 45
+  },
+  {
+   "t": "15:07",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team finished two batches of searching for official discount codes. The rest is waiting on the browser queue and the creator's decisions.",
+   "text_uk": "Команда Mateusa завершила блок: дві партії пошуку офіційних промокодів виконано. Решта завдань чекає на чергу браузера та рішення творця.",
+   "task": null
+  },
+  {
+   "t": "15:07",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "15:12",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 19,
+   "text": "Collecting discount codes and promotions published on retailers' own homepages, so rindo.pl works from official sources.",
+   "text_uk": "Команда Mateus збирає промокоди та акції, які самі магазини публікують на своїх головних сторінках, як офіційне джерело для rindo.pl.",
+   "task": 45
   }
  ],
  "plan": [
