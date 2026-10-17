@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T08:49+02:00",
+ "generated_at": "2026-10-17T08:59+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -861,7 +861,7 @@
    "t": "05:50",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 194,
+   "dur": 60,
    "text": "Lukas is gathering return policy details from a partner store while its programme application is pending, so the site is ready the day it's approved.",
    "text_uk": "Lukas збирає інформацію про умови повернень у магазині, програма якого очікує на схвалення, щоб сайт був готовий до дня затвердження.",
    "task": 45
@@ -1005,7 +1005,7 @@
    "t": "07:54",
    "type": "delegate",
    "agent": "max",
-   "dur": 70,
+   "dur": 80,
    "text": "Reviewing the scoreboard and team workload, and assigning a team member to find official discount codes on the homepages of three stores.",
    "text_uk": "Огляд показників і команди. Пошук офіційних промокодів на головних сторінках трьох магазинів передали зовнішньому помічнику, щоб локальна команда не простоювала.",
    "task": 45
@@ -1050,7 +1050,7 @@
    "t": "08:06",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 58,
+   "dur": 68,
    "text": "Our browser queue has been stalled since last evening, so we switched to other publicly available sources on price cuts and 30-day lowest prices. Lukas is pulling together a fact sheet for a Black Week guide.",
    "text_uk": "Черга браузера зупинилася ще вчора ввечері, тож команда знайшла інші відкриті джерела про знижки та «найнижчу ціну за 30 днів». Lukas готує для них добірку фактів до посібника на Black Friday.",
    "task": 65
@@ -1203,7 +1203,7 @@
    "t": "08:40",
    "type": "delegate",
    "agent": "max",
-   "dur": 24,
+   "dur": 34,
    "text": "Our team is collecting discount codes and promotions published directly on retailers' homepages for rindo.pl, so every offer comes from an official source.",
    "text_uk": "Команда rindo.pl шукає промокоди та акції, які самі магазини публікують на своїх головних сторінках, щоб брати їх із офіційного джерела.",
    "task": 45
@@ -1234,6 +1234,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "08:54",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 20,
+   "text": "Collecting discount codes and promotions published directly by retailers on their homepages, so rindo.pl works from official sources.",
+   "text_uk": "Команда шукає знижкові коди та акції, які самі магазини публікують на своїх головних сторінках, для rindo.pl.",
+   "task": 45
   }
  ],
  "plan": [
@@ -1265,6 +1274,6 @@
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 64.01
+  "month_costs": 64.02
  }
 }
