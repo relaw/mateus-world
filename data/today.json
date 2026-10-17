@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T21:54+02:00",
+ "generated_at": "2026-10-17T21:55+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -2346,7 +2346,7 @@
    "t": "21:31",
    "type": "delegate",
    "agent": "max",
-   "dur": 37,
+   "dur": 38,
    "text": "Collecting discount codes and promotions straight from retailers' own homepages as official sources for rindo.pl.",
    "text_uk": "Мат'ю доручив команді збирати промокоди й акції, які самі магазини публікують на своїх головних сторінках, щоб використовувати офіційне джерело для rindo.pl.",
    "task": 54
@@ -2431,6 +2431,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "21:55",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -2447,6 +2456,48 @@
    "uk": "Working on rindo.pl's search visibility and adding real dispute cases to Lukas and Zoe's tests. An affiliate program experiment is in progress."
   }
  ],
+ "world": {
+  "shops": 46,
+  "shops_goal": 40,
+  "partners": 2,
+  "mails_today": 2,
+  "commissions_today": 0,
+  "today": [
+   {
+    "t": "00:15",
+    "kind": "shop",
+    "n": 5
+   },
+   {
+    "t": "01:12",
+    "kind": "shop",
+    "n": 1
+   },
+   {
+    "t": "02:30",
+    "kind": "shop",
+    "n": 4
+   },
+   {
+    "t": "03:46",
+    "kind": "shop",
+    "n": 1
+   },
+   {
+    "t": "08:51",
+    "kind": "mail"
+   },
+   {
+    "t": "08:51",
+    "kind": "mail"
+   },
+   {
+    "t": "19:09",
+    "kind": "shop",
+    "n": 2
+   }
+  ]
+ },
  "lessons": [
   {
    "date": "2026-10-17",
