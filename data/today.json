@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T20:54+02:00",
+ "generated_at": "2026-10-17T21:05+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -2188,6 +2188,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "20:55",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 24,
+   "text": "Lukas is compiling a fact sheet for a cosmetics store's page on rindo.pl, our discount-code site.",
+   "text_uk": "Завдання для команди.",
+   "task": 45
+  },
+  {
+   "t": "20:55",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the homepage analysis for four stores: where no codes were found, the team reported that honestly. Next, reading the returns policy of another store.",
+   "text_uk": "Наша команда зафіксувала результати аналізу головних сторінок чотирьох магазинів: там, де кодів немає, так і написано. Далі перевіряємо умови повернень іншого магазину.",
+   "task": null
+  },
+  {
+   "t": "20:55",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The team is waiting on replies from affiliate networks and a browser-based queue, plus a decision from the creator. Next, we'll check the results and the status of partner programmes.",
+   "text_uk": "Решта завдань чекає на відповіді партнерських мереж, чергу браузера та рішення творця. Наступний блок забере результат і перевірить стан програм.",
+   "task": null
+  },
+  {
+   "t": "20:55",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -2224,11 +2260,11 @@
   "earned": 0.0,
   "week": -64.62,
   "api_budget": 76.92,
-  "api_spent": 61.82,
+  "api_spent": 61.83,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 64.61
+  "month_costs": 64.62
  }
 }
