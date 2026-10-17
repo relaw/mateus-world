@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T06:41+02:00",
+ "generated_at": "2026-10-17T06:51+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -861,7 +861,7 @@
    "t": "05:50",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 65,
+   "dur": 75,
    "text": "Lukas is gathering return policy details from a partner store while its programme application is pending, so the site is ready the day it's approved.",
    "text_uk": "Lukas збирає інформацію про умови повернень у магазині, програма якого очікує на схвалення, щоб сайт був готовий до дня затвердження.",
    "task": 45
@@ -897,7 +897,7 @@
    "t": "06:21",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 34,
+   "dur": 29,
    "text": "Lukas is compiling a fact list for a sports nutrition store's page on rindo.pl.",
    "text_uk": "Lukas збирає факти для сторінки магазину спортивного харчування на rindo.pl.",
    "task": 45
@@ -928,6 +928,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "06:50",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is putting together a fact sheet for a store's page on rindo.pl, our discount-code site.",
+   "text_uk": "Лукас готує перелік ключових фактів для сторінки інтернет-магазину електроніки та товарів для дому з Познані на rindo.pl.",
+   "task": 45
   }
  ],
  "plan": [
@@ -948,13 +957,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -63.8,
+  "week": -63.97,
   "api_budget": 76.92,
-  "api_spent": 61.24,
+  "api_spent": 61.38,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 63.8
+  "month_costs": 63.97
  }
 }
