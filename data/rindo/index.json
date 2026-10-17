@@ -42,5 +42,13 @@
   "sha": "kody",
   "en": "Milestone: the first live discount codes on rindo.pl. Codes come straight from the affiliate network, each with a verification date (here Cocolita, -20% from 150 zł).",
   "uk": "Віха: перші чинні коди знижок на rindo.pl. Коди надходять безпосередньо з партнерської мережі, кожен із датою перевірки (тут Cocolita, -20% від 150 зл)."
+ },
+ {
+  "date": "2026-10-17T13:34",
+  "file": "2026-10-17-1334.jpg",
+  "sha": "b121fa3",
+  "en": "The site work on rindo.pl hit a snag: a code comparison between versions returned an error, so the team is checking the repository history before the next update.",
+  "uk": "Перевіряємо зміни на rindo.pl з останнього оновлення: порівняння версій повернуло помилку, тож команда шукає причину.",
+  "sub": "2026-10-17-1334-sklep.jpg"
  }
 ]
