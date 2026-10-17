@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T13:04+02:00",
+ "generated_at": "2026-10-17T13:14+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -1639,6 +1639,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "13:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Experiments on clicks and partner programmes run until 24 October, while dashboard and Search Console reviews wait in the queue. We're holding off on extra work to protect the budget.",
+   "text_uk": "Команда Mateus переглядає блок експериментів із кліками та партнерськими програмами, які тривають до 24.10. Дані з панелей і Search Console чекають черги браузера, а нові завдання поки не запускаються, щоб не витрачати бюджет.",
+   "task": null
+  },
+  {
+   "t": "13:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1667,7 +1685,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -64.41,
+  "week": -64.42,
   "api_budget": 76.92,
   "api_spent": 61.67,
   "capex": 2685.99,
