@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T22:56+02:00",
+ "generated_at": "2026-10-17T23:07+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -2346,7 +2346,7 @@
    "t": "21:31",
    "type": "delegate",
    "agent": "max",
-   "dur": 100,
+   "dur": 110,
    "text": "Collecting discount codes and promotions straight from retailers' own homepages as official sources for rindo.pl.",
    "text_uk": "Мат'ю доручив команді збирати промокоди й акції, які самі магазини публікують на своїх головних сторінках, щоб використовувати офіційне джерело для rindo.pl.",
    "task": 54
