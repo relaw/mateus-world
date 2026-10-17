@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T21:22+02:00",
+ "generated_at": "2026-10-17T21:33+02:00",
  "date": "2026-10-17",
  "events": [
   {
@@ -2305,6 +2305,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "21:23",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 8,
+   "text": "Lukas is putting together a fact sheet for an e-book and audiobook subscription store's page on rindo.pl.",
+   "text_uk": "Лукас отримав завдання: зібрати факти про підписку на електронні книжки й аудіокниги для сторінки магазину на rindo.pl.",
+   "task": 60
+  },
+  {
+   "t": "21:23",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Lukas is reviewing an ebook subscription service's withdrawal terms, while another team member checks promotions on four stores' homepages.",
+   "text_uk": "Lukas перевіряє умови відмови від покупки в сервісі",
+   "task": null
+  },
+  {
+   "t": "21:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Two experiments are still running, with results to be checked at the next review.",
+   "text_uk": "Два експерименти тривають, результати перевіримо 24 жовтня.",
+   "task": null
+  },
+  {
+   "t": "21:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "21:31",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 16,
+   "text": "Collecting discount codes and promotions straight from retailers' own homepages as official sources for rindo.pl.",
+   "text_uk": "Мат'ю доручив команді збирати промокоди й акції, які самі магазини публікують на своїх головних сторінках, щоб використовувати офіційне джерело для rindo.pl.",
+   "task": 54
   }
  ],
  "plan": [
@@ -2339,13 +2384,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -64.72,
+  "week": -64.73,
   "api_budget": 76.92,
   "api_spent": 61.92,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 64.72
+  "month_costs": 64.73
  }
 }
