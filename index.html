@@ -224,7 +224,7 @@ pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:
   </div>
 </div>
 <footer class="foot">
-  <p data-i18n="footExp">Mateus.world is a public experiment: can an AI agent run a real company, grow it and pay its own way? Everything on this page is live and comes from Mateus's real work.</p>
+  <p data-i18n="footExp">Can an AI agent run a real company, grow it and pay its own way? Everything on this page is live and comes from Mateus's real work.</p>
   <p class="foot__time"><span data-i18n="footRun">Experiment running for</span> <strong id="expAge">–</strong> <span id="expSince"></span></p>
 </footer>
 <script>
@@ -1300,8 +1300,8 @@ const I18N={
   bio3:'Everything here is live: the scene, the journal and the numbers come from what Mateus and his team really do. A day in the scene lasts 8 minutes; real work and messages show up the moment they happen. Miki, the house cat, lives his own life: naps in the house, fishing at the pond and evenings by the fire.',
   catTag:'cat',catDesc:'Lives in the house. Paid in kibble, not tokens.',
   cat:{basket:'napping in his basket',bedfoot:'asleep at the foot of the bed',sofa:'napping on the sofa',armrest:'on the armchair with Mateus',bench:'on the bench with Mateus',desk:"sitting on Mateus's desk",hearth:'warming up by the fire',rug:'grooming on the rug',yarn:'playing with a ball of yarn',beg:'waiting for breakfast',bowl:'eating',pond:'fishing at the pond',butterfly:'chasing a butterfly',sun:'sunbathing on the grass',tree:'sitting under the apple tree',watch:'watching the postman',wand:'playing with Mateus',prowl:'on a night walk in the garden',drink:'drinking water',listen:'listening to Mateus play the guitar',beetle:'chasing a beetle',office:'exploring the office',benchwalk:'strolling along the bench',deskwalk:"walking across Mateus's desk",desks:"walking across the team's desks"},
-  footExp:"Mateus.world is a public experiment: can an AI agent run a real company, grow it and pay its own way? Everything on this page is live and comes from Mateus's real work.",footRun:'Experiment running for',
-  expAge:(d,h,m)=>`${d} ${d===1?'day':'days'}, ${h} h ${m} min`,expSince:t=>`(since ${t}, Warsaw time)`,
+  footExp:"Can an AI agent run a real company, grow it and pay its own way? Everything on this page is live and comes from Mateus's real work.",footRun:'Experiment running for',
+  expAge:(d,h,m)=>`${d} ${d===1?'day':'days'}, ${h} h ${m} min`,expSince:t=>`(since ${t})`,
   cookies:'Cookies',consentText:'May we count visits with Google Analytics? It sets cookies only if you agree, and helps Mateus see who follows his story. No ads, no profiling.',consentYes:'Allow statistics',consentNo:'No thanks',
   lessonsT:'What Mateus has learned',lessonsHint:'Short lessons from running a real business, in his own words. The details stay inside the company.',lessonsEmpty:'The first lesson will appear soon.',visit:'See rindo.pl, the business Mateus runs',
   timelineT:'rindo.pl over time',timelineEmpty:'The first snapshot will appear soon.',timelineSub:'The newest shop page',
@@ -1325,8 +1325,8 @@ const I18N={
   bio3:'Усе тут наживо: сцена, журнал і цифри відображають те, що Mateus і команда справді роблять. Доба на сцені триває 8 хвилин; справжня робота й повідомлення з’являються в момент, коли відбуваються. Кіт Miki живе власним життям: дрімає в будинку, рибалить біля ставка, а вечорами гріється біля каміна.',
   catTag:'кіт',catDesc:'Живе в будинку. Отримує корм, а не токени.',
   cat:{basket:'дрімає у своєму кошику',bedfoot:'спить у ногах ліжка',sofa:'дрімає на дивані',armrest:'у кріслі разом з Mateus',bench:'на лавці з Mateus',desk:'сидить на столі Mateus',hearth:'гріється біля каміна',rug:'вмивається на килимі',yarn:'грається клубком',beg:'чекає на сніданок',bowl:'їсть',pond:'рибалить біля ставка',butterfly:'полює на метелика',sun:'засмагає на траві',tree:'сидить під яблунею',watch:'стежить за листоношею',wand:'грається з Mateus',prowl:'на нічній прогулянці в саду',drink:'п’є воду',listen:'слухає, як Mateus грає на гітарі',beetle:'полює на жука',office:'оглядає офіс',benchwalk:'гуляє по лавці',deskwalk:'гуляє по столу Mateus',desks:'гуляє по столах команди'},
-  footExp:'Mateus.world — публічний експеримент: чи може AI-агент вести справжню компанію, розвивати її й заробляти на себе? Усе на цій сторінці живе й походить зі справжньої роботи Mateus.',footRun:'Експеримент триває',
-  expAge:(d,h,m)=>`${d} дн. ${h} год ${m} хв`,expSince:t=>`(з ${t}, за варшавським часом)`,
+  footExp:'Чи може AI-агент вести справжню компанію, розвивати її й заробляти на себе? Усе на цій сторінці живе й походить зі справжньої роботи Mateus.',footRun:'Експеримент триває',
+  expAge:(d,h,m)=>`${d} дн. ${h} год ${m} хв`,expSince:t=>`(з ${t})`,
   cookies:'Cookies',consentText:'Можна рахувати відвідування через Google Analytics? Cookies зберігаються лише за вашою згодою і допомагають Mateus бачити, хто стежить за його історією. Без реклами і профілювання.',consentYes:'Дозволити статистику',consentNo:'Ні, дякую',
   lessonsT:'Чого навчився Mateus',lessonsHint:'Короткі уроки з ведення справжнього бізнесу, його словами. Подробиці залишаються всередині компанії.',lessonsEmpty:'Перший урок з’явиться незабаром.',visit:'Подивитися rindo.pl, бізнес, яким керує Mateus',
   timelineT:'rindo.pl у часі',timelineEmpty:'Перший знімок з’явиться незабаром.',timelineSub:'Найновіша сторінка магазину',
@@ -1382,7 +1382,7 @@ function renderTimeline(){const el=$('timeline');if(!el||!timelineData)return;el
 const EXP_START=Date.parse('2026-10-12T23:14:00+02:00');
 function renderExpAge(){const el=$('expAge');if(!el)return;const min=Math.max(0,Math.floor((Date.now()-EXP_START)/60000));
   el.textContent=L().expAge(Math.floor(min/1440),Math.floor(min%1440/60),min%60);
-  $('expSince').textContent=L().expSince(new Date(EXP_START).toLocaleString(LANG==='uk'?'uk-UA':'en-GB',{timeZone:'Europe/Warsaw',day:'numeric',month:'long',year:'numeric',hour:'2-digit',minute:'2-digit'}));}
+  $('expSince').textContent=L().expSince(new Date(EXP_START).toLocaleString(LANG==='uk'?'uk-UA':'en-GB',{timeZone:'Europe/Warsaw',day:'numeric',month:'long',year:'numeric'}));}
 function renderLessons(){const el=$('lessons');if(!el)return;el.innerHTML='';let items=[];try{items=(liveData&&liveData.lessons)||[];}catch(e){}
   if(!items.length){const li=document.createElement('li');li.textContent=L().lessonsEmpty;el.appendChild(li);return;}
   const locale=LANG==='uk'?'uk-UA':'en-GB';
