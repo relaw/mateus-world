@@ -895,10 +895,13 @@ function furniture(t,hour){
     box(13.72,10.1,1.4,.06,46,'#e9edf1',40);qI(13.72,15.12,10.161,40,42,'#9aa4b0');qI(13.72,15.12,10.161,84,86,'#9aa4b0');
     qI(13.85,14.25,10.162,66,80,'#f2d65a');qI(14.33,14.73,10.162,68,82,'#f2a0b0');qI(14.78,15.05,10.162,64,78,'#a8d8f0');
     const pct=Math.min(1,state.earned/state.domainTarget);qI(13.85,15,10.163,50,54,'#5a6a7a');qI(13.86,13.86+Math.max(.02,1.13*pct),10.164,51,53,pct>0?'#5fbf7a':'#8a96a4');});
-  // półka z Mac mini
+  // tablica korkowa ze stronami sklepów rindo.pl, nad półką z Mac mini
+  add(26.6,[15.28,BJ-.01,16.92,BJ+.05],()=>shopBoard(t));
+  // półka z Mac mini i słoikiem na prowizje
   add(26.8,[15.25,10,16,10.8],()=>{box(15.25,10,.75,.8,40,'#dcdfe4');qI(15.3,15.95,10.8,18,20,'#b8bec8');
     box(15.35,10.12,.42,.42,4,'#c8ccd2',40);const led=reduce||Math.floor(t/700)%2;const p=iso(15.56,10.54,42);g.fillStyle=led?'#ffffff':'#9aa4b0';g.fillRect(p[0]-1,p[1]-1,2,1.5);
-    box(15.78,10.15,.18,.3,3,'#2f3640',40);for(let k=0;k<3;k++){const q=iso(15.8+k*.05,10.45,42);g.fillStyle=(Math.floor(t/(300+k*170))%2)?'#5fe08a':'#2a5a3a';g.fillRect(q[0],q[1]-1,1.2,1.2);}});
+    box(15.78,10.15,.18,.3,3,'#2f3640',40);for(let k=0;k<3;k++){const q=iso(15.8+k*.05,10.45,42);g.fillStyle=(Math.floor(t/(300+k*170))%2)?'#5fe08a':'#2a5a3a';g.fillRect(q[0],q[1]-1,1.2,1.2);}
+    commissionJar(t);});
   // kącik kawowy w górnym lewym rogu biura, ekspres przodem do pokoju
   add(20.3,[9.15,10.05,10.95,10.8],()=>{box(9.15,10.05,1.8,.75,30,'#eef0f2');box(9.15,10.05,1.8,.75,2,'#ffffff',30);
     for(let k=0;k<3;k++)qI(9.22+k*.58,9.74+k*.58,10.801,5,25,'#d4d8de');
@@ -906,6 +909,8 @@ function furniture(t,hour){
     box(9.41,10.52,.12,.1,2,'#9aa4b0',32);box(9.43,10.53,.08,.08,4,'#ffffff',34);
     box(9.85,10.45,.13,.13,6,'#ffffff',32);box(10.05,10.45,.13,.13,6,'#c8612a',32);box(10.55,10.15,.25,.35,10,'#c8a07a',32);
     if(state.food){box(9.8,10.12,.3,.25,9,'#5ab86c',32);box(9.82,10.14,.26,.21,1,'#3f9a52',41);box(10.2,10.15,.25,.22,7,'#e8d8b8',32);box(10.22,10.17,.21,.18,1,'#c8a07a',39);}});
+  // ściana partnerów nad kącikiem kawowym, tuż przy drzwiach
+  add(20.25,[9.3,BJ-.01,10.9,BJ+.05],()=>partnerWall(t));
   // biurka zespołu: wyspa na środku i stanowisko Leo w rogu
   add(-.7,()=>{fl(11.8,13.35,16.0,15.55,.4,'#b8c4d2');fl(11.9,13.45,15.9,15.45,.5,'#c6d0dc');});
   for(const a of Object.values(AGENTS)){const[i0,J0]=a.desk,[si,sj]=a.seat,dn=a.sit==='down';
@@ -972,6 +977,92 @@ function glassI(i0,i1,j){
   poly([iso(i0+.2,j,10),iso(i0+.35,j,10),iso(i0+.65,j,70),iso(i0+.5,j,70)],'rgba(255,255,255,.18)');
   box(i0,j-.05,.07,.1,80,'#5a6470');box(i0,j-.05,i1-i0,.1,6,'#5a6470',74);box(i0,j-.05,i1-i0,.1,4,'#5a6470');
 }
+
+/* ---------- świat rindo.pl: tablica stron sklepów, ściana partnerów, słoik z prowizjami, papierowe samoloty ---------- */
+// Liczby i zdarzenia pochodzą z data/today.json (world). Zdarzenie z world.today odgrywa się, gdy nadejdzie jego czas;
+// te sprzed wczytania strony są już w liczbach i nie wracają jako animacja. Bez nazw sklepów i bez kwot.
+// pend: przyrosty, które są już w liczbach z danych, ale czekają na swoją scenę (wtedy dopiero pojawiają się na ścianie).
+const WORLD={shops:0,goal:0,partners:0,earned:0,dbg:{shop:0,partner:0},pend:{shop:0,partner:0,commission:0},tl:[],date:'',src:null,q:[],ws:null,cardT:[],badgeT:[],coins:0,jar:-1,planes:[],fx:[]};
+const SAMPLE_WORLD={shops:41,shops_goal:40,partners:3,earned:9,today:[{t:"10:05",kind:"shop",n:3},{t:"11:35",kind:"mail"},{t:"13:45",kind:"partner"},{t:"16:25",kind:"commission"},{t:"17:35",kind:"shop",n:2}]};
+const BJ=10.07; // płaszczyzna tablic: tuż przed szklaną ścianą j=10
+const CARD_COL=['#f6f0e0','#f2d65a','#f2a0b0','#a8d8f0','#bfe3a8','#f6c48a'];
+const BADGE=[['#3f6fa8','#f2d65a'],['#c8443a','#ffffff'],['#4f8a62','#f2c94c'],['#6a5aa8','#f0b0dc'],['#d98a2a','#2b1d2a'],['#2f8fbf','#e8f2fc'],['#b8506a','#f6e8ee'],['#3a4a5a','#5fe08a']];
+const CONF=['#f2c21a','#e0506a','#3f8ac8','#3fa85a','#e07a2a','#8a5ac8'];
+const BOARD_A=[15.36,16.84,50,70.2],WALL_A=[9.38,10.82,53.6,71],SLOT=[0,0],GEO={};
+// siatka karteczek: im więcej, tym mniejsze; liczona tylko przy zmianie liczby
+function geo(id,n,A,steps){const c=GEO[id];if(c&&c.n===n)return c;let s=steps[steps.length-1];for(const x of steps)if(n<=x[0]*x[1]){s=x;break;}
+  const pi=(A[1]-A[0])/s[0],pz=(A[3]-A[2])/s[1];return GEO[id]={n,cols:s[0],cap:s[0]*s[1],pi,pz,w:pi*.72,h:pz*.7,A};}
+function gridSlot(k,G,o){const c=k%G.cols,r=Math.floor(k/G.cols);o[0]=G.A[0]+c*G.pi+(G.pi-G.w)/2;o[1]=G.A[3]-(r+1)*G.pz+(G.pz-G.h)/2;return o;}
+function glowRect(a,w,zz,h,age,life){if(age>=life)return;g.globalAlpha=(1-age/life)*(.55+.45*Math.sin(age/110));qI(a-.035,a+w+.035,BJ+.002,zz-1.3,zz+h+1.3,'#fff6b0');g.globalAlpha=1;}
+const shownShops=()=>Math.max(0,WORLD.shops-WORLD.pend.shop),shownPartners=()=>Math.max(0,WORLD.partners-WORLD.pend.partner);
+function shopBoard(t){ // tablica korkowa: jedna karteczka na każdą stronę sklepu na rindo.pl; flaga albo gwiazdka przy celu
+  const j=BJ,now=performance.now();
+  qI(15.28,16.92,j,47,73,'#6e4a33');qI(15.32,16.88,j+.001,48.4,71.6,'#c8955c');
+  for(let k=0;k<26;k++){const a=15.36+((k*37)%142)/100,zz=49.2+((k*53)%215)/10;qI(a,a+.025,j+.0015,zz,zz+.7,k%2?'#b07a46':'#dcae78');}
+  const n=shownShops(),G=geo('b',Math.max(n,WORLD.goal),BOARD_A,[[12,5],[16,7],[20,9]]),m=Math.min(n,G.cap);
+  for(let k=0;k<m;k++){const[a,zz]=gridSlot(k,G,SLOT);glowRect(a,G.w,zz,G.h,now-(WORLD.cardT[k]||-1e9),6000);
+    qI(a,a+G.w,j+.003,zz,zz+G.h,CARD_COL[(k*5+Math.floor(k/G.cols))%6]);qI(a+G.w*.15,a+G.w*.85,j+.0035,zz+G.h*.35,zz+G.h*.35+.45,'rgba(90,70,60,.4)');
+    qI(a+G.w*.36,a+G.w*.64,j+.004,zz+G.h-1,zz+G.h-.15,k%3?'#c8443a':'#3f6fa8');}
+  const gk=WORLD.goal-1;if(gk<0||gk>=G.cap)return;const[a,zz]=gridSlot(gk,G,SLOT);
+  if(n>gk){const s=iso(a+G.w/2,j+.005,zz+G.h*.45);g.fillStyle='#f2c94c';g.fillRect(s[0]-.6,s[1]-2.2,1.2,4.4);g.fillRect(s[0]-2.2,s[1]-.6,4.4,1.2);g.fillRect(s[0]-1.2,s[1]-1.2,2.4,2.4);g.fillStyle='#fff6c0';g.fillRect(s[0]-.4,s[1]-.4,.8,.8);}
+  else{const c='#fff2c8';qI(a,a+G.w,j+.003,zz,zz+.45,c);qI(a,a+G.w,j+.003,zz+G.h-.45,zz+G.h,c);qI(a,a+.015,j+.003,zz,zz+G.h,c);qI(a+G.w-.015,a+G.w,j+.003,zz,zz+G.h,c);
+    qI(a+G.w*.5-.006,a+G.w*.5+.006,j+.004,zz+G.h*.2,zz+G.h+1.6,'#4a3022');qI(a+G.w*.5+.006,a+G.w*.5+.05,j+.004,zz+G.h+.3,zz+G.h+1.6,'#d9452f');}
+}
+function partnerWall(t){ // ściana partnerów: oprawiona plakietka za każdy program partnerski, który przyjął rindo.pl
+  const j=BJ,now=performance.now();
+  qI(9.3,10.9,j,51,73,'#5a3a28');qI(9.33,10.87,j+.001,52,72,'#b8875a');for(const z of[57.5,63.5,69])qI(9.33,10.87,j+.0015,z,z+.4,'#a4744a');
+  const n=shownPartners(),G=geo('w',n+1,WALL_A,[[5,2],[8,3],[11,4]]),m=Math.min(n,G.cap);
+  for(let k=0;k<m;k++){const[a,zz]=gridSlot(k,G,SLOT),P=BADGE[k%BADGE.length],w=G.w,h=G.h;glowRect(a,w,zz,h,now-(WORLD.badgeT[k]||-1e9),6000);
+    qI(a,a+w,j+.003,zz,zz+h,'#8a6a34');qI(a+.012,a+w-.012,j+.0035,zz+.6,zz+h-.6,'#e0bc5e');qI(a+.03,a+w-.03,j+.004,zz+1.4,zz+h-1.4,P[0]);
+    const v=k%3;if(v===0)qI(a+.03,a+w-.03,j+.0045,zz+h*.42,zz+h*.58,P[1]);else if(v===1)qI(a+w*.42,a+w*.58,j+.0045,zz+1.4,zz+h-1.4,P[1]);else qI(a+w*.36,a+w*.64,j+.0045,zz+h*.36,zz+h*.64,P[1]);}
+  if(n<G.cap){const[a,zz]=gridSlot(n,G,SLOT);qI(a+G.w*.44,a+G.w*.56,j+.003,zz+G.h-1.6,zz+G.h-.7,'#4a3022');} // gwoździk na następną plakietkę
+}
+const jarLevel=e=>e<=0?0:Math.min(1,.14+.86*Math.log10(1+e)/3); // skala logarytmiczna: pierwsza prowizja jest widoczna
+function commissionJar(t){ // słoik na prowizje: monety do poziomu z łącznego zarobku, pusty przy zerze
+  const p=iso(15.45,10.68,40),x=p[0],y=p[1],w=3.4,h=12.5,lv=Math.max(0,WORLD.jar);
+  g.fillStyle='rgba(0,0,0,.18)';g.beginPath();g.ellipse(x,y,w+.8,1.5,0,0,7);g.fill();
+  g.fillStyle='rgba(205,232,248,.22)';g.fillRect(x-w,y-h,w*2,h);
+  if(lv>0){const ch=Math.max(1.4,lv*(h-2.5));g.fillStyle='#c8962a';g.fillRect(x-w+.5,y-ch,w*2-1,ch);
+    g.fillStyle='#e8b84a';for(let k=1;k*2<ch;k++)g.fillRect(x-w+.5,y-k*2,w*2-1,.6);
+    g.fillStyle='#f6d86a';g.fillRect(x-w+.5,y-ch,w*2-1,.9);g.fillStyle='#fff2b0';g.fillRect(x-1.6,y-ch+.1,1,.6);g.fillRect(x+1,y-ch+.4,.8,.5);}
+  g.fillStyle='rgba(140,170,190,.85)';g.fillRect(x-w-.5,y-h,.6,h);g.fillRect(x+w-.1,y-h,.6,h);g.fillRect(x-w,y-.5,w*2,.6);
+  g.fillStyle='rgba(255,255,255,.6)';g.fillRect(x-w+.7,y-h+2,.6,h-4);g.fillRect(x+w-1.4,y-h+3,.4,2);
+  g.fillStyle='#7a8694';g.fillRect(x-w+.3,y-h-1.8,w*2-.6,1.9);g.fillStyle='#b8c4d0';g.fillRect(x-w+.3,y-h-1.8,w*2-.6,.6);g.fillStyle='#2a2532';g.fillRect(x-1.3,y-h-1.6,2.6,.5);
+}
+// papierowy samolot: z biurka Mateusa przez drzwi pawilonu nad ogród i dalej w niebo (krzywa Catmull-Rom w (i,j,z))
+const PLANE=[[12.2,10.75,36],[10.7,11.55,60],[9.0,11.5,52],[7.6,11.3,66],[6.3,12.4,105],[4.6,13.8,160]],PA=[0,0,0],PB=[0,0,0];
+function planePos(s,o){const n=PLANE.length-1,f=Math.min(n-1e-6,Math.max(0,s*n)),k=Math.floor(f),u=f-k;
+  const P0=PLANE[Math.max(0,k-1)],P1=PLANE[k],P2=PLANE[k+1],P3=PLANE[Math.min(n,k+2)];
+  for(let d=0;d<3;d++)o[d]=.5*(2*P1[d]+(P2[d]-P0[d])*u+(2*P0[d]-5*P1[d]+4*P2[d]-P3[d])*u*u+(3*P1[d]-P0[d]-3*P2[d]+P3[d])*u*u*u);return o;}
+function drawPlane(x,y,ang,al){g.save();g.globalAlpha=al;g.translate(x,y);g.rotate(ang);g.scale(1.3,Math.abs(ang)>Math.PI/2?-1.3:1.3);
+  g.strokeStyle='rgba(60,70,90,.55)';g.lineWidth=.45;g.lineJoin='round';g.beginPath();g.moveTo(4.8,0);g.lineTo(-3.6,-2.8);g.lineTo(-2,0);g.lineTo(-3.2,1.9);g.closePath();g.stroke();
+  g.fillStyle='#ffffff';g.beginPath();g.moveTo(4.8,0);g.lineTo(-3.6,-2.8);g.lineTo(-2,0);g.closePath();g.fill();
+  g.fillStyle='#c8ced8';g.beginPath();g.moveTo(4.8,0);g.lineTo(-2,0);g.lineTo(-3.2,1.9);g.closePath();g.fill();
+  g.fillStyle='#8a96a4';g.fillRect(-2.6,-.2,7,.4);g.restore();}
+function drawCoin(x,y,t){const s=reduce?1:Math.abs(Math.sin(t/70));g.fillStyle='#a8781e';g.fillRect(x-.4-1.6*s,y-1.6,3.2*s+.8,3.2);g.fillStyle='#f2c94c';g.fillRect(x-1.6*s,y-1.3,3.2*s,2.6);if(s>.5){g.fillStyle='#fff2b0';g.fillRect(x-.6,y-.8,.8,.8);}}
+function worldOverlay(t){ // to, co leci w powietrzu: samoloty, karteczka do przypięcia, moneta do słoika
+  if(reduce)return;
+  for(const p of WORLD.planes){planePos(p.s,PA);planePos(Math.min(1,p.s+.01),PB);const a=iso(PA[0],PA[1],PA[2]),b=iso(PB[0],PB[1],PB[2]),al=p.s>.78?Math.max(0,(1-p.s)/.22):1;
+    if(PA[0]>9.05){const sh=iso(PA[0],PA[1],0);g.fillStyle=`rgba(0,0,0,${.13*al})`;g.beginPath();g.ellipse(sh[0],sh[1],3.2,1.1,0,0,7);g.fill();}
+    for(let k=1;k<4;k++){if(p.s-k*.018<0)break;planePos(p.s-k*.018,PB);const q=iso(PB[0],PB[1],PB[2]);g.fillStyle=`rgba(255,255,255,${.35*al*(1-k/4)})`;g.fillRect(q[0]-.4,q[1]-.4,.8,.8);}
+    drawPlane(a[0],a[1],Math.atan2(b[1]-a[1],b[0]-a[0]),al);}
+  const ws=WORLD.ws;if(!ws||me.phase!=='errand')return;const[x,y]=charScreen(me.i,me.j);
+  if(ws.kind==='shop'&&ws.ph>=.35&&ws.done<ws.n&&GEO.b){const G=GEO.b,k=shownShops();if(k<G.cap){const[a,zz]=gridSlot(k,G,SLOT),e=iso(a+G.w/2,BJ,zz+G.h/2),u=(ws.ph-.35)/.65,
+    cx=x+21+(e[0]-x-21)*u,cy=y-3+(e[1]-y+3)*u-Math.sin(u*Math.PI)*8;g.fillStyle=CARD_COL[(k*5+Math.floor(k/G.cols))%6];g.fillRect(cx-1.2,cy-1.6,2.4,3.2);g.fillStyle='#c8443a';g.fillRect(cx-.4,cy-1.8,.8,.8);}}
+  if(ws.kind==='commission'&&ws.st===2&&ws.from){const m=iso(15.45,10.68,40+12.5+2.4),u=Math.min(1,ws.t/950);let cx,cy;
+    if(u<.7){const v=u/.7;cx=ws.from[0]+(m[0]-ws.from[0])*v;cy=ws.from[1]+(m[1]-ws.from[1])*v-Math.sin(v*Math.PI)*12;}
+    else{const v=(u-.7)/.3,bot=iso(15.45,10.68,40)[1]-Math.max(1.4,WORLD.jar*10)-1;cx=m[0];cy=m[1]+(bot-m[1])*v*v;}
+    drawCoin(cx,cy,t);}
+}
+function worldFx(){ // konfetti i iskierki: rysowane po świetle, żeby były widoczne także nocą
+  for(const p of WORLD.fx){const f=1-p.age/p.life;
+    if(p.kind==='c'){g.globalAlpha=Math.min(1,f*2);g.fillStyle=p.c;const fl=Math.floor(p.age/90+p.life)%2;g.fillRect(p.x,p.y,fl?2.4:1.2,fl?1.2:2.4);}
+    else{g.globalAlpha=Math.min(1,f*1.6);g.fillStyle='#fff6c0';for(let n=0;n<4;n++){const a=n*Math.PI/2+p.age/260,r=2+p.age/140,sx=p.x+Math.cos(a)*r,sy=p.y+Math.sin(a)*r*.8,z=n%2?1.4:1;
+      g.fillRect(sx-z/2,sy-.25,z,.5);g.fillRect(sx-.25,sy-z/2,.5,z);}}}
+  g.globalAlpha=1;
+}
+function worldBurst(x,y,n){if(reduce)return;for(let k=0;k<n;k++){const a=-.35-Math.random()*(Math.PI-.7),v=22+Math.random()*34;WORLD.fx.push({kind:'c',x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v-30,c:CONF[k%CONF.length],age:0,life:1500+Math.random()*700});}}
+function worldSpark(x,y){if(!reduce)WORLD.fx.push({kind:'s',x,y,age:0,life:1000});}
 
 /* ---------- postacie ---------- */
 function charScreen(i,j,z){const p=iso(i,j,z||0);return[Math.round(p[0]-12),Math.round(p[1]-40)];}
@@ -1044,8 +1135,17 @@ function drawMateus(t){
     g.fillStyle='#e05a8a';g.fillRect(fx-1,fy,2,3);g.fillStyle='#f2c94c';g.fillRect(fx-1,fy+3,2,1.5);return;}
   if(pose==='feedfish'){drawSprite(c.down,x,y);acc(x,y,0,12,2,2,'#eebc94');
     if(!reduce){g.fillStyle='#e8d8b8';for(let n=0;n<3;n++){const ph=((t/700)+n/3)%1,f=iso(9.32+n*.07,5.38+n*.05,1),sx=x+1,sy=y+25;g.fillRect(sx+(f[0]-sx)*ph,sy+(f[1]-sy)*ph-Math.sin(ph*Math.PI)*6,1.2,1.2);}}return;}
+  if(pose==='pin'){drawSprite(c.up,x,y);acc(x,y,9.5,3,2,8,c.pal.j);acc(x,y,9.5,1,2,2,'#eebc94'); // ręka w górze: karteczka, plakietka albo moneta
+    const ws=WORLD.ws;if(!ws||me.phase!=='errand')return;
+    if(ws.kind==='shop'&&ws.done<ws.n&&ws.ph<.35){const k=shownShops();acc(x,y,9,-2,3,3.5,CARD_COL[(k*5+Math.floor(k/((GEO.b&&GEO.b.cols)||12)))%6]);acc(x,y,10,-2.4,1,1,'#c8443a');}
+    else if(ws.kind==='partner'&&ws.st<5){const P=BADGE[shownPartners()%BADGE.length];acc(x,y,8.5,-3,4,4,'#e0bc5e');acc(x,y,9,-2.5,3,3,P[0]);acc(x,y,9,-1.5,3,1,P[1]);}
+    else if(ws.kind==='commission'&&ws.st<2){acc(x,y,9.5,-1.2,2,2,'#f2c94c');acc(x,y,9.5,-1.2,1,1,'#fff2b0');}
+    return;}
+  if(pose==='open'){drawSprite(c.down,x,y);acc(x,y,2.5,11,7,5.5,'#ffffff');acc(x,y,2.5,11,7,1,'#e6dccb'); // otwarty list od programu partnerskiego
+    acc(x,y,3.5,13,5,.5,'#9aa4b0');acc(x,y,3.5,14.2,3.5,.5,'#9aa4b0');acc(x,y,7.5,14.5,1,1,'#c9a54e');acc(x,y,1.5,13,1.5,2,'#eebc94');acc(x,y,9,13,1.5,2,'#eebc94');return;}
   drawSprite(c[me.face],x,y);
   if(pose==='mail'){acc(x,y,-1,11,2,2,'#eebc94');acc(x,y,-1,10,2,1,'#ffffff');}
+  if(pose==='meet'){acc(x,y,-1,12,2,2,'#eebc94');}
   if(pose==='brief'){g.fillStyle='#eebc94';g.fillRect(me.face==='right'?x+23:x-3,y+24,4,3);}
 }
 function drawWalker(c,w,t,extra){
@@ -1109,7 +1209,9 @@ function drawVisitor(w,ch,t,kind){
       if(w.face==='up'){acc(x,y,2,10,8,7,'#3f9a52',al);acc(x,y,2,10,8,1,'#5ab86c',al);acc(x,y,4,12,4,2,'#ffffff',al);}
       else if(L||R2){acc(x,y,R2?0:8,10,4,7,'#3f9a52',al);acc(x,y,R2?0:8,10,4,1,'#5ab86c',al);}
       else{acc(x,y,0,10,1,6,'#2f7a40',al);acc(x,y,11,10,1,6,'#2f7a40',al);}
-      if(w.pose==='drop'){acc(x,y,1,12,3,3,'#e8d8b8',al);}}
+      if(w.pose==='drop'){acc(x,y,1,12,3,3,'#e8d8b8',al);}
+      if(w.env&&w.face!=='up'){const ex=R2?10.5:L?-2.5:1,ey=w.pose==='hand'?11.5:13; // koperta od programu partnerskiego
+        if(w.pose==='hand')acc(x,y,R2?10:0,12.5,1.5,1.5,'#c98a64',al);acc(x,y,ex,ey,4,2.5,'#ffffff',al);acc(x,y,ex,ey,4,.6,'#d8d0c4',al);acc(x,y,ex+1.5,ey+1,1,1,'#c8443a',al);}}
   });
 }
 function drawPostman(t){drawVisitor(POSTMAN,CH.postman,t,'post');}
@@ -1137,6 +1239,7 @@ function bubble(t,x,y,color,icon){
   if(icon==='paw'){P(12,8,7,5,color);P(10,4,3,3,color);P(14,2,3,3,color);P(18,4,3,3,color);if(blink)P(23,3,2,2,'#e05a7a');return;}
   if(icon==='drop'){P(14,2,2,2,'#3f7aa8');P(13,4,4,3,'#3f7aa8');P(12,7,6,5,'#3f7aa8');P(13,8,1,2,'#cfe8f6');if(blink)P(21,10,2,2,'#8fc8ec');return;}
   if(icon==='fish'){P(9,6,10,5,'#f08a3a');P(19,5,3,7,'#e06a2a');P(11,7,1,1,'#1a1a22');if(blink){P(23,4,1,1,'#8fc8ec');P(24,7,1,1,'#8fc8ec');}return;}
+  if(icon==='plane'){P(20,3,3,1,'#2f8fbf');P(17,4,6,1,'#2f8fbf');P(14,5,8,1,'#2f8fbf');P(11,6,10,1,'#2f8fbf');P(8,7,12,1,'#2f8fbf');P(12,8,7,1,'#8fc8ec');P(14,9,4,1,'#8fc8ec');P(15,10,2,2,'#8fc8ec');if(blink){P(4,10,3,1,'#9aa4b0');P(6,12,3,1,'#9aa4b0');}return;}
   if(icon==='chat'){P(8,4,11,7,'#2f8fbf');P(9,11,3,2,'#2f8fbf');P(12,6,14,7,'#cfe8f6');P(22,13,2,2,'#cfe8f6');if(blink){P(15,9,2,1,'#2f8fbf');P(18,9,2,1,'#2f8fbf');P(21,9,2,1,'#2f8fbf');}return;}
   const n=reduce?3:(Math.floor(t/400)%4);for(let k=0;k<3;k++){g.fillStyle=k<n?color:'#d9cfc0';g.fillRect(x+6+k*7,y+6,4,4);}
 }
@@ -1207,8 +1310,10 @@ function drawScene(t,hour){
   {const pr=cat.perch&&(cat.perch.fp||cat.perch.front)&&!['walk','hop','stand'].includes(cat.pose)?cat.perch:null,pf=pr&&catFp(pr);
     L.push({d:pr?(pr.d||pf[0]+pf[1]):cat.i+cat.j+.01,fp:pr?pf:cfp(cat.i,cat.j,.12),f:()=>drawCat(t)});}
   isoSort(L).forEach(o=>o.f());
-  lights(t,hour);catOverlay(t,hour);
-  if(me.phase==='main'&&me.pose!=='walk'&&me.pose!=='lie'&&me.pose!=='stand'){const[x,y]=charScreen(me.i,me.j);const dy=me.pose==='desk'?-12:me.pose==='armchair'?-10:me.pose==='sofa'?-8:me.pose==='bench'?-6:0;bubble(t,x+16,y-22+dy,me.st.color,me.st.icon);}
+  worldOverlay(t);
+  lights(t,hour);catOverlay(t,hour);worldFx();
+  const bs=me.phase==='errand'?me.target:me.st; // przy tablicy, ścianie i słoiku bez dymka: widać, co robi
+  if((me.phase==='main'||(me.phase==='errand'&&bs.icon))&&me.pose!=='walk'&&me.pose!=='lie'&&me.pose!=='stand'&&me.pose!=='pin'&&me.pose!=='open'){const[x,y]=charScreen(me.i,me.j);const dy=me.pose==='desk'?-12:me.pose==='armchair'?-10:me.pose==='sofa'?-8:me.pose==='bench'?-6:0;bubble(t,x+16,y-22+dy,bs.color,bs.icon);}
   if(me.pose==='lie'&&!reduce){const z=Math.floor(t/700)%3;const p=iso(.48,.91,40);g.fillStyle='#f6e6c8';g.font='bold 11px "Pixelify Sans", monospace';g.fillText('z',p[0]+10,p[1]-z*4);if(z>0)g.fillText('Z',p[0]+18,p[1]-8-z*4);}
   g.font='600 10px "Atkinson Hyperlegible", system-ui, sans-serif';g.textAlign='center';
   const presenting=me.pose==='present'&&me.phase==='main';let n=0;
@@ -1431,8 +1536,8 @@ function fire(ev){
   if(c.api){state.apiUsed+=c.api;state.week-=c.api;}if(c.local)state.week-=c.local;if(c.earn){state.earned+=c.earn;state.week+=c.earn;}
   if(typeof ev.task==='number')doneTasks.add(ev.task);
   if(ev.type==='mail'){POSTMAN.i=ENTRY[0];POSTMAN.j=ENTRY[1];POSTMAN.exitVia=null;walkTo(POSTMAN,POST_SPOT,{pose:'drop',face:'left',cb:()=>{POSTMAN.until=sim+8;}});addLog(ev);return;}
-  if(ev.type==='food'){COURIER.i=ENTRY[0];COURIER.j=ENTRY[1];COURIER.exitVia=null;walkTo(COURIER,FOOD_SPOT,{pose:'drop',face:'up',cb:()=>{COURIER.until=sim+6;}});addLog(ev);return;}
-  const st=stationFor(ev);goTo(st);
+  if(ev.type==='food'){COURIER.i=ENTRY[0];COURIER.j=ENTRY[1];COURIER.exitVia=null;COURIER.env=false;walkTo(COURIER,FOOD_SPOT,{pose:'drop',face:'up',cb:()=>{COURIER.until=sim+6;}});addLog(ev);return;}
+  const st=stationFor(ev);goMain(st);
   lastEv=ev;lastSt=st;renderNow();$('nowDot').style.background=st.color;
   addLog(ev);renderTasks(doneTasks);
 }
@@ -1440,17 +1545,17 @@ function showNow(ev,st){lastEv=ev;lastSt=st;renderNow();$('nowDot').style.backgr
 function fireRoutine(ev){ // rytm dnia: nie trafia do dziennika
   routineFired.add(ev._i);
   if(ev.type==='mail'){POSTMAN.i=ENTRY[0];POSTMAN.j=ENTRY[1];POSTMAN.exitVia=null;walkTo(POSTMAN,POST_SPOT,{pose:'drop',face:'left',cb:()=>{POSTMAN.until=sim+8;}});return;}
-  if(ev.type==='food'){COURIER.i=ENTRY[0];COURIER.j=ENTRY[1];COURIER.exitVia=null;walkTo(COURIER,FOOD_SPOT,{pose:'drop',face:'up',cb:()=>{COURIER.until=sim+6;}});return;}
+  if(ev.type==='food'){COURIER.i=ENTRY[0];COURIER.j=ENTRY[1];COURIER.exitVia=null;COURIER.env=false;walkTo(COURIER,FOOD_SPOT,{pose:'drop',face:'up',cb:()=>{COURIER.until=sim+6;}});return;}
   routineEv=ev;routineSt=stationFor(ev);
-  if(!override){goTo(routineSt);showNow(ev,routineSt);}
+  if(!override){goMain(routineSt);showNow(ev,routineSt);}
 }
 function fireReal(ev){fired.add(ev._i);addLog(ev);} // prawdziwe zdarzenie: dziennik
 function updateOverride(){ // prawdziwa praca Mateusa ma pierwszeństwo przed rytmem dnia
   let cur=null;for(const ev of timeline)if(ev._m<=realNow&&ev.type!=='mail'&&ev.type!=='food')cur=ev;
   const lasts=cur&&(cur.type==='delegate'?10:cur.dur||30);
   const active=cur&&cur.type!=='idle'&&cur.type!=='sleep'&&realNow-cur._m<lasts?cur:null;
-  if(active&&active!==override){override=active;const st=stationFor(active);goTo(st);showNow(active,st);}
-  else if(!active&&override){override=null;if(routineSt){goTo(routineSt);showNow(routineEv,routineSt);}}
+  if(active&&active!==override){override=active;const st=stationFor(active);goMain(st);showNow(active,st);}
+  else if(!active&&override){override=null;if(routineSt){goMain(routineSt);showNow(routineEv,routineSt);}}
 }
 function agentsUpdate(){
   let changed=false;
@@ -1472,6 +1577,79 @@ function agentsUpdate(){
   if(changed)renderTeam();
 }
 function catchUp(){if(live)return;timeline.forEach(ev=>{if(ev._m<=sim&&!fired.has(ev._i))fire(ev);});}
+/* ---------- sceny świata rindo.pl: Mateus odkłada na chwilę to, co robi, a potem do tego wraca ---------- */
+const WSPOT={
+  board:{p:[16.05,11.0],via:[[16.05,11.6]],face:'up',pose:'pin',keep:1},
+  desk:{p:[12.32,11.42],via:[[12.32,12.05]],face:'up',pose:'desk',color:'#2f8fbf',icon:'plane',keep:1},
+  meet:{p:[10.2,11.3],face:'left',pose:'meet',color:'#3f9a52',icon:'mail',keep:1},
+  wall:{p:[10.1,11.25],face:'up',pose:'pin',keep:1},
+  jar:{p:[15.15,11.25],face:'up',pose:'pin',keep:1}};
+const ENV_SPOT=[9.6,11.9],WKINDS=['shop','partner','mail','commission'];
+function goMain(st){if(WORLD.ws&&me.phase==='errand'){WORLD.ws.back=st;WORLD.ws.wasMain=false;}else goTo(st);} // w trakcie sceny: nowy cel czeka na jej koniec
+function errand(st){me.target=st;me.phase='errand';if(me.pose==='lie'&&!me.exitVia)me.exitVia=STATIONS.sleep.via.slice().reverse();me.path=route(me,st.p,st.via);me.pose='walk';}
+function worldEnd(){const ws=WORLD.ws;WORLD.ws=null;if(!ws||me.phase!=='errand')return;const b=ws.back||STATIONS.idle;
+  goTo(b,ws.wasMain&&(me.outfit==='pajama')===(b===STATIONS.sleep));}
+function worldEvents(w,date){const cnt={};return(w&&Array.isArray(w.today)?w.today:[]).filter(e=>e&&WKINDS.includes(e.kind)&&/^\d\d?:\d\d$/.test(e.t||'')).map(e=>{const b=e.t+'|'+e.kind;cnt[b]=(cnt[b]||0)+1;
+  return{t:e.t,kind:e.kind,n:e.kind==='shop'?Math.max(1,Math.min(99,e.n|0||1)):1,_m:toMin(e.t),key:date+'|'+b+'|'+cnt[b],done:false};}).sort((a,b)=>a._m-b._m);}
+function wInc(e,s){if(e.kind!=='mail')WORLD.pend[e.kind]+=s*e.n;}
+function worldSet(w,earned){w=w||{};WORLD.shops=Math.max(0,w.shops|0)+WORLD.dbg.shop;WORLD.goal=Math.max(0,w.shops_goal|0);WORLD.partners=Math.max(0,w.partners|0)+WORLD.dbg.partner;WORLD.earned=Math.max(0,+earned||0);}
+function worldClear(){const ws=WORLD.ws;WORLD.ws=null;WORLD.q.length=0;WORLD.planes.length=0;WORLD.fx.length=0;WORLD.cardT=[];WORLD.badgeT=[];WORLD.coins=0;WORLD.jar=-1;WORLD.dbg={shop:0,partner:0};
+  WORLD.pend={shop:0,partner:0,commission:0};COURIER.env=false;if(COURIER.pose==='hand')walkTo(COURIER,ENTRY,{pose:'away'});
+  if(ws&&me.phase==='errand')goTo(ws.back||me.st);}
+// dane przykładowe i powtórka dnia: liczby startują od stanu sprzed dzisiejszych zdarzeń, a te odgrywają się po kolei
+function worldDay(w,earned,from){worldClear();worldSet(w,earned);WORLD.src=[w,earned];WORLD.date='';WORLD.tl=worldEvents(w,'');
+  for(const e of WORLD.tl){if(e._m<=from)e.done=true;else wInc(e,1);}}
+// na żywo: od razu liczby końcowe; zdarzenie, które pojawi się w odświeżonych danych (z ostatnich 30 minut), dostaje swoją scenę
+function worldLive(d,first){const now=warsawNow(),today=d.date===now.date,old=new Map(WORLD.tl.map(e=>[e.key,e]));
+  if(first){worldClear();old.clear();}worldSet(d.world,state.earned);WORLD.src=null;WORLD.date=d.date||'';
+  WORLD.tl=worldEvents(d.world,WORLD.date).map(e=>{const o=old.get(e.key);if(o)return o;
+    if(!today||(first?e._m<=now.min:e._m<now.min-30))e.done=true;else wInc(e,1);return e;});}
+function worldStart(){const e=WORLD.q[0];
+  if(e.kind==='partner'&&COURIER.pose!=='away')return; // kurier jeszcze rozwozi obiad
+  WORLD.q.shift();const ws={kind:e.kind,n:e.n,st:0,t:0,done:0,fl:0,ph:0,back:me.st,wasMain:me.phase==='main'};
+  while(WORLD.q.length&&WORLD.q[0].kind===e.kind&&(e.kind==='shop'||(e.kind==='mail'&&ws.n<3)))ws.n+=WORLD.q.shift().n; // kilka naraz: jedna scena
+  if(me.phase==='errand')ws.wasMain=false;WORLD.ws=ws;
+  if(e.kind==='shop')errand(WSPOT.board);
+  else if(e.kind==='mail'){const D=WSPOT.desk;if(me.phase==='main'&&me.pose==='desk'&&Math.hypot(me.i-D.p[0],me.j-D.p[1])<.05)ws.here=1;else errand(D);}
+  else if(e.kind==='partner'){COURIER.i=ENTRY[0];COURIER.j=ENTRY[1];COURIER.exitVia=null;COURIER.env=true;walkTo(COURIER,ENV_SPOT,{pose:'hand',face:'right',cb:()=>{ws.c=1;}});errand(WSPOT.meet);}
+  else errand(WSPOT.jar);
+}
+function sceneStep(ws,ms){
+  const at=ws.here||(me.phase==='errand'&&!me.path.length&&me.pose===me.target.pose);ws.t+=ms;
+  if(ws.kind==='shop'){if(!at){ws.t=0;return;} // przypina karteczki po kolei: każda leci z ręki na swoje miejsce
+    const per=Math.max(280,Math.min(750,4500/ws.n));
+    while(ws.done<ws.n&&ws.t>=(ws.done+1)*per){ws.done++;const k=shownShops();if(WORLD.pend.shop>0){WORLD.pend.shop--;WORLD.cardT[k]=performance.now();
+      if(k+1===WORLD.goal&&GEO.b&&k<GEO.b.cap){const[a,zz]=gridSlot(k,GEO.b,SLOT),s=iso(a,BJ,zz);worldBurst(s[0],s[1],22);}}}
+    ws.ph=ws.done<ws.n?(ws.t-ws.done*per)/per:1;
+    if(ws.done>=ws.n&&ws.t>=ws.n*per+900)worldEnd();return;}
+  if(ws.kind==='mail'){if(!at){ws.t=0;return;} // samoloty startują z biurka co 0,9 s
+    if(ws.fl<ws.n&&ws.t>=500+ws.fl*900){ws.fl++;WORLD.planes.push({s:0});}
+    if(ws.fl>=ws.n&&ws.t>=500+(ws.n-1)*900+1500)worldEnd();return;}
+  if(ws.kind==='partner'){ // kurier z kopertą, list, konfetti, nowa plakietka na ścianie
+    if(ws.st===0){if(at&&(ws.c||ws.t>15000)){ws.st=1;ws.t=0;}return;}
+    if(ws.st===1){if(ws.t>=700){COURIER.env=false;me.pose='open';me.face='down';ws.st=2;ws.t=0;}return;}
+    if(ws.st===2){if(ws.t>=700){const[x,y]=charScreen(me.i,me.j);worldBurst(x+12,y-2,40);if(COURIER.pose==='hand')walkTo(COURIER,ENTRY,{pose:'away'});ws.st=3;ws.t=0;}return;}
+    if(ws.st===3){if(ws.t>=1600){errand(WSPOT.wall);ws.st=4;ws.t=0;}return;}
+    if(ws.st===4){if(at){ws.st=5;ws.t=0;}return;}
+    if(ws.st===5){if(ws.t>=800){const k=shownPartners();if(WORLD.pend.partner>0){WORLD.pend.partner--;WORLD.badgeT[k]=performance.now();
+      const G=geo('w',k+2,WALL_A,[[5,2],[8,3],[11,4]]);if(k<G.cap){const[a,zz]=gridSlot(k,G,SLOT),s=iso(a+G.w/2,BJ,zz+G.h/2);worldSpark(s[0],s[1]);}}ws.st=6;ws.t=0;}return;}
+    if(ws.t>=1000)worldEnd();return;}
+  // prowizja: moneta z ręki do słoika, iskierki
+  if(ws.st===0){if(at){ws.st=1;ws.t=0;}return;}
+  if(ws.st===1){if(ws.t>=450){const[x,y]=charScreen(me.i,me.j);ws.from=[x+21,y-1];ws.st=2;ws.t=0;}return;}
+  if(ws.st===2){if(ws.t>=950){if(WORLD.pend.commission>0)WORLD.pend.commission--;WORLD.coins++;const p=iso(15.45,10.68,55);worldSpark(p[0],p[1]);ws.st=3;ws.t=0;}return;}
+  if(ws.t>=1000)worldEnd();
+}
+function worldStep(dt){
+  const clock=live?realNow:sim;for(const e of WORLD.tl)if(!e.done&&e._m<=clock){e.done=true;WORLD.q.push(e);}
+  const ms=playing?dt*Math.sqrt(speed):0; // przy 20× sceny są szybsze, ale wciąż widoczne
+  if(!WORLD.ws&&WORLD.q.length)worldStart();
+  if(WORLD.ws)sceneStep(WORLD.ws,ms);
+  let w=0;for(const p of WORLD.planes){p.s+=ms/3800;if(p.s<1)WORLD.planes[w++]=p;}WORLD.planes.length=w;
+  w=0;for(const p of WORLD.fx){p.age+=ms;if(p.kind==='c'){p.vy+=80*ms/1000;p.x+=p.vx*ms/1000;p.y+=p.vy*ms/1000;p.vx*=.985;}if(p.age<p.life)WORLD.fx[w++]=p;}WORLD.fx.length=w;
+  let v=jarLevel(WORLD.earned)-.07*WORLD.pend.commission;if(v<0)v=0;if(WORLD.coins&&v<.07)v=.07;
+  WORLD.jar=WORLD.jar<0?v:WORLD.jar+(v-WORLD.jar)*Math.min(1,dt/350);
+}
 /* ---------- tryb na żywo: prawdziwy dziennik Mateusa i prawdziwy czas warszawski ---------- */
 let live=false,liveData=null,liveKey='';
 const WARSAW=new Intl.DateTimeFormat('pl-PL',{timeZone:'Europe/Warsaw',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'});
@@ -1488,7 +1666,7 @@ function applyLive(d){
   badgeMode={k:'live',v:(d.generated_at||'').slice(11,16)};renderBadge();renderLessons();
 }
 function enterLive(d){
-  live=true;speed=1;playing=true;applyLive(d);liveKey=JSON.stringify(d.events)+JSON.stringify(d.plan);
+  live=true;speed=1;playing=true;applyLive(d);worldLive(d,true);liveKey=JSON.stringify(d.events)+JSON.stringify(d.plan);
   sim=worldMin();lastWorld=sim;lastReal=-1;override=null;routineFired=new Set();
   routineTL=buildRoutine();
   for(const ev of routineTL)if(ev._m<=sim&&ev.type!=='mail'&&ev.type!=='food'){routineFired.add(ev._i);routineEv=ev;routineSt=stationFor(ev);}
@@ -1502,7 +1680,7 @@ async function fetchLive(){
   try{const r=await fetch('data/today.json?t='+Date.now(),{cache:'no-store'});if(!r.ok)return null;return await r.json();}catch(e){return null;}
 }
 async function refreshLive(){
-  if(!live)return;const d=await fetchLive();if(!d)return;applyLive(d);
+  if(!live)return;const d=await fetchLive();if(!d)return;applyLive(d);worldLive(d,false);
   const key=JSON.stringify(d.events)+JSON.stringify(d.plan);
   if(key!==liveKey){liveKey=key;window.mateus.loadEvents(liveEvents(d));}
 }
@@ -1514,11 +1692,11 @@ function step(dt){
     for(const ev of timeline)if(ev._m<=realNow&&!fired.has(ev._i))fireReal(ev);
     updateOverride();}
   else if(playing){sim+=dt/1000*MIN_PER_SEC*speed;
-    if(sim>=1440){sim-=1440;day++;fired=new Set();doneTasks=new Set();renderTasks(doneTasks);}
+    if(sim>=1440){sim-=1440;day++;fired=new Set();doneTasks=new Set();renderTasks(doneTasks);if(WORLD.src)worldDay(WORLD.src[0],WORLD.src[1],-1);}
     for(const ev of timeline)if(ev._m<=sim&&!fired.has(ev._i))fire(ev);}
-  agentsUpdate();
+  agentsUpdate();worldStep(dt);
   const mult=playing?speed:0;for(const k in AGENTS)stepWalker(AGENTS[k],dt,mult);stepWalker(POSTMAN,dt,mult);stepWalker(COURIER,dt,mult);catUpdate(dt,mult);
-  {const near=w=>w.pose==='walk'&&Math.hypot(w.i-9,w.j-11.5)<1.5;let who=near(me)?'staff':null;for(const k in AGENTS)if(near(AGENTS[k]))who='staff';if(!who&&near(cat))who='staff';if(!who&&near(COURIER))who='guest';state.doorWho=who;state.door+=((who?1:0)-state.door)*Math.min(1,dt/150);}
+  {const near=w=>w.pose==='walk'&&Math.hypot(w.i-9,w.j-11.5)<1.5;let who=near(me)?'staff':null;for(const k in AGENTS)if(near(AGENTS[k]))who='staff';if(!who&&near(cat))who='staff';if(!who&&near(COURIER))who='guest';if(!who)for(const p of WORLD.planes)if(p.s>.22&&p.s<.5)who='staff';state.doorWho=who;state.door+=((who?1:0)-state.door)*Math.min(1,dt/150);}
   if(me.phase==='dress'&&me.pose==='change'&&playing&&sim>=me.until){me.outfit=me.target.outfit;goTo(me.st);}
   if(me.phase==='pre'&&me.pose===me.target.pose&&playing&&sim>=me.until){const pre=me.target;if(pre.carry)me.carry=pre.carry;if(pre.fire)state.fireLit=sim;if(pre.food)state.food=false;if(pre.feed){state.bowlFull=true;cat.ate=0;}goTo(me.st,true);}
   if(me.pose==='walk'&&me.path.length){
@@ -1543,14 +1721,19 @@ document.querySelectorAll('[data-speed]').forEach(b=>b.addEventListener('click',
 $('replay').addEventListener('click',()=>{if(!liveData)return;live=false;speed=20;playing=true;sim=5*60;
   for(const b of document.querySelectorAll('#play,[data-speed]')){b.hidden=false;if(b.dataset.speed)b.setAttribute('aria-pressed',String(b.dataset.speed==='20'));}
   $('play').textContent=L().pause;$('replay').hidden=true;$('golive').hidden=false;badgeMode={k:'replay',v:liveData.date};renderBadge();
+  worldDay(liveData.world||{},state.earned,sim);
   me.st=STATIONS.sleep;me.target=STATIONS.sleep;me.phase='main';me.path=[];me.outfit='pajama';arrive();
   window.mateus.loadEvents(liveEvents(liveData));});
 $('golive').addEventListener('click',()=>{if(liveData)enterLive(liveData);});
 window.mateus={
   loadEvents(list){if(!Array.isArray(list)||(!list.length&&!live))throw new Error('Provide a non-empty list of events.');EVENTS=list;timeline=sorted();fired=new Set();doneTasks=new Set();$('log').innerHTML='';logged=[];renderTasks(doneTasks);catchUp();},
-  state,agents:AGENTS,me,cat
+  // scena świata rindo.pl od razu, do testów: debugWorld('shop'|'partner'|'mail'|'commission')
+  debugWorld(kind){const k=kind||'shop';if(!WKINDS.includes(k))throw new Error('Kinds: '+WKINDS.join(', ')+'.');
+    const e={t:hhmm(live?realNow:sim),kind:k,n:k==='shop'?2:1,_m:-1,key:'debug',done:true};if(k==='shop'){WORLD.shops+=e.n;WORLD.dbg.shop+=e.n;}else if(k==='partner'){WORLD.partners++;WORLD.dbg.partner++;}
+    wInc(e,1);WORLD.q.unshift(e);return k;},
+  state,agents:AGENTS,me,cat,world:WORLD
 };
-buildStatic();
+buildStatic();worldDay(SAMPLE_WORLD,SAMPLE_WORLD.earned,sim);
 renderTasks(doneTasks);renderTeam();
 catchUp();
 me.st=STATIONS.sleep;me.target=STATIONS.sleep;me.phase="main";me.path=[];arrive();
