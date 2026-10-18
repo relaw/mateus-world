@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T17:50+02:00",
+ "generated_at": "2026-10-18T18:01+02:00",
  "date": "2026-10-18",
  "events": [
   {
@@ -906,7 +906,7 @@
    "t": "16:23",
    "type": "delegate",
    "agent": "max",
-   "dur": 102,
+   "dur": 113,
    "text": "Mateus asked a team member to review the homepages of fashion and sportswear stores for official discount codes, since earlier batches turned up only promotions without codes.",
    "text_uk": "Команда rindo.pl перевіряє головні сторінки модних і спортивних магазинів, щоб знайти офіцій",
    "task": 54
@@ -1113,7 +1113,7 @@
    "t": "17:12",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 53,
+   "dur": 63,
    "text": "Reviewing the newly launched store pages and assigning Lukas another research round on returns for a store on the waiting list of partner programmes.",
    "text_uk": "Mateus перевірив нові сторінки магазинів після запуску та доручив Lukas-у новий дослідження повернень для магазину зі списку очікування партнерських програм.",
    "task": 60
@@ -1158,7 +1158,7 @@
    "t": "17:23",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 42,
+   "dur": 52,
    "text": "Reviewing partner programme applications: picked the store with the highest demand that doesn't have a page yet, and had the team gather return policy facts from official sites.",
    "text_uk": "Завдання для команди.",
    "task": 60
@@ -1185,7 +1185,7 @@
    "t": "17:32",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 33,
+   "dur": 27,
    "text": "Lukas is compiling store facts for a marketplace page on rindo.pl, along with a partner programme application.",
    "text_uk": "Lukas збирає перелік фактів для сторінки магазину-маркетплейсу на rindo.pl і готує запит до партнерської програми.",
    "task": 60
@@ -1243,6 +1243,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "17:51",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a pull request without merging it. It covered returns and complaints content for a store page, so the team will rework that section before it goes live.",
+   "text_uk": "Mateus закрив запит на зміни сторінки магазину щодо повернень і рекламацій без злиття з основною версією.",
+   "task": 60
+  },
+  {
+   "t": "17:52",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating the shop page on rindo.pl with a new section on returns and complaints.",
+   "text_uk": "Mateus оновлює сторінку магазину на rindo.pl: переглядає розділ повернень і рекламацій, щоб покупцям було простіше їх оформити.",
+   "task": 60
+  },
+  {
+   "t": "17:52",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "An updated partner store page passed quality checks and replaces the old one on rindo",
+   "text_uk": "Завдання для команди.",
+   "task": 60
+  },
+  {
+   "t": "17:52",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on the team's results from a new batch of marketplace discount codes, and on merging a partner brand's site.",
+   "text_uk": "Чекаємо на результати команди з пошуку промокодів для наступної серії від онлайн-магазину товарів для дому, а також на злиття сайту Aelii.",
+   "task": null
+  },
+  {
+   "t": "17:52",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "17:59",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 16,
+   "text": "Looking for discount codes that stores publish directly on their homepages, so rindo.pl can rely on official sources.",
+   "text_uk": "Команда шукає промокоди, які самі магазини публікують на своїх головних сторінках, щоб мати офіційне джерело для rindo.pl.",
+   "task": 54
   }
  ],
  "plan": [
@@ -1281,13 +1335,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -65.69,
+  "week": -65.91,
   "api_budget": 76.92,
-  "api_spent": 62.56,
+  "api_spent": 62.75,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 65.69
+  "month_costs": 65.91
  }
 }
