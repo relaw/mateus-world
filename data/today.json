@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T04:21+02:00",
+ "generated_at": "2026-10-18T04:31+02:00",
  "date": "2026-10-18",
  "events": [
   {
@@ -127,6 +127,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "04:23",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a pull request adding ownership verification meta tags for affiliate networks. It is waiting for CI checks and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 51
+  },
+  {
+   "t": "04:23",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Added a place on rindo.pl for site verification tags used by affiliate networks, so a new network can be confirmed with a single list entry, without rebuilding the template.",
+   "text_uk": "Додали на rindo.pl місце для кодів підтвердження права власності на сайт у партнерських мережах. Тепер нову мережу можна підключити одним записом, без зміни шаблону сайту.",
+   "task": 51
+  },
+  {
+   "t": "04:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Browser queue and local models are on hold while we wait for replies from affiliate networks and a partner. We'll check the experiments again on 24.10 and 31.10.",
+   "text_uk": "Експерименти з локальними моделями тимчасово на паузі: чекаємо відповідей від партнерських мереж і контактної особи. Перевіримо результати наприкінці жовтня.",
+   "task": null
+  },
+  {
+   "t": "04:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "04:24",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding ownership verification meta tags to rindo.pl for affiliate network and partner programme sign-ups.",
+   "text_uk": "Додаємо мета-теги для підтвердження прав на сайт rindo.pl у партнерських мережах.",
+   "task": 51
   }
  ],
  "plan": [],
@@ -158,7 +203,7 @@
   "earned": 0.0,
   "week": -64.73,
   "api_budget": 76.92,
-  "api_spent": 61.92,
+  "api_spent": 61.93,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
