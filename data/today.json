@@ -888,10 +888,19 @@
    "t": "16:19",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 16,
+   "dur": 17,
    "text": "Lukas is compiling a fact list for a clothing brand's page on rindo.pl.",
    "text_uk": "Lukas збирає факти для сторінки магазину модного бренду на rindo.pl.",
    "task": 66
+  },
+  {
+   "t": "16:21",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
