@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T16:33+02:00",
+ "generated_at": "2026-10-18T16:43+02:00",
  "date": "2026-10-18",
  "events": [
   {
@@ -906,7 +906,7 @@
    "t": "16:23",
    "type": "delegate",
    "agent": "max",
-   "dur": 25,
+   "dur": 35,
    "text": "Mateus asked a team member to review the homepages of fashion and sportswear stores for official discount codes, since earlier batches turned up only promotions without codes.",
    "text_uk": "Команда rindo.pl перевіряє головні сторінки модних і спортивних магазинів, щоб знайти офіцій",
    "task": 54
@@ -942,7 +942,7 @@
    "t": "16:31",
    "type": "delegate",
    "agent": "max",
-   "dur": 16,
+   "dur": 8,
    "text": "Searching for discount codes that stores publish directly on their homepages, so rindo.pl can rely on official sources.",
    "text_uk": "Команда Mateus шукає промокоди, які самі магазини публікують на своїх головних сторінках. Такі коди є офіційним джерелом для rindo.pl.",
    "task": 54
@@ -955,6 +955,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "16:34",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewed the current work block: nothing is pending in the backlog or in review. Two tasks are queued next: return and withdrawal policies for two more partner stores.",
+   "text_uk": "Команда Mateus без черги й запитів на перевірку. Готуємо дві роботи на запас для партнерських заявок: повернення товарів і відмова від договору.",
+   "task": 60
+  },
+  {
+   "t": "16:34",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on the team's results and partner programme approvals. Ongoing experiments will be settled once their deadlines pass.",
+   "text_uk": "Команда Mateusa чекає на результати та схвалення від партнерських програм. Експерименти тривають, і їх підсумки будуть подані в межах строків цих програм.",
+   "task": null
+  },
+  {
+   "t": "16:34",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "16:39",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 19,
+   "text": "Lukas is compiling key facts for an online laboratory testing store's page on rindo.pl, our discount code site.",
+   "text_uk": "Lukas збирає перелік фактів для сторінки магазину лабораторних досліджень онлайн на rindo.pl, щоб доповнити сервіс промокодів.",
+   "task": 60
   }
  ],
  "plan": [
@@ -993,13 +1029,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -65.29,
+  "week": -65.3,
   "api_budget": 76.92,
   "api_spent": 62.23,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 65.29
+  "month_costs": 65.3
  }
 }
