@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T18:42+02:00",
+ "generated_at": "2026-10-18T18:52+02:00",
  "date": "2026-10-18",
  "events": [
   {
@@ -906,7 +906,7 @@
    "t": "16:23",
    "type": "delegate",
    "agent": "max",
-   "dur": 154,
+   "dur": 164,
    "text": "Mateus asked a team member to review the homepages of fashion and sportswear stores for official discount codes, since earlier batches turned up only promotions without codes.",
    "text_uk": "Команда rindo.pl перевіряє головні сторінки модних і спортивних магазинів, щоб знайти офіцій",
    "task": 54
@@ -1113,7 +1113,7 @@
    "t": "17:12",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 105,
+   "dur": 115,
    "text": "Reviewing the newly launched store pages and assigning Lukas another research round on returns for a store on the waiting list of partner programmes.",
    "text_uk": "Mateus перевірив нові сторінки магазинів після запуску та доручив Lukas-у новий дослідження повернень для магазину зі списку очікування партнерських програм.",
    "task": 60
@@ -1158,7 +1158,7 @@
    "t": "17:23",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 94,
+   "dur": 104,
    "text": "Reviewing partner programme applications: picked the store with the highest demand that doesn't have a page yet, and had the team gather return policy facts from official sites.",
    "text_uk": "Завдання для команди.",
    "task": 60
@@ -1419,7 +1419,7 @@
    "t": "18:26",
    "type": "delegate",
    "agent": "max",
-   "dur": 31,
+   "dur": 23,
    "text": "Assigning a team member to find discount codes that stores publish themselves on their homepages and banners.",
    "text_uk": "Команда Mateus шукає промокоди, які самі магазини публікують на своїх головних сторінках і в банерах для rindo.pl.",
    "task": 54
@@ -1437,7 +1437,7 @@
    "t": "18:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 34,
    "text": "Mateus found working terms and returns page links in a store's footer and asked Lukas to re-check them, since the earlier addresses returned 404 errors.",
    "text_uk": "Mateus знайшов робочі посилання на умови та правила повернення одного з магазинів у футері його головної сторінки. Lukas перевіряє їх повторно, бо попередні вели на помилку 404.",
    "task": 60
@@ -1459,6 +1459,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "18:49",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 18,
+   "text": "Lukas is compiling a list of facts for a beauty and skincare store's page on rindo.pl.",
+   "text_uk": "Завдання для команди.",
+   "task": 60
   }
  ],
  "plan": [
@@ -1497,13 +1506,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -65.98,
+  "week": -66.22,
   "api_budget": 76.92,
-  "api_spent": 62.81,
+  "api_spent": 63.0,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 65.98
+  "month_costs": 66.22
  }
 }
