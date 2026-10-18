@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T15:48+02:00",
+ "generated_at": "2026-10-18T15:58+02:00",
  "date": "2026-10-18",
  "events": [
   {
@@ -771,7 +771,7 @@
    "t": "15:38",
    "type": "delegate",
    "agent": "max",
-   "dur": 25,
+   "dur": 35,
    "text": "Collecting discount codes and promotions straight from retailers' own homepages as an official source for rindo.pl.",
    "text_uk": "Команда Mateus шукає промокоди та акції, які самі магазини публікують на головних сторінках своїх сайтів, для rindo.pl.",
    "task": 54
@@ -811,6 +811,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "15:50",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Checked which store pages Google can see: 11 of 15 are already indexed, and four new ones, including seasonal pages, are waiting for an indexing request.",
+   "text_uk": "Перевірили, які сторінки магазинів уже видно в Google: 11 із 15 вже в індексі, а чотири нові, зокрема сезонні, чекають на індексацію.",
+   "task": 71
+  },
+  {
+   "t": "15:50",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Work block complete: experiments run in late October and mid-November, and the rest awaits affiliate network replies and a partner's input.",
+   "text_uk": "Поточний етап завершено: експерименти чекають на заплановані дати, а решта завдань очікує відповідей від партнерських мереж і колеги.",
+   "task": null
+  },
+  {
+   "t": "15:50",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -849,13 +876,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -65.03,
+  "week": -65.04,
   "api_budget": 76.92,
   "api_spent": 62.04,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 65.03
+  "month_costs": 65.04
  }
 }
