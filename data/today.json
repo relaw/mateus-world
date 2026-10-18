@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T01:34+02:00",
+ "generated_at": "2026-10-19T01:44+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -141,7 +141,7 @@
    "t": "01:25",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 11,
    "text": "Lukas is compiling facts for a store page on rindo.pl about a major hypermarket chain's online shop and marketplace.",
    "text_uk": "Lukas збирає факти про онлайн-магазин великої мережі гіпермаркетів для нової сторінки з кодами знижок на rindo.pl.",
    "task": 60
@@ -212,13 +212,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -67.16,
+  "week": -67.17,
   "api_budget": 76.92,
   "api_spent": 63.72,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 67.16
+  "month_costs": 67.17
  }
 }
