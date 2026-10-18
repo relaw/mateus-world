@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T22:13+02:00",
+ "generated_at": "2026-10-18T22:23+02:00",
  "date": "2026-10-18",
  "events": [
   {
@@ -1617,7 +1617,7 @@
    "t": "19:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 178,
+   "dur": 188,
    "text": "Mateus's team is pulling return policy facts from a premium fashion store's official terms, so the page is ready before the partner programme is approved. One page was set aside because its source lacked enough detail.",
    "text_uk": "Команда збирає факти про умови повернень з офіційного регламенту магазину преміум-моди, щоб сторінка була готова до схвалення партнерської програми. Одну сторінку відклали, бо в джерелі було замало фактів.",
    "task": 60
@@ -2049,7 +2049,7 @@
    "t": "21:32",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 55,
+   "dur": 65,
    "text": "Checking the live page of the new store and its indexing status, while Lukas takes on research on an electronics store's returns policy, so the page is ready before partner programme approval.",
    "text_uk": "Mateus перевірив сайт нового магазину та індексацію. Lukas готує факти про повернення для магазину електроніки, щоб сайт був готовий до схвалення.",
    "task": 60
