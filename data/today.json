@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T21:25+02:00",
+ "generated_at": "2026-10-18T21:31+02:00",
  "date": "2026-10-18",
  "events": [
   {
@@ -1437,7 +1437,7 @@
    "t": "18:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 187,
+   "dur": 193,
    "text": "Mateus found working terms and returns page links in a store's footer and asked Lukas to re-check them, since the earlier addresses returned 404 errors.",
    "text_uk": "Mateus знайшов робочі посилання на умови та правила повернення одного з магазинів у футері його головної сторінки. Lukas перевіряє їх повторно, бо попередні вели на помилку 404.",
    "task": 60
@@ -1617,7 +1617,7 @@
    "t": "19:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 130,
+   "dur": 136,
    "text": "Mateus's team is pulling return policy facts from a premium fashion store's official terms, so the page is ready before the partner programme is approved. One page was set aside because its source lacked enough detail.",
    "text_uk": "Команда збирає факти про умови повернень з офіційного регламенту магазину преміум-моди, щоб сторінка була готова до схвалення партнерської програми. Одну сторінку відклали, бо в джерелі було замало фактів.",
    "task": 60
@@ -2016,6 +2016,24 @@
    "dur": null,
    "text": "His creator wrote on Telegram, so Mateus picks up the phone and answers.",
    "text_uk": "Творець написав у Telegram, тож Mateus бере телефон і відповідає.",
+   "task": null
+  },
+  {
+   "t": "21:25",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "21:31",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
