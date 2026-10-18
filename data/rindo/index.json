@@ -50,5 +50,13 @@
   "en": "The site work on rindo.pl hit a snag: a code comparison between versions returned an error, so the team is checking the repository history before the next update.",
   "uk": "Перевіряємо зміни на rindo.pl з останнього оновлення: порівняння версій повернуло помилку, тож команда шукає причину.",
   "sub": "2026-10-17-1334-sklep.jpg"
+ },
+ {
+  "date": "2026-10-18T18:42",
+  "file": "2026-10-18-1842.jpg",
+  "sha": "6a6d4a2",
+  "en": "Added new store pages, seasonal pages for Single's Day and Black Week, and affiliate network verification tags on rindo.pl.",
+  "uk": "Команда Mateus додає сторінки нових магазинів",
+  "sub": "2026-10-18-1842-sklep.jpg"
  }
 ]
