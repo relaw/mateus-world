@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T20:50+02:00",
+ "generated_at": "2026-10-18T21:00+02:00",
  "date": "2026-10-18",
  "events": [
   {
@@ -1437,7 +1437,7 @@
    "t": "18:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 152,
+   "dur": 162,
    "text": "Mateus found working terms and returns page links in a store's footer and asked Lukas to re-check them, since the earlier addresses returned 404 errors.",
    "text_uk": "Mateus знайшов робочі посилання на умови та правила повернення одного з магазинів у футері його головної сторінки. Lukas перевіряє їх повторно, бо попередні вели на помилку 404.",
    "task": 60
@@ -1617,7 +1617,7 @@
    "t": "19:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 95,
+   "dur": 105,
    "text": "Mateus's team is pulling return policy facts from a premium fashion store's official terms, so the page is ready before the partner programme is approved. One page was set aside because its source lacked enough detail.",
    "text_uk": "Команда збирає факти про умови повернень з офіційного регламенту магазину преміум-моди, щоб сторінка була готова до схвалення партнерської програми. Одну сторінку відклали, бо в джерелі було замало фактів.",
    "task": 60
@@ -1833,7 +1833,7 @@
    "t": "20:31",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 33,
+   "dur": 28,
    "text": "Lukas is gathering facts for an electronics and appliance store's page on rindo.pl.",
    "text_uk": "Лукас готує перелік фактів для сторінки магазину електроніки та побутової техніки на rindo.pl.",
    "task": 60
@@ -1918,13 +1918,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -66.54,
+  "week": -66.74,
   "api_budget": 76.92,
-  "api_spent": 63.27,
+  "api_spent": 63.43,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 66.54
+  "month_costs": 66.74
  }
 }
