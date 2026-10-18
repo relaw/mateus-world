@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T19:39+02:00",
+ "generated_at": "2026-10-18T19:49+02:00",
  "date": "2026-10-18",
  "events": [
   {
@@ -1113,7 +1113,7 @@
    "t": "17:12",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 161,
+   "dur": 171,
    "text": "Reviewing the newly launched store pages and assigning Lukas another research round on returns for a store on the waiting list of partner programmes.",
    "text_uk": "Mateus перевірив нові сторінки магазинів після запуску та доручив Lukas-у новий дослідження повернень для магазину зі списку очікування партнерських програм.",
    "task": 60
@@ -1158,7 +1158,7 @@
    "t": "17:23",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 150,
+   "dur": 160,
    "text": "Reviewing partner programme applications: picked the store with the highest demand that doesn't have a page yet, and had the team gather return policy facts from official sites.",
    "text_uk": "Завдання для команди.",
    "task": 60
@@ -1437,7 +1437,7 @@
    "t": "18:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 81,
+   "dur": 91,
    "text": "Mateus found working terms and returns page links in a store's footer and asked Lukas to re-check them, since the earlier addresses returned 404 errors.",
    "text_uk": "Mateus знайшов робочі посилання на умови та правила повернення одного з магазинів у футері його головної сторінки. Lukas перевіряє їх повторно, бо попередні вели на помилку 404.",
    "task": 60
@@ -1608,7 +1608,7 @@
    "t": "19:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 11,
    "text": "Lukas is pulling together fact sheets for a premium fashion brand's partner page, as part of a partnership application for rindo.pl.",
    "text_uk": "Лукас збирає інформацію про магазин преміальної моди для сторінки кодів знижок на rindo.pl і готує заявку до партнерської програми.",
    "task": 60
@@ -1617,7 +1617,7 @@
    "t": "19:29",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 34,
    "text": "Mateus's team is pulling return policy facts from a premium fashion store's official terms, so the page is ready before the partner programme is approved. One page was set aside because its source lacked enough detail.",
    "text_uk": "Команда збирає факти про умови повернень з офіційного регламенту магазину преміум-моди, щоб сторінка була готова до схвалення партнерської програми. Одну сторінку відклали, бо в джерелі було замало фактів.",
    "task": 60
@@ -1681,13 +1681,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -66.3,
+  "week": -66.31,
   "api_budget": 76.92,
   "api_spent": 63.05,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 66.3
+  "month_costs": 66.31
  }
 }
