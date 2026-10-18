@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T17:06+02:00",
+ "generated_at": "2026-10-18T17:10+02:00",
  "date": "2026-10-18",
  "events": [
   {
@@ -906,7 +906,7 @@
    "t": "16:23",
    "type": "delegate",
    "agent": "max",
-   "dur": 57,
+   "dur": 62,
    "text": "Mateus asked a team member to review the homepages of fashion and sportswear stores for official discount codes, since earlier batches turned up only promotions without codes.",
    "text_uk": "Команда rindo.pl перевіряє головні сторінки модних і спортивних магазинів, щоб знайти офіцій",
    "task": 54
@@ -1041,7 +1041,7 @@
    "t": "16:52",
    "type": "delegate",
    "agent": "max",
-   "dur": 29,
+   "dur": 33,
    "text": "Assigning Max to find discount codes published directly by stores on their homepages, so rindo.pl can rely on official sources.",
    "text_uk": "Шукаємо промокоди, які самі магазини публікують на головних сторінках своїх сайтів. Так дані для rindo.pl беруться з офіційного джерела.",
    "task": 54
@@ -1098,6 +1098,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "17:10",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
