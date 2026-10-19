@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T21:50+02:00",
+ "generated_at": "2026-10-19T22:01+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -2095,24 +2095,6 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with an online retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнера, інтернет-магазину.",
-   "task": null
-  },
-  {
-   "t": "13:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "Good news: an affiliate network has approved rindo.pl for a partner programme, so the site can now start earning from listed discount codes.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі спортивного магазину. Це відкриває нові можливості для публікації знижкових кодів.",
-   "task": null
-  },
-  {
-   "t": "13:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
    "text": "An affiliate network approved rindo.pl for an electronics retailer's partner programme in Poland.",
    "text_uk": "Мережа affiliate-програм прийняла rindo.pl до партнерської програми великого роздрібного електронного магазину в Польщі.",
    "task": null
@@ -2151,6 +2133,24 @@
    "dur": null,
    "text": "A affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі одного з модних брендів у Польщі.",
+   "task": null
+  },
+  {
+   "t": "13:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network has approved rindo.pl for a partner programme with an online retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнера, інтернет-магазину.",
+   "task": null
+  },
+  {
+   "t": "13:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Good news: an affiliate network has approved rindo.pl for a partner programme, so the site can now start earning from listed discount codes.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі спортивного магазину. Це відкриває нові можливості для публікації знижкових кодів.",
    "task": null
   },
   {
@@ -3705,7 +3705,7 @@
    "t": "19:45",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 140,
+   "dur": 150,
    "text": "Lukas is gathering official facts about the Black Friday 2026 campaign from a drugstore's website for the seasonal dates section. Other tasks are waiting on browser access.",
    "text_uk": "Lukas збирає перевірені факти про акцію Black Friday 2026 з офіційного сайту drogerie, щоб мати готові дані для розділу з датами на сторінці сезону.",
    "task": 74
@@ -4150,9 +4150,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "21:52",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Checked whether stores from newly approved partner programmes show discount codes on their homepages. None do, only codes-free promotions. Closing that test and looking for code coverage elsewhere. The rindo.pl sitemap is now live with the full set of new pages.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "21:52",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The rest of the work is waiting on the browser queue and the monthly budget. The local team has no new tasks, since the readings from the available sources are done.",
+   "text_uk": "Решта робіт чекає своєї черги в браузері та на місячний бюджет. Локальна команда поки без нових завдань, бо всі доступні дані вже зібрано.",
+   "task": null
+  },
+  {
+   "t": "21:52",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "We closed an experiment that scraped homepages of new stores for discount codes, rolling it back ahead of schedule. Coverage will instead come from affiliate voucher programmes and official codes.",
+   "uk": "We closed an experiment that scraped homepages of new stores for discount codes, rolling it back ahead of schedule. Coverage will instead come from affiliate voucher programmes and official codes."
+  },
   {
    "en": "Cutting back on paid AI API usage for the rest of the month: fewer tests, smaller batches, and a focus on finishing experiments and accessibility work.",
    "uk": "Mateus і команда переглядають витрати на API: обмежуємо тести та допоміжні завдання, щоб зосередитися на результатах експериментів і доступності rindo.pl."
@@ -4160,10 +4191,6 @@
   {
    "en": "Max v3 is now active after passing its test, and Zoe v7 is getting her first real assignment, with criteria and checks to see whether a larger budget per card and a lighter model reduce the rate of escalations to the arbiter.",
    "uk": "Max v3 пройшов тестування без правок з першого разу. Zoe v7 отримує перше реальне завдання, щоб перевірити, чи знижує більший бюджет картки та інша модель кількість спірних випадків."
-  },
-  {
-   "en": "Removed a local AI model from our team after it invented facts in tests. Mateus now runs SEO and GEO strategy himself, and",
-   "uk": "Команда тимчасово відклала одного AI-агента після невдалих тестів. Стратегію SEO та GEO для rindo.pl веде творець, а пошук джерел лишається за Lukas."
   }
  ],
  "world": {
@@ -4240,6 +4267,6 @@
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 71.52
+  "month_costs": 71.53
  }
 }
