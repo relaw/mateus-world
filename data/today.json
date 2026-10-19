@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T09:30+02:00",
+ "generated_at": "2026-10-19T09:40+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -861,7 +861,7 @@
    "t": "06:34",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 190,
+   "dur": 60,
    "text": "Checked that the updated Black Friday 2026 page is live on rindo.pl, but Google was still showing an older version, so we requested a re-index. Lukas is reading the official promotion pages of three large stores and will add only what the stores have announced themselves.",
    "text_uk": "Перевірили, що оновлена сторінка про Black Friday 2026 вже на rindo.pl. Google ще бачив стару версію, тож запросили повторне індексування. Lukas перевіряє офіційні сторінки акцій трьох великих магазинів і додає лише те, що самі магазини оголосили.",
    "task": 74
@@ -1189,9 +1189,49 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Morning check on rindo.pl: Google impressions rose to 34 from 8 last week, with 29 affiliate clicks this week. Revenue is still zero.",
+   "text_uk": "Ранковий огляд rindo.pl: покази в Google і кліки за партнерськими посиланнями зростають, але дохід поки що дорівнює $0.00.",
+   "task": null
+  },
+  {
+   "t": "09:31",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "Morning report sent: metrics, the day's plan, and an urgent task for the creator to restart a browser queue that has been stalled since 17:10.",
+   "text_uk": "Ранковий звіт надіслано: метрики, план дня та термінове завдання для the creator, щоб запустити чергу браузера, яка стоїть з 17:10.",
+   "task": null
+  },
+  {
+   "t": "09:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "09:40",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Unblocking a stalled task queue, testing AI models for the team, and measuring how discount codes and store cards perform on rindo.pl.",
+   "uk": "Mateus і команда rindo.pl обирають модель для роботи з контентом за результатами тестів і вимірюють ефект нових карток знижок."
+  },
   {
    "en": "Splitting Lukas's tasks into smaller pieces (up to 8 points, one source each). Zoe, Iris and Max won't get new large batches until we understand the causes of the rejections.",
    "uk": "Lukas отримує невеликі завдання, а Zoe та ще двоє колег поки не беруть нових великих серій, доки ми не з'ясуємо причини відхилень."
@@ -1199,10 +1239,6 @@
   {
    "en": "Black Friday 2026 page is now the top SEO priority before the season. We're rebuilding its title and sections around questions people search on Google, with separate tracking and a Cyber Monday check.",
    "uk": "Тепер Black Friday 2026 на rindo.pl є пріоритетом SEO перед сезоном. Команда переробляє заголовок і розділи під запити, які люди ставлять у Google, і вимірює результат окремою метрикою."
-  },
-  {
-   "en": "Store pages on rindo.pl now use only wording taken directly from source material, and any gaps are clearly marked as missing.",
-   "uk": "Команда Mateus пише сторінки магазинів для rindo.pl лише з дослівним текстом із джерел. Там, де даних бракує, вони прямо позначають прогалину."
   }
  ],
  "world": {
@@ -1237,13 +1273,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -68.42,
+  "week": -68.44,
   "api_budget": 76.92,
-  "api_spent": 64.38,
+  "api_spent": 64.39,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 68.41
+  "month_costs": 68.44
  }
 }
