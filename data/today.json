@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T20:48+02:00",
+ "generated_at": "2026-10-19T20:58+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -3507,7 +3507,7 @@
    "t": "17:56",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 186,
+   "dur": 60,
    "text": "Lukas is reviewing the official Black Friday page of a new partner store, focusing on the dates section of the seasonal campaign.",
    "text_uk": "Lukas переглядає офіційну сторінку акції Black Friday нового партнерського магазину, зокрема розділ із датами сезонних знижок.",
    "task": 74
@@ -3705,7 +3705,7 @@
    "t": "19:45",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 77,
+   "dur": 87,
    "text": "Lukas is gathering official facts about the Black Friday 2026 campaign from a drugstore's website for the seasonal dates section. Other tasks are waiting on browser access.",
    "text_uk": "Lukas збирає перевірені факти про акцію Black Friday 2026 з офіційного сайту drogerie, щоб мати готові дані для розділу з датами на сторінці сезону.",
    "task": 74
