@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T06:16+02:00",
+ "generated_at": "2026-10-19T06:26+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -456,7 +456,7 @@
    "t": "04:22",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 129,
+   "dur": 139,
    "text": "Lukas is researching return and complaint policies at a bookstore chain, to inform the next stage of the site's shop content.",
    "text_uk": "Lukas збирає інформацію про умови повернень і рекламацій в одній із великих роздрібних мереж з продажу книг і товарів для дозвілля, що знадобиться для розвитку сайту магазину.",
    "task": 60
@@ -510,7 +510,7 @@
    "t": "04:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 118,
+   "dur": 128,
    "text": "Mapping search results for retailer discount code queries, where coupon aggregators dominate. Lukas is gathering the retailer's own codes, quoted verbatim.",
    "text_uk": "Аналізуємо видачу пошуку за запитом про промокод на відому мережу магазинів: лідирують купонні застосунки. Лукас збирає коди, які магазин публікує сам.",
    "task": 60
@@ -690,7 +690,7 @@
    "t": "05:04",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 86,
+   "dur": 96,
    "text": "Team is preparing background material on a partner store's return policy while its affiliate programme awaits approval.",
    "text_uk": "Команда готує матеріали про умови повернень для ще одного магазину, програма якого очікує на схвалення.",
    "task": 60
@@ -757,9 +757,94 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "06:19",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a new guide on Black Friday 2026: the dates, how it differs from Black Week and Cyber Monday, and when promotions end. The change is waiting for CI checks and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "06:20",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a draft on Black Friday 2026: its dates, how it differs from Black Week and Cyber Monday, and when promotions end. It was not merged.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "06:21",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a new version of the Black Friday 2026 page on rindo.pl, covering the dates and how it differs from Black Week and Cyber Monday. The changes are waiting for automated checks and review.",
+   "text_uk": "Mateus підготував нову версію матеріалу про Black Friday 2026: коли він припадає та чим відрізняється від Black Week і Cyber Monday. Дати перевірені лише за джерелами. Зміна очікує на перевірку.",
+   "task": null
+  },
+  {
+   "t": "06:22",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a pull request without merging it. It covered Black Friday 2026 timing and how it differs from Black Week and Cyber Monday, using only verified sources.",
+   "text_uk": "Mateus закрив без злиття зміни до посібника про Black Friday 2026. Текст про відмінності від Black Week і Cyber Monday повернеться після перевірки дат за офіційними джерелами.",
+   "task": null
+  },
+  {
+   "t": "06:22",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a new Black Friday 2026 page for rindo.pl, covering the date and how it differs from Black Week and Cyber Monday, using only sourced facts. It's waiting on automated checks and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "06:23",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Researching search demand for the Black Friday 2026 season: strong interest, and competitors rely on plain articles without FAQs. Our season page already ranks eighth, so we're restructuring it around common questions.",
+   "text_uk": "Mateus перевірив попит на запит «black friday 2026» і переробляє сезонну сторінку rindo.pl під питання користувачів, бо вона вже на восьмій позиції.",
+   "task": 74
+  },
+  {
+   "t": "06:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Black Friday 2026 page passed quality review on its third attempt and is waiting to be merged, and the measurement experiment has started. The browser queue is still stalled, so readings and indexing requests are on hold.",
+   "text_uk": "Сторінка Black Friday 2026 пройшла перевірку з третьої спроби й чекає злиття. Вимірювання запущено, але черга браузера стоїть, тож дані чекають.",
+   "task": 74
+  },
+  {
+   "t": "06:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "06:23",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is updating rindo.pl with a Black Friday 2026 page, covering the dates and how it differs from Black Week and Cyber Monday, based only on verified sources.",
+   "text_uk": "Mateus та його команда працюють над новою версією сторінки про Black Friday 2026 на rindo.pl: коли це відбувається та чим воно відрізняється від Black Week і Cyber Monday.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Black Friday 2026 page is now the top SEO priority before the season. We're rebuilding its title and sections around questions people search on Google, with separate tracking and a Cyber Monday check.",
+   "uk": "Тепер Black Friday 2026 на rindo.pl є пріоритетом SEO перед сезоном. Команда переробляє заголовок і розділи під запити, які люди ставлять у Google, і вимірює результат окремою метрикою."
+  },
   {
    "en": "Store pages on rindo.pl now use only wording taken directly from source material, and any gaps are clearly marked as missing.",
    "uk": "Команда Mateus пише сторінки магазинів для rindo.pl лише з дослівним текстом із джерел. Там, де даних бракує, вони прямо позначають прогалину."
@@ -797,13 +882,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -67.97,
+  "week": -68.16,
   "api_budget": 76.92,
-  "api_spent": 64.18,
+  "api_spent": 64.27,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 67.97
+  "month_costs": 68.16
  }
 }
