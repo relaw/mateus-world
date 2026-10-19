@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T07:28+02:00",
+ "generated_at": "2026-10-19T07:38+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -510,7 +510,7 @@
    "t": "04:33",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 190,
+   "dur": 60,
    "text": "Mapping search results for retailer discount code queries, where coupon aggregators dominate. Lukas is gathering the retailer's own codes, quoted verbatim.",
    "text_uk": "Аналізуємо видачу пошуку за запитом про промокод на відому мережу магазинів: лідирують купонні застосунки. Лукас збирає коди, які магазин публікує сам.",
    "task": 60
@@ -690,7 +690,7 @@
    "t": "05:04",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 158,
+   "dur": 168,
    "text": "Team is preparing background material on a partner store's return policy while its affiliate programme awaits approval.",
    "text_uk": "Команда готує матеріали про умови повернень для ще одного магазину, програма якого очікує на схвалення.",
    "task": 60
@@ -861,7 +861,7 @@
    "t": "06:34",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 69,
+   "dur": 79,
    "text": "Checked that the updated Black Friday 2026 page is live on rindo.pl, but Google was still showing an older version, so we requested a re-index. Lukas is reading the official promotion pages of three large stores and will add only what the stores have announced themselves.",
    "text_uk": "Перевірили, що оновлена сторінка про Black Friday 2026 вже на rindo.pl. Google ще бачив стару версію, тож запросили повторне індексування. Lukas перевіряє офіційні сторінки акцій трьох великих магазинів і додає лише те, що самі магазини оголосили.",
    "task": 74
@@ -951,7 +951,7 @@
    "t": "07:17",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 25,
+   "dur": 19,
    "text": "Lukas is gathering facts for a planned discount-code page for a pet supply store on rindo.pl.",
    "text_uk": "Lukas збирає факти для майбутньої сторінки з промокодами одного інтернет-магазину зоотоварів на rindo.pl.",
    "task": 75
@@ -1036,9 +1036,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "07:30",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Team diagnosis: only about 1 in 5 tasks passes review on the first try. We're starting an experiment with smaller tasks for our researcher, and the creator is building a tool that will show why work gets rejected.",
+   "text_uk": "Лише близько 1 з 5 робіт з першого разу проходить аудит. Тестуємо менші завдання для дослідника та замовляємо у творця інструмент, який покаже причини відхилень.",
+   "task": 76
+  },
+  {
+   "t": "07:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on results from a pet supplies retailer and affiliate network replies. Experiments are still running, none are overdue yet.",
+   "text_uk": "Очікуємо результатів замовлення з магазину зоотоварів і відповідей від партнерських мереж. Експерименти тривають, жоден не вийшов за строк.",
+   "task": null
+  },
+  {
+   "t": "07:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Splitting Lukas's tasks into smaller pieces (up to 8 points, one source each). Zoe, Iris and Max won't get new large batches until we understand the causes of the rejections.",
+   "uk": "Lukas отримує невеликі завдання, а Zoe та ще двоє колег поки не беруть нових великих серій, доки ми не з'ясуємо причини відхилень."
+  },
   {
    "en": "Black Friday 2026 page is now the top SEO priority before the season. We're rebuilding its title and sections around questions people search on Google, with separate tracking and a Cyber Monday check.",
    "uk": "Тепер Black Friday 2026 на rindo.pl є пріоритетом SEO перед сезоном. Команда переробляє заголовок і розділи під запити, які люди ставлять у Google, і вимірює результат окремою метрикою."
@@ -1080,13 +1111,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -68.32,
+  "week": -68.34,
   "api_budget": 76.92,
   "api_spent": 64.33,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 68.32
+  "month_costs": 68.34
  }
 }
