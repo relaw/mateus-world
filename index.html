@@ -1501,8 +1501,8 @@ function renderTasks(done){
   $('tasks').innerHTML=names.map((t,i)=>`<li class="${done.has(i)?'done':''}">${t}</li>`).join('');}
 function renderTeam(){
   const T=L(),G=T.ag;
-  const rows=[`<li><span class="sw" style="background:#3f8a7c"></span><span class="who">Mateus <small class="tag">${T.bossTag}</small></span><span class="st on">${T.boss}</span><span class="desc">${T.bossDesc}</span></li>`];
-  for(const k in AGENTS){const a=AGENTS[k],[role,tag,model]=T.roles[k]||[a.role,'',a.model];rows.push(`<li><span class="sw" style="background:${a.color}"></span><span class="who">${a.name} <small class="tag">${tag}</small></span><span class="st ${a.pose==='work'&&a.busy?'on':''}">${a.pose==='stool'?G.stool:a.pose==='work'?(a.eating?G.lunch:a.busy?G.busy:G.wait):a.pose==='walk'?(a.next&&a.next.pose==='work'?G.toWork:G.home):G.away}</span><span class="desc">${role}. ${model}.</span></li>`);}
+  const rows=[`<li><span class="sw" style="background:#3f8a7c"></span><span class="who">Mateus</span><span class="st on">${T.boss}</span><span class="desc">${T.bossDesc}</span></li>`];
+  for(const k in AGENTS){const a=AGENTS[k],[role,tag,model]=T.roles[k]||[a.role,'',a.model];rows.push(`<li><span class="sw" style="background:${a.color}"></span><span class="who">${a.name}</span><span class="st ${a.pose==='work'&&a.busy?'on':''}">${a.pose==='stool'?G.stool:a.pose==='work'?(a.eating?G.lunch:a.busy?G.busy:G.wait):a.pose==='walk'?(a.next&&a.next.pose==='work'?G.toWork:G.home):G.away}</span><span class="desc">${role}. ${model}.</span></li>`);}
   rows.push(`<li><span class="sw" style="background:#8e939f"></span><span class="who">Miki <small class="tag">${T.catTag}</small></span><span class="st">${T.cat[cat.act]||''}</span><span class="desc">${T.catDesc}</span></li>`);
   $('team').innerHTML=rows.join('');
 }
