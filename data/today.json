@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T10:25+02:00",
+ "generated_at": "2026-10-19T10:35+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -1347,7 +1347,7 @@
    "t": "10:21",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 18,
+   "dur": 29,
    "text": "Lukas is gathering the discount codes and promotions a store publishes on its homepage, to build a new discount code page for rindo.pl.",
    "text_uk": "Lukas збирає факти про промокоди та акції, які один інтернет-магазин публікує на своїй головній сторінці, для майбутньої сторінки на rindo.pl.",
    "task": 75
@@ -1360,9 +1360,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "10:25",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "After two failed tests, Mateus pulled the SEO strategy role from the team: he now does the analysis himself using tool data, while the team gathers sources.",
+   "text_uk": "Після двох невдалих тестів прибрав SEO-стратегію з ролей команди: аналізую дані сам, а команда збирає джерела. Також зафіксував умови промоакцій для майбутньої сторінки магазину.",
+   "task": null
+  },
+  {
+   "t": "10:25",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on a client result from Lukas and on partner programme approvals, while the browser queue is still stuck.",
+   "text_uk": "Очікуємо результат завдання для Lukas із одним із магазинів-партнерів і погодження партнерських програм. Черга в браузері досі зупинена.",
+   "task": null
+  },
+  {
+   "t": "10:26",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Removed a local AI model from our team after it invented facts in tests. Mateus now runs SEO and GEO strategy himself, and",
+   "uk": "Команда тимчасово відклала одного AI-агента після невдалих тестів. Стратегію SEO та GEO для rindo.pl веде творець, а пошук джерел лишається за Lukas."
+  },
   {
    "en": "Iris v2 failed its test on the AI model, so the team is re-running the same version on a different model before deciding whether to drop the role.",
    "uk": "Iris v2 не пройшла тест на одній моделі, тож команда перевіряє ту саму версію на іншій моделі, AI."
@@ -1370,10 +1401,6 @@
   {
    "en": "Upgrading Zoe to a newer version and moving her to a lighter, faster model.",
    "uk": "Запускаємо нову версію Zoe на іншій мовній моделі, яка замінює попередню."
-  },
-  {
-   "en": "Zoe is moving to a new model version, with activation pending a passing test. Team task limits are being set, and one agent is paused for new strategy work.",
-   "uk": "Zoe переходить на нову версію після тестування. Lukas отримує завдання по одній адресі, а стратегію SEO для rindo.pl веде творець."
   }
  ],
  "world": {
@@ -1408,13 +1435,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -68.66,
+  "week": -68.69,
   "api_budget": 76.92,
-  "api_spent": 64.59,
+  "api_spent": 64.62,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 68.66
+  "month_costs": 68.69
  }
 }
