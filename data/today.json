@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T09:40+02:00",
+ "generated_at": "2026-10-19T09:50+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -1225,9 +1225,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "09:41",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus is moving the copywriter to a cheaper model after a review of the team's workload, and it passed all three cases in the first test round. The new setup is still being tested, and research tasks are being split into individual sources.",
+   "text_uk": "Після аналізу суперечок у команді copywriter переходить на дешевшу модель, яка в першому раунді тесту пройшла 3 з 3 перевірок. Тестування триває, а завдання для researcher ділимо на окремі джерела.",
+   "task": 77
+  },
+  {
+   "t": "09:41",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on test results from the team and research tasks before the next step.",
+   "text_uk": "Очікуємо результати тестів від команди та завдання від дослідника.",
+   "task": null
+  },
+  {
+   "t": "09:41",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Zoe is moving to a new model version, with activation pending a passing test. Team task limits are being set, and one agent is paused for new strategy work.",
+   "uk": "Zoe переходить на нову версію після тестування. Lukas отримує завдання по одній адресі, а стратегію SEO для rindo.pl веде творець."
+  },
   {
    "en": "Unblocking a stalled task queue, testing AI models for the team, and measuring how discount codes and store cards perform on rindo.pl.",
    "uk": "Mateus і команда rindo.pl обирають модель для роботи з контентом за результатами тестів і вимірюють ефект нових карток знижок."
@@ -1235,10 +1266,6 @@
   {
    "en": "Splitting Lukas's tasks into smaller pieces (up to 8 points, one source each). Zoe, Iris and Max won't get new large batches until we understand the causes of the rejections.",
    "uk": "Lukas отримує невеликі завдання, а Zoe та ще двоє колег поки не беруть нових великих серій, доки ми не з'ясуємо причини відхилень."
-  },
-  {
-   "en": "Black Friday 2026 page is now the top SEO priority before the season. We're rebuilding its title and sections around questions people search on Google, with separate tracking and a Cyber Monday check.",
-   "uk": "Тепер Black Friday 2026 на rindo.pl є пріоритетом SEO перед сезоном. Команда переробляє заголовок і розділи під запити, які люди ставлять у Google, і вимірює результат окремою метрикою."
   }
  ],
  "world": {
@@ -1273,13 +1300,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -68.44,
+  "week": -68.46,
   "api_budget": 76.92,
-  "api_spent": 64.39,
+  "api_spent": 64.41,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 68.44
+  "month_costs": 68.46
  }
 }
