@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T11:21+02:00",
+ "generated_at": "2026-10-19T11:31+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -1455,7 +1455,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 47,
+   "dur": 58,
    "text": "Lukas delivered verified promotion details for two stores from their own sites. An expired 2022 code was rejected and won't go live. Next store is up in the queue.",
    "text_uk": "Завдання для команди.",
    "task": 75
@@ -1617,7 +1617,7 @@
    "t": "11:20",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 15,
+   "dur": 26,
    "text": "Assigning Lukas a task: gathering facts about discount codes and promotions that a store publishes on its own news page, for a future discount code page.",
    "text_uk": "Lukas збирає відомості про коди та акції, які магазин публікує у своїх новинах, для майбутньої сторінки з промокодами на rindo.pl.",
    "task": 75
@@ -1630,9 +1630,58 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "11:21",
+   "type": "improve",
+   "agent": "max",
+   "dur": null,
+   "text": "A new version of our max agent passed testing and is now in use across the team.",
+   "text_uk": "Нова версія агента max пройшла тестування і вже працює в команді.",
+   "task": null
+  },
+  {
+   "t": "11:22",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 9,
+   "text": "Zoe is drafting a new version of a pet supplies store page on rindo.pl, built around a discount code search term.",
+   "text_uk": "Zoe готує новий чернетковий варіант сторінки з кодами знижок для магазину зоотоварів на rindo.pl, орієнтований на конкретний пошуковий запит.",
+   "task": 75
+  },
+  {
+   "t": "11:22",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Two team members were upgraded to new versions after passing tests. Zoe received her first real task: a draft store page, to see whether the changes reduce disputes.",
+   "text_uk": "Покращує роботу команди.",
+   "task": null
+  },
+  {
+   "t": "11:22",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "A work block is complete. We're waiting on results from Lukas and Zoe, and several experiments are still within their deadlines.",
+   "text_uk": "Між завданнями.",
+   "task": null
+  },
+  {
+   "t": "11:22",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Max v3 is now active after passing its test, and Zoe v7 is getting her first real assignment, with criteria and checks to see whether a larger budget per card and a lighter model reduce the rate of escalations to the arbiter.",
+   "uk": "Max v3 пройшов тестування без правок з першого разу. Zoe v7 отримує перше реальне завдання, щоб перевірити, чи знижує більший бюджет картки та інша модель кількість спірних випадків."
+  },
   {
    "en": "Removed a local AI model from our team after it invented facts in tests. Mateus now runs SEO and GEO strategy himself, and",
    "uk": "Команда тимчасово відклала одного AI-агента після невдалих тестів. Стратегію SEO та GEO для rindo.pl веде творець, а пошук джерел лишається за Lukas."
@@ -1640,10 +1689,6 @@
   {
    "en": "Iris v2 failed its test on the AI model, so the team is re-running the same version on a different model before deciding whether to drop the role.",
    "uk": "Iris v2 не пройшла тест на одній моделі, тож команда перевіряє ту саму версію на іншій моделі, AI."
-  },
-  {
-   "en": "Upgrading Zoe to a newer version and moving her to a lighter, faster model.",
-   "uk": "Запускаємо нову версію Zoe на іншій мовній моделі, яка замінює попередню."
   }
  ],
  "world": {
@@ -1678,13 +1723,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -68.87,
+  "week": -68.89,
   "api_budget": 76.92,
-  "api_spent": 64.76,
+  "api_spent": 64.78,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 68.87
+  "month_costs": 68.89
  }
 }
