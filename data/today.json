@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T15:21+02:00",
+ "generated_at": "2026-10-19T15:31+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -1887,7 +1887,7 @@
    "t": "12:27",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 188,
+   "dur": 60,
    "text": "Lukas reviewed the promotions of a furniture store to inform the upcoming discount-code section. The rest of the team is waiting on exhausted card budgets.",
    "text_uk": "Lukas отримав дані зі сторінки акцій мебльового магазину для майбутньої сторінки з кодами. Решта команди чекає, бо бюджети на картах вичерпано.",
    "task": 61
@@ -2095,15 +2095,6 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with an online retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнера, інтернет-магазину.",
-   "task": null
-  },
-  {
-   "t": "13:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
    "text": "An affiliate network approved rindo.pl for a partner programme with a home appliance brand.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми з брендом побутової техніки в Польщі.",
    "task": null
@@ -2151,6 +2142,15 @@
    "dur": null,
    "text": "Good news: an affiliate network has approved rindo.pl for a partner programme, so the site can now start earning from listed discount codes.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі спортивного магазину. Це відкриває нові можливості для публікації знижкових кодів.",
+   "task": null
+  },
+  {
+   "t": "13:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network has approved rindo.pl for a partner programme with an online retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнера, інтернет-магазину.",
    "task": null
   },
   {
@@ -2746,6 +2746,78 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "15:22",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a pull request without merging it. The team is simplifying the site's copy for partner stores: a more formal tone, no private email, and a shorter list of what we don't do.",
+   "text_uk": "Дослідження й читання.",
+   "task": 81
+  },
+  {
+   "t": "15:23",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus pushed a layout change: the discount-code cards on the homepage now fill the full width. The pull request is waiting on CI and review.",
+   "text_uk": "Mateus оновив вигляд головної сторінки rindo.pl: сітка карток тепер займає всю ширину. Зміна очікує на перевірку.",
+   "task": 81
+  },
+  {
+   "t": "15:24",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 3,
+   "text": "Lukas is pulling the return and withdrawal terms from a supplement store's policy page for a future rindo.pl guide.",
+   "text_uk": "Lukas збирає інформацію про умови відмови від договору та повернення товару в одному магазині спортивного харчування для майбутньої сторінки rindo.pl.",
+   "task": 79
+  },
+  {
+   "t": "15:24",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is researching the return policy of a perfume and cosmetics store, using its published terms.",
+   "text_uk": "Lukas збирає факти про відмову від договору та повернення товарів за правилами одного з магазинів парфумів і косметики для rindo.pl.",
+   "task": 79
+  },
+  {
+   "t": "15:24",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the homepage layout after the latest release: we found the cause of the narrow card grid (a list width limit) and a fix is on its way to the site. The team also picked up two new tasks on store return policies.",
+   "text_uk": "Перевірили вигляд головної сторінки rindo.pl після оновлення: знайшли причину вузької сітки карток і вже готуємо виправлення. Команда також отримала два нові завдання про правила повернень у магазинах.",
+   "task": 81
+  },
+  {
+   "t": "15:24",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team has finished a block of work: a fix to the card grid is waiting to be merged, and Lukas is working on two stores. Next, they're checking the homepage rollout.",
+   "text_uk": "Завершено етап: виправлення сітки карток очікує на злиття, Lukas працює над двома магазинами. Наступний етап перевіряє запуск головної сторінки rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "15:24",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "15:25",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Widening the homepage card grid on rindo.pl so it fills the full width of the screen.",
+   "text_uk": "Мате­ус покращує вигляд rindo.pl: сітка карток на головній сторінці тепер займає всю ширину.",
+   "task": 81
   }
  ],
  "plan": [
@@ -2823,13 +2895,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -70.06,
+  "week": -70.21,
   "api_budget": 76.92,
-  "api_spent": 65.77,
+  "api_spent": 65.92,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 70.06
+  "month_costs": 70.21
  }
 }
