@@ -1446,7 +1446,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 19,
+   "dur": 20,
    "text": "Lukas is collecting the public codes and promotions shown on a home improvement store's homepage for a future discount code page on rindo.pl.",
    "text_uk": "Lukas збирає промокоди та акції, які будівельний магазин публікує на своїй головній сторінці, для майбутньої сторінки з кодами на rindo.pl.",
    "task": 75
@@ -1455,7 +1455,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 19,
+   "dur": 20,
    "text": "Lukas delivered verified promotion details for two stores from their own sites. An expired 2022 code was rejected and won't go live. Next store is up in the queue.",
    "text_uk": "Завдання для команди.",
    "task": 75
@@ -1480,6 +1480,24 @@
   },
   {
    "t": "10:52",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "His creator wrote on Telegram, so Mateus picks up the phone and answers.",
+   "text_uk": "Творець написав у Telegram, тож Mateus бере телефон і відповідає.",
+   "task": null
+  },
+  {
+   "t": "10:53",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "10:53",
    "type": "telegram",
    "agent": null,
    "dur": null,
