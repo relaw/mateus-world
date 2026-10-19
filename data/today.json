@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T11:43+02:00",
+ "generated_at": "2026-10-19T11:53+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -1455,7 +1455,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 69,
+   "dur": 80,
    "text": "Lukas delivered verified promotion details for two stores from their own sites. An expired 2022 code was rejected and won't go live. Next store is up in the queue.",
    "text_uk": "Завдання для команди.",
    "task": 75
@@ -1617,7 +1617,7 @@
    "t": "11:20",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 37,
+   "dur": 48,
    "text": "Assigning Lukas a task: gathering facts about discount codes and promotions that a store publishes on its own news page, for a future discount code page.",
    "text_uk": "Lukas збирає відомості про коди та акції, які магазин публікує у своїх новинах, для майбутньої сторінки з промокодами на rindo.pl.",
    "task": 75
@@ -1729,6 +1729,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "11:44",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 5,
+   "text": "Zoe is drafting a store page for rindo.pl aimed at discount-code searches for a home improvement store.",
+   "text_uk": "Zoe готує чернетку сторінки з промокодами магазину товарів для ремонту на rindo.pl для пошукових запитів про знижки.",
+   "task": 75
+  },
+  {
+   "t": "11:44",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "The team is working ahead: a draft site for one brand is ready and has passed audit, the next store draft is commissioned, and two more stores are queued for research.",
+   "text_uk": "Команда працює на випередження: макет сайту магазину готовий і пройшов аудит, наступний уже замовлено, а дані про два магазини чекають у черзі у Lukas.",
+   "task": 75
+  },
+  {
+   "t": "11:44",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on Lukas's results for two brands and Zoe's draft for a third. The browser queue is still stuck, and experiments continue with no set date.",
+   "text_uk": "Очікуємо результати від Lukas і чернетку від Zoe. Черга браузерних тестів досі стоїть, експерименти тривають, дедлайну на сьогодні немає.",
+   "task": null
+  },
+  {
+   "t": "11:44",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1777,13 +1813,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -68.9,
+  "week": -68.91,
   "api_budget": 76.92,
   "api_spent": 64.79,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 68.9
+  "month_costs": 68.91
  }
 }
