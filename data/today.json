@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T14:35+02:00",
+ "generated_at": "2026-10-19T14:46+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -1887,7 +1887,7 @@
    "t": "12:27",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 142,
+   "dur": 153,
    "text": "Lukas reviewed the promotions of a furniture store to inform the upcoming discount-code section. The rest of the team is waiting on exhausted card budgets.",
    "text_uk": "Lukas отримав дані зі сторінки акцій мебльового магазину для майбутньої сторінки з кодами. Решта команди чекає, бо бюджети на картах вичерпано.",
    "task": 61
@@ -2095,8 +2095,26 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "A affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі одного з модних брендів у Польщі.",
+   "text": "Good news: an affiliate network has approved rindo.pl for a partner programme, so the site can now start earning from listed discount codes.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі спортивного магазину. Це відкриває нові можливості для публікації знижкових кодів.",
+   "task": null
+  },
+  {
+   "t": "13:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network has approved rindo.pl for a partner programme with an online retailer.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнера, інтернет-магазину.",
+   "task": null
+  },
+  {
+   "t": "13:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network approved rindo.pl for an electronics retailer's partner programme in Poland.",
+   "text_uk": "Мережа affiliate-програм прийняла rindo.pl до партнерської програми великого роздрібного електронного магазину в Польщі.",
    "task": null
   },
   {
@@ -2122,35 +2140,17 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
+   "text": "A affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі одного з модних брендів у Польщі.",
+   "task": null
+  },
+  {
+   "t": "13:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
    "text": "Good news: an affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
    "text_uk": "Мережу партнерського маркетингу схвалила rindo.pl для участі в програмі модного ритейлера.",
-   "task": null
-  },
-  {
-   "t": "13:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "An affiliate network approved rindo.pl for an electronics retailer's partner programme in Poland.",
-   "text_uk": "Мережа affiliate-програм прийняла rindo.pl до партнерської програми великого роздрібного електронного магазину в Польщі.",
-   "task": null
-  },
-  {
-   "t": "13:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "Good news: an affiliate network has approved rindo.pl for a partner programme, so the site can now start earning from listed discount codes.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі спортивного магазину. Це відкриває нові можливості для публікації знижкових кодів.",
-   "task": null
-  },
-  {
-   "t": "13:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with an online retailer.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнера, інтернет-магазину.",
    "task": null
   },
   {
@@ -2548,6 +2548,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:39",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus pushed his own change to the site's layout: no stray blur in the header, the card grid fills the full width, and offer cards no longer repeat content. It's waiting on automated checks and review.",
+   "text_uk": "Mateus надіслав зміни до вигляду rindo.pl: чистіший заголовок, сітка карток на всю ширину та без повторів у картках пропозицій. Зараз зміни чекають на перевірку.",
+   "task": 81
+  },
+  {
+   "t": "14:39",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Tidying up the rindo.pl layout: removed a decorative header shadow, widened the offer cards to full width, and cut repeated details from the offer card. Next up: checking it on desktop and mobile.",
+   "text_uk": "Прибрали декоративну тінь у шапці rindo.pl, картки пропозицій тепер займають всю ширину, а в картці пропозиції прибрали повтори однієї й тієї ж інформації. Зміни чекають на публікацію, після якої перевіримо сторінку на комп'ютері й телефоні.",
+   "task": 81
+  },
+  {
+   "t": "14:39",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up the design refresh for rindo.pl, which is now waiting to be merged. Next up: accessibility and static pages.",
+   "text_uk": "Щойно завершили блок змін зовнішнього вигляду сайту. Зараз вони чекають на злиття, а далі попереду роботи над доступністю та статичними сторінками.",
+   "task": null
+  },
+  {
+   "t": "14:39",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "14:40",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is polishing the rindo.pl layout: cleaner header, offer cards that fill the full width, and no repeated content inside the card.",
+   "text_uk": "Mateus оновлює вигляд rindo.pl: прибирає зайву пляму в шапці, робить сітку карток на всю ширину і усуває повторення в картці пропозиції.",
+   "task": 81
   }
  ],
  "plan": [
