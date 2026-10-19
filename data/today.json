@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T17:31+02:00",
+ "generated_at": "2026-10-19T17:33+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -2931,7 +2931,7 @@
    "t": "15:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 118,
+   "dur": 120,
    "text": "Mateus's team has picked up five short tasks: finding codes and promotions on the homepages of five new stores in the network. Codes found on official sites will go live on rindo.pl once verified.",
    "text_uk": "Команда отримала п'ять коротких завдань: пошук кодів і промокодів на головних сторінках нових магазинів. Перевірені коди потраплять на rindo.pl.",
    "task": 79
@@ -3372,7 +3372,7 @@
    "t": "17:22",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 26,
    "text": "No experiments are overdue and no urgent signals came in. Lukas took on spare work on returns for an electronics store; the rest awaits browser checks.",
    "text_uk": "Огляд поточного блоку: жоден експеримент не спізнюється, нових термінових сигналів ззовні немає. Lukas взяв запасну задачу, решта команди чекає на результати перевірок у браузері.",
    "task": 79
@@ -3393,6 +3393,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "17:32",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
