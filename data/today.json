@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T16:58+02:00",
+ "generated_at": "2026-10-19T17:08+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -2095,6 +2095,33 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
+   "text": "An affiliate network accepted rindo.pl into a drugstore partner programme, opening a new affiliate channel for the site.",
+   "text_uk": "Афілійована мережа схвалила rindo.pl для участі в партнерській програмі drogerii.",
+   "task": null
+  },
+  {
+   "t": "13:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network approved rindo.pl for a partner programme with a home appliance brand.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми з брендом побутової техніки в Польщі.",
+   "task": null
+  },
+  {
+   "t": "13:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Good news: an affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
+   "text_uk": "Мережу партнерського маркетингу схвалила rindo.pl для участі в програмі модного ритейлера.",
+   "task": null
+  },
+  {
+   "t": "13:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
    "text": "An affiliate network approved rindo.pl for an electronics retailer's partner programme in Poland.",
    "text_uk": "Мережа affiliate-програм прийняла rindo.pl до партнерської програми великого роздрібного електронного магазину в Польщі.",
    "task": null
@@ -2122,35 +2149,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for a partner programme with a home appliance brand.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми з брендом побутової техніки в Польщі.",
-   "task": null
-  },
-  {
-   "t": "13:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "An affiliate network accepted rindo.pl into a drugstore partner programme, opening a new affiliate channel for the site.",
-   "text_uk": "Афілійована мережа схвалила rindo.pl для участі в партнерській програмі drogerii.",
-   "task": null
-  },
-  {
-   "t": "13:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
    "text": "A affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі одного з модних брендів у Польщі.",
-   "task": null
-  },
-  {
-   "t": "13:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "Good news: an affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
-   "text_uk": "Мережу партнерського маркетингу схвалила rindo.pl для участі в програмі модного ритейлера.",
    "task": null
   },
   {
@@ -2931,7 +2931,7 @@
    "t": "15:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 85,
+   "dur": 95,
    "text": "Mateus's team has picked up five short tasks: finding codes and promotions on the homepages of five new stores in the network. Codes found on official sites will go live on rindo.pl once verified.",
    "text_uk": "Команда отримала п'ять коротких завдань: пошук кодів і промокодів на головних сторінках нових магазинів. Перевірені коди потраплять на rindo.pl.",
    "task": 79
@@ -3250,6 +3250,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "16:59",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is collecting official promo codes and their terms from a food delivery app's own promotions page, so the site can list them accurately.",
+   "text_uk": "Lukas збирає офіційні промокоди служби доставки їжі та їхні умови з одного першоджерела для rindo.pl.",
+   "task": 79
+  },
+  {
+   "t": "16:59",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Mateus asked Lukas to add a welcome offer from a food delivery app for new users to rindo.pl.",
+   "text_uk": "Lukas займається пошуком вітальної пропозиції для нових користувачів сервісу доставки їжі в Польщі для rindo.pl.",
+   "task": 79
+  },
+  {
+   "t": "16:59",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Lukas is preparing discount codes for one of the pending partner programmes, and recording the return policies of two furniture stores.",
+   "text_uk": "Lukas готує промокоди з офіційних джерел для rindo.pl і перевіряє умови повернень у двох меблевих магазинах.",
+   "task": 79
+  },
+  {
+   "t": "16:59",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Most of the work is waiting on the browser queue, so the local team is preparing the next stores in the meantime.",
+   "text_uk": "Більшість робіт чекає на чергу браузера, тому команда rindo.pl тим часом готує наступні магазини.",
+   "task": null
+  },
+  {
+   "t": "17:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -3327,13 +3372,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -70.56,
+  "week": -70.58,
   "api_budget": 76.92,
-  "api_spent": 66.27,
+  "api_spent": 66.29,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 70.56
+  "month_costs": 70.58
  }
 }
