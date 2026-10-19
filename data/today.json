@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T15:06+02:00",
+ "generated_at": "2026-10-19T15:16+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -1887,7 +1887,7 @@
    "t": "12:27",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 173,
+   "dur": 183,
    "text": "Lukas reviewed the promotions of a furniture store to inform the upcoming discount-code section. The rest of the team is waiting on exhausted card budgets.",
    "text_uk": "Lukas отримав дані зі сторінки акцій мебльового магазину для майбутньої сторінки з кодами. Решта команди чекає, бо бюджети на картах вичерпано.",
    "task": 61
@@ -2095,8 +2095,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network accepted rindo.pl into a drugstore partner programme, opening a new affiliate channel for the site.",
-   "text_uk": "Афілійована мережа схвалила rindo.pl для участі в партнерській програмі drogerii.",
+   "text": "Good news: an affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
+   "text_uk": "Мережу партнерського маркетингу схвалила rindo.pl для участі в програмі модного ритейлера.",
    "task": null
   },
   {
@@ -2113,8 +2113,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "A affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі одного з модних брендів у Польщі.",
+   "text": "An affiliate network accepted rindo.pl into a drugstore partner programme, opening a new affiliate channel for the site.",
+   "text_uk": "Афілійована мережа схвалила rindo.pl для участі в партнерській програмі drogerii.",
    "task": null
   },
   {
@@ -2122,8 +2122,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Good news: an affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
-   "text_uk": "Мережу партнерського маркетингу схвалила rindo.pl для участі в програмі модного ритейлера.",
+   "text": "A affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі одного з модних брендів у Польщі.",
    "task": null
   },
   {
@@ -2674,6 +2674,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "15:08",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus pushed a change to the site's official tone: a page for stores without a dashboard or API, shorter list of what we don't do. Waiting on CI and review.",
+   "text_uk": "Mateus надіслав зміну: офі",
+   "task": 81
+  },
+  {
+   "t": "15:10",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a new version of a page for merchants without a panel or API, with a more formal tone. It's awaiting automated checks and review.",
+   "text_uk": "Mateus надіслав оновлену версію тексту для магазинів без власної панелі та API партнерських мереж. Зміна очікує на автоматичну перевірку та рев'ю.",
+   "task": 81
+  },
+  {
+   "t": "15:11",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is researching return rights for e-books, audiobooks and e-readers at a digital reading store, for an upcoming returns guide on rindo.pl.",
+   "text_uk": "Lukas досліджує умови відмови від договору та повернень для онлайн-книгарні з електронними книгами, аудіокнигами та рідерами. Це матеріал для майбутньої сторінки rindo.pl.",
+   "task": 79
+  },
+  {
+   "t": "15:11",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Rewriting the site copy for stores and networks in a more formal tone, now awaiting publication. The team also picked up a new task on return policy facts for an e-book store.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 81
+  },
+  {
+   "t": "15:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on the rollout of the design and accessibility changes, and on the results of the task handed to the team.",
+   "text_uk": "Очікуємо на впровадження змін у дизайні та доступності сайту rindo.pl і на результат завдання для команди.",
+   "task": null
+  },
+  {
+   "t": "15:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "15:12",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is updating rindo.pl's tone and positioning for a new version aimed at stores without partner dashboards or APIs.",
+   "text_uk": "Оновлення rindo.pl: змінено офіційний тон сайту для магазинів, які не мають власного панелі чи API партнерських мереж. Пошта через Gmail більше не використовується.",
+   "task": 81
   }
  ],
  "plan": [
@@ -2751,13 +2814,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -70.01,
+  "week": -70.06,
   "api_budget": 76.92,
-  "api_spent": 65.72,
+  "api_spent": 65.77,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 70.01
+  "month_costs": 70.06
  }
 }
