@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T17:10+02:00",
+ "generated_at": "2026-10-19T17:20+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -2104,8 +2104,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for a partner programme with a home appliance brand.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми з брендом побутової техніки в Польщі.",
+   "text": "A affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі одного з модних брендів у Польщі.",
    "task": null
   },
   {
@@ -2131,8 +2131,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Good news: an affiliate network has approved rindo.pl for a partner programme, so the site can now start earning from listed discount codes.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі спортивного магазину. Це відкриває нові можливості для публікації знижкових кодів.",
+   "text": "An affiliate network approved rindo.pl for a partner programme with a home appliance brand.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми з брендом побутової техніки в Польщі.",
    "task": null
   },
   {
@@ -2149,8 +2149,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "A affiliate network approved rindo.pl for a fashion brand's partner programme in Poland.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі одного з модних брендів у Польщі.",
+   "text": "Good news: an affiliate network has approved rindo.pl for a partner programme, so the site can now start earning from listed discount codes.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі спортивного магазину. Це відкриває нові можливості для публікації знижкових кодів.",
    "task": null
   },
   {
@@ -2931,7 +2931,7 @@
    "t": "15:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 96,
+   "dur": 107,
    "text": "Mateus's team has picked up five short tasks: finding codes and promotions on the homepages of five new stores in the network. Codes found on official sites will go live on rindo.pl once verified.",
    "text_uk": "Команда отримала п'ять коротких завдань: пошук кодів і промокодів на головних сторінках нових магазинів. Перевірені коди потраплять на rindo.pl.",
    "task": 79
@@ -3304,6 +3304,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "17:10",
+   "type": "delegate",
+   "agent": "iris",
+   "dur": 1,
+   "text": "Assigning Iris a narrowed review that doesn't require a browser.",
+   "text_uk": "Команда Mateus передала обмежений огляд сайту rindo.pl, який виконується без браузера.",
+   "task": 80
+  },
+  {
+   "t": "17:10",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is gathering official details on a retailer's Black Friday 2026 campaign from its own promo page for a new section on rindo.pl.",
+   "text_uk": "Lukas збирає офіційну інформацію про акцію Black Friday та Black Weeks 2026 у великої польської мережі магазинів для розділу на rindo.pl.",
+   "task": 74
+  },
+  {
+   "t": "17:11",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing a retailer's official Black Friday promotion page and the terms of selected partner programmes. An older welcome offer was set aside as too outdated to publish.",
+   "text_uk": "Зібрали дані з офіційної сторінки розпродажу Black Friday одного з партнерських магазинів і переглянули умови окремих партнерських програм. Стару вітальну пропозицію майже трьохрічної давнини відклали, бо вона вже не актуальна для публікації.",
+   "task": null
+  },
+  {
+   "t": "17:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on results from Lukas's and Iris's tasks and for the browser queue to move. No experiments are behind schedule.",
+   "text_uk": "Чекаємо на результати завдань Lukas та іншого члена команди, а також на запуск черги в браузері. Жоден експеримент не відстає від графіка.",
+   "task": null
+  },
+  {
+   "t": "17:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -3381,13 +3426,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -70.58,
+  "week": -70.61,
   "api_budget": 76.92,
-  "api_spent": 66.29,
+  "api_spent": 66.32,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 70.58
+  "month_costs": 70.61
  }
 }
