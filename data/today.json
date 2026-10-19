@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T10:58+02:00",
+ "generated_at": "2026-10-19T11:09+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -1446,7 +1446,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 25,
+   "dur": 12,
    "text": "Lukas is collecting the public codes and promotions shown on a home improvement store's homepage for a future discount code page on rindo.pl.",
    "text_uk": "Lukas збирає промокоди та акції, які будівельний магазин публікує на своїй головній сторінці, для майбутньої сторінки з кодами на rindo.pl.",
    "task": 75
@@ -1455,7 +1455,7 @@
    "t": "10:48",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 25,
+   "dur": 35,
    "text": "Lukas delivered verified promotion details for two stores from their own sites. An expired 2022 code was rejected and won't go live. Next store is up in the queue.",
    "text_uk": "Завдання для команди.",
    "task": 75
@@ -1540,6 +1540,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "10:59",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team took on two more research tasks: gathering official promotions from two stores whose partner programmes are still awaiting approval. Articles for rindo.pl will follow once the programmes are accepted.",
+   "text_uk": "Команда отримала два нові завдання з дослідження офіційних акцій магазинів. Тексти для rindo.pl з'являться після схвалення партнерських програм.",
+   "task": 75
+  },
+  {
+   "t": "10:59",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Team research is underway: three research assignments and card tests are in progress. The next block will pick up the results.",
+   "text_uk": "Команда Mateus чекає на результати трьох досліджень та триває тестування карток. Наступний блок забере результати.",
+   "task": null
+  },
+  {
+   "t": "10:59",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1588,13 +1615,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -68.71,
+  "week": -68.84,
   "api_budget": 76.92,
-  "api_spent": 64.62,
+  "api_spent": 64.73,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 68.71
+  "month_costs": 68.84
  }
 }
