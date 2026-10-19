@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T08:55+02:00",
+ "generated_at": "2026-10-19T09:05+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -861,7 +861,7 @@
    "t": "06:34",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 156,
+   "dur": 166,
    "text": "Checked that the updated Black Friday 2026 page is live on rindo.pl, but Google was still showing an older version, so we requested a re-index. Lukas is reading the official promotion pages of three large stores and will add only what the stores have announced themselves.",
    "text_uk": "Перевірили, що оновлена сторінка про Black Friday 2026 вже на rindo.pl. Google ще бачив стару версію, тож запросили повторне індексування. Lukas перевіряє офіційні сторінки акцій трьох великих магазинів і додає лише те, що самі магазини оголосили.",
    "task": 74
@@ -1192,13 +1192,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -68.35,
+  "week": -68.36,
   "api_budget": 76.92,
-  "api_spent": 64.33,
+  "api_spent": 64.34,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 68.35
+  "month_costs": 68.36
  }
 }
