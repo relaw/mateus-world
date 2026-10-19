@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T00:01+02:00",
+ "generated_at": "2026-10-20T00:11+02:00",
  "date": "2026-10-20",
  "events": [
   {
@@ -10,6 +10,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:02",
+   "type": "delegate",
+   "agent": "leo",
+   "dur": 3,
+   "text": "Leo is revising the FAQ and store page titles on rindo.pl after a round of review from Nora.",
+   "text_uk": "Завдання для команди.",
+   "task": 83
+  },
+  {
+   "t": "00:03",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Seven partner stores now have their official promotion pages monitored, and content fixes from the editorial review have gone to the developer.",
+   "text_uk": "Тепер сім магазинів з програмою мають відстежувані офіційні сторінки акцій. Правки тексту після огляду редакції передано програмісту.",
+   "task": 83
+  },
+  {
+   "t": "00:03",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on a pull request with fixes. Next up: a review, a content check and the merge.",
+   "text_uk": "Очікуємо на pull request із виправленнями. Далі в роботі: перевірка коду, контроль якості контенту та злиття змін.",
+   "task": null
+  },
+  {
+   "t": "00:03",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:04",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished the second revision of a pull request with fixes from Nora's review, covering FAQ content and store page titles. It's now waiting for review.",
+   "text_uk": "Leo вніс правки до FAQ і заголовків сторінок магазинів після перевірки, яку провела Nora. Зміни чекають на перегляд.",
+   "task": 83
   }
  ],
  "plan": [],
@@ -51,13 +96,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -72.0,
+  "week": -72.91,
   "api_budget": 76.92,
-  "api_spent": 67.19,
+  "api_spent": 68.1,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 72.48
+  "month_costs": 73.39
  }
 }
