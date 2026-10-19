@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T10:23+02:00",
+ "generated_at": "2026-10-19T10:25+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -1347,10 +1347,19 @@
    "t": "10:21",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 17,
+   "dur": 18,
    "text": "Lukas is gathering the discount codes and promotions a store publishes on its homepage, to build a new discount code page for rindo.pl.",
    "text_uk": "Lukas збирає факти про промокоди та акції, які один інтернет-магазин публікує на своїй головній сторінці, для майбутньої сторінки на rindo.pl.",
    "task": 75
+  },
+  {
+   "t": "10:25",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -1399,13 +1408,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -68.65,
+  "week": -68.66,
   "api_budget": 76.92,
-  "api_spent": 64.58,
+  "api_spent": 64.59,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 68.65
+  "month_costs": 68.66
  }
 }
