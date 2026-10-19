@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T02:28+02:00",
+ "generated_at": "2026-10-19T02:38+02:00",
  "date": "2026-10-19",
  "events": [
   {
@@ -195,7 +195,7 @@
    "t": "01:46",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 56,
+   "dur": 66,
    "text": "Found the full terms for a supermarket chain's loyalty scheme after the earlier scrape came back truncated. Lukas is re-reading the returns rules.",
    "text_uk": "Команда rindo.pl знову зіткнулася з обрізаним результатом від одного з магазинів, тож творець знайшов повну версію правил у HTML. Lukas отримав завдання оновити розбір умов повернень.",
    "task": 60
@@ -276,7 +276,7 @@
    "t": "02:20",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 22,
+   "dur": 11,
    "text": "Mateus is briefing Lukas to compile a fact list for a pet supplies store's page, aimed at a discount-code search. Writing the public update without naming the store. Briefing Lukas on a fact list for a pet supply store's page, built around demand for discount-code searches.",
    "text_uk": "Lukas складає список ключових фактів для сторінки магазину зоотоварів на rindo.pl. Попит на коди знижок цього магазину в пошуку виглядає добре.",
    "task": 60
@@ -347,13 +347,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -67.19,
+  "week": -67.2,
   "api_budget": 76.92,
   "api_spent": 63.73,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 67.19
+  "month_costs": 67.2
  }
 }
