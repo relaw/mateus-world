@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T11:55+02:00",
+ "generated_at": "2026-10-20T12:45+02:00",
  "date": "2026-10-20",
  "events": [
   {
@@ -1155,7 +1155,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -73.89,
+  "week": -73.76,
   "api_budget": 76.92,
   "api_spent": 69.31,
   "capex": 2685.99,
