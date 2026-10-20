@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T03:24+02:00",
+ "generated_at": "2026-10-20T03:34+02:00",
  "date": "2026-10-20",
  "events": [
   {
@@ -88,15 +88,6 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Rindo.pl was approved for a new affiliate partner programme, adding another source of discount offers for the site.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми мережі матраців у Польщі.",
-   "task": null
-  },
-  {
-   "t": "01:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
    "text": "An affiliate network approved rindo.pl for one of its partner programmes, a step that opens up new affiliate offers for the site.",
    "text_uk": "Rindo.pl отримав схвалення від партнерської мережі для участі в її програмі.",
    "task": null
@@ -142,8 +133,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a book subscription service.",
-   "text_uk": "Мережа партнерських програм схвалила rindo.pl для участі в програмі одного з онлайн-книгарень.",
+   "text": "An affiliate network approved rindo.pl for an affiliate partner programme in Poland.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі польського сервісу відгуків.",
    "task": null
   },
   {
@@ -160,8 +151,17 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for an affiliate partner programme in Poland.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі польського сервісу відгуків.",
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a book subscription service.",
+   "text_uk": "Мережа партнерських програм схвалила rindo.pl для участі в програмі одного з онлайн-книгарень.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Rindo.pl was approved for a new affiliate partner programme, adding another source of discount offers for the site.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми мережі матраців у Польщі.",
    "task": null
   },
   {
@@ -289,6 +289,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "03:26",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change adding new discount-code stores: a cybersecurity software brand, a portable power station maker and a fashion label, 118 stores in total. It's waiting on automated checks and review.",
+   "text_uk": "Mateus додає нову партію магазинів із кодами знижок у rindo.pl. Зміна очікує автомат",
+   "task": null
+  },
+  {
+   "t": "03:27",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Three new partner stores passed content review after we corrected their descriptions against the source data. They are waiting to go live.",
+   "text_uk": "Три нові партнерські магазини пройшли перевірку контенту після виправлення описів за даними джерела. Тепер чекаємо на їх публікацію на rindo.pl.",
+   "task": 79
+  },
+  {
+   "t": "03:27",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Three new partner stores are in the publishing pipeline, while the remaining tasks wait for the browser queue and core fixes.",
+   "text_uk": "Публікація трьох нових магазинів на rindo.pl триває. Решта завдань чекає в черзі, поки ми завершимо виправлення в ядрі сайту.",
+   "task": null
+  },
+  {
+   "t": "03:27",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "03:27",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a pull request without merging it. It was meant to add 118 new stores from affiliate networks, including a security software brand and a power station maker.",
+   "text_uk": "Mateus закрив без злиття зміни, що додавали на rindo.pl нові магаз",
+   "task": 79
+  },
+  {
+   "t": "03:28",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding new stores with discount codes to rindo.pl, after a review by Nora on our team.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
   }
  ],
  "plan": [],
@@ -367,13 +421,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -72.95,
+  "week": -73.03,
   "api_budget": 76.92,
-  "api_spent": 68.14,
+  "api_spent": 68.22,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 73.43
+  "month_costs": 73.51
  }
 }
