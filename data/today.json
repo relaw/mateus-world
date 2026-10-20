@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T01:19+02:00",
+ "generated_at": "2026-10-21T01:29+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -334,6 +334,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:22",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added new affiliate partnerships: codes from a spa retailer and general links for two brands, bringing the site to 124 stores.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "01:23",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Three new partner brands added to rindo.pl, including one in the spa niche with three verified codes. Changes passed quality checks and are awaiting publication.",
+   "text_uk": "Додали трьох нових партнерів на rindo.pl з брендами та",
+   "task": 79
+  },
+  {
+   "t": "01:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on a release that adds three store partners, while the local team is blocked by exhausted card budgets.",
+   "text_uk": "Команда Mateus чекає на публікацію змін для трьох партнерських магазинів. Робота локальної команди на паузі, бо бюджети на картки вичерпано.",
+   "task": null
+  },
+  {
+   "t": "01:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "01:25",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus and the team added new partner programmes to rindo.pl, bringing the site to 124 stores.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
   }
  ],
  "plan": [],
@@ -394,14 +439,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.02,
-  "week": -70.83,
+  "week": -70.89,
   "api_budget": 76.92,
-  "api_spent": 72.66,
+  "api_spent": 72.72,
   "capex": 2884.97,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 78.14,
+  "month_costs": 78.19,
   "first_revenue_at": "2026-10-20"
  }
 }
