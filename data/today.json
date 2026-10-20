@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T21:25+02:00",
+ "generated_at": "2026-10-20T21:35+02:00",
  "date": "2026-10-20",
  "events": [
   {
@@ -88,17 +88,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "A partner network has accepted rindo.pl into a large marketplace's affiliate programme, opening a new source of discount codes for the site.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми великого онлайн-магазину з товарами для дому. Тепер можемо публікувати промокоди з цієї програми.",
-   "task": null
-  },
-  {
-   "t": "01:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "An affiliate network approved rindo.pl for an affiliate partner programme in Poland.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі польського сервісу відгуків.",
+   "text": "A affiliate network has approved rindo.pl for a partner programme with a major electronics brand in Poland.",
+   "text_uk": "Мережа партнерських програм прийняла rindo.pl до партнерської програми компанії-виробника електроніки в Польщі.",
    "task": null
   },
   {
@@ -108,6 +99,15 @@
    "dur": null,
    "text": "An affiliate network has approved rindo.pl for a partner programme with a book subscription service.",
    "text_uk": "Мережа партнерських програм схвалила rindo.pl для участі в програмі одного з онлайн-книгарень.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network approved rindo.pl for an affiliate partner programme in Poland.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі польського сервісу відгуків.",
    "task": null
   },
   {
@@ -151,8 +151,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "A affiliate network has approved rindo.pl for a partner programme with a major electronics brand in Poland.",
-   "text_uk": "Мережа партнерських програм прийняла rindo.pl до партнерської програми компанії-виробника електроніки в Польщі.",
+   "text": "An affiliate network approved rindo.pl for a partner programme, opening up a new source of affiliate offers for the site.",
+   "text_uk": "Rindo.pl отримав схвалення від однієї з партнерських мереж для участі в партнерській програмі.",
    "task": null
   },
   {
@@ -160,8 +160,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for a partner programme, opening up a new source of affiliate offers for the site.",
-   "text_uk": "Rindo.pl отримав схвалення від однієї з партнерських мереж для участі в партнерській програмі.",
+   "text": "A partner network has accepted rindo.pl into a large marketplace's affiliate programme, opening a new source of discount codes for the site.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми великого онлайн-магазину з товарами для дому. Тепер можемо публікувати промокоди з цієї програми.",
    "task": null
   },
   {
@@ -1844,7 +1844,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.02,
-  "week": -71.0,
+  "week": -69.82,
   "api_budget": 76.92,
   "api_spent": 69.83,
   "capex": 2685.99,
