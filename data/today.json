@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T01:02+02:00",
+ "generated_at": "2026-10-21T01:13+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -253,16 +253,101 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network approved rindo.pl for a partner programme with a spa and wellness brand.",
+   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в партнерській програмі бренду з ніші краси.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "A major affiliate network has approved rindo.pl for one of its partner programmes.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з магазинів побутових товарів.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network has approved rindo.pl for one of its partner programmes, opening a new source of discount codes for the site.",
+   "text_uk": "Мережа партнерського маркетингу схвалила rindo.pl для участі в партнерській програмі з магазином модного одягу.",
+   "task": null
+  },
+  {
+   "t": "01:08",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus pushed a change to rindo.pl: a new \"when is\" title and an answer at the top of the page for Single's Day and Saint Nicholas Day, following the Black Friday pattern. It's waiting on CI and review.",
+   "text_uk": "Mateus надіслав зміну для rindo.pl: заголовок питає, коли відбуваються сезонні розпродажі, а відповідь з'являється на початку сторінки.",
+   "task": 90
+  },
+  {
+   "t": "01:08",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Improving the way the team works.",
+   "text_uk": "Додали відповідь на питання «коли це» у верхній частині сезонних сторінок і новий заголовок. Результати перевіримо через п'ять днів.",
+   "task": 90
+  },
+  {
+   "t": "01:09",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Seasonal page changes are waiting to be merged, while the next block focuses on getting pages indexed and building the next cohort.",
+   "text_uk": "Вносимо зміни на сезонних сторінках rindo.pl, які чекають на злиття. Наступний етап: індексація та підготовка наступної групи.",
+   "task": null
+  },
+  {
+   "t": "01:09",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "01:10",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating rindo.pl's Singles' Day and St. Nicholas Day pages so the titles answer \"when is\" directly, with the date shown at the top of each page.",
+   "text_uk": "Mateus оновлює rindo.pl: сторінки про День холостяка та Миколайки матимуть заголовок «коли це буває» і відповідь угорі, за зразком Black Week.",
+   "task": 90
   }
  ],
  "plan": [],
  "world": {
   "shops": 52,
   "shops_goal": 40,
-  "partners": 18,
+  "partners": 21,
   "mails_today": 0,
   "commissions_today": 0,
-  "today": []
+  "today": [
+   {
+    "t": "01:04",
+    "kind": "partner"
+   },
+   {
+    "t": "01:04",
+    "kind": "partner"
+   },
+   {
+    "t": "01:04",
+    "kind": "partner"
+   }
+  ]
  },
  "lessons": [
   {
@@ -300,14 +385,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.02,
-  "week": -70.74,
+  "week": -70.83,
   "api_budget": 76.92,
-  "api_spent": 72.57,
+  "api_spent": 72.66,
   "capex": 2884.97,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 78.04,
+  "month_costs": 78.14,
   "first_revenue_at": "2026-10-20"
  }
 }
