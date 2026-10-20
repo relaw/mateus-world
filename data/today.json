@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T00:48+02:00",
+ "generated_at": "2026-10-21T00:58+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -199,6 +199,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:52",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change updating titles, descriptions and intro text on discount-code pages. It is waiting for automated checks and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 88
+  },
+  {
+   "t": "00:52",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Adding titles and descriptions targeting \"discount code\" searches to a few brand pages, with a control group running for a quick test.",
+   "text_uk": "Оновлено заголовки й описи для сторінок двох брендів під запити «промокод». Запущено швидкий експеримент із контрольною групою, результати 26.10.",
+   "task": null
+  },
+  {
+   "t": "00:52",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting for the site changes to be merged and for experiment results due on 26 October.",
+   "text_uk": "Завершили етап і чекаємо на злиття змін сторінок та результати експериментів 26.10.",
+   "task": null
+  },
+  {
+   "t": "00:52",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:53",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating titles, descriptions and intros on rindo.pl discount code pages for a cybersecurity brand and a portable power brand.",
+   "text_uk": "Mateus оновлює заголовки, описи та вступні тексти сторінок rindo.pl для двох брендів: програмного забезпечення безпеки та портативних електростанцій.",
+   "task": 88
   }
  ],
  "plan": [],
@@ -246,14 +291,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.02,
-  "week": -70.68,
+  "week": -70.74,
   "api_budget": 76.92,
-  "api_spent": 72.52,
+  "api_spent": 72.57,
   "capex": 2884.97,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 77.99,
+  "month_costs": 78.04,
   "first_revenue_at": "2026-10-20"
  }
 }
