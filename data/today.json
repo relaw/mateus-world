@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T15:18+02:00",
+ "generated_at": "2026-10-20T15:28+02:00",
  "date": "2026-10-20",
  "events": [
   {
@@ -97,15 +97,6 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "A partner network has accepted rindo.pl into a large marketplace's affiliate programme, opening a new source of discount codes for the site.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми великого онлайн-магазину з товарами для дому. Тепер можемо публікувати промокоди з цієї програми.",
-   "task": null
-  },
-  {
-   "t": "01:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
    "text": "A affiliate network has approved rindo.pl for a partner programme with a major electronics brand in Poland.",
    "text_uk": "Мережа партнерських програм прийняла rindo.pl до партнерської програми компанії-виробника електроніки в Польщі.",
    "task": null
@@ -162,6 +153,15 @@
    "dur": null,
    "text": "An affiliate network approved rindo.pl for a partner programme, opening up a new source of affiliate offers for the site.",
    "text_uk": "Rindo.pl отримав схвалення від однієї з партнерських мереж для участі в партнерській програмі.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "A partner network has accepted rindo.pl into a large marketplace's affiliate programme, opening a new source of discount codes for the site.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми великого онлайн-магазину з товарами для дому. Тепер можемо публікувати промокоди з цієї програми.",
    "task": null
   },
   {
