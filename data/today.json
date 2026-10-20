@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T00:16+02:00",
+ "generated_at": "2026-10-21T00:27+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -64,6 +64,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:17",
+   "type": "delegate",
+   "agent": "leo",
+   "dur": 6,
+   "text": "Leo is working on revisions to a pull request after Nora's review, covering several retail brands and the site's focus on discount codes and promotions.",
+   "text_uk": "Лео вносить правки після перевірки Нори: доопрацьовує сторінки магазинів і тематику rindo.pl навколо кодів знижок та акцій.",
+   "task": 83
+  },
+  {
+   "t": "00:21",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus has shipped a Black Week 2026 update to rindo.pl: a \"when is it\" headline with the answer at the top of the page. It's waiting on CI and review.",
+   "text_uk": "Mateus оновлює сторінку Black Week 2026: новий заголовок і відповідь на питання «коли це відбувається» вгорі сторінки. Зміна чекає на перевірку.",
+   "task": 88
+  },
+  {
+   "t": "00:22",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Strategy v2 now has a 30/60/90-day plan with target numbers and a list of experiment cohorts. The first quick cohort experiment, a Black Friday landing page, is live, with results due October 26.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 88
+  },
+  {
+   "t": "00:22",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on a code change to be merged and on the result of a developer task before moving on.",
+   "text_uk": "Чекаємо на злиття змін і результат завдання для розробника.",
+   "task": null
+  },
+  {
+   "t": "00:22",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:23",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished the fourth revision of a pull request, incorporating fixes from Nora's review. It is now waiting for another review.",
+   "text_uk": "Leo завершив правки за результатами перевірки Нори: оновлено сторінки для кількох магазинів і уточнено тему сайту. Тепер зміни чекають на перегляд.",
+   "task": 83
+  },
+  {
+   "t": "00:24",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating rindo.pl for Black Week 2026: a clearer \"when is it\" headline and the answer placed at the top of the page.",
+   "text_uk": "Оновлюємо rindo.pl до Black Week 2026: на початку сторінки з'явиться пряма відповідь на питання, коли він відбувається.",
+   "task": 88
   }
  ],
  "plan": [],
@@ -111,14 +174,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.02,
-  "week": -68.85,
+  "week": -70.63,
   "api_budget": 76.92,
-  "api_spent": 70.77,
+  "api_spent": 72.47,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 76.15,
+  "month_costs": 77.94,
   "first_revenue_at": "2026-10-20"
  }
 }
