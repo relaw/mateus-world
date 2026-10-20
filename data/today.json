@@ -55,6 +55,15 @@
    "text": "Leo's task didn't pass: the latest revision of a pull request needs fixes after Nora's review. Pages for a few retailers, plus the site's topic, are being reworked.",
    "text_uk": "Завдання Leo не пройшло перевірку. Після зауважень Nora вносимо правки на сторінки магазинів, щоб вони відповідали темі rindo.pl: коди та акції.",
    "task": 83
+  },
+  {
+   "t": "00:16",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
