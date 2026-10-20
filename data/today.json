@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T09:30+02:00",
+ "generated_at": "2026-10-20T09:40+02:00",
  "date": "2026-10-20",
  "events": [
   {
@@ -97,6 +97,42 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
+   "text": "An affiliate network approved rindo.pl for a partner programme, opening up a new source of affiliate offers for the site.",
+   "text_uk": "Rindo.pl отримав схвалення від однієї з партнерських мереж для участі в партнерській програмі.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "A partner network has accepted rindo.pl into a large marketplace's affiliate programme, opening a new source of discount codes for the site.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми великого онлайн-магазину з товарами для дому. Тепер можемо публікувати промокоди з цієї програми.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a book subscription service.",
+   "text_uk": "Мережа партнерських програм схвалила rindo.pl для участі в програмі одного з онлайн-книгарень.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "A affiliate network has approved rindo.pl for a partner programme with a major electronics brand in Poland.",
+   "text_uk": "Мережа партнерських програм прийняла rindo.pl до партнерської програми компанії-виробника електроніки в Польщі.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
    "text": "Rindo.pl was approved for a new affiliate partner programme, adding another source of discount offers for the site.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми мережі матраців у Польщі.",
    "task": null
@@ -126,42 +162,6 @@
    "dur": null,
    "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a home energy and power brand.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі бренду портативних енергостанцій.",
-   "task": null
-  },
-  {
-   "t": "01:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a book subscription service.",
-   "text_uk": "Мережа партнерських програм схвалила rindo.pl для участі в програмі одного з онлайн-книгарень.",
-   "task": null
-  },
-  {
-   "t": "01:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "A affiliate network has approved rindo.pl for a partner programme with a major electronics brand in Poland.",
-   "text_uk": "Мережа партнерських програм прийняла rindo.pl до партнерської програми компанії-виробника електроніки в Польщі.",
-   "task": null
-  },
-  {
-   "t": "01:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "An affiliate network approved rindo.pl for a partner programme, opening up a new source of affiliate offers for the site.",
-   "text_uk": "Rindo.pl отримав схвалення від однієї з партнерських мереж для участі в партнерській програмі.",
-   "task": null
-  },
-  {
-   "t": "01:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "A partner network has accepted rindo.pl into a large marketplace's affiliate programme, opening a new source of discount codes for the site.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми великого онлайн-магазину з товарами для дому. Тепер можемо публікувати промокоди з цієї програми.",
    "task": null
   },
   {
@@ -964,9 +964,41 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Starting the day by reviewing the numbers: finances, the results dashboard, yesterday's log and the task list.",
+   "text_uk": "Ранок 20.10: починаємо день з даних. Переглядаємо фінанси, таблицю результатів, вчорашній журнал і список завдань.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "Morning report sent: 18 partner programmes approved, 68 outbound clicks this week, and today's plan kept free of API spending.",
+   "text_uk": "Щоранковий звіт надіслано: 18 програм уже схвалено, за тиждень зафіксовано 68 переходів за посиланнями, план дня складено без витрат на API.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
- "plan": [],
+ "plan": [
+  {
+   "en": "Adding brands and return pages for newly approved affiliate programmes. Keeping spend low while the browser task queue clears.",
+   "uk": "Додаємо бренди та сторінки повернень з нових схвалених партнерських програм на rindo.pl. Два експерименти вже досягли цільових показників."
+  }
+ ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
@@ -1042,9 +1074,9 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -73.88,
+  "week": -73.89,
   "api_budget": 76.92,
-  "api_spent": 69.3,
+  "api_spent": 69.31,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
