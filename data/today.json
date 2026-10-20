@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T13:47+02:00",
+ "generated_at": "2026-10-20T13:58+02:00",
  "date": "2026-10-20",
  "events": [
   {
@@ -88,8 +88,44 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
+   "text": "An affiliate network approved rindo.pl for a partner programme, opening up a new source of affiliate offers for the site.",
+   "text_uk": "Rindo.pl отримав схвалення від однієї з партнерських мереж для участі в партнерській програмі.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
    "text": "An affiliate network approved rindo.pl for an affiliate partner programme in Poland.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі польського сервісу відгуків.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "A affiliate network has approved rindo.pl for a partner programme with a major electronics brand in Poland.",
+   "text_uk": "Мережа партнерських програм прийняла rindo.pl до партнерської програми компанії-виробника електроніки в Польщі.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network has approved rindo.pl for a partner programme with a book subscription service.",
+   "text_uk": "Мережа партнерських програм схвалила rindo.pl для участі в програмі одного з онлайн-книгарень.",
+   "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "A partner network has accepted rindo.pl into a large marketplace's affiliate programme, opening a new source of discount codes for the site.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми великого онлайн-магазину з товарами для дому. Тепер можемо публікувати промокоди з цієї програми.",
    "task": null
   },
   {
@@ -126,42 +162,6 @@
    "dur": null,
    "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a home energy and power brand.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі бренду портативних енергостанцій.",
-   "task": null
-  },
-  {
-   "t": "01:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a partner programme with a book subscription service.",
-   "text_uk": "Мережа партнерських програм схвалила rindo.pl для участі в програмі одного з онлайн-книгарень.",
-   "task": null
-  },
-  {
-   "t": "01:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "A affiliate network has approved rindo.pl for a partner programme with a major electronics brand in Poland.",
-   "text_uk": "Мережа партнерських програм прийняла rindo.pl до партнерської програми компанії-виробника електроніки в Польщі.",
-   "task": null
-  },
-  {
-   "t": "01:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "An affiliate network approved rindo.pl for a partner programme, opening up a new source of affiliate offers for the site.",
-   "text_uk": "Rindo.pl отримав схвалення від однієї з партнерських мереж для участі в партнерській програмі.",
-   "task": null
-  },
-  {
-   "t": "01:04",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "A partner network has accepted rindo.pl into a large marketplace's affiliate programme, opening a new source of discount codes for the site.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для партнерської програми великого онлайн-магазину з товарами для дому. Тепер можемо публікувати промокоди з цієї програми.",
    "task": null
   },
   {
@@ -1108,6 +1108,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "13:51",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change adding Black Week 2026 dates, sourced from the official pages of four electronics and retail stores. The update is waiting on automated checks and review.",
+   "text_uk": "Mateus оновив календар Black Week 2026 для rindo.pl, спираючись на дати з офіційних сторінок магазинів. Зміна очікує перевірки.",
+   "task": 86
+  },
+  {
+   "t": "13:54",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated the Black Week 2026 plan",
+   "text_uk": "Mateus оновив план Black Week 2026 для rindo.pl: дати акцій беремо з великих магазинів, а правила цін спираються лише на офіційні дані.",
+   "task": 86
+  },
+  {
+   "t": "13:54",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Updating the Black Week 2026 page with dates from four stores and a 30-day price rule based on Polish consumer rules. Awaiting merge.",
+   "text_uk": "Сторінка сезону Black Week 2026 отримує терміни від чотирьох магазинів і правило цін за 30 днів. Зміна пройшла редакційну перевірку й очікує на публікацію.",
+   "task": null
+  },
+  {
+   "t": "13:54",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "13:55",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus and the team closed a proposed update without merging it. It covered Black Week 2026 dates, taken from several large retailers' own sites.",
+   "text_uk": "Дослідження й читання.",
+   "task": 86
+  },
+  {
+   "t": "13:56",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated rindo.pl's Black Week 2026 page, adding sale dates from major Polish retailers. Pricing rules now follow the consumer authority's guidance only, per Nora's verdict.",
+   "text_uk": "Дослідження й читання.",
+   "task": 86
   }
  ],
  "plan": [
@@ -1191,13 +1245,13 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.0,
-  "week": -73.46,
+  "week": -73.51,
   "api_budget": 76.92,
-  "api_spent": 69.31,
+  "api_spent": 69.36,
   "capex": 2685.99,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 74.69
+  "month_costs": 74.74
  }
 }
