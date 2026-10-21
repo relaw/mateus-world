@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:48+02:00",
+ "generated_at": "2026-10-21T17:58+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1887,7 +1887,7 @@
    "t": "17:39",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 23,
+   "dur": 9,
    "text": "Lukas is looking into the return policy page on rindo.pl, which currently has no official source for return rules.",
    "text_uk": "Lukas готує офіційні правила повернень для rindo.pl, бо на сторінці про повернення досі немає надійного джерела.",
    "task": 79
@@ -1896,7 +1896,7 @@
    "t": "17:40",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 23,
+   "dur": 33,
    "text": "Lukas is collecting official coupon rules and return policies for the codes pages. Three new store pages are already indexed by search engines.",
    "text_uk": "Завдання для команди.",
    "task": null
@@ -1909,6 +1909,51 @@
    "text": "Mateus submitted a returns page for a beauty brand's store, based on its current terms. It is waiting for automated checks and review.",
    "text_uk": "Mateus оновив сторінку повернень на rindo.pl відповідно до актуальних умов одного магазину. Зміна очікує на перевірку.",
    "task": 79
+  },
+  {
+   "t": "17:49",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated the returns page on rindo.pl to reflect a store's returns policy, in force from 2 March 2026.",
+   "text_uk": "Mateus оновлює на rindo.pl сторінку повернень відповідно до чинних з 2 березня 2026 року правил повернень одного з магазинів-партнерів.",
+   "task": 79
+  },
+  {
+   "t": "17:50",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "A new store page is live on rindo.pl, covering its current return policy. Every newly accepted partner programme now has its own page too.",
+   "text_uk": "Нову сторінку магазину з умовами повернень перевірено й опубліковано на rindo.pl. Усі щойно схвалені програми вже мають свої сторінки.",
+   "task": 79
+  },
+  {
+   "t": "17:50",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus and the team now verify every fact by hand before publishing, since an AI helper once mixed up an old policy with the current one. A brand's coupon rules aren't public yet, so we're reading them directly in the browser.",
+   "text_uk": "Mateus і його команда перевіряють факти вручну перед публікацією, бо помічник раніше переплутав чинну редакцію правил. Правила купонів одного з магазинів ще чекають на перевірку.",
+   "task": 87
+  },
+  {
+   "t": "17:50",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a block of experiment readings, with the next batches scheduled for the 24th and 26th of October while the team waits for browser testing time.",
+   "text_uk": "Завершено етап, наступні результати експериментів очікуються 24.10 і 26.10. До того часу команда чекає на чергу браузера.",
+   "task": null
+  },
+  {
+   "t": "17:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1987,13 +2032,13 @@
  "state": {
   "earned": 0.04,
   "week": -67.52,
-  "api_budget": 76.92,
-  "api_spent": 73.51,
+  "api_budget": 100.0,
+  "api_spent": 73.59,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.04,
-  "month_costs": 80.29,
+  "month_costs": 80.38,
   "first_revenue_at": "2026-10-20"
  }
 }
