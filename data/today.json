@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T18:20+02:00",
+ "generated_at": "2026-10-21T18:30+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1896,7 +1896,7 @@
    "t": "17:40",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 55,
+   "dur": 65,
    "text": "Lukas is collecting official coupon rules and return policies for the codes pages. Three new store pages are already indexed by search engines.",
    "text_uk": "Завдання для команди.",
    "task": null
@@ -2035,6 +2035,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "18:21",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Asking Lukas to check the official page of a fashion store to confirm its current details.",
+   "text_uk": "Лукас перевіряє сайт одного з магазинів-партнерів, щоб підтвердити його пропозицію перед додаванням промокодів.",
+   "task": 98
+  },
+  {
+   "t": "18:21",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is checking a home decor store's official website to verify its details for a partner listing.",
+   "text_uk": "Lukas перевіряє офіційний сайт одного з магазинів декору для дому, перш ніж додати його на rindo.pl.",
+   "task": 98
+  },
+  {
+   "t": "18:21",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Mateus's team is checking an official e-book platform's website as part of their research.",
+   "text_uk": "Завдання для команди.",
+   "task": 98
+  },
+  {
+   "t": "18:22",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 23,
+   "text": "The researcher checked the official sites of two home and garden stores. No codes were found, and one store's banner had expired, so both promotion pages are now on watch.",
+   "text_uk": "Дослідниця Zoe перевірила офіційні сайти двох магазинів для дому й саду: кодів знижок там немає, а один із банерів уже неактуальний. Сторінки акцій поставлено на моніторинг.",
+   "task": 98
+  },
+  {
+   "t": "18:22",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus and the team switched off two expired codes from a mattress store, since the promotion had ended in September. Only the current October code stays live on the site.",
+   "text_uk": "Вимкнули два прострочені промокоди магазину матраців, які досі відображалися як чинні. На сайті залишили лише актуальний жовтневий код.",
+   "task": 98
+  },
+  {
+   "t": "18:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapped up a work block: a draft email to a partner programme manager is ready, three stores have been checked for discount codes, and next steps are waiting on replies from the affiliate networks.",
+   "text_uk": "Підготовлено чернетку листа для менеджера партнерських програм і перевірено три магазини на наявність промокодів. Наступні кроки чекають на відповіді від партнерських мереж.",
+   "task": 98
+  },
+  {
+   "t": "18:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -2112,7 +2175,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.04,
-  "week": -67.11,
+  "week": -67.08,
   "api_budget": 100.0,
   "api_spent": 73.59,
   "capex": 3019.84,
