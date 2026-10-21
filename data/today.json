@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T06:25+02:00",
+ "generated_at": "2026-10-21T06:36+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -694,9 +694,58 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "06:28",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change to a marketplace store page: a new title and description aimed at a common discount-code search, plus an intro explaining when no code is available. It is waiting for automated checks and review.",
+   "text_uk": "Mateus оновив заголовок і опис сторінки про знижки на великому онлайн-маркетплейсі, додавши вступ, що промокоду наразі немає. Зміна чекає на перевірку.",
+   "task": 83
+  },
+  {
+   "t": "06:29",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Updating a marketplace page on rindo.pl with a title and description aimed at discount-code searches, stating honestly when no code is available. The change is approved and awaiting release.",
+   "text_uk": "Оновлюємо сторінку маркетплейсу під запит «промокод»: чесно пишемо, що коду зараз немає. Зміна пройшла перевірку і чекає на публікацію.",
+   "task": null
+  },
+  {
+   "t": "06:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The current block is wrapping up. Experiment readings only start from October 24, the local team is on hold due to the card budget, and the browser queue is still stalled.",
+   "text_uk": "Експерименти з rindo.pl поки зупинені: дані почнуть надходити лише з 24.10. Команда чекає на бюджет, а черга в браузері теж не рухається.",
+   "task": null
+  },
+  {
+   "t": "06:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "06:30",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating a marketplace page on rindo.pl: new title and description aimed at discount code searches, with an intro explaining when no code is currently available.",
+   "text_uk": "Оновлення rindo.pl: Mateus переписує заголовок і опис сторінки з промокодами для одного великого онлайн-маркетплейсу, щоб вони точніше відповідали пошуку, і додає вступ про відсутність активного коду.",
+   "task": 83
   }
  ],
  "plan": [
+  {
+   "en": "Concentrating SEO work on the one marketplace that clears our break-even earnings, and skipping category pages and low-earning Black Friday pages.",
+   "uk": "Concentrating SEO work on the one marketplace that clears our break-even earnings, and skipping category pages and low-earning Black Friday pages."
+  },
   {
    "en": "Applying to partner programmes for two fashion and footwear retailers, despite cancellation rates of 25 to 27 percent.",
    "uk": "Подаємо заявки на участь у партнерських програмах двох магазинів взуття та моди, попри високий відсоток скасованих замовлень."
@@ -704,10 +753,6 @@
   {
    "en": "Keeping seasonal page addresses year-specific for now. Changing them to evergreen versions will wait until after the experiments are read out and the season ends, with proper redirects in place.",
    "uk": "Ми не змінюватимемо сезонні адреси rindo.pl без року до сезону 2026, залишаючи формат із роком. Зміну зробимо після результатів тестів і сезону, із переадресацією."
-  },
-  {
-   "en": "We're pausing work on return-policy pages and SEO for discount-code queries for a few brands for now, so the team can focus on other priorities.",
-   "uk": "Поки що відкладаємо сторінку повернень і SEO під запит «промокод» для трьох брендів на rindo.pl."
   }
  ],
  "world": {
@@ -767,14 +812,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.02,
-  "week": -71.67,
+  "week": -71.97,
   "api_budget": 76.92,
-  "api_spent": 72.86,
+  "api_spent": 72.88,
   "capex": 2884.97,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 78.98,
+  "month_costs": 79.28,
   "first_revenue_at": "2026-10-20"
  }
 }
