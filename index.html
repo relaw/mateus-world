@@ -1421,7 +1421,7 @@ const I18N={
   journal:'Journal',howto:'How the live journal works',of:' of ',phase0:'phase 0',expires:d=>`rindo.pl expires in ${d} days (12 July 2027).`,
   pause:'Pause',resume:'Resume',replay:'Replay the day',golive:'Live',sample:'Prototype on sample data',live:t=>'Live · updated '+t,replayOf:d=>'Replay of '+d,
   boss:'boss',bossDesc:'Founder and CEO. Reads the numbers, sets the plan, builds the team, codes rindo.pl himself and reports to his creator.',assign:'Assigning a task: ',
-  ag:{stool:'having lunch by the window',lunch:'having lunch',busy:'working on a task',wait:'in the office, waiting for a task',toWork:'walking to work',home:'heading home',away:'away'},
+  ag:{today:n=>`${n} ${n===1?'task':'tasks'} today`,stool:'having lunch by the window',lunch:'having lunch',busy:'working on a task',wait:'in the office, waiting for a task',toWork:'walking to work',home:'heading home',away:'away'},
   roles:{zoe:['Copywriter','local AI','Writes brand pages and texts in Polish'],lukas:['Researcher','local AI','Reads terms, programmes and the market'],leo:['Backup developer','cloud AI','Takes over site changes when Mateus is busy elsewhere'],nora:['Quality reviewer','cloud AI','Checks every text before it goes live'],iris:['SEO and AI search','local AI','Makes rindo.pl easy to find and to quote'],max:['Codes and competition','local AI','Tracks network offers and what competitors publish']},bossTag:'cloud AI'},
  uk:{tagline:'перший AI-підприємець',logEmpty:'Сьогодні ще немає записів. Нові з’являться тут, щойно Mateus або команда візьмуться до роботи.',canvas:'Ізометричний вид будинку, саду та офісу Mateus',
   legend:'Будинок угорі, сад посередині, а скляний офісний павільйон унизу. Доба у світі Mateus триває 8 хвилин: ранковий брифінг біля дошки, обід з командою, листоноша біля хвіртки, вечір біля каміна і ніч. Щойно Mateus справді працює або творець пише йому в Telegram, сцена показує це наживо, о будь-якій порі цієї доби: він іде до офісу або бере телефон. Члени команди зі справжнім завданням сидять за столами з увімкненим екраном. У журналі лише справжні події, у реальному часі. Двері офісу відчиняються самі: датчик розпізнає працівників (зелене світло) і впускає гостей на жовтому.',
@@ -1446,7 +1446,7 @@ const I18N={
   journal:'Журнал',howto:'Як працює живий журнал',of:' з ',phase0:'фаза 0',expires:d=>`Домен rindo.pl спливає через ${d} дн. (12 липня 2027).`,
   pause:'Пауза',resume:'Продовжити',replay:'Повтор дня',golive:'Наживо',sample:'Прототип на прикладових даних',live:t=>'Наживо · оновлено '+t,replayOf:d=>'Повтор дня '+d,
   boss:'бос',bossDesc:'Засновник і CEO. Читає цифри, складає план, будує команду, сам програмує rindo.pl і звітує творцю.',assign:'Доручає завдання: ',
-  ag:{stool:'обідає біля вікна',lunch:'обідає',busy:'працює над завданням',wait:'в офісі, чекає на завдання',toWork:'йде на роботу',home:'йде додому',away:'немає на місці'},
+  ag:{today:n=>`${n} ${n%10===1&&n%100!==11?'завдання':n%10>=2&&n%10<=4&&(n%100<12||n%100>14)?'завдання':'завдань'} сьогодні`,stool:'обідає біля вікна',lunch:'обідає',busy:'працює над завданням',wait:'в офісі, чекає на завдання',toWork:'йде на роботу',home:'йде додому',away:'немає на місці'},
   roles:{zoe:['Копірайтерка','локальний AI','Пише сторінки брендів і тексти польською'],lukas:['Дослідник','локальний AI','Читає правила, програми й ринок'],leo:['Резервний розробник','хмарний AI','Бере зміни сайту, коли Mateus зайнятий іншим'],nora:['Рецензентка якості','хмарний AI','Перевіряє кожен текст перед публікацією'],iris:['SEO і AI-пошук','локальний AI','Робить rindo.pl помітним для пошуку й AI'],max:['Коди й конкуренти','локальний AI','Стежить за пропозиціями мереж і конкурентами']},bossTag:'хмарний AI',
   st:{sleep:'Спить',metrics:'Переглядає метрики в офісі',work:'Працює в офісі',telegram:'Пише в Telegram',retro:'Розпалює камін і розмірковує',learn:'Читає в кріслі',improve:'Впроваджує покращення',ipad:'Аналізує на iPad у кріслі',payout:'Забирає пошту біля будинку',milestone:'Святкує віху',idle:'Кава біля кавоварки',coffeebreak:'Кава на лавці в саду',present:'Брифінг команди біля дошки',lunch:'Обід з командою',morning:'Сніданок для Miki, потім цифри',garden:'Поливає квіти, потім лавка',playcat:'Грається з Miki',pondbreak:'Годує рибок у ставку',morningstretch:'Ранкова розминка в саду',server:'Перевіряє Mac mini, потім до роботи',plan:'Планує біля дошки',nap:'Коротка дрімота на дивані',rake:'Згрібає листя в саду',apple:'Яблуко з власного дерева',guitar:'Грає на гітарі на дивані',stars:'Дивиться на зорі в саду'},
   tasks:['Переглянути метрики rindo.pl','Перевірити умови партнерських програм','Підготувати чернетки сторінок брендів','Надіслати щоденний звіт','Ретроспектива біля каміна','Прочитати розділ з бібліотеки','Впровадити покращення після ретроспективи']}
@@ -1504,7 +1504,8 @@ function renderTasks(done){
 function renderTeam(){
   const T=L(),G=T.ag;
   const rows=[`<li><span class="sw" style="background:#3f8a7c"></span><span class="who">Mateus</span><span class="st on">${T.boss}</span><span class="desc">${T.bossDesc}</span></li>`];
-  for(const k in AGENTS){const a=AGENTS[k],[role,tag,model]=T.roles[k]||[a.role,'',a.model];rows.push(`<li><span class="sw" style="background:${a.color}"></span><span class="who">${a.name}</span><span class="st ${a.pose==='work'&&a.busy?'on':''}">${a.pose==='stool'?G.stool:a.pose==='work'?(a.eating?G.lunch:a.busy?G.busy:G.wait):a.pose==='walk'?(a.next&&a.next.pose==='work'?G.toWork:G.home):G.away}</span><span class="desc">${role}. ${model}.</span></li>`);}
+  const nowM=live?realNow:sim,doneToday=k=>timeline.filter(ev=>ev.type==='delegate'&&ev.agent===k&&ev._m<=nowM).length;
+  for(const k in AGENTS){const a=AGENTS[k],[role,tag,model]=T.roles[k]||[a.role,'',a.model],n=doneToday(k);rows.push(`<li><span class="sw" style="background:${a.color}"></span><span class="who">${a.name}</span><span class="st ${a.pose==='work'&&a.busy?'on':''}">${a.pose==='stool'?G.stool:a.pose==='work'?(a.eating?G.lunch:a.busy?G.busy:G.wait):a.pose==='walk'?(a.next&&a.next.pose==='work'?G.toWork:G.home):G.away}${n?` · ${G.today(n)}`:''}</span><span class="desc">${role}. ${model}.</span></li>`);}
   rows.push(`<li><span class="sw" style="background:#8e939f"></span><span class="who">Miki <small class="tag">${T.catTag}</small></span><span class="st">${T.cat[cat.act]||''}</span><span class="desc">${T.catDesc}</span></li>`);
   $('team').innerHTML=rows.join('');
 }
@@ -1563,7 +1564,7 @@ function agentsUpdate(){
   let changed=false;
   for(const k in AGENTS){const a=AGENTS[k];
     const t=live?realNow:sim;
-    const busy=timeline.some(ev=>ev.type==='delegate'&&ev.agent===k&&t>=ev._m&&t<ev._m+(ev.dur||90));
+    const busy=timeline.some(ev=>ev.type==='delegate'&&ev.agent===k&&t>=ev._m&&t<ev._m+Math.max(ev.dur||90,15)); // krótkie prace pomocników (1–4 min) też widać przez kwadrans
     const inHours=sim>=OFFICE[0]+a.off&&sim<OFFICE[1]+a.off;
     const want=busy||inHours;
     const eating=sim>=LUNCH[0]&&sim<LUNCH[1];
