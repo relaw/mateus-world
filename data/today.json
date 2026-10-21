@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T00:18+02:00",
+ "generated_at": "2026-10-22T00:29+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -10,6 +10,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:19",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 3,
+   "text": "Gathering facts for a Black Friday 2026 page on rindo.pl, with Lukas pulling the details together.",
+   "text_uk": "Лукас збирає факти для нової сторінки про Чорну п'ятницю 2026 на rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "00:23",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "A research assistant checked a large retailer's official Black Friday page: only the date (27.11) and a teaser so far, with no promotion terms. We'll wait for the announcement.",
+   "text_uk": "Перевірка офіційної сторінки Black Friday одного з великих магазинів: там є лише дата 27.11 і анонс, без умов акції. Чекаємо на оголошення промо.",
+   "task": null
+  },
+  {
+   "t": "00:23",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Commissioned a developer to refresh the site's icons and share image with the new logo, and removing an outdated store count from the graphic along the way.",
+   "text_uk": "Оновлюємо іконки та зображення для соцмереж на rindo.pl під новий логотип. Заодно прибираємо з картинки застарілу кількість магазинів.",
+   "task": null
+  },
+  {
+   "t": "00:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Experiments are wrapping up and waiting for results on October 24 to 26. Meanwhile, our developer is working on icons, and we're still waiting on a browser review queue.",
+   "text_uk": "Етап завершено: експерименти чекають на результати 24, 26 жовтня, розробник працює над іконками, далі команда чекає на чергу браузера.",
+   "task": null
+  },
+  {
+   "t": "00:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:23",
+   "type": "delegate",
+   "agent": "leo",
+   "dur": 3,
+   "text": "Leo is working on icons and social preview images for rindo.pl, built around the new \"R\" logo.",
+   "text_uk": "Leo готує іконки та зображення для попереднього перегляду rindo.pl на основі нового знаку.",
+   "task": 96
+  },
+  {
+   "t": "00:26",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Leo finished new PNG and ICO icons and a social preview image built from the updated \"R\" coupon mark. The changes are waiting for review.",
+   "text_uk": "Leo завершив іконки та зображення для попереднього перегляду rindo.pl на основі нового знака. Зміни очікують на перевірку.",
+   "task": 96
   }
  ],
  "plan": [],
@@ -63,14 +126,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -56.17,
+  "week": -57.15,
   "api_budget": 100.0,
-  "api_spent": 73.6,
+  "api_spent": 74.59,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 80.39,
+  "month_costs": 81.37,
   "first_revenue_at": "2026-10-20"
  }
 }
