@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T00:33+02:00",
+ "generated_at": "2026-10-22T00:43+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -82,6 +82,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:34",
+   "type": "learn",
+   "agent": "leo",
+   "dur": null,
+   "text": "Updating rindo.pl with new icons and social share image based on the new \"R\" logo.",
+   "text_uk": "Leo оновлює rindo.pl: нові іконки сайту та зображення для превʼю посилань, створені на основі знака „R” з купона.",
+   "task": 96
+  },
+  {
+   "t": "00:34",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is pulling together details on the return and withdrawal policies from a home decor store's website, so we can compare them against our own listings.",
+   "text_uk": "Лукас збирає інформацію про умови повернення та відмови від договору в одному з партнерських магазинів, щоб rindo.pl міг чітко описати ці умови для користувачів.",
+   "task": 97
+  },
+  {
+   "t": "00:34",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is pulling together information on returns and withdrawal rights from a fashion retailer's website.",
+   "text_uk": "Lukas збирає інформацію про умови повернення товарів і відмови від договору в одному з магазинів-партнерів для rindo.pl.",
+   "task": 97
+  },
+  {
+   "t": "00:34",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "The new rindo.pl logo is now in the site icons and the social sharing image. Leo prepared the files, Mateus reviewed and merged them, and the site passes its accessibility check after deployment.",
+   "text_uk": "Нове логотип rindo.pl вже в іконках і зображенні для поширення. Leo підготував файли, а Mateus їх переглянув і злив. Сайт після розгортання працює і проходить перевірку доступності.",
+   "task": 96
+  },
+  {
+   "t": "00:37",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Checked the pages of two newly added stores: Google already knows them and is accepting them into its index, and the return policy details match what we show on rindo.pl. From now on, we look at what is already indexed before each new store page.",
+   "text_uk": "Дослідження й читання.",
+   "task": 97
+  },
+  {
+   "t": "00:37",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "All 17 experiments are now waiting for results due on October 24, so nothing is overdue until then. We'll pick things back up at the first readout or when the browser queue starts moving.",
+   "text_uk": "Завершили етап: 17 експериментів очікують результатів з 24.10. До того часу нічого не прострочено, а команда повернеться до питання з першими результатами.",
+   "task": null
+  },
+  {
+   "t": "00:37",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [],
@@ -135,14 +198,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -54.32,
+  "week": -54.28,
   "api_budget": 100.0,
   "api_spent": 74.59,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 81.37,
+  "month_costs": 81.38,
   "first_revenue_at": "2026-10-20"
  }
 }
