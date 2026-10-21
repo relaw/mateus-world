@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T05:24+02:00",
+ "generated_at": "2026-10-21T05:34+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -657,6 +657,33 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "05:25",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the current block: 12 experiments are underway, none are ready to read yet, and the main bottleneck is the browser queue, with indexing requests waiting for 43 hours.",
+   "text_uk": "Mateus і команда переглянули 12 експериментів: жоден ще не готовий до результатів. Головна затримка в черзі індексації, запити стоять уже 43 години.",
+   "task": 92
+  },
+  {
+   "t": "05:25",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team is waiting on budget renewals for the local cards, and browser-dependent work is queued behind it. Picking it back up once things move.",
+   "text_uk": "Команда Mateus чекає на поновлення бюджетів карток, а роботи, що залежать від браузера, стоять у черзі. Повернемося до них при першому руху.",
+   "task": null
+  },
+  {
+   "t": "05:25",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
