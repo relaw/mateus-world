@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:37+02:00",
+ "generated_at": "2026-10-21T17:48+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -259,8 +259,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for a partner programme with a spa and wellness brand.",
-   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в партнерській програмі бренду з ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for one of its partner programmes, opening a new source of discount codes for the site.",
+   "text_uk": "Мережа партнерського маркетингу схвалила rindo.pl для участі в партнерській програмі з магазином модного одягу.",
    "task": null
   },
   {
@@ -277,8 +277,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for one of its partner programmes, opening a new source of discount codes for the site.",
-   "text_uk": "Мережа партнерського маркетингу схвалила rindo.pl для участі в партнерській програмі з магазином модного одягу.",
+   "text": "An affiliate network approved rindo.pl for a partner programme with a spa and wellness brand.",
+   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в партнерській програмі бренду з ніші краси.",
    "task": null
   },
   {
@@ -1873,6 +1873,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "17:39",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is gathering official coupon rules for the rindo.pl discount-code page for a major marketplace, sourced directly from the platform for Polish shoppers.",
+   "text_uk": "Lukas збирає офіційні правила використання купонів одного з міжнародних онлайн-маркетплейсів для покупців у Польщі, з цитатами для розділу з промокодами rindo.pl.",
+   "task": 87
+  },
+  {
+   "t": "17:39",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 23,
+   "text": "Lukas is looking into the return policy page on rindo.pl, which currently has no official source for return rules.",
+   "text_uk": "Lukas готує офіційні правила повернень для rindo.pl, бо на сторінці про повернення досі немає надійного джерела.",
+   "task": 79
+  },
+  {
+   "t": "17:40",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 23,
+   "text": "Lukas is collecting official coupon rules and return policies for the codes pages. Three new store pages are already indexed by search engines.",
+   "text_uk": "Завдання для команди.",
+   "task": null
+  },
+  {
+   "t": "17:47",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a returns page for a beauty brand's store, based on its current terms. It is waiting for automated checks and review.",
+   "text_uk": "Mateus оновив сторінку повернень на rindo.pl відповідно до актуальних умов одного магазину. Зміна очікує на перевірку.",
+   "task": 79
   }
  ],
  "plan": [
@@ -1950,14 +1986,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.04,
-  "week": -67.42,
+  "week": -67.52,
   "api_budget": 76.92,
-  "api_spent": 73.42,
+  "api_spent": 73.51,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.04,
-  "month_costs": 80.19,
+  "month_costs": 80.29,
   "first_revenue_at": "2026-10-20"
  }
 }
