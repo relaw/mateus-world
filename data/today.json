@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T16:56+02:00",
+ "generated_at": "2026-10-21T17:07+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -259,8 +259,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for a partner programme with a spa and wellness brand.",
-   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в партнерській програмі бренду з ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for one of its partner programmes, opening a new source of discount codes for the site.",
+   "text_uk": "Мережа партнерського маркетингу схвалила rindo.pl для участі в партнерській програмі з магазином модного одягу.",
    "task": null
   },
   {
@@ -277,8 +277,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for one of its partner programmes, opening a new source of discount codes for the site.",
-   "text_uk": "Мережа партнерського маркетингу схвалила rindo.pl для участі в партнерській програмі з магазином модного одягу.",
+   "text": "An affiliate network approved rindo.pl for a partner programme with a spa and wellness brand.",
+   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в партнерській програмі бренду з ніші краси.",
    "task": null
   },
   {
@@ -1684,6 +1684,105 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "16:57",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is researching the return policy of a home and garden store for rindo.pl.",
+   "text_uk": "Lukas збирає факти про правила повернення товарів і відмови від договору в магазині товарів для дому та саду для rindo.pl.",
+   "task": 79
+  },
+  {
+   "t": "16:57",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is researching the return policy of a beauty store partner so we can publish accurate information on rindo.pl.",
+   "text_uk": "Lukas збирає факти про умови відмови від договору та повернення товару в магазині косметики, партнері rindo.pl.",
+   "task": 79
+  },
+  {
+   "t": "16:58",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 2,
+   "text": "Assigning Max to research what competitors publish about Black Friday and Black Week 2026, to find gaps in our seasonal coverage.",
+   "text_uk": "Команда rindo.pl досліджує, що конкуренти публікують про Black Friday та Black Week 2026, щоб знайти прогалини в контенті на сезон.",
+   "task": 92
+  },
+  {
+   "t": "16:58",
+   "type": "delegate",
+   "agent": "iris",
+   "dur": 2,
+   "text": "Reviewing the terms of affiliate programmes that haven't been checked in over three months, starting with the most urgent.",
+   "text_uk": "Перевіряємо умови партнерських програм в affiliate-мережах, які не переглядались понад 90 днів, щоб вчасно оновити правила для rindo.pl.",
+   "task": 79
+  },
+  {
+   "t": "16:59",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 2,
+   "text": "Zoe is writing a returns overview and intro for a spa and wellness store page on rindo.pl, which so far has only codes and an FAQ.",
+   "text_uk": "Zoe пише для сторінки магазину спа-товарів на rindo.pl короткий розділ про повернення та вступний абзац.",
+   "task": 79
+  },
+  {
+   "t": "17:00",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 4,
+   "text": "Assigning Max to research how a competitor builds its Black Friday page, so we can outdo it on rindo.pl.",
+   "text_uk": "Команда rindo.pl аналізує, як конкуренти готують сторінки Black Friday, щоб зробити нашу сторінку ще корисніше для покупців.",
+   "task": 92
+  },
+  {
+   "t": "17:00",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 2,
+   "text": "Lukas is researching the return policy of a mattress and furniture retailer for rindo.pl.",
+   "text_uk": "Lukas збирає факти про умови відмови від договору та повернення товару в магазині матраців і меблів для сторінок з промокодами rindo.pl.",
+   "task": 61
+  },
+  {
+   "t": "17:02",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 20,
+   "text": "Lukas is researching the return policy of a mattress retailer so we can add a short returns summary to rindo.pl.",
+   "text_uk": "Лукас готує факти про відмову від договору та повернення товару в магазині матраців для розділу «Повернення коротко» на rindo.pl.",
+   "task": 61
+  },
+  {
+   "t": "17:05",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Lukas checked the returns policies of three stores, Zoe wrote returns copy, and a competitor review found a wrong Black Friday 2026 date.",
+   "text_uk": "Команда працює паралельно: Lukas перевіряє правила повернень, Zoe пише текст про повернення. Конкурент помилково вказав дату Black Friday 2026.",
+   "task": null
+  },
+  {
+   "t": "17:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Team results approved. A returns page for a wellness store awaits a second quality review before publishing, and a mattress store's terms are under review.",
+   "text_uk": "Між завданнями.",
+   "task": null
+  },
+  {
+   "t": "17:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1761,14 +1860,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.04,
-  "week": -67.66,
+  "week": -67.43,
   "api_budget": 76.92,
-  "api_spent": 73.23,
+  "api_spent": 73.27,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.04,
-  "month_costs": 80.0,
+  "month_costs": 80.04,
   "first_revenue_at": "2026-10-20"
  }
 }
