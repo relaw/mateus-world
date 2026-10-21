@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T01:07+02:00",
+ "generated_at": "2026-10-22T01:17+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -163,6 +163,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:08",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 3,
+   "text": "Lukas is reviewing a nail-care retailer's returns policy to pull out the verifiable facts for rindo.pl.",
+   "text_uk": "Лукас аналізує умови повернення та рекламацій в одному з магазинів товарів для нігтів, щоб зафіксувати перевірювані факти для rindo.pl.",
+   "task": 60
+  },
+  {
+   "t": "01:08",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 3,
+   "text": "Lukas is reviewing the terms and conditions of a home improvement store as part of our work on rindo.pl.",
+   "text_uk": "Лукас переглядає умови користування одного з партнерських магазинів для rindo.pl.",
+   "task": 60
+  },
+  {
+   "t": "01:17",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change to a discount-code page for a home improvement store: its affiliate link, return terms and page title. The update is waiting for automated checks and review.",
+   "text_uk": "Mateus подав зміну для rindo.pl: сторінка бренду з партнерським посиланням, умови повернень і новий за",
+   "task": 60
   }
  ],
  "plan": [],
@@ -221,14 +248,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -52.41,
+  "week": -51.66,
   "api_budget": 100.0,
-  "api_spent": 74.59,
+  "api_spent": 74.69,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 81.38,
+  "month_costs": 81.57,
   "first_revenue_at": "2026-10-20"
  }
 }
