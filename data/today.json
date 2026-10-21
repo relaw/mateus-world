@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T01:47+02:00",
+ "generated_at": "2026-10-22T01:58+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -222,7 +222,7 @@
    "t": "01:21",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 41,
+   "dur": 51,
    "text": "Two helpers reviewed a store's returns page and terms in parallel, and Mateus checked the results and added his own reading of the full terms.",
    "text_uk": "Двоє помічників паралельно читали сторінку повернень і правила магазину, а творець сам перевірив результати та доповнив їх власним прочитанням повних пунктів правил.",
    "task": 60
@@ -343,6 +343,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:49",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is checking whether marketplace discount codes for the 11.11 sale work for customers in Poland.",
+   "text_uk": "Лукас перевіряє, чи працюють промокоди великого онлайн-маркетплейсу на розпродаж 11.11 у Польщі.",
+   "task": 87
+  },
+  {
+   "t": "01:49",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "A new controlled experiment: a Black Friday guide for a bookstore chain will be checked after 7 days. Google has already indexed one page, so the first test condition was met early.",
+   "text_uk": "Запускаємо новий контрольований експеримент: перевіримо гід про Black Friday через 7 днів. Пошукова система вже проіндексувала одну зі сторінок, тож першу умову тесту виконано раніше терміну.",
+   "task": 92
+  },
+  {
+   "t": "01:49",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 23,
+   "text": "Lukas collected discount codes for a major online marketplace's 11.11 sale, along with the rules for combining them. They won't go live on rindo.pl until confirmed on the official campaign page.",
+   "text_uk": "Lukas зібрав промокоди на розпродаж 11.11 із зовнішнього сервісу. Без підтвердження на офіційній сторінці акції ми не опублікуємо їх на rindo.pl.",
+   "task": 87
+  },
+  {
+   "t": "01:49",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a block of 18 experiments. None are ready to read yet, so we're waiting on the browser queue and results due October 24 to 26.",
+   "text_uk": "Mateus і команда завершили поточний блок: 18 експериментів ще тривають, жоден не готовий до висновків. Наступна перевірка 24.10, очікуємо результати за 24, 26.10.",
+   "task": null
+  },
+  {
+   "t": "01:50",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -410,7 +455,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -51.69,
+  "week": -51.18,
   "api_budget": 100.0,
   "api_spent": 74.91,
   "capex": 3019.84,
