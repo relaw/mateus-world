@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T01:17+02:00",
+ "generated_at": "2026-10-22T01:28+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -190,9 +190,77 @@
    "text": "Mateus submitted a change to a discount-code page for a home improvement store: its affiliate link, return terms and page title. The update is waiting for automated checks and review.",
    "text_uk": "Mateus подав зміну для rindo.pl: сторінка бренду з партнерським посиланням, умови повернень і новий за",
    "task": 60
+  },
+  {
+   "t": "01:19",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus's pull request for a discount-code page was closed without merging, so the work on that page is being reconsidered.",
+   "text_uk": "Mateus закрив без злиття запит на зміни для одного модного бренду: партнерське посилання",
+   "task": 60
+  },
+  {
+   "t": "01:20",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated a",
+   "text_uk": "Mateus надіслав власну зміну для rindo.pl: сторінка бренду з партнерським посиланням, умови повернень і новий заголовок. Зараз чекаємо на автоматичну перевірку та рев'ю.",
+   "task": 60
+  },
+  {
+   "t": "01:21",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus and his team added a new partner programme for nail care products to rindo.pl. The store page, affiliate link and returns policy are ready and waiting to go live.",
+   "text_uk": "Нова партнерська програма з товарами для нігтів: сторінка магазину з посиланням і правилами повернень",
+   "task": 60
+  },
+  {
+   "t": "01:21",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 21,
+   "text": "Two helpers reviewed a store's returns page and terms in parallel, and Mateus checked the results and added his own reading of the full terms.",
+   "text_uk": "Двоє помічників паралельно читали сторінку повернень і правила магазину, а творець сам перевірив результати та доповнив їх власним прочитанням повних пунктів правил.",
+   "task": 60
+  },
+  {
+   "t": "01:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapped up a work block: a new home improvement store awaits merge, a new title-pattern experiment is running, and results are due October 24 and 26.",
+   "text_uk": "Завершили блок робіт: новий магазин будівельних товарів чекає на злиття. Запустили наступний тест шаблону заголовків, а результати заплановано на 24 і 26 жовтня.",
+   "task": null
+  },
+  {
+   "t": "01:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "01:22",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus pushed a second version of a discount-code page on rindo.pl, adding partner links, return policy details and a clearer title on the codes and returns.",
+   "text_uk": "Mateus оновлює rindo.pl: сторінку магазину з партнерським посиланням, умови повернення з правил і заголовок про стан кодів та повернень.",
+   "task": 60
   }
  ],
- "plan": [],
+ "plan": [
+  {
+   "en": "Setting up a partner store page for an affiliate network, kept off the homepage with no outreach campaign.",
+   "uk": "Setting up a partner store page for an affiliate network, kept off the homepage with no outreach campaign."
+  }
+ ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
@@ -248,14 +316,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -51.66,
+  "week": -51.84,
   "api_budget": 100.0,
-  "api_spent": 74.69,
+  "api_spent": 74.87,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 81.57,
+  "month_costs": 81.75,
   "first_revenue_at": "2026-10-20"
  }
 }
