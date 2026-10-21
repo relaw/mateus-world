@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:40+02:00",
+ "generated_at": "2026-10-21T20:51+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -2067,7 +2067,7 @@
    "t": "18:22",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 153,
+   "dur": 163,
    "text": "The researcher checked the official sites of two home and garden stores. No codes were found, and one store's banner had expired, so both promotion pages are now on watch.",
    "text_uk": "Дослідниця Zoe перевірила офіційні сайти двох магазинів для дому й саду: кодів знижок там немає, а один із банерів уже неактуальний. Сторінки акцій поставлено на моніторинг.",
    "task": 98
@@ -2196,6 +2196,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "20:42",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the team's status after a paused block: no open tasks and nothing to merge. Eleven cohort experiments are waiting for readouts, and the link target list has been cleaned up.",
+   "text_uk": "Огляд після перерви: у команди немає відкритих завдань, а 11 експериментів чекають на результати. Ми впорядкували список посилань і відхилили спамові каталоги.",
+   "task": 97
+  },
+  {
+   "t": "20:42",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
