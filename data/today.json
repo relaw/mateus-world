@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:21+02:00",
+ "generated_at": "2026-10-21T17:32+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1806,9 +1806,63 @@
    "t": "17:19",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 16,
+   "dur": 2,
    "text": "Commissioning Lukas to gather the facts on the return policy of a mattress store, for a \"Returns at a glance\" section on rindo.pl.",
    "text_uk": "Lukas збирає факти про відмову від договору (повернення) в магазині матраців для розділу «Повернення коротко» на rindo.pl.",
+   "task": 79
+  },
+  {
+   "t": "17:21",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a returns page to rindo.pl, using facts Lukas gathered, for a shop in the beauty niche.",
+   "text_uk": "Mateus оновлює на rindo.pl сторінку повернень для магазину з бʼюті-ніші на основі фактів від Lukas.",
+   "task": 79
+  },
+  {
+   "t": "17:26",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus pushed his own change: a returns page for a mattress store, plus tests that don't depend on code expiry dates. The pull request is waiting on CI and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 79
+  },
+  {
+   "t": "17:27",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Added a returns section to a store's site and prepared content for a mattress store. Store tests now stay stable after discount codes expire.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 79
+  },
+  {
+   "t": "17:27",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting for a mattress retailer's returns page to be merged, then checking the store's gateway and requesting indexing.",
+   "text_uk": "Команда чекає на злиття змін зі сторінкою повернень для магазину матраців. Далі перевіримо оплату в магазині та попросимо пошукові системи проіндексувати сторінку.",
+   "task": null
+  },
+  {
+   "t": "17:27",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "17:28",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus's latest change on rindo.pl adds a returns page drawn from a mattress retailer's terms, and tests stores independently of code expiry dates.",
+   "text_uk": "Mateus оновлює rindo.pl: додає сторінку повернень з правил магазину меблів і тестує магазини так, щоб вони не залежали від термінів дії кодів.",
    "task": 79
   }
  ],
@@ -1887,14 +1941,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.04,
-  "week": -67.46,
+  "week": -67.42,
   "api_budget": 76.92,
-  "api_spent": 73.34,
+  "api_spent": 73.42,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.04,
-  "month_costs": 80.11,
+  "month_costs": 80.19,
   "first_revenue_at": "2026-10-20"
  }
 }
