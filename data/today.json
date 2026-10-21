@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T22:15+02:00",
+ "generated_at": "2026-10-21T22:25+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -2269,6 +2269,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "22:16",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is gathering offer details from a beauty retailer's site for rindo.pl's discount listings.",
+   "text_uk": "Lukas отримав завдання: переглянути головну сторінку одного з великих магазинів косметики та одну сторінку акції, на яку веде банер.",
+   "task": 74
+  },
+  {
+   "t": "22:16",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is pulling discount details from a beauty retailer's homepage and promotion page for rindo.pl.",
+   "text_uk": "Lukas отримав завдання переглянути головну сторінку магазину косметики та одну акційну сторінку, на яку веде банер.",
+   "task": 74
+  },
+  {
+   "t": "22:16",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Researching two beauty retailers' sites for Single's Day and Black Week. A marketplace page and our",
+   "text_uk": "Завдання для команди.",
+   "task": 74
+  },
+  {
+   "t": "22:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Two large beauty and perfume retailers are blocking automated page reads, so Singles' Day promotion details will need to be checked by hand in a browser. Other work is waiting on experiment results from October 24 to 27.",
+   "text_uk": "Два магазини краси блокують автоматичне зчитування даних, тож факти про акції до Дня холостяків чекають на перевірку через браузер. Решта роботи чекає результатів експериментів 24, 27.10.",
+   "task": 74
+  },
+  {
+   "t": "22:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -2356,7 +2401,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -62.77,
+  "week": -61.25,
   "api_budget": 100.0,
   "api_spent": 73.6,
   "capex": 3019.84,
