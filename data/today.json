@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:07+02:00",
+ "generated_at": "2026-10-21T17:16+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1752,7 +1752,7 @@
    "t": "17:02",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 20,
+   "dur": 28,
    "text": "Lukas is researching the return policy of a mattress retailer so we can add a short returns summary to rindo.pl.",
    "text_uk": "Лукас готує факти про відмову від договору та повернення товару в магазині матраців для розділу «Повернення коротко» на rindo.pl.",
    "task": 61
@@ -1782,6 +1782,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "17:16",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
