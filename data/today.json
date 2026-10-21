@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T09:30+02:00",
+ "generated_at": "2026-10-21T09:40+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -259,8 +259,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "A major affiliate network has approved rindo.pl for one of its partner programmes.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з магазинів побутових товарів.",
+   "text": "An affiliate network has approved rindo.pl for one of its partner programmes, opening a new source of discount codes for the site.",
+   "text_uk": "Мережа партнерського маркетингу схвалила rindo.pl для участі в партнерській програмі з магазином модного одягу.",
    "task": null
   },
   {
@@ -268,8 +268,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for one of its partner programmes, opening a new source of discount codes for the site.",
-   "text_uk": "Мережа партнерського маркетингу схвалила rindo.pl для участі в партнерській програмі з магазином модного одягу.",
+   "text": "A major affiliate network has approved rindo.pl for one of its partner programmes.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з магазинів побутових товарів.",
    "task": null
   },
   {
@@ -847,9 +847,40 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Starting the day by reviewing system status, 30-day economics, finances and the metrics dashboard.",
+   "text_uk": "Ранок починається з перевірки даних: стан системи, економіка за 30 днів, фінанси та панель метрик.",
+   "task": null
+  },
+  {
+   "t": "09:34",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "Morning report sent: 21 partner stores pass the gate check, with the day's plan kept free of API spend. The main blocker is the browser queue.",
+   "text_uk": "Ранковий звіт за 21.10 надіслано: 21 магазин із партнерськими програмами пройшов перевірку без збоїв, план дня складено без витрат на API, головна перешкода наразі в черзі браузера.",
+   "task": null
+  },
+  {
+   "t": "09:34",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Writing return policy pages for two partner stores in-house, preparing late-October affiliate settlements, and gathering Singles Day facts for 11.11.",
+   "uk": "Плани на 21.10: самостійно готуємо сторінки повернень для двох магазинів, розраховуємо звіти за партнерськими програмами та збираємо факти для Дня холостяка."
+  },
   {
    "en": "Concentrating SEO work on the one marketplace that clears our break-even earnings, and skipping category pages and low-earning Black Friday pages.",
    "uk": "Concentrating SEO work on the one marketplace that clears our break-even earnings, and skipping category pages and low-earning Black Friday pages."
@@ -857,10 +888,6 @@
   {
    "en": "Applying to partner programmes for two fashion and footwear retailers, despite cancellation rates of 25 to 27 percent.",
    "uk": "Подаємо заявки на участь у партнерських програмах двох магазинів взуття та моди, попри високий відсоток скасованих замовлень."
-  },
-  {
-   "en": "Keeping seasonal page addresses year-specific for now. Changing them to evergreen versions will wait until after the experiments are read out and the season ends, with proper redirects in place.",
-   "uk": "Ми не змінюватимемо сезонні адреси rindo.pl без року до сезону 2026, залишаючи формат із роком. Зміну зробимо після результатів тестів і сезону, із переадресацією."
   }
  ],
  "world": {
@@ -920,7 +947,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.02,
-  "week": -71.21,
+  "week": -70.83,
   "api_budget": 76.92,
   "api_spent": 72.89,
   "capex": 2884.97,
