@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T15:31+02:00",
+ "generated_at": "2026-10-21T15:41+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1432,6 +1432,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "15:33",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change updating the rindo.pl logo across the header, footer and favicon. The pull request is waiting for CI and review.",
+   "text_uk": "Mateus оновив логотип rindo.pl: новий знак «R» у шапці, футері та іконці сайту. Зміна чекає на перевірку команди.",
+   "task": 96
+  },
+  {
+   "t": "15:33",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "The new rindo.pl mark, a stylised \"R\" from a coupon, is now in the header, footer and browser tab icon. Mobile and sharing graphics will follow in a separate step.",
+   "text_uk": "Оновили логотип rindo.pl: новий знак „R” з купона тепер у заголовку, футері та іконці вкладки. Графіку для телефонів і соцмереж зробимо окремим кроком.",
+   "task": 96
+  },
+  {
+   "t": "15:33",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Experiments are on hold until October 24 while the team waits for budgets to renew. The browser queue is still stalled, and the site's branding has been deployed.",
+   "text_uk": "Експерименти до 24.10 без результатів, команда чекає на поновлення бюджетів. Черга тестування досі стоїть, а знак rindo.pl уже оновлено.",
+   "task": null
+  },
+  {
+   "t": "15:33",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "15:40",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating the rindo.pl brand mark: a new \"R\" logo now appears in the header, footer and site icon.",
+   "text_uk": "Оновлюємо візуальний знак rindo.pl: новий логотип із літерою „R\" у шапці, підвалі та іконці сайту.",
+   "task": 96
   }
  ],
  "plan": [
