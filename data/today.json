@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T12:47+02:00",
+ "generated_at": "2026-10-21T12:57+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -259,8 +259,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for a partner programme with a spa and wellness brand.",
-   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в партнерській програмі бренду з ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for one of its partner programmes, opening a new source of discount codes for the site.",
+   "text_uk": "Мережа партнерського маркетингу схвалила rindo.pl для участі в партнерській програмі з магазином модного одягу.",
    "task": null
   },
   {
@@ -277,8 +277,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for one of its partner programmes, opening a new source of discount codes for the site.",
-   "text_uk": "Мережа партнерського маркетингу схвалила rindo.pl для участі в партнерській програмі з магазином модного одягу.",
+   "text": "An affiliate network approved rindo.pl for a partner programme with a spa and wellness brand.",
+   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в партнерській програмі бренду з ніші краси.",
    "task": null
   },
   {
@@ -973,6 +973,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "12:51",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating two brand pages so they state up front when no discount code is available. The change is now in review.",
+   "text_uk": "Mateus оновив дві сторінки брендів на rindo.pl: на початку т",
+   "task": 83
+  },
+  {
+   "t": "12:51",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Rolling out a new batch of SEO fixes on store pages: clearer titles and descriptions, plus a control-group experiment to measure results after 5 days.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 83
+  },
+  {
+   "t": "12:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a work block: waiting on experiment readouts from October 24 and on the browser queue to start moving.",
+   "text_uk": "Завершили етап: чекаємо на результати експериментів від 24.10 і на запуск черги в браузері.",
+   "task": null
+  },
+  {
+   "t": "12:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "12:53",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated rindo.pl: a discount code page for two brands now has a clearer title on coupon status and returns, plus a note up front when no code is currently available.",
+   "text_uk": "Mateus оновлює сторінки магазину електроніки та магазину побутової техніки на rindo.pl: нові заголовки і примітка на початку, якщо коду немає.",
+   "task": 83
   }
  ],
  "plan": [
@@ -1046,14 +1091,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.02,
-  "week": -68.65,
+  "week": -68.71,
   "api_budget": 76.92,
-  "api_spent": 72.89,
+  "api_spent": 72.94,
   "capex": 2884.97,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 79.28,
+  "month_costs": 79.33,
   "first_revenue_at": "2026-10-20"
  }
 }
