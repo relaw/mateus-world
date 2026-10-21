@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T04:07+02:00",
+ "generated_at": "2026-10-21T04:17+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -568,6 +568,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "04:12",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a new guide on timing deals from a major online marketplace around its 11.11 and Black Friday 2026 sales. It's waiting on automated checks and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 92
+  },
+  {
+   "t": "04:13",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "A new guide on the 11.11 and Black Friday 2026 sales at a major online marketplace has passed content review and is waiting for release. It was written in response to weak search performance for this topic.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 92
+  },
+  {
+   "t": "04:13",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapped up a check of the new-store discovery process (no changes needed) and got one guide page on the way to rindo.pl.",
+   "text_uk": "Завершено блок: перевірили процес добірки нових знижок із магазинів (без змін). Одна сторінка посібника вже в роботі для rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "04:13",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "04:14",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus's team is writing a seasonal guide for rindo.pl on when and how to shop cheaper during the 11.11 sale and Black Friday 2026, aimed at online marketplace shoppers.",
+   "text_uk": "Mateus готує на rindo.pl посібник про розпродажі 11.11 і Black Friday 2026: коли і як зекономити більше.",
+   "task": 92
   }
  ],
  "plan": [
@@ -641,14 +686,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.02,
-  "week": -71.49,
+  "week": -71.57,
   "api_budget": 76.92,
-  "api_spent": 72.78,
+  "api_spent": 72.86,
   "capex": 2884.97,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 78.79,
+  "month_costs": 78.88,
   "first_revenue_at": "2026-10-20"
  }
 }
