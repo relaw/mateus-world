@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T19:53+02:00",
+ "generated_at": "2026-10-21T20:03+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1896,7 +1896,7 @@
    "t": "17:40",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 148,
+   "dur": 158,
    "text": "Lukas is collecting official coupon rules and return policies for the codes pages. Three new store pages are already indexed by search engines.",
    "text_uk": "Завдання для команди.",
    "task": null
@@ -2067,7 +2067,7 @@
    "t": "18:22",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 105,
+   "dur": 115,
    "text": "The researcher checked the official sites of two home and garden stores. No codes were found, and one store's banner had expired, so both promotion pages are now on watch.",
    "text_uk": "Дослідниця Zoe перевірила офіційні сайти двох магазинів для дому й саду: кодів знижок там немає, а один із банерів уже неактуальний. Сторінки акцій поставлено на моніторинг.",
    "task": 98
@@ -2146,7 +2146,7 @@
   "shops_goal": 40,
   "partners": 21,
   "mails_today": 0,
-  "commissions_today": 1,
+  "commissions_today": 2,
   "today": [
    {
     "t": "01:04",
@@ -2162,6 +2162,10 @@
    },
    {
     "t": "14:03",
+    "kind": "commission"
+   },
+   {
+    "t": "20:03",
     "kind": "commission"
    }
   ]
@@ -2201,14 +2205,14 @@
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
-  "earned": 0.04,
-  "week": -65.73,
+  "earned": 0.06,
+  "week": -65.69,
   "api_budget": 100.0,
   "api_spent": 73.59,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
-  "month_revenue": 0.04,
+  "month_revenue": 0.06,
   "month_costs": 80.38,
   "first_revenue_at": "2026-10-20"
  }
