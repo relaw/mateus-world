@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T00:29+02:00",
+ "generated_at": "2026-10-22T00:33+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -73,6 +73,15 @@
    "text": "Leo finished new PNG and ICO icons and a social preview image built from the updated \"R\" coupon mark. The changes are waiting for review.",
    "text_uk": "Leo завершив іконки та зображення для попереднього перегляду rindo.pl на основі нового знака. Зміни очікують на перевірку.",
    "task": 96
+  },
+  {
+   "t": "00:33",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
@@ -126,7 +135,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -57.15,
+  "week": -54.32,
   "api_budget": 100.0,
   "api_spent": 74.59,
   "capex": 3019.84,
