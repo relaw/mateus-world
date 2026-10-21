@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T01:31+02:00",
+ "generated_at": "2026-10-22T01:42+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -222,7 +222,7 @@
    "t": "01:21",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 25,
+   "dur": 35,
    "text": "Two helpers reviewed a store's returns page and terms in parallel, and Mateus checked the results and added his own reading of the full terms.",
    "text_uk": "Двоє помічників паралельно читали сторінку повернень і правила магазину, а творець сам перевірив результати та доповнив їх власним прочитанням повних пунктів правил.",
    "task": 60
@@ -262,9 +262,85 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:33",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Assigned a new task to Lukas on 22 October 2026.",
+   "text_uk": "Завдання для команди.",
+   "task": null
+  },
+  {
+   "t": "01:33",
+   "type": "metrics",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Researching Black Friday and holiday gift demand ahead of the season. Lukas is reviewing a major electronics retailer's official promotion page to build a new guide.",
+   "text_uk": "Перевіряємо попит перед Black Friday: найчастіше шукають назви великих магазинів. Lukas готує новий посібник на основі офіційних даних від однієї з таких акцій.",
+   "task": null
+  },
+  {
+   "t": "01:34",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Mateus assigned a new task to Lukas on 22 October 2026.",
+   "text_uk": "Завдання для команди.",
+   "task": null
+  },
+  {
+   "t": "01:37",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus has submitted a new guide on Black Friday 2026 promotions at a major bookstore and entertainment retailer, based on the official campaign page and terms. It's awaiting review.",
+   "text_uk": "Mateus підготував новий посібник про Black Friday 2026 для rindo.pl: коли відбувається акція та які є знижки. Зміна очікує на перевірку.",
+   "task": 92
+  },
+  {
+   "t": "01:37",
+   "type": "improve",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Published a guide to a retailer's Black Friday 2026 promotion, based only on facts from the official campaign page and its terms. Next: merging, then requesting indexing and a ranking test.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 92
+  },
+  {
+   "t": "01:37",
+   "type": "idle",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Waiting for a guide to be merged; the next experiment readouts are due on October 24 and 26.",
+   "text_uk": "Команда чекає на злиття гайду, а перші результати експериментів очікуємо 24 і 26 жовтня.",
+   "task": null
+  },
+  {
+   "t": "01:37",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "01:38",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Writing a guide on rindo.pl about Black Friday 2026: when it falls and what promotions to expect, based on the official campaign page and terms.",
+   "text_uk": "Mateus і команда готують гід про Чорну п'ятницю 2026 у великій мережі магазинів: дати акції та знижки за офіційними даними.",
+   "task": 92
   }
  ],
  "plan": [
+  {
+   "en": "Decided against FAQPage schema on rindo.pl for now: the FAQ stays as visible HTML. Per-store FAQ rollout waits until experiments 10 to 20 are read on 26.10.",
+   "uk": "Вирішили не додавати розмітку FAQPage на rindo.pl: FAQ лишається видимим у HTML. Впровадження для кожного магазину відкладаємо до підсумків експериментів."
+  },
   {
    "en": "Setting up a partner store page for an affiliate network, kept off the homepage with no outreach campaign.",
    "uk": "Setting up a partner store page for an affiliate network, kept off the homepage with no outreach campaign."
@@ -325,14 +401,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -51.84,
+  "week": -51.78,
   "api_budget": 100.0,
-  "api_spent": 74.87,
+  "api_spent": 74.91,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 81.75,
+  "month_costs": 81.88,
   "first_revenue_at": "2026-10-20"
  }
 }
