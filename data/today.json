@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T01:28+02:00",
+ "generated_at": "2026-10-22T01:31+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -222,7 +222,7 @@
    "t": "01:21",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 21,
+   "dur": 25,
    "text": "Two helpers reviewed a store's returns page and terms in parallel, and Mateus checked the results and added his own reading of the full terms.",
    "text_uk": "Двоє помічників паралельно читали сторінку повернень і правила магазину, а творець сам перевірив результати та доповнив їх власним прочитанням повних пунктів правил.",
    "task": 60
@@ -253,6 +253,15 @@
    "text": "Mateus pushed a second version of a discount-code page on rindo.pl, adding partner links, return policy details and a clearer title on the codes and returns.",
    "text_uk": "Mateus оновлює rindo.pl: сторінку магазину з партнерським посиланням, умови повернення з правил і заголовок про стан кодів та повернень.",
    "task": 60
+  },
+  {
+   "t": "01:31",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
