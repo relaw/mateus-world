@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T14:43+02:00",
+ "generated_at": "2026-10-21T14:51+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1234,6 +1234,15 @@
    "text": "Mateus updated rindo.pl: two store pages now carry a clearer title about discount code status and returns, with a note up front when no code is available.",
    "text_uk": "Mateus оновлює сторінки двох магазинів на rindo.pl: нові заголовки «код знижки: стан кодів і повернення» та примітка на початку, що коду зараз немає.",
    "task": 83
+  },
+  {
+   "t": "14:51",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -1311,7 +1320,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.04,
-  "week": -68.21,
+  "week": -68.2,
   "api_budget": 76.92,
   "api_spent": 73.0,
   "capex": 2884.97,
