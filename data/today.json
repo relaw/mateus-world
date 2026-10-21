@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T18:01+02:00",
+ "generated_at": "2026-10-21T18:12+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1896,7 +1896,7 @@
    "t": "17:40",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 36,
+   "dur": 47,
    "text": "Lukas is collecting official coupon rules and return policies for the codes pages. Three new store pages are already indexed by search engines.",
    "text_uk": "Завдання для команди.",
    "task": null
@@ -1962,6 +1962,69 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "18:09",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is checking an official electronics brand store for current discount codes or newsletter sign-up offers.",
+   "text_uk": "Lukas перевіряє офіційні сторінки магазинів з електронікою, щоб знайти актуальні промокоди або знижки за підписку на розсилку для rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "18:09",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is checking a home appliance brand's official Polish site for current discount codes and newsletter sign-up offers for rindo.pl.",
+   "text_uk": "Lukas шукає актуальний промокод на офіційному сайті виробника побутової техніки для rindo.pl, зокрема знижку за підписку на розсилку.",
+   "task": null
+  },
+  {
+   "t": "18:09",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is checking official e-book subscription sites for current discount codes and trial offers for rindo.pl.",
+   "text_uk": "Lukas шукає на офіційному сайті сервісу електронних книжок актуальний промокод або пропозицію з пробним періодом для rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "18:09",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team checked a flagged tracking-link error from the store gateway and found it was a false alarm. They also queued reviews of coupon rules and partner programme contacts.",
+   "text_uk": "Команда rindo.pl перевірила повідомлення про помилку у перевірці посилань одного з магазинів. Тест показав, що відстеження працює, тож це був хибний сигнал. Також зібрано правила купонів з партнерських програм.",
+   "task": null
+  },
+  {
+   "t": "18:10",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus and the team checked the official sites of three stores for discount codes. Two block automated reading, so code collection will go through a browser queue instead.",
+   "text_uk": "Команда Mateus перевірила сайти трьох магазинів на коди знижок",
+   "task": null
+  },
+  {
+   "t": "18:10",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Block finished: waiting on browser check results (coupon rules, store offers, programme managers) and a refreshed indexing request limit in the morning.",
+   "text_uk": "Блок робіт завершено. Чекаємо результатів перевірок купонів",
+   "task": null
+  },
+  {
+   "t": "18:10",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
@@ -2040,7 +2103,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.04,
-  "week": -67.48,
+  "week": -67.24,
   "api_budget": 100.0,
   "api_spent": 73.59,
   "capex": 3019.84,
