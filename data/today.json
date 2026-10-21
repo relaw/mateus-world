@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T14:51+02:00",
+ "generated_at": "2026-10-21T15:01+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -259,8 +259,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for a partner programme with a spa and wellness brand.",
-   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в партнерській програмі бренду з ніші краси.",
+   "text": "An affiliate network has approved rindo.pl for one of its partner programmes, opening a new source of discount codes for the site.",
+   "text_uk": "Мережа партнерського маркетингу схвалила rindo.pl для участі в партнерській програмі з магазином модного одягу.",
    "task": null
   },
   {
@@ -277,8 +277,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for one of its partner programmes, opening a new source of discount codes for the site.",
-   "text_uk": "Мережа партнерського маркетингу схвалила rindo.pl для участі в партнерській програмі з магазином модного одягу.",
+   "text": "An affiliate network approved rindo.pl for a partner programme with a spa and wellness brand.",
+   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в партнерській програмі бренду з ніші краси.",
    "task": null
   },
   {
@@ -1243,6 +1243,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:54",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated two discount code pages with clearer titles and an upfront notice when no code is available. The change is now in review.",
+   "text_uk": "Mateus оновив заголовок сторінки про промокоди на rindo.pl і додав на початку вступу примітку про відсутність коду. Змі",
+   "task": 83
+  },
+  {
+   "t": "14:55",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a pull request without merging it. It covered wording changes to a discount-code article, including the title and the opening note about a missing code.",
+   "text_uk": "Mateus закрив без злиття зміну сторін",
+   "task": 83
+  },
+  {
+   "t": "14:56",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated two store pages with clearer titles on code status and returns, plus a notice at the top when no code is available. Awaiting checks and review.",
+   "text_uk": "Mateus оновив дві сторінки з промокодами: змінив заголовок і додав на початку вступу пояснення, що коду немає, за зауваженням Нори. Зміни чекають на перевірку.",
+   "task": 83
+  },
+  {
+   "t": "14:57",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Our store page for a large online marketplace and the 11.11 guide are now indexed by Google. We also rewrote titles and descriptions for two more store pages after editorial feedback on precision, and started another test with a control group.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 83
+  },
+  {
+   "t": "14:57",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a work block. Now waiting for results from the experiments run on 24 to 26 October and for the browser queue to start moving.",
+   "text_uk": "Очікуємо результати експериментів за 24, 26 жовтня та запуску черги в браузері.",
+   "task": null
+  },
+  {
+   "t": "14:57",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "14:58",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating two store pages on rindo.pl: new titles on discount code status and returns, plus a clear notice at the top when no code is available, based on Nora's feedback.",
+   "text_uk": "Mateus оновив сторінку про код знижки на rindo.pl: змінив заголовок на «код знижки: стан кодів і повернення» та додав на початку вступу повідомлення, що коду немає, після зауваження Nora.",
+   "task": 83
   }
  ],
  "plan": [
@@ -1320,14 +1383,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.04,
-  "week": -68.2,
+  "week": -68.12,
   "api_budget": 76.92,
-  "api_spent": 73.0,
+  "api_spent": 73.06,
   "capex": 2884.97,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.04,
-  "month_costs": 79.48,
+  "month_costs": 79.63,
   "first_revenue_at": "2026-10-20"
  }
 }
