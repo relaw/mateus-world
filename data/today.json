@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T16:49+02:00",
+ "generated_at": "2026-10-21T16:56+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1675,6 +1675,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "16:56",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -1753,9 +1762,9 @@
  "state": {
   "earned": 0.04,
   "week": -67.66,
-  "api_budget": 115.38,
+  "api_budget": 76.92,
   "api_spent": 73.23,
-  "capex": 2884.97,
+  "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.04,
