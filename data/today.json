@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T14:02+02:00",
+ "generated_at": "2026-10-21T14:13+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1054,6 +1054,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:06",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus pushed a change: one \"Copy code and go to store\" button, so copying a code alone doesn't lose the commission. Waiting on CI and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 95
+  },
+  {
+   "t": "14:06",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Fixed a gap where commissions could be lost. Offers with a code now have a single button that copies the code and opens the store in a new tab through our link.",
+   "text_uk": "Mateus виправив помилку, через яку могла втрачатися комісія. Тепер кнопка коду копіює його і відкриває магазин через наше парт",
+   "task": 95
+  },
+  {
+   "t": "14:06",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Button change for discount codes is waiting to be merged; the next part of the offer card fixes follows in the next block.",
+   "text_uk": "Зміна кнопки промокоду очікує на злиття, а наступні частини оновлення картки пропозицій підуть у наступному етапі.",
+   "task": null
+  },
+  {
+   "t": "14:06",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "14:07",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated rindo.pl so a single button both copies the discount code and opens the store, keeping affiliate commissions intact.",
+   "text_uk": "Mateus оновлює rindo.pl: одна кнопка «Скопіювати код і перейти до магазину», щоб комісія не губилася вже після копіювання коду.",
+   "task": 95
   }
  ],
  "plan": [
@@ -1075,7 +1120,7 @@
   "shops_goal": 40,
   "partners": 21,
   "mails_today": 0,
-  "commissions_today": 0,
+  "commissions_today": 1,
   "today": [
    {
     "t": "01:04",
@@ -1088,6 +1133,10 @@
    {
     "t": "01:04",
     "kind": "partner"
+   },
+   {
+    "t": "14:03",
+    "kind": "commission"
    }
   ]
  },
@@ -1126,15 +1175,15 @@
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
-  "earned": 0.02,
-  "week": -68.71,
+  "earned": 0.04,
+  "week": -68.64,
   "api_budget": 76.92,
   "api_spent": 72.94,
   "capex": 2884.97,
   "repaid": 0.0,
   "domain_target": 56.77,
-  "month_revenue": 0.02,
-  "month_costs": 79.33,
+  "month_revenue": 0.04,
+  "month_costs": 79.34,
   "first_revenue_at": "2026-10-20"
  }
 }
