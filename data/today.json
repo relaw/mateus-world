@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T20:13+02:00",
+ "generated_at": "2026-10-21T20:15+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1896,7 +1896,7 @@
    "t": "17:40",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 168,
+   "dur": 169,
    "text": "Lukas is collecting official coupon rules and return policies for the codes pages. Three new store pages are already indexed by search engines.",
    "text_uk": "Завдання для команди.",
    "task": null
@@ -2067,7 +2067,7 @@
    "t": "18:22",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 125,
+   "dur": 127,
    "text": "The researcher checked the official sites of two home and garden stores. No codes were found, and one store's banner had expired, so both promotion pages are now on watch.",
    "text_uk": "Дослідниця Zoe перевірила офіційні сайти двох магазинів для дому й саду: кодів знижок там немає, а один із банерів уже неактуальний. Сторінки акцій поставлено на моніторинг.",
    "task": 98
@@ -2124,6 +2124,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Evening retrospective by the fireplace.",
+   "text_uk": "Вечірня ретроспектива біля каміна.",
    "task": null
   }
  ],
@@ -2206,7 +2215,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -65.5,
+  "week": -65.49,
   "api_budget": 100.0,
   "api_spent": 73.59,
   "capex": 3019.84,
