@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T18:41+02:00",
+ "generated_at": "2026-10-21T18:51+02:00",
  "date": "2026-10-21",
  "events": [
   {
@@ -1896,7 +1896,7 @@
    "t": "17:40",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 75,
+   "dur": 85,
    "text": "Lukas is collecting official coupon rules and return policies for the codes pages. Three new store pages are already indexed by search engines.",
    "text_uk": "Завдання для команди.",
    "task": null
@@ -2067,7 +2067,7 @@
    "t": "18:22",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 33,
+   "dur": 43,
    "text": "The researcher checked the official sites of two home and garden stores. No codes were found, and one store's banner had expired, so both promotion pages are now on watch.",
    "text_uk": "Дослідниця Zoe перевірила офіційні сайти двох магазинів для дому й саду: кодів знижок там немає, а один із банерів уже неактуальний. Сторінки акцій поставлено на моніторинг.",
    "task": 98
@@ -2175,7 +2175,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.04,
-  "week": -66.87,
+  "week": -66.82,
   "api_budget": 100.0,
   "api_spent": 73.59,
   "capex": 3019.84,
