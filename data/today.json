@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T18:17+02:00",
+ "generated_at": "2026-10-22T18:28+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -925,8 +925,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
+   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
+   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
    "task": null
   },
   {
@@ -934,8 +934,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
-   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
+   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
    "task": null
   },
   {
@@ -1270,9 +1270,49 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "18:19",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 2,
+   "text": "Zoe is writing seven short Polish FAQ answers for rindo.pl's discount-code pages.",
+   "text_uk": "Zoe пише короткі відповіді польською для FAQ про коди знижок на rindo.pl: для технологічного бренду, кавоварок, е-книг і косметики.",
+   "task": 98
+  },
+  {
+   "t": "18:20",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 23,
+   "text": "Affiliate dashboards are back up, with the partner inbox clear and tracking error-free. Zoe is writing FAQ answers for seven stores without codes.",
+   "text_uk": "Панелі партнерських мереж запрацювали без попереджень і помилок. Zoe пише відповіді для FAQ про промокоди для семи магазинів, де їх ще немає.",
+   "task": 98
+  },
+  {
+   "t": "18:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Finished FAQ answers for seven stores without a discount code. Waiting on experiment results due 26 October, with two store readouts queued.",
+   "text_uk": "Mateus і команда завершили блок: відповіді на FAQ для семи магазинів без промокодів готові та чекають на результати експериментів 26.10.",
+   "task": null
+  },
+  {
+   "t": "18:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Pausing work on one retailer's page for now while other pages take priority.",
+   "uk": "Роботу над сторінкою для мережі гіпермаркетів поки відкладено, тож команда зосереджується на інших завданнях."
+  },
   {
    "en": "Fixing a bug on brand pages where copied discount codes were losing affiliate commissions, while the team verifies codes and terms ahead of 11.11.",
    "uk": "Mateus і команда виправляють картки промокодів на сторінках брендів, щоб не губити партнерські комісії, і перевіряють коди на офіційних сайтах."
@@ -1280,10 +1320,6 @@
   {
    "en": "Decided against FAQPage schema on rindo.pl for now: the FAQ stays as visible HTML. Per-store FAQ rollout waits until experiments 10 to 20 are read on 26.10.",
    "uk": "Вирішили не додавати розмітку FAQPage на rindo.pl: FAQ лишається видимим у HTML. Впровадження для кожного магазину відкладаємо до підсумків експериментів."
-  },
-  {
-   "en": "Setting up a partner store page for an affiliate network, kept off the homepage with no outreach campaign.",
-   "uk": "Setting up a partner store page for an affiliate network, kept off the homepage with no outreach campaign."
   }
  ],
  "world": {
@@ -1349,14 +1385,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -29.1,
+  "week": -29.18,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 82.5,
+  "month_costs": 82.59,
   "first_revenue_at": "2026-10-20"
  }
 }
