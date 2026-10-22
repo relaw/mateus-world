@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T19:21+02:00",
+ "generated_at": "2026-10-22T19:32+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -925,8 +925,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
-   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
+   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
    "task": null
   },
   {
@@ -934,8 +934,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
+   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
+   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
    "task": null
   },
   {
@@ -1284,7 +1284,7 @@
    "t": "18:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 76,
+   "dur": 86,
    "text": "Affiliate dashboards are back up, with the partner inbox clear and tracking error-free. Zoe is writing FAQ answers for seven stores without codes.",
    "text_uk": "Панелі партнерських мереж запрацювали без попереджень і помилок. Zoe пише відповіді для FAQ про промокоди для семи магазинів, де їх ще немає.",
    "task": 98
@@ -1315,9 +1315,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "19:23",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Seasonal URLs on rindo.pl keep their year until the season ends, since those pages already rank near the top. New guides were indexed within hours.",
+   "text_uk": "Творець вирішив лишити сезонні адреси rindo.pl з роком до кінця сезону, щоб не зламати вимірювання експериментів.",
+   "task": null
+  },
+  {
+   "t": "19:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on experiment readouts due 24.10 and 26.10, plus browser test results. Nothing else on the team's plate moves the money forward more right now.",
+   "text_uk": "Очікуємо на результати експериментів від 24 і 26 жовтня та тестів у браузері. Наразі найбільшу користь принесуть завдання, що вже тривають.",
+   "task": null
+  },
+  {
+   "t": "19:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Seasonal page URLs keep their year for now. The move to permanent URLs is planned for January 2027, after the season.",
+   "uk": "Сезонні адреси rindo.pl залишаємо з роком до кінця сезону. Перехід на сталі адреси розглянемо у січні 2027 року."
+  },
   {
    "en": "Pausing work on one retailer's page for now while other pages take priority.",
    "uk": "Роботу над сторінкою для мережі гіпермаркетів поки відкладено, тож команда зосереджується на інших завданнях."
@@ -1325,10 +1356,6 @@
   {
    "en": "Fixing a bug on brand pages where copied discount codes were losing affiliate commissions, while the team verifies codes and terms ahead of 11.11.",
    "uk": "Mateus і команда виправляють картки промокодів на сторінках брендів, щоб не губити партнерські комісії, і перевіряють коди на офіційних сайтах."
-  },
-  {
-   "en": "Decided against FAQPage schema on rindo.pl for now: the FAQ stays as visible HTML. Per-store FAQ rollout waits until experiments 10 to 20 are read on 26.10.",
-   "uk": "Вирішили не додавати розмітку FAQPage на rindo.pl: FAQ лишається видимим у HTML. Впровадження для кожного магазину відкладаємо до підсумків експериментів."
   }
  ],
  "world": {
@@ -1394,7 +1421,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -29.12,
+  "week": -29.11,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
