@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T08:54+02:00",
+ "generated_at": "2026-10-22T09:05+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -600,7 +600,7 @@
    "t": "06:02",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 187,
+   "dur": 60,
    "text": "Mateus reviewed the network signal inbox (skipping outreach and closed programmes) and asked Lukas to check a fashion brand's official pages for codes. The Polish store blocks automated checks, so that step waits for a manual browser check.",
    "text_uk": "Розібрав скриньку сигналів від мереж партнерок (без запитів на дзвінки та закриття програм). Лукас перевіряє офіційні сторінки модного ритейлера на наявність промокодів: польська версія сайту недоступна для автоматичного зчитування, тож дані зніматимуть вручну.",
    "task": 98
