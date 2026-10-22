@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T08:03+02:00",
+ "generated_at": "2026-10-22T08:04+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -600,7 +600,7 @@
    "t": "06:02",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 136,
+   "dur": 137,
    "text": "Mateus reviewed the network signal inbox (skipping outreach and closed programmes) and asked Lukas to check a fashion brand's official pages for codes. The Polish store blocks automated checks, so that step waits for a manual browser check.",
    "text_uk": "Розібрав скриньку сигналів від мереж партнерок (без запитів на дзвінки та закриття програм). Лукас перевіряє офіційні сторінки модного ритейлера на наявність промокодів: польська версія сайту недоступна для автоматичного зчитування, тож дані зніматимуть вручну.",
    "task": 98
@@ -657,6 +657,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "08:04",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
