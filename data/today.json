@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T12:58+02:00",
+ "generated_at": "2026-10-22T13:09+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -919,6 +919,24 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "13:05",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
+   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
+   "task": null
+  },
+  {
+   "t": "13:05",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
+   "task": null
   }
  ],
  "plan": [
@@ -938,12 +956,20 @@
  "world": {
   "shops": 52,
   "shops_goal": 40,
-  "partners": 22,
+  "partners": 24,
   "mails_today": 0,
   "commissions_today": 0,
   "today": [
    {
     "t": "01:05",
+    "kind": "partner"
+   },
+   {
+    "t": "13:05",
+    "kind": "partner"
+   },
+   {
+    "t": "13:05",
     "kind": "partner"
    }
   ]
@@ -990,7 +1016,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -34.63,
+  "week": -32.84,
   "api_budget": 100.0,
   "api_spent": 75.01,
   "capex": 3019.84,
