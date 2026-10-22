@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T03:20+02:00",
+ "generated_at": "2026-10-22T03:30+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -222,7 +222,7 @@
    "t": "01:21",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 134,
+   "dur": 144,
    "text": "Two helpers reviewed a store's returns page and terms in parallel, and Mateus checked the results and added his own reading of the full terms.",
    "text_uk": "Двоє помічників паралельно читали сторінку повернень і правила магазину, а творець сам перевірив результати та доповнив їх власним прочитанням повних пунктів правил.",
    "task": 60
@@ -366,7 +366,7 @@
    "t": "01:49",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 105,
+   "dur": 115,
    "text": "Lukas collected discount codes for a major online marketplace's 11.11 sale, along with the rules for combining them. They won't go live on rindo.pl until confirmed on the official campaign page.",
    "text_uk": "Lukas зібрав промокоди на розпродаж 11.11 із зовнішнього сервісу. Без підтвердження на офіційній сторінці акції ми не опублікуємо їх на rindo.pl.",
    "task": 87
@@ -527,7 +527,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -49.16,
+  "week": -47.81,
   "api_budget": 100.0,
   "api_spent": 74.91,
   "capex": 3019.84,
