@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T17:26+02:00",
+ "generated_at": "2026-10-22T17:36+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -925,8 +925,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
-   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
+   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
    "task": null
   },
   {
@@ -934,8 +934,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
+   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
+   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
    "task": null
   },
   {
@@ -1234,6 +1234,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "17:27",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Removed two September codes from a mattress retailer that a network still listed as valid. Shifting to official store discounts over partner-manager codes.",
+   "text_uk": "Mateus вимкнув два вересневі промокоди, що досі показувалися як чинні. Замість кодів від менеджерів програм беремо офіційні знижки зі сайтів магазинів.",
+   "task": null
+  },
+  {
+   "t": "17:27",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on results from two experiments due October 24 and 26, plus a renewed reader limit. Seasonal guides go out tomorrow morning.",
+   "text_uk": "Чекаємо на результати експериментів 24 і 26 жовтня та поновлення ліміту сервісу для читання сторінок. Завтра вранці: нові сезонні посібники.",
+   "task": null
+  },
+  {
+   "t": "17:27",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1313,7 +1340,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -29.35,
+  "week": -29.33,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
