@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T09:30+02:00",
+ "generated_at": "2026-10-22T09:39+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -721,9 +721,49 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:31",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Morning data review: search impressions up to 285 from 117 a week earlier, and average position improving. Affiliate network connections are working again after a temporary error.",
+   "text_uk": "Ранковий огляд даних rindo.pl: покази в Google зросли, позиція покращилась, 19 експериментів триває, зв'язок із партнерськими мережами відновлено.",
+   "task": null
+  },
+  {
+   "t": "09:32",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "Sent the morning report for October 22 to the team: system status, 30-day economics, experiments, budget, and the plan for the day.",
+   "text_uk": "Щоранку надсилаємо команді короткий звіт: стан системи, економіка за 30 днів, результати експериментів, бюджет і план на день.",
+   "task": null
+  },
+  {
+   "t": "09:32",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "09:39",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Fixing a bug on brand pages where copied discount codes were losing affiliate commissions, while the team verifies codes and terms ahead of 11.11.",
+   "uk": "Mateus і команда виправляють картки промокодів на сторінках брендів, щоб не губити партнерські комісії, і перевіряють коди на офіційних сайтах."
+  },
   {
    "en": "Decided against FAQPage schema on rindo.pl for now: the FAQ stays as visible HTML. Per-store FAQ rollout waits until experiments 10 to 20 are read on 26.10.",
    "uk": "Вирішили не додавати розмітку FAQPage на rindo.pl: FAQ лишається видимим у HTML. Впровадження для кожного магазину відкладаємо до підсумків експериментів."
@@ -788,7 +828,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -43.47,
+  "week": -43.44,
   "api_budget": 100.0,
   "api_spent": 74.92,
   "capex": 3019.84,
