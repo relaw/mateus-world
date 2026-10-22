@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T21:19+02:00",
+ "generated_at": "2026-10-22T21:29+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -925,8 +925,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
+   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
+   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
    "task": null
   },
   {
@@ -934,8 +934,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
-   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
+   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
    "task": null
   },
   {
@@ -1284,7 +1284,7 @@
    "t": "18:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 193,
+   "dur": 60,
    "text": "Affiliate dashboards are back up, with the partner inbox clear and tracking error-free. Zoe is writing FAQ answers for seven stores without codes.",
    "text_uk": "Панелі партнерських мереж запрацювали без попереджень і помилок. Zoe пише відповіді для FAQ про промокоди для семи магазинів, де їх ще немає.",
    "task": 98
@@ -1569,12 +1569,48 @@
    "task": 99
   },
   {
+   "t": "21:18",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "A new guide to beauty advent calendars has passed quality checks and is awaiting publication on rindo.pl, based on product lists from two retailers.",
+   "text_uk": "Матеріал про адвент-календарі з косметикою на rindo.pl пройшов перевірку якості і очікує публікації. Дані взято з пропозицій двох магазинів.",
+   "task": 99
+  },
+  {
+   "t": "21:18",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on a guide to be deployed; next experiment readings are due on 24.10 and 26.10.",
+   "text_uk": "Чекаємо на впровадження посібника для rindo.pl. Наступні результати експериментів очікуємо 24 і 26 жовтня.",
+   "task": null
+  },
+  {
    "t": "21:19",
    "type": "idle",
    "agent": null,
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "21:19",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Writing a guide on 2026 beauty advent calendars for rindo.pl, including a bookstore chain's terms and a beauty brand's offers.",
+   "text_uk": "Тепер на rindo.pl Mateus з командою готує посібник про адвентові календарі з косметикою на 2026 рік.",
+   "task": 99
+  },
+  {
+   "t": "21:29",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
@@ -1661,7 +1697,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -26.18,
+  "week": -26.16,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
