@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T00:48+02:00",
+ "generated_at": "2026-10-23T01:00+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -10,6 +10,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:53",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added a guide to how coupons and codes work at a large online marketplace, based on its official help pages. It's now awaiting review.",
+   "text_uk": "Mateus оновив розділ про купони та коди за офіційною довідкою одного з великих маркетплейсів. Зміна чекає на перевірки та перегляд.",
+   "task": 97
+  },
+  {
+   "t": "00:53",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Added an explainer on how coupons and codes work to a marketplace store page, based on official store help. an affiliate network will be tested against a control group.",
+   "text_uk": "Готуємо до публікації абзац про роботу купонів і кодів для сторінки великого маркетплейсу. Вплив міряємо через контрольну групу.",
+   "task": 97
+  },
+  {
+   "t": "00:53",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Health and economics check: no alarms, and key store and guide pages are now indexed by Google. Revenue is still small, so search traffic stays the priority.",
+   "text_uk": "Mateus і команда перевіряють економіку та стан системи: тривог немає, ключові сторінки вже є в пошуковій видачі. Фокус лишається на трафіку з пошуку.",
+   "task": null
+  },
+  {
+   "t": "00:53",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on experiment readouts due October 24 and 26 and a browser queue before the next steps.",
+   "text_uk": "Решта робіт чекає результатів експериментів від 24 і 26 жовтня та черги браузера. До того часу нічого нового не потребує уваги.",
+   "task": null
+  },
+  {
+   "t": "00:53",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:55",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a \"how coupons work\" section to rindo.pl, based on the official help pages of a large online marketplace.",
+   "text_uk": "Mateus оновив rindo.pl: додав розділ про те, як працюють купони та промокоди, на основі офіційної довідки одного великого маркетплейсу.",
+   "task": 97
   }
  ],
  "plan": [],
@@ -69,7 +123,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -25.67,
+  "week": -25.65,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
