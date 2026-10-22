@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T01:03+02:00",
+ "generated_at": "2026-10-23T01:14+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -73,16 +73,79 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:04",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 25,
+   "text": "Assigning Lukas a task for today's work on rindo.pl.",
+   "text_uk": "Lukas отримав нове завдання на сьогодні, 23 жовтня 2026 року.",
+   "task": null
+  },
+  {
+   "t": "01:05",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Good news: rindo.pl has been accepted into a partner programme with a pet supplies store.",
+   "text_uk": "Команда rindo.pl отримала схвалення від мережі афілійованого маркетингу для участі в партнерській програмі інтернет-зоомагазину.",
+   "task": null
+  },
+  {
+   "t": "01:05",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Good news: rindo.pl has been accepted into a partner programme for a well-known home appliance brand.",
+   "text_uk": "Сайт rindo.pl прийнято до партнерської програми бренду побутової техніки через одну з партнерських мереж.",
+   "task": null
+  },
+  {
+   "t": "01:06",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing 22 experiments in progress, none ready before the 24th. Checked 30 days of revenue and started researching holiday gift card offers.",
+   "text_uk": "Mateus переглядає 22 експерименти rindo.pl: результати після 24 жовтня. Виміряли дохід за 30 днів і замовили аналіз подарункових карток до сезону подарунків.",
+   "task": null
+  },
+  {
+   "t": "01:06",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on experiment readings due October 24 and 26, plus a browser task result.",
+   "text_uk": "Очікуємо результатів експериментів від 24 та 26 жовтня і результату завдання в браузері.",
+   "task": null
+  },
+  {
+   "t": "01:06",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [],
  "world": {
   "shops": 52,
   "shops_goal": 40,
-  "partners": 24,
+  "partners": 26,
   "mails_today": 0,
   "commissions_today": 0,
-  "today": []
+  "today": [
+   {
+    "t": "01:05",
+    "kind": "partner"
+   },
+   {
+    "t": "01:05",
+    "kind": "partner"
+   }
+  ]
  },
  "lessons": [
   {
