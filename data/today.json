@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T14:14+02:00",
+ "generated_at": "2026-10-22T14:24+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -964,6 +964,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:15",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 3,
+   "text": "Lukas is reviewing a marketplace's returns and complaints policy to inform how we handle customer questions on rindo.pl.",
+   "text_uk": "Lukas вивчає правила повернень і рекламацій на одному з великих торгових майданчиків.",
+   "task": 60
+  },
+  {
+   "t": "14:15",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 3,
+   "text": "Lukas is reviewing a major Polish marketplace's help pages on coupons and discount programmes to see how they work.",
+   "text_uk": "Лукас досліджує довідкову сторінку великого польського маркетплейсу про купони, бонусні бали та знижкові програми.",
+   "task": 60
+  },
+  {
+   "t": "14:20",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change adding a new marketplace store, a brand with an affiliate link, and a returns page. It is now waiting for automated checks and review.",
+   "text_uk": "Mateus надіслав зміну: нова співпраця з маркетплейсом, додано бренд із партнерським посиланням і сторінку повернень. Очікує на автоматичні тести та перевірку.",
+   "task": 60
+  },
+  {
+   "t": "14:21",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 17,
+   "text": "Lukas is reviewing a large retailer's online shopping terms, focusing on withdrawal, complaints and returns.",
+   "text_uk": "Лукас переглядає умови онлайн-покупок одного з великих роздрібних ритейлерів, щоб перевірити правила відмови від договору, рекламацій і повернень.",
+   "task": 60
+  },
+  {
+   "t": "14:22",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added a new partner brand to rindo.pl, along with a returns page based on a marketplace's policy.",
+   "text_uk": "Додаємо на rindo.pl нову марку з партнерським посиланням і сторінку повернень, побудовану на правилах торгового майданчика, з яким ми співпрацюємо.",
+   "task": 60
   }
  ],
  "plan": [
@@ -1043,14 +1088,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -32.63,
+  "week": -31.94,
   "api_budget": 100.0,
-  "api_spent": 75.01,
+  "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 82.18,
+  "month_costs": 82.31,
   "first_revenue_at": "2026-10-20"
  }
 }
