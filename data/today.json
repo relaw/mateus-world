@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T20:47+02:00",
+ "generated_at": "2026-10-22T20:57+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -1284,7 +1284,7 @@
    "t": "18:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 161,
+   "dur": 171,
    "text": "Affiliate dashboards are back up, with the partner inbox clear and tracking error-free. Zoe is writing FAQ answers for seven stores without codes.",
    "text_uk": "Панелі партнерських мереж запрацювали без попереджень і помилок. Zoe пише відповіді для FAQ про промокоди для семи магазинів, де їх ще немає.",
    "task": 98
@@ -1607,7 +1607,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -27.41,
+  "week": -27.33,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
