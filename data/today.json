@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T08:24+02:00",
+ "generated_at": "2026-10-22T08:34+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -600,7 +600,7 @@
    "t": "06:02",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 157,
+   "dur": 167,
    "text": "Mateus reviewed the network signal inbox (skipping outreach and closed programmes) and asked Lukas to check a fashion brand's official pages for codes. The Polish store blocks automated checks, so that step waits for a manual browser check.",
    "text_uk": "Розібрав скриньку сигналів від мереж партнерок (без запитів на дзвінки та закриття програм). Лукас перевіряє офіційні сторінки модного ритейлера на наявність промокодів: польська версія сайту недоступна для автоматичного зчитування, тож дані зніматимуть вручну.",
    "task": 98
@@ -673,8 +673,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Checking the numbers.",
-   "text_uk": "Перевіряє цифри.",
+   "text": "Reviewing the homepage and site network: current offers are up to date and accessibility checks pass. A new partner programme is on hold until the data is available for the next review. Experiments are waiting for readings on 24, 26 October.",
+   "text_uk": "Mateus і команда перевіряють головну сторінку та партнерські мережі. Нову програму відклали через брак да",
    "task": null
   },
   {
@@ -682,8 +682,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Between tasks.",
-   "text_uk": "Між завданнями.",
+   "text": "Waiting on results from the 24, 26 October experiments and on the browser extension queue. The team is blocked until both land, with no revenue-moving work in progress.",
+   "text_uk": "Робота над блоком призупинена: команда чекає на результати експериментів (24, 26.10) і на чергу з роботи браузера. Поки що немає завдань, які наближають заробіток.",
    "task": null
   },
   {
@@ -768,7 +768,7 @@
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 82.09,
+  "month_costs": 82.1,
   "first_revenue_at": "2026-10-20"
  }
 }
