@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T10:05+02:00",
+ "generated_at": "2026-10-22T10:15+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -829,6 +829,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "10:06",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Assigned a new task to Lukas today.",
+   "text_uk": "Сьогодні, 22.10.2026, Lukas отримав нове завдання для rindo.pl.",
+   "task": 92
+  },
+  {
+   "t": "10:07",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Requesting re-indexing of our Black Friday guide and adding its target phrases to rank tracking. No experiment results yet; waiting on the next crawl window.",
+   "text_uk": "Mateus і його команда подали ще один запит на індексацію гіда до Black Friday та додали ключові фрази до моніторингу позицій. Результатів експерименту поки немає.",
+   "task": null
+  },
+  {
+   "t": "10:07",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -900,7 +927,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -43.29,
+  "week": -42.55,
   "api_budget": 100.0,
   "api_spent": 75.0,
   "capex": 3019.84,
