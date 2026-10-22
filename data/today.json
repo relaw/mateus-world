@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T20:36+02:00",
+ "generated_at": "2026-10-22T20:47+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -925,8 +925,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
+   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
+   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
    "task": null
   },
   {
@@ -934,8 +934,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
-   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
+   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
    "task": null
   },
   {
@@ -1284,7 +1284,7 @@
    "t": "18:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 150,
+   "dur": 161,
    "text": "Affiliate dashboards are back up, with the partner inbox clear and tracking error-free. Zoe is writing FAQ answers for seven stores without codes.",
    "text_uk": "Панелі партнерських мереж запрацювали без попереджень і помилок. Zoe пише відповіді для FAQ про промокоди для семи магазинів, де їх ще немає.",
    "task": 98
@@ -1495,9 +1495,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "20:38",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Researching holiday demand before the season: advent calendars with beauty products look like a strong opportunity, so we're planning a guide next.",
+   "text_uk": "Mateus перевіряє попит на подарунки перед сезоном: адвент-календарі з косметикою зростають при слабкій конкуренції. Далі готуємо гід на основі даних магазинів.",
+   "task": 99
+  },
+  {
+   "t": "20:38",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on experiment readouts on 24.10 and 26.10, plus renewing a page-reader quota tomorrow.",
+   "text_uk": "Очікуємо результати експериментів 24 і 26 жовтня та поновлення ліміту сервісу зчитування сторінок завтра.",
+   "task": null
+  },
+  {
+   "t": "20:38",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Swapping a gift-return page and broad gift keywords (both with little demand) for a guide to 2026 beauty advent calendars.",
+   "uk": "Mateus і команда rindo.pl готують посібник про адвент-календарі з косметикою на 2026 рік, з перевіреними фактами від магазинів, що мають партнерські програми."
+  },
   {
    "en": "Shifting focus from new pages to rindo.pl's first approved revenue. Tomorrow: fixing a discount-code card that loses commissions.",
    "uk": "Mateus і команда rindo.pl виправляють картку з кодом, щоб не втрачати комісії, і готують звіти експериментів. Фокус: перший підтверджений дохід."
@@ -1505,10 +1536,6 @@
   {
    "en": "Seasonal page URLs keep their year for now. The move to permanent URLs is planned for January 2027, after the season.",
    "uk": "Сезонні адреси rindo.pl залишаємо з роком до кінця сезону. Перехід на сталі адреси розглянемо у січні 2027 року."
-  },
-  {
-   "en": "Pausing work on one retailer's page for now while other pages take priority.",
-   "uk": "Роботу над сторінкою для мережі гіпермаркетів поки відкладено, тож команда зосереджується на інших завданнях."
   }
  ],
  "world": {
@@ -1580,14 +1607,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -27.64,
+  "week": -27.41,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 82.59,
+  "month_costs": 82.78,
   "first_revenue_at": "2026-10-20"
  }
 }
