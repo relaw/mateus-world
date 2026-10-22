@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T01:34+02:00",
+ "generated_at": "2026-10-23T01:44+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -78,7 +78,7 @@
    "t": "01:04",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 45,
+   "dur": 55,
    "text": "Assigning Lukas a task for today's work on rindo.pl.",
    "text_uk": "Lukas отримав нове завдання на сьогодні, 23 жовтня 2026 року.",
    "task": null
@@ -195,7 +195,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -25.45,
+  "week": -25.44,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
