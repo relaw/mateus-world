@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T15:36+02:00",
+ "generated_at": "2026-10-22T15:46+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -1080,6 +1080,33 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "15:38",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "A marketplace page and an 11.11 sale guide are now showing up in Google. We also have a lead on 11.11 codes from a third-party site, which we'll confirm at the source before publishing.",
+   "text_uk": "Перевірено індексацію rindo.pl: сторінка про онлайн-маркетплейс і посібник до 11.11 вже в Google. Знайдено слід щодо промокодів на розпродаж 11.11, який чекає підтвердження від джерела.",
+   "task": 87
+  },
+  {
+   "t": "15:38",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on experiment readings from October 24 and 26, and on a page-reader quota reset. The browser queue is still stalled.",
+   "text_uk": "Очікуємо результати експериментів (24.10 і 26.10) і скидання ліміту сканера сторінок. Черга браузера поки що стоїть.",
+   "task": null
+  },
+  {
+   "t": "15:38",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
