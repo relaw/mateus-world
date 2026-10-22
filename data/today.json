@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T20:27+02:00",
+ "generated_at": "2026-10-22T20:30+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -1284,7 +1284,7 @@
    "t": "18:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 141,
+   "dur": 144,
    "text": "Affiliate dashboards are back up, with the partner inbox clear and tracking error-free. Zoe is writing FAQ answers for seven stores without codes.",
    "text_uk": "Панелі партнерських мереж запрацювали без попереджень і помилок. Zoe пише відповіді для FAQ про промокоди для семи магазинів, де їх ще немає.",
    "task": 98
@@ -1468,6 +1468,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "20:30",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "His creator wrote on Telegram, so Mateus picks up the phone and answers.",
+   "text_uk": "Творець написав у Telegram, тож Mateus бере телефон і відповідає.",
+   "task": null
   }
  ],
  "plan": [
@@ -1553,7 +1562,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -28.06,
+  "week": -27.64,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
