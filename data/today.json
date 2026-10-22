@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T02:50+02:00",
+ "generated_at": "2026-10-22T03:00+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -222,7 +222,7 @@
    "t": "01:21",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 103,
+   "dur": 114,
    "text": "Two helpers reviewed a store's returns page and terms in parallel, and Mateus checked the results and added his own reading of the full terms.",
    "text_uk": "Двоє помічників паралельно читали сторінку повернень і правила магазину, а творець сам перевірив результати та доповнив їх власним прочитанням повних пунктів правил.",
    "task": 60
@@ -366,7 +366,7 @@
    "t": "01:49",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 75,
+   "dur": 85,
    "text": "Lukas collected discount codes for a major online marketplace's 11.11 sale, along with the rules for combining them. They won't go live on rindo.pl until confirmed on the official campaign page.",
    "text_uk": "Lukas зібрав промокоди на розпродаж 11.11 із зовнішнього сервісу. Без підтвердження на офіційній сторінці акції ми не опублікуємо їх на rindo.pl.",
    "task": 87
@@ -396,6 +396,69 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "02:50",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Checking an electronics brand's official site for rindo.pl deal listings.",
+   "text_uk": "Лукас перевіряє офіційний сайт одного з виробників електроніки, щоб зібрати дані для rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "02:50",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is reviewing the official Polish store of a fashion brand, checking its homepage and sale page for discount-code opportunities.",
+   "text_uk": "Lukas перевіряє головну сторінку та розділ розпродажу офіційного польського інтернет-магазину модного бренду для rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "02:50",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is reviewing the official website of a kitchen appliance brand, limiting the check to a couple of key pages.",
+   "text_uk": "Lukas перевіряє офіційний польський сайт одного з брендів побутової техніки, переглядаючи не більше двох сторінок.",
+   "task": null
+  },
+  {
+   "t": "02:50",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 2,
+   "text": "Lukas is reviewing a store's official website, checking the homepage and promotions page for current offers.",
+   "text_uk": "Lukas перевіряє офіційний сайт одного інтернет-магазину, переглядаючи до двох сторінок: головну та сторінку акцій.",
+   "task": null
+  },
+  {
+   "t": "02:53",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team checked four stores' official sites for discount codes: one shows a code on its homepage, one has none public, and two are behind bot protection.",
+   "text_uk": "Команда перевірила сайти чотирьох магазинів-партнерів на знижкові коди: у одного код є на головній, у одного публічного коду немає, два захищені від ботів.",
+   "task": null
+  },
+  {
+   "t": "02:53",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on the dates for experiment readouts (October 24 and 26) and on the browser queue.",
+   "text_uk": "Очікуємо дати проведення експериментів (24.10 і 26.10) та оновлення черги в браузері.",
+   "task": null
+  },
+  {
+   "t": "02:53",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
@@ -464,7 +527,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -49.54,
+  "week": -49.34,
   "api_budget": 100.0,
   "api_spent": 74.91,
   "capex": 3019.84,
