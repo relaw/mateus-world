@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T14:35+02:00",
+ "generated_at": "2026-10-22T14:45+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -925,8 +925,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
+   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
+   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
    "task": null
   },
   {
@@ -934,8 +934,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for an affiliate partner programme with a major Polish marketplace.",
-   "text_uk": "Мережа партнерських програм партнерська мережа схвалила rindo.pl для участі в програмі одного з великих польських маркетплейсів.",
+   "text": "An affiliate network accepted rindo.pl into a partner programme for a large French retail chain's Polish store.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в партнерській програмі великого роздрібного магазину, тож можна запускати кампанію.",
    "task": null
   },
   {
@@ -1045,6 +1045,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:36",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Affiliate network connectors are back after a brief outage. Outdated offers from one store were synced again, so we disabled them and flagged a core fix.",
+   "text_uk": "Покращує роботу команди.",
+   "task": null
+  },
+  {
+   "t": "14:36",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on the results of the October 24-27 experiments and the browser queue before assigning any new work to the team.",
+   "text_uk": "Чекаємо на результати експериментів (24, 27.10) і черги в браузері. Поки що нових завдань для команди немає.",
+   "task": null
+  },
+  {
+   "t": "14:36",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1124,14 +1151,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -31.58,
+  "week": -31.51,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 82.31,
+  "month_costs": 82.32,
   "first_revenue_at": "2026-10-20"
  }
 }
