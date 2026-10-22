@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T23:13+02:00",
+ "generated_at": "2026-10-22T23:24+02:00",
  "date": "2026-10-22",
  "events": [
   {
@@ -1674,6 +1674,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "23:14",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "20 experiments are running, none with results yet. Our best earning bet, a marketplace page, is already indexed by Google, and we're waiting for first data.",
+   "text_uk": "20 експериментів тривають, жоден ще не дає даних. Сторінка про великий онлайн-маркетплейс, наш найперспективніший напрям, уже в індексі Google. Чекаємо перших результатів.",
+   "task": null
+  },
+  {
+   "t": "23:14",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
