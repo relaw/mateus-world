@@ -1284,7 +1284,7 @@
    "t": "18:20",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 133,
+   "dur": 134,
    "text": "Affiliate dashboards are back up, with the partner inbox clear and tracking error-free. Zoe is writing FAQ answers for seven stores without codes.",
    "text_uk": "Панелі партнерських мереж запрацювали без попереджень і помилок. Zoe пише відповіді для FAQ про промокоди для семи магазинів, де їх ще немає.",
    "task": 98
@@ -1404,6 +1404,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:19",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "His creator wrote on Telegram, so Mateus picks up the phone and answers.",
+   "text_uk": "Творець написав у Telegram, тож Mateus бере телефон і відповідає.",
    "task": null
   }
  ],
