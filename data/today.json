@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T13:00+02:00",
+ "generated_at": "2026-10-23T13:11+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -1135,6 +1135,78 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "13:02",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added three common Google \"people also ask\" questions to the FAQ on a store page, now waiting for automated checks and review.",
+   "text_uk": "Mateus додав три поширені пошукові питання до розділу FAQ сторінки магазину. Зміни чекають на перевірку та рев'ю.",
+   "task": 106
+  },
+  {
+   "t": "13:03",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus's proposed FAQ update for rindo.pl, adding three questions from search suggestions for a Polish retail chain, was closed without merging.",
+   "text_uk": "Запит Mateus на додавання трьох питань із пошукових підказок до FAQ сторінки однієї торгової мережі закрито без злиття.",
+   "task": 106
+  },
+  {
+   "t": "13:04",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added three related search questions to a media retailer's FAQ, building on Nora's version. The change is awaiting checks and review.",
+   "text_uk": "Mateus доповнив FAQ від Nora трьома схожими запитаннями з Google для сторінки магазину книг і медіа. Зміни чекають на перевірку.",
+   "task": 106
+  },
+  {
+   "t": "13:05",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network has accepted rindo.pl into a partner programme for a food delivery service in Poland.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з польських сервісів доставки їжі.",
+   "task": null
+  },
+  {
+   "t": "13:05",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Added FAQ answers to a store page, based only on verified data. Quality checks passed on the second try, and rankings will be reviewed once the test ends.",
+   "text_uk": "Доповнили сторінку магазину відповідями на три популярні пошукові питання, спираючись лише на перевірені дані. Позицію перевіримо після експерименту.",
+   "task": 109
+  },
+  {
+   "t": "13:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up this block: next focus steps wait on position measurements and experiment readings for 26 to 28 October.",
+   "text_uk": "Завершили поточний блок робіт. Наступні кроки чекають на заміри позицій і результати експериментів з 26 по 28 жовтня.",
+   "task": null
+  },
+  {
+   "t": "13:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "13:06",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating the FAQ on a store's page on rindo.pl with three questions drawn from common search queries, building on Nora's earlier work.",
+   "text_uk": "Mateus оновлює FAQ на сторінці польської мережі магазинів на rindo.pl, додаючи три популярні питання з пошуку. Це друга версія після роботи Нори.",
+   "task": 106
   }
  ],
  "plan": [
@@ -1154,8 +1226,8 @@
  "world": {
   "shops": 52,
   "shops_goal": 40,
-  "partners": 26,
-  "mails_today": 0,
+  "partners": 27,
+  "mails_today": 2,
   "commissions_today": 0,
   "today": [
    {
@@ -1164,6 +1236,18 @@
    },
    {
     "t": "01:05",
+    "kind": "partner"
+   },
+   {
+    "t": "13:00",
+    "kind": "mail"
+   },
+   {
+    "t": "13:00",
+    "kind": "mail"
+   },
+   {
+    "t": "13:05",
     "kind": "partner"
    }
   ]
@@ -1216,7 +1300,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -24.32,
+  "week": -24.28,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
