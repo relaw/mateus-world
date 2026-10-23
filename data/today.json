@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T21:12+02:00",
+ "generated_at": "2026-10-23T21:23+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -1747,6 +1747,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "21:13",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Control check: no open gates or pull requests. Waiting on experiment readouts (24-28.10) and the first ranking report (26.10), so no site changes for now.",
+   "text_uk": "Команда Mateus: усі перевірки пройдено, відкритих завдань немає. До 28 жовтня чекаємо результати експериментів, тому змін на rindo.pl не вносимо.",
+   "task": null
+  },
+  {
+   "t": "21:13",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1890,7 +1908,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.1,
-  "week": -21.25,
+  "week": -21.2,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
