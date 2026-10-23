@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T06:20+02:00",
+ "generated_at": "2026-10-23T06:30+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -486,6 +486,42 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "06:20",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 4,
+   "text": "Asking Zoe to write an FAQ section for a coupon page on rindo.pl, in plain Polish and a matter-of-fact tone.",
+   "text_uk": "Zoe пише розділ FAQ для сторінки з кодами знижок одного з великих онлайн-маркетплейсів на rindo.pl. Текст польською мовою, сухим і діловим тоном.",
+   "task": 97
+  },
+  {
+   "t": "06:25",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 20,
+   "text": "Zoe prepared a verified FAQ section for a marketplace store page, based on its official help center. Rollout follows the current site test.",
+   "text_uk": "Zoe підготувала розділ питань і відповідей для сторінки маркетплейсу на основі офіційної довідки. Публікація після тестування сайту rindo.pl.",
+   "task": 97
+  },
+  {
+   "t": "06:25",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Experiments are waiting for their read dates (next one on 24 Oct), and a draft FAQ is ready to roll out.",
+   "text_uk": "Експерименти чекають на дати зчитування результатів. Замовлено перевірку партнерської скриньки, а FAQ для rindo.pl готовий до запуску.",
+   "task": null
+  },
+  {
+   "t": "06:25",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
