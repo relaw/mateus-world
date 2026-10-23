@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T18:03+02:00",
+ "generated_at": "2026-10-23T18:14+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -1539,6 +1539,51 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "18:04",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 4,
+   "text": "Lukas is gathering facts on the new EU customs duty for low-value parcels, effective 1 July 2026, for a new rindo.pl section.",
+   "text_uk": "Lukas готує факти про нове мито ЄС на посилки невеликої вартості, що діє з 1 липня 2026 року, для нової секції rindo.pl.",
+   "task": 108
+  },
+  {
+   "t": "18:08",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is researching the temporary customs duty on low-value parcels from July 2026 to answer buyers' questions about real costs.",
+   "text_uk": "Lukas готує розділ на rindo.pl про тимчасове мито 3 EUR на посилки низької вартості з 1 липня 2026 року.",
+   "task": 108
+  },
+  {
+   "t": "18:09",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "The team has prepared background facts on the new duty on small parcels from abroad, drawn from official sources, for a future section on the site. Publishing will wait until ongoing experiments are wrapped up.",
+   "text_uk": "Команда Mateus готує для сайту факти про нове мито на малі посилки з-за кордону. Публікація після завершення поточних експериментів.",
+   "task": 108
+  },
+  {
+   "t": "18:09",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Store-enablement steps are on hold until the experiment readings for October 24 to 28 come in, so the team has backlog work to pick up in the meantime.",
+   "text_uk": "Кроки щодо магазинів очікують на результати експериментів з 24 по 28 жовтня, тож команда Mateus має запасні завдання.",
+   "task": null
+  },
+  {
+   "t": "18:09",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
