@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T03:44+02:00",
+ "generated_at": "2026-10-23T03:54+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -361,6 +361,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "03:46",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Black Friday guides for two brands are live on rindo.pl. We checked demand for the other partner stores and will hold off on more for now.",
+   "text_uk": "Mateus опублікував гайди до Black Friday, надіслав запити на індексацію. Попит на інші магазини поки малий, тож нових гайдів не пишемо.",
+   "task": null
+  },
+  {
+   "t": "03:46",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on experiment readouts: two tomorrow (Oct 24) and ten on Oct 26, with nothing to settle before then.",
+   "text_uk": "Mateus і команда чекають на результати експериментів: два 24 жовтня та десять 26 жовтня. До того часу звіряти нічого не потрібно.",
+   "task": null
+  },
+  {
+   "t": "03:46",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -434,14 +461,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -25.04,
+  "week": -25.07,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 83.05,
+  "month_costs": 83.23,
   "first_revenue_at": "2026-10-20"
  }
 }
