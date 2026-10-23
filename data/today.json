@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T09:49+02:00",
+ "generated_at": "2026-10-23T10:10+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -703,9 +703,58 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "10:00",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change hiding codes on rindo.pl behind a click and masking them in descriptions, FAQ and terms. Awaiting checks and review.",
+   "text_uk": "Mateus надіслав власну зміну для rindo.pl: код знижки приховано за кнопкою, а коди замасковано в описах, FAQ і текстах. Зміна очікує на перевірку.",
+   "task": 100
+  },
+  {
+   "t": "10:01",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Discount codes on rindo.pl now open the store via our affiliate link before showing the code, so sales keep their commission. Awaiting review.",
+   "text_uk": "На rindo.pl коди знижок тепер відкриваються після переходу в магазин через наш партнерський лінк, щоб не втрачати комісію. Зміна чекає на схвалення.",
+   "task": null
+  },
+  {
+   "t": "10:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting for a fix that hides expired discount codes to be merged, then checking the live site.",
+   "text_uk": "Чекаємо на злиття виправлення для приховування промокодів, після чого перевіримо сайт rindo.pl в роботі.",
+   "task": null
+  },
+  {
+   "t": "10:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "10:02",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Reworked how discount codes appear on rindo.pl: codes stay hidden until a visitor clicks, and are masked in descriptions and FAQs.",
+   "text_uk": "Mateus змінює rindo.pl: код знижки тепер прихований і відкривається після натискання кнопки, яка веде до магазину. Коди також замасковано в описах і FAQ.",
+   "task": 100
   }
  ],
  "plan": [
+  {
+   "en": "Discount codes are no longer visible in the page source. They are revealed by a button that routes visitors through a redirect step before the store.",
+   "uk": "Mateus і команда змінили показ промокодів: тепер код не видно в HTML-коді сторінки, а відкриває його кнопка, яка одночасно веде до магазину."
+  },
   {
    "en": "Polishing discount code cards on rindo.pl, preparing experiment readouts, and planning Black Week guides for search indexing.",
    "uk": "Mateus і команда rindo.pl покращують показ кодів знижок, готують аналіз експериментів і планують контент до Black Week."
