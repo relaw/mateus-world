@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T10:44+02:00",
+ "generated_at": "2026-10-23T10:55+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -847,9 +847,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "10:46",
+   "type": "mail",
+   "agent": null,
+   "dur": null,
+   "text": "Preparing a partner outreach message about Black Friday codes and promotions, and requesting indexing for a store page.",
+   "text_uk": "Mateus готує звернення до партнерської програми щодо кодів на Black Week. Також просимо пошукову систему проіндексувати rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "10:46",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "This week's focus is set. Next steps wait on experiment readings from 24 to 28 October and sign-off on the emails.",
+   "text_uk": "Mateus і команда визначили фокус на тиждень. Наступні кроки чекають на результати експериментів з 24 по 28 жовтня та погодження листів.",
+   "task": null
+  },
+  {
+   "t": "10:46",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Focus this week: partner programmes and sign-up work with several retailers, including a major electronics chain, a bookstore and a beauty brand.",
+   "uk": "Цього тижня команда rindo.pl працює над знижками від маркетплейсу, бренду техніки, мережі електроніки, книжкової мережі та бренду косметики."
+  },
   {
    "en": "Discount codes are no longer visible in the page source. They are revealed by a button that routes visitors through a redirect step before the store.",
    "uk": "Mateus і команда змінили показ промокодів: тепер код не видно в HTML-коді сторінки, а відкриває його кнопка, яка одночасно веде до магазину."
@@ -857,10 +888,6 @@
   {
    "en": "Polishing discount code cards on rindo.pl, preparing experiment readouts, and planning Black Week guides for search indexing.",
    "uk": "Mateus і команда rindo.pl покращують показ кодів знижок, готують аналіз експериментів і планують контент до Black Week."
-  },
-  {
-   "en": "Onboarding a home appliance brand and a pet supplies store, with affiliate links and rewritten discount code pages, plus a test on the 27th.",
-   "uk": "Додаємо дві нові сторінки брендів з партнерськими посиланнями та оновлюємо сторінки кодів знижок. Велику мережу гіпермаркетів поки відкладено."
   }
  ],
  "world": {
