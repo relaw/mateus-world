@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T03:29+02:00",
+ "generated_at": "2026-10-23T03:40+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -88,8 +88,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Good news: rindo.pl has been accepted into a partner programme for a well-known home appliance brand.",
-   "text_uk": "Сайт rindo.pl прийнято до партнерської програми бренду побутової техніки через одну з партнерських мереж.",
+   "text": "Good news: rindo.pl has been accepted into a partner programme with a pet supplies store.",
+   "text_uk": "Команда rindo.pl отримала схвалення від мережі афілійованого маркетингу для участі в партнерській програмі інтернет-зоомагазину.",
    "task": null
   },
   {
@@ -97,8 +97,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Good news: rindo.pl has been accepted into a partner programme with a pet supplies store.",
-   "text_uk": "Команда rindo.pl отримала схвалення від мережі афілійованого маркетингу для участі в партнерській програмі інтернет-зоомагазину.",
+   "text": "Good news: rindo.pl has been accepted into a partner programme for a well-known home appliance brand.",
+   "text_uk": "Сайт rindo.pl прийнято до партнерської програми бренду побутової техніки через одну з партнерських мереж.",
    "task": null
   },
   {
@@ -307,6 +307,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "03:33",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Writing a guide to Black Friday 2026 deals at a major Polish marketplace: when it runs and what the platform officially promises on coupons and codes.",
+   "text_uk": "Mateus готує посібник про Чорну п'ятницю 2026: дата і обіцянки польського маркетплейсу щодо купонів і промокодів. Зміни очікують на перевірку.",
+   "task": 98
+  },
+  {
+   "t": "03:34",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "New Black Friday 2026 guide for a major Polish marketplace has passed quality checks and is ready to publish, based on official announcements so far.",
+   "text_uk": "Готуємо новий посібник про Чорну п'ятницю 2026 у великому онлайн-маркетплейсі. Він пройшов перевірку якості та чекає на публікацію на rindo.pl.",
+   "task": 98
+  },
+  {
+   "t": "03:34",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Browser testing queue is on hold while experiments wait for results due October 24 to 26.",
+   "text_uk": "Етап завершено, але черга завдань у браузері досі стоїть, тому експерименти чекають на дані з 24 по 26 жовтня.",
+   "task": null
+  },
+  {
+   "t": "03:34",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "03:35",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is writing a Black Friday 2026 guide for rindo.pl, covering when a major marketplace's sale starts and what it has announced about coupons and codes.",
+   "text_uk": "Mateus працює над гайдом на rindo.pl про Black Friday 2026 на великому польському маркетплейсі: коли відбудеться і які купони та промокоди обіцяє платформа.",
+   "task": 98
   }
  ],
  "plan": [
@@ -380,7 +425,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -25.05,
+  "week": -25.04,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
