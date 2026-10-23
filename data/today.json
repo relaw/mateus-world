@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T20:11+02:00",
+ "generated_at": "2026-10-23T20:15+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -1647,6 +1647,33 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "20:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Overnight block: gates are clear and the week's focus is unchanged. Next steps wait on experiment readouts (27-28 Oct) and Monday's ranking check (26 Oct), so pages in test cohorts stay untouched.",
+   "text_uk": "Mateus і команда тримають поточний фокус тижня без змін. Сторінки в експериментах не чіпаємо, доки не буде результатів тестів і вимірювання позицій.",
+   "task": null
+  },
+  {
+   "t": "20:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Evening retrospective by the fireplace.",
+   "text_uk": "Вечірня ретроспектива біля каміна.",
    "task": null
   }
  ],
