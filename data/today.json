@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T14:29+02:00",
+ "generated_at": "2026-10-23T14:39+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -1311,7 +1311,7 @@
    "t": "14:08",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 35,
+   "dur": 45,
    "text": "Zoe wrote the delivery, returns and app sections for an electronics retailer's page. After corrections, they await Nora's review before going live.",
    "text_uk": "Зоя написала розділи про доставку, повернення та застосунок для сторінки з купонами на електроніку. Текст чекає на правки та оцінку Нори.",
    "task": 107
@@ -1381,7 +1381,7 @@
   "shops_goal": 40,
   "partners": 27,
   "mails_today": 2,
-  "commissions_today": 0,
+  "commissions_today": 1,
   "today": [
    {
     "t": "01:05",
@@ -1402,6 +1402,10 @@
    {
     "t": "13:05",
     "kind": "partner"
+   },
+   {
+    "t": "14:35",
+    "kind": "commission"
    }
   ]
  },
@@ -1452,14 +1456,14 @@
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
-  "earned": 0.06,
-  "week": -23.71,
+  "earned": 0.1,
+  "week": -23.66,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
-  "month_revenue": 0.06,
+  "month_revenue": 0.1,
   "month_costs": 83.68,
   "first_revenue_at": "2026-10-20"
  }
