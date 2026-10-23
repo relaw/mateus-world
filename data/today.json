@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T05:49+02:00",
+ "generated_at": "2026-10-23T05:59+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -460,6 +460,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "05:50",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing a batch of 21 experiments: all page changes are deployed and merged, and the next step is waiting on test readouts from tomorrow.",
+   "text_uk": "Команда Mateus завершила зміни на rindo.pl і чекає на початок вимірювань, щоб не зіпсувати контроль експериментів.",
+   "task": null
+  },
+  {
+   "t": "05:50",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -533,7 +551,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -24.69,
+  "week": -24.67,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
