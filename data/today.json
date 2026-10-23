@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T17:02+02:00",
+ "generated_at": "2026-10-23T17:12+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -1311,7 +1311,7 @@
    "t": "14:08",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 188,
+   "dur": 60,
    "text": "Zoe wrote the delivery, returns and app sections for an electronics retailer's page. After corrections, they await Nora's review before going live.",
    "text_uk": "Зоя написала розділи про доставку, повернення та застосунок для сторінки з купонами на електроніку. Текст чекає на правки та оцінку Нори.",
    "task": 107
@@ -1486,6 +1486,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "17:02",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Paused: store pages wait for experiment results (Oct 24, 26, 27-28) before any changes. Next: reviewing experiments 2 and 3, then a ranking report.",
+   "text_uk": "Чекаємо на результати експериментів на сторінках магазинів, бо зміни до підсумків спотворили б дані. Далі: експерименти 2 і 3, потім звіт про позиції.",
+   "task": null
+  },
+  {
+   "t": "17:03",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1623,7 +1641,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.1,
-  "week": -22.65,
+  "week": -22.58,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
