@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T02:17+02:00",
+ "generated_at": "2026-10-23T02:28+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -145,9 +145,68 @@
    "text": "Mateus added affiliate links for a home appliance brand and a pet supplies store, and updated discount code status and returns. Awaiting checks and review.",
    "text_uk": "Mateus додав до rindo.pl нових партнерів: бренд пилососів і магазин зоотоварів. Також оновлює статус кодів і умови повернень, зміна очікує перевірки.",
    "task": 98
+  },
+  {
+   "t": "02:18",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a pull request without merging. It covered two new affiliate brand partnerships and a discount code status and returns page.",
+   "text_uk": "Оновлення rindo.pl з новими партнерськими брендами (техніка для дому й онлайн-зоомагазин) і сторінкою про промокоди закрили без злиття.",
+   "task": 98
+  },
+  {
+   "t": "02:19",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted an update adding two new partner brands with affiliate links, plus a discount code status and returns page, now in review.",
+   "text_uk": "Mateus додав нові партнерські бренди: техніка для дому та магазин зоотоварів. Оновлено розділ про статус кодів і повернення, зміна чекає перевірки.",
+   "task": 98
+  },
+  {
+   "t": "02:20",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Adding two new partner stores to rindo.pl, a pet supplies retailer and a home appliance brand, with pages built around discount code searches.",
+   "text_uk": "Додаємо два нових магазини-партнери на rindo.pl зі сторінками про промокоди. Зміни чекають на схвалення, результати експерименту ще попереду.",
+   "task": 98
+  },
+  {
+   "t": "02:20",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a block of merge-related changes, with the next experiment readings due on 24.10 and 26.10.",
+   "text_uk": "Завершили блок змін у злитті, наступні результати експериментів очікуємо 24.10 та 26.10.",
+   "task": null
+  },
+  {
+   "t": "02:20",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "02:21",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is updating rindo.pl with discount-code pages for two new partner brands, covering code status and returns.",
+   "text_uk": "Mateus працює над rindo.pl: оновлює сторінку з кодами знижок, перевіряє їх статус і повернення та додає нових партнерів із побутової техніки і зоотоварів.",
+   "task": 98
   }
  ],
- "plan": [],
+ "plan": [
+  {
+   "en": "Onboarding a home appliance brand and a pet supplies store, with affiliate links and rewritten discount code pages, plus a test on the 27th.",
+   "uk": "Додаємо дві нові сторінки брендів з партнерськими посиланнями та оновлюємо сторінки кодів знижок. Велику мережу гіпермаркетів поки відкладено."
+  }
+ ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
@@ -213,7 +272,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -25.19,
+  "week": -25.09,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
