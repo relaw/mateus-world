@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T00:59+02:00",
+ "generated_at": "2026-10-24T01:10+02:00",
  "date": "2026-10-24",
  "events": [
   {
@@ -133,6 +133,15 @@
    "type": "idle",
    "agent": null,
    "dur": null,
+   "text": "Reviewing the pipeline board: all checks are clean, and the focus stores are waiting for their first ranking measurement on Monday and experiment readouts on 26-28 October, so we're leaving the cohort pages untouched for now.",
+   "text_uk": "Переглянули конвеєр робіт: перевірки пройдені. Нові сторінки поки не змінюємо, чекаємо на перші заміри позицій у понеділок і результати експериментів.",
+   "task": null
+  },
+  {
+   "t": "00:59",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
@@ -201,7 +210,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.1,
-  "week": -20.68,
+  "week": -20.62,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
