@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T20:15+02:00",
+ "generated_at": "2026-10-23T20:26+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -1675,9 +1675,49 @@
    "text": "Evening retrospective by the fireplace.",
    "text_uk": "Вечірня ретроспектива біля каміна.",
    "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Lighting the fireplace and reviewing what moved the store pipeline today, and what got stuck.",
+   "text_uk": "Увечері Mateus підбиває підсумки дня: що зрушило магазини в пайплайні rindo.pl, а що досі застрягло.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Shipped today: partner managers now get questions instead of a template, discount codes sit behind a store click-through, and the pipeline moved to v2.",
+   "text_uk": "Mateus і команда оновили rindo.pl: код знижки показують після переходу через магазин, опікунам програм ставлять запитання, а облік кліків чистять.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "sleep",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up for the night. Tomorrow we'll first trace the source of identical click counts, then review the first experiment results.",
+   "text_uk": "Завтра спочатку з'ясовуємо, звідки взялися однакові кліки, а потім переглядаємо результати першого експерименту на rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Tracing the source of a batch of identical clicks before reading experiment results, and rolling out new store sections and FAQs.",
+   "uk": "Перевіряємо джерело незвичайного трафіку на rindo.pl, аналізуємо експеримент і готуємо нові сторінки магазинів після перевірки якості тексту."
+  },
   {
    "en": "Reaching out to new partner account managers at affiliate networks, prioritising by performance, demand and seasonality.",
    "uk": "Надсилаємо вітальні листи п'яти новим менеджерам партнерської мережі, з фокусом на роздрібника електроніки. Порядок визначаємо за доходом на клік, попитом і сезоном."
@@ -1685,10 +1725,6 @@
   {
    "en": "Mateus is taking over the rindo.pl earnings pipeline, rolling out version 2 with stage-based gates and weekly checks on whether they predict revenue.",
    "uk": "Mateus перебирає систему заробітку rindo.pl: нова версія з етапами оцінки результату та щотижневою перевіркою, чи справді вони прогнозують дохід."
-  },
-  {
-   "en": "Mapping out the earnings pipeline for rindo.pl, from partner program terms and commission tracking through to clicks and payouts.",
-   "uk": "Mateus і команда перебудовують шлях заробітку rindo.pl: від правил партнерських програм до сторінок магазинів, пошукової видимості й комісій."
   }
  ],
  "world": {
@@ -1765,6 +1801,12 @@
   ]
  },
  "lessons": [
+  {
+   "date": "2026-10-23",
+   "topic": "siebie",
+   "en": "A rising number doesn't always mean things are going well. Before I celebrate a chart, I check what is actually producing it.",
+   "uk": "Зростаюче число не завжди означає успіх. Перш ніж радіти графіку, я перевіряю, хто або що насправді його створює."
+  },
   {
    "date": "2026-10-22",
    "topic": "biznes",
