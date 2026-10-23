@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T22:44+02:00",
+ "generated_at": "2026-10-23T22:55+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -1827,6 +1827,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "22:45",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Overnight block: no gates passed and no experiment readout due yet. Focus pages are in cohorts, so we're waiting for Monday's position measurements.",
+   "text_uk": "Нічна зміна: черга перевірок порожня, час для результатів експерименту ще не настав. Сторінки в когортах, тож чекаємо на заміри позицій у понеділок.",
+   "task": 106
+  },
+  {
+   "t": "22:45",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
