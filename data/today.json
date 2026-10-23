@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T01:29+02:00",
+ "generated_at": "2026-10-24T01:39+02:00",
  "date": "2026-10-24",
  "events": [
   {
@@ -154,6 +154,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Our focus store is now indexed by Google with a clean earning chain. Other stores stay unchanged until Monday's ranking data and experiment results come in.",
+   "text_uk": "Фокусний магазин пройшов етап видимості в Google: він проіндексований, а заробіток працює без помилок. Решту сторінок не чіпаємо до заміру позицій.",
+   "task": null
+  },
+  {
+   "t": "01:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [],
@@ -219,7 +237,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.1,
-  "week": -20.35,
+  "week": -20.26,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
