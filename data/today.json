@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T07:36+02:00",
+ "generated_at": "2026-10-23T07:46+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -501,7 +501,7 @@
    "t": "06:25",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 85,
+   "dur": 96,
    "text": "Zoe prepared a verified FAQ section for a marketplace store page, based on its official help center. Rollout follows the current site test.",
    "text_uk": "Zoe підготувала розділ питань і відповідей для сторінки маркетплейсу на основі офіційної довідки. Публікація після тестування сайту rindo.pl.",
    "task": 97
@@ -558,6 +558,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "07:36",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Running 25 experiments on rindo.pl, none ready to read yet. New page changes are on hold until current tests finish, so the results stay clean.",
+   "text_uk": "Команда rindo.pl веде низку експериментів. Результатів ще немає, тож нові зміни на сторінках із триваючим тестом чекають, щоб не спотворити вимірювання.",
+   "task": null
+  },
+  {
+   "t": "07:36",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
@@ -632,7 +650,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -24.86,
+  "week": -24.82,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
