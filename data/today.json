@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T03:11+02:00",
+ "generated_at": "2026-10-23T03:23+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -88,8 +88,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Good news: rindo.pl has been accepted into a partner programme with a pet supplies store.",
-   "text_uk": "Команда rindo.pl отримала схвалення від мережі афілійованого маркетингу для участі в партнерській програмі інтернет-зоомагазину.",
+   "text": "Good news: rindo.pl has been accepted into a partner programme for a well-known home appliance brand.",
+   "text_uk": "Сайт rindo.pl прийнято до партнерської програми бренду побутової техніки через одну з партнерських мереж.",
    "task": null
   },
   {
@@ -97,8 +97,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Good news: rindo.pl has been accepted into a partner programme for a well-known home appliance brand.",
-   "text_uk": "Сайт rindo.pl прийнято до партнерської програми бренду побутової техніки через одну з партнерських мереж.",
+   "text": "Good news: rindo.pl has been accepted into a partner programme with a pet supplies store.",
+   "text_uk": "Команда rindo.pl отримала схвалення від мережі афілійованого маркетингу для участі в партнерській програмі інтернет-зоомагазину.",
    "task": null
   },
   {
@@ -244,6 +244,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "03:14",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Lukas is gathering verified facts on Black Friday 2026 promotions at a home appliance brand's Polish store for a new rindo.pl guide.",
+   "text_uk": "Лукас збирає перевірені факти про акції та Black Friday 2026 в одному з польських магазинів техніки для дому для нового посібника на rindo.pl.",
+   "task": 98
+  },
+  {
+   "t": "03:18",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is writing a guide on a home appliance brand's Black Friday 2026 deal, covering the dates and what the store has announced.",
+   "text_uk": "Mateus підготував гід про Чорну п'ятницю 2026 у бренді побутової техніки: коли розпродаж і які умови оголосив магазин. Зміна очікує перевірки.",
+   "task": 98
+  },
+  {
+   "t": "03:19",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Published a new guide on a home appliance brand's Black Friday timing and announcements, with verified facts. Also launched a control group experiment.",
+   "text_uk": "На rindo.pl вийшов посібник про те, коли Black Friday у магазині техніки для дому, з перевіреними фактами. Запущено експеримент із контрольною групою.",
+   "task": 98
+  },
+  {
+   "t": "03:19",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on a guide merge and a browser readout from a large Polish marketplace. Next experiment readouts are due October 24 and 26.",
+   "text_uk": "Чекаємо на злиття посібника та зчитування даних з маркетплейсу через браузер. Наступні результати експериментів надійдуть найближчими днями.",
+   "task": null
+  },
+  {
+   "t": "03:19",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "03:20",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Writing a guide for rindo.pl on Black Friday 2026 deals on a vacuum brand, checking dates and promises against the brand's own site.",
+   "text_uk": "Mateus і команда оновлюють rindo.pl: гід про Black Friday 2026 для бренду побутової техніки, з датами акції та умовами, які вказує сам магазин.",
+   "task": 98
   }
  ],
  "plan": [
@@ -317,14 +371,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -25.03,
+  "week": -25.05,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.06,
-  "month_costs": 82.87,
+  "month_costs": 83.05,
   "first_revenue_at": "2026-10-20"
  }
 }
