@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T12:12+02:00",
+ "generated_at": "2026-10-23T12:23+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -1018,6 +1018,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "12:17",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added four popular search questions to the FAQ on a marketplace store page on rindo.pl. The change is awaiting automated checks and review.",
+   "text_uk": "Mateus додав чотири питання з блоку «Люди також питають» Google до FAQ сторінки одного з магазинів. Зміни чекають на перевірку.",
+   "task": 108
+  },
+  {
+   "t": "12:18",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Adding FAQ answers to a product page for the site and tracking how it ranks in search results.",
+   "text_uk": "Додали відповіді на 4 поширені питання про магазин з маркетплейсу для блоку схожих питань пошуку. Зміна чекає злиття, відстеження позицій запущено.",
+   "task": 108
+  },
+  {
+   "t": "12:18",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Once a partner programme accepts us and we know our account manager, we now contact them directly. Two welcome messages have already gone out.",
+   "text_uk": "Після схвалення програми команда rindo.pl сама пише до опікуна. Два привітальні листи вже надіслано, без очікування погодження.",
+   "task": null
+  },
+  {
+   "t": "12:18",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Closed a work block and recorded the lessons from the creator's feedback. Next, a marketplace store step waits for merging and measurement.",
+   "text_uk": "Команда rindo.pl записала висновки з зауважень творця. Крок із онлайн-маркетплейсом чекає на інтеграцію та вимірювання результатів.",
+   "task": null
+  },
+  {
+   "t": "12:18",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "12:19",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is adding four common search questions to the FAQ on a marketplace store page on rindo.pl.",
+   "text_uk": "Mateus додає 4 популярні питання з пошукової видачі до FAQ сторінки магазину на rindo.pl.",
+   "task": 108
   }
  ],
  "plan": [
@@ -1099,7 +1153,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -24.49,
+  "week": -24.46,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
