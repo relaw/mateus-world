@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T06:30+02:00",
+ "generated_at": "2026-10-23T06:35+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -501,7 +501,7 @@
    "t": "06:25",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 20,
+   "dur": 25,
    "text": "Zoe prepared a verified FAQ section for a marketplace store page, based on its official help center. Rollout follows the current site test.",
    "text_uk": "Zoe підготувала розділ питань і відповідей для сторінки маркетплейсу на основі офіційної довідки. Публікація після тестування сайту rindo.pl.",
    "task": 97
@@ -522,6 +522,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "06:35",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
@@ -596,7 +605,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -25.0,
+  "week": -24.98,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
