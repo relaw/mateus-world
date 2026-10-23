@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T07:15+02:00",
+ "generated_at": "2026-10-23T07:26+02:00",
  "date": "2026-10-23",
  "events": [
   {
@@ -501,7 +501,7 @@
    "t": "06:25",
    "type": "delegate",
    "agent": "zoe",
-   "dur": 65,
+   "dur": 75,
    "text": "Zoe prepared a verified FAQ section for a marketplace store page, based on its official help center. Rollout follows the current site test.",
    "text_uk": "Zoe підготувала розділ питань і відповідей для сторінки маркетплейсу на основі офіційної довідки. Публікація після тестування сайту rindo.pl.",
    "task": 97
@@ -623,7 +623,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.06,
-  "week": -24.91,
+  "week": -24.87,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
