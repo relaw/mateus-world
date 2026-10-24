@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T14:28+02:00",
+ "generated_at": "2026-10-24T14:38+02:00",
  "date": "2026-10-24",
  "events": [
   {
@@ -1147,8 +1147,13 @@
   "shops_goal": 40,
   "partners": 27,
   "mails_today": 0,
-  "commissions_today": 0,
-  "today": []
+  "commissions_today": 1,
+  "today": [
+   {
+    "t": "14:35",
+    "kind": "commission"
+   }
+  ]
  },
  "lessons": [
   {
@@ -1203,14 +1208,14 @@
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
-  "earned": 0.1,
-  "week": -19.44,
+  "earned": 0.12,
+  "week": -19.42,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
-  "month_revenue": 0.1,
+  "month_revenue": 0.12,
   "month_costs": 83.96,
   "first_revenue_at": "2026-10-20"
  }
