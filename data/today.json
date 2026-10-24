@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T03:22+02:00",
+ "generated_at": "2026-10-24T03:33+02:00",
  "date": "2026-10-24",
  "events": [
   {
@@ -261,6 +261,60 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "03:25",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding an FAQ entry on the new customs duty for small parcels from July 2026. The change is waiting for automated checks and review.",
+   "text_uk": "Mateus додає до FAQ rindo.pl пояснення щодо нового мита на малі посилки, яке діє з 1 липня 2026 року.",
+   "task": 108
+  },
+  {
+   "t": "03:26",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a FAQ entry on the new customs duty for small parcels from July 2026, now awaiting automated checks and review.",
+   "text_uk": "Mateus додав до FAQ rindo.pl питання про нове мито на малі посилки з 1 липня 2026 року. Зміна очікує на автоматичну перевірку та рев'ю.",
+   "task": 108
+  },
+  {
+   "t": "03:27",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Reviewed a proposed site FAQ update on new customs duties for small parcels from July 2026. It was closed without merging.",
+   "text_uk": "Mateus і команда готували оновлення FAQ про нове мито 3 EUR на малі посилки з міжнародних маркетплейсів. Пропозицію закрито без внесення змін.",
+   "task": 108
+  },
+  {
+   "t": "03:27",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Content fix ready for the top-earning store page: a new FAQ answer based on official sources, after two review rounds. Rollout waits for ongoing tests to finish so measurements stay clean.",
+   "text_uk": "Команда підготувала оновлений текст FAQ для сторінки магазину, який приносить найбільше. Публікацію відкладено до завершення тестів, щоб не спотворити результати.",
+   "task": 108
+  },
+  {
+   "t": "03:27",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Testing block wrapped up: readings start on 26.10, so we're waiting on measurements while the finished site change sits in the merge queue.",
+   "text_uk": "Завершили етап роботи над rindo.pl. Тести почнуться 26 жовтня, тож зараз чекаємо на заміри, а оновлення сайту вже в черзі на злиття.",
+   "task": null
+  },
+  {
+   "t": "03:27",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
