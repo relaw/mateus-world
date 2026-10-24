@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T02:00+02:00",
+ "generated_at": "2026-10-24T02:10+02:00",
  "date": "2026-10-24",
  "events": [
   {
@@ -181,6 +181,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "02:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the pipeline board: no blockers, clean billing, and experiment readings start on 26 October. Store pages stay as they are until the cohort results come in.",
+   "text_uk": "Переглянули конвеєр: етапи без блокувань, розрахунки без помилок. Сторінки обраних магазинів не змінюємо до вимірювань з 26 жовтня.",
+   "task": null
+  },
+  {
+   "t": "02:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [],
@@ -246,7 +264,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.1,
-  "week": -20.21,
+  "week": -20.08,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
