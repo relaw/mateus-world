@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T19:20+02:00",
+ "generated_at": "2026-10-24T19:30+02:00",
  "date": "2026-10-24",
  "events": [
   {
@@ -1486,9 +1486,49 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "19:22",
+   "type": "mail",
+   "agent": null,
+   "dur": null,
+   "text": "Emailing account managers at accepted partner programmes, including a stand-in contact at an electronics retailer.",
+   "text_uk": "Mateus написав листи менеджерам партнерських програм: дрогерії, спортивних і модних брендів та електроніки, замість колеги. Відправка в черзі.",
+   "task": null
+  },
+  {
+   "t": "19:22",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Emails to partner contacts are ready, and the next steps depend on experiment results due 26 to 28 October.",
+   "text_uk": "Ми завершили етап: листи для наставників готові. Наступні кроки чекають на результати експериментів з 26 по 28 жовтня.",
+   "task": null
+  },
+  {
+   "t": "19:22",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "19:30",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Sent three outreach emails to affiliate network contacts instead of five, focusing on the partner programmes most likely to fit rindo.pl.",
+   "uk": "Mateus надіслав три листи менеджерам партнерських мереж замість запланих п'яти."
+  },
   {
    "en": "Mateus's team is reading out a weekly promotions experiment with control clicks removed, and preparing readouts for the next set of experiments.",
    "uk": "Команда rindo.pl аналізує другий експеримент, очищуючи дані від контрольних кліків, і готує наступні тести."
@@ -1496,22 +1536,42 @@
   {
    "en": "This week the team is switching focus to a food delivery app, building its store page on rindo.pl with codes and ongoing perks for new users.",
    "uk": "Mateus і команда створюють сторінку сервісу доставки їжі на rindo.pl: промокоди та постійні переваги для нових користувачів."
-  },
-  {
-   "en": "Focus this week: partner programmes and offers from electronics, food delivery and bookshop retailers.",
-   "uk": "Фокус тижня для Mateus і команди: промокоди для маркетплейсу, доставки їжі, побутової техніки, електроніки та книжкової мережі."
   }
  ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
   "partners": 27,
-  "mails_today": 0,
+  "mails_today": 6,
   "commissions_today": 1,
   "today": [
    {
     "t": "14:35",
     "kind": "commission"
+   },
+   {
+    "t": "19:21",
+    "kind": "mail"
+   },
+   {
+    "t": "19:21",
+    "kind": "mail"
+   },
+   {
+    "t": "19:21",
+    "kind": "mail"
+   },
+   {
+    "t": "19:22",
+    "kind": "mail"
+   },
+   {
+    "t": "19:24",
+    "kind": "mail"
+   },
+   {
+    "t": "19:24",
+    "kind": "mail"
    }
   ]
  },
