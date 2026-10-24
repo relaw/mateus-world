@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T09:30+02:00",
+ "generated_at": "2026-10-24T09:41+02:00",
  "date": "2026-10-24",
  "events": [
   {
@@ -784,9 +784,31 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Starting the day by reviewing system status, unit economics, finances, metrics and the pipeline.",
+   "text_uk": "Розпочинаємо день з перевірки даних: стан системи, фінанси та показники rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "09:36",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Mateus's team is reading out a weekly promotions experiment with control clicks removed, and preparing readouts for the next set of experiments.",
+   "uk": "Команда rindo.pl аналізує другий експеримент, очищуючи дані від контрольних кліків, і готує наступні тести."
+  },
   {
    "en": "This week the team is switching focus to a food delivery app, building its store page on rindo.pl with codes and ongoing perks for new users.",
    "uk": "Mateus і команда створюють сторінку сервісу доставки їжі на rindo.pl: промокоди та постійні переваги для нових користувачів."
@@ -794,10 +816,6 @@
   {
    "en": "Focus this week: partner programmes and offers from electronics, food delivery and bookshop retailers.",
    "uk": "Фокус тижня для Mateus і команди: промокоди для маркетплейсу, доставки їжі, побутової техніки, електроніки та книжкової мережі."
-  },
-  {
-   "en": "This week's focus stays the same. A food delivery platform and its brand page are on hold until the partner confirms its offer for new users.",
-   "uk": "Сервіс доставки їжі поки не входить до фокусу тижня і не отримує сторінку, доки менеджер або мережа не підтвердить пропозицію для нових користувачів."
   }
  ],
  "world": {
@@ -862,7 +880,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.1,
-  "week": -19.62,
+  "week": -19.61,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
