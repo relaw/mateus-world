@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T09:50+02:00",
+ "generated_at": "2026-10-24T10:00+02:00",
  "date": "2026-10-24",
  "events": [
   {
@@ -811,6 +811,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "09:50",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Work block update: next steps are waiting on experiment readouts (27, 28 Oct) and browser approval for Search Console. Status checked and blockers logged.",
+   "text_uk": "Кроки rindo.pl очікують результатів експериментів наприкінці жовтня та дозволу на доступ до інструментів пошукової видимості. Блокери занесено до завдань.",
+   "task": null
+  },
+  {
+   "t": "09:50",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -889,7 +907,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.1,
-  "week": -19.61,
+  "week": -19.58,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
