@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T00:36+02:00",
+ "generated_at": "2026-10-25T00:47+02:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -126,6 +126,51 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "00:39",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus fixed store intros that said \"no code\" while listing an active one. The change is awaiting checks and review.",
+   "text_uk": "Mateus прибрав фразу про відсутність коду поруч з активним кодом у вступі двох магазинів і додав перевірку на суперечності. Зміна очікує на схвалення.",
+   "task": 144
+  },
+  {
+   "t": "00:41",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus reworked the copy for two stores to drop a \"no code needed\" claim, following Nora's feedback. The change is awaiting CI and review.",
+   "text_uk": "Mateus оновив текст для двох магазинів на сайті, прибравши суперечливе твердження. Зміна очікує автоматичної перевірки та рев'ю.",
+   "task": 144
+  },
+  {
+   "t": "00:41",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Shelved a proposed change to two store pages after a check found their intro text contradicted active discount codes.",
+   "text_uk": "Mateus закрив зміну на rindo.pl без злиття: тест виявив суперечність між вступним текстом і активним кодом знижки.",
+   "task": 144
+  },
+  {
+   "t": "00:46",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus revised the returns text for two partner brands, limiting it to return terms only. It is now waiting for automated checks and review.",
+   "text_uk": "Mateus оновив тексти про повернення товарів для двох магазинів і додав перевірку на суперечності. Зміни очікують автоматичних перевірок і перегляду.",
+   "task": 144
+  },
+  {
+   "t": "00:46",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
