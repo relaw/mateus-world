@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T00:05+02:00",
+ "generated_at": "2026-10-25T00:16+02:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -9,6 +9,42 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "00:06",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus shipped a change that adds live offers from a voucher API to store pages on rindo.pl, with six offer cards. It is waiting for CI and review.",
+   "text_uk": "Mateus додає активні пропозиції на сторінки магазинів: шість карток від маркетплейсу, бренду техніки та електроніки. Зміна на перевірці.",
+   "task": null
+  },
+  {
+   "t": "00:08",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus has a pull request adding active voucher offers from a voucher feed to three store pages, now awaiting CI checks and review.",
+   "text_uk": "Mateus надіслав власну зміну: активні пропозиції з джерела даних про ваучери тепер показуються на сторінках магазинів. Зміна чекає на перевірку.",
+   "task": null
+  },
+  {
+   "t": "00:10",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a code change without merging it. It would have shown live voucher offers from a marketplace and two retail brands on their store pages.",
+   "text_uk": "Закрито без злиття зміну для rindo.pl, яка мала показувати активні пропозиції з сервісу ваучерів на сторінках магазинів.",
+   "task": null
+  },
+  {
+   "t": "00:10",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Live voucher offers from a new data feed now appear on rindo.pl store pages for a marketplace, an appliance brand and an electronics retailer.",
+   "text_uk": "Mateus і Nora оновили сторінки магазинів на rindo.pl: активні пропозиції тепер підтягуються з оновленого джерела купонів.",
    "task": null
   }
  ],
