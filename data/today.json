@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T14:14+01:00",
+ "generated_at": "2026-10-25T14:24+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -1828,6 +1828,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:15",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 24,
+   "text": "Assigning Lukas a task for today's work on rindo.pl.",
+   "text_uk": "Сьогодні Lukas отримав нове завдання.",
+   "task": 161
+  },
+  {
+   "t": "14:15",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Gift guide for kids, grandparents and grandfathers is live, and we've asked Google to index it. Lukas is gathering facts for the next seasonal gap: gift cards.",
+   "text_uk": "Гід з подарунками для дітей, бабусь і дідусів уже на rindo.pl. Lukas збирає дані для наступної сезонної теми: подарункових карток.",
+   "task": 161
   }
  ],
  "plan": [
@@ -2235,6 +2253,20 @@
    {
     "t": "14:05",
     "kind": "deploy"
+   },
+   {
+    "t": "14:14",
+    "kind": "change"
+   },
+   {
+    "t": "14:21",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "14:23",
+    "kind": "gate",
+    "ok": false
    }
   ],
   "scenes": []
@@ -2299,7 +2331,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -19.29,
+  "week": -19.19,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
