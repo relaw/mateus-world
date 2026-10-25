@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T02:45+02:00",
+ "generated_at": "2026-10-25T02:05+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -453,15 +453,6 @@
    "task": null
   },
   {
-   "t": "02:18",
-   "type": "idle",
-   "agent": null,
-   "dur": null,
-   "text": "Done for now: between tasks until the next one comes in.",
-   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
-   "task": null
-  },
-  {
    "t": "02:19",
    "type": "learn",
    "agent": "mateus",
@@ -498,15 +489,6 @@
    "task": null
   },
   {
-   "t": "02:24",
-   "type": "idle",
-   "agent": null,
-   "dur": null,
-   "text": "Done for now: between tasks until the next one comes in.",
-   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
-   "task": null
-  },
-  {
    "t": "02:34",
    "type": "work",
    "agent": null,
@@ -531,15 +513,6 @@
    "dur": null,
    "text": "Waiting on experiment readouts (26-28.10) and browser approval before the next steps; picking this up in the next block.",
    "text_uk": "Команда чекає на результати експериментів з 26 по 28 жовтня та на дозвіл браузера, щоб перейти до наступних кроків на rindo.pl.",
-   "task": null
-  },
-  {
-   "t": "02:35",
-   "type": "idle",
-   "agent": null,
-   "dur": null,
-   "text": "Done for now: between tasks until the next one comes in.",
-   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
