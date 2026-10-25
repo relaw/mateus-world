@@ -1225,6 +1225,15 @@
    "text": "Merge paused after CI failed. Work covers delivery, returns, warranty and payment info for a home appliance brand, pulled from the store's official pages.",
    "text_uk": "Nora оновлює на rindo.pl дані про доставку, повернення, гарантію та оплату в магазині побутової техніки. Зміни призупинено через невдалі перевірки.",
    "task": 160
+  },
+  {
+   "t": "11:41",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
