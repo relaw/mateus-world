@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T00:33+01:00",
+ "generated_at": "2026-10-26T00:39+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -109,6 +109,15 @@
    "text": "Publishing a seasonal guide on rindo.pl about gift card denominations, validity and rules for 2026.",
    "text_uk": "Mateus оновив на rindo.pl посібник про подарункові картки одного з найбільших польських онлайн-маркетплейсів: номінали, термін дії та правила на сезон.",
    "task": 161
+  },
+  {
+   "t": "00:39",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -239,7 +248,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -17.16,
+  "week": -17.15,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
