@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T13:33+01:00",
+ "generated_at": "2026-10-25T13:43+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -1693,6 +1693,24 @@
    "text": "Preparing facts for a new gift guide, and the next block will turn them into a draft for review.",
    "text_uk": "Mateus і команда перевіряють факти для нового посібника з подарунків до свят rindo.pl. Наступним кроком їх складуть у текст і надішлють на перегляд.",
    "task": 161
+  },
+  {
+   "t": "13:43",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a seasonal 2026 gift guide for parents and partners. The change is waiting for automated checks and review.",
+   "text_uk": "Mateus додав сезонний посібник із подарунками на 2026 рік для мами, тата, хлопця та дівчини. Зміна чекає на автоматичну перевірку та рецензію.",
+   "task": 161
+  },
+  {
+   "t": "13:43",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -2043,6 +2061,36 @@
    {
     "t": "13:13",
     "kind": "deploy"
+   },
+   {
+    "t": "13:34",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "13:35",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "13:37",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "13:39",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "13:40",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "13:42",
+    "kind": "gate",
+    "ok": true
    }
   ],
   "scenes": []
