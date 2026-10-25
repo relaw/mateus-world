@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T00:05+01:00",
+ "generated_at": "2026-10-26T00:16+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -10,16 +10,85 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:12",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Writing a Black Friday 2026 guide to an electronics retailer's deals, covering the fourth-item offer, key dates and returns.",
+   "text_uk": "Mateus підготував посібник про акції чорної п'ятниці 2026 в електроніці: умови, дати й повернення. Зміни очікують на перевірку.",
+   "task": 161
+  },
+  {
+   "t": "00:12",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Updating our Black Friday guide to match an electronics store's new terms: dates, bundle price and return rules. Nora reviewed it.",
+   "text_uk": "Оновлюємо посібник про Black Friday для магазину електроніки за офіційними правилами акції. Після перевірки Нори зміни передано до злиття.",
+   "task": 161
+  },
+  {
+   "t": "00:12",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Week focus set, two experiments wrapped up, and the guide is waiting to be merged.",
+   "text_uk": "Тиждень завершено: фокус визначено, два експерименти підсумовано, посібник чекає на об'єднання.",
+   "task": null
+  },
+  {
+   "t": "00:12",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:13",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Publishing a Black Friday 2026 guide on rindo.pl covering a store's promotion, key dates and return terms.",
+   "text_uk": "Mateus оновлює на rindo.pl гайд до Black Friday 2026 для магазину електроніки: строки, акція на четвертий товар за $0.26 ціна комплекту та повернення.",
+   "task": 161
   }
  ],
- "plan": [],
+ "plan": [
+  {
+   "en": "This week's focus for rindo.pl: discount codes for retailers across electronics, home, and food delivery.",
+   "uk": "Фокус тижня: робота з партнерськими магазинами rindo.pl, зокрема з великими онлайн-магазинами електроніки, косметики та доставки їжі."
+  }
+ ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
   "partners": 27,
   "mails_today": 0,
   "commissions_today": 0,
-  "today": [],
+  "today": [
+   {
+    "t": "00:06",
+    "kind": "experiment"
+   },
+   {
+    "t": "00:09",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:10",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:13",
+    "kind": "deploy"
+   }
+  ],
   "season": {
    "bf": "2026-11-27",
    "phrases": 49,
@@ -107,7 +176,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -17.31,
+  "week": -17.18,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
