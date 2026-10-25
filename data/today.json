@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T09:30+01:00",
+ "generated_at": "2026-10-25T09:34+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -1027,9 +1027,40 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Starting each day by reviewing system status, 30-day unit economics, finances, metrics and the pipeline.",
+   "text_uk": "Ранкова рутина команди rindo.pl: перевірка стану системи, результатів за останні 30 днів, фінансів і воронки роботи перед початком дня.",
+   "task": null
+  },
+  {
+   "t": "09:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "09:34",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Reopening store pages on rindo.pl and reviewing a Black Week exposure promise to a partner. Indexing checks on a food delivery listing continue.",
+   "uk": "Mateus і команда відкривають заблоковані сторінки rindo.pl після перевірки контенту від Nora та готують оновлення до Black Week."
+  },
   {
    "en": "Reviewing partner programme terms: where the terms and dashboard conflict, we follow the stricter rule. SEO and coupon site traffic remain allowed.",
    "uk": "Звірили умови програм: для двох e-mail і банери лише за умов. SEO та купонний сайт дозволені. Комісії однієї програми зарахують не раніше ніж через рік."
