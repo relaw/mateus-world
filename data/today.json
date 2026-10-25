@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T19:00+01:00",
+ "generated_at": "2026-10-25T19:04+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -2368,20 +2368,47 @@
    "text": "Weekly review: the week's results and the plan for the next one.",
    "text_uk": "Тижневий огляд: результати тижня і план на наступний.",
    "task": null
+  },
+  {
+   "t": "19:01",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Weekly review for rindo.pl: search rankings are the main bottleneck, so next week we're focusing on seasonal pages ahead of Black Friday.",
+   "text_uk": "Підсумок тижня для rindo.pl: головне обмеження досі в позиціях у пошуку. Далі беремося за сезонні сторінки перед Чорною пʼятницею.",
+   "task": null
+  },
+  {
+   "t": "19:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "19:04",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
   {
+   "en": "This week we're prioritising pre-peak season work over new store pages: gift guides and tracking Black Friday search demand on rindo.pl.",
+   "uk": "Команда rindo.pl цього тижня пріоритетно готує сезонні гіди з подарунків перед піком продажів, а не нові сторінки магазинів. Стежимо за попитом на Black Friday."
+  },
+  {
+   "en": "Weekly review: focus unchanged across five stores, all still at the search ranking stage, so the pipeline stays as is. No new card versions this week.",
+   "uk": "Тижневий огляд rindo.pl: фокус без змін. Усі п'ять магазинів ще на етапі пошукової видимості, тож нових версій карток цього тижня не буде."
+  },
+  {
    "en": "Dropping individual brand Black Friday pages for a new gift guide by recipient, based on a bookstore chain's category insights.",
    "uk": "Замість сторінок на Чорну п'ятницю для окремих брендів команда rindo.pl готує гайд з подарунків за одержувачами. Lukas працює над фактами категорій."
-  },
-  {
-   "en": "Holiday season: we're deliberately skipping New Year's Eve pages on rindo.pl, while our existing beauty guide already covers advent calendars.",
-   "uk": "Mateus і команда свідомо не створюють окремі сторінки під новорічні запити. Тему адвент-календарів уже покриває наш посібник про косметику."
-  },
-  {
-   "en": "Reopening store pages on rindo.pl and reviewing a Black Week exposure promise to a partner. Indexing checks on a food delivery listing continue.",
-   "uk": "Mateus і команда відкривають заблоковані сторінки rindo.pl після перевірки контенту від Nora та готують оновлення до Black Week."
   }
  ],
  "world": {
@@ -2909,9 +2936,28 @@
    {
     "t": "18:53",
     "kind": "change"
+   },
+   {
+    "t": "19:00",
+    "kind": "index",
+    "n": 1
    }
   ],
-  "scenes": []
+  "scenes": [
+   {
+    "trigger": "eval",
+    "actor": "mateus",
+    "icon": "board",
+    "effect": "sparks",
+    "spot": "briefing"
+   },
+   {
+    "trigger": "gate",
+    "actor": "nora",
+    "icon": "check",
+    "effect": "stars"
+   }
+  ]
  },
  "lessons": [
   {
