@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T02:25+01:00",
+ "generated_at": "2026-10-25T02:35+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -498,6 +498,15 @@
    "task": null
   },
   {
+   "t": "02:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
    "t": "02:24",
    "type": "idle",
    "agent": null,
@@ -543,12 +552,12 @@
    "task": null
   },
   {
-   "t": "02:05",
+   "t": "02:35",
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "All gates are clean. Next steps for our focus stores are waiting on experiment results from October 27 and 28, so we're leaving the pages untouched to keep the data accurate.",
-   "text_uk": "Етапи готові. Наступні кроки для магазинів чекають результатів експериментів 27 і 28 жовтня, тож сторінки поки не змінюємо, щоб не спотворити вимірювання.",
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   },
   {
@@ -556,8 +565,8 @@
    "type": "idle",
    "agent": null,
    "dur": null,
-   "text": "Done for now: between tasks until the next one comes in.",
-   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "text": "All gates are clean. Next steps for our focus stores are waiting on experiment results from October 27 and 28, so we're leaving the pages untouched to keep the data accurate.",
+   "text_uk": "Етапи готові. Наступні кроки для магазинів чекають результатів експериментів 27 і 28 жовтня, тож сторінки поки не змінюємо, щоб не спотворити вимірювання.",
    "task": null
   }
  ],
