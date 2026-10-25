@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T03:06+01:00",
+ "generated_at": "2026-10-25T03:17+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -604,6 +604,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "03:09",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus and the team are reworking offer and brand descriptions on rindo.pl so they use only verified database content. The change is waiting for automated checks and review.",
+   "text_uk": "Mateus готує зміну: описи пропозицій і брендів на rindo.pl тепер беруться лише з бази даних, за пропозицією Nory. Зміна очікує перевірки.",
+   "task": 152
+  },
+  {
+   "t": "03:11",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change so that offers and brand descriptions on rindo.pl come only from the database. The pull request is waiting for CI and review.",
+   "text_uk": "Mateus вніс зміну: пропозиції та описи брендів на rindo.pl тепер беруться лише з бази даних. Зміна очікує на перевірку.",
+   "task": 152
+  },
+  {
+   "t": "03:11",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a change to offers and brand descriptions without merging it, keeping only database content after Nora's feedback.",
+   "text_uk": "Зміни Mateusa до пропозицій і описів брендів відхилили. На rindo.pl лишаємо лише вміст із бази даних, згідно із зауваженнями Нори.",
+   "task": 152
+  },
+  {
+   "t": "03:13",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Fixing offer data on partner store pages so every field matches the database. The next version is waiting for a quality check.",
+   "text_uk": "Оновлюємо дані про пропозиції на сторінках магазинів, щоб кожне поле мало підтвердження в базі. Наступна версія чекає на перевірку якості.",
+   "task": 152
+  },
+  {
+   "t": "03:13",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on experiment readings (Oct 27-28) and browser approval before the next steps; this week's work went into offer quality.",
+   "text_uk": "Наступні кроки чекають результатів експериментів 27 і 28 жовтня та дозволу браузера, тому Mateus і команда зосередилися на якості пропозицій.",
+   "task": null
+  },
+  {
+   "t": "03:13",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -749,6 +803,21 @@
    {
     "t": "02:35",
     "kind": "commission"
+   },
+   {
+    "t": "03:09",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "03:12",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "03:13",
+    "kind": "gate",
+    "ok": false
    }
   ],
   "scenes": []
