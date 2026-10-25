@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T20:47+01:00",
+ "generated_at": "2026-10-25T20:57+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -2494,6 +2494,15 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "20:48",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Assigning Lukas a task today, 25 October 2026.",
+   "text_uk": "Сьогодні Лукас отримав нове завдання в команді rindo.pl.",
+   "task": 151
   }
  ],
  "plan": [
@@ -3040,6 +3049,31 @@
     "t": "19:00",
     "kind": "index",
     "n": 1
+   },
+   {
+    "t": "20:51",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "20:53",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "20:55",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "20:56",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "20:57",
+    "kind": "gate",
+    "ok": false
    }
   ],
   "scenes": [
