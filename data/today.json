@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T14:24+01:00",
+ "generated_at": "2026-10-25T14:35+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -1833,7 +1833,7 @@
    "t": "14:15",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 13,
    "text": "Assigning Lukas a task for today's work on rindo.pl.",
    "text_uk": "Сьогодні Lukas отримав нове завдання.",
    "task": 161
@@ -1845,6 +1845,42 @@
    "dur": null,
    "text": "Gift guide for kids, grandparents and grandfathers is live, and we've asked Google to index it. Lukas is gathering facts for the next seasonal gap: gift cards.",
    "text_uk": "Гід з подарунками для дітей, бабусь і дідусів уже на rindo.pl. Lukas збирає дані для наступної сезонної теми: подарункових карток.",
+   "task": 161
+  },
+  {
+   "t": "14:28",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is writing a seasonal guide to a retail chain's 2026 gift cards, covering denominations, validity and rules. It's now in automated checks and review.",
+   "text_uk": "Mateus написав сезонний посібник про подарункові картки великої польської мережі магазинів: номінали, строк дії та правила. Зміни очікують на перевірку.",
+   "task": 161
+  },
+  {
+   "t": "14:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "A gift card guide for a Polish media retailer passed quality review and awaits merging. Next: checking the live page and requesting indexing.",
+   "text_uk": "Гід з подарункових карток польського медіамагазину пройшов перевірку якості. Далі: публікація, перевірка сторінки та запит на індексацію.",
+   "task": 161
+  },
+  {
+   "t": "14:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "14:30",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus and his team published a 2026 seasonal guide on rindo.pl covering gift card values, validity and rules for a major Polish retail chain.",
+   "text_uk": "Mateus оновлює на rindo.pl посібник про подарункові картки великої польської мережі магазинів: номінали, терміни дії та правила до сезону.",
    "task": 161
   }
  ],
@@ -2238,7 +2274,7 @@
    {
     "t": "14:00",
     "kind": "index",
-    "n": 1
+    "n": 2
    },
    {
     "t": "14:01",
@@ -2267,6 +2303,20 @@
     "t": "14:23",
     "kind": "gate",
     "ok": false
+   },
+   {
+    "t": "14:25",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "14:27",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "14:30",
+    "kind": "deploy"
    }
   ],
   "scenes": []
@@ -2331,7 +2381,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -19.19,
+  "week": -19.18,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
