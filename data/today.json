@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T17:56+01:00",
+ "generated_at": "2026-10-25T18:07+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -2152,6 +2152,51 @@
    "text": "Assigning Lukas a task for today, 25 October 2026.",
    "text_uk": "Сьогодні Lukas отримав нове завдання для rindo.pl.",
    "task": 161
+  },
+  {
+   "t": "18:00",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is preparing a seasonal guide to Advent calendars for the holidays, with sections for kids, men and women. The update is waiting on automated checks and review.",
+   "text_uk": "Mateus готує посібник з адвентових календарів 2026 для дітей, чоловіків і жінок. Зміни чекають на автоматичну перевірку та рев'ю.",
+   "task": 161
+  },
+  {
+   "t": "18:01",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Our guide to advent calendars (for kids, men and women) passed quality review after two rounds and is waiting to be merged.",
+   "text_uk": "Посібник про адвент-календарі (для дітей, чоловіків і жінок) пройшов перевірку якості після двох раундів правок і чекає на публікацію.",
+   "task": 161
+  },
+  {
+   "t": "18:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on Monday's ranking check before the seasonal gate, and the stores under focus are being reviewed around the 27th and 28th.",
+   "text_uk": "Завершуємо блок: чекаємо на понеділковий замір позицій, а фокусні магазини оцінюємо за результатами експериментів 27 і 28 жовтня.",
+   "task": null
+  },
+  {
+   "t": "18:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "18:02",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Publishing a seasonal guide to 2026 advent calendars for kids, men, and women on rindo.pl.",
+   "text_uk": "Mateus і команда оновлюють rindo.pl: посібник з адвент-календарів 2026 року з польської мережі магазинів медіа та книжок, для дітей, чоловіків і жінок.",
+   "task": 161
   }
  ],
  "plan": [
@@ -2632,6 +2677,25 @@
    {
     "t": "17:47",
     "kind": "change"
+   },
+   {
+    "t": "17:57",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "17:59",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "18:00",
+    "kind": "index",
+    "n": 1
+   },
+   {
+    "t": "18:02",
+    "kind": "deploy"
    }
   ],
   "scenes": []
@@ -2696,7 +2760,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -18.09,
+  "week": -18.07,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
