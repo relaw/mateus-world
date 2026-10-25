@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T04:25+01:00",
+ "generated_at": "2026-10-25T04:36+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -738,6 +738,51 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "04:25",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 4,
+   "text": "Lukas is gathering verifiable facts for a rindo.pl page that answers a common search question about discount codes for a food delivery app.",
+   "text_uk": "Лукас збирає перевірювані факти, щоб відповісти на питання з пошуку про знижкові коди для служби доставки їжі на rindo.pl.",
+   "task": 151
+  },
+  {
+   "t": "04:26",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Preparing a new store page for its first Google crawl, with competitor benchmarking and research into the questions shoppers ask.",
+   "text_uk": "Готуємо сторінку нового магазину до першого сканування Google: порівнюємо її з лідерами видачі та замовлюємо дослідження фактів для відповідей на запитання користувачів.",
+   "task": 151
+  },
+  {
+   "t": "04:26",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on results from the last batch of experiments due 26 to 28 October, and that block is now complete.",
+   "text_uk": "Решта магазинів із фокусного списку чекає результатів експериментів з 26 по 28 жовтня. Цей етап завершено.",
+   "task": null
+  },
+  {
+   "t": "04:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Checking the facts for the new store's page against the source, after rejecting a claim an assistant could not back up. Deployment follows in the next block.",
+   "text_uk": "Перевіряємо факти для сторінки нового магазину за першоджерелом і відкидаємо неперевірені твердження. Публікація наступним етапом.",
+   "task": 151
+  },
+  {
+   "t": "04:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
