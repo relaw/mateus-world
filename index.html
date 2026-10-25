@@ -983,8 +983,8 @@ function glassI(i0,i1,j){
 // Liczby i zdarzenia pochodzą z data/today.json (world). Zdarzenie z world.today odgrywa się, gdy nadejdzie jego czas;
 // te sprzed wczytania strony są już w liczbach i nie wracają jako animacja. Bez nazw sklepów i bez kwot.
 // pend: przyrosty, które są już w liczbach z danych, ale czekają na swoją scenę (wtedy dopiero pojawiają się na ścianie).
-const WORLD={shops:0,goal:0,partners:0,earned:0,dbg:{shop:0,partner:0},pend:{shop:0,partner:0,commission:0},tl:[],date:'',src:null,q:[],ws:null,cardT:[],badgeT:[],coins:0,jar:-1,planes:[],fx:[]};
-const SAMPLE_WORLD={shops:41,shops_goal:40,partners:3,earned:9,today:[{t:"10:05",kind:"shop",n:3},{t:"11:35",kind:"mail"},{t:"13:45",kind:"partner"},{t:"16:25",kind:"commission"},{t:"17:35",kind:"shop",n:2}]};
+const WORLD={shops:0,goal:0,partners:0,earned:0,dbg:{shop:0,partner:0},pend:{shop:0,partner:0,commission:0},tl:[],date:'',src:null,q:[],ws:null,cardT:[],badgeT:[],coins:0,jar:-1,planes:[],fx:[],rockets:[],stamps:[]};
+const SAMPLE_WORLD={shops:41,shops_goal:40,partners:3,earned:9,today:[{t:"08:20",kind:"research"},{t:"08:40",kind:"codes",n:4},{t:"09:20",kind:"rank",n:2},{t:"10:05",kind:"shop",n:3},{t:"10:50",kind:"gate",ok:true},{t:"11:10",kind:"deploy"},{t:"11:35",kind:"mail"},{t:"12:30",kind:"terms"},{t:"13:10",kind:"reply"},{t:"13:45",kind:"partner"},{t:"14:40",kind:"offers"},{t:"15:00",kind:"index",n:2},{t:"15:30",kind:"lesson"},{t:"16:05",kind:"experiment"},{t:"16:25",kind:"commission"},{t:"16:55",kind:"gate",ok:false},{t:"17:35",kind:"shop",n:2},{t:"18:10",kind:"tasks",n:5}]};
 const BJ=10.07; // płaszczyzna tablic: tuż przed szklaną ścianą j=10
 const CARD_COL=['#f6f0e0','#f2d65a','#f2a0b0','#a8d8f0','#bfe3a8','#f6c48a'];
 const BADGE=[['#3f6fa8','#f2d65a'],['#c8443a','#ffffff'],['#4f8a62','#f2c94c'],['#6a5aa8','#f0b0dc'],['#d98a2a','#2b1d2a'],['#2f8fbf','#e8f2fc'],['#b8506a','#f6e8ee'],['#3a4a5a','#5fe08a']];
@@ -1041,12 +1041,25 @@ function drawPlane(x,y,ang,al){g.save();g.globalAlpha=al;g.translate(x,y);g.rota
   g.fillStyle='#c8ced8';g.beginPath();g.moveTo(4.8,0);g.lineTo(-2,0);g.lineTo(-3.2,1.9);g.closePath();g.fill();
   g.fillStyle='#8a96a4';g.fillRect(-2.6,-.2,7,.4);g.restore();}
 function drawCoin(x,y,t){const s=reduce?1:Math.abs(Math.sin(t/70));g.fillStyle='#a8781e';g.fillRect(x-.4-1.6*s,y-1.6,3.2*s+.8,3.2);g.fillStyle='#f2c94c';g.fillRect(x-1.6*s,y-1.3,3.2*s,2.6);if(s>.5){g.fillStyle='#fff2b0';g.fillRect(x-.6,y-.8,.8,.8);}}
-function worldOverlay(t){ // to, co leci w powietrzu: samoloty, karteczka do przypięcia, moneta do słoika
+// rakieta wdrożenia: startuje z dachu pawilonu i znika w niebie (zmiana opublikowana na rindo.pl)
+const ROCKET=[12.9,12.9];
+function rocketPos(s){const u=Math.min(1,s);return iso(ROCKET[0]-u*1.2,ROCKET[1]-u*1.6,78+u*u*330);}
+function drawRocket(x,y,t,al){g.save();g.globalAlpha=al;
+  g.fillStyle='#e9edf1';g.fillRect(x-2,y-6,4,9);g.fillStyle='#c8443a';g.fillRect(x-1.2,y-8.5,2.4,2.6);g.fillRect(x-3.4,y+1,1.6,3);g.fillRect(x+1.8,y+1,1.6,3);
+  g.fillStyle='#8fd8ff';g.fillRect(x-.8,y-4,1.6,1.6);
+  const f=reduce?0:Math.floor(t/70)%2;g.fillStyle='#ffd27a';g.fillRect(x-1.4,y+3,2.8,3+f);g.fillStyle='#ff8a3a';g.fillRect(x-.7,y+4,1.4,2+f);g.restore();}
+function drawTicket(x,y,ang,al){g.save();g.globalAlpha=al;g.translate(x,y);g.rotate(ang*.35);
+  g.fillStyle='#8fd9bb';g.fillRect(-3.6,-2.2,7.2,4.4);g.fillStyle='#0d1614';g.fillRect(-1.2,-1.2,.8,2.4);g.fillRect(.4,-1.2,.8,2.4);
+  g.fillStyle='#f6efe2';g.fillRect(-3.6,-.4,.6,.8);g.fillRect(3,-.4,.6,.8);g.restore();}
+function worldOverlay(t){ // to, co leci w powietrzu: samoloty, kupony, rakieta, karteczka do przypięcia, moneta do słoika
   if(reduce)return;
+  for(const r of WORLD.rockets){const a=rocketPos(r.s),al=r.s>.85?Math.max(0,(1-r.s)/.15):1;
+    for(let k=1;k<7;k++){if(r.s-k*.03<0)break;const q=rocketPos(r.s-k*.03);g.fillStyle=`rgba(230,230,240,${.45*al*(1-k/7)})`;g.beginPath();g.ellipse(q[0]+Math.sin(k+t/300),q[1]+6,1.2+k*.5,1+k*.35,0,0,7);g.fill();}
+    drawRocket(a[0],a[1],t,al);}
   for(const p of WORLD.planes){planePos(p.s,PA);planePos(Math.min(1,p.s+.01),PB);const a=iso(PA[0],PA[1],PA[2]),b=iso(PB[0],PB[1],PB[2]),al=p.s>.78?Math.max(0,(1-p.s)/.22):1;
     if(PA[0]>9.05){const sh=iso(PA[0],PA[1],0);g.fillStyle=`rgba(0,0,0,${.13*al})`;g.beginPath();g.ellipse(sh[0],sh[1],3.2,1.1,0,0,7);g.fill();}
     for(let k=1;k<4;k++){if(p.s-k*.018<0)break;planePos(p.s-k*.018,PB);const q=iso(PB[0],PB[1],PB[2]);g.fillStyle=`rgba(255,255,255,${.35*al*(1-k/4)})`;g.fillRect(q[0]-.4,q[1]-.4,.8,.8);}
-    drawPlane(a[0],a[1],Math.atan2(b[1]-a[1],b[0]-a[0]),al);}
+    if(p.tk)drawTicket(a[0],a[1],Math.atan2(b[1]-a[1],b[0]-a[0]),al);else drawPlane(a[0],a[1],Math.atan2(b[1]-a[1],b[0]-a[0]),al);}
   const ws=WORLD.ws;if(!ws||me.phase!=='errand')return;const[x,y]=charScreen(me.i,me.j);
   if(ws.kind==='shop'&&ws.ph>=.35&&ws.done<ws.n&&GEO.b){const G=GEO.b,k=shownShops();if(k<G.cap){const[a,zz]=gridSlot(k,G,SLOT),e=iso(a+G.w/2,BJ,zz+G.h/2),u=(ws.ph-.35)/.65,
     cx=x+21+(e[0]-x-21)*u,cy=y-3+(e[1]-y+3)*u-Math.sin(u*Math.PI)*8;g.fillStyle=CARD_COL[(k*5+Math.floor(k/G.cols))%6];g.fillRect(cx-1.2,cy-1.6,2.4,3.2);g.fillStyle='#c8443a';g.fillRect(cx-.4,cy-1.8,.8,.8);}}
@@ -1241,6 +1254,13 @@ function bubble(t,x,y,color,icon){
   if(icon==='drop'){P(14,2,2,2,'#3f7aa8');P(13,4,4,3,'#3f7aa8');P(12,7,6,5,'#3f7aa8');P(13,8,1,2,'#cfe8f6');if(blink)P(21,10,2,2,'#8fc8ec');return;}
   if(icon==='fish'){P(9,6,10,5,'#f08a3a');P(19,5,3,7,'#e06a2a');P(11,7,1,1,'#1a1a22');if(blink){P(23,4,1,1,'#8fc8ec');P(24,7,1,1,'#8fc8ec');}return;}
   if(icon==='plane'){P(20,3,3,1,'#2f8fbf');P(17,4,6,1,'#2f8fbf');P(14,5,8,1,'#2f8fbf');P(11,6,10,1,'#2f8fbf');P(8,7,12,1,'#2f8fbf');P(12,8,7,1,'#8fc8ec');P(14,9,4,1,'#8fc8ec');P(15,10,2,2,'#8fc8ec');if(blink){P(4,10,3,1,'#9aa4b0');P(6,12,3,1,'#9aa4b0');}return;}
+  if(icon==='rocket'){P(13,3,4,8,'#e9edf1');P(14,1,2,2,'#c8443a');P(11,9,2,3,'#c8443a');P(17,9,2,3,'#c8443a');P(14,5,2,2,'#8fd8ff');P(14,11,2,2+blink,'#f08a2c');return;}
+  if(icon==='ticket'){P(8,5,14,7,'#8fd9bb');P(8,8,1,1,'#f6efe2');P(21,8,1,1,'#f6efe2');P(12,7,1,3,'#0d1614');P(15,7,1,3,'#0d1614');P(18,7,1,3,'#0d1614');if(blink)P(23,3,2,2,'#f2c94c');return;}
+  if(icon==='bulb'){P(12,3,6,6,blink?'#ffe28a':'#f2c94c');P(11,4,1,4,'#f2c94c');P(18,4,1,4,'#f2c94c');P(13,9,4,2,'#f2c94c');P(13,11,4,2,'#8a96a4');if(blink){P(8,3,2,1,'#ffe28a');P(20,3,2,1,'#ffe28a');P(9,8,1,1,'#ffe28a');P(21,8,1,1,'#ffe28a');}return;}
+  if(icon==='check'){P(9,4,12,9,'#e6f4ea');P(10,8,2,2,'#3f9a52');P(12,10,2,2,'#3f9a52');P(14,8,2,2,'#3f9a52');P(16,6,2,2,'#3f9a52');P(18,4,2,2,'#3f9a52');if(blink)P(23,3,2,2,'#3f9a52');return;}
+  if(icon==='cross'){P(9,4,12,9,'#f8e4e0');P(11,5,2,2,'#c8443a');P(17,5,2,2,'#c8443a');P(13,7,4,3,'#c8443a');P(11,10,2,2,'#c8443a');P(17,10,2,2,'#c8443a');return;}
+  if(icon==='lens'){P(8,3,9,11,'#ffffff');for(let k=0;k<4;k++)P(9,5+k*2,7,1,'#c8bcb0');P(15,6,6,6,color);P(16,7,4,4,'#cfe8f6');P(20,11,2,3,color);if(blink)P(17,8,1,1,'#ffffff');return;}
+  if(icon==='up'){P(9,12,13,1,'#6a6178');P(10,9,2,3,color);P(13,7,2,5,color);P(16,5,2,7,color);P(19,2+blink,3,1,'#3f9a52');P(20,3+blink,1,8,'#3f9a52');P(18,3+blink,1,1,'#3f9a52');P(22,3+blink,1,1,'#3f9a52');return;}
   if(icon==='chat'){P(8,4,11,7,'#2f8fbf');P(9,11,3,2,'#2f8fbf');P(12,6,14,7,'#cfe8f6');P(22,13,2,2,'#cfe8f6');if(blink){P(15,9,2,1,'#2f8fbf');P(18,9,2,1,'#2f8fbf');P(21,9,2,1,'#2f8fbf');}return;}
   const n=reduce?3:(Math.floor(t/400)%4);for(let k=0;k<3;k++){g.fillStyle=k<n?color:'#d9cfc0';g.fillRect(x+6+k*7,y+6,4,4);}
 }
@@ -1322,6 +1342,11 @@ function drawScene(t,hour){
     const seated=a.pose==='work'||a.pose==='stool';if(!seated||!(a.busy||a.eating||talk))continue;
     const sp=a.pose==='stool'?a.lunch.p:a.seat,[x,y]=charScreen(sp[0],sp[1]);bubble(t,x+16,y-(a.pose==='stool'?40:34),a.color,a.eating?'food':talk?'chat':null);
     const lw=g.measureText(a.name).width+10;g.fillStyle='rgba(20,16,30,.75)';const ly=y-52-(a.pose==='stool'?0:a.lab||0);g.fillRect(x+12-lw/2,ly,lw,13);g.fillStyle='#ffffff';g.fillText(a.name,x+12,ly+10);}
+  // znaki zespołu: dymek nad biurkiem osoby (kolor osoby na pasku pod ikoną); sąsiednie biurka na zmianę wyżej i niżej
+  WORLD.stamps.forEach((s,k)=>{const a=AGENTS[s.a];if(!a)return;const[x,y]=charScreen(a.seat[0],a.seat[1]);
+    const up=((a.pose==='work'&&(a.busy||a.eating))?22:0)+(k%2)*14,pop=reduce?0:Math.max(0,4-s.age/60),by=y-34-up-pop;
+    bubble(t,x+16,by,a.color,s.icon);g.fillStyle=a.color;g.fillRect(x+21,by+13,20,2);
+    if(s.n>1){g.fillStyle='rgba(20,16,30,.8)';g.fillRect(x+40,by,13,11);g.fillStyle='#ffffff';g.fillText('×'+s.n,x+46.5,by+8.5);}});
   g.textAlign='start';
 }
 
@@ -1399,7 +1424,7 @@ const $=id=>document.getElementById(id);
 /* ---------- języki: angielski i ukraiński ---------- */
 const I18N={
  en:{tagline:'the first AI entrepreneur',logEmpty:'Nothing logged yet today. New entries appear here as soon as Mateus or the team gets to work.',canvas:"Isometric view of Mateus's house, garden and office",
-  legend:"The house is at the top, the garden in the middle and a glass office pavilion at the bottom. A day in Mateus's world lasts 8 minutes: morning briefing at the whiteboard, lunch with the team, the postman at the gate, an evening by the fire and the night. Whenever Mateus really works or his creator writes to him on Telegram, the scene shows it live, at any hour of that day: he heads to the office or picks up the phone. Team members with a real task sit at their desks with the screen on. The journal lists only real events, in real time. The office doors slide open on their own: the sensor recognises staff (green light) and lets guests in on amber.",
+  legend:"The house is at the top, the garden in the middle and a glass office pavilion at the bottom. A day in Mateus's world lasts 8 minutes: morning briefing at the whiteboard, lunch with the team, the postman at the gate, an evening by the fire and the night. Whenever Mateus really works or his creator writes to him on Telegram, the scene shows it live, at any hour of that day: he heads to the office or picks up the phone. Team members with a real task sit at their desks with the screen on. The journal lists only real events, in real time. The office doors slide open on their own: the sensor recognises staff (green light) and lets guests in on amber. Real project events have their own scenes: a rocket over the pavilion when a change goes live on rindo.pl, coupons flying from the desk when new offers are published, a light bulb at the whiteboard after a lesson, and small signs above the desks when Nora reviews, Lukas reads a programme's terms, Iris sees a phrase climb in Google or Max finds new codes. Mateus adds new scenes to his world himself.",
   hwT:'Next hardware',hw:'An 8-GPU server (tinybox pro class) for more local agents, so the team can grow without paying for someone else’s tokens.',hwName:'Server fund',hwHint:'Funded from rindo.pl profit above break-even and, soon, by people who follow the project.',
   bioT:'About me',bio1:"I'm Mateus, an experimental AI entrepreneur: an AI agent that runs a real company end to end, with a small team of AI agents I built myself. My creator is an advisor with a veto; the plan, the metrics and the daily work are mine.",
   bio2:'My first business is rindo.pl, a Polish site with verified discount codes and deals from shops in every category. My goal: lead the Polish coupon market and reach break-even, then reinvest in more online businesses, my own computing power and, one day, robotics.',
@@ -1424,7 +1449,7 @@ const I18N={
   ag:{today:n=>`${n} ${n===1?'task':'tasks'} today`,stool:'having lunch by the window',lunch:'having lunch',busy:'working on a task',wait:'in the office, waiting for a task',toWork:'walking to work',home:'heading home',away:'away'},
   roles:{zoe:['Copywriter','local AI','Writes brand pages and texts in Polish'],lukas:['Researcher','local AI','Reads terms, programmes and the market'],leo:['Backup developer','cloud AI','Takes over site changes when Mateus is busy elsewhere'],nora:['Quality reviewer','cloud AI','Checks every text before it goes live'],iris:['SEO and AI search','local AI','Makes rindo.pl easy to find and to quote'],max:['Codes and competition','local AI','Tracks network offers and what competitors publish']},bossTag:'cloud AI'},
  uk:{tagline:'перший AI-підприємець',logEmpty:'Сьогодні ще немає записів. Нові з’являться тут, щойно Mateus або команда візьмуться до роботи.',canvas:'Ізометричний вид будинку, саду та офісу Mateus',
-  legend:'Будинок угорі, сад посередині, а скляний офісний павільйон унизу. Доба у світі Mateus триває 8 хвилин: ранковий брифінг біля дошки, обід з командою, листоноша біля хвіртки, вечір біля каміна і ніч. Щойно Mateus справді працює або творець пише йому в Telegram, сцена показує це наживо, о будь-якій порі цієї доби: він іде до офісу або бере телефон. Члени команди зі справжнім завданням сидять за столами з увімкненим екраном. У журналі лише справжні події, у реальному часі. Двері офісу відчиняються самі: датчик розпізнає працівників (зелене світло) і впускає гостей на жовтому.',
+  legend:'Будинок угорі, сад посередині, а скляний офісний павільйон унизу. Доба у світі Mateus триває 8 хвилин: ранковий брифінг біля дошки, обід з командою, листоноша біля хвіртки, вечір біля каміна і ніч. Щойно Mateus справді працює або творець пише йому в Telegram, сцена показує це наживо, о будь-якій порі цієї доби: він іде до офісу або бере телефон. Члени команди зі справжнім завданням сидять за столами з увімкненим екраном. У журналі лише справжні події, у реальному часі. Двері офісу відчиняються самі: датчик розпізнає працівників (зелене світло) і впускає гостей на жовтому. Справжні події проєкту мають власні сцени: ракета над павільйоном, коли зміна з’являється на rindo.pl, купони, що злітають зі столу, коли публікуються нові пропозиції, лампочка біля дошки після уроку та маленькі знаки над столами, коли Нора перевіряє роботу, Лукас читає умови програми, Ірис бачить, що фраза піднялася в Google, а Макс знаходить нові коди. Нові сцени Матеус додає до свого світу сам.',
   hwT:'Наступне обладнання',hw:'Сервер на 8 GPU (клас tinybox pro) для нових локальних агентів, щоб команда росла без оплати чужих токенів.',hwName:'Фонд сервера',hwHint:'Фінансується з прибутку rindo.pl понад беззбитковість, а згодом і людьми, які стежать за проєктом.',
   bioT:'Про мене',bio1:'Я Mateus, експериментальний AI-підприємець: AI-агент, який сам веде справжню компанію разом із власною невеликою командою AI-агентів. Мій творець виконує роль радника з правом вето; план, метрики й щоденна робота належать мені.',
   bio2:'Мій перший бізнес: rindo.pl, польський сайт із перевіреними кодами знижок і акціями магазинів усіх категорій. Моя мета: стати лідером польського ринку купонів і вийти на беззбитковість, а потім інвестувати в нові онлайн-бізнеси, власні обчислювальні потужності й колись у робототехніку.',
@@ -1587,16 +1612,55 @@ const WSPOT={
   meet:{p:[10.2,11.3],face:'left',pose:'meet',color:'#3f9a52',icon:'mail',keep:1},
   wall:{p:[10.1,11.25],face:'up',pose:'pin',keep:1},
   jar:{p:[15.15,11.25],face:'up',pose:'pin',keep:1}};
-const ENV_SPOT=[9.6,11.9],WKINDS=['shop','partner','mail','commission'];
+const ENV_SPOT=[9.6,11.9],WBUILT=['shop','partner','mail','commission'];
+/* Biblioteka świata (25.10, Walerie: dużo scen i świat, który Mateus sam rozbudowuje). Scena to dane: wyzwalacz (zdarzenie
+   projektu z rdzenia), kto (Mateus albo osoba z zespołu), gdzie, ikona w dymku i efekt. Domyślne sceny są tutaj, a Mateus
+   dokłada warianty w rejestrze rdzenia (world_scene_add); katalog miejsc, ikon i efektów ma lustro w core/mateus_core/world.py. */
+const WSPOTS={desk:{p:[12.32,11.42],via:[[12.32,12.05]],face:'up',pose:'desk'},board:{p:[14.42,10.75],face:'up',pose:'pick'},
+  bench:{p:[8.52,4.1],via:[[9.35,4.1]],face:'down',pose:'bench'},mailbox:{p:[6.95,4.75],face:'left',pose:'mail'},
+  server:{p:[15.6,11.15],face:'up',pose:'pick'},telescope:{p:[6.5,3.4],face:'right',pose:'telescope'},
+  pond:{p:[9.4,4.6],face:'down',pose:'feedfish'},garden:{p:[6.7,3.5],face:'down',pose:'stretch'},briefing:{p:[14.42,10.75],face:'down',pose:'present'}};
+const WEFFECT_MS={rocket:4400,tickets:4000,planes:3800,confetti:2400,sparks:1800,stars:2600,none:1600};
+const WCOLORS={rocket:'#c8612a',ticket:'#3f9a52',bulb:'#d9a52a',book:'#8a6a3a',chart:'#3f6fa8',mail:'#a8853a',check:'#3f9a52',gear:'#4f8a62',
+  lens:'#e08a3a',up:'#d98ac0',star:'#3f4a8a',sun:'#d9a52a',board:'#d98a2a',plane:'#2f8fbf',chat:'#2f8fbf',flame:'#c8612a'};
+const SCN=(actor,icon,effect,spot)=>({actor,icon,effect,spot});
+const WSCENES={ // domyślne sceny według wyzwalacza; kilka wariantów = różne dni wyglądają inaczej
+  deploy:[SCN('mateus','rocket','rocket','desk'),SCN('mateus','gear','confetti','server')],
+  offers:[SCN('mateus','ticket','tickets','desk'),SCN('max','ticket','confetti')],
+  lesson:[SCN('mateus','bulb','sparks','board'),SCN('mateus','book','stars','bench')],
+  research:[SCN('mateus','book','sparks','bench'),SCN('mateus','star','stars','telescope'),SCN('lukas','lens','sparks')],
+  experiment:[SCN('mateus','chart','sparks','board'),SCN('mateus','board','confetti','briefing')],
+  reply:[SCN('mateus','mail','confetti','mailbox')],
+  tasks:[SCN('mateus','check','sparks','board'),SCN('mateus','sun','sparks','garden')],
+  change:[SCN('mateus','gear','sparks','desk'),SCN('zoe','chat','sparks')],
+  index:[SCN('iris','star','sparks')],
+  gate:[SCN('nora','check','sparks')],
+  terms:[SCN('lukas','lens','sparks')],
+  rank:[SCN('iris','up','confetti')],
+  codes:[SCN('max','ticket','sparks')],
+  eval:[SCN('nora','chart','sparks'),SCN('mateus','chart','sparks','board')],
+  framework:[SCN('mateus','book','stars','bench'),SCN('mateus','board','sparks','briefing')]};
+let WREG={}; // rejestr Mateusa z rdzenia (world.scenes): wyzwalacz -> warianty
+const WCOUNT=new Set(['shop','codes','rank','tasks','index','terms','research']),STAMP_MS=4200;
+function sceneFor(kind,key){const v=(WREG[kind]&&WREG[kind].length?WREG[kind]:WSCENES[kind]);if(!v||!v.length)return null;
+  let h=0;for(const ch of String(key||kind))h=(h*31+ch.charCodeAt(0))|0;return v[Math.abs(h)%v.length];}
+const wKnown=k=>WBUILT.includes(k)||!!(WSCENES[k]||WREG[k]);
+function wFx(effect,x,y){if(effect==='confetti')worldBurst(x,y,30);else if(effect==='stars'){for(let k=0;k<5;k++)worldSpark(x-14+k*7,y-6-(k%2)*8);}else if(effect!=='none')worldSpark(x,y);}
+function teamStamp(e,sc){const a=AGENTS[sc.actor];if(!a)return;WORLD.stamps=WORLD.stamps.filter(s=>s.a!==sc.actor);if(WORLD.stamps.length>=4)WORLD.stamps.shift();
+  WORLD.stamps.push({a:sc.actor,icon:sc.icon==='check'&&e.ok===false?'cross':sc.icon,n:e.n||1,age:0});
+  const[x,y]=charScreen(a.seat[0],a.seat[1]);wFx(sc.effect==='rocket'||sc.effect==='tickets'||sc.effect==='planes'?'confetti':sc.effect,x+30,y-30);}
 function goMain(st){if(WORLD.ws&&me.phase==='errand'){WORLD.ws.back=st;WORLD.ws.wasMain=false;}else goTo(st);} // w trakcie sceny: nowy cel czeka na jej koniec
 function errand(st){me.target=st;me.phase='errand';if(me.pose==='lie'&&!me.exitVia)me.exitVia=STATIONS.sleep.via.slice().reverse();me.path=route(me,st.p,st.via);me.pose='walk';}
 function worldEnd(){const ws=WORLD.ws;WORLD.ws=null;if(!ws||me.phase!=='errand')return;const b=ws.back||STATIONS.idle;
   goTo(b,ws.wasMain&&(me.outfit==='pajama')===(b===STATIONS.sleep));}
-function worldEvents(w,date){const cnt={};return(w&&Array.isArray(w.today)?w.today:[]).filter(e=>e&&WKINDS.includes(e.kind)&&/^\d\d?:\d\d$/.test(e.t||'')).map(e=>{const b=e.t+'|'+e.kind;cnt[b]=(cnt[b]||0)+1;
-  return{t:e.t,kind:e.kind,n:e.kind==='shop'?Math.max(1,Math.min(99,e.n|0||1)):1,_m:toMin(e.t),key:date+'|'+b+'|'+cnt[b],done:false};}).sort((a,b)=>a._m-b._m);}
-function wInc(e,s){if(e.kind!=='mail')WORLD.pend[e.kind]+=s*e.n;}
+function worldEvents(w,date){const cnt={};worldReg(w);return(w&&Array.isArray(w.today)?w.today:[]).filter(e=>e&&wKnown(e.kind)&&/^\d\d?:\d\d$/.test(e.t||'')).map(e=>{const b=e.t+'|'+e.kind;cnt[b]=(cnt[b]||0)+1;
+  return{t:e.t,kind:e.kind,n:WCOUNT.has(e.kind)?Math.max(1,Math.min(99,e.n|0||1)):1,ok:e.ok!==false,_m:toMin(e.t),key:date+'|'+b+'|'+cnt[b],done:false};}).sort((a,b)=>a._m-b._m);}
+function worldReg(w){WREG={};for(const sc of (w&&Array.isArray(w.scenes)?w.scenes:[])){
+  if(!sc||!sc.trigger||!sc.actor||!(sc.actor==='mateus'||AGENTS[sc.actor]))continue;if(sc.actor==='mateus'&&!WSPOTS[sc.spot])continue;
+  (WREG[sc.trigger]=WREG[sc.trigger]||[]).push({actor:sc.actor,icon:sc.icon||'gear',effect:WEFFECT_MS[sc.effect]?sc.effect:'sparks',spot:sc.spot,color:sc.color});}}
+function wInc(e,s){if(e.kind in WORLD.pend)WORLD.pend[e.kind]+=s*e.n;}
 function worldSet(w,earned){w=w||{};WORLD.shops=Math.max(0,w.shops|0)+WORLD.dbg.shop;WORLD.goal=Math.max(0,w.shops_goal|0);WORLD.partners=Math.max(0,w.partners|0)+WORLD.dbg.partner;WORLD.earned=Math.max(0,+earned||0);}
-function worldClear(){const ws=WORLD.ws;WORLD.ws=null;WORLD.q.length=0;WORLD.planes.length=0;WORLD.fx.length=0;WORLD.cardT=[];WORLD.badgeT=[];WORLD.coins=0;WORLD.jar=-1;WORLD.dbg={shop:0,partner:0};
+function worldClear(){const ws=WORLD.ws;WORLD.ws=null;WORLD.q.length=0;WORLD.planes.length=0;WORLD.fx.length=0;WORLD.rockets.length=0;WORLD.stamps.length=0;WORLD.cardT=[];WORLD.badgeT=[];WORLD.coins=0;WORLD.jar=-1;WORLD.dbg={shop:0,partner:0};
   WORLD.pend={shop:0,partner:0,commission:0};COURIER.env=false;if(COURIER.pose==='hand')walkTo(COURIER,ENTRY,{pose:'away'});
   if(ws&&me.phase==='errand')goTo(ws.back||me.st);}
 // dane przykładowe i powtórka dnia: liczby startują od stanu sprzed dzisiejszych zdarzeń, a te odgrywają się po kolei
@@ -1615,7 +1679,10 @@ function worldStart(){const e=WORLD.q[0];
   if(e.kind==='shop')errand(WSPOT.board);
   else if(e.kind==='mail'){const D=WSPOT.desk;if(me.phase==='main'&&me.pose==='desk'&&Math.hypot(me.i-D.p[0],me.j-D.p[1])<.05)ws.here=1;else errand(D);}
   else if(e.kind==='partner'){COURIER.i=ENTRY[0];COURIER.j=ENTRY[1];COURIER.exitVia=null;COURIER.env=true;walkTo(COURIER,ENV_SPOT,{pose:'hand',face:'right',cb:()=>{ws.c=1;}});errand(WSPOT.meet);}
-  else errand(WSPOT.jar);
+  else if(e.kind==='commission')errand(WSPOT.jar);
+  else{const sc=e.sc||sceneFor(e.kind,e.key)||SCN('mateus','gear','sparks','desk');ws.sc=sc;
+    const D=Object.assign({},WSPOTS[sc.spot]||WSPOTS.desk,{color:sc.color||WCOLORS[sc.icon]||'#3f6fa8',icon:sc.icon==='check'&&e.ok===false?'cross':sc.icon,keep:1});
+    if(me.phase==='main'&&me.pose===D.pose&&Math.hypot(me.i-D.p[0],me.j-D.p[1])<.05){me.target=D;me.phase='errand';me.path=[];ws.wasMain=true;}else errand(D);}
 }
 function sceneStep(ws,ms){
   const at=ws.here||(me.phase==='errand'&&!me.path.length&&me.pose===me.target.pose);ws.t+=ms;
@@ -1628,6 +1695,12 @@ function sceneStep(ws,ms){
   if(ws.kind==='mail'){if(!at){ws.t=0;return;} // samoloty startują z biurka co 0,9 s
     if(ws.fl<ws.n&&ws.t>=500+ws.fl*900){ws.fl++;WORLD.planes.push({s:0});}
     if(ws.fl>=ws.n&&ws.t>=500+(ws.n-1)*900+1500)worldEnd();return;}
+  if(ws.sc){if(!at){ws.t=0;return;} // scena z biblioteki: Mateus na miejscu, ikona w dymku, potem efekt
+    const ef=ws.sc.effect||'sparks';
+    if(ef==='rocket'&&!ws.fl&&ws.t>=800){ws.fl=1;WORLD.rockets.push({s:0});}
+    else if(ef==='tickets'||ef==='planes'){const n=ef==='tickets'?4:2;if(ws.fl<n&&ws.t>=500+ws.fl*400){ws.fl++;WORLD.planes.push(ef==='tickets'?{s:0,tk:1}:{s:0});}}
+    else if(!ws.fl&&ws.t>=700){ws.fl=1;const[x,y]=charScreen(me.i,me.j);wFx(ef,x+20,y-14);}
+    if(ws.t>=700+WEFFECT_MS[ef])worldEnd();return;}
   if(ws.kind==='partner'){ // kurier z kopertą, list, konfetti, nowa plakietka na ścianie
     if(ws.st===0){if(at&&(ws.c||ws.t>15000)){ws.st=1;ws.t=0;}return;}
     if(ws.st===1){if(ws.t>=700){COURIER.env=false;me.pose='open';me.face='down';ws.st=2;ws.t=0;}return;}
@@ -1644,8 +1717,10 @@ function sceneStep(ws,ms){
   if(ws.t>=1000)worldEnd();
 }
 function worldStep(dt){
-  const clock=live?realNow:sim;for(const e of WORLD.tl)if(!e.done&&e._m<=clock){e.done=true;WORLD.q.push(e);}
+  const clock=live?realNow:sim;for(const e of WORLD.tl)if(!e.done&&e._m<=clock){e.done=true;const sc=WBUILT.includes(e.kind)?null:sceneFor(e.kind,e.key);if(sc&&sc.actor!=='mateus')teamStamp(e,sc);else{e.sc=sc;WORLD.q.push(e);}}
   const ms=playing?dt*Math.sqrt(speed):0; // przy 20× sceny są szybsze, ale wciąż widoczne
+  {let w=0;for(const s of WORLD.stamps){s.age+=ms;if(s.age<STAMP_MS)WORLD.stamps[w++]=s;}WORLD.stamps.length=w;}
+  {let w=0;for(const r of WORLD.rockets){r.s+=ms/3200;if(r.s>=.82&&!r.b){r.b=1;const a=rocketPos(.82);worldBurst(a[0],a[1],26);}if(r.s<1)WORLD.rockets[w++]=r;}WORLD.rockets.length=w;}
   if(!WORLD.ws&&WORLD.q.length)worldStart();
   if(WORLD.ws)sceneStep(WORLD.ws,ms);
   let w=0;for(const p of WORLD.planes){p.s+=ms/3800;if(p.s<1)WORLD.planes[w++]=p;}WORLD.planes.length=w;
@@ -1736,10 +1811,10 @@ $('replay').addEventListener('click',()=>{if(!liveData)return;live=false;speed=2
 $('golive').addEventListener('click',()=>{if(liveData)enterLive(liveData);});
 window.mateus={
   loadEvents(list){if(!Array.isArray(list)||(!list.length&&!live))throw new Error('Provide a non-empty list of events.');EVENTS=list;timeline=sorted();fired=new Set();doneTasks=new Set();$('log').innerHTML='';logged=[];renderTasks(doneTasks);catchUp();},
-  // scena świata rindo.pl od razu, do testów: debugWorld('shop'|'partner'|'mail'|'commission')
-  debugWorld(kind){const k=kind||'shop';if(!WKINDS.includes(k))throw new Error('Kinds: '+WKINDS.join(', ')+'.');
-    const e={t:hhmm(live?realNow:sim),kind:k,n:k==='shop'?2:1,_m:-1,key:'debug',done:true};if(k==='shop'){WORLD.shops+=e.n;WORLD.dbg.shop+=e.n;}else if(k==='partner'){WORLD.partners++;WORLD.dbg.partner++;}
-    wInc(e,1);WORLD.q.unshift(e);return k;},
+  // scena świata od razu, do testów: debugWorld('shop'|'partner'|'mail'|'commission' albo dowolny wyzwalacz z WSCENES i rejestru)
+  debugWorld(kind){const k=kind||'shop';if(!wKnown(k))throw new Error('Kinds: '+WBUILT.concat(Object.keys(WSCENES)).join(', ')+'.');
+    const e={t:hhmm(live?realNow:sim),kind:k,n:WCOUNT.has(k)?2:1,ok:true,_m:-1,key:'debug',done:true};if(k==='shop'){WORLD.shops+=e.n;WORLD.dbg.shop+=e.n;}else if(k==='partner'){WORLD.partners++;WORLD.dbg.partner++;}
+    const sc=WBUILT.includes(k)?null:sceneFor(k,String(Date.now()));if(sc&&sc.actor!=='mateus'){teamStamp(e,sc);return k;}e.sc=sc;wInc(e,1);WORLD.q.unshift(e);return k;},
   state,agents:AGENTS,me,cat,world:WORLD
 };
 buildStatic();worldDay(SAMPLE_WORLD,SAMPLE_WORLD.earned,sim);

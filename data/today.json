@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T02:34+02:00",
+ "generated_at": "2026-10-25T02:45+02:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -514,9 +514,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "02:35",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing partner programme terms: resolving conflicts between rules and confirming which traffic channels we can use.",
+   "text_uk": "Творець узгодив правила двох партнерських програм: діє суворіше правило, наші канали лишаються дозволеними, а одна з програм підтверджує комісію через рік.",
+   "task": 158
+  },
+  {
+   "t": "02:35",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on experiment readouts (26-28.10) and browser approval before the next steps; picking this up in the next block.",
+   "text_uk": "Команда чекає на результати експериментів з 26 по 28 жовтня та на дозвіл браузера, щоб перейти до наступних кроків на rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "02:35",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Reviewing partner programme terms: where the terms and dashboard conflict, we follow the stricter rule. SEO and coupon site traffic remain allowed.",
+   "uk": "Звірили умови програм: для двох e-mail і банери лише за умов. SEO та купонний сайт дозволені. Комісії однієї програми зарахують не раніше ніж через рік."
+  },
   {
    "en": "Mapping out a step by step operating framework for rindo.pl, from market research and keyword clusters to monetization, seasonality and measurement.",
    "uk": "Mateus і команда розбирають покрокову стратегію rindo.pl: від карти ринку та монетизації до пошуку, контенту й вимірювання результатів."
@@ -527,8 +558,137 @@
   "shops_goal": 40,
   "partners": 27,
   "mails_today": 0,
-  "commissions_today": 0,
-  "today": []
+  "commissions_today": 1,
+  "today": [
+   {
+    "t": "00:07",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:09",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:09",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:10",
+    "kind": "deploy"
+   },
+   {
+    "t": "00:10",
+    "kind": "lesson"
+   },
+   {
+    "t": "00:10",
+    "kind": "lesson"
+   },
+   {
+    "t": "00:15",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:17",
+    "kind": "deploy"
+   },
+   {
+    "t": "00:36",
+    "kind": "lesson"
+   },
+   {
+    "t": "00:39",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:41",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:46",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:47",
+    "kind": "deploy"
+   },
+   {
+    "t": "00:57",
+    "kind": "research",
+    "n": 10
+   },
+   {
+    "t": "00:57",
+    "kind": "framework"
+   },
+   {
+    "t": "01:19",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "01:20",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "01:20",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "01:21",
+    "kind": "deploy"
+   },
+   {
+    "t": "01:42",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "01:47",
+    "kind": "offers"
+   },
+   {
+    "t": "02:00",
+    "kind": "terms",
+    "n": 15
+   },
+   {
+    "t": "02:04",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "02:06",
+    "kind": "offers"
+   },
+   {
+    "t": "02:17",
+    "kind": "lesson"
+   },
+   {
+    "t": "02:19",
+    "kind": "deploy"
+   },
+   {
+    "t": "02:23",
+    "kind": "tasks",
+    "n": 4
+   },
+   {
+    "t": "02:35",
+    "kind": "commission"
+   }
+  ],
+  "scenes": []
  },
  "lessons": [
   {
@@ -589,14 +749,14 @@
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
-  "earned": 0.12,
-  "week": -19.4,
+  "earned": 0.14,
+  "week": -19.38,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
-  "month_revenue": 0.12,
+  "month_revenue": 0.14,
   "month_costs": 84.25,
   "first_revenue_at": "2026-10-20"
  }
