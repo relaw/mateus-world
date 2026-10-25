@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T22:32+01:00",
+ "generated_at": "2026-10-25T22:52+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -3296,6 +3296,11 @@
     "kind": "change"
    }
   ],
+  "season": {
+   "bf": "2026-11-27",
+   "phrases": 49,
+   "pages": 39
+  },
   "scenes": [
    {
     "trigger": "eval",

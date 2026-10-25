@@ -899,6 +899,8 @@ function furniture(t,hour){
     const pct=Math.min(1,state.earned/state.domainTarget);qI(13.85,15,10.163,50,54,'#5a6a7a');qI(13.86,13.86+Math.max(.02,1.13*pct),10.164,51,53,pct>0?'#5fbf7a':'#8a96a4');});
   // półka z trofeami nad monitorem Mateusa (kamienie milowe z danych)
   add(21.2,[10.95,BJ-.01,11.62,BJ+.09],()=>trophyShelf(t));
+  // kalendarz sezonu nad tabletem: dni do Black Friday, okienko za każdą frazę sezonową (otwarte = jest nasza strona)
+  if(seasonDays()>=0)add(23.1,[12.72,BJ-.01,13.66,BJ+.02],()=>seasonCalendar(t));
   // lądowisko rakiety wdrożeń w ogrodzie
   add(ROCKET[0]+ROCKET[1]+.3,[ROCKET[0]-.25,ROCKET[1]-.25,ROCKET[0]+.25,ROCKET[1]+.25],()=>launchPad(t));
   // dekoracje sezonowe (kalendarz warszawski)
@@ -992,8 +994,8 @@ function glassI(i0,i1,j){
 // Liczby i zdarzenia pochodzą z data/today.json (world). Zdarzenie z world.today odgrywa się, gdy nadejdzie jego czas;
 // te sprzed wczytania strony są już w liczbach i nie wracają jako animacja. Bez nazw sklepów i bez kwot.
 // pend: przyrosty, które są już w liczbach z danych, ale czekają na swoją scenę (wtedy dopiero pojawiają się na ścianie).
-const WORLD={padT:-1e9,shops:0,goal:0,partners:0,earned:0,dbg:{shop:0,partner:0},pend:{shop:0,partner:0,commission:0},tl:[],date:'',src:null,q:[],ws:null,cardT:[],badgeT:[],coins:0,jar:-1,planes:[],fx:[],rockets:[],stamps:[]};
-const SAMPLE_WORLD={shops:41,shops_goal:40,partners:3,earned:9,today:[{t:"08:20",kind:"research"},{t:"08:40",kind:"codes",n:4},{t:"09:20",kind:"rank",n:2},{t:"10:05",kind:"shop",n:3},{t:"10:50",kind:"gate",ok:true},{t:"11:10",kind:"deploy"},{t:"11:35",kind:"mail"},{t:"12:30",kind:"terms"},{t:"13:10",kind:"reply"},{t:"13:45",kind:"partner"},{t:"14:40",kind:"offers"},{t:"15:00",kind:"index",n:2},{t:"15:30",kind:"lesson"},{t:"16:05",kind:"experiment"},{t:"16:25",kind:"commission"},{t:"16:55",kind:"gate",ok:false},{t:"17:35",kind:"shop",n:2},{t:"18:10",kind:"tasks",n:5}]};
+const WORLD={season:null,padT:-1e9,shops:0,goal:0,partners:0,earned:0,dbg:{shop:0,partner:0},pend:{shop:0,partner:0,commission:0},tl:[],date:'',src:null,q:[],ws:null,cardT:[],badgeT:[],coins:0,jar:-1,planes:[],fx:[],rockets:[],stamps:[]};
+const SAMPLE_WORLD={season:{bf:nextBlackFriday(),phrases:49,pages:39},shops:41,shops_goal:40,partners:3,earned:9,today:[{t:"08:20",kind:"research"},{t:"08:40",kind:"codes",n:4},{t:"09:20",kind:"rank",n:2},{t:"10:05",kind:"shop",n:3},{t:"10:50",kind:"gate",ok:true},{t:"11:10",kind:"deploy"},{t:"11:35",kind:"mail"},{t:"12:30",kind:"terms"},{t:"13:10",kind:"reply"},{t:"13:45",kind:"partner"},{t:"14:40",kind:"offers"},{t:"15:00",kind:"index",n:2},{t:"15:30",kind:"lesson"},{t:"16:05",kind:"experiment"},{t:"16:25",kind:"commission"},{t:"16:55",kind:"gate",ok:false},{t:"17:35",kind:"shop",n:2},{t:"18:10",kind:"tasks",n:5}]};
 const BJ=10.07; // płaszczyzna tablic: tuż przed szklaną ścianą j=10
 const CARD_COL=['#f6f0e0','#f2d65a','#f2a0b0','#a8d8f0','#bfe3a8','#f6c48a'];
 const BADGE=[['#3f6fa8','#f2d65a'],['#c8443a','#ffffff'],['#4f8a62','#f2c94c'],['#6a5aa8','#f0b0dc'],['#d98a2a','#2b1d2a'],['#2f8fbf','#e8f2fc'],['#b8506a','#f6e8ee'],['#3a4a5a','#5fe08a']];
@@ -1104,6 +1106,26 @@ function tagGarland(t){ // girlanda metek wyprzedażowych na szklanej ścianie p
   for(let k=0;k<22;k++){const a=9.25+k*.35,sag=Math.sin((k%5)/5*Math.PI)*2.2,zz=86-sag;qI(a,a+.35,j,zz,zz+.3,'#5a4a3a');
     if(k%2===0){const c=C[(k/2)%4],sw=reduce?0:Math.sin(t/600+k)*.4;qI(a+.1+sw*.02,a+.24+sw*.02,j+.001,zz-4.2,zz-.4,c);qI(a+.15,a+.19,j+.002,zz-1.6,zz-1.1,c==='#ffffff'?'#d9452f':'#ffffff');}}}
 let hourNow=12;
+// Kalendarz sezonu na ścianie pawilonu (zamówienie świata nr 1): dni do Black Friday i okienko za każdą frazę sezonową
+// z content_calendar; okienko otwarte, gdy fraza ma już naszą stronę. Wisi od 60 dni przed Black Friday do tego dnia.
+function nextBlackFriday(){const d=warsawDate(),y=+d.slice(0,4),bf=yy=>{const n=new Date(Date.UTC(yy,10,1)),x=new Date(Date.UTC(yy,10,1+(4-n.getUTCDay()+7)%7+22));return x.toISOString().slice(0,10);};
+  return bf(y)>=d?bf(y):bf(y+1);}
+function warsawDate(){const p={};for(const x of new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Warsaw',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()))p[x.type]=x.value;return`${p.year}-${p.month}-${p.day}`;}
+function seasonDays(){const s=WORLD.season;if(!s||!s.n)return -1;const d=Math.round((Date.parse(s.bf)-Date.parse(warsawDate()))/864e5);return d>=0&&d<=60?d:-1;}
+const DIG=['111101101101111','010110010010111','111001111100111','111001111001111','101101111001001','111100111001111','111100111101111','111001010010010','111101111101111','111101111001111'];
+function calDigits(v,a,zTop,px,c){const s=String(v);let x=a-s.length*2*px+px/2;for(const ch of s){const m=DIG[+ch];
+  for(let r=0;r<5;r++)for(let q=0;q<3;q++)if(m[r*3+q]==='1')qI(x+q*px,x+(q+1)*px,BJ+.004,zTop-(r+1)*1.1,zTop-r*1.1,c);x+=4*px;}}
+function seasonCalendar(t){const j=BJ,S=WORLD.season,d=seasonDays(),i0=12.74,i1=13.64;
+  qI(i0+.02,i1+.02,j,49,75,'rgba(0,0,0,.18)');qI(i0,i1,j+.001,50,75.5,'#f4efe4');qI(i0,i1,j+.0015,50,51,'#d8cfbe');
+  qI(i0,i1,j+.002,68.5,75.5,'#c8443a');qI(i0,i1,j+.0025,74.6,75.5,'#a83428');
+  for(const a of[i0+.18,i1-.22]){qI(a,a+.04,j+.003,74,77.5,'#5a6470');qI(a-.005,a+.045,j+.0035,77,77.6,'#8a96a4');}
+  if(d>0)calDigits(d,(i0+i1)/2,74,.045,'#ffffff');
+  else{const p=iso((i0+i1)/2,j+.004,72),f=reduce?1:.75+.25*Math.sin(t/200);g.fillStyle=`rgba(255,226,110,${f})`;g.fillRect(p[0]-.6,p[1]-2.4,1.2,4.8);g.fillRect(p[0]-2.4,p[1]-.6,4.8,1.2);g.fillRect(p[0]-1.2,p[1]-1.2,2.4,2.4);}
+  const cap=56,n=Math.min(S.n,cap),open=Math.min(n,Math.round(Math.min(S.open,S.n)*n/S.n)),cols=7,rows=Math.ceil(n/cols);
+  const pi=(i1-i0-.08)/cols,pz=16.6/Math.max(rows,5),w=pi*.78,h=pz*.74;
+  for(let k=0;k<n;k++){const c=k%cols,r=Math.floor(k/cols),a=i0+.04+c*pi+(pi-w)/2,zz=67.6-(r+1)*pz+(pz-h)/2;
+    if(k<open){qI(a,a+w,j+.003,zz,zz+h,'#5fbf7a');qI(a+w*.3,a+w*.7,j+.0035,zz+h*.2,zz+h*.8,'#ffffff');}
+    else{qI(a,a+w,j+.003,zz,zz+h,'#e2d6bf');qI(a+w*.8,a+w,j+.0035,zz,zz+h,'#c4b69c');}}}
 function worldOverlay(t){ // to, co leci w powietrzu: samoloty, kupony, rakieta, karteczka do przypięcia, moneta do słoika
   if(reduce)return;
   for(const r of WORLD.rockets){const a=rocketPos(r.s),al=r.s>.85?Math.max(0,(1-r.s)/.15):1;
@@ -1715,7 +1737,7 @@ function worldReg(w){WREG={};for(const sc of (w&&Array.isArray(w.scenes)?w.scene
   if(!sc||!sc.trigger||!sc.actor||!(sc.actor==='mateus'||AGENTS[sc.actor]))continue;if(sc.actor==='mateus'&&!WSPOTS[sc.spot])continue;
   (WREG[sc.trigger]=WREG[sc.trigger]||[]).push({actor:sc.actor,icon:sc.icon||'gear',effect:WEFFECT_MS[sc.effect]?sc.effect:'sparks',spot:sc.spot,color:sc.color});}}
 function wInc(e,s){if(e.kind in WORLD.pend)WORLD.pend[e.kind]+=s*e.n;}
-function worldSet(w,earned){w=w||{};WORLD.shops=Math.max(0,w.shops|0)+WORLD.dbg.shop;WORLD.goal=Math.max(0,w.shops_goal|0);WORLD.partners=Math.max(0,w.partners|0)+WORLD.dbg.partner;WORLD.earned=Math.max(0,+earned||0);}
+function worldSet(w,earned){w=w||{};const se=w.season;WORLD.season=se&&/^\d{4}-\d\d-\d\d$/.test(se.bf||'')?{bf:se.bf,n:Math.max(0,se.phrases|0),open:Math.max(0,se.pages|0)}:null;WORLD.shops=Math.max(0,w.shops|0)+WORLD.dbg.shop;WORLD.goal=Math.max(0,w.shops_goal|0);WORLD.partners=Math.max(0,w.partners|0)+WORLD.dbg.partner;WORLD.earned=Math.max(0,+earned||0);}
 function worldClear(){const ws=WORLD.ws;WORLD.ws=null;WORLD.q.length=0;WORLD.planes.length=0;WORLD.fx.length=0;WORLD.rockets.length=0;WORLD.stamps.length=0;WORLD.cardT=[];WORLD.badgeT=[];WORLD.coins=0;WORLD.jar=-1;WORLD.dbg={shop:0,partner:0};
   WORLD.pend={shop:0,partner:0,commission:0};COURIER.env=false;if(COURIER.pose==='hand')walkTo(COURIER,ENTRY,{pose:'away'});
   if(ws&&me.phase==='errand')goTo(ws.back||me.st);}
