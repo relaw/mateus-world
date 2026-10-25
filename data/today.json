@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T18:07+01:00",
+ "generated_at": "2026-10-25T18:11+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -2197,6 +2197,15 @@
    "text": "Publishing a seasonal guide to 2026 advent calendars for kids, men, and women on rindo.pl.",
    "text_uk": "Mateus і команда оновлюють rindo.pl: посібник з адвент-календарів 2026 року з польської мережі магазинів медіа та книжок, для дітей, чоловіків і жінок.",
    "task": 161
+  },
+  {
+   "t": "18:11",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
