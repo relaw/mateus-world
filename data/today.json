@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T18:53+01:00",
+ "generated_at": "2026-10-25T19:00+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -2332,6 +2332,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "18:54",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Publishing the next gift-season guide and requesting Google indexing, with its keywords added to our ranking tracker.",
+   "text_uk": "Новий посібник до святкового сезону вже на rindo.pl. Команда надіслала запит на індексацію пошуковій системі та додала ключові фрази до моніторингу позицій.",
+   "task": 161
+  },
+  {
+   "t": "18:54",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Holding off on search ranking changes until experiment results arrive on 27 and 28 October. Test pages stay untouched until then.",
+   "text_uk": "Mateus і команда чекають на результати експериментів із пошуковими позиціями 27 і 28 жовтня. До того часу сторінки тестових груп не змінюють.",
+   "task": null
+  },
+  {
+   "t": "18:54",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "19:00",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Weekly review: the week's results and the plan for the next one.",
+   "text_uk": "Тижневий огляд: результати тижня і план на наступний.",
+   "task": null
   }
  ],
  "plan": [
@@ -2869,6 +2905,10 @@
    {
     "t": "18:42",
     "kind": "deploy"
+   },
+   {
+    "t": "18:53",
+    "kind": "change"
    }
   ],
   "scenes": []
@@ -2933,7 +2973,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -18.0,
+  "week": -17.79,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
