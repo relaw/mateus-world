@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T14:49+01:00",
+ "generated_at": "2026-10-25T15:01+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -1918,6 +1918,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "15:01",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -2357,6 +2366,11 @@
    {
     "t": "14:39",
     "kind": "change"
+   },
+   {
+    "t": "15:00",
+    "kind": "index",
+    "n": 1
    }
   ],
   "scenes": []
