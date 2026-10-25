@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T18:21+01:00",
+ "generated_at": "2026-10-25T18:32+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -2211,7 +2211,7 @@
    "t": "18:12",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 12,
    "text": "Mateus's note is only a header: \"Assignment for Lukas: today 25.10.2026\". It names no work, so the update should stay general. Assigning tasks to Lukas on rindo.pl.",
    "text_uk": "Lukas отримав нове завдання на сьогодні.",
    "task": 161
@@ -2233,6 +2233,24 @@
    "text": "Our advent calendar guide is live and submitted for indexing. The team is now gathering facts for the next gift guides, and rankings get measured on Monday.",
    "text_uk": "Mateus і команда перевірили гід з адвент-календарів наживо та подали до індексу. Збираємо матеріали для гідів з подарунків, у понеділок заміряємо позиції.",
    "task": 161
+  },
+  {
+   "t": "18:24",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The team delivered facts for a women's gift guide, and we fixed price errors after checking the store's site. The men's guide is waiting for another data source.",
+   "text_uk": "Команда підготувала дані для гіду з подарунків для жінок, а творець після перевірки виправив ціни. Гід для чоловіків чекає на інше джерело даних.",
+   "task": 161
+  },
+  {
+   "t": "18:24",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -2727,7 +2745,7 @@
    {
     "t": "18:00",
     "kind": "index",
-    "n": 1
+    "n": 2
    },
    {
     "t": "18:02",
@@ -2820,7 +2838,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -18.02,
+  "week": -18.01,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
