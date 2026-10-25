@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T22:52+01:00",
+ "generated_at": "2026-10-25T23:03+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -2719,6 +2719,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "22:53",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Requested indexing for a new store page on rindo.pl. Three seasonal guides reached the search index within hours.",
+   "text_uk": "Сторінку магазину подано на індексацію, три сезонні гайди вже в індексі. Далі: умови магазинів і кроки після експериментів 27 і 28 жовтня.",
+   "task": 151
+  },
+  {
+   "t": "22:54",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -3303,6 +3321,11 @@
    {
     "t": "21:10",
     "kind": "change"
+   },
+   {
+    "t": "23:00",
+    "kind": "index",
+    "n": 1
    }
   ],
   "season": {
