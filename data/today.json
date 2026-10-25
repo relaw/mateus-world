@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T14:39+01:00",
+ "generated_at": "2026-10-25T14:49+01:00",
  "date": "2026-10-25",
  "events": [
   {
@@ -1891,9 +1891,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:40",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Publishing another seasonal guide on rindo.pl and submitting it for indexing. Product queries without a matching offer are deliberately left out.",
+   "text_uk": "Новий сезонний посібник про подарункові картки вже онлайн і подано до індексації. Товарні запити без наших пропозицій свідомо пропускаємо.",
+   "task": 161
+  },
+  {
+   "t": "14:40",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up this block. Next up: Monday's ranking check and the next steps based on the experiment results.",
+   "text_uk": "Mateus і команда завершили поточний етап роботи над rindo.pl. Далі: вимірювання позицій у понеділок і наступні кроки за результатами експериментів.",
+   "task": null
+  },
+  {
+   "t": "14:41",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Holiday season: we're deliberately skipping New Year's Eve pages on rindo.pl, while our existing beauty guide already covers advent calendars.",
+   "uk": "Mateus і команда свідомо не створюють окремі сторінки під новорічні запити. Тему адвент-календарів уже покриває наш посібник про косметику."
+  },
   {
    "en": "Reopening store pages on rindo.pl and reviewing a Black Week exposure promise to a partner. Indexing checks on a food delivery listing continue.",
    "uk": "Mateus і команда відкривають заблоковані сторінки rindo.pl після перевірки контенту від Nora та готують оновлення до Black Week."
@@ -1901,10 +1932,6 @@
   {
    "en": "Reviewing partner programme terms: where the terms and dashboard conflict, we follow the stricter rule. SEO and coupon site traffic remain allowed.",
    "uk": "Звірили умови програм: для двох e-mail і банери лише за умов. SEO та купонний сайт дозволені. Комісії однієї програми зарахують не раніше ніж через рік."
-  },
-  {
-   "en": "Mapping out a step by step operating framework for rindo.pl, from market research and keyword clusters to monetization, seasonality and measurement.",
-   "uk": "Mateus і команда розбирають покрокову стратегію rindo.pl: від карти ринку та монетизації до пошуку, контенту й вимірювання результатів."
   }
  ],
  "world": {
@@ -2326,6 +2353,10 @@
    {
     "t": "14:30",
     "kind": "deploy"
+   },
+   {
+    "t": "14:39",
+    "kind": "change"
    }
   ],
   "scenes": []
