@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T01:31+01:00",
+ "generated_at": "2026-10-26T01:42+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -253,6 +253,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:33",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 23,
+   "text": "Assigning Lukas a task today, 26 October 2026, for rindo.pl.",
+   "text_uk": "Сьогодні Lukas отримав нове завдання в команді Mateus.",
+   "task": 161
+  },
+  {
+   "t": "01:41",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a 2026 gift guide for parents-in-law, featuring beauty sets and creams. It is awaiting automated checks and review.",
+   "text_uk": "Mateus готує сезонний порадник з подарунків для свекрухи та свекра на 2026 рік: набори й креми від бренду косметики. Зміна очікує перевірок і огляду.",
+   "task": 161
   }
  ],
  "plan": [
@@ -325,6 +343,21 @@
    {
     "t": "01:23",
     "kind": "offers"
+   },
+   {
+    "t": "01:39",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "01:40",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "01:41",
+    "kind": "gate",
+    "ok": false
    }
   ],
   "season": {
@@ -414,7 +447,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -17.13,
+  "week": -17.12,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
