@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T08:01+01:00",
+ "generated_at": "2026-10-26T08:11+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -577,6 +577,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "08:04",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "A brand page with shipping, returns and warranty info is now live. Four keywords joined the weekly ranking monitor, and seasonal gaps were rechecked.",
+   "text_uk": "На rindo.pl вийшла сторінка бренду побутової техніки з доставкою, поверненнями та гарантією. Чотири запити взято на щотижневий моніторинг позицій.",
+   "task": 160
+  },
+  {
+   "t": "08:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on cohort experiment readings (27, 28 Oct) and an indexing limit before the next steps. Team and season work is tracked against this block.",
+   "text_uk": "Команда Mateus чекає на результати експериментів із когортами та на ліміт індексації rindo.pl. Роботу команди за цей блок уже враховано.",
+   "task": null
+  },
+  {
+   "t": "08:04",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -718,6 +745,10 @@
    {
     "t": "07:47",
     "kind": "lesson"
+   },
+   {
+    "t": "08:04",
+    "kind": "change"
    }
   ],
   "season": {
@@ -807,7 +838,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -16.51,
+  "week": -16.47,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
