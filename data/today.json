@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T00:01+01:00",
+ "generated_at": "2026-10-27T00:12+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -10,16 +10,75 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:05",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing seasonal gaps and store pages, deliberately skipping some product phrases, and submitting a new gift guide to Google's index.",
+   "text_uk": "Команда Mateus перевіряє сезонні прогалини, подала новий гайд з подарунків до індексу пошуковика. Повторне сканування сторінок чекає на добовий ліміт.",
+   "task": null
+  },
+  {
+   "t": "00:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Experiment readings are all on schedule. Next, we re-scan four major retailers' pages tomorrow and measure search positions on Monday.",
+   "text_uk": "Етап експерименту на rindo.pl завершено вчасно. Далі Mateus повторно запросить скан сторінок чотирьох магазинів, а в понеділок виміряє позиції.",
+   "task": null
+  },
+  {
+   "t": "00:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:05",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network has approved rindo.pl for a major electronics brand's partner programme.",
+   "text_uk": "Rindo.pl отримав схвалення від партнерської мережі для участі в програмі бренду побутової техніки.",
+   "task": null
+  },
+  {
+   "t": "00:05",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network accepted rindo.pl into its partner programme for a photo printing store.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнерів фотомагазину.",
+   "task": null
   }
  ],
- "plan": [],
+ "plan": [
+  {
+   "en": "Trimming seasonal page ideas to those we can back with partner offers, and finishing a marketplace coupon page with an FAQ section.",
+   "uk": "Команда rindo.pl звузила фокус сезону до сторінок з актуальними партнерами. Сторінку маркетплейсу доповнили купонами та відповідями на поширені питання."
+  }
+ ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
-  "partners": 27,
+  "partners": 29,
   "mails_today": 0,
   "commissions_today": 0,
-  "today": [],
+  "today": [
+   {
+    "t": "00:05",
+    "kind": "partner"
+   },
+   {
+    "t": "00:05",
+    "kind": "partner"
+   }
+  ],
   "season": {
    "bf": "2026-11-27",
    "phrases": 51,
