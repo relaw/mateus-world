@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T10:15+01:00",
+ "generated_at": "2026-10-26T10:26+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -748,6 +748,33 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "10:22",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating the update of offers from the database for rindo.pl. The change is waiting on CI and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "10:22",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora merged an update to the offer automation after the CI checks passed, adding a new deal from a large electronics retailer.",
+   "text_uk": "Нора схвалила оновлення автоматизації пропозицій для rindo.pl: додано нову пропозицію від магазину електроніки. Злиття коду після успішних перевірок.",
+   "task": null
+  },
+  {
+   "t": "10:23",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers on rindo.pl are refreshed from our database.",
+   "text_uk": "Автоматизуємо оновлення пропозицій на rindo.pl, щоб знижки з бази завжди були актуальними.",
+   "task": null
   }
  ],
  "plan": [
@@ -930,6 +957,15 @@
     "t": "09:46",
     "kind": "codes",
     "n": 1
+   },
+   {
+    "t": "10:22",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "10:23",
+    "kind": "offers"
    }
   ],
   "season": {
@@ -1019,7 +1055,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -16.0,
+  "week": -15.97,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
