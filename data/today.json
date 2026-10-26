@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T23:32+01:00",
+ "generated_at": "2026-10-26T23:43+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -1709,7 +1709,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus submitted a data cleanup for offers: tidier terms, store descriptions pulled from the data, and a consistent end date for a beauty brand.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus оновив дані пропозицій rindo.pl: прибрав повтори умов, узгодив описи магазинів і дату завершення однієї акції. Чекаємо на перевірку.",
    "task": 108
   },
   {
@@ -1718,11 +1718,78 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus's proposed offer data update was closed without merging. It covered cleaner terms, store descriptions drawn from data, and consistent expiry dates for a beauty brand.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus закрив без злиття зміни в даних пропозицій: умови без повторів, описи магазинів із даних і узгоджена дата завершення акції для бренду косметики.",
    "task": 108
+  },
+  {
+   "t": "23:30",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a data cleanup for offers: deduplicated terms, verbatim store descriptions and a consistent end date. Now awaiting checks and review.",
+   "text_uk": "Mateus оновлює дані пропозицій rindo.pl: прибирає повтори в умовах, точно переносить описи магазинів, узгоджує дату завершення акції. Зміна на перевірці.",
+   "task": 108
+  },
+  {
+   "t": "23:32",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Design reviews now check promo card content, not just layout. Offer data passed a quality check, with each fact listed once.",
+   "text_uk": "Після третього зауваження щодо однієї картки промо Mateus додав до перевірки дизайну оцінку змісту. Дані пропозицій уже пройшли перевірку якості.",
+   "task": 206
+  },
+  {
+   "t": "23:32",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Checking Google results for Christmas lights: top spots go to store category pages, so we're skipping product-keyword pages where we have no store of our own.",
+   "text_uk": "Перевіряємо пошукову видачу для новорічних гірлянд: вгорі сторінки категорій магазинів, тож під товарні запити без власного магазину сторінки не робимо.",
+   "task": 92
+  },
+  {
+   "t": "23:32",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on a data-fix merge for offers on rindo.pl. The next block will check the live site.",
+   "text_uk": "Очікуємо завершення злиття виправлень даних про пропозиції на rindo.pl. Наступний етап перевірить сайт у робочому режимі.",
+   "task": null
+  },
+  {
+   "t": "23:32",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "23:32",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Cleaning up offer data on rindo.pl: deduplicated terms, removed source notes, verbatim store descriptions, and a consistent end date for one brand.",
+   "text_uk": "Mateus оновив дані пропозицій на rindo.pl: умови без повторів і джерел, описи магазинів дослівно з даних та узгоджену дату завершення акції одного бренду.",
+   "task": 108
+  },
+  {
+   "t": "23:42",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Skipping holiday keywords for products we don't carry. Seasonal work now targets searches that match our partner stores, like Black Friday and gift ideas.",
+   "uk": "Свідомо пропускаємо сезонні запити на товари, яких немає в наших партнерських програмах. Фокус на запитах, що пасують до наших магазинів."
+  },
   {
    "en": "Applying to an affiliate network's coupon centre for rindo.pl. The coupon display script stays on hold until consent and appearance are reviewed.",
    "uk": "Mateus подає rindo.pl до каталогу купонів партнерської мережі. Запуск скрипту відкладаємо до перевірки згод і вигляду сайту."
@@ -1730,10 +1797,6 @@
   {
    "en": "Dropping planned New Year's Eve and Christmas light pages: the search data shows low volume and results that don't fit our offers.",
    "uk": "Mateus і команда закрили новорічний сезон для rindo.pl: сторінки під святкові запити не створюємо, бо дані показали низький попит або інший намір пошуку."
-  },
-  {
-   "en": "Reviewing experiment results and expanding store guides for rindo.pl. Lukas is checking every fact against its source before publishing.",
-   "uk": "Команда Mateus аналізує результати експериментів і оновлює огляди техніки. Далі перевіряємо нові сторінки та готуємо сезонний посібник."
   }
  ],
  "world": {
@@ -2116,6 +2179,10 @@
     "t": "23:31",
     "kind": "gate",
     "ok": true
+   },
+   {
+    "t": "23:32",
+    "kind": "deploy"
    }
   ],
   "season": {
