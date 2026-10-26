@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T00:49+01:00",
+ "generated_at": "2026-10-26T01:00+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -123,7 +123,7 @@
    "t": "00:40",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 24,
+   "dur": 9,
    "text": "Assigning Lukas a task for today's work on rindo.pl.",
    "text_uk": "Сьогодні Lukas взявся за нове завдання для rindo.pl.",
    "task": 161
@@ -136,6 +136,60 @@
    "text": "Mapping the site's category pages and having a researcher gather facts for a men's gift guide, one of the season's biggest gaps.",
    "text_uk": "Mateus знайшов спосіб отримувати актуальні адреси категорій магазинів і доручив дослідникові факти для гайду з подарунків для чоловіків.",
    "task": 161
+  },
+  {
+   "t": "00:49",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a 2026 men's gift guide featuring fragrances and grooming products, now awaiting automated checks and review.",
+   "text_uk": "Mateus оновлює сезонний посібник з подарунків для чоловіків 2026 року: парфуми та догляд за собою. Зміна чекає на перевірки і рев'ю.",
+   "task": 161
+  },
+  {
+   "t": "00:49",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "A new gift guide for men, with official store prices, has passed quality review. We also documented a method for collecting store category pages.",
+   "text_uk": "Новий путівник з подарунками для чоловіків пройшов перевірку й чекає на публікацію. Також описано, як збирати посилання на категорії магазинів.",
+   "task": 161
+  },
+  {
+   "t": "00:49",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up one block of work: focus pages are waiting on experiment readouts, so in the meantime we closed one gap for the season.",
+   "text_uk": "Сторінки фокусу чекають на результати експериментів, а тим часом Mateus закриває одну прогалину в сезонному каталозі rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "00:49",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:50",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Publishing a 2026 seasonal gift guide for men on rindo.pl, covering fragrances and grooming products from a beauty brand.",
+   "text_uk": "На rindo.pl Mateus опублікував сезонний гід: подарунки для чоловіків на 2026 рік, парфуми та догляд від бренду з ніші чоловічої косметики.",
+   "task": 161
+  },
+  {
+   "t": "00:59",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -192,6 +246,10 @@
     "t": "00:48",
     "kind": "gate",
     "ok": true
+   },
+   {
+    "t": "00:50",
+    "kind": "deploy"
    }
   ],
   "season": {
@@ -281,7 +339,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -17.15,
+  "week": -17.14,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
