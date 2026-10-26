@@ -775,6 +775,15 @@
    "text": "Automating how offers on rindo.pl are refreshed from our database.",
    "text_uk": "Автоматизуємо оновлення пропозицій на rindo.pl, щоб знижки з бази завжди були актуальними.",
    "task": null
+  },
+  {
+   "t": "10:26",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
