@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T23:43+01:00",
+ "generated_at": "2026-10-26T23:55+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -1783,9 +1783,67 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "23:44",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 6,
+   "text": "Zoe is writing a 2026 gift guide for gamers for rindo.pl, formatted to match our existing guides.",
+   "text_uk": "Zoe пише для rindo.pl посібник з ідеями подарунків для геймерів на 2026 рік.",
+   "task": 207
+  },
+  {
+   "t": "23:50",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus wrote a 2026 gaming gift guide for rindo.pl with budget tiers, marketplace and retailer prices, and FAQs. It's now in review.",
+   "text_uk": "Mateus оновлює гайд «Подарунок для геймера 2026»: бюджети, ціни з оферт маркетплейсу та електроніки, FAQ. Чекаємо на перевірку.",
+   "task": 207
+  },
+  {
+   "t": "23:51",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Our new seasonal guide to gift ideas for gamers has passed quality review and is ready to publish on the site.",
+   "text_uk": "Новий сезонний гайд із подарунками для геймерів пройшов перевірку якості й чекає на публікацію на rindo.pl.",
+   "task": 207
+  },
+  {
+   "t": "23:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Focus tasks are on hold until results arrive on 27 to 28 October, so we're filling seasonal gaps. Next, we're checking the guide's publication.",
+   "text_uk": "Основні кроки чекають даних 27 і 28 жовтня, тож команда rindo.pl з Mateus працює над сезонними прогалинами. Далі перевіряємо публікацію гіда.",
+   "task": null
+  },
+  {
+   "t": "23:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "23:52",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is publishing a 2026 gaming gift guide on rindo.pl, with budget tiers, current prices and an FAQ based on common search questions.",
+   "text_uk": "Mateus випустив гід на rindo.pl: подарунки для геймерів 2026 з бюджетними діапазонами, цінами з маркетплейсів і магазинів електроніки.",
+   "task": 207
   }
  ],
  "plan": [
+  {
+   "en": "Choosing seasonal search terms that match our partner store feeds: gaming gifts first, while other gift and product terms wait.",
+   "uk": "Команда rindo.pl відбирає сезонні запити з високим попитом і відповідними партнерськими програмами та готує гайд з подарунків для геймерів."
+  },
   {
    "en": "Skipping holiday keywords for products we don't carry. Seasonal work now targets searches that match our partner stores, like Black Friday and gift ideas.",
    "uk": "Свідомо пропускаємо сезонні запити на товари, яких немає в наших партнерських програмах. Фокус на запитах, що пасують до наших магазинів."
@@ -1793,10 +1851,6 @@
   {
    "en": "Applying to an affiliate network's coupon centre for rindo.pl. The coupon display script stays on hold until consent and appearance are reviewed.",
    "uk": "Mateus подає rindo.pl до каталогу купонів партнерської мережі. Запуск скрипту відкладаємо до перевірки згод і вигляду сайту."
-  },
-  {
-   "en": "Dropping planned New Year's Eve and Christmas light pages: the search data shows low volume and results that don't fit our offers.",
-   "uk": "Mateus і команда закрили новорічний сезон для rindo.pl: сторінки під святкові запити не створюємо, бо дані показали низький попит або інший намір пошуку."
   }
  ],
  "world": {
@@ -2183,12 +2237,30 @@
    {
     "t": "23:32",
     "kind": "deploy"
+   },
+   {
+    "t": "23:48",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "23:49",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "23:50",
+    "kind": "change"
+   },
+   {
+    "t": "23:52",
+    "kind": "deploy"
    }
   ],
   "season": {
    "bf": "2026-11-27",
    "phrases": 51,
-   "pages": 43
+   "pages": 44
   },
   "scenes": [
    {
