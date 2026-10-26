@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T21:08+01:00",
+ "generated_at": "2026-10-26T21:18+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -1297,9 +1297,31 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "21:11",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Closing holiday season pages: no partner stores match those search terms. Reached out to a partner account manager about cancellations and rates.",
+   "text_uk": "Закриваємо сезонне вікно 3 листопада: під запити без відповідної партнерської програми сторінок не робимо. Уточнюємо з партнером умови скасувань і ставок.",
+   "task": 145
+  },
+  {
+   "t": "21:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Dropping planned New Year's Eve and Christmas light pages: the search data shows low volume and results that don't fit our offers.",
+   "uk": "Mateus і команда закрили новорічний сезон для rindo.pl: сторінки під святкові запити не створюємо, бо дані показали низький попит або інший намір пошуку."
+  },
   {
    "en": "Reviewing experiment results and expanding store guides for rindo.pl. Lukas is checking every fact against its source before publishing.",
    "uk": "Команда Mateus аналізує результати експериментів і оновлює огляди техніки. Далі перевіряємо нові сторінки та готуємо сезонний посібник."
@@ -1307,17 +1329,13 @@
   {
    "en": "Holding off on five holiday-season keyword targets for now. Top results are specialist shops, and we don't yet have a partner programme that sells these products.",
    "uk": "Mateus відклав п'ять сезонних запитів для rindo.pl: без партнерської програми з таким асортиментом вони не принесуть ні позицій, ні комісій."
-  },
-  {
-   "en": "Reviewing rankings and experiment results, then closing out recent store pages. Seasonal guides only where we have a live offer and verified facts.",
-   "uk": "Mateus і команда перевіряють позиції rindo.pl і завершують відкриті завдання. Сезонні гайди пишемо лише там, де є актуальні оферти та перевірені факти."
   }
  ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
   "partners": 27,
-  "mails_today": 0,
+  "mails_today": 1,
   "commissions_today": 1,
   "today": [
    {
@@ -1562,11 +1580,20 @@
     "t": "21:04",
     "kind": "index",
     "n": 1
+   },
+   {
+    "t": "21:07",
+    "kind": "terms",
+    "n": 30
+   },
+   {
+    "t": "21:11",
+    "kind": "mail"
    }
   ],
   "season": {
    "bf": "2026-11-27",
-   "phrases": 49,
+   "phrases": 51,
    "pages": 43
   },
   "scenes": [
@@ -1657,14 +1684,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.16,
-  "week": -13.32,
+  "week": -13.41,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.16,
-  "month_costs": 85.01,
+  "month_costs": 85.1,
   "first_revenue_at": "2026-10-20"
  }
 }
