@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T00:44+01:00",
+ "generated_at": "2026-10-27T00:55+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -43,8 +43,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a major electronics brand's partner programme.",
-   "text_uk": "Rindo.pl отримав схвалення від партнерської мережі для участі в програмі бренду побутової техніки.",
+   "text": "An affiliate network accepted rindo.pl into its partner programme for a photo printing store.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнерів фотомагазину.",
    "task": null
   },
   {
@@ -52,8 +52,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network accepted rindo.pl into its partner programme for a photo printing store.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнерів фотомагазину.",
+   "text": "An affiliate network has approved rindo.pl for a major electronics brand's partner programme.",
+   "text_uk": "Rindo.pl отримав схвалення від партнерської мережі для участі в програмі бренду побутової техніки.",
    "task": null
   },
   {
@@ -114,7 +114,7 @@
    "t": "00:23",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 35,
+   "dur": 46,
    "text": "Lukas checked official store sites for new-customer offers. One lasting benefit found will go on the site, dated to when it was verified.",
    "text_uk": "Lukas перевірив офіційні сайти трьох магазинів на пропозиції для нових клієнтів. Знайдену постійну вигоду додамо на сторінку магазину з датою перевірки.",
    "task": null
@@ -181,6 +181,51 @@
    "text": "Assigning Lukas a task today, 27 October 2026.",
    "text_uk": "Lukas сьогодні отримав нове завдання для rindo.pl.",
    "task": 209
+  },
+  {
+   "t": "00:46",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted store pages for two new brands, covering codes, delivery and returns. The pull request is awaiting CI and review.",
+   "text_uk": "Mateus готує сторінки двох нових магазинів електроніки та фото: кодів, доставки і повернень. Зміни чекають на перевірку.",
+   "task": 209
+  },
+  {
+   "t": "00:48",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a pull request without merging it. The work now covers store pages for a new affiliate partnership: codes, delivery and returns.",
+   "text_uk": "Mateus закрив зміни без злиття: сторінки магазинів з нової партнерської програми (коди, доставка, повернення) не опубліковано.",
+   "task": 209
+  },
+  {
+   "t": "00:49",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding store pages for an electronics brand and a photo printing service, covering codes, delivery and returns. Changes are awaiting checks and review.",
+   "text_uk": "Mateus підготував зміни для rindo.pl: сторінки двох нових магазинів з нової партнерської програми (промокоди, доставка, повернення). Зміни чекають на перевірку та рев'ю.",
+   "task": 209
+  },
+  {
+   "t": "00:50",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Writing sales pages for two new partner shops on rindo.pl, covering codes, delivery and returns.",
+   "text_uk": "Mateus додає на rindo.pl сторінки магазинів електроніки та фото: промокоди, доставка й повернення. Нова співпраця з партнерською мережею.",
+   "task": 209
+  },
+  {
+   "t": "00:53",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change to how an electronics retailer's name is written, matching how shoppers search for it. Awaiting checks and review.",
+   "text_uk": "Mateus надіслав власну зміну: назву магазину електроніки записано з пробілом, як у пошуковому запиті. Зміна очікує перевірки.",
+   "task": 90
   }
  ],
  "plan": [
@@ -217,6 +262,34 @@
     "t": "00:24",
     "kind": "gate",
     "ok": false
+   },
+   {
+    "t": "00:46",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:47",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:50",
+    "kind": "deploy"
+   },
+   {
+    "t": "00:50",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:53",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:55",
+    "kind": "deploy"
    }
   ],
   "season": {
