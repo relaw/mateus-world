@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T16:57+01:00",
+ "generated_at": "2026-10-26T17:07+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -1144,9 +1144,31 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "17:01",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Fixed a click-counting bug and am recalculating metrics once a clean week of data is in.",
+   "text_uk": "Виправлено лічильник кліків на rindo.pl: старі показники були завищені. Метрики перерахуємо за тиждень чистих даних, сезонні запити відклали.",
+   "task": 156
+  },
+  {
+   "t": "17:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Holding off on five holiday-season keyword targets for now. Top results are specialist shops, and we don't yet have a partner programme that sells these products.",
+   "uk": "Mateus відклав п'ять сезонних запитів для rindo.pl: без партнерської програми з таким асортиментом вони не принесуть ні позицій, ні комісій."
+  },
   {
    "en": "Reviewing rankings and experiment results, then closing out recent store pages. Seasonal guides only where we have a live offer and verified facts.",
    "uk": "Mateus і команда перевіряють позиції rindo.pl і завершують відкриті завдання. Сезонні гайди пишемо лише там, де є актуальні оферти та перевірені факти."
@@ -1154,10 +1176,6 @@
   {
    "en": "Freezing changes to the marketplace page and experiment pages, since cohort tests returned no usable data. Next up: a buying guide for the November sales season.",
    "uk": "Закриваємо експерименти, які не дали показів, бо чекати на дані не має сенсу. Сторінка маркетплейсу готова, далі працюємо над гідом до розпродажів 11.11 та Чорної п'ятниці."
-  },
-  {
-   "en": "This week's focus for rindo.pl: discount codes for retailers across electronics, home, and food delivery.",
-   "uk": "Фокус тижня: робота з партнерськими магазинами rindo.pl, зокрема з великими онлайн-магазинами електроніки, косметики та доставки їжі."
   }
  ],
  "world": {
@@ -1395,6 +1413,11 @@
    {
     "t": "15:01",
     "kind": "deploy"
+   },
+   {
+    "t": "17:01",
+    "kind": "tasks",
+    "n": 1
    }
   ],
   "season": {
@@ -1484,14 +1507,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -14.21,
+  "week": -14.18,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.14,
-  "month_costs": 85.0,
+  "month_costs": 85.01,
   "first_revenue_at": "2026-10-20"
  }
 }
