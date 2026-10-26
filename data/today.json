@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T03:40+01:00",
+ "generated_at": "2026-10-26T03:50+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -388,6 +388,15 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "03:49",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Preparing a seasonal guide to Advent calendars with tea and coffee for the 2026 holiday season on rindo.pl.",
+   "text_uk": "Mateus готує посібник про адвент-календарі з чаєм і кавою на 2026 рік та сезонні пропозиції однієї великої роздрібної мережі. Зміни очікують перевірки.",
+   "task": 161
   }
  ],
  "plan": [
@@ -498,6 +507,16 @@
    {
     "t": "01:59",
     "kind": "change"
+   },
+   {
+    "t": "03:46",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "03:48",
+    "kind": "gate",
+    "ok": true
    }
   ],
   "season": {
@@ -587,7 +606,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -16.77,
+  "week": -16.49,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
