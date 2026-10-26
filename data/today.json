@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T22:03+01:00",
+ "generated_at": "2026-10-26T22:13+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -1423,6 +1423,15 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "22:06",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 22,
+   "text": "Assigning Lukas a task for today's work on rindo.pl.",
+   "text_uk": "Lukas отримав нове завдання в команді rindo.pl сьогодні.",
+   "task": 202
   }
  ],
  "plan": [
