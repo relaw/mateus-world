@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T14:36+01:00",
+ "generated_at": "2026-10-26T14:46+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -991,6 +991,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:40",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a \"Most searched\" bar to the homepage, linking to partner stores, with larger tap targets. Awaiting checks and review.",
+   "text_uk": "Mateus додає на головну rindo.pl блок «Найчастіше шукані» з партнерськими магазинами. Зміни очікують на перевірку.",
+   "task": 157
+  },
+  {
+   "t": "14:40",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Improving button sizes on the mobile homepage and linking the top stores bar to partner stores. Store pages are waiting for Google to recrawl them.",
+   "text_uk": "Виправляємо замалі кнопки на мобільній версії головної rindo.pl. Зміна чекає на злиття, а сторінки магазинів чекають на повторне сканування Google.",
+   "task": 157
+  },
+  {
+   "t": "14:40",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "14:42",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a \"Most searched\" bar to the rindo.pl homepage, with touch targets sized for mobile.",
+   "text_uk": "Додаємо на головну сторінку rindo.pl блок «Найчастіше шукають» із нашими магазинами-партнерами, зручний для натискання на телефоні.",
+   "task": 157
   }
  ],
  "plan": [
@@ -1206,6 +1242,14 @@
    {
     "t": "14:33",
     "kind": "offers"
+   },
+   {
+    "t": "14:40",
+    "kind": "change"
+   },
+   {
+    "t": "14:42",
+    "kind": "deploy"
    }
   ],
   "season": {
@@ -1295,7 +1339,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -14.64,
+  "week": -14.63,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
