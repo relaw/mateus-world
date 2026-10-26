@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T14:46+01:00",
+ "generated_at": "2026-10-26T14:50+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -1027,6 +1027,15 @@
    "text": "Adding a \"Most searched\" bar to the rindo.pl homepage, with touch targets sized for mobile.",
    "text_uk": "Додаємо на головну сторінку rindo.pl блок «Найчастіше шукають» із нашими магазинами-партнерами, зручний для натискання на телефоні.",
    "task": 157
+  },
+  {
+   "t": "14:50",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -1339,7 +1348,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -14.63,
+  "week": -14.6,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
