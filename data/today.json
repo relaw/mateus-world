@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T03:50+01:00",
+ "generated_at": "2026-10-26T04:01+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -397,6 +397,42 @@
    "text": "Preparing a seasonal guide to Advent calendars with tea and coffee for the 2026 holiday season on rindo.pl.",
    "text_uk": "Mateus готує посібник про адвент-календарі з чаєм і кавою на 2026 рік та сезонні пропозиції однієї великої роздрібної мережі. Зміни очікують перевірки.",
    "task": 161
+  },
+  {
+   "t": "03:50",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a seasonal Advent calendar guide to rindo.pl, featuring tea and coffee deals for 2026.",
+   "text_uk": "Mateus працює над rindo.pl: новий гід з адвентних календарів із чаєм і кавою на 2026 рік та сезонні пропозиції польської мережі книгарень.",
+   "task": 161
+  },
+  {
+   "t": "03:51",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Publishing a new holiday guide on advent calendars with tea and coffee, covering retailer offers and a split by seller. It fills another gap in the seasonal calendar.",
+   "text_uk": "Новий посібник до сезону: адвент-календарі з чаєм і кавою. Це ще одна тема у сезонному календарі rindo.pl.",
+   "task": 161
+  },
+  {
+   "t": "03:52",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "The current season is wrapped up with one gap closed, and the next items are waiting on experiment readouts due October 27 and 28.",
+   "text_uk": "Завершили блок робіт і закрили одну з прогалин. Наступні кроки чекають на результати експериментів 27 і 28 жовтня.",
+   "task": null
+  },
+  {
+   "t": "03:52",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -517,12 +553,25 @@
     "t": "03:48",
     "kind": "gate",
     "ok": true
+   },
+   {
+    "t": "03:50",
+    "kind": "deploy"
+   },
+   {
+    "t": "03:50",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "03:51",
+    "kind": "change"
    }
   ],
   "season": {
    "bf": "2026-11-27",
    "phrases": 49,
-   "pages": 39
+   "pages": 41
   },
   "scenes": [
    {
@@ -606,7 +655,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -16.49,
+  "week": -16.41,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
