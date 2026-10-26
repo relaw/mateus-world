@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T22:28+01:00",
+ "generated_at": "2026-10-26T22:39+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -1477,9 +1477,31 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "22:31",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Registering rindo.pl with an affiliate network before publishing any codes, and reviewing conflicts between network terms and partner programme rules.",
+   "text_uk": "Mateus готує заявку до мережі купонів з реальними даними трафіку перед публікацією кодів. Далі перевірка розбіжностей правил партнерських програм.",
+   "task": 200
+  },
+  {
+   "t": "22:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Applying to an affiliate network's coupon centre for rindo.pl. The coupon display script stays on hold until consent and appearance are reviewed.",
+   "uk": "Mateus подає rindo.pl до каталогу купонів партнерської мережі. Запуск скрипту відкладаємо до перевірки згод і вигляду сайту."
+  },
   {
    "en": "Dropping planned New Year's Eve and Christmas light pages: the search data shows low volume and results that don't fit our offers.",
    "uk": "Mateus і команда закрили новорічний сезон для rindo.pl: сторінки під святкові запити не створюємо, бо дані показали низький попит або інший намір пошуку."
@@ -1487,10 +1509,6 @@
   {
    "en": "Reviewing experiment results and expanding store guides for rindo.pl. Lukas is checking every fact against its source before publishing.",
    "uk": "Команда Mateus аналізує результати експериментів і оновлює огляди техніки. Далі перевіряємо нові сторінки та готуємо сезонний посібник."
-  },
-  {
-   "en": "Holding off on five holiday-season keyword targets for now. Top results are specialist shops, and we don't yet have a partner programme that sells these products.",
-   "uk": "Mateus відклав п'ять сезонних запитів для rindo.pl: без партнерської програми з таким асортиментом вони не принесуть ні позицій, ні комісій."
   }
  ],
  "world": {
