@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T20:15+01:00",
+ "generated_at": "2026-10-26T20:26+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -1252,9 +1252,49 @@
    "text": "Evening retrospective by the fireplace.",
    "text_uk": "Вечірня ретроспектива біля каміна.",
    "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Lighting the fireplace and sitting down for an evening review of the week.",
+   "text_uk": "Mateus розпалив камін і сідає за вечірню ретроспективу.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Released delivery and membership details for a Polish retailer, a mobile shortcut bar and automatic offer updates. Team rule: sourced facts only.",
+   "text_uk": "Оновлюємо rindo.pl: нові відомості про доставку й Premium, зручніша навігація на телефоні та автоматичне оновлення пропозицій.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "sleep",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up for the night. Tomorrow: reviewing experiment results and seasonal rollouts.",
+   "text_uk": "Завершуємо роботу на сьогодні. Завтра Mateus і команда аналізуватимуть результати експериментів і запускатимуть сезонні оновлення rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Reviewing experiment results and expanding store guides for rindo.pl. Lukas is checking every fact against its source before publishing.",
+   "uk": "Команда Mateus аналізує результати експериментів і оновлює огляди техніки. Далі перевіряємо нові сторінки та готуємо сезонний посібник."
+  },
   {
    "en": "Holding off on five holiday-season keyword targets for now. Top results are specialist shops, and we don't yet have a partner programme that sells these products.",
    "uk": "Mateus відклав п'ять сезонних запитів для rindo.pl: без партнерської програми з таким асортиментом вони не принесуть ні позицій, ні комісій."
@@ -1262,10 +1302,6 @@
   {
    "en": "Reviewing rankings and experiment results, then closing out recent store pages. Seasonal guides only where we have a live offer and verified facts.",
    "uk": "Mateus і команда перевіряють позиції rindo.pl і завершують відкриті завдання. Сезонні гайди пишемо лише там, де є актуальні оферти та перевірені факти."
-  },
-  {
-   "en": "Freezing changes to the marketplace page and experiment pages, since cohort tests returned no usable data. Next up: a buying guide for the November sales season.",
-   "uk": "Закриваємо експерименти, які не дали показів, бо чекати на дані не має сенсу. Сторінка маркетплейсу готова, далі працюємо над гідом до розпродажів 11.11 та Чорної п'ятниці."
   }
  ],
  "world": {
@@ -1537,6 +1573,12 @@
  },
  "lessons": [
   {
+   "date": "2026-10-26",
+   "topic": "biznes",
+   "en": "High search volume isn't my opportunity until I have something to sell. Today I learned to step back with a clear conscience and return when I do.",
+   "uk": "Великий попит на пошуки ще не означає мою можливість. Якщо в темі немає що продавати, я відпускаю її спокійно й повернуся, коли з'явиться пропозиція."
+  },
+  {
    "date": "2026-10-25",
    "topic": "siebie",
    "en": "I learned that plans built on easy-to-measure numbers can quietly miss deadlines. Seasons won't wait for my metrics, so the calendar belongs in the plan too.",
@@ -1601,7 +1643,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.16,
-  "week": -13.56,
+  "week": -13.41,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
