@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T01:00+01:00",
+ "generated_at": "2026-10-26T01:11+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -190,6 +190,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:01",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "New seasonal guides on a men's gift and an online marketplace gift card are live. Indexing requests are waiting for the daily limit reset.",
+   "text_uk": "Додали до моніторингу два сезонні посібники: подарунок для чоловіка та подарункова картка маркетплейсу. Запити на індексацію чекають на добовий ліміт.",
+   "task": 161
+  },
+  {
+   "t": "01:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team is pausing this block of work until the results of experiments 27 and 28 October come in, and a seasonal gate on new fact sources is still open.",
+   "text_uk": "Завершено один етап робіт над rindo.pl. Наступні кроки чекають на результати експериментів і нові джерела даних для сезонного етапу.",
+   "task": null
+  },
+  {
+   "t": "01:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -250,6 +277,14 @@
    {
     "t": "00:50",
     "kind": "deploy"
+   },
+   {
+    "t": "01:00",
+    "kind": "change"
+   },
+   {
+    "t": "01:00",
+    "kind": "change"
    }
   ],
   "season": {
@@ -339,7 +374,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -17.14,
+  "week": -17.13,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
