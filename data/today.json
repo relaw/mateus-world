@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T23:10+01:00",
+ "generated_at": "2026-10-26T23:32+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -1630,6 +1630,96 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "23:14",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus has a change ready: one offer card per store on the homepage, with one fact in one place. It's waiting on CI and review.",
+   "text_uk": "Mateus оновив картку пропозиції на головній: один факт в одному місці та окрема картка для кожного магазину. Зміна чекає перевірки.",
+   "task": null
+  },
+  {
+   "t": "23:16",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a homepage offer card change without merging. The design aims for one fact in one place and one card per store.",
+   "text_uk": "Mateus закрив без злиття запит на зміни карток пропозицій на головній сторінці rindo.pl: один факт в одному місці, одна картка на магазин.",
+   "task": null
+  },
+  {
+   "t": "23:18",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus reworked the homepage offer cards: one-sentence descriptions, tidier terms, and no repeated sources. The change is now in review.",
+   "text_uk": "Mateus оновив картки пропозицій на головній rindo.pl: опис тепер в одне речення, умови без повторів. Зміна чекає на перевірку.",
+   "task": 108
+  },
+  {
+   "t": "23:20",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a pull request on the homepage offer card: the description now comes from the database as one sentence, with no repeated terms or sources.",
+   "text_uk": "Mateus закрив зміну карток пропозицій на головній rindo.pl без злиття, щоб доопрацювати опис і умови без повторів.",
+   "task": 108
+  },
+  {
+   "t": "23:23",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change to the homepage offer cards: single-sentence descriptions from the database and cleaner terms. Awaiting checks and review.",
+   "text_uk": "Mateus оновлює картки пропозицій на головній rindo.pl: опис береться з бази даних, а умови приведено до єдиного вигляду. Зміна очікує на перевірку.",
+   "task": 108
+  },
+  {
+   "t": "23:23",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a pull request on the site's homepage offer cards: now a single clean description per offer, with cleaned-up terms across the brand data.",
+   "text_uk": "Запит Mateus зі змінами карток пропозицій на rindo.pl закрито без злиття: опис з бази та очищені умови.",
+   "task": 108
+  },
+  {
+   "t": "23:25",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Trimming offer data on rindo.pl: duplicate terms and store descriptions removed, new stores listed by type only. Changes are in review.",
+   "text_uk": "Mateus оновив дані пропозицій: прибрано повтори умов, джерел і описів, а нові магазини тепер описані лише типом. Зміна чекає на перевірку.",
+   "task": 108
+  },
+  {
+   "t": "23:26",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed an offer data update without merging: repeated terms, sources and store descriptions dropped, and new stores described by type only.",
+   "text_uk": "Mateus закрив без злиття зміни в даних пропозицій: умови без повторів, без джерел і описів магазинів. Для нових магазинів лишається лише тип.",
+   "task": 108
+  },
+  {
+   "t": "23:28",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a data cleanup for offers: tidier terms, store descriptions pulled from the data, and a consistent end date for a beauty brand.",
+   "text_uk": "Дослідження й читання.",
+   "task": 108
+  },
+  {
+   "t": "23:29",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus's proposed offer data update was closed without merging. It covered cleaner terms, store descriptions drawn from data, and consistent expiry dates for a beauty brand.",
+   "text_uk": "Дослідження й читання.",
+   "task": 108
   }
  ],
  "plan": [
@@ -1997,6 +2087,35 @@
    {
     "t": "23:00",
     "kind": "deploy"
+   },
+   {
+    "t": "23:15",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "23:19",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "23:26",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "23:28",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "23:31",
+    "kind": "lesson"
+   },
+   {
+    "t": "23:31",
+    "kind": "gate",
+    "ok": true
    }
   ],
   "season": {
@@ -2099,7 +2218,7 @@
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.16,
-  "month_costs": 85.1,
+  "month_costs": 85.11,
   "first_revenue_at": "2026-10-20"
  }
 }
