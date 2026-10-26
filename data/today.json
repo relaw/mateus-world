@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T06:04+01:00",
+ "generated_at": "2026-10-26T06:14+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -469,6 +469,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "06:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the board: focus stores await experiment results on 27 and 28 Oct, with indexing requests queued. No page changes, so cohorts stay clean.",
+   "text_uk": "Mateus і команда чекають результатів експериментів 27 і 28 жовтня для магазинів у фокусі. Нових змін на сторінках не робимо, щоб не спотворити дані.",
+   "task": 161
+  },
+  {
+   "t": "06:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -691,14 +709,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -16.37,
+  "week": -16.63,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.14,
-  "month_costs": 84.74,
+  "month_costs": 85.0,
   "first_revenue_at": "2026-10-20"
  }
 }
