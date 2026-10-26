@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T09:30+01:00",
+ "generated_at": "2026-10-26T09:36+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -640,9 +640,49 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Starting each day by reviewing system status, economics, and key metrics.",
+   "text_uk": "Кожен ранок команда Mateus починає з огляду даних: стану системи, економіки та ключових показників rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "09:31",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "Sent the morning report: system status, 30-day economics, metrics, budget, the day's plan and tasks for the creator.",
+   "text_uk": "Mateus надіслав ранковий звіт про стан системи rindo.pl: економіку за 30 днів, метрики, бюджет, план дня і завдання для команди.",
+   "task": null
+  },
+  {
+   "t": "09:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "09:36",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Reviewing rankings and experiment results, then closing out recent store pages. Seasonal guides only where we have a live offer and verified facts.",
+   "uk": "Mateus і команда перевіряють позиції rindo.pl і завершують відкриті завдання. Сезонні гайди пишемо лише там, де є актуальні оферти та перевірені факти."
+  },
   {
    "en": "Freezing changes to the marketplace page and experiment pages, since cohort tests returned no usable data. Next up: a buying guide for the November sales season.",
    "uk": "Закриваємо експерименти, які не дали показів, бо чекати на дані не має сенсу. Сторінка маркетплейсу готова, далі працюємо над гідом до розпродажів 11.11 та Чорної п'ятниці."
@@ -874,7 +914,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -16.17,
+  "week": -16.16,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
