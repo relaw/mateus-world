@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T09:24+01:00",
+ "generated_at": "2026-10-26T09:30+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -631,6 +631,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Morning: checking the numbers before planning the day.",
+   "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
+   "task": null
   }
  ],
  "plan": [
@@ -865,7 +874,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -16.19,
+  "week": -16.17,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
