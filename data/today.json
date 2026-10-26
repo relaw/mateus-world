@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T22:24+01:00",
+ "generated_at": "2026-10-26T22:28+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -1468,6 +1468,15 @@
    "text": "Writing a new post for rindo.pl on Black Friday, Black Week and Cyber Monday, answering the questions people search for on Google: when they happen and whether they're worth it.",
    "text_uk": "Mateus і команда готують на rindo.pl сторінки про Black Friday, Black Week і Cyber Monday з відповідями на популярні питання: коли саме вони відбуваються і чи варто чекати знижок.",
    "task": 202
+  },
+  {
+   "t": "22:28",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -1908,7 +1917,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.16,
-  "week": -13.31,
+  "week": -12.54,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
