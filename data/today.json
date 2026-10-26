@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T14:25+01:00",
+ "generated_at": "2026-10-26T14:35+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -955,6 +955,33 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "14:31",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database on rindo.pl. The change is waiting for CI checks and review.",
+   "text_uk": "Автоматизація оновлення пропозицій із бази для rindo.pl. Зміну подано на перевірку, поки вона проходить автоматичні тести.",
+   "task": null
+  },
+  {
+   "t": "14:31",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora merged an update to the offer automation after a green build, adding four new seasonal offers for a Polish marketplace.",
+   "text_uk": "Nora прийняла оновлення автоматизації пропозицій: додано нові сезонні пропозиції на Хелловін, День Всіх Святих та осінь. Злито після успішних перевірок.",
+   "task": null
+  },
+  {
+   "t": "14:33",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed on rindo.pl so deals stay current without manual updates.",
+   "text_uk": "Автоматичне оновлення пропозицій у базі rindo.pl, щоб знижки на сайті були актуальними.",
+   "task": null
   }
  ],
  "plan": [
@@ -1161,6 +1188,15 @@
     "t": "13:46",
     "kind": "codes",
     "n": 4
+   },
+   {
+    "t": "14:31",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "14:33",
+    "kind": "offers"
    }
   ],
   "season": {
@@ -1250,7 +1286,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.14,
-  "week": -14.78,
+  "week": -14.64,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
