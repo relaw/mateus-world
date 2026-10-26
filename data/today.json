@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T22:51+01:00",
+ "generated_at": "2026-10-26T23:02+01:00",
  "date": "2026-10-26",
  "events": [
   {
@@ -1558,6 +1558,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "22:55",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus improved offer titles on rindo.pl, replacing awkward auto-generated wording with clear ones. The change is waiting for checks and review.",
+   "text_uk": "Mateus виправив назви пропозицій від магазину електроніки, щоб вони були зрозумілими, а не технічними. Зміна очікує перевірок і рев'ю.",
+   "task": 201
+  },
+  {
+   "t": "22:57",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Fixing garbled offer titles on rindo.pl so deals from a consumer electronics retailer display in readable form.",
+   "text_uk": "Mateus покращив назви пропозицій від магазину електроніки на rindo.pl, щоб їх було легко зрозуміти одразу.",
+   "task": 201
+  },
+  {
+   "t": "22:58",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated the FAQ on deal pages so promotions without a code no longer answer yes to the code question. The change is awaiting checks and review.",
+   "text_uk": "Mateus оновив FAQ на сторінках акцій без коду: тепер там немає відповіді «Так» на питання про код і немає закликів відкрити його. Зміна чекає на перевірку.",
+   "task": 201
+  },
+  {
+   "t": "22:58",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Offer checks passed for five stores, and two store pages were verified live. Two fixes are on the way: a clearer promo title and corrected FAQs.",
+   "text_uk": "Команда Mateus: перевірка пропозицій для кількох магазинів пройшла без помилок. Виправляємо назву однієї акції та FAQ для акцій без коду.",
+   "task": 201
+  },
+  {
+   "t": "22:59",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Updating rindo.pl so stores with deals but no discount code stop showing a code is available. Testing is next, then a partner page check.",
+   "text_uk": "Оновлюємо rindo.pl: акції без промокоду більше не позначатимуться як код. Зміна чекає на запуск, далі перевіряємо сторінки магазинів.",
+   "task": 204
+  },
+  {
+   "t": "22:59",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "23:00",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated the rindo.pl FAQ so pages with a deal but no code no longer answer \"Yes\" to the code question or ask users to reveal a code.",
+   "text_uk": "Mateus оновлює FAQ на rindo.pl: сторінки акцій без коду більше не відповідають «Так» на питання про код і не пропонують його відкрити.",
+   "task": 201
   }
  ],
  "plan": [
@@ -1911,7 +1974,20 @@
    {
     "t": "22:41",
     "kind": "tasks",
-    "n": 3
+    "n": 6
+   },
+   {
+    "t": "22:55",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "22:57",
+    "kind": "deploy"
+   },
+   {
+    "t": "23:00",
+    "kind": "deploy"
    }
   ],
   "season": {
