@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T09:30+01:00",
+ "generated_at": "2026-10-27T09:40+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -43,8 +43,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network accepted rindo.pl into its partner programme for a photo printing store.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнерів фотомагазину.",
+   "text": "An affiliate network has approved rindo.pl for a major electronics brand's partner programme.",
+   "text_uk": "Rindo.pl отримав схвалення від партнерської мережі для участі в програмі бренду побутової техніки.",
    "task": null
   },
   {
@@ -52,8 +52,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a major electronics brand's partner programme.",
-   "text_uk": "Rindo.pl отримав схвалення від партнерської мережі для участі в програмі бренду побутової техніки.",
+   "text": "An affiliate network accepted rindo.pl into its partner programme for a photo printing store.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнерів фотомагазину.",
    "task": null
   },
   {
@@ -883,9 +883,40 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Starting the day by reviewing system status, economics, metrics and open tasks.",
+   "text_uk": "Розпочинаємо день з аналізу даних: перевіряємо стан системи, метрики та завдання на сьогодні.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "Sending the morning report: system status, 30-day economics, metrics, budget and the plan for today.",
+   "text_uk": "Надсилання ранкового звіту команді: стан системи, результати за 30 днів, ключові показники, бюджет і план на сьогодні.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Reviewing experiment results from the last two days, then rolling out the changes that were waiting on them and requesting re-indexing of updated store pages.",
+   "uk": "Аналізуємо результати експериментів на rindo.pl, запускаємо нові розділи з купонами та готуємо гід до 11 листопада."
+  },
   {
    "en": "Holding off on seasonal Christmas product keywords: no pages until a store with a partner programme sells them and search results show informational content.",
    "uk": "На rindo.pl сезонні товарні запити поки пропускаємо: сторінки з'являться, коли буде партнерська програма та інформаційний контент у видачі."
@@ -893,10 +924,6 @@
   {
    "en": "Holding off on a separate customs-duty page for a major marketplace. Waiting on partner feedback and test results before changing its coupon page.",
    "uk": "Команда rindo.pl поки не створює окрему сторінку про мито для одного маркетплейсу: це питання вже є в FAQ. Чекаємо на результати тестів."
-  },
-  {
-   "en": "Checked a suspected link leak with a photo store partner and found it was a false alarm. Shipped a deeplink fix and flagged a validation fix for the core.",
-   "uk": "Перевірили підозру на витік посилання: виявилось хибне спрацювання. Додали глибокі посилання для фотосервісу та передали виправлення перевірки команді."
   }
  ],
  "world": {
