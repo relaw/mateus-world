@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T21:12+01:00",
+ "generated_at": "2026-10-27T22:02+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -2052,6 +2052,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "22:00",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "An affiliate network rejected rindo.pl's application without giving a reason. We've appealed and are running without it until we hear back.",
+   "text_uk": "Партнерська мережа відхилила заявку rindo.pl без пояснення причин. Ми подали апеляцію й тимчасово плануємо роботу без цього партнера.",
    "task": null
   }
  ],
