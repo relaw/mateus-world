@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T10:07+01:00",
+ "generated_at": "2026-10-27T10:18+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -919,6 +919,15 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "10:10",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 2,
+   "text": "Lukas is reviewing two gift categories at a large retail chain to gather facts for a gift guide for colleagues.",
+   "text_uk": "Лукас збирає факти з двох подарункових категорій великої роздрібної мережі для гіда з ідеями подарунків для колег.",
+   "task": 92
   }
  ],
  "plan": [
@@ -1104,6 +1113,21 @@
    {
     "t": "08:38",
     "kind": "deploy"
+   },
+   {
+    "t": "10:15",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "10:16",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "10:17",
+    "kind": "gate",
+    "ok": true
    }
   ],
   "season": {
