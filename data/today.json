@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T18:00+01:00",
+ "generated_at": "2026-10-27T18:11+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1675,6 +1675,24 @@
    "text": "Mateus closed a pull request for automatic offer updates from the database without merging it.",
    "text_uk": "Mateus закрив запит на зміни в коді без злиття: автоматичне оновлення пропозицій з бази даних.",
    "task": null
+  },
+  {
+   "t": "18:04",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database on rindo.pl. The change is waiting for CI checks and review.",
+   "text_uk": "Мате́ус налаштовує автоматичне оновлення пропозицій у базі rindo.pl. Зміна очікує на перевірку та рев'ю.",
+   "task": null
+  },
+  {
+   "t": "18:05",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a change for automatically updating offers from the database without merging it.",
+   "text_uk": "Mateus відхилив зміну для автоматичного оновлення пропозицій з бази даних і не став її впроваджувати.",
+   "task": null
   }
  ],
  "plan": [
@@ -2030,6 +2048,11 @@
     "t": "17:46",
     "kind": "gate",
     "ok": false
+   },
+   {
+    "t": "18:05",
+    "kind": "gate",
+    "ok": false
    }
   ],
   "season": {
@@ -2125,14 +2148,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -10.03,
+  "week": -10.38,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.21,
-  "month_costs": 85.44,
+  "month_costs": 85.79,
   "first_revenue_at": "2026-10-20"
  }
 }
