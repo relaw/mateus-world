@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T18:52+01:00",
+ "generated_at": "2026-10-27T18:55+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1720,6 +1720,42 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "18:51",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from our database on rindo.pl. The change is waiting for automated checks and review.",
+   "text_uk": "Автоматичне оновлення пропозицій у базі для rindo.pl: зміни готові та очікують перевірки.",
+   "task": null
+  },
+  {
+   "t": "18:52",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an update to the offer automation, adding new deals from two stores. The merge goes ahead once CI is green.",
+   "text_uk": "Автоматичне оновлення пропозицій на rindo.pl: Nora прийняла нові знижки від партнерських магазинів. Зміни вносимо після успішної автоматичної перевірки.",
+   "task": null
+  },
+  {
+   "t": "18:54",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating offer updates on rindo.pl so deals stay current without manual work.",
+   "text_uk": "Автоматичне оновлення пропозицій з бази на rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "18:54",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -2089,6 +2125,15 @@
     "t": "18:49",
     "kind": "tasks",
     "n": 1
+   },
+   {
+    "t": "18:52",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "18:54",
+    "kind": "offers"
    }
   ],
   "season": {
