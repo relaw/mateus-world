@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T13:56+01:00",
+ "generated_at": "2026-10-27T14:07+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1360,6 +1360,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "13:58",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Checked live delivery, returns and FAQ details on partner store pages, then saved updates with ranking keywords. Store pages come before guides.",
+   "text_uk": "Перевірили на живо зміни в магазинах-партнерах: доставка, повернення, нові питання з датою перевірки. Спершу сторінки магазинів, потім гайди.",
+   "task": 90
+  },
+  {
+   "t": "13:58",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting for Google to re-crawl the store pages on the 28th, then checking their rankings on the 29th.",
+   "text_uk": "Наступні кроки для магазинів у фокусі чекають на повторне індексування сторінок пошуковою системою (28.10) і перевірку позицій (29.10).",
+   "task": null
+  },
+  {
+   "t": "13:59",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1380,7 +1407,7 @@
   "shops": 52,
   "shops_goal": 40,
   "partners": 30,
-  "mails_today": 1,
+  "mails_today": 2,
   "commissions_today": 2,
   "today": [
    {
@@ -1660,6 +1687,23 @@
    },
    {
     "t": "13:55",
+    "kind": "mail"
+   },
+   {
+    "t": "13:57",
+    "kind": "lesson"
+   },
+   {
+    "t": "13:58",
+    "kind": "change"
+   },
+   {
+    "t": "13:58",
+    "kind": "index",
+    "n": 1
+   },
+   {
+    "t": "14:02",
     "kind": "mail"
    }
   ],
