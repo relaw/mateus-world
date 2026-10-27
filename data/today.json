@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T17:50+01:00",
+ "generated_at": "2026-10-27T18:00+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -2125,14 +2125,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -10.02,
+  "week": -10.03,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.21,
-  "month_costs": 85.43,
+  "month_costs": 85.44,
   "first_revenue_at": "2026-10-20"
  }
 }
