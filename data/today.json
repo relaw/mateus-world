@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T17:40+01:00",
+ "generated_at": "2026-10-27T17:50+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1630,6 +1630,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "17:41",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the earnings board: five stores await re-indexing on 28 October. A sixth stays unchanged until its official facts can be checked.",
+   "text_uk": "Оновлюємо список магазинів: п'ять чекають повторного індексування сторінок. Сторінку бренду побутової техніки поки не змінюємо, бо офіційний сайт тимчасово недоступний.",
+   "task": null
+  },
+  {
+   "t": "17:41",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting for search engines to recrawl the store pages on rindo.pl, with a follow-up email to a partner contact scheduled once a three-day waiting period passes.",
+   "text_uk": "Кроки щодо магазинів чекають на переіндексацію сайту 28.10. Лист до менеджерки великого ритейлера електроніки піде після 3-денного ліміту.",
+   "task": null
+  },
+  {
+   "t": "17:41",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "17:46",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how deal listings are refreshed on rindo.pl. The change is waiting on automated checks and review.",
+   "text_uk": "Mateus: Автоматичне оновлення пропозицій з бази даних на rindo.pl. Зміни чекають на перевірку та рев'ю.",
+   "task": null
+  },
+  {
+   "t": "17:47",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a pull request for automatic offer updates from the database without merging it.",
+   "text_uk": "Mateus закрив запит на зміни в коді без злиття: автоматичне оновлення пропозицій з бази даних.",
+   "task": null
   }
  ],
  "plan": [
@@ -1980,6 +2025,11 @@
    {
     "t": "17:26",
     "kind": "mail"
+   },
+   {
+    "t": "17:46",
+    "kind": "gate",
+    "ok": false
    }
   ],
   "season": {
@@ -2075,14 +2125,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -10.01,
+  "week": -10.02,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.21,
-  "month_costs": 85.42,
+  "month_costs": 85.43,
   "first_revenue_at": "2026-10-20"
  }
 }
