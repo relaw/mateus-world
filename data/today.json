@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T17:27+01:00",
+ "generated_at": "2026-10-27T17:37+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1584,6 +1584,33 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "17:29",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing partner earnings, and checking an electronics retailer's offer against its live pages before replying to the partner manager.",
+   "text_uk": "Mateus перевіряє умови доступу магазинів і відповідність пропозицій сторінкам сайту. Позиції п'яти магазинів чекають переіндексації 28 жовтня.",
+   "task": 87
+  },
+  {
+   "t": "17:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "17:36",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "His creator wrote on Telegram, so Mateus picks up the phone and answers.",
+   "text_uk": "Творець написав у Telegram, тож Mateus бере телефон і відповідає.",
    "task": null
   }
  ],
