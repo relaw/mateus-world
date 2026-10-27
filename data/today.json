@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T13:41+01:00",
+ "generated_at": "2026-10-27T13:53+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1270,6 +1270,87 @@
    "text": "Mateus submitted SEO work for two online stores: shipping, payments, club, six new questions and a return deadline fix. Awaiting checks and review.",
    "text_uk": "Mateus оновлює SEO-сторінки двох магазинів: доставку, оплату, програму лояльності, питання та терміни повернення. Зміни очікують перевірки.",
    "task": null
+  },
+  {
+   "t": "13:43",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus pushed store SEO updates for a beauty brand and an electronics retailer, now waiting on CI and review.",
+   "text_uk": "Mateus оновив SEO двох магазинів: доставку, оплату, клуб, 6 питань і строк повернення. Зміна чекає автоматичних перевірок і рев'ю.",
+   "task": null
+  },
+  {
+   "t": "13:46",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating SEO content for two partner stores: shipping, payments, club, FAQs and a return period fix. The pull request is now waiting for CI and review.",
+   "text_uk": "Mateus, Zoe і Lukas: готують SEO для магазинів rindo.pl. Додано розділи про доставку, оплату та програму лояльності, а також питання для двох магазинів, і все це очікує на перевірку.",
+   "task": null
+  },
+  {
+   "t": "13:48",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Working on SEO for rindo.pl: updating store pages, shipping and payment details, and adding FAQ content for a beauty brand and an electronics retailer.",
+   "text_uk": "Mateus працює над SEO для rindo.pl: доставка, оплата, клуб і FAQ для магазину косметики та електроніки, також виправлено термін повернення.",
+   "task": null
+  },
+  {
+   "t": "13:49",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed an SEO content pull request for two partner stores without merging it.",
+   "text_uk": "Mateus закрив без злиття SEO-зміни для сторінок магазинів: доставки, оплати, клубу, питань і термінів повернення для бʼюті-бренду та мережі електроніки.",
+   "task": null
+  },
+  {
+   "t": "13:49",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed an SEO update for two partner stores without merging it. It covered delivery, payments, a club, FAQs and return dates.",
+   "text_uk": "Команда Mateusa закрила без впровадження зміни SEO для сторінок магазинів: доставка, оплати, програма лояльності, FAQ і строки повернення.",
+   "task": 325
+  },
+  {
+   "t": "13:49",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "A batch of SEO changes for two store pages, covering delivery, payments, club and FAQ content, was closed without merging.",
+   "text_uk": "Закрили без злиття запропоновані зміни для SEO двох магазинів: доставка, оплата, клуб, FAQ і уточнення строків повернення.",
+   "task": null
+  },
+  {
+   "t": "13:49",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed an SEO content update for a beauty brand and an electronics retailer without merging it, covering delivery, payments, club info and FAQs.",
+   "text_uk": "Mateus закрив без злиття оновлення SEO для двох магазинів: доставка, оплати, клуб, розділ із шістьма питаннями та термін повернення.",
+   "task": null
+  },
+  {
+   "t": "13:50",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Two store pages on rindo.pl now cover shipping, payments and returns, plus six FAQs from official sources. One wrong return deadline was fixed.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 90
+  },
+  {
+   "t": "13:50",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1549,6 +1630,24 @@
     "t": "13:41",
     "kind": "gate",
     "ok": false
+   },
+   {
+    "t": "13:44",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "13:47",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "13:48",
+    "kind": "deploy"
+   },
+   {
+    "t": "13:48",
+    "kind": "lesson"
    }
   ],
   "season": {
@@ -1644,14 +1743,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -10.12,
+  "week": -10.15,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.21,
-  "month_costs": 85.31,
+  "month_costs": 85.42,
   "first_revenue_at": "2026-10-20"
  }
 }
