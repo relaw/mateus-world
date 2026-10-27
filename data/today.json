@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T04:30+01:00",
+ "generated_at": "2026-10-27T04:40+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -550,6 +550,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "04:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the pipeline board: all focus stores are waiting for a fresh Google re-scan, which will start once the daily quota resets. Nothing new to change on the site until then.",
+   "text_uk": "Огляд дошки завдань: усі магазини з фокусу чекають на повторне сканування Google, яке запуститься після відновлення добового ліміту. До того часу на сайтах нічого нового змінювати.",
+   "task": null
+  },
+  {
+   "t": "04:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -799,7 +817,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.16,
-  "week": -10.69,
+  "week": -10.63,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
