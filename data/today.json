@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T17:14+01:00",
+ "generated_at": "2026-10-27T17:27+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1576,6 +1576,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "17:27",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -1596,7 +1605,7 @@
   "shops": 52,
   "shops_goal": 40,
   "partners": 30,
-  "mails_today": 2,
+  "mails_today": 3,
   "commissions_today": 2,
   "today": [
    {
@@ -1918,6 +1927,14 @@
    {
     "t": "16:54",
     "kind": "deploy"
+   },
+   {
+    "t": "17:25",
+    "kind": "deploy"
+   },
+   {
+    "t": "17:26",
+    "kind": "mail"
    }
   ],
   "season": {
