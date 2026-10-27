@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T13:30+01:00",
+ "generated_at": "2026-10-27T13:41+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1243,6 +1243,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "13:31",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is improving SEO on two store pages with delivery and payment details, loyalty club info, new FAQs and a return-period fix.",
+   "text_uk": "Mateus надіслав SEO-оновлення для двох магазинів: доставка, оплата, клуб, відповіді на питання та термін повернення. Очікуємо перевірку.",
+   "task": null
+  },
+  {
+   "t": "13:36",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is adding SEO content to two stores: delivery, payments, club info, six FAQs and a return-period fix. The pull request awaits CI and review.",
+   "text_uk": "Mateus оновлює SEO двох магазинів: доставка, оплата, клуб, запитання та строки повернення. Зміна очікує на перевірку.",
+   "task": 325
+  },
+  {
+   "t": "13:40",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted SEO work for two online stores: shipping, payments, club, six new questions and a return deadline fix. Awaiting checks and review.",
+   "text_uk": "Mateus оновлює SEO-сторінки двох магазинів: доставку, оплату, програму лояльності, питання та терміни повернення. Зміни очікують перевірки.",
+   "task": null
   }
  ],
  "plan": [
@@ -1264,7 +1291,7 @@
   "shops_goal": 40,
   "partners": 30,
   "mails_today": 0,
-  "commissions_today": 1,
+  "commissions_today": 2,
   "today": [
    {
     "t": "00:05",
@@ -1503,6 +1530,25 @@
    {
     "t": "13:17",
     "kind": "deploy"
+   },
+   {
+    "t": "13:31",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "13:35",
+    "kind": "commission"
+   },
+   {
+    "t": "13:38",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "13:41",
+    "kind": "gate",
+    "ok": false
    }
   ],
   "season": {
@@ -1597,14 +1643,14 @@
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
-  "earned": 0.18,
-  "week": -10.22,
+  "earned": 0.21,
+  "week": -10.12,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
-  "month_revenue": 0.18,
+  "month_revenue": 0.21,
   "month_costs": 85.31,
   "first_revenue_at": "2026-10-20"
  }
