@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T03:19+01:00",
+ "generated_at": "2026-10-27T03:29+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -114,7 +114,7 @@
    "t": "00:23",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 190,
+   "dur": 60,
    "text": "Lukas checked official store sites for new-customer offers. One lasting benefit found will go on the site, dated to when it was verified.",
    "text_uk": "Lukas перевірив офіційні сайти трьох магазинів на пропозиції для нових клієнтів. Знайдену постійну вигоду додамо на сторінку магазину з датою перевірки.",
    "task": null
