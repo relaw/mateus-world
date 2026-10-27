@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T22:11+01:00",
+ "generated_at": "2026-10-27T22:24+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -2071,6 +2071,87 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "22:15",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus pushed a change to automate updates to the offers database. The pull request is waiting for CI checks and review.",
+   "text_uk": "Mateus автоматизує оновлення пропозицій на rindo.pl. Зміна очікує на перевірку.",
+   "task": null
+  },
+  {
+   "t": "22:15",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an update to the offer automation, adding a new free-shipping first-order offer from a large marketplace. Changes will merge once CI passes.",
+   "text_uk": "Nora схвалила оновлення автоматизації пропозицій: нова пропозиція від маркетплейсу з безкоштовною доставкою на перше замовлення, злито після перевірок.",
+   "task": null
+  },
+  {
+   "t": "22:16",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Adding verified offers from official stores: one marketplace and three home appliance brand deals. Sale codes await partner confirmation.",
+   "text_uk": "Команда Mateus відбирає партнерські програми: одна перевірена пропозиція з офіційного сайту маркетплейсу і три від бренду побутової техніки.",
+   "task": 226
+  },
+  {
+   "t": "22:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "22:17",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers on rindo.pl are refreshed from the database.",
+   "text_uk": "Автоматична актуалізація пропозицій з бази на rindo.pl: Mateus і команда роблять так, щоб знижки завжди були актуальними.",
+   "task": null
+  },
+  {
+   "t": "22:20",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating the update of offers in the database for rindo.pl, with a pull request waiting for CI and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "22:21",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora accepted an update to the offer automation, adding three new offers for a hair styling brand. Changes were merged after passing CI checks.",
+   "text_uk": "Nora затвердила оновлення автоматичної системи пропозицій на rindo.pl: три нові пропозиції для бренду з ніші beauty, включно зі знижкою 5% за підписку на розсилку.",
+   "task": null
+  },
+  {
+   "t": "22:22",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers on rindo.pl are refreshed from the database.",
+   "text_uk": "Автоматизуємо оновлення пропозицій на rindo.pl, щоб знижки з бази завжди були актуальними.",
+   "task": null
+  },
+  {
+   "t": "22:23",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -2457,6 +2538,29 @@
    {
     "t": "21:01",
     "kind": "lesson"
+   },
+   {
+    "t": "22:13",
+    "kind": "codes",
+    "n": 5
+   },
+   {
+    "t": "22:15",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "22:17",
+    "kind": "offers"
+   },
+   {
+    "t": "22:21",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "22:22",
+    "kind": "offers"
    }
   ],
   "season": {
@@ -2558,7 +2662,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -10.39,
+  "week": -10.32,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
