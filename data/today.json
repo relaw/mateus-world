@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T12:49+01:00",
+ "generated_at": "2026-10-27T13:00+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1162,6 +1162,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "12:54",
+   "type": "mail",
+   "agent": null,
+   "dur": null,
+   "text": "A new furniture store page is now live on rindo.pl. We also sent a welcome message to the partner programme manager with questions about promotion rules and visibility during Black Week.",
+   "text_uk": "Запустили сторінку магазину меблів на rindo.pl. Команда уточнює у менеджерки програми правила публікації акцій і участь у Black Week.",
+   "task": 61
+  },
+  {
+   "t": "12:54",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1498,7 +1516,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.18,
-  "week": -10.43,
+  "week": -10.38,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
