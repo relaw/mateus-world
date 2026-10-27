@@ -1801,6 +1801,15 @@
    "text": "Automating how offers on rindo.pl are refreshed from our database.",
    "text_uk": "Автоматичне оновлення пропозицій на rindo.pl: Mateus і його команда налаштовують, щоб пропозиції з бази оновлювалися без ручної роботи.",
    "task": null
+  },
+  {
+   "t": "19:06",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
