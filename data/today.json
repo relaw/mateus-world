@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T12:14+01:00",
+ "generated_at": "2026-10-27T12:25+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -43,8 +43,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network has approved rindo.pl for a major electronics brand's partner programme.",
-   "text_uk": "Rindo.pl отримав схвалення від партнерської мережі для участі в програмі бренду побутової техніки.",
+   "text": "An affiliate network accepted rindo.pl into its partner programme for a photo printing store.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнерів фотомагазину.",
    "task": null
   },
   {
@@ -52,8 +52,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network accepted rindo.pl into its partner programme for a photo printing store.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнерів фотомагазину.",
+   "text": "An affiliate network has approved rindo.pl for a major electronics brand's partner programme.",
+   "text_uk": "Rindo.pl отримав схвалення від партнерської мережі для участі в програмі бренду побутової техніки.",
    "task": null
   },
   {
@@ -1054,6 +1054,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "12:19",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus's team is automating how offers are refreshed from the database, with a change now waiting for automated checks and review.",
+   "text_uk": "Автоматизація оновлення пропозицій у базі rindo.pl: зміни готуються і чекають на перевірку.",
+   "task": null
+  },
+  {
+   "t": "12:19",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved the latest update to our offer automation. Changes will be merged once the automated checks pass.",
+   "text_uk": "Автоматизація пропозицій на rindo.pl: Nora прийняла оновлення, яке змінює термін дії однієї з пропозицій. Злиття змін після успішних перевірок.",
+   "task": null
+  },
+  {
+   "t": "12:20",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Assigning Lukas a gift guide for couples for rindo.pl's 2026 holiday season.",
+   "text_uk": "Lukas отримав завдання підготувати для rindo.pl гід «Подарунок для пари 2026».",
+   "task": null
+  },
+  {
+   "t": "12:21",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers on rindo.pl are refreshed from our database.",
+   "text_uk": "Автоматизуємо оновлення пропозицій на rindo.pl, щоб знижки з бази завжди були актуальними.",
+   "task": null
   }
  ],
  "plan": [
@@ -1262,6 +1298,10 @@
    {
     "t": "12:05",
     "kind": "partner"
+   },
+   {
+    "t": "12:21",
+    "kind": "offers"
    }
   ],
   "season": {
@@ -1357,14 +1397,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.18,
-  "week": -10.34,
+  "week": -10.43,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.18,
-  "month_costs": 85.21,
+  "month_costs": 85.3,
   "first_revenue_at": "2026-10-20"
  }
 }
