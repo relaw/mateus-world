@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T13:53+01:00",
+ "generated_at": "2026-10-27T13:56+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1340,7 +1340,7 @@
    "agent": null,
    "dur": null,
    "text": "Two store pages on rindo.pl now cover shipping, payments and returns, plus six FAQs from official sources. One wrong return deadline was fixed.",
-   "text_uk": "Покращує роботу команди.",
+   "text_uk": "Команда Mateus оновлює сторінки двох магазинів-партнерів: доставка, оплата, повернення та відповіді з офіційних джерел.",
    "task": 90
   },
   {
@@ -1350,6 +1350,15 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "13:56",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
@@ -1371,7 +1380,7 @@
   "shops": 52,
   "shops_goal": 40,
   "partners": 30,
-  "mails_today": 0,
+  "mails_today": 1,
   "commissions_today": 2,
   "today": [
    {
@@ -1648,6 +1657,10 @@
    {
     "t": "13:48",
     "kind": "lesson"
+   },
+   {
+    "t": "13:55",
+    "kind": "mail"
    }
   ],
   "season": {
@@ -1743,7 +1756,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -10.15,
+  "week": -10.06,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
