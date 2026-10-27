@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T00:29+01:00",
+ "generated_at": "2026-10-28T00:39+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -63,6 +63,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "00:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Requested search engine re-crawls of four store pages from this week's focus. The experiment still lacks data for a decision, so we're waiting on Monday's rankings.",
+   "text_uk": "Mateus попросив пошукову систему повторно проіндексувати чотири сторінки магазинів. Замало даних для рішення, чекаємо на понеділкові заміри.",
+   "task": null
+  },
+  {
+   "t": "00:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
@@ -193,7 +211,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -7.42,
+  "week": -7.23,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
