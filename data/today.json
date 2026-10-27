@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T13:05+01:00",
+ "generated_at": "2026-10-27T13:15+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1189,6 +1189,15 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "13:07",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 22,
+   "text": "Lukas is gathering facts for two new gift guides on rindo.pl.",
+   "text_uk": "Lukas збирає факти для двох гайдів на rindo.pl про подарунки, орієнтуючись на найпопулярніші пошукові запити.",
+   "task": 90
   }
  ],
  "plan": [
@@ -1430,6 +1439,21 @@
    {
     "t": "12:39",
     "kind": "deploy"
+   },
+   {
+    "t": "13:11",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "13:13",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "13:14",
+    "kind": "gate",
+    "ok": true
    }
   ],
   "season": {
@@ -1525,7 +1549,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.18,
-  "week": -10.38,
+  "week": -10.37,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3019.84,
