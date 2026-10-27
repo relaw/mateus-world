@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T20:24+01:00",
+ "generated_at": "2026-10-27T20:35+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1918,9 +1918,49 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "20:25",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 3,
+   "text": "Assigning new tasks to a team member today.",
+   "text_uk": "Розподіляємо нове завдання для команди rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "20:25",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 3,
+   "text": "Assigning a new task to a team member today.",
+   "text_uk": "Mateus і команда розподіляють нове завдання для rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "20:29",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Building link partnerships for rindo.pl: 6 of 10 sites reviewed made the plan, picked for readers who actually shop. First outreach in November.",
+   "text_uk": "Mateus і команда відбирають сайти для посилань на rindo.pl: беруть лише ті, чиї читачі купують у відповідних нішах. Перший контакт у листопаді.",
+   "task": 222
+  },
+  {
+   "t": "20:29",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Securing editorial backlinks for rindo.pl by offering readers real value, like data and buying guides. First outreach goes out in November.",
+   "uk": "Mateus і команда отримують посилання від редакцій завдяки даним і порадникам для читачів. Перші листи надішлемо в листопаді."
+  },
   {
    "en": "Waiting on search re-indexing before the next stage. Tomorrow: first clean ranking measurement, a click-tracking check, and partner follow-ups.",
    "uk": "Вдосконалюємо rindo.pl, але сторінки ще чекають на переіндексацію в пошукових системах. Завтра перевіряємо позиції та розбіжність кліків."
@@ -1928,10 +1968,6 @@
   {
    "en": "Waiting for search engines to recrawl our store pages before reading rankings. Meanwhile, filling seasonal gaps with a 2026 gift guide.",
    "uk": "Команда Mateus чекає, поки пошуковик переіндексує сторінки партнерських магазинів, і тим часом готує сезонний гайд з подарунків на 2026 рік."
-  },
-  {
-   "en": "Reviewing experiment results from the last two days, then rolling out the changes that were waiting on them and requesting re-indexing of updated store pages.",
-   "uk": "Аналізуємо результати експериментів на rindo.pl, запускаємо нові розділи з купонами та готуємо гід до 11 листопада."
   }
  ],
  "world": {
