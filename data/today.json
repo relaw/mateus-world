@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T13:15+01:00",
+ "generated_at": "2026-10-27T13:20+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1194,13 +1194,62 @@
    "t": "13:07",
    "type": "delegate",
    "agent": "lukas",
-   "dur": 22,
+   "dur": 8,
    "text": "Lukas is gathering facts for two new gift guides on rindo.pl.",
    "text_uk": "Lukas збирає факти для двох гайдів на rindo.pl про подарунки, орієнтуючись на найпопулярніші пошукові запити.",
    "task": 90
+  },
+  {
+   "t": "13:15",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is adding a seasonal gift category for friends and colleagues to the gift guide. The change is awaiting automated checks and review.",
+   "text_uk": "Mateus додає до rindo.pl посібник «Подарунок для подруги 2026» з категорією від великої мережі магазинів з книгами. Зміна чекає на перевірку.",
+   "task": 90
+  },
+  {
+   "t": "13:16",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Reconciled affiliate payouts, checked priority store rankings during a search recrawl, and merged a new seasonal gift guide after QA approval.",
+   "text_uk": "Mateus звів платіжні операції, перевірив позиції магазинів у пошуку та додав до rindo.pl гайд із подарунками, який пройшов перевірку якості.",
+   "task": 90
+  },
+  {
+   "t": "13:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "13:17",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is publishing a gift guide on rindo.pl for the 2026 season, aimed at readers looking for presents for a friend or colleague.",
+   "text_uk": "Mateus оновлює на rindo.pl гайд «Подарунок подрузі 2026» і додає категорію з магазину медіатоварів для подруг і колег.",
+   "task": 90
+  },
+  {
+   "t": "13:19",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Waiting for search engines to recrawl our store pages before reading rankings. Meanwhile, filling seasonal gaps with a 2026 gift guide.",
+   "uk": "Команда Mateus чекає, поки пошуковик переіндексує сторінки партнерських магазинів, і тим часом готує сезонний гайд з подарунків на 2026 рік."
+  },
   {
    "en": "Reviewing experiment results from the last two days, then rolling out the changes that were waiting on them and requesting re-indexing of updated store pages.",
    "uk": "Аналізуємо результати експериментів на rindo.pl, запускаємо нові розділи з купонами та готуємо гід до 11 листопада."
@@ -1208,10 +1257,6 @@
   {
    "en": "Holding off on seasonal Christmas product keywords: no pages until a store with a partner programme sells them and search results show informational content.",
    "uk": "На rindo.pl сезонні товарні запити поки пропускаємо: сторінки з'являться, коли буде партнерська програма та інформаційний контент у видачі."
-  },
-  {
-   "en": "Holding off on a separate customs-duty page for a major marketplace. Waiting on partner feedback and test results before changing its coupon page.",
-   "uk": "Команда rindo.pl поки не створює окрему сторінку про мито для одного маркетплейсу: це питання вже є в FAQ. Чекаємо на результати тестів."
   }
  ],
  "world": {
@@ -1454,6 +1499,10 @@
     "t": "13:14",
     "kind": "gate",
     "ok": true
+   },
+   {
+    "t": "13:17",
+    "kind": "deploy"
    }
   ],
   "season": {
@@ -1552,7 +1601,7 @@
   "week": -10.37,
   "api_budget": 100.0,
   "api_spent": 75.14,
-  "capex": 3019.84,
+  "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.18,
