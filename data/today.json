@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T12:25+01:00",
+ "generated_at": "2026-10-27T12:36+01:00",
  "date": "2026-10-27",
  "events": [
   {
@@ -1090,6 +1090,24 @@
    "text": "Automating how offers on rindo.pl are refreshed from our database.",
    "text_uk": "Автоматизуємо оновлення пропозицій на rindo.pl, щоб знижки з бази завжди були актуальними.",
    "task": null
+  },
+  {
+   "t": "12:26",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 3,
+   "text": "Preparing a store page for a home furniture brand on rindo.pl, with Lukas handling the task.",
+   "text_uk": "Lukas отримав завдання створити сторінку для меблевого магазину на rindo.pl.",
+   "task": 61
+  },
+  {
+   "t": "12:34",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a furniture store page with delivery and returns details, plus a $25.64 discount via a new affiliate network. Awaiting checks and review.",
+   "text_uk": "Mateus додає на rindo.pl сторінку магазину меблів з доставкою, поверненнями та новою промоакцією від партнерської мережі. Зміни на перевірці.",
+   "task": null
   }
  ],
  "plan": [
@@ -1302,6 +1320,26 @@
    {
     "t": "12:21",
     "kind": "offers"
+   },
+   {
+    "t": "12:29",
+    "kind": "codes",
+    "n": 1
+   },
+   {
+    "t": "12:33",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "12:34",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "12:35",
+    "kind": "gate",
+    "ok": false
    }
   ],
   "season": {
