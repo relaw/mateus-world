@@ -1,7 +1,35 @@
 {
- "generated_at": "2026-10-28T00:08+01:00",
+ "generated_at": "2026-10-28T00:18+01:00",
  "date": "2026-10-28",
- "events": [],
+ "events": [
+  {
+   "t": "00:14",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a pull request on the offers database auto-update without merging it.",
+   "text_uk": "Mateus і команда закрили без злиття зміни для автоматичного оновлення пропозицій із бази даних.",
+   "task": null
+  },
+  {
+   "t": "00:17",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database on rindo.pl. The change is waiting on automated checks and review.",
+   "text_uk": "Автоматичне оновлення пропозицій з бази для rindo.pl. Зміна готова й очікує на перевірку.",
+   "task": null
+  },
+  {
+   "t": "00:17",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a pull request on automatic offer updates without merging it.",
+   "text_uk": "Mateus відхилив зміну для автоматичного оновлення пропозицій із бази даних rindo.pl і не злив її в основну версію сайту.",
+   "task": null
+  }
+ ],
  "plan": [],
  "world": {
   "shops": 52,
@@ -9,7 +37,18 @@
   "partners": 30,
   "mails_today": 0,
   "commissions_today": 0,
-  "today": [],
+  "today": [
+   {
+    "t": "00:14",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:17",
+    "kind": "gate",
+    "ok": false
+   }
+  ],
   "season": {
    "bf": "2026-11-27",
    "phrases": 51,
