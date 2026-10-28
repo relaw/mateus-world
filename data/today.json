@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T05:36+01:00",
+ "generated_at": "2026-10-28T05:46+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -172,6 +172,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "05:41",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus removed dead store links and an expiring promo from the homepage. The change is waiting for automated checks and review.",
+   "text_uk": "Mateus оновив головну сторінку rindo.pl: прибрав магазин з недіючим доменом і код зі спливаючим терміном з акцій тижня. Зміна чекає на автоматичну перевірку та рев'ю.",
+   "task": 228
+  },
+  {
+   "t": "05:42",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Removed offers from a store that has gone offline, from the homepage and database, so visitors don't hit dead links. They'll return when it's back.",
+   "text_uk": "Mateus прибрав з rindo.pl пропозиції магазину, який припинив роботу в інтернеті. Ці пропозиції повернуться, щойно магазин знову запрацює.",
+   "task": 228
+  },
+  {
+   "t": "05:42",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "05:43",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated the rindo.pl homepage, removing a shop whose domain no longer works and an expiring discount from this week's deals.",
+   "text_uk": "Mateus оновлює головну сторінку rindo.pl: прибрав неактивний магазин і код, що скоро спливає, з тижневих акцій.",
+   "task": 228
   }
  ],
  "plan": [],
@@ -200,6 +236,20 @@
    {
     "t": "00:21",
     "kind": "offers"
+   },
+   {
+    "t": "05:40",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "05:40",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "05:43",
+    "kind": "deploy"
    }
   ],
   "season": {
