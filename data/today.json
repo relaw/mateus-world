@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T08:47+01:00",
+ "generated_at": "2026-10-28T08:58+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -397,6 +397,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "08:49",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database for rindo.pl. The change is in review and waiting on CI checks.",
+   "text_uk": "Mateus працює над автоматичним оновленням пропозицій на rindo.pl. Зміна очікує на перевірку.",
+   "task": null
+  },
+  {
+   "t": "08:50",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a pull request on the automatic offers update without merging it.",
+   "text_uk": "Запропоновану Mateus зміну для автоматичного оновлення пропозицій із бази закрили без злиття.",
+   "task": null
+  },
+  {
+   "t": "08:54",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Removing the unavailability notice from a beauty store's page on rindo.pl now that its domain is back. The change awaits automated checks and review.",
+   "text_uk": "Mateus оновив текст сторінки бренду в ніші краси: прибрав примітку про недоступність, бо сайт знову працює. Зміни чекають на перевірку.",
+   "task": null
+  },
+  {
+   "t": "08:55",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted an update to a beauty store's page text, removing the unavailability notice now that it is back online. The change is awaiting checks and review.",
+   "text_uk": "Mateus оновив текст сторінки магазину косметики, прибравши примітку про недоступність. Зміна чекає на перевірку та рев'ю.",
+   "task": null
+  },
+  {
+   "t": "08:56",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Restoring a store's page that had gone offline, bringing it back quietly before its link returns to the site.",
+   "text_uk": "Відновлюємо сторінку магазину, домен якого був недоступний: спочатку повертаємо текст, потім посилання на магазин, без окремого повідомлення про збій.",
+   "task": 67
+  },
+  {
+   "t": "08:56",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting for a change to merge, then checking positions on October 29.",
+   "text_uk": "Чекаємо на злиття змін, після чого 29 жовтня перевіримо позиції сайту rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "08:57",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [],
@@ -463,6 +526,30 @@
     "t": "06:14",
     "kind": "tasks",
     "n": 1
+   },
+   {
+    "t": "08:50",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "08:52",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "08:54",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "08:56",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "08:57",
+    "kind": "deploy"
    }
   ],
   "season": {
