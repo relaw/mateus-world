@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T08:58+01:00",
+ "generated_at": "2026-10-28T09:07+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -459,6 +459,33 @@
    "dur": null,
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "08:57",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed an update to a partner store's page without merging, since the store's domain is back online and the unavailability note is no longer needed.",
+   "text_uk": "Mateus закрив запит на злиття без внесення змін, бо магазин знову доступний і примітка про недоступність більше не потрібна.",
+   "task": null
+  },
+  {
+   "t": "08:57",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated a store description on rindo.pl, removing the unavailability note now that the store's domain is back.",
+   "text_uk": "Mateus оновив опис одного з магазинів на rindo.pl: прибрав позначку про недоступність, бо домен магазину знову доступний.",
+   "task": null
+  },
+  {
+   "t": "09:07",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
