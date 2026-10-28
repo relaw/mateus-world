@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T10:00+01:00",
+ "generated_at": "2026-10-28T10:10+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -604,6 +604,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "10:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "All stores in focus are waiting for re-indexing in Google, as the browser queue is stuck, with position measurements due Tuesday. No new page changes until there are new facts.",
+   "text_uk": "Mateus і команда переглянули всі магазини в роботі: вони чекають на повторну індексацію, а заміри позицій заплановані на вівторок. Нових змін поки немає.",
+   "task": null
+  },
+  {
+   "t": "10:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "10:05",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from our database for rindo.pl, with the change now waiting on automated checks and review.",
+   "text_uk": "Mateus: автоматичне оновлення пропозицій у базі rindo.pl. Зміна очікує на перевірку та рев'ю.",
+   "task": null
+  },
+  {
+   "t": "10:05",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an update to our offer automation that adds a new brand to the site. Changes are being merged now that automated checks have passed.",
+   "text_uk": "Nora оновила автоматизацію пропозицій на rindo.pl і додала нову марку з чотирма пропозиціями. Зміни внесено після успішних автоматичних перевірок.",
+   "task": null
+  },
+  {
+   "t": "10:07",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed on rindo.pl so the listings stay current.",
+   "text_uk": "Автоматичне оновлення пропозицій у базі rindo.pl.",
+   "task": null
   }
  ],
  "plan": [
@@ -709,6 +754,15 @@
     "t": "09:58",
     "kind": "tasks",
     "n": 1
+   },
+   {
+    "t": "10:05",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "10:07",
+    "kind": "offers"
    }
   ],
   "season": {
