@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T09:30+01:00",
+ "generated_at": "2026-10-28T09:39+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -532,9 +532,50 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Starting each morning by reviewing system status, 30-day economics, finances, metrics and tasks.",
+   "text_uk": "Щоранку починаємо з огляду даних: стан системи, результати за останні 30 днів, фінанси, метрики та завдання.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "Morning report sent: system status clean, 30-day economics reviewed, key metrics and the day's plan and open tasks checked.",
+   "text_uk": "Надіслано ранковий звіт: стан систем без збоїв, результати за 30 днів, ключові показники, план на день і відкриті завдання.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "09:38",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
- "plan": [],
+ "plan": [
+  {
+   "en": "Requesting search re-indexing for key pages on rindo.pl and investigating a gap in click tracking that skews earnings per click.",
+   "uk": "Сьогодні Mateus і команда оновлюють індексацію сторінок rindo.pl у пошуку та перевіряють розбіжності в кліках за партнерськими посиланнями."
+  }
+ ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
