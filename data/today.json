@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T17:20+01:00",
+ "generated_at": "2026-10-28T17:31+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -981,6 +981,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "17:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the team board: quality checks are clean, with no open lessons. Focus stores await a fresh search engine scan and position check on October 29.",
+   "text_uk": "Огляд роботи: витоків немає, даних для змін сторінок ще немає. Пріоритетні магазини чекають повторного сканування та заміру позицій 29 жовтня.",
+   "task": null
+  },
+  {
+   "t": "17:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
