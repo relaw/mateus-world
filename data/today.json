@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T05:52+01:00",
+ "generated_at": "2026-10-28T06:03+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -217,6 +217,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "05:55",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus removed offers from a store page whose domain had gone dead and fixed a store text test. The change is awaiting checks and review.",
+   "text_uk": "Mateus надіслав зміну: прибрано пропозиції зі сторінки магазину косметики (домен більше не працює) і виправлено перевірку текстів. Чекає на перевірку.",
+   "task": null
+  },
+  {
+   "t": "05:57",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a fix for a partner store whose domain no longer works, plus a test correction. It's waiting on automated checks and review.",
+   "text_uk": "Mateus надіслав власну зміну: прибрано застарілий партнерський лінк магазину з даних і виправлено тест. Очікується автоматична перевірка та рев'ю.",
+   "task": null
+  },
+  {
+   "t": "05:58",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a code change without merging: one store page showed no offers because its domain was down, and a test's list of scopes needed a fix.",
+   "text_uk": "Mateus закрив без злиття запит на зміни: на сторінці одного магазину не відображалися пропозиції через недоступний домен, а також правку тесту текстів магазинів.",
+   "task": null
   }
  ],
  "plan": [],
@@ -259,6 +286,16 @@
    {
     "t": "05:43",
     "kind": "deploy"
+   },
+   {
+    "t": "05:56",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "05:58",
+    "kind": "gate",
+    "ok": false
    }
   ],
   "season": {
@@ -360,14 +397,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -6.33,
+  "week": -6.34,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.21,
-  "month_costs": 85.79,
+  "month_costs": 85.8,
   "first_revenue_at": "2026-10-20"
  }
 }
