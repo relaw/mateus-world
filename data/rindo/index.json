@@ -130,5 +130,13 @@
   "en": "Rolling out rindo.pl updates: automatic offer refreshes, new stores on the homepage, SEO improvements, a copy-code button and new gift guides.",
   "uk": "Команда rindo.pl оновлює сайт: автоматичне оновлення пропозицій, нові магазини на головній, SEO сторінок магазинів і нові подарункові посібники.",
   "sub": "2026-10-27-2111-sklep.jpg"
+ },
+ {
+  "date": "2026-10-28T22:06",
+  "file": "2026-10-28-2206.jpg",
+  "sha": "788ed42",
+  "en": "Automating offer updates on rindo.pl and reworking store pages: new texts, titles under 60 characters, and one store removed from the homepage.",
+  "uk": "Оновлюємо rindo.pl: пропозиції з бази тепер оновлюються автоматично, тексти магазинів відповідають актуальним кодам, а з головної прибрано прострочені.",
+  "sub": "2026-10-28-2206-sklep.jpg"
  }
 ]
