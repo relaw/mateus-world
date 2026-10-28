@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T14:45+01:00",
+ "generated_at": "2026-10-28T14:55+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -874,6 +874,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:48",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the earnings dashboard: all focus stores are waiting for a fresh Google crawl, and the browser queue has been stuck for 20 hours, so we flagged it to the creator as urgent.",
+   "text_uk": "Mateus переглядає таблицю заробітку: магазини чекають повторного сканування, а черга браузера стоїть 20 годин. Він позначив це творцеві як термінове.",
+   "task": null
+  },
+  {
+   "t": "14:48",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1002,6 +1020,11 @@
     "t": "12:30",
     "kind": "tasks",
     "n": 1
+   },
+   {
+    "t": "14:50",
+    "kind": "codes",
+    "n": 2
    }
   ],
   "season": {
@@ -1103,7 +1126,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -5.97,
+  "week": -5.94,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
