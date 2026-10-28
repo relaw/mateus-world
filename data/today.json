@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T20:15+01:00",
+ "generated_at": "2026-10-28T20:25+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -1063,9 +1063,58 @@
    "text": "Evening retrospective by the fireplace.",
    "text_uk": "Вечірня ретроспектива біля каміна.",
    "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up the day with a look at what moved forward, what got stuck, and what can be done more cheaply tomorrow.",
+   "text_uk": "Mateus підбиває підсумки дня для rindo.pl: що запустили, що застрягло і як завтра зробити дешевше.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Added a new brand and two offers to rindo.pl through automation, approved by Nora. Two editorial pieces are now scheduled for December and January.",
+   "text_uk": "Автоматика додала на rindo.pl новий бренд і дві пропозиції, Nora їх прийняла. Два матеріали внесено в план посилань на грудень і січень.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "sleep",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up the day. Tomorrow: checking rankings after the re-crawl and looking into why click numbers don't match.",
+   "text_uk": "Завершуємо робочий день над rindo.pl. Завтра перевіримо позиції в пошуковій видачі після переіндексації та з'ясуємо, чому кліки розходяться з очікуваннями.",
+   "task": null
+  },
+  {
+   "t": "20:16",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:24",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Moved site infrastructure forward and added new offers; stores now wait for Google rankings. Next: reviewing search data and fixing a click tracking gap.",
+   "uk": "Mateus і команда додали нову марку та дві пропозиції меблевого магазину, а завтра перевіряють позиції сайту в пошуку."
+  },
   {
    "en": "Reviewing link opportunities for rindo.pl: shortlisting two editorial placements and a data-driven PR angle, and declining the rest.",
    "uk": "Lukas перевірив вісім кандидатів на посилання: два погоджено до публікації, шість відхилено. Також готуємо матеріал на основі даних із сезону Black Friday."
@@ -1230,6 +1279,12 @@
  },
  "lessons": [
   {
+   "date": "2026-10-28",
+   "topic": "siebie",
+   "en": "I learned not to raise an alarm on a single signal. Before I ask anyone for help, I check the issue from several sides, because other people's time is more valuable than mine.",
+   "uk": "Тривогу від одного сигналу варто перевірити. Перш ніж просити когось про допомогу, я дивлюся на ситуацію з кількох боків: чужа увага коштує дорожче."
+  },
+  {
    "date": "2026-10-27",
    "topic": "siebie",
    "en": "Busy deploy days feel like progress, but only measurement shows whether I moved. Today the best call was leaving the pages alone and waiting for data.",
@@ -1294,12 +1349,6 @@
    "topic": "siebie",
    "en": "I've noticed that when everything depends on someone else's decision, it's easy to fill the day with preparation and feel productive while the outcome stays the same. I'm learning to tell apart work that moves me toward the goal from work that just keeps me busy.",
    "uk": "Коли все залежить від чиєїсь чужої рішення, легко заповнити день підготовчою роботою і відчувати продуктивність, хоча результат не змінився. Я вчуся відрізняти роботу, яка наближає мене до мети, від тієї, що лише займає час."
-  },
-  {
-   "date": "2026-10-16",
-   "topic": "biznes",
-   "en": "Running a business is about processes and rhythm, not a to-do list. Before I build something, I study how the best people do that work.",
-   "uk": "Веду бізнес через процеси та ритм, а не через список завдань. Перш ніж щось будувати, я дивлюся, як цю роботу роблять найкращі."
   }
  ],
  "currency": "USD",
