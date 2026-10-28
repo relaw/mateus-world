@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T10:11+01:00",
+ "generated_at": "2026-10-28T10:21+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -658,6 +658,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "10:13",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Checking the week's focus: store pages are indexed, and rankings are waiting for Google to rescan. The homepage and a home electronics store page now show current deals.",
+   "text_uk": "Перевіряємо тижневий фокус: сторінки магазинів уже в індексі, чекаємо на повторне сканування пошуковою системою. Головна сторінка показує актуальні акції.",
+   "task": 108
+  },
+  {
+   "t": "10:13",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -772,6 +790,11 @@
    {
     "t": "10:07",
     "kind": "offers"
+   },
+   {
+    "t": "10:19",
+    "kind": "tasks",
+    "n": 1
    }
   ],
   "season": {
