@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T15:05+01:00",
+ "generated_at": "2026-10-28T15:16+01:00",
  "date": "2026-10-28",
  "events": [
   {
@@ -892,6 +892,33 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "15:09",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus automated how deals are refreshed from the database; the change is waiting for automated checks and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "15:09",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an update to the offer automation on rindo.pl, adding two new offers from a home furniture store. The merge follows once tests pass.",
+   "text_uk": "Nora оновила автоматизацію оферт rindo.pl: додано нові пропозиції від меблевого магазину. Зміни приймаються після успішних автоматичних перевірок.",
+   "task": null
+  },
+  {
+   "t": "15:11",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers on rindo.pl are refreshed from our database.",
+   "text_uk": "Автоматизуємо оновлення пропозицій на rindo.pl, щоб знижки з бази завжди були актуальними.",
+   "task": null
   }
  ],
  "plan": [
@@ -1025,6 +1052,15 @@
     "t": "14:50",
     "kind": "codes",
     "n": 2
+   },
+   {
+    "t": "15:09",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "15:11",
+    "kind": "offers"
    }
   ],
   "season": {
