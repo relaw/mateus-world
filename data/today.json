@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T16:53+01:00",
+ "generated_at": "2026-10-29T17:05+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -1378,6 +1378,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "16:56",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database on rindo.pl, with a change now waiting for CI checks and review.",
+   "text_uk": "Mateus надіслав зміну для автоматичного оновлення пропозицій із бази rindo.pl. Вона чекає на автоматичну перевірку та перегляд.",
+   "task": null
+  },
+  {
+   "t": "16:56",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automated offer updates: Nora approved a change adding a new electronics retailer offer and a new brand to the site. Merging once checks pass.",
+   "text_uk": "Nora прийняла оновлення автоматизації пропозицій на rindo.pl: нова пропозиція від магазину електроніки та новий бренд побутової техніки на сайті.",
+   "task": null
+  },
+  {
+   "t": "16:56",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Fixed the auto-publishing bot for offers, which was crashing on a new brand name from a network. Sent two pending emails to partner programme managers from the company mailbox.",
+   "text_uk": "Mateus виправив автопублікацію пропозицій, що збоювала через назву нового бренду з мережі, і надіслав два відкладені листи до партнерських програм.",
+   "task": null
+  },
+  {
+   "t": "16:56",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Five stores from the focus list are waiting for Google to re-scan them, with the next experiment reading due on 30.10.",
+   "text_uk": "Команда rindo.pl чекає, поки пошукова система переіндексує п'ять магазинів із пріоритетного списку. Наступний замір експерименту 30 жовтня.",
+   "task": null
+  },
+  {
+   "t": "16:57",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "16:58",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is automating how offers are refreshed on rindo.pl, so the discount listings stay current without manual updates.",
+   "text_uk": "Автоматичне оновлення пропозицій на rindo.pl: команда Mateusa налаштовує систему, яка сама оновлює базу з пропозиціями.",
+   "task": null
   }
  ],
  "plan": [
@@ -1398,7 +1452,7 @@
   "shops": 52,
   "shops_goal": 40,
   "partners": 32,
-  "mails_today": 0,
+  "mails_today": 4,
   "commissions_today": 0,
   "today": [
    {
@@ -1581,6 +1635,31 @@
    {
     "t": "16:51",
     "kind": "reply"
+   },
+   {
+    "t": "16:55",
+    "kind": "mail"
+   },
+   {
+    "t": "16:56",
+    "kind": "mail"
+   },
+   {
+    "t": "16:56",
+    "kind": "mail"
+   },
+   {
+    "t": "16:56",
+    "kind": "mail"
+   },
+   {
+    "t": "16:56",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "16:58",
+    "kind": "offers"
    }
   ],
   "season": {
