@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T22:10+01:00",
+ "generated_at": "2026-10-29T22:20+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -1800,6 +1800,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "22:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Board review: all focus stores are waiting for search engines to re-crawl their pages. Next experiment check tomorrow, rankings measured Monday.",
+   "text_uk": "Команда переглянула експеримент: пошукова система ще не переіндексувала сторінки цільових магазинів. Наступний показник завтра, позиції заміряємо в понеділок.",
+   "task": 90
+  },
+  {
+   "t": "22:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
