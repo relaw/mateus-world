@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T09:30+01:00",
+ "generated_at": "2026-10-29T09:41+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -775,9 +775,40 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Starting the day by reviewing system status, 30-day economics, budget and key metrics.",
+   "text_uk": "Mateus і команда починають день з огляду даних: стан системи, результати за 30 днів і бюджет rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "09:31",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "Sent the morning report covering system status, 30-day economics, key metrics, budget, the day's plan and open tasks.",
+   "text_uk": "Mateus підготував ранковий звіт про стан rindo.pl: результати за 30 днів, ключові метрики, бюджет, план дня та відкриті завдання.",
+   "task": null
+  },
+  {
+   "t": "09:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Investigating a click-count mismatch between affiliate network data and our own tracking, and holding page changes until experiment results are in.",
+   "uk": "Mateus і команда звіряють дані про кліки на rindo.pl, бо різні періоди обліку дали розбіжність. Зміни на сайті відкладаємо до результатів тестів."
+  },
   {
    "en": "Fixing a duplicate brand listing so a smart lighting affiliate program sits on the correct store page. Store content is scheduled for late November.",
    "uk": "Партнерську програму смарт-освітлення прив'язуємо до наявної сторінки бренду на rindo.pl, а не до дубліката. Сторінку магазину наповнимо до 30 листопада."
@@ -785,10 +816,6 @@
   {
    "en": "Publishing seven official discount codes from a major marketplace, valid from November 1, with one code held back until partner confirmation.",
    "uk": "Публікуємо сім промокодів великого маркетплейсу, дійсних з 1 листопада. Один код із магазину кухонної техніки поки що не публікуємо до підтвердження."
-  },
-  {
-   "en": "Holding off on adding a smart lighting brand's store page to rindo.pl for now. We'll revisit once a dedicated code is offered or coupon searches pick up.",
-   "uk": "Mateus відклав сторінку бренду розумного освітлення на rindo.pl. Повернеться, коли з'явиться промокод від бренду або попит на купони."
   }
  ],
  "world": {
