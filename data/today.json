@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T00:19+01:00",
+ "generated_at": "2026-10-30T00:31+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -45,6 +45,87 @@
    "dur": null,
    "text": "Mateus cleaned up internal data notes from the returns sections of store pages. The change is waiting for automated checks and team review.",
    "text_uk": "Mateus вніс правку на сторінках магазинів: прибрав зайві згадки про брак даних у розділі повернень. Зміна очікує на автоматичну перевірку та перегляд.",
+   "task": null
+  },
+  {
+   "t": "00:19",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a pull request without merging after removing \"not in source\" references from the returns sections on store pages.",
+   "text_uk": "Запит на зміну розділу про повернення на сторінках магазинів закрито без злиття з основною версією сайту.",
+   "task": null
+  },
+  {
+   "t": "00:20",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database on rindo.pl. The change is in review and waiting for automated checks.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "00:20",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved the offer automation update, which refreshes check dates so visitors see a current date. Merging once automated checks pass.",
+   "text_uk": "Нора прийняла оновлення автомату пропозицій: дати перевірки оновлюються, а зміни об'єднуються лише після успішної перевірки CI.",
+   "task": null
+  },
+  {
+   "t": "00:21",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed on rindo.pl.",
+   "text_uk": "Автоматичне оновлення пропозицій із бази даних на rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "00:23",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Cleaning up store pages on rindo.pl: removed outdated \"not in source\" references from the returns sections. The change is now waiting for automated checks and review.",
+   "text_uk": "Mateus прибрав зайві позначки з розділів про повернення на сторінках магазинів. Зміни чекають на автоматичну перевірку та рев'ю.",
+   "task": null
+  },
+  {
+   "t": "00:23",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Tested the full path to affiliate commission on mobile and desktop, in light and dark mode. No leaks found. Removing stray internal text from 25 store pages.",
+   "text_uk": "Перевіряємо шлях від входу до комісії на телефоні та комп'ютері. Витоків комісії немає, але прибираємо службові фрази на 25 сторінках магазинів.",
+   "task": 244
+  },
+  {
+   "t": "00:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team finished an audit of the funnel and closed out the Black Week experiment, which will be kept. Store copy fixes are waiting to be merged before a live check.",
+   "text_uk": "Провели аудит воронки rindo.pl. Експеримент Black Week завершили і залишили. Оновлення текстів магазинів чекає на злиття, далі перевіримо сайт наживо.",
+   "task": null
+  },
+  {
+   "t": "00:24",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:25",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Cleaning up store pages on rindo.pl by removing outdated \"not in source\" references from the returns sections.",
+   "text_uk": "Mateus і команда прибрали неперевірені позначки з розділів про повернення товарів на сторінках магазинів rindo.pl.",
    "task": null
   }
  ],
@@ -134,6 +215,38 @@
     "t": "00:19",
     "kind": "gate",
     "ok": false
+   },
+   {
+    "t": "00:20",
+    "kind": "experiment"
+   },
+   {
+    "t": "00:20",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:21",
+    "kind": "offers"
+   },
+   {
+    "t": "00:23",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:24",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:25",
+    "kind": "deploy"
+   },
+   {
+    "t": "00:27",
+    "kind": "gate",
+    "ok": true
    }
   ],
   "season": {
