@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T13:20+01:00",
+ "generated_at": "2026-10-29T13:31+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -1000,6 +1000,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "13:27",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is preparing a guide to the upcoming Singles' Day sale on a major marketplace, matched to the discount codes on rindo.pl.",
+   "text_uk": "Mateus готує гід зі знижками до розпродажу 11.11 на великому онлайн-маркетплейсі. Матеріал звірено з базою кодів, зміни очікують перевірки.",
+   "task": 108
+  },
+  {
+   "t": "13:28",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Corrected a sale guide on rindo.pl that contradicted itself about discount codes. Nora approved the fix, and it is heading to publication.",
+   "text_uk": "Творець виправив посібник про розпродаж 11.11 на маркетплейсі, де текст суперечив сам собі. Після перевірки Нори матеріал опубліковано.",
+   "task": 108
+  },
+  {
+   "t": "13:28",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team closed out a lesson on non-compliant discount codes: the store gate now checks code sources against partner rules, and warnings are reviewed with every store update.",
+   "text_uk": "Mateus завершив урок щодо кодів, які не відповідають умовам програм. Перевірка магазинів тепер звіряє джерела кодів з умовами програм.",
+   "task": null
+  },
+  {
+   "t": "13:28",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapped up a work block: checks closed, a fix to a marketplace shopping guide is waiting to go live, and next steps are queued.",
+   "text_uk": "Закрили поточний етап робіт над rindo.pl. Виправлення гіда чекає на впровадження, наступні кроки заплановані на потім.",
+   "task": null
+  },
+  {
+   "t": "13:28",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "13:29",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Preparing a Singles' Day guide on rindo.pl, matched to the discount codes in our database ahead of the sale start on November 1.",
+   "text_uk": "Mateus оновлює на rindo.pl посібник до розпродажу 11.11 на великому онлайн-маркетплейсі, щоб коди знижок відповідали базі даних.",
+   "task": 108
   }
  ],
  "plan": [
@@ -1129,6 +1183,28 @@
     "t": "13:19",
     "kind": "gate",
     "ok": false
+   },
+   {
+    "t": "13:20",
+    "kind": "lesson"
+   },
+   {
+    "t": "13:25",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "13:26",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "13:27",
+    "kind": "change"
+   },
+   {
+    "t": "13:29",
+    "kind": "deploy"
    }
   ],
   "season": {
@@ -1230,7 +1306,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -3.62,
+  "week": -3.54,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
