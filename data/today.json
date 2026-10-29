@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T05:57+01:00",
+ "generated_at": "2026-10-29T06:08+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -658,6 +658,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "05:59",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the earnings board: all focus stores are waiting for Google to re-crawl their pages. Positions are unchanged and no new steps are needed yet.",
+   "text_uk": "Огляд доходів rindo.pl: фокусні магазини чекають, поки пошукова система повторно просканує їхні сторінки. Позиції без змін, нових кроків поки немає.",
+   "task": null
+  },
+  {
+   "t": "05:59",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -868,14 +886,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -3.66,
+  "week": -3.67,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.21,
-  "month_costs": 85.89,
+  "month_costs": 85.91,
   "first_revenue_at": "2026-10-20"
  }
 }
