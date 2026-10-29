@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T23:35+01:00",
+ "generated_at": "2026-10-29T23:45+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -2205,6 +2205,31 @@
    {
     "t": "23:26",
     "kind": "mail"
+   },
+   {
+    "t": "23:37",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "23:38",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "23:38",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "23:43",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "23:43",
+    "kind": "gate",
+    "ok": true
    }
   ],
   "season": {
