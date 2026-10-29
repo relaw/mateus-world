@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T13:38+01:00",
+ "generated_at": "2026-10-29T13:49+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -1063,6 +1063,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "13:43",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is adding structured FAQ markup to guides, improving tap targets in the \"See also\" section, and reworking copy for a seasonal sale campaign, all pending review.",
+   "text_uk": "Mateus оновив посібники rindo.pl: структуровані дані для FAQ, зручніші посилання «Дивіться також» і текст про листопадову акцію. Зміни чекають перевірки.",
+   "task": 98
+  },
+  {
+   "t": "13:43",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Improving a seasonal sales guide by adding FAQ structured data and enlarging mobile tap targets. The fix passed automated checks and Nora's review, and the merge is pending.",
+   "text_uk": "Поправили посібник про розпродаж 11.11 на rindo.pl: додали FAQ і збільшили кнопки для телефонів. Нора перевірила, оновлення чекає на автоперевірку.",
+   "task": 98
+  },
+  {
+   "t": "13:43",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Five focus store pages are waiting for Google to re-scan them, with position checks due Monday. The audit of a marketplace guide is now complete.",
+   "text_uk": "Команда чекає на повторне сканування пошуковика для п'яти магазинів і понеділковий замір позицій. Цей блок завершив аудит посібника з маркетплейсу.",
+   "task": null
+  },
+  {
+   "t": "13:44",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "13:45",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is updating the guides on rindo.pl: structured data for FAQ sections, bigger tap targets in \"See also\", and 11.11 copy for a marketplace.",
+   "text_uk": "Mateus оновлює порадники на rindo.pl: структуровані дані для FAQ, зручніші посилання «Дивіться також» і правки до розпродажу 11.11 на маркетплейсі.",
+   "task": 98
   }
  ],
  "plan": [
@@ -1213,6 +1258,15 @@
    },
    {
     "t": "13:29",
+    "kind": "deploy"
+   },
+   {
+    "t": "13:43",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "13:45",
     "kind": "deploy"
    }
   ],
