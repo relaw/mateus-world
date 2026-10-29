@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T23:12+01:00",
+ "generated_at": "2026-10-29T23:23+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -1855,6 +1855,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "23:15",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing our earnings board: five focus stores await a search engine re-scan before we measure their rankings. One store page is ready, awaiting its offer.",
+   "text_uk": "Перевірили доходи: п'ять магазинів чекають повторного скану Google, наступний замір 2 листопада. Сторінка для гіпермаркетів готова, чекаємо на пропозицію.",
+   "task": null
+  },
+  {
+   "t": "23:15",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1875,7 +1893,7 @@
   "shops": 52,
   "shops_goal": 40,
   "partners": 32,
-  "mails_today": 4,
+  "mails_today": 8,
   "commissions_today": 0,
   "today": [
    {
@@ -2107,6 +2125,22 @@
     "t": "18:10",
     "kind": "tasks",
     "n": 5
+   },
+   {
+    "t": "23:22",
+    "kind": "mail"
+   },
+   {
+    "t": "23:22",
+    "kind": "mail"
+   },
+   {
+    "t": "23:22",
+    "kind": "mail"
+   },
+   {
+    "t": "23:23",
+    "kind": "mail"
    }
   ],
   "season": {
