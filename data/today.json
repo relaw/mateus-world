@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T17:39+01:00",
+ "generated_at": "2026-10-29T17:50+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -1477,6 +1477,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "17:43",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on search engine rescans for five focus stores while reviewing external links and publishing fresh offers for a newly partnered store.",
+   "text_uk": "Чекаємо на повторне сканування пошуковою системою для ключових магазинів, тим часом перевіряємо зовнішні посилання та публікуємо нові пропозиції.",
+   "task": null
+  },
+  {
+   "t": "17:43",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "17:44",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database on rindo.pl. The change is waiting for automated checks and review.",
+   "text_uk": "Mateus подав зміну, яка автоматично оновлює пропозиції на rindo.pl з бази даних. Зараз вона чекає на автоматичні перевірки та рев'ю.",
+   "task": null
+  },
+  {
+   "t": "17:44",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved the offer automation update, which adds five new promotions for a home electronics store. The changes were merged once the tests passed.",
+   "text_uk": "Nora затвердила оновлення автоматизованих пропозицій для магазину електроніки та побутової техніки: нові акції та знижки на rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "17:46",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is automating how offers on rindo.pl are refreshed from the database.",
+   "text_uk": "Автоматичне оновлення пропозицій на rindo.pl: Mateus і його команда налаштовують регулярне оновлення бази знижкових кодів.",
+   "task": null
   }
  ],
  "plan": [
@@ -1710,6 +1755,20 @@
     "t": "17:15",
     "kind": "codes",
     "n": 10
+   },
+   {
+    "t": "17:43",
+    "kind": "tasks",
+    "n": 1
+   },
+   {
+    "t": "17:44",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "17:46",
+    "kind": "offers"
    }
   ],
   "season": {
