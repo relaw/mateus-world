@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T00:52+01:00",
+ "generated_at": "2026-10-29T01:03+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -109,6 +109,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:57",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated a marketplace page on rindo.pl to match seven official discount codes. The change is waiting for automated checks and review.",
+   "text_uk": "Матеус вніс власну зміну: текст сторінки про маркетплейс тепер відповідає офіційним кодам знижок. Зміна очікує автоматичних перевірок і рев'ю.",
+   "task": null
+  },
+  {
+   "t": "00:58",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Found why the offer automation stalled since midnight: a store's page text wrongly reported that codes were missing, even though they were already in the database. The fix passed Nora's review and is waiting to be merged.",
+   "text_uk": "Mateus знайшов причину збою з півночі: текст на сторінці одного магазину казав, що кодів немає, хоча вони були. Виправлення перевірила Nora, чекає злиття.",
+   "task": 102
+  },
+  {
+   "t": "00:58",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a batch of store focus reviews: the Google ranking step is waiting on a fresh Google scan, and the browser queue has been stalled for 30 hours.",
+   "text_uk": "Перевірка позицій у пошуковій системі для ключових магазинів чекає на повторне сканування. Черга браузера вже 30 годин стоїть без руху.",
+   "task": null
+  },
+  {
+   "t": "00:58",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:59",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating rindo.pl copy so it matches the official discount codes, with no \"no code\" wording.",
+   "text_uk": "Оновлення тексту на rindo.pl: сторінку приведено у відповідність до офіційних промокодів, прибрано позначки про відсутність коду.",
+   "task": null
   }
  ],
  "plan": [
@@ -136,6 +181,20 @@
     "t": "00:42",
     "kind": "codes",
     "n": 8
+   },
+   {
+    "t": "00:56",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:58",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:59",
+    "kind": "deploy"
    }
   ],
   "season": {
