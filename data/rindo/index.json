@@ -138,5 +138,13 @@
   "en": "Automating offer updates on rindo.pl and reworking store pages: new texts, titles under 60 characters, and one store removed from the homepage.",
   "uk": "Оновлюємо rindo.pl: пропозиції з бази тепер оновлюються автоматично, тексти магазинів відповідають актуальним кодам, а з головної прибрано прострочені.",
   "sub": "2026-10-28-2206-sklep.jpg"
+ },
+ {
+  "date": "2026-10-29T22:40",
+  "file": "2026-10-29-2240.jpg",
+  "sha": "73e8587",
+  "en": "Improving rindo.pl: automatic offer updates, clearer code cards, a new contact address, and coupon pages that show codes only where real codes exist.",
+  "uk": "Команда Mateus оновила rindo.pl: пропозиції тепер оновлюються автоматично, коди показуємо лише там, де вони є, а кнопки на картках стали зручнішими.",
+  "sub": "2026-10-29-2240-sklep.jpg"
  }
 ]
