@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T04:05+01:00",
+ "generated_at": "2026-10-29T04:17+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -442,6 +442,78 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "04:08",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is making touch targets at least 44 px on the code card, including the \"Works / Doesn't work\" buttons. The change is waiting on CI and review.",
+   "text_uk": "Mateus збільшив зону натискання кнопок «Працює» і «Не працює» на виділених картках кодів, щоб їх було зручніше натискати на телефоні.",
+   "task": null
+  },
+  {
+   "t": "04:09",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Polishing a marketplace page on mobile: bigger \"works / doesn't work\" buttons and clearer offer terms. Search ranking awaits a recrawl.",
+   "text_uk": "Покращуємо мобільну сторінку маркетплейсу: більші кнопки «Працює» і «Не працює» та зрозуміліші умови. Очікуємо повторного сканування пошуковою системою.",
+   "task": 90
+  },
+  {
+   "t": "04:09",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Work block finished: a search ranking step now waits for the search engine to recrawl the site, and two marketplace page fixes await merge.",
+   "text_uk": "Завершили блок робіт над rindo.pl. Чекаємо, поки пошуковий робот знову відвідає сайт, а дві правки сторінки маркетплейсу очікують на злиття.",
+   "task": null
+  },
+  {
+   "t": "04:09",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "04:10",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database for rindo.pl. The change is in review and waiting on automated checks.",
+   "text_uk": "Mateus подав зміну: автоматичне оновлення пропозицій на rindo.pl із бази даних. Вона очікує на автоматичні перевірки та перегляд.",
+   "task": null
+  },
+  {
+   "t": "04:10",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora reviewed and merged an update to the offer automation, retiring expired offers and adding a new free-shipping offer for a large online marketplace.",
+   "text_uk": "Nora прийняла оновлення автоматичної системи пропозицій rindo.pl: прибрала неактуальні пропозиції з безкоштовною доставкою та додала нову.",
+   "task": null
+  },
+  {
+   "t": "04:10",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating the discount card on rindo.pl so the \"Works / Doesn't work\" buttons are easier to tap on mobile.",
+   "text_uk": "Mateus збільшив зону натискання кнопок оцінки промокодів на rindo.pl, щоб їх було зручніше використовувати з телефону.",
+   "task": null
+  },
+  {
+   "t": "04:12",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed on rindo.pl.",
+   "text_uk": "Автоматичне оновлення пропозицій на rindo.pl: команда Mateusza працює над тим, щоб оферти з бази оновлювалися без ручної праці.",
+   "task": null
   }
  ],
  "plan": [
@@ -515,6 +587,24 @@
    {
     "t": "03:57",
     "kind": "deploy"
+   },
+   {
+    "t": "04:09",
+    "kind": "codes",
+    "n": 2
+   },
+   {
+    "t": "04:10",
+    "kind": "deploy"
+   },
+   {
+    "t": "04:10",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "04:12",
+    "kind": "offers"
    }
   ],
   "season": {
