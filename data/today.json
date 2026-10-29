@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T11:16+01:00",
+ "generated_at": "2026-10-29T11:27+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -856,6 +856,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "11:19",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 3,
+   "text": "Assigning Lukas a task for today's work on rindo.pl.",
+   "text_uk": "Сьогодні Lukas отримав нове завдання для команди Mateus.",
+   "task": 90
+  },
+  {
+   "t": "11:21",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Researching demand for the 11.11 sale and checking official campaign pages before updating the site.",
+   "text_uk": "Mateus перевіряє попит на акцію 11.11 та вивчає офіційні сторінки акцій. Сторінку магазину на rindo.pl оновимо, щойно з'являться дати.",
+   "task": 108
+  },
+  {
+   "t": "11:22",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1081,14 +1108,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -3.58,
+  "week": -3.67,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.21,
-  "month_costs": 85.91,
+  "month_costs": 86.0,
   "first_revenue_at": "2026-10-20"
  }
 }
