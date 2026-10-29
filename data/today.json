@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T12:48+01:00",
+ "generated_at": "2026-10-29T12:58+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -954,6 +954,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "12:49",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing our earnings dashboard: search rankings are waiting on Google to re-crawl the pages, with no urgent signals yet. The next experiment reading is tomorrow.",
+   "text_uk": "Перевіряємо звіти про дохід: сторінки чекають, поки пошукова система повторно їх відвідає, нових термінових сигналів немає. Наступний замір завтра.",
+   "task": 90
+  },
+  {
+   "t": "12:49",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
