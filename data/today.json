@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T00:34+01:00",
+ "generated_at": "2026-10-30T00:44+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -135,6 +135,42 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "00:37",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 2,
+   "text": "Assigning Lukas a task for today, 30 October 2026.",
+   "text_uk": "Лукас отримав нове завдання.",
+   "task": null
+  },
+  {
+   "t": "00:39",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Checking whether retailers have announced Cyber Monday 2026 yet. None have on their homepages so far, so we'll add the date once they do.",
+   "text_uk": "Перевіряємо, чи магазини оголосили Cyber Monday 2026. Поки акції немає, формат з датами додамо на сайт лише після анонсу магазинів.",
+   "task": 90
+  },
+  {
+   "t": "00:39",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapped up a work block on rindo.pl. The search position check is waiting on Google's next scan, which can't be forced without a browser.",
+   "text_uk": "Команда Mateus завершила блок робіт над rindo.pl, усі перевірки пройдено. Далі чекаємо, поки пошукова система знову перегляне сайт, прискорити це не вийде.",
+   "task": 90
+  },
+  {
+   "t": "00:39",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
@@ -273,6 +309,36 @@
     "t": "00:33",
     "kind": "gate",
     "ok": false
+   },
+   {
+    "t": "00:34",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:37",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:37",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:38",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:39",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:44",
+    "kind": "gate",
+    "ok": true
    }
   ],
   "season": {
