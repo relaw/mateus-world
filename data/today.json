@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T00:09+01:00",
+ "generated_at": "2026-10-30T00:19+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -36,6 +36,15 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "00:18",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus cleaned up internal data notes from the returns sections of store pages. The change is waiting for automated checks and team review.",
+   "text_uk": "Mateus вніс правку на сторінках магазинів: прибрав зайві згадки про брак даних у розділі повернень. Зміна очікує на автоматичну перевірку та перегляд.",
    "task": null
   }
  ],
@@ -88,6 +97,41 @@
    },
    {
     "t": "00:08",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:09",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:10",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:11",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "00:12",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:14",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:14",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:19",
     "kind": "gate",
     "ok": false
    }
