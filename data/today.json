@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T11:32+01:00",
+ "generated_at": "2026-10-29T11:42+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -891,6 +891,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "11:33",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the board: store pages in focus are indexed, but Google hasn't re-crawled them since the latest changes, so rankings are waiting on a fresh crawl. Next readings: experiment on 30.10, rankings on 2.11.",
+   "text_uk": "Сторінки магазинів уже в індексі, але після змін пошукова система їх ще не перескановувала. Перевірки: 30.10 і 2.11.",
+   "task": null
+  },
+  {
+   "t": "11:33",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
