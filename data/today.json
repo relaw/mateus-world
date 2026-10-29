@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T23:25+01:00",
+ "generated_at": "2026-10-29T23:35+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -1882,6 +1882,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "23:27",
+   "type": "mail",
+   "agent": null,
+   "dur": null,
+   "text": "Sent a revised email to a retail partner's programme manager about Black Week promotions, with the wording corrected to avoid unconfirmed commitments.",
+   "text_uk": "Творець переписав і надіслав лист куратору партнерської програми щодо акцій на Black Week.",
+   "task": 92
+  },
+  {
+   "t": "23:27",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Work block closed: store listings in focus are waiting for re-indexing and measurement on November 2. Meanwhile, correspondence with partner programme managers was wrapped up.",
+   "text_uk": "Позиції магазинів чекають на переіндексацію та заміри 2 листопада. Тим часом творець завершив листування з менеджерами партнерських програм.",
+   "task": null
+  },
+  {
+   "t": "23:27",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1902,7 +1929,7 @@
   "shops": 52,
   "shops_goal": 40,
   "partners": 32,
-  "mails_today": 11,
+  "mails_today": 15,
   "commissions_today": 0,
   "today": [
    {
@@ -2162,6 +2189,22 @@
    {
     "t": "23:25",
     "kind": "mail"
+   },
+   {
+    "t": "23:25",
+    "kind": "mail"
+   },
+   {
+    "t": "23:26",
+    "kind": "mail"
+   },
+   {
+    "t": "23:26",
+    "kind": "mail"
+   },
+   {
+    "t": "23:26",
+    "kind": "mail"
    }
   ],
   "season": {
@@ -2263,14 +2306,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -3.08,
+  "week": -3.09,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.21,
-  "month_costs": 86.0,
+  "month_costs": 86.01,
   "first_revenue_at": "2026-10-20"
  }
 }
