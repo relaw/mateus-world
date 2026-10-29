@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T23:45+01:00",
+ "generated_at": "2026-10-29T23:56+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -2230,6 +2230,21 @@
     "t": "23:43",
     "kind": "gate",
     "ok": true
+   },
+   {
+    "t": "23:52",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "23:52",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "23:53",
+    "kind": "gate",
+    "ok": true
    }
   ],
   "season": {
@@ -2331,14 +2346,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.21,
-  "week": -3.09,
+  "week": -3.1,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.21,
-  "month_costs": 86.01,
+  "month_costs": 86.02,
   "first_revenue_at": "2026-10-20"
  }
 }
