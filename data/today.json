@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T10:25+01:00",
+ "generated_at": "2026-10-29T10:36+01:00",
  "date": "2026-10-29",
  "events": [
   {
@@ -829,6 +829,24 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "10:28",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database for rindo.pl. The change is waiting for automated checks and review.",
+   "text_uk": "Mateus надіслав власну зміну: автоматичне оновлення пропозицій із бази даних для rindo.pl. Вона очікує на перевірку.",
+   "task": null
+  },
+  {
+   "t": "10:29",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed the work on automatic offer updates from the database without merging it.",
+   "text_uk": "Mateus закрив без злиття зміну для автоматичного оновлення пропозицій із бази даних rindo.pl.",
+   "task": null
   }
  ],
  "plan": [
@@ -946,6 +964,11 @@
    },
    {
     "t": "09:29",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "10:29",
     "kind": "gate",
     "ok": false
    }
