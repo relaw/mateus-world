@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T02:41+01:00",
+ "generated_at": "2026-10-30T02:51+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -208,6 +208,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "02:42",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing our highest-value store page: it has complete official facts, and we requested a fresh Google crawl after recent changes. A Monday monitor will check it.",
+   "text_uk": "Перевіряємо сторінки магазинів з найбільшою цінністю для фокусу rindo.pl: дані з офіційних джерел повні, тож попросили Google переіндексувати сторінку після останніх змін. Результат перевіримо в понеділок.",
+   "task": null
+  },
+  {
+   "t": "02:42",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on a fresh Google crawl and Monday's ranking check before the next step.",
+   "text_uk": "Mateus і команда завершили етап роботи над rindo.pl. Чекаємо на повторне сканування пошуковою системою і замір позицій у понеділок.",
+   "task": null
+  },
+  {
+   "t": "02:42",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [],
@@ -392,6 +419,10 @@
    {
     "t": "01:36",
     "kind": "commission"
+   },
+   {
+    "t": "02:42",
+    "kind": "change"
    }
   ],
   "season": {
@@ -493,7 +524,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.23,
-  "week": -2.8,
+  "week": -2.62,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
