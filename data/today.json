@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T00:49+01:00",
+ "generated_at": "2026-10-30T01:00+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -181,6 +181,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Checking the earnings pipeline. Five stores are waiting for Google to rescan their pages, so no new page changes go live until there are fresh facts.",
+   "text_uk": "Mateus перевіряє систему заробітку на rindo.pl. П'ять магазинів чекають, поки пошукова система перескануює сторінки, тому нових змін не публікуємо.",
+   "task": 90
+  },
+  {
+   "t": "00:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [],
@@ -348,6 +366,19 @@
     "t": "00:44",
     "kind": "gate",
     "ok": true
+   },
+   {
+    "t": "00:51",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:55",
+    "kind": "change"
+   },
+   {
+    "t": "00:55",
+    "kind": "change"
    }
   ],
   "season": {
