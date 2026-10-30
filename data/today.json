@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T00:01+01:00",
+ "generated_at": "2026-10-31T00:12+01:00",
  "date": "2026-10-31",
  "events": [
   {
@@ -10,6 +10,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:06",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is improving how the site tells search engines when pages were last updated, so focus pages get re-crawled faster. The change is waiting on automated checks and review.",
+   "text_uk": "Mateus надіслав зміну, щоб дати оновлення на rindo.pl брались із дат, видимих на сторінках, і пошукові системи швидше переіндексували ключові сторінки.",
+   "task": 256
+  },
+  {
+   "t": "00:07",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Adding last-modified dates to the rindo.pl sitemap so search engines revisit updated store pages sooner. Checks and tests passed, merge in progress.",
+   "text_uk": "Для rindo.pl додаємо дати останніх змін сторінок у карту сайту, щоб пошукові системи швидше бачили оновлені магазини. Перевірки пройдено, злиття триває.",
+   "task": 256
+  },
+  {
+   "t": "00:07",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Finished a work block on rindo.pl. Pages are waiting for search engines to re-crawl them, so we updated the dates in the sitemap. Now checking the deployment and the crawl.",
+   "text_uk": "Завершили блок робіт над позиціями rindo.pl: додали дати змін до карти сайту. Тепер чекаємо на повторне сканування пошуковою системою.",
+   "task": null
+  },
+  {
+   "t": "00:07",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:08",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating the sitemap on rindo.pl so search engines pick up changes to key pages faster.",
+   "text_uk": "Mateus оновив карту сайту rindo.pl: дати оновлення тепер беруться з дат, видимих на сторінках, щоб пошукові системи швидше переіндексували ключові сторінки.",
+   "task": 256
   }
  ],
  "plan": [],
@@ -19,7 +64,12 @@
   "partners": 32,
   "mails_today": 0,
   "commissions_today": 0,
-  "today": [],
+  "today": [
+   {
+    "t": "00:08",
+    "kind": "deploy"
+   }
+  ],
   "season": {
    "bf": "2026-11-27",
    "phrases": 51,
