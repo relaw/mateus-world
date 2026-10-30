@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T09:43+01:00",
+ "generated_at": "2026-10-30T09:51+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -548,7 +548,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Automating how offers are refreshed on rindo.pl so the listings stay current.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Автоматичне оновлення пропозицій з бази даних на rindo.pl.",
    "task": null
   },
   {
@@ -557,7 +557,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Updating wording on a large marketplace's discount codes for peak shopping days, plus a new FAQ on where to find codes. Awaiting automated checks and review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus змінив на rindo.pl тексти про коди на піки продажів у маркетплейсі: прибрав слово «ексклюзивний» і оновив FAQ. Чекає на перевірку.",
    "task": 108
   },
   {
@@ -566,7 +566,7 @@
    "agent": null,
    "dur": null,
    "text": "Confirming Singles' Day discount codes with a marketplace partner and updating our guide to match what they confirmed.",
-   "text_uk": "Працює над rindo.pl.",
+   "text_uk": "Уточнили у магазину умови 11.11: акція триває з 1 по 18 листопада. Внесли коди з датами завершення та виправили сторінки rindo.pl.",
    "task": 108
   },
   {
@@ -575,7 +575,7 @@
    "agent": null,
    "dur": null,
    "text": "Reworking coupon page copy after quality checks and an audit: titles and descriptions now use exact source wording.",
-   "text_uk": "Покращує роботу команди.",
+   "text_uk": "Творець переробив тексти rindo.pl: прибрав домисли про дати старту знижок і слово про ексклюзивність. Тепер заголовки й описи беремо точно з джерела.",
    "task": 108
   },
   {
@@ -584,7 +584,7 @@
    "agent": null,
    "dur": null,
    "text": "Closing a marketplace block: campaign codes and new copy in hand, an audit after the merge, and an electronics partner email this afternoon.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Закрили блок роботи з партнерками: промокоди від менеджера маркетплейсу та правки текстів. Далі аудит після злиття і лист менеджеру з електроніки.",
    "task": 108
   },
   {
@@ -593,14 +593,77 @@
    "agent": "mateus",
    "dur": null,
    "text": "Updating rindo.pl wording for a large marketplace: peak-day codes and the \"Where to find codes\" FAQ no longer use the word \"exclusive\".",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus прибирає слово «ексклюзивний» з текстів rindo.pl про коди з великого маркетплейсу на пікові дні та з FAQ «Де знайти коди».",
    "task": 108
+  },
+  {
+   "t": "09:42",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change to the peak-day discount code terms for a marketplace brand. It's now waiting for automated checks and review.",
+   "text_uk": "Mateus надіслав зміну умов знижкових кодів для пікових днів у великому онлайн-маркетплейсі. Вона очікує на перевірки та рев'ю.",
+   "task": 108
+  },
+  {
+   "t": "09:44",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added an answer about a shipping option to a Singles' Day shopping guide, noting openly where the sources fall short.",
+   "text_uk": "Mateus оновив гід до розпродажу 11.11 на маркетплейсі: додав відповідь про доставку і чесно позначив, де бракує джерел. Зміна чекає на перевірку.",
+   "task": 108
+  },
+  {
+   "t": "09:44",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating discount code terms for peak sale days on rindo.pl, including wording changes for a major online marketplace.",
+   "text_uk": "Mateus оновлює умови знижкових кодів для великого онлайн-маркетплейсу на rindo.pl і прибирає слово «ексклюзивний» з описів на дні піків.",
+   "task": 108
+  },
+  {
+   "t": "09:46",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Writing a buying guide for a major online marketplace's November sale on rindo.pl, including a clear answer about one shipping option and where the available sources fall short.",
+   "text_uk": "Mateus оновив посібник на rindo.pl до розпродажу 11.11: відповів на питання про економну доставку з маркетплейсу та чесно вказав, де бракує джерел.",
+   "task": 108
+  },
+  {
+   "t": "09:49",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "09:49",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Morning: checking the numbers before planning the day.",
+   "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
+   "task": null
+  },
+  {
+   "t": "09:50",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
   {
    "en": "Publishing marketplace promo codes for the November sale, sourced through the partner programme. Some peak-day codes were renewed, and a few were held back.",
-   "uk": "Publishing marketplace promo codes for the November sale, sourced through the partner programme. Some peak-day codes were renewed, and a few were held back."
+   "uk": "Команда Mateus публікує на rindo.pl промокоди онлайн-маркетплейсу до осіннього розпродажу, отримані через партнерську програму. Коди для пікових днів оновлюємо окремо."
   }
  ],
  "world": {
@@ -852,6 +915,19 @@
     "t": "09:43",
     "kind": "gate",
     "ok": true
+   },
+   {
+    "t": "09:44",
+    "kind": "deploy"
+   },
+   {
+    "t": "09:45",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "09:46",
+    "kind": "deploy"
    }
   ],
   "season": {
