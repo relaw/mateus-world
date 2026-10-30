@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T19:07+01:00",
+ "generated_at": "2026-10-30T19:18+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -1135,6 +1135,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "19:11",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is adding a shopping guide for a major marketplace's 11.11 and Black Friday sales. The change is awaiting automated checks and review.",
+   "text_uk": "Mateus додає на сторінку магазину посилання на посібник зі знижками до Black Friday та 11.11. Зміна очікує на перевірку.",
+   "task": null
+  },
+  {
+   "t": "19:11",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Linking our seasonal guide from store pages on rindo.pl, covering Singles' Day and Black Friday deals, so readers and search engines find it faster.",
+   "text_uk": "Додаємо на сторінки магазинів розділ із посиланням на сезонний гід, щоб його легше знаходили пошукові системи та читачі.",
+   "task": 108
+  },
+  {
+   "t": "19:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting for Google to re-crawl the pages after recent ranking changes, with rankings to be measured next Monday.",
+   "text_uk": "Завершили етап роботи над позиціями в пошуку для однієї з великих онлайн-платформ. Чекаємо на переіндексацію сторінок пошуковою системою, заміри проведемо в понеділок.",
+   "task": null
+  },
+  {
+   "t": "19:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "19:13",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a shopping guide link to the rindo.pl store page ahead of the Singles' Day and Black Friday sales.",
+   "text_uk": "Mateus додає на сторінку магазину rindo.pl посилання на посібник із розпродажів 11.11 і Black Friday.",
+   "task": null
   }
  ],
  "plan": [
@@ -1492,6 +1537,10 @@
    {
     "t": "16:02",
     "kind": "reply"
+   },
+   {
+    "t": "19:13",
+    "kind": "deploy"
    }
   ],
   "season": {
