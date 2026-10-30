@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T07:00+01:00",
+ "generated_at": "2026-10-30T07:10+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -370,6 +370,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "07:03",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 2,
+   "text": "Lukas is checking five websites that already link to competitors as possible link sources for rindo.pl.",
+   "text_uk": "Lukas перевіряє п'ять доменів як можливі джерела посилань для rindo.pl, сайту з промокодами. Ці домени вже ведуть на конкурентів.",
+   "task": 248
+  },
+  {
+   "t": "07:06",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Focus-store rankings are waiting on re-indexing, so we turned to links: 5 competitor domains reviewed, 2 kept for a marketplace page in November, 3 rejected.",
+   "text_uk": "Поки сторінки магазинів чекають переіндексації, Mateus і команда перевірили 5 доменів для посилань: 2 увійшли до плану на листопад, 3 відхилено.",
+   "task": 248
+  },
+  {
+   "t": "07:06",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [],
@@ -558,6 +585,11 @@
    {
     "t": "02:42",
     "kind": "change"
+   },
+   {
+    "t": "07:06",
+    "kind": "tasks",
+    "n": 1
    }
   ],
   "season": {
