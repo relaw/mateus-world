@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T09:20+01:00",
+ "generated_at": "2026-10-30T09:31+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -451,6 +451,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "09:23",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database on rindo.pl. The change is waiting for automated checks and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "09:23",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora accepted an update to the offer automation: six marketplace offers now run until 18 November, and a new offer will be merged once automated checks pass.",
+   "text_uk": "Автоматизація пропозицій: Nora прийняла оновлення, частина знижок діятиме до 18 листопада, додано нову пропозицію після успішних перевірок.",
+   "task": null
+  },
+  {
+   "t": "09:25",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed on rindo.pl.",
+   "text_uk": "Автоматичне оновлення пропозицій на rindo.pl: команда Mateus налаштовує, щоб знижкові коди з бази оновлювалися без ручної роботи.",
+   "task": null
+  },
+  {
+   "t": "09:27",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated the marketplace store page and 11.11 guide on rindo.pl with the November sale dates, 1 to 18 November. The changes are awaiting checks and review.",
+   "text_uk": "Mateus додав дати кампанії з 1 по 18 листопада та дні піку 11.11 до тексту магазину й посібника. Зміни чекають на перевірку.",
+   "task": 108
+  },
+  {
+   "t": "09:28",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Pulled a planned update for a large online marketplace's 11.11 campaign content, so the changes were not merged.",
+   "text_uk": "Mateus відхилив зміни в текстах про листопадовий розпродаж на великому онлайн-маркетплейсі: дати кампанії та дні піку.",
+   "task": 108
   }
  ],
  "plan": [],
@@ -644,6 +689,39 @@
     "t": "07:06",
     "kind": "tasks",
     "n": 1
+   },
+   {
+    "t": "09:22",
+    "kind": "reply"
+   },
+   {
+    "t": "09:22",
+    "kind": "codes",
+    "n": 3
+   },
+   {
+    "t": "09:23",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "09:25",
+    "kind": "offers"
+   },
+   {
+    "t": "09:26",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "09:28",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "09:30",
+    "kind": "gate",
+    "ok": true
    }
   ],
   "season": {
