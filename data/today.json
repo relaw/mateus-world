@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T01:10+01:00",
+ "generated_at": "2026-10-30T01:40+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -207,7 +207,7 @@
   "shops_goal": 40,
   "partners": 32,
   "mails_today": 0,
-  "commissions_today": 0,
+  "commissions_today": 1,
   "today": [
    {
     "t": "00:02",
@@ -379,6 +379,10 @@
    {
     "t": "00:55",
     "kind": "change"
+   },
+   {
+    "t": "01:36",
+    "kind": "commission"
    }
   ],
   "season": {
@@ -479,14 +483,14 @@
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
-  "earned": 0.21,
-  "week": -3.01,
+  "earned": 0.23,
+  "week": -2.98,
   "api_budget": 100.0,
   "api_spent": 75.14,
   "capex": 3090.61,
   "repaid": 0.0,
   "domain_target": 56.77,
-  "month_revenue": 0.21,
+  "month_revenue": 0.23,
   "month_costs": 86.02,
   "first_revenue_at": "2026-10-20"
  }
