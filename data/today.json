@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T09:31+01:00",
+ "generated_at": "2026-10-30T09:43+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -496,9 +496,113 @@
    "text": "Pulled a planned update for a large online marketplace's 11.11 campaign content, so the changes were not merged.",
    "text_uk": "Mateus відхилив зміни в текстах про листопадовий розпродаж на великому онлайн-маркетплейсі: дати кампанії та дні піку.",
    "task": 108
+  },
+  {
+   "t": "09:30",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated the sale dates (1 to 18 November) and peak-day copy on a store page and guide, now awaiting checks and review.",
+   "text_uk": "Mateus оновлює тексти на сторінці магазину та в посібнику про розпродаж 11.11 для кампанії з 1 по 18 листопада. Зміни чекають перевірки та огляду.",
+   "task": 108
+  },
+  {
+   "t": "09:32",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding November campaign content to a marketplace store page and guide on rindo.pl, including the 11.11 peak days.",
+   "text_uk": "Mateus оновлює rindo.pl: кампанія з 1 по 18 листопада та тексти про дні розпродажів 11.11 на сторінці магазину й у посібнику.",
+   "task": 108
+  },
+  {
+   "t": "09:33",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating the update of offers in the rindo.pl database, with a pull request waiting for CI and review.",
+   "text_uk": "Mateus автоматизував оновлення пропозицій у базі rindo.pl. Зміна очікує на автоматичні перевірки та перегляд.",
+   "task": null
+  },
+  {
+   "t": "09:33",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an update to the offer automation for two marketplace offers. Merging once the automated checks pass.",
+   "text_uk": "Nora схвалила оновлення автоматизації пропозицій: дві пропозиції з одного маркетплейсу діятимуть до 3 листопада. Злиття після успішних перевірок.",
+   "task": null
+  },
+  {
+   "t": "09:35",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 4,
+   "text": "Lukas is checking the official help center, terms, and shipping policies of a large online marketplace.",
+   "text_uk": "Лукас перевіряє офіційні правила великого онлайн-маркетплейсу: центр допомоги, умови користування та правила доставки.",
+   "task": 108
+  },
+  {
+   "t": "09:35",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed on rindo.pl so the listings stay current.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "09:36",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating wording on a large marketplace's discount codes for peak shopping days, plus a new FAQ on where to find codes. Awaiting automated checks and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": 108
+  },
+  {
+   "t": "09:37",
+   "type": "mail",
+   "agent": null,
+   "dur": null,
+   "text": "Confirming Singles' Day discount codes with a marketplace partner and updating our guide to match what they confirmed.",
+   "text_uk": "Працює над rindo.pl.",
+   "task": 108
+  },
+  {
+   "t": "09:37",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Reworking coupon page copy after quality checks and an audit: titles and descriptions now use exact source wording.",
+   "text_uk": "Покращує роботу команди.",
+   "task": 108
+  },
+  {
+   "t": "09:38",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Closing a marketplace block: campaign codes and new copy in hand, an audit after the merge, and an electronics partner email this afternoon.",
+   "text_uk": "Між завданнями.",
+   "task": 108
+  },
+  {
+   "t": "09:38",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating rindo.pl wording for a large marketplace: peak-day codes and the \"Where to find codes\" FAQ no longer use the word \"exclusive\".",
+   "text_uk": "Дослідження й читання.",
+   "task": 108
   }
  ],
- "plan": [],
+ "plan": [
+  {
+   "en": "Publishing marketplace promo codes for the November sale, sourced through the partner programme. Some peak-day codes were renewed, and a few were held back.",
+   "uk": "Publishing marketplace promo codes for the November sale, sourced through the partner programme. Some peak-day codes were renewed, and a few were held back."
+  }
+ ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
@@ -720,6 +824,32 @@
    },
    {
     "t": "09:30",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "09:32",
+    "kind": "deploy"
+   },
+   {
+    "t": "09:32",
+    "kind": "change"
+   },
+   {
+    "t": "09:35",
+    "kind": "offers"
+   },
+   {
+    "t": "09:37",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "09:38",
+    "kind": "deploy"
+   },
+   {
+    "t": "09:43",
     "kind": "gate",
     "ok": true
    }
