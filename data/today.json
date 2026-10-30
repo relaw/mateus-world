@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T10:42+01:00",
+ "generated_at": "2026-10-30T10:53+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -730,6 +730,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "10:44",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing Google ranking for the store with the highest value: content is complete, and we're waiting on a fresh Google crawl before checking positions on Monday.",
+   "text_uk": "Команда Mateus перевіряє позиції магазину з найбільшою цінністю в пошуку. Контент готовий, чекаємо на повторне сканування й результат у понеділок.",
+   "task": 108
+  },
+  {
+   "t": "10:44",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1028,6 +1046,26 @@
    {
     "t": "10:40",
     "kind": "offers"
+   },
+   {
+    "t": "10:46",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "10:46",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "10:52",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "10:52",
+    "kind": "gate",
+    "ok": true
    }
   ],
   "season": {
