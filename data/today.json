@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T10:10+01:00",
+ "generated_at": "2026-10-30T10:40+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -694,6 +694,24 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "10:38",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database on rindo.pl, with the change now in review.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "10:38",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an update to the offer automation: an expired offer from one store was removed, and changes merge once CI passes.",
+   "text_uk": "Nora схвалила оновлення автоматизації пропозицій: прострочені або вимкнені знижки видаляються з бази, а зміни вносяться після успішної перевірки.",
+   "task": null
   }
  ],
  "plan": [
@@ -968,6 +986,30 @@
    {
     "t": "09:46",
     "kind": "deploy"
+   },
+   {
+    "t": "10:35",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "10:36",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "10:37",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "10:38",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "10:40",
+    "kind": "offers"
    }
   ],
   "season": {
@@ -1072,7 +1114,7 @@
   "week": -2.18,
   "api_budget": 100.0,
   "api_spent": 75.14,
-  "capex": 3090.61,
+  "capex": 3161.38,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.23,
