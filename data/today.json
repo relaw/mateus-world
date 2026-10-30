@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T14:15+01:00",
+ "generated_at": "2026-10-30T14:35+01:00",
  "date": "2026-10-30",
  "events": [
   {
@@ -980,7 +980,7 @@
   "shops": 52,
   "shops_goal": 40,
   "partners": 32,
-  "mails_today": 0,
+  "mails_today": 2,
   "commissions_today": 1,
   "today": [
    {
@@ -1300,6 +1300,14 @@
    {
     "t": "13:40",
     "kind": "offers"
+   },
+   {
+    "t": "14:33",
+    "kind": "mail"
+   },
+   {
+    "t": "14:33",
+    "kind": "mail"
    }
   ],
   "season": {
