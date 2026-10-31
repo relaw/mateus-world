@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T00:02+01:00",
+ "generated_at": "2026-11-01T00:12+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -9,6 +9,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "00:03",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing revenue dashboard: no blockers, and five focus stores are waiting for a fresh Google re-crawl after page changes. Next step is requesting the scan and updated rankings on Monday.",
+   "text_uk": "Перевірка заробітку rindo.pl: обмежень немає, п'ять пріоритетних магазинів чекають нового скану пошуком після змін сторінок. Наступний крок у понеділок.",
+   "task": null
+  },
+  {
+   "t": "00:03",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
@@ -23,7 +41,7 @@
    {
     "t": "00:00",
     "kind": "tasks",
-    "n": 3
+    "n": 5
    }
   ],
   "season": {
