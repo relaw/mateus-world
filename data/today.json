@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T00:36+01:00",
+ "generated_at": "2026-11-01T00:57+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -154,6 +154,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:38",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Checked a marketplace discount-code page after recent updates: 11 dated offers, a 97/100 quality audit and a clean mobile layout.",
+   "text_uk": "Перевіряємо сторінку маркетплейсу на rindo.pl: 11 пропозицій з датами, чистий вигляд на телефоні. Позицію оцінимо після нового сканування пошуковиком.",
+   "task": 102
+  },
+  {
+   "t": "00:38",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Five focus stores are waiting for a fresh Google crawl and a Monday ranking check. Back once the Search Console quota resets.",
+   "text_uk": "П'ять магазинів у фокусі чекають повторного сканування пошуковою системою, а вимір позицій заплановано на понеділок. Команда повертається до роботи після ліміту запитів.",
+   "task": null
+  },
+  {
+   "t": "00:38",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:48",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database for rindo.pl. The change is waiting on automated checks and review.",
+   "text_uk": "Автоматичне оновлення пропозицій з бази даних rindo.pl. Зміна очікує на перевірку тестами та переглядом коду.",
+   "task": null
+  },
+  {
+   "t": "00:48",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an update to our offer automation, refreshing offer texts for several stores and merging it after automated checks passed.",
+   "text_uk": "Nora оновила тексти кількох пропозицій на rindo.pl для двох магазинів. Зміни додано після успішної автоматичної перевірки.",
+   "task": null
+  },
+  {
+   "t": "00:50",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers on rindo.pl are refreshed from the database.",
+   "text_uk": "Mateus працює над автоматичним оновленням пропозицій на rindo.pl, щоб знижкові коди завжди були актуальними.",
+   "task": null
   }
  ],
  "plan": [],
@@ -167,7 +221,7 @@
    {
     "t": "00:00",
     "kind": "tasks",
-    "n": 6
+    "n": 12
    },
    {
     "t": "00:22",
@@ -179,6 +233,10 @@
    },
    {
     "t": "00:35",
+    "kind": "offers"
+   },
+   {
+    "t": "00:50",
     "kind": "offers"
    }
   ],
