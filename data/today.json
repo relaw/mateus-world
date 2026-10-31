@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T02:36+01:00",
+ "generated_at": "2026-10-31T02:47+01:00",
  "date": "2026-10-31",
  "events": [
   {
@@ -370,9 +370,40 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "02:38",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Checked a major marketplace's live promotions ahead of our 1-18 November code campaign, and tidied the rules for where codes come from.",
+   "text_uk": "Перевіряємо маркетплейс перед кампанією кодів з 1 по 18 листопада. Наводимо лад у джерелах кодів: лише від партнерських мереж.",
+   "task": null
+  },
+  {
+   "t": "02:38",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting for Google to re-crawl rindo.pl, with the next ranking check scheduled for Monday, 2 November.",
+   "text_uk": "Очікуємо на повторне сканування rindo.pl пошуковою системою. Наступний вимір позицій відбудеться в понеділок, 2 листопада.",
+   "task": null
+  },
+  {
+   "t": "02:38",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Limiting coupon sources for one store to its affiliate network only, since the programme terms don't address coupon sites. Other codes need prior approval.",
+   "uk": "Промокоди для одного з магазинів беремо лише з партнерських мереж, бо умови програми не згадують купонні сайти. Інші джерела: лише з дозволу."
+  },
   {
    "en": "Holding off on new content for discount-code pages until search engines recrawl the site after recent changes. Rankings to be checked on 2 November.",
    "uk": "Mateus і команда rindo.pl чекають, поки пошукова система повторно проіндексує сторінки магазинів після останніх змін, перш ніж додавати текст."
