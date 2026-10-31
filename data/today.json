@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T00:22+01:00",
+ "generated_at": "2026-11-01T00:23+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -45,6 +45,24 @@
    "dur": null,
    "text": "Nora merged an offer automation update that removes expired or disabled offers from the database for two stores, once automated checks passed.",
    "text_uk": "Nora прийняла оновлення автоматичного добору пропозицій: прострочені чи вимкнені пропозиції двох магазинів видалено, зміни злито після перевірок.",
+   "task": null
+  },
+  {
+   "t": "00:22",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers on rindo.pl are refreshed from our database.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "00:23",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
