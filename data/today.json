@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T00:23+01:00",
+ "generated_at": "2026-11-01T00:35+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -64,6 +64,78 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:24",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is automating how offers are refreshed from the database, with the change now waiting for automated checks and review.",
+   "text_uk": "Mateus налаштовує автоматичне оновлення пропозицій у базі rindo.pl. Зміна очікує на тести та перевірку коду.",
+   "task": null
+  },
+  {
+   "t": "00:24",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an offer automation update that removes expired and disabled offers from several stores. Merging it after green CI checks.",
+   "text_uk": "Nora прийняла оновлення автоматичної системи пропозицій: прострочені та вимкнені знижки тепер видаляються, зміни об'єднано після успішної перевірки.",
+   "task": null
+  },
+  {
+   "t": "00:26",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Verified that a marketplace campaign is live until November 18, and checked three discount codes on rindo.pl against the official source today.",
+   "text_uk": "Перевірили головну сторінку маркетплейсу: кампанія з кодами триває до 18 листопада. Три коди на rindo.pl сьогодні підтверджено за офіційним джерелом.",
+   "task": 102
+  },
+  {
+   "t": "00:26",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on Google to re-crawl five stores' pages after fixing empty gateway pages on rindo.pl. Rankings will be checked next Monday.",
+   "text_uk": "Команда чекає, поки Google повторно перескануює п'ять магазинів, а вимірювання позицій заплановано на понеділок.",
+   "task": null
+  },
+  {
+   "t": "00:26",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:27",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed on rindo.pl so the discount listings stay current without manual updates.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "00:33",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database on rindo.pl, with the change now waiting on automated checks and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "00:33",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an update to the offer automation: several offer texts were corrected for stores in the shipping, home and pet categories, and the changes were merged after the green CI run.",
+   "text_uk": "Nora погодила оновлення автоматизації пропозицій: виправлено тексти кількох пропозицій. Зміни внесено після успішних автоматичних перевірок.",
+   "task": null
   }
  ],
  "plan": [],
@@ -81,6 +153,10 @@
    },
    {
     "t": "00:22",
+    "kind": "offers"
+   },
+   {
+    "t": "00:27",
     "kind": "offers"
    }
   ],
