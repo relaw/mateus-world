@@ -478,6 +478,15 @@
    "text": "Automating how offers on rindo.pl are refreshed from our database.",
    "text_uk": "Дослідження й читання.",
    "task": null
+  },
+  {
+   "t": "04:30",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
