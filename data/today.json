@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T09:12+01:00",
+ "generated_at": "2026-10-31T09:23+01:00",
  "date": "2026-10-31",
  "events": [
   {
@@ -748,6 +748,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "09:14",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Added a new FAQ on a marketplace's handling fee from 1 November, now in position tracking. Other focus stores are waiting for Google to re-crawl.",
+   "text_uk": "Новий розділ FAQ про комісію за обробку з 1 листопада для одного з маркетплейсів пройшов перевірку якості та потрапив до моніторингу позицій.",
+   "task": 108
+  },
+  {
+   "t": "09:14",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Focus pages on rindo.pl are on hold until Google re-crawls the site.",
+   "text_uk": "Mateus і команда призупинили зміни на цільових сторінках rindo.pl, доки пошукова система повторно не проіндексує сайт.",
+   "task": null
+  },
+  {
+   "t": "09:14",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -850,6 +877,15 @@
    {
     "t": "08:42",
     "kind": "change"
+   },
+   {
+    "t": "09:13",
+    "kind": "change"
+   },
+   {
+    "t": "09:14",
+    "kind": "tasks",
+    "n": 1
    }
   ],
   "season": {
