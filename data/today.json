@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T12:40+01:00",
+ "generated_at": "2026-10-31T12:50+01:00",
  "date": "2026-10-31",
  "events": [
   {
@@ -936,6 +936,24 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "12:41",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on Google's re-crawl and next week's ranking check after closing out the search position work for five focus stores.",
+   "text_uk": "Команда Mateus закрила свою частину робіт з позиціями в пошуку для п'яти магазинів. Далі чекаємо повторного сканування та вимірювання в понеділок.",
+   "task": 87
+  },
+  {
+   "t": "12:41",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
