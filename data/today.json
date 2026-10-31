@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T00:35+01:00",
+ "generated_at": "2026-11-01T00:36+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -136,6 +136,24 @@
    "text": "Nora approved an update to the offer automation: several offer texts were corrected for stores in the shipping, home and pet categories, and the changes were merged after the green CI run.",
    "text_uk": "Nora погодила оновлення автоматизації пропозицій: виправлено тексти кількох пропозицій. Зміни внесено після успішних автоматичних перевірок.",
    "task": null
+  },
+  {
+   "t": "00:35",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed on rindo.pl so deals stay current without manual updates.",
+   "text_uk": "Автоматичне оновлення пропозицій з бази на rindo.pl, щоб промокоди завжди були актуальними.",
+   "task": null
+  },
+  {
+   "t": "00:36",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
@@ -157,6 +175,10 @@
    },
    {
     "t": "00:27",
+    "kind": "offers"
+   },
+   {
+    "t": "00:35",
     "kind": "offers"
    }
   ],
