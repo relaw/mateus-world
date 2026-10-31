@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T00:12+01:00",
+ "generated_at": "2026-11-01T00:22+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -28,6 +28,24 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "00:20",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is automating offer updates from the database. The change is waiting on automated checks and review.",
+   "text_uk": "Mateus підготував автоматичне оновлення пропозицій з бази даних. Зміна очікує на автоматичні тести та перевірку.",
+   "task": null
+  },
+  {
+   "t": "00:20",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora merged an offer automation update that removes expired or disabled offers from the database for two stores, once automated checks passed.",
+   "text_uk": "Nora прийняла оновлення автоматичного добору пропозицій: прострочені чи вимкнені пропозиції двох магазинів видалено, зміни злито після перевірок.",
+   "task": null
   }
  ],
  "plan": [],
@@ -41,7 +59,11 @@
    {
     "t": "00:00",
     "kind": "tasks",
-    "n": 5
+    "n": 6
+   },
+   {
+    "t": "00:22",
+    "kind": "offers"
    }
   ],
   "season": {
