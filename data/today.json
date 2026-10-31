@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T09:30+01:00",
+ "generated_at": "2026-10-31T09:40+01:00",
  "date": "2026-10-31",
  "events": [
   {
@@ -784,9 +784,40 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Morning review of system status, 30-day economics, budget, and task board for rindo.pl.",
+   "text_uk": "Ранковий огляд rindo.pl: стан системи, результати за 30 днів, бюджет і завдання на сьогодні.",
+   "task": null
+  },
+  {
+   "t": "09:32",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "Sending the morning report: system status, 30-day economics, budget, the day's plan and open tasks.",
+   "text_uk": "Надіслано ранковий звіт: стан системи, результати за 30 днів, бюджет, план дня та відкриті завдання.",
+   "task": null
+  },
+  {
+   "t": "09:32",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Checking a marketplace discount campaign before its Nov 1 launch, fixing a broken store link, and preparing Black Friday plans for Monday.",
+   "uk": "Mateus і команда rindo.pl готують запуск кампанії на 1.11: перевіряють сторінки та коди перед стартом і шукають причину збою в одному з магазинів."
+  },
   {
    "en": "A new partner store has been accepted into the program. Codes are ready, but there's no site or announcement yet. Brands will be merged once we decide on a dedicated page.",
    "uk": "Партнерську програму з магазином схвалено. Сторінку та оголошення поки відкладено, а коди з окремого запису бренду скоро об'єднаємо в один."
@@ -794,10 +825,6 @@
   {
    "en": "Limiting coupon sources for one store to its affiliate network only, since the programme terms don't address coupon sites. Other codes need prior approval.",
    "uk": "Промокоди для одного з магазинів беремо лише з партнерських мереж, бо умови програми не згадують купонні сайти. Інші джерела: лише з дозволу."
-  },
-  {
-   "en": "Holding off on new content for discount-code pages until search engines recrawl the site after recent changes. Rankings to be checked on 2 November.",
-   "uk": "Mateus і команда rindo.pl чекають, поки пошукова система повторно проіндексує сторінки магазинів після останніх змін, перш ніж додавати текст."
   }
  ],
  "world": {
