@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T21:56+01:00",
+ "generated_at": "2026-11-01T22:02+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -2870,7 +2870,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Revising the Black Friday campaign details for a home appliance retailer after the previous version was closed without merging.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus і команда уточнили терміни та правила позначення акції магазину техніки за офіційною сторінкою. Першу версію закрили без злиття, тож готуємо оновлену.",
    "task": 242
   },
   {
@@ -2879,7 +2879,7 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus updated the Black Friday 2026 campaign questions for a home appliance retailer after Nora's feedback. Awaiting checks and review.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Mateus оновлює питання про термін осінньої акції та знижки за кодом для магазину електроніки. Зміни враховують відгуки Нори і чекають перевірки.",
    "task": 242
   },
   {
@@ -2888,7 +2888,7 @@
    "agent": null,
    "dur": null,
    "text": "Adding answers on rindo.pl about the Black Friday Weeks 2026 event, its dates and \"Taniej z kodem\" label, checked against the retailer's official site.",
-   "text_uk": "Покращує роботу команди.",
+   "text_uk": "Команда rindo.pl відповідає на питання про Black Friday в магазині електроніки та побутової техніки, спираючись лише на офіційний сайт магазину.",
    "task": 242
   },
   {
@@ -2897,7 +2897,7 @@
    "agent": null,
    "dur": null,
    "text": "Search ranking checks for rindo.pl are awaiting measurement. Work has shifted to a home electronics store page, with a site audit up next.",
-   "text_uk": "Між завданнями.",
+   "text_uk": "Блок робіт над позицією rindo.pl у Google завершено, перевірку результатів чекаємо 2 листопада. Далі: злиття змін на сторінці магазину електроніки та аудит сайту.",
    "task": null
   },
   {
@@ -2915,8 +2915,17 @@
    "agent": "mateus",
    "dur": null,
    "text": "Mateus's team is preparing its Black Friday Weeks 2026 promotion on rindo.pl, with questions for a home electronics retailer about dates and code offers.",
-   "text_uk": "Дослідження й читання.",
+   "text_uk": "Оновлюємо сторінку акції Black Friday Weeks 2026 на rindo.pl для магазину електроніки та побутової техніки: уточнюємо дати й текст після коментарів Nora.",
    "task": 242
+  },
+  {
+   "t": "22:01",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
