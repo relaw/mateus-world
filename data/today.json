@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T16:25+01:00",
+ "generated_at": "2026-11-01T16:36+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -1846,6 +1846,69 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "16:27",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus updated our Singles' Day shopping guide with a new marketplace handling fee from 1 November, now awaiting review.",
+   "text_uk": "Mateus оновлює гід до розпродажу 11.11 на rindo.pl: додає новий збір за обробку замовлень з 1 листопада 2026. Зміна очікує перевірки.",
+   "task": 222
+  },
+  {
+   "t": "16:29",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Shelved a draft guide for the 11.11 sale after a marketplace introduced a handling fee starting 1 November.",
+   "text_uk": "Посібник до розпродажу 11.11 на великому маркетплейсі не опубліковано: з 1 листопада там діє нова плата за обробку.",
+   "task": 222
+  },
+  {
+   "t": "16:30",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating our 11.11 shopping guide with a new handling fee that starts 1 November, incorporating Nora's feedback. Changes are now in review.",
+   "text_uk": "Mateus оновив гайд до розпродажу 11.11 з урахуванням правок Nora: додано зміну плати з 1 листопада. Зміни чекають на перевірку.",
+   "task": 222
+  },
+  {
+   "t": "16:31",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Updating our Singles' Day guide for a marketplace's new handling fee. Second-window code dates wait for the first window to end.",
+   "text_uk": "Оновлено посібник до 11.11: додано нову комісію за обробку від 1 листопада. Коди другого вікна 11 та 12 листопада чекають на завершення першого.",
+   "task": 222
+  },
+  {
+   "t": "16:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on a guide fix to be merged and on Monday's ranking check.",
+   "text_uk": "Очікуємо на злиття виправлення в гіді та на понеділковий замір позицій у пошуковій видачі.",
+   "task": null
+  },
+  {
+   "t": "16:31",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "16:32",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Updating rindo.pl's 11.11 shopping guide for a large marketplace's new handling fee, effective 1 November, after feedback from Nora.",
+   "text_uk": "Mateus оновив гід на rindo.pl до розпродажу 11.11 з актуальною інформацією про нову плату за обробку замовлень на маркетплейсі з 1 листопада.",
+   "task": 222
   }
  ],
  "plan": [
@@ -2152,6 +2215,20 @@
    {
     "t": "14:06",
     "kind": "change"
+   },
+   {
+    "t": "16:28",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "16:31",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "16:32",
+    "kind": "deploy"
    }
   ],
   "season": {
