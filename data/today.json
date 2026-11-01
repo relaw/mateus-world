@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T07:34+01:00",
+ "generated_at": "2026-11-01T07:38+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -802,6 +802,15 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "07:38",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -815,7 +824,7 @@
   "shops_goal": 40,
   "partners": 33,
   "mails_today": 0,
-  "commissions_today": 0,
+  "commissions_today": 1,
   "today": [
    {
     "t": "00:00",
@@ -1063,6 +1072,10 @@
     "t": "07:14",
     "kind": "index",
     "n": 1
+   },
+   {
+    "t": "07:36",
+    "kind": "commission"
    }
   ],
   "season": {
@@ -1163,14 +1176,14 @@
  "currency": "USD",
  "usd_pln": 3.9,
  "state": {
-  "earned": 0.23,
-  "week": -2.05,
+  "earned": 0.25,
+  "week": -2.03,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3161.38,
   "repaid": 0.0,
   "domain_target": 56.77,
-  "month_revenue": 0.0,
+  "month_revenue": 0.02,
   "month_costs": 0.01,
   "first_revenue_at": "2026-10-20"
  }
