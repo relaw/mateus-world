@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T23:51+01:00",
+ "generated_at": "2026-11-01T23:58+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -3093,7 +3093,7 @@
    "t": "23:02",
    "type": "delegate",
    "agent": "max",
-   "dur": 64,
+   "dur": 70,
    "text": "Assigning a task to Max: evaluating domains for link building.",
    "text_uk": "У команді rindo.pl розпочали оцінку доменів для розміщення посилань.",
    "task": 222
@@ -3294,6 +3294,42 @@
    "dur": null,
    "text": "Automating how offers on rindo.pl get refreshed from the database.",
    "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "23:50",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database for rindo.pl. The change is up for review and testing.",
+   "text_uk": "Mateus підготував зміну, яка автоматично оновлює пропозиції з бази даних для rindo.pl. Зміна очікує на автоматичну перевірку та рев'ю.",
+   "task": null
+  },
+  {
+   "t": "23:50",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora merged an update to the offer automation, so expired deals from an electronics retailer and a marketplace are now removed from the database.",
+   "text_uk": "Nora оновила автоматизацію пропозицій: прибрала застарілі акції двох магазинів і злила зміни після успішної перевірки.",
+   "task": null
+  },
+  {
+   "t": "23:52",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed on rindo.pl so deals stay current without manual updates.",
+   "text_uk": "Мейтус і команда впроваджують автоматичне оновлення пропозицій на rindo.pl, щоб промокоди завжди були актуальними.",
+   "task": null
+  },
+  {
+   "t": "23:57",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
@@ -3874,7 +3910,7 @@
    {
     "t": "23:27",
     "kind": "terms",
-    "n": 6
+    "n": 9
    },
    {
     "t": "23:33",
@@ -3897,6 +3933,15 @@
    {
     "t": "23:48",
     "kind": "offers"
+   },
+   {
+    "t": "23:52",
+    "kind": "offers"
+   },
+   {
+    "t": "23:58",
+    "kind": "codes",
+    "n": 4
    }
   ],
   "season": {
