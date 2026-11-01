@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T16:59+01:00",
+ "generated_at": "2026-11-01T17:10+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -1972,6 +1972,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "17:00",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Checking search demand for 11.11 and Black Friday: a store page already ranks in the top 10, while the generic discount code term is still outside it.",
+   "text_uk": "Mateus перевіряє попит на знижки до 11.11 і Black Friday: rindo.pl уже в топ-10 за цими запитами, а загальний запит про промокоди ще поза топ-10.",
+   "task": 222
+  },
+  {
+   "t": "17:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Recent changes are waiting for a search engine recrawl, with rankings to be checked on Monday. Seasonal discount codes go live on 3 and 4 November.",
+   "text_uk": "Етап завершено: зміни чекають переіндексації, позиції перевіримо в понеділок. Промокоди для пікових днів продажів з'являться 3 і 4 листопада.",
+   "task": null
+  },
+  {
+   "t": "17:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -2296,6 +2323,11 @@
    {
     "t": "16:45",
     "kind": "change"
+   },
+   {
+    "t": "17:00",
+    "kind": "index",
+    "n": 1
    }
   ],
   "season": {
@@ -2397,14 +2429,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -3.09,
+  "week": -3.18,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3161.38,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 1.08,
+  "month_costs": 1.17,
   "first_revenue_at": "2026-10-20"
  }
 }
