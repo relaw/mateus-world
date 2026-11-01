@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T14:31+01:00",
+ "generated_at": "2026-11-01T14:41+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -1531,6 +1531,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:32",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 5,
+   "text": "Assigning a task to Max for today, 1 November 2026.",
+   "text_uk": "Сьогодні, 1 листопада 2026 року, команді rindo.pl поставлено нове завдання.",
+   "task": 272
+  },
+  {
+   "t": "14:32",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 3,
+   "text": "Assigning Lukas a task for today, 1 November 2026.",
+   "text_uk": "Сьогодні, 1 листопада 2026 року, Lukas отримав нове завдання для rindo.pl.",
+   "task": 272
+  },
+  {
+   "t": "14:37",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Search rankings are on hold until Monday's measurement, so we expanded the Black Week price guide's source list with six more official sites.",
+   "text_uk": "Поки кроки для позицій у Google чекають понеділкового виміру, Mateus розширив список редакцій для матеріалу про ціни в Black Week.",
+   "task": 272
+  },
+  {
+   "t": "14:37",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1938,14 +1974,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -2.43,
+  "week": -2.79,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3161.38,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 0.42,
+  "month_costs": 0.78,
   "first_revenue_at": "2026-10-20"
  }
 }
