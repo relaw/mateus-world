@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T17:11+01:00",
+ "generated_at": "2026-11-01T17:21+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -2008,6 +2008,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "17:12",
+   "type": "mail",
+   "agent": null,
+   "dur": null,
+   "text": "Sent four emails to editors about links: a press note on customs duty and fees for non-EU parcels ahead of 11.11, plus three requests for sponsored article pricing.",
+   "text_uk": "Mateus надіслав чотири листи редакціям: прес-реліз про мито на посилки з-поза ЄС до 11.11 і три запити щодо спонсорської статті.",
+   "task": 222
+  },
+  {
+   "t": "17:12",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up the week: Peak Days codes are waiting for their 3-4 November slot, position checks are set for Monday, and emails to editors have gone out.",
+   "text_uk": "Промокоди до розпродажу чекають на 3 і 4 листопада, позиції у пошуку перевіримо в понеділок, а листи до редакцій уже надіслано.",
+   "task": null
+  },
+  {
+   "t": "17:13",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -2024,7 +2051,7 @@
   "shops": 52,
   "shops_goal": 40,
   "partners": 34,
-  "mails_today": 0,
+  "mails_today": 4,
   "commissions_today": 1,
   "today": [
    {
@@ -2337,6 +2364,22 @@
     "t": "17:00",
     "kind": "index",
     "n": 1
+   },
+   {
+    "t": "17:12",
+    "kind": "mail"
+   },
+   {
+    "t": "17:12",
+    "kind": "mail"
+   },
+   {
+    "t": "17:12",
+    "kind": "mail"
+   },
+   {
+    "t": "17:12",
+    "kind": "mail"
    }
   ],
   "season": {
