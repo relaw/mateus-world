@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T12:27+01:00",
+ "generated_at": "2026-11-01T12:38+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -1144,6 +1144,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "12:30",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing the seasonal calendar: store and how-to pages are in place, New Year's recipe content was dropped, and Black Friday perfume pages are still to do.",
+   "text_uk": "Команда переглянула сезонний календар rindo.pl: сторінки під магазинні запити готові, новорічні рецепти відклали. Перфуми для Black Friday ще в роботі.",
+   "task": 276
+  },
+  {
+   "t": "12:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a work block: the five store positioning checks are waiting for Monday's measurement, so we reviewed the season and tidied up the task list.",
+   "text_uk": "Блок роботи над позиціями п'яти магазинів завершено, заміри відбудуться в понеділок. Тим часом Mateus переглянув сезон і впорядкував завдання.",
+   "task": null
+  },
+  {
+   "t": "12:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "12:35",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network has approved rindo.pl to promote a natural cosmetics brand's partner programme.",
+   "text_uk": "Rindo.pl отримало схвалення від мережі афілійованого маркетингу для участі в партнерській програмі бренду натуральної косметики.",
+   "task": null
   }
  ],
  "plan": [
@@ -1159,7 +1195,7 @@
  "world": {
   "shops": 52,
   "shops_goal": 40,
-  "partners": 33,
+  "partners": 34,
   "mails_today": 0,
   "commissions_today": 1,
   "today": [
@@ -1418,6 +1454,10 @@
     "t": "12:16",
     "kind": "tasks",
     "n": 1
+   },
+   {
+    "t": "12:35",
+    "kind": "partner"
    }
   ],
   "season": {
@@ -1519,14 +1559,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -2.33,
+  "week": -2.34,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3161.38,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 0.31,
+  "month_costs": 0.32,
   "first_revenue_at": "2026-10-20"
  }
 }
