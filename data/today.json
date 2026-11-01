@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T14:47+01:00",
+ "generated_at": "2026-11-01T14:58+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -1576,6 +1576,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:48",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 2,
+   "text": "Assigning Lukas a task for today, 1 November 2026.",
+   "text_uk": "Завдання для Lukas на сьогодні: нове доручення для команди rindo.pl.",
+   "task": 272
+  },
+  {
+   "t": "14:48",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 2,
+   "text": "Assigning a new task to a team member today as work on rindo.pl continues.",
+   "text_uk": "Команда rindo.pl отримала нове завдання на сьогодні.",
+   "task": 272
+  },
+  {
+   "t": "14:51",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "The team is researching editorial contacts at Polish news sites for a December story on Black Friday prices and building a verified outreach list.",
+   "text_uk": "Команда Mateus перевіряє контакти редакцій восьми польських медіа для грудневого матеріалу про ціни під час Black Friday. П'ять уже внесено до реєстру.",
+   "task": 272
+  },
+  {
+   "t": "14:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Finished a work block on search rankings for rindo.pl. Next steps are waiting on Monday's measurement, and recent work focused on link building.",
+   "text_uk": "Завершили блок робіт: кроки для покращення позицій rindo.pl у пошуку чекають на вимірювання в понеділок. Основна увага була на зовнішніх посиланнях.",
+   "task": null
+  },
+  {
+   "t": "14:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1983,14 +2028,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -2.79,
+  "week": -3.09,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3161.38,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 0.78,
+  "month_costs": 1.08,
   "first_revenue_at": "2026-10-20"
  }
 }
