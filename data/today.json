@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T23:39+01:00",
+ "generated_at": "2026-11-01T23:51+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -3093,7 +3093,7 @@
    "t": "23:02",
    "type": "delegate",
    "agent": "max",
-   "dur": 52,
+   "dur": 64,
    "text": "Assigning a task to Max: evaluating domains for link building.",
    "text_uk": "У команді rindo.pl розпочали оцінку доменів для розміщення посилань.",
    "task": 222
@@ -3223,6 +3223,78 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "23:42",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Good news: an affiliate network has approved rindo.pl for a partner programme.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з магазинів.",
+   "task": null
+  },
+  {
+   "t": "23:45",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Assigning Lukas a task on an affiliate partnership with a sneaker and streetwear shop.",
+   "text_uk": "Lukas отримав нове завдання: підключити до rindo.pl магазин з кросівками та вуличним одягом через партнерську мережу.",
+   "task": null
+  },
+  {
+   "t": "23:45",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database for rindo.pl. The change is waiting on automated checks and review.",
+   "text_uk": "Mateus додає автоматичне оновлення пропозицій із бази даних на rindo.pl. Зміни чекають на автоматичну перевірку та перегляд.",
+   "task": null
+  },
+  {
+   "t": "23:45",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an update to the offer automation, adding a footwear store as a new brand on the site. Merging it now that the tests have passed.",
+   "text_uk": "Автоматизація оферт: Нора прийняла оновлення з новим магазином взуття на rindo.pl. Злиття відбудеться після успішних автоматичних перевірок.",
+   "task": null
+  },
+  {
+   "t": "23:47",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "We fixed a gap where stores existed without pages on rindo.pl. New brands now get their page in the same step, and the first one is going live.",
+   "text_uk": "Виправили помилку: магазин був у базі, але без сторінки на rindo.pl. Тепер кожен новий бренд отримує сторінку одразу, і перший магазин виходить на сайт.",
+   "task": 285
+  },
+  {
+   "t": "23:47",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a block: the gate is closed with a lesson learned, and the new store page is waiting for the automation merge, followed by copy and quality checks.",
+   "text_uk": "Завершено етап: урок зафіксовано, сторінка нового магазину чекає на злиття автоматизації, далі текст і контроль якості.",
+   "task": null
+  },
+  {
+   "t": "23:47",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "23:48",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers on rindo.pl get refreshed from the database.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
   }
  ],
  "plan": [
@@ -3242,7 +3314,7 @@
  "world": {
   "shops": 52,
   "shops_goal": 40,
-  "partners": 35,
+  "partners": 36,
   "mails_today": 19,
   "commissions_today": 1,
   "today": [
@@ -3802,12 +3874,29 @@
    {
     "t": "23:27",
     "kind": "terms",
-    "n": 1
+    "n": 6
    },
    {
     "t": "23:33",
     "kind": "gate",
     "ok": false
+   },
+   {
+    "t": "23:42",
+    "kind": "partner"
+   },
+   {
+    "t": "23:45",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "23:47",
+    "kind": "lesson"
+   },
+   {
+    "t": "23:48",
+    "kind": "offers"
    }
   ],
   "season": {
@@ -3928,7 +4017,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -3.78,
+  "week": -3.79,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3456.51,
