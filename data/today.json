@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T01:43+01:00",
+ "generated_at": "2026-11-01T01:53+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -298,6 +298,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:48",
+   "type": "delegate",
+   "agent": "lukas",
+   "dur": 1,
+   "text": "Assigning Lukas a task: adding two FAQ facts to store pages on rindo.pl, answering questions people search for on Google.",
+   "text_uk": "Lukas готує два факти для блоку «Питання» на сторінках магазинів rindo.pl, які відповідають на поширені запитання з пошуку.",
+   "task": null
+  },
+  {
+   "t": "01:48",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 1,
+   "text": "Asking Zoe to write the question blocks for the store pages on rindo.pl (discount codes).",
+   "text_uk": "Завдання для команди.",
+   "task": null
+  },
+  {
+   "t": "01:52",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added FAQ sections to store pages on rindo.pl, now waiting for automated checks and review.",
+   "text_uk": "Mateus додав блоки з популярними запитаннями на сторінки магазинів rindo.pl. Зміна чекає на автоматичні перевірки та рев'ю.",
+   "task": null
   }
  ],
  "plan": [],
@@ -342,6 +369,62 @@
    {
     "t": "01:38",
     "kind": "offers"
+   },
+   {
+    "t": "01:45",
+    "kind": "eval"
+   },
+   {
+    "t": "01:46",
+    "kind": "eval"
+   },
+   {
+    "t": "01:46",
+    "kind": "eval"
+   },
+   {
+    "t": "01:47",
+    "kind": "lesson"
+   },
+   {
+    "t": "01:47",
+    "kind": "eval"
+   },
+   {
+    "t": "01:48",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "01:49",
+    "kind": "research",
+    "n": 5
+   },
+   {
+    "t": "01:49",
+    "kind": "eval"
+   },
+   {
+    "t": "01:50",
+    "kind": "eval"
+   },
+   {
+    "t": "01:51",
+    "kind": "eval"
+   },
+   {
+    "t": "01:52",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "01:53",
+    "kind": "tasks",
+    "n": 1
+   },
+   {
+    "t": "01:53",
+    "kind": "eval"
    }
   ],
   "season": {
