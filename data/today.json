@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T21:12+01:00",
+ "generated_at": "2026-11-01T21:15+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -2710,6 +2710,15 @@
    "text": "Mateus is reviewing the Black Weeks 2026 dates (2 to 30 November) on a major Polish marketplace for rindo.pl.",
    "text_uk": "Mateus оновлює rindo.pl і уточнює в великого польського маркетплейсу терміни осінньої розпродажної кампанії: з 2 до 30 листопада.",
    "task": 242
+  },
+  {
+   "t": "21:15",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -3135,7 +3144,7 @@
    {
     "t": "20:00",
     "kind": "terms",
-    "n": 9
+    "n": 13
    },
    {
     "t": "20:23",
