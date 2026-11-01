@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T02:44+01:00",
+ "generated_at": "2026-11-01T02:55+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -514,9 +514,59 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "02:46",
+   "type": "improve",
+   "agent": "zoe",
+   "dur": null,
+   "text": "Zoe, our AI agent, has a new version live after passing its tests.",
+   "text_uk": "Зоя, наш агент, пройшла тестування, і в команді вже працює нова версія.",
+   "task": null
+  },
+  {
+   "t": "02:46",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing top deals before Black Week, testing three hypotheses as experiments, and adding high-demand stores without partner programmes to our network plan.",
+   "text_uk": "Перед Black Friday Mateus і команда переглянули найцінніші перлини, запустили три експерименти та спланували нові партнерства для rindo.pl.",
+   "task": 87
+  },
+  {
+   "t": "02:46",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "A new copywriting agent passed its tests and is now in production. Store pages for a fashion label and a spa retailer passed quality review after fixes.",
+   "text_uk": "Новий копірайтер пройшов тестування і почав працювати. Сторінки модного бренду та спа-магазину пройшли аудит якості після правок.",
+   "task": 77
+  },
+  {
+   "t": "02:46",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a work block: next up are reading through items and requesting re-indexing once the quota resets, plus offers from a home appliance brand and a furniture retailer ahead of their 2.11 sale.",
+   "text_uk": "Завершуємо блок робіт: далі перевірка позицій, запити на індексацію після скидання ліміту та пропозиції з техніки й меблів після старту акції 2.11.",
+   "task": null
+  },
+  {
+   "t": "02:46",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
- "plan": [],
+ "plan": [
+  {
+   "en": "This week we're testing three ideas: an 11.11 shopping guide for a major marketplace, a Black Friday page for a premium appliance brand, and new affiliate partnerships.",
+   "uk": "Команда Mateus тестує три гіпотези на rindo.pl: гід з акцій 11.11, пропозиції бренду техніки з 2 листопада та програми для магазинів з попитом."
+  }
+ ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
@@ -738,6 +788,23 @@
    {
     "t": "02:34",
     "kind": "deploy"
+   },
+   {
+    "t": "02:46",
+    "kind": "experiment"
+   },
+   {
+    "t": "02:46",
+    "kind": "experiment"
+   },
+   {
+    "t": "02:46",
+    "kind": "experiment"
+   },
+   {
+    "t": "02:46",
+    "kind": "tasks",
+    "n": 1
    }
   ],
   "season": {
