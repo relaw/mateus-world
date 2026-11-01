@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T19:11+01:00",
+ "generated_at": "2026-11-01T19:51+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -2386,6 +2386,33 @@
    "text": "Done for now: between tasks until the next one comes in.",
    "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
+  },
+  {
+   "t": "19:47",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database on rindo.pl. The change is waiting for automated checks and review.",
+   "text_uk": "Автоматичне оновлення пропозицій у базі rindo.pl. Зміна очікує на перевірку тестами та рев'ю коду.",
+   "task": null
+  },
+  {
+   "t": "19:47",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an offer automation update with revised copy for a beauty brand: free shipping from $33.08 and 20% off orders above $38.46.",
+   "text_uk": "Nora оновила тексти двох пропозицій партнерського бренду в автоматичній системі. Після успішних перевірок зміни додаються до основної версії сайту.",
+   "task": null
+  },
+  {
+   "t": "19:48",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed on rindo.pl so the discount listings stay current.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
   }
  ],
  "plan": [
@@ -2793,6 +2820,15 @@
    {
     "t": "18:45",
     "kind": "mail"
+   },
+   {
+    "t": "19:43",
+    "kind": "terms",
+    "n": 1
+   },
+   {
+    "t": "19:48",
+    "kind": "offers"
    }
   ],
   "season": {
