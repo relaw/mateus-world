@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T01:31+01:00",
+ "generated_at": "2026-11-01T01:43+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -244,6 +244,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:32",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Checking five store pages from this week's focus: all are indexed by Google, but recent crawls are lagging behind changes. Re-crawl requests will go in after the daily window, and ranking checks wait until Monday.",
+   "text_uk": "Перевірили п'ять сторінок магазинів на rindo.pl: усі вже в пошуку, але сканування відстають від змін. Повторне сканування після доби, заміри в понеділок.",
+   "task": null
+  },
+  {
+   "t": "01:32",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "01:36",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from our database on rindo.pl. The change is waiting for CI checks and review.",
+   "text_uk": "Mateus надіслав зміну, що автоматично оновлює пропозиції з бази даних. Вона очікує на автоматичні перевірки та перегляд.",
+   "task": null
+  },
+  {
+   "t": "01:36",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved the offer automation update, which adds a free-delivery offer from a store and refines offer texts for several marketplace discounts.",
+   "text_uk": "Nora схвалила оновлення системи оферт на rindo.pl: нова пропозиція для одного магазину та покращені тексти знижок із маркетплейсу.",
+   "task": null
+  },
+  {
+   "t": "01:38",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed on rindo.pl so deals stay current without manual updates.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "01:42",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [],
@@ -279,6 +333,15 @@
     "t": "01:08",
     "kind": "codes",
     "n": 3
+   },
+   {
+    "t": "01:36",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "01:38",
+    "kind": "offers"
    }
   ],
   "season": {
@@ -380,14 +443,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.23,
-  "week": -2.12,
+  "week": -2.14,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3161.38,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.0,
-  "month_costs": 0.0,
+  "month_costs": 0.01,
   "first_revenue_at": "2026-10-20"
  }
 }
