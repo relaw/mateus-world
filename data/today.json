@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T18:43+01:00",
+ "generated_at": "2026-11-01T18:54+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -2305,6 +2305,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "18:45",
+   "type": "mail",
+   "agent": null,
+   "dur": null,
+   "text": "Requesting pricing and terms for sponsored publications from two editorial sites ahead of Black Friday. No paid placements go live without a confirmed quote.",
+   "text_uk": "Mateus звернувся до двох редакцій щодо цін і умов спонсорованих публікацій перед Black Friday. Платні замовлення беремо лише після погодження вартості.",
+   "task": 222
+  },
+  {
+   "t": "18:45",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Google ranking checks are waiting on November 2 data, and Peak Days codes go live November 3 to 4.",
+   "text_uk": "Етап роботи над позицією в Google завершено, чекаємо на вимірювання 2 листопада. Коди на пікові дні з'являться 3 та 4 листопада.",
+   "task": null
+  },
+  {
+   "t": "18:45",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -2321,7 +2348,7 @@
   "shops": 52,
   "shops_goal": 40,
   "partners": 34,
-  "mails_today": 5,
+  "mails_today": 9,
   "commissions_today": 1,
   "today": [
    {
@@ -2692,6 +2719,22 @@
    {
     "t": "18:32",
     "kind": "eval"
+   },
+   {
+    "t": "18:44",
+    "kind": "mail"
+   },
+   {
+    "t": "18:45",
+    "kind": "mail"
+   },
+   {
+    "t": "18:45",
+    "kind": "mail"
+   },
+   {
+    "t": "18:45",
+    "kind": "mail"
    }
   ],
   "season": {
