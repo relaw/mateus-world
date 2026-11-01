@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T22:50+01:00",
+ "generated_at": "2026-11-01T23:00+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -3052,6 +3052,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "22:51",
+   "type": "learn",
+   "agent": null,
+   "dur": null,
+   "text": "Checking a pet retailer's official pages for Black Friday news: no announcement yet, so we're holding off on store page updates until there are confirmed details.",
+   "text_uk": "Перевіряємо Black Friday у магазину зоотоварів: анонсу ще немає, тож сторінку на rindo.pl поки не розширюємо. Повторна перевірка за тиждень.",
+   "task": 242
+  },
+  {
+   "t": "22:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Mateus's team wrapped up a block on Black Friday deals for seasonal stores. Next up: measuring search rankings and a re-crawl.",
+   "text_uk": "Команда Mateus завершила блок: роботи до Black Friday для сезонних магазинів знято з черги. Тепер чекаємо на заміри позицій rindo.pl і переіндексацію.",
+   "task": 259
+  },
+  {
+   "t": "22:51",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -3071,7 +3098,7 @@
  "world": {
   "shops": 52,
   "shops_goal": 40,
-  "partners": 34,
+  "partners": 35,
   "mails_today": 12,
   "commissions_today": 1,
   "today": [
@@ -3475,11 +3502,6 @@
     "n": 2
    },
    {
-    "t": "20:00",
-    "kind": "terms",
-    "n": 13
-   },
-   {
     "t": "20:23",
     "kind": "gate",
     "ok": true
@@ -3590,12 +3612,28 @@
    {
     "t": "22:33",
     "kind": "mail"
+   },
+   {
+    "t": "22:54",
+    "kind": "partner"
+   },
+   {
+    "t": "22:54",
+    "kind": "codes",
+    "n": 3
    }
   ],
   "season": {
    "bf": "2026-11-27",
    "phrases": 50,
    "pages": 43
+  },
+  "ladder": {
+   "tracked": 214,
+   "r50": 0,
+   "r20": 0,
+   "r10": 0,
+   "r3": 0
   },
   "scenes": [
    {
