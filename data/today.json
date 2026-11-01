@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T00:19+01:00",
+ "generated_at": "2026-11-02T00:23+01:00",
  "date": "2026-11-02",
  "events": [
   {
@@ -63,6 +63,15 @@
    "dur": null,
    "text": "Building a store page for a footwear retailer on rindo.pl, covering shipping, returns, a loyalty programme and FAQ, plus fashion and sport categories.",
    "text_uk": "Mateus оновлює сторінку магазину взуття на rindo.pl: інформація про доставку та повернення, програма лояльності, а також категорії моди і спорту.",
+   "task": null
+  },
+  {
+   "t": "00:23",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
   }
  ],
@@ -222,7 +231,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -3.88,
+  "week": -3.87,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3456.51,
