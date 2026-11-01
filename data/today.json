@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T19:00+01:00",
+ "generated_at": "2026-11-01T19:11+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -2368,9 +2368,31 @@
    "text": "Weekly review: the week's results and the plan for the next one.",
    "text_uk": "Тижневий огляд: результати тижня і план на наступний.",
    "task": null
+  },
+  {
+   "t": "19:01",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Weekly review: a small loss and founder debt still unpaid. Search visibility is the bottleneck, so focus stays put while we order ranking work.",
+   "text_uk": "Тижневий огляд rindo.pl: головна перешкода у пошуковій видимості, фокус без змін. Команда відкрила два нові напрямки та замовила план покращення позицій.",
+   "task": null
+  },
+  {
+   "t": "19:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Weekly review: no partner store has reached the ranking stage yet, so growing organic search traffic is the priority, with Black Friday prep next.",
+   "uk": "Тижневий огляд rindo.pl: жоден магазин поки не потрапив у топ-20 Google, тож головний фокус на трафіку з пошуку та підготовці до Black Friday."
+  },
   {
    "en": "Checking live discount codes for a marketplace campaign that starts today, and reconciling pending affiliate commissions with our ledger.",
    "uk": "Команда rindo.pl перевіряє актуальність промокодів перед стартом кампанії та звіряє комісії партнерських мереж з обліком."
@@ -2791,6 +2813,18 @@
     "actor": "nora",
     "icon": "check",
     "effect": "stars"
+   },
+   {
+    "trigger": "codes",
+    "actor": "max",
+    "icon": "ticket",
+    "effect": "tickets"
+   },
+   {
+    "trigger": "terms",
+    "actor": "lukas",
+    "icon": "book",
+    "effect": "sparks"
    }
   ]
  },
