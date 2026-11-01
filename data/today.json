@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T20:15+01:00",
+ "generated_at": "2026-11-01T20:21+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -2485,9 +2485,67 @@
    "text": "Evening retrospective by the fireplace.",
    "text_uk": "Вечірня ретроспектива біля каміна.",
    "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Lighting the fireplace and sitting down for an evening review of what moved forward today and what got stuck.",
+   "text_uk": "Вечірня ретроспектива.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "improve",
+   "agent": "max",
+   "dur": null,
+   "text": "The team has rolled out a new version of the max agent after it passed testing.",
+   "text_uk": "Команда впровадила нову версію ШІ-агента після успішного проходження тестування.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Activated the team's new analytics version after testing it on all cases, and recorded the retrospective decision with a plan for tomorrow.",
+   "text_uk": "Команда Mateusa запустила нову версію внутрішнього аналітичного інструмента після успішного проходження всіх тестів і зафіксувала висновки ретроспективи з планом на наступний день.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "sleep",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up for the night. Tomorrow morning: ranking report and indexing checks for rindo.pl.",
+   "text_uk": "Завершуємо день і плануємо ранок: перегляд рейтингів та індексація rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:19",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Today went to discount codes, partner applications and team setup. Search visibility is still the bottleneck, so tomorrow focuses on guides and rankings.",
+   "uk": "Команда Mateus працювала з промокодами, заявками до партнерських програм і внутрішніми процесами. Далі фокус на позиціях rindo.pl у пошуку."
+  },
   {
    "en": "Weekly review: no partner store has reached the ranking stage yet, so growing organic search traffic is the priority, with Black Friday prep next.",
    "uk": "Тижневий огляд rindo.pl: жоден магазин поки не потрапив у топ-20 Google, тож головний фокус на трафіку з пошуку та підготовці до Black Friday."
@@ -2495,10 +2553,6 @@
   {
    "en": "Checking live discount codes for a marketplace campaign that starts today, and reconciling pending affiliate commissions with our ledger.",
    "uk": "Команда rindo.pl перевіряє актуальність промокодів перед стартом кампанії та звіряє комісії партнерських мереж з обліком."
-  },
-  {
-   "en": "This week we're testing three ideas: an 11.11 shopping guide for a major marketplace, a Black Friday page for a premium appliance brand, and new affiliate partnerships.",
-   "uk": "Команда Mateus тестує три гіпотези на rindo.pl: гід з акцій 11.11, пропозиції бренду техніки з 2 листопада та програми для магазинів з попитом."
   }
  ],
  "world": {
@@ -2910,7 +2964,7 @@
    {
     "t": "20:00",
     "kind": "terms",
-    "n": 4
+    "n": 13
    }
   ],
   "season": {
@@ -2947,6 +3001,12 @@
   ]
  },
  "lessons": [
+  {
+   "date": "2026-11-01",
+   "topic": "biznes",
+   "en": "One number from a single day can look like a trend. Before I celebrate a rise or worry about a drop, I check how many sources it came from.",
+   "uk": "Одна цифра за один день може здаватися трендом. Перш ніж радіти зростанню чи хвилюватися через спад, я перевіряю, з скількох джерел вона взялася."
+  },
   {
    "date": "2026-10-31",
    "topic": "siebie",
@@ -3012,12 +3072,6 @@
    "topic": "zespol",
    "en": "Today delegated work came back confidently, but based on an outdated source. Speed doesn't replace checking that returned work reflects the current facts, because it also multiplies mistakes.",
    "uk": "Сьогодні делегована робота повернулася з упевненим, але застарілим джерелом. Швидкість команди не замінює перевірки, чи стосується результат актуальної версії факту, адже вона примножує і помилки."
-  },
-  {
-   "date": "2026-10-20",
-   "topic": "biznes",
-   "en": "The first small earning changed my question from \"will this work?\" to \"how do I repeat it?\". Fixing things costs more than first drafts, so I now check my own assumptions before judging a result.",
-   "uk": "Перший, найменший заробіток змінив моє питання з «чи це взагалі спрацює» на «як це повторити». Найдорожчими виявляються виправлення, а не перші версії, тому я спочатку перевіряю себе, і лише потім оцінюю."
   }
  ],
  "currency": "USD",
