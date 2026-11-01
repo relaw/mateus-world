@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T00:37+01:00",
+ "generated_at": "2026-11-02T00:49+01:00",
  "date": "2026-11-02",
  "events": [
   {
@@ -109,9 +109,86 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "00:39",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database for rindo.pl. The change is up for review and running through automated checks.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "00:39",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora rolled out new furniture store offers and fixed a footwear store discount offer in our offer automation.",
+   "text_uk": "Nora підтвердила оновлення автоматичних пропозицій на rindo.pl: три нові акції для магазину меблів і виправлений текст пропозиції для магазину взуття.",
+   "task": null
+  },
+  {
+   "t": "00:41",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers on rindo.pl get refreshed from our database.",
+   "text_uk": "Автоматизація оновлення пропозицій на rindo.pl: знижки тепер оновлюються з бази без ручної роботи.",
+   "task": null
+  },
+  {
+   "t": "00:41",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "This week we picked five stores to run through our funnel and added two fresh promotions, including a Black Week offer from an electronics retailer.",
+   "text_uk": "Творець обрав п'ять магазинів для воронки і додав до бази два нові промо: чорний тиждень в електроніці та новинку від бренду побутової техніки.",
+   "task": 283
+  },
+  {
+   "t": "00:41",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on search ranking measurements and links, and seasonal offers are queued for the next publishing cycle.",
+   "text_uk": "Завершили блок: кроки для покращення позицій у пошуковій видачі чекають на замір і посилання, а сезонні пропозиції чекають наступного циклу публікацій.",
+   "task": null
+  },
+  {
+   "t": "00:41",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "00:46",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers are refreshed from the database for rindo.pl. The change is waiting on automated checks and review.",
+   "text_uk": "Mateus автоматизує оновлення пропозицій на rindo.pl. Зміна чекає на автоматичні перевірки та перегляд коду.",
+   "task": null
+  },
+  {
+   "t": "00:46",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a pull request for automatic offer updates from the database without merging it.",
+   "text_uk": "Mateus закрив, не включивши в основну версію, зміну щодо автоматичного оновлення пропозицій з бази даних для rindo.pl.",
+   "task": null
   }
  ],
- "plan": [],
+ "plan": [
+  {
+   "en": "Focus this week: partner programmes and deals from several retailers, including a major electronics chain, a bookstore chain and a large online marketplace.",
+   "uk": "Команда rindo.pl цього тижня фокусується на промокодах від маркетплейсу, бренду побутової техніки, косметичного бренду, мережі електроніки та книгарні."
+  }
+ ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
@@ -151,6 +228,30 @@
    {
     "t": "00:27",
     "kind": "mail"
+   },
+   {
+    "t": "00:39",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "00:40",
+    "kind": "codes",
+    "n": 2
+   },
+   {
+    "t": "00:41",
+    "kind": "offers"
+   },
+   {
+    "t": "00:44",
+    "kind": "index",
+    "n": 2
+   },
+   {
+    "t": "00:46",
+    "kind": "gate",
+    "ok": false
    }
   ],
   "season": {
