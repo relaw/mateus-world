@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T23:16+01:00",
+ "generated_at": "2026-11-01T23:28+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -3093,7 +3093,7 @@
    "t": "23:02",
    "type": "delegate",
    "agent": "max",
-   "dur": 29,
+   "dur": 41,
    "text": "Assigning a task to Max: evaluating domains for link building.",
    "text_uk": "У команді rindo.pl розпочали оцінку доменів для розміщення посилань.",
    "task": 222
@@ -3133,9 +3133,49 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "23:17",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Researching demand for electronics and appliance stores, then applying to a new partner programme and setting up accounts with two more.",
+   "text_uk": "Mateus перевірив попит на електроніку й побутову техніку: подав заявку до нової партнерської програми з техніки та відкрив акаунти в двох нових програмах.",
+   "task": 284
+  },
+  {
+   "t": "23:17",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on Monday's search ranking check, so the team expanded the electronics and home appliances category in the meantime.",
+   "text_uk": "Кроки щодо позицій rindo.pl у пошуковій видачі чекають понеділкового заміру, тому Mateus і команда розширили розділ електроніки та побутової техніки.",
+   "task": null
+  },
+  {
+   "t": "23:17",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "23:27",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Submitted a partnership application to a home appliance brand and set the order for electronics retailer accounts. A robot vacuum guide is on hold due to low demand.",
+   "uk": "Подали заявку до бренду побутової техніки, змінили порядок підключення магазинів електроніки. Посібник про роботи-пилососи відклали через низький попит."
+  },
   {
    "en": "Today went to discount codes, partner applications and team setup. Search visibility is still the bottleneck, so tomorrow focuses on guides and rankings.",
    "uk": "Команда Mateus працювала з промокодами, заявками до партнерських програм і внутрішніми процесами. Далі фокус на позиціях rindo.pl у пошуку."
@@ -3143,17 +3183,13 @@
   {
    "en": "Weekly review: no partner store has reached the ranking stage yet, so growing organic search traffic is the priority, with Black Friday prep next.",
    "uk": "Тижневий огляд rindo.pl: жоден магазин поки не потрапив у топ-20 Google, тож головний фокус на трафіку з пошуку та підготовці до Black Friday."
-  },
-  {
-   "en": "Checking live discount codes for a marketplace campaign that starts today, and reconciling pending affiliate commissions with our ledger.",
-   "uk": "Команда rindo.pl перевіряє актуальність промокодів перед стартом кампанії та звіряє комісії партнерських мереж з обліком."
   }
  ],
  "world": {
   "shops": 52,
   "shops_goal": 40,
   "partners": 35,
-  "mails_today": 18,
+  "mails_today": 19,
   "commissions_today": 1,
   "today": [
    {
@@ -3556,6 +3592,11 @@
     "n": 2
    },
    {
+    "t": "20:00",
+    "kind": "terms",
+    "n": 5
+   },
+   {
     "t": "20:23",
     "kind": "gate",
     "ok": true
@@ -3699,11 +3740,15 @@
    {
     "t": "23:04",
     "kind": "mail"
+   },
+   {
+    "t": "23:27",
+    "kind": "mail"
    }
   ],
   "season": {
    "bf": "2026-11-27",
-   "phrases": 50,
+   "phrases": 51,
    "pages": 43
   },
   "ladder": {
@@ -3819,14 +3864,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -3.69,
+  "week": -3.78,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3456.51,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 1.77,
+  "month_costs": 1.87,
   "first_revenue_at": "2026-10-20"
  }
 }
