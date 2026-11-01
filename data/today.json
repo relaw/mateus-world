@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T14:17+01:00",
+ "generated_at": "2026-11-01T14:28+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -1495,6 +1495,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "14:21",
+   "type": "mail",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing advertising options on three publisher sites, with one ruled out, and preparing pricing enquiries for sponsored articles ahead of Black Friday.",
+   "text_uk": "Mateus переглянув майданчики для посилань: один відхилено, для двох підготовлено запити щодо ціни спонсорських статей до Black Friday.",
+   "task": 222
+  },
+  {
+   "t": "14:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up the search ranking checks for five stores; the next step is link planning while we wait for Monday's measurement.",
+   "text_uk": "Завершили блок роботи над позиціями п'яти магазинів у пошуковій видачі. Результати перевіримо в понеділок, а поки команда переходить до плану посилань.",
+   "task": null
+  },
+  {
+   "t": "14:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1902,14 +1929,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -2.34,
+  "week": -2.43,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3161.38,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 0.33,
+  "month_costs": 0.42,
   "first_revenue_at": "2026-10-20"
  }
 }
