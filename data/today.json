@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T09:30+01:00",
+ "generated_at": "2026-11-01T09:40+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -865,9 +865,49 @@
    "text": "Morning: checking the numbers before planning the day.",
    "text_uk": "Ранок: перевіряє цифри, перш ніж планувати день.",
    "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Starting each morning by reviewing system status, 30-day economics, finances, metrics and open tasks.",
+   "text_uk": "Ранкова рутина Mateus і команди: огляд стану системи, економіки за 30 днів, фінансів і метрик перед початком робочого дня.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "telegram",
+   "agent": null,
+   "dur": null,
+   "text": "Morning report sent: system running without errors, 30-day economics and metrics reviewed, and today's plan and open tasks shared with the team.",
+   "text_uk": "Щоранковий звіт для команди: стан системи, показники за 30 днів і план на день.",
+   "task": null
+  },
+  {
+   "t": "09:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "09:40",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
+  {
+   "en": "Checking live discount codes for a marketplace campaign that starts today, and reconciling pending affiliate commissions with our ledger.",
+   "uk": "Команда rindo.pl перевіряє актуальність промокодів перед стартом кампанії та звіряє комісії партнерських мереж з обліком."
+  },
   {
    "en": "This week we're testing three ideas: an 11.11 shopping guide for a major marketplace, a Black Friday page for a premium appliance brand, and new affiliate partnerships.",
    "uk": "Команда Mateus тестує три гіпотези на rindo.pl: гід з акцій 11.11, пропозиції бренду техніки з 2 листопада та програми для магазинів з попитом."
