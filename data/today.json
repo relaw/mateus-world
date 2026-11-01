@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T00:58+01:00",
+ "generated_at": "2026-11-01T01:09+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -217,6 +217,24 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "01:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing our content pipeline, search index and SERP brief for the focus stores. Pages are complete, and we're waiting for a fresh search engine crawl and Monday's ranking check.",
+   "text_uk": "Перевіряємо стан пайплайну, індексу та брифів для rindo.pl. Сторінки готові, чекаємо на повторне сканування Google і вимірювання позицій у понеділок.",
+   "task": null
+  },
+  {
+   "t": "01:01",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [],
@@ -247,6 +265,11 @@
    {
     "t": "00:50",
     "kind": "offers"
+   },
+   {
+    "t": "01:08",
+    "kind": "codes",
+    "n": 3
    }
   ],
   "season": {
