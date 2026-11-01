@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T21:01+01:00",
+ "generated_at": "2026-11-01T21:12+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -2665,6 +2665,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "21:05",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a change tracking a major Polish marketplace's November 2026 sales event (2 to 30 November), now awaiting CI and review.",
+   "text_uk": "Mateus додав на rindo.pl інформацію про великий польський розпродаж з 2 по 30 листопада 2026 року. Зміна очікує на автоматичну перевірку та перегляд.",
+   "task": 242
+  },
+  {
+   "t": "21:05",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Adding a sale date answer for a major Polish marketplace's Black Week, from its official announcement. The change is waiting to be merged.",
+   "text_uk": "Додаємо на сторінку відповідь на пошукове питання про дату великого розпродажу з офіційного оголошення магазину. Зміна чекає на публікацію.",
+   "task": 242
+  },
+  {
+   "t": "21:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Focus items are on hold until Monday's measurement, so the team has shifted to preparing for Black Friday.",
+   "text_uk": "Команда Mateusa завершила етап: фокусні сторінки чекають понеділкового вимірювання, а основна увага переходить на підготовку до Black Friday.",
+   "task": null
+  },
+  {
+   "t": "21:05",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "21:07",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus is reviewing the Black Weeks 2026 dates (2 to 30 November) on a major Polish marketplace for rindo.pl.",
+   "text_uk": "Mateus оновлює rindo.pl і уточнює в великого польського маркетплейсу терміни осінньої розпродажної кампанії: з 2 до 30 листопада.",
+   "task": 242
   }
  ],
  "plan": [
@@ -3088,6 +3133,11 @@
     "n": 2
    },
    {
+    "t": "20:00",
+    "kind": "terms",
+    "n": 9
+   },
+   {
     "t": "20:23",
     "kind": "gate",
     "ok": true
@@ -3108,6 +3158,15 @@
    {
     "t": "20:50",
     "kind": "lesson"
+   },
+   {
+    "t": "21:04",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "21:07",
+    "kind": "deploy"
    }
   ],
   "season": {
