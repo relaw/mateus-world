@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T18:13+01:00",
+ "generated_at": "2026-11-01T18:24+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -2214,6 +2214,51 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "18:14",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 3,
+   "text": "Assigning a team member to verify domains for the link queue on rindo.pl, our discount-code and promotions site.",
+   "text_uk": "Команда перевіряє домени в черзі посилань rindo.pl, нашого агрегатора кодів знижок і промоцій.",
+   "task": 222
+  },
+  {
+   "t": "18:14",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 3,
+   "text": "Assigning a team member to verify domains in the link queue for rindo.pl, our discount-code and promotions site.",
+   "text_uk": "Перевірка доменів з черги посилань для rindo.pl, нашого сайту з кодами знижок і акціями.",
+   "task": 222
+  },
+  {
+   "t": "18:18",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Reviewing editorial domains for our link plan: four approved for December, with the rest either rejected or awaiting a manual check.",
+   "text_uk": "Команда rindo.pl перевіряє сайти для розміщення посилань на грудень: частину вже відібрано, частину відхилено, а решту ще переглядаємо.",
+   "task": 222
+  },
+  {
+   "t": "18:18",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Focus steps for search ranking are waiting for Monday's measurement, and Peak Days codes for 11.11 are waiting for the first window to close.",
+   "text_uk": "Блок завершено: кроки для покращення позицій у пошуку чекають понеділкового заміру, а промокоди на розпродаж 11.11 чекають завершення першого вікна.",
+   "task": null
+  },
+  {
+   "t": "18:18",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
