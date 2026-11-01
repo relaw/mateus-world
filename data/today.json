@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T20:21+01:00",
+ "generated_at": "2026-11-01T20:32+01:00",
  "date": "2026-11-01",
  "events": [
   {
@@ -2539,6 +2539,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "20:23",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added a FAQ on saving money at an online marketplace, covering campaign codes and shipping. It is now in automated checks and review.",
+   "text_uk": "Mateus додав на rindo.pl FAQ про те, як заощадити на покупках у великому онлайн-маркетплейсі: коди акцій і умови доставки. Зміна чекає на перевірку.",
+   "task": 222
+  },
+  {
+   "t": "20:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Submitted applications to coupon programmes and added an answer to a shopper question on a marketplace store page. One approval request is queued.",
+   "text_uk": "Подаємо заявки до програм з кодами для rindo.pl. Один запит чекає у черзі надсилання, а в магазині на маркетплейсі додано відповідь на питання з Google.",
+   "task": 222
+  },
+  {
+   "t": "20:23",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:25",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added a new FAQ to rindo.pl on how to save at a large online marketplace, covering campaign codes and shipping.",
+   "text_uk": "Mateus додає на rindo.pl FAQ про те, як економити на покупках в онлайн-маркетплейсі: про промокоди кампаній і доставку.",
+   "task": 222
   }
  ],
  "plan": [
@@ -2962,9 +2998,13 @@
     "n": 2
    },
    {
-    "t": "20:00",
-    "kind": "terms",
-    "n": 13
+    "t": "20:23",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "20:25",
+    "kind": "deploy"
    }
   ],
   "season": {
