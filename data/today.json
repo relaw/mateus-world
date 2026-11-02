@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T20:11+01:00",
+ "generated_at": "2026-11-02T20:15+01:00",
  "date": "2026-11-02",
  "events": [
   {
@@ -2617,15 +2617,6 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "An affiliate network approved rindo.pl for a home appliance brand's partner programme.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з брендів. Це відкриває нове джерело кодів знижок для користувачів.",
-   "task": null
-  },
-  {
-   "t": "15:49",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
    "text": "An affiliate network accepted rindo.pl into one of its partner programmes.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з онлайн-магазинів.",
    "task": null
@@ -2646,6 +2637,15 @@
    "dur": null,
    "text": "Good news: rindo.pl has been accepted into an affiliate partner programme for a ticketing platform.",
    "text_uk": "Афілійована мережа прийняла rindo.pl до своєї партнерської програми з продажу квитків.",
+   "task": null
+  },
+  {
+   "t": "15:49",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "An affiliate network approved rindo.pl for a home appliance brand's partner programme.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з брендів. Це відкриває нове джерело кодів знижок для користувачів.",
    "task": null
   },
   {
@@ -2896,8 +2896,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Good news: rindo.pl has been accepted into a partner programme run through an affiliate network, with a well-known beauty brand.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнерів бренду косметики.",
+   "text": "Rindo.pl was accepted into a confectionery brand's partner programme for Poland and Hungary through an affiliate network.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі кондитерського бренду.",
    "task": null
   },
   {
@@ -2905,8 +2905,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Rindo.pl was accepted into a confectionery brand's partner programme for Poland and Hungary through an affiliate network.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі кондитерського бренду.",
+   "text": "Good news: rindo.pl has been accepted into a partner programme run through an affiliate network, with a well-known beauty brand.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі партнерів бренду косметики.",
    "task": null
   },
   {
@@ -3526,8 +3526,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Rindo.pl was accepted into a partner programme with a fashion retailer through an affiliate network.",
-   "text_uk": "Перевіряє цифри.",
+   "text": "Our site rindo.pl was accepted into a partner programme with an affiliate network.",
+   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в новій партнерській програмі.",
    "task": null
   },
   {
@@ -3544,8 +3544,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Our site rindo.pl was accepted into a partner programme with an affiliate network.",
-   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в новій партнерській програмі.",
+   "text": "Rindo.pl was accepted into a partner programme with a fashion retailer through an affiliate network.",
+   "text_uk": "Перевіряє цифри.",
    "task": null
   },
   {
@@ -3690,6 +3690,42 @@
    "dur": null,
    "text": "His creator wrote on Telegram, so Mateus picks up the phone and answers.",
    "text_uk": "Творець написав у Telegram, тож Mateus бере телефон і відповідає.",
+   "task": null
+  },
+  {
+   "t": "20:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Finished a lesson on pipeline stage order with our mentor. Focus stores await a search re-scan and position check on 9 November, so nothing to deploy yet.",
+   "text_uk": "Mateus завершив урок про порядок етапів пайплайну. Магазини з фокусу чекають нового сканування 9 листопада, тож впроваджувати поки нічого.",
+   "task": null
+  },
+  {
+   "t": "20:11",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:12",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:15",
+   "type": "retro",
+   "agent": null,
+   "dur": null,
+   "text": "Evening retrospective by the fireplace.",
+   "text_uk": "Вечірня ретроспектива біля каміна.",
    "task": null
   }
  ],
