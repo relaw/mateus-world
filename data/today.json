@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T07:17+01:00",
+ "generated_at": "2026-11-02T07:28+01:00",
  "date": "2026-11-02",
  "events": [
   {
@@ -1495,6 +1495,42 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "07:19",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 2,
+   "text": "Assigning a team member a task to evaluate domains for link building.",
+   "text_uk": "У команді Mateus оцінюють домени для розміщення посилань на rindo.pl.",
+   "task": 272
+  },
+  {
+   "t": "07:21",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Another outreach batch for our Black Week data article: two of four sites reviewed made the December link plan, one dropped, one awaiting confirmation.",
+   "text_uk": "Mateus і команда готують нову партію публікацій для матеріалу про Black Week: дві увійшли в план на грудень, одна відпала, ще одна очікує підтвердження.",
+   "task": 272
+  },
+  {
+   "t": "07:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting on Google recrawls and link placements for stores in focus, while working on backlinks for the Black Week price report.",
+   "text_uk": "Mateus завершив етап: фокусні магазини чекають на повторне сканування Google та нові посилання. Він працював над посиланнями для звіту про ціни Black Week.",
+   "task": null
+  },
+  {
+   "t": "07:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1863,14 +1899,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -4.63,
+  "week": -4.81,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3456.51,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 3.25,
+  "month_costs": 3.43,
   "first_revenue_at": "2026-10-20"
  }
 }
