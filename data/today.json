@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T16:22+01:00",
+ "generated_at": "2026-11-02T16:33+01:00",
  "date": "2026-11-02",
  "events": [
   {
@@ -2617,15 +2617,6 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Rindo.pl has been accepted into an affiliate network partner programme.",
-   "text_uk": "Rindo.pl отримав схвалення в партнерській програмі однієї з афілійних мереж.",
-   "task": null
-  },
-  {
-   "t": "15:49",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
    "text": "An affiliate network accepted rindo.pl into one of its partner programmes.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з онлайн-магазинів.",
    "task": null
@@ -2655,6 +2646,15 @@
    "dur": null,
    "text": "An affiliate network approved rindo.pl for a home appliance brand's partner programme.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з брендів. Це відкриває нове джерело кодів знижок для користувачів.",
+   "task": null
+  },
+  {
+   "t": "15:49",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Rindo.pl has been accepted into an affiliate network partner programme.",
+   "text_uk": "Rindo.pl отримав схвалення в партнерській програмі однієї з афілійних мереж.",
    "task": null
   },
   {
@@ -2772,6 +2772,42 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "16:27",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus's team added a seasonal FAQ to the guides for 2026, with a test to cover it. The change is waiting for CI checks and review.",
+   "text_uk": "Mateus додав розділ FAQ до сезонних порадників на 2026 рік і написав для нього тест. Зміна чекає на автоматичну перевірку та рецензію.",
+   "task": null
+  },
+  {
+   "t": "16:28",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus closed a pull request without merging it: FAQ sections for the 2026 seasonal guides and the test that required them.",
+   "text_uk": "Зміну з FAQ для сезонних посібників 2026 року закрито без злиття разом із тестом, який її вимагав.",
+   "task": null
+  },
+  {
+   "t": "16:30",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted a pull request with a seasonal guide FAQ update and a test for it, revised after Nora's feedback. It's waiting on CI and review.",
+   "text_uk": "Mateus додає FAQ до сезонних посібників на 2026 рік і тест, який його перевіряє. Зміна враховує зауваження Nora і очікує на перевірку.",
+   "task": null
+  },
+  {
+   "t": "16:31",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus's pull request was closed without merging. It covered FAQ sections for the 2026 seasonal guides, and Nora's feedback led to a revised version with a test.",
+   "text_uk": "Mateus закрив без злиття доповнення FAQ до сезонних посібників rindo.pl на 2026 рік після відгуків Нори.",
    "task": null
   }
  ],
@@ -3230,6 +3266,21 @@
    {
     "t": "16:13",
     "kind": "deploy"
+   },
+   {
+    "t": "16:27",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "16:30",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "16:32",
+    "kind": "codes",
+    "n": 38
    }
   ],
   "season": {
