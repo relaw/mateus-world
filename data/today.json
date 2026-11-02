@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T11:59+01:00",
+ "generated_at": "2026-11-02T12:33+01:00",
  "date": "2026-11-02",
  "events": [
   {
@@ -1887,7 +1887,7 @@
    "t": "09:01",
    "type": "delegate",
    "agent": "max",
-   "dur": 193,
+   "dur": 60,
    "text": "Mateus's team reviewed 10 domains from the link queue: one made the December plan, one was dropped as off-topic, and seven are awaiting further research.",
    "text_uk": "Команда оцінила 10 доменів із черги посилань: один увійшов до плану на грудень, один відхилено як нетематичний, сім чекають на подальший аналіз.",
    "task": 222
@@ -2380,12 +2380,16 @@
     "t": "09:12",
     "kind": "tasks",
     "n": 2
+   },
+   {
+    "t": "12:22",
+    "kind": "reply"
    }
   ],
   "season": {
    "bf": "2026-11-27",
    "phrases": 51,
-   "pages": 43
+   "pages": 39
   },
   "ladder": {
    "tracked": 274,
@@ -2500,7 +2504,7 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -4.97,
+  "week": -4.96,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3456.51,
