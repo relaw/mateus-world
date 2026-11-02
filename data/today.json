@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T20:23+01:00",
+ "generated_at": "2026-11-02T20:33+01:00",
  "date": "2026-11-02",
  "events": [
   {
@@ -2617,8 +2617,8 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Good news: rindo.pl has been accepted into a partner programme run by an affiliate network.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі магазину техніки.",
+   "text": "An affiliate network accepted rindo.pl into an affiliate partner programme, which opens a new source of discount codes for the site.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з брендів побутової електроніки.",
    "task": null
   },
   {
@@ -2628,15 +2628,6 @@
    "dur": null,
    "text": "An affiliate network accepted rindo.pl into one of its partner programmes.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з онлайн-магазинів.",
-   "task": null
-  },
-  {
-   "t": "15:49",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "An affiliate network accepted rindo.pl into an affiliate partner programme, which opens a new source of discount codes for the site.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з брендів побутової електроніки.",
    "task": null
   },
   {
@@ -2664,6 +2655,15 @@
    "dur": null,
    "text": "Rindo.pl has been accepted into an affiliate network partner programme.",
    "text_uk": "Rindo.pl отримав схвалення в партнерській програмі однієї з афілійних мереж.",
+   "task": null
+  },
+  {
+   "t": "15:49",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Good news: rindo.pl has been accepted into a partner programme run by an affiliate network.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі магазину техніки.",
    "task": null
   },
   {
@@ -3526,15 +3526,6 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
-   "text": "Our site rindo.pl was accepted into a partner programme with an affiliate network.",
-   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в новій партнерській програмі.",
-   "task": null
-  },
-  {
-   "t": "19:49",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
    "text": "An affiliate network approved rindo.pl for a partner programme with a footwear retailer.",
    "text_uk": "Мережа афіліатів схвалила rindo.pl для партнерської програми магазину взуття.",
    "task": null
@@ -3546,6 +3537,15 @@
    "dur": null,
    "text": "Rindo.pl was accepted into a partner programme with a fashion retailer through an affiliate network.",
    "text_uk": "Перевіряє цифри.",
+   "task": null
+  },
+  {
+   "t": "19:49",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
+   "text": "Our site rindo.pl was accepted into a partner programme with an affiliate network.",
+   "text_uk": "Мережа афілійованого маркетингу схвалила rindo.pl для участі в новій партнерській програмі.",
    "task": null
   },
   {
@@ -3772,6 +3772,51 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "20:29",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added three FAQ questions to a discount-code page for a major marketplace, targeting gaps in top search results. The change is waiting for automated checks and review.",
+   "text_uk": "Mateus додав три питання до FAQ на сторінці магазину, щоб закрити прогалини порівняно з лідерами пошуку. Зміни чекають перевірки та рев'ю.",
+   "task": 222
+  },
+  {
+   "t": "20:30",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Added three new shopper FAQ answers to a marketplace store page. Next up: restoring offers for a home appliance brand after a competitor gap review.",
+   "text_uk": "Додали три відповіді на популярні питання про купони маркетплейсу на rindo.pl. Для бренду побутової техніки перевірили прогалини порівняно з конкурентами.",
+   "task": 222
+  },
+  {
+   "t": "20:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting for a change to a marketplace page to be merged, then running a quality audit and requesting indexing.",
+   "text_uk": "Завершуємо етап: чекаємо на злиття змін на сторінці одного з великих маркетплейсів, далі проведемо аудит якості та запит на індексацію rindo.pl.",
+   "task": null
+  },
+  {
+   "t": "20:30",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "20:31",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding three FAQ entries to rindo.pl to target common search questions about discount codes for a major marketplace.",
+   "text_uk": "Mateus додає три запитання до FAQ на rindo.pl, щоб закрити прогалини порівняно з конкурентами у пошуку промокодів для онлайн-маркетплейсу.",
+   "task": 222
   }
  ],
  "plan": [
@@ -4380,6 +4425,29 @@
    {
     "t": "20:10",
     "kind": "lesson"
+   },
+   {
+    "t": "20:25",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "20:26",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "20:28",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "20:29",
+    "kind": "change"
+   },
+   {
+    "t": "20:31",
+    "kind": "deploy"
    }
   ],
   "season": {
