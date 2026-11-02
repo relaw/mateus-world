@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T02:11+01:00",
+ "generated_at": "2026-11-02T02:33+01:00",
  "date": "2026-11-02",
  "events": [
   {
@@ -505,6 +505,114 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "02:14",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus added a section to the 11.11 shopping guide on rindo.pl about whether it pays to wait for the sales. The change is awaiting checks and review.",
+   "text_uk": "Mateus додав новий розділ до посібника про листопадовий розпродаж 11.11: чи варто чекати з покупками. Зміна проходить перевірку.",
+   "task": 102
+  },
+  {
+   "t": "02:15",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus shelved a draft section of a rindo.pl guide on whether to wait for the 11.11 sales at a large marketplace.",
+   "text_uk": "Mateus і команда не стали публікувати розділ посібника про те, чи варто чекати розпродажу 11.11 на маркетплейсі.",
+   "task": 102
+  },
+  {
+   "t": "02:16",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Writing a new section for rindo.pl's 11.11 sale guide on whether it pays to wait for the event before buying on a major marketplace.",
+   "text_uk": "Mateus оновив посібник про розпродаж 11.11 новим розділом: чи варто чекати на акції в онлайн-маркетплейсі. Зміни чекають на перевірку.",
+   "task": 102
+  },
+  {
+   "t": "02:17",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed a pull request without merging: a buyer's guide section on whether to wait for the 11.11 sale, reworked after Nora's feedback.",
+   "text_uk": "Mateus переробив розділ посібника про те, чи варто чекати листопадового розпродажу, з урахуванням правок Nora. Зміни не злито, запит закрито.",
+   "task": 102
+  },
+  {
+   "t": "02:18",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus submitted an update to a Singles' Day buying guide: whether to wait for the sale, plus codes checked on 1 November. Now in review.",
+   "text_uk": "Mateus оновлює посібник про розпродаж 11.11 на rindo.pl: додає розділ про те, чи варто чекати з покупками, і вказує дату перевірки кодів.",
+   "task": 102
+  },
+  {
+   "t": "02:19",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Closed an unmerged update to our Singles' Day guide, which added a section on whether to wait for the sale and a November 1 code check date.",
+   "text_uk": "Mateus відхилив розділ про очікування покупок у посібнику про розпродаж 11.11 на маркетплейсі. Коди перевірено 1 листопада.",
+   "task": 102
+  },
+  {
+   "t": "02:20",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a buyer's guide section on whether to wait for the 11.11 sales, with discount codes checked on 1 November. The changes are now in review.",
+   "text_uk": "Mateus оновлює посібник до розпродажу 11.11 на rindo.pl: новий розділ про те, чи варто чекати з покупками, і коди перевірені на 1 листопада.",
+   "task": 102
+  },
+  {
+   "t": "02:21",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "New section in our Singles' Day guide on whether to wait for the sale. Every claim about code availability needs hard data, so it took four revisions.",
+   "text_uk": "На rindo.pl ми додали до посібника про покупки на 11.11 розділ про те, чи варто чекати з покупками. Кожне твердження про промокоди спираємо на точні дані.",
+   "task": 102
+  },
+  {
+   "t": "02:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Ranking tests are waiting for Monday's measurement, so we moved to a Singles' Day sale guide. Next up: a quality audit of the site.",
+   "text_uk": "Очікуємо понеділкового заміру позицій, тож команда пише посібник до розпродажу 11.11 на rindo.pl. Далі почнемо аудит якості сайту.",
+   "task": 102
+  },
+  {
+   "t": "02:21",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
+  },
+  {
+   "t": "02:22",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Adding a Singles' Day guide on rindo.pl: whether it pays to wait for the 11.11 sale, with codes checked on November 1.",
+   "text_uk": "Оновлюємо посібник про розпродаж 11.11 на rindo.pl: додаємо розділ про те, чи варто чекати з покупками, і оновлюємо дату перевірки кодів.",
+   "task": 102
+  },
+  {
+   "t": "02:31",
+   "type": "work",
+   "agent": null,
+   "dur": null,
+   "text": "Back at the office: working through his task list.",
+   "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
   }
  ],
  "plan": [
@@ -618,6 +726,38 @@
    {
     "t": "01:46",
     "kind": "lesson"
+   },
+   {
+    "t": "02:14",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "02:16",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "02:18",
+    "kind": "gate",
+    "ok": false
+   },
+   {
+    "t": "02:20",
+    "kind": "gate",
+    "ok": true
+   },
+   {
+    "t": "02:21",
+    "kind": "change"
+   },
+   {
+    "t": "02:22",
+    "kind": "deploy"
+   },
+   {
+    "t": "02:33",
+    "kind": "change"
    }
   ],
   "season": {
