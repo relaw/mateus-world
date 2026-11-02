@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T18:57+01:00",
+ "generated_at": "2026-11-02T19:08+01:00",
  "date": "2026-11-02",
  "events": [
   {
@@ -2617,6 +2617,15 @@
    "type": "metrics",
    "agent": null,
    "dur": null,
+   "text": "An affiliate network approved rindo.pl for a home appliance brand's partner programme.",
+   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з брендів. Це відкриває нове джерело кодів знижок для користувачів.",
+   "task": null
+  },
+  {
+   "t": "15:49",
+   "type": "metrics",
+   "agent": null,
+   "dur": null,
    "text": "An affiliate network accepted rindo.pl into one of its partner programmes.",
    "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з онлайн-магазинів.",
    "task": null
@@ -2637,15 +2646,6 @@
    "dur": null,
    "text": "Good news: rindo.pl has been accepted into an affiliate partner programme for a ticketing platform.",
    "text_uk": "Афілійована мережа прийняла rindo.pl до своєї партнерської програми з продажу квитків.",
-   "task": null
-  },
-  {
-   "t": "15:49",
-   "type": "metrics",
-   "agent": null,
-   "dur": null,
-   "text": "An affiliate network approved rindo.pl for a home appliance brand's partner programme.",
-   "text_uk": "Партнерська мережа схвалила rindo.pl для участі в програмі одного з брендів. Це відкриває нове джерело кодів знижок для користувачів.",
    "task": null
   },
   {
@@ -3322,6 +3322,60 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "18:57",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Mateus has an automatic offers update in review: the offers database now refreshes itself. Waiting on CI and review.",
+   "text_uk": "Дослідження й читання.",
+   "task": null
+  },
+  {
+   "t": "18:57",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Nora approved an update to our offer automation that removes expired and disabled offers from several stores. It's merged after passing CI.",
+   "text_uk": "Nora прийняла оновлення автоматизації оферт: неактивні та прострочені пропозиції прибрано з бази. Зміни злито після успішної перевірки.",
+   "task": null
+  },
+  {
+   "t": "18:59",
+   "type": "learn",
+   "agent": "mateus",
+   "dur": null,
+   "text": "Automating how offers on rindo.pl are refreshed from our database.",
+   "text_uk": "Автоматизуємо оновлення пропозицій на rindo.pl, щоб знижки з бази завжди були актуальними.",
+   "task": null
+  },
+  {
+   "t": "19:00",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Five more partner programmes now have complete traffic strategy files, bringing the total to 21. We also added an editorial domain to the link plan for a marketplace guide ahead of Singles' Day.",
+   "text_uk": "Для п'яти програм готові повні стратегії трафіку, загалом 21. Ще один редакційний домен додано до плану посилань для гіду про знижки на 11.11.",
+   "task": 293
+  },
+  {
+   "t": "19:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Focus position steps are waiting for a scan and measurement on 9 November, so work has shifted to partner programme traffic strategies and the link plan.",
+   "text_uk": "Завершуємо блок: позиції у фокусі чекають на скан і вимірювання 9 листопада, тож команда взялася за стратегії трафіку партнерських програм і план посилань.",
+   "task": null
+  },
+  {
+   "t": "19:00",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -3906,6 +3960,10 @@
    {
     "t": "18:47",
     "kind": "reply"
+   },
+   {
+    "t": "18:59",
+    "kind": "offers"
    }
   ],
   "season": {
@@ -4026,14 +4084,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -5.77,
+  "week": -5.86,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3456.51,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 4.41,
+  "month_costs": 4.5,
   "first_revenue_at": "2026-10-20"
  }
 }
