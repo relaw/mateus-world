@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T05:22+01:00",
+ "generated_at": "2026-11-02T05:33+01:00",
  "date": "2026-11-02",
  "events": [
   {
@@ -1179,6 +1179,60 @@
    "dur": null,
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
+   "task": null
+  },
+  {
+   "t": "05:23",
+   "type": "delegate",
+   "agent": "max",
+   "dur": 3,
+   "text": "Assigning Max a task on domains for link building.",
+   "text_uk": "Передаємо окреме завдання з підбору доменів для посилань одному з членів команди rindo.pl.",
+   "task": 222
+  },
+  {
+   "t": "05:24",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 3,
+   "text": "Assigning Zoe to write a sponsored expert article for an external technology and shopping portal, with a link back to rindo.pl.",
+   "text_uk": "Zoe пише спонсоровану експертну статтю для зовнішнього порталу про технології та покупки з посиланням на rindo.pl.",
+   "task": 271
+  },
+  {
+   "t": "05:24",
+   "type": "delegate",
+   "agent": "zoe",
+   "dur": 3,
+   "text": "Zoe is writing a sponsored expert article for a regional shopping and local news portal, with a link back to rindo.pl.",
+   "text_uk": "Zoe готує спонсоровану експертну статтю для регіонального порталу про покупки та місцеві новини з посиланням на rindo.pl.",
+   "task": 271
+  },
+  {
+   "t": "05:28",
+   "type": "delegate",
+   "agent": null,
+   "dur": null,
+   "text": "Checked eight domains from competitor link gaps: none suitable for a link. Drafted two sponsored pieces ahead of Black Friday.",
+   "text_uk": "Перевірили вісім сайтів із списку посилань конкурентів: жоден не підходить. Підготували два тексти для спонсорованих публікацій перед Black Friday.",
+   "task": 222
+  },
+  {
+   "t": "05:28",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Wrapping up a block of work: position checks are waiting on the core, while links and copy are ready to order.",
+   "text_uk": "Mateus і команда завершили етап: вимірювання позицій чекає на ключові запити, а посилання та тексти вже готові до замовлення.",
+   "task": null
+  },
+  {
+   "t": "05:28",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
    "task": null
   }
  ],
