@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T07:53+01:00",
+ "generated_at": "2026-11-02T08:04+01:00",
  "date": "2026-11-02",
  "events": [
   {
@@ -1567,6 +1567,33 @@
    "text": "Back at the office: working through his task list.",
    "text_uk": "Знову в офісі: працює над своїм списком завдань.",
    "task": null
+  },
+  {
+   "t": "07:55",
+   "type": "improve",
+   "agent": null,
+   "dur": null,
+   "text": "Three new partner stores received indexing requests and keyphrases for position tracking. We're waiting on one partner's reply about missing rules.",
+   "text_uk": "Команда Mateus підключає нових партнерів на rindo.pl: запитали індексацію та фрази для моніторингу позицій. Чекаємо відповіді менеджера щодо правил одного з них.",
+   "task": 283
+  },
+  {
+   "t": "07:55",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Waiting for Google to re-crawl our store pages after the 3 November update, and for the first external links to come in.",
+   "text_uk": "Команда чекає, поки пошукова система повторно просканує пріоритетні магазини, і перші зовнішні посилання для них.",
+   "task": null
+  },
+  {
+   "t": "07:55",
+   "type": "idle",
+   "agent": null,
+   "dur": null,
+   "text": "Done for now: between tasks until the next one comes in.",
+   "text_uk": "Поки що все: між завданнями, доки не надійде наступне.",
+   "task": null
   }
  ],
  "plan": [
@@ -1815,6 +1842,10 @@
    {
     "t": "05:43",
     "kind": "change"
+   },
+   {
+    "t": "07:54",
+    "kind": "reply"
    }
   ],
   "season": {
@@ -1935,14 +1966,14 @@
  "usd_pln": 3.9,
  "state": {
   "earned": 0.25,
-  "week": -4.81,
+  "week": -4.9,
   "api_budget": 100.0,
   "api_spent": 0.0,
   "capex": 3456.51,
   "repaid": 0.0,
   "domain_target": 56.77,
   "month_revenue": 0.02,
-  "month_costs": 3.43,
+  "month_costs": 3.52,
   "first_revenue_at": "2026-10-20"
  }
 }
